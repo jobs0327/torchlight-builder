@@ -1,0 +1,556 @@
+[
+  {
+    "url": "https://tlidb.com/cn/Vorax_Season_skills",
+    "title": "Vorax_Season_skills - 火炬编年史, Torchlight: Infinite Wiki",
+    "html": "\n    <div class=\"background-image\"></div>\n    <!-- Google tag (gtag.js) -->\n    <script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-P6KT6L9KX8\"></script>\n    <script>\n      window.dataLayer = window.dataLayer || [];\n      function gtag(){dataLayer.push(arguments);}\n      gtag('js', new Date());\n    \n      gtag('config', 'G-P6KT6L9KX8');\n    </script>\n\n    <nav class=\"navbar navbar-expand-lg navbar-dark\">\n      <div class=\"container\">\n        <a class=\"navbar-brand\" href=\"/cn/\">火炬编年史</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">英雄</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Hero\">英雄</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Talent\">天赋</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">仓库</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Inventory\">仓库</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Legendary_Gear\">传奇装备</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Ethereal_Prism\">异度棱镜</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_Synthetic_Synthetic\" href=\"/cn/Recipe\">Recipe</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Pactspirit\">契灵</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"function|name|116\" href=\"/cn/Black_Market\">Black Market</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Drop_Source\">掉落来源</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Destiny\">命运</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">技能</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Active_Skill\">主动技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Support_Skill\">辅助技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Passive_Skill\">被动技能</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_SkillBag_SkillType4\" href=\"/cn/Triggered_Skill\">Triggered Skill</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Activation_Medium_Skill\">触媒技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Noble_Support_Skill\">崇高辅助技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Magnificent_Support_Skill\">华贵辅助技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Tip\">提示</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Hyperlink\">Hyperlink</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">打造</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Craft\">打造</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"function|name|131\" href=\"/cn/Enchant\">Enchant</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Corrosion\">侵蚀</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Gear_Empowerment\">装备赋能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Dream_Talking\">梦语</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Blending_Rituals\">调香秘仪</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/TOWER_Sequence\">高塔序列</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Graft\">缝合</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">成就</a>\n              <ul class=\"dropdown-menu\">\n                <!--\n                <li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_Growth_Achievement_Title\" href=\"/cn/Path_of_Achievements\">Path of Achievements</a></li>\n                -->\n                <li><a class=\"dropdown-item\" href=\"/cn/Path_of_Progression\">成长之路</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"season|name1|101\" href=\"/cn/Dark_Surge_Season\">Dark Surge Season</a></li>-->\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_SeasonBook_Title\" href=\"/cn/Season_Pass\">Season Pass</a></li>-->\n                <!--\n                <li><a class=\"dropdown-item\" data-i18n=\"function|name|139\" href=\"/cn/Event\">Event</a></li>\n                -->\n                <li><hr class=\"dropdown-divider\"></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Help\">帮助手册</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Codex\">情报</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">异界</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Netherrealm\">异界</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_MysteryCard_PlayerDeck\" href=\"/cn/Trait_Decks\">Trait Decks</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Confusion_Card_Library\">混乱牌库</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Void_Chart\">虚空星图</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Compass\">罗盘</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Probe\">赛季罗盘</a></li>\n                <li><hr class=\"dropdown-divider\"></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Path_of_the_Brave\">勇者之路</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">商城</a>\n              <ul class=\"dropdown-menu\">\n    <!--\n                <li><a class=\"dropdown-item\" data-i18n=\"function|name|110\" href=\"/cn/Shop\">Shop</a></li>\n    -->\n                <li><a class=\"dropdown-item\" href=\"/cn/Outfit\">时装</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Commodity\">通货</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Boon\">恩赐</a></li>\n              </ul>\n            </li>\n    \n    <!--\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" data-i18n=\"Guide\" href=\"/cn/guides?season=The%20Frozen%20Canvas%20Season\">Guide</a>\n            </li>\n    -->\n    \n          </ul>\n    \n          <!--\n          <a class=\"nav-link2\" style=\"padding-right: 10px\" href=\"https://lihi1.com/cAO3Z\" target=\"_blank\">\n            <img style=\"height: 24px\" \n                src=\"https://cdn.tlidb.com/image/logo/torchlight-48.webp\"\n            />\n          </a>\n    \n          <a class=\"nav-link2\" style=\"padding-right: 10px\"\n            href=\"https://lihi1.com/l1NmL\"\n            target=\"_blank\">\n            <img style=\"height: 24px\" src=\"https://cdn.tlidb.com/image/logo/facebook-48.webp\"/>\n          </a>\n    \n          <a class=\"nav-link2\" style=\"padding-right: 10px\"\n            href=\"https://lihi1.com/neCTK\"\n            target=\"_blank\">\n            <img style=\"height: 24px\" src=\"https://cdn.tlidb.com/image/logo/youtube-48.webp\"/>\n          </a>\n    \n          <a class=\"nav-link2\" style=\"padding-right: 10px\" href=\"https://lihi1.com/owKrQ\" target=\"_blank\">\n            <img style=\"height: 24px\" src=\"https://cdn.tlidb.com/image/logo/discord-48.webp\"/>\n          </a>\n          -->\n    \n          <ul class=\"navbar-nav\">\n            <li class=\"nav-item dropdown\">\n              <a href=\"#\" class=\"nav-link dropdown-toggle\" role=\"button\" data-bs-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"> <i class=\"fas fa-language fa-lg\"></i></a>\n              <ul class=\"dropdown-menu language-menu\">\n                <li><a class=\"dropdown-item\" href=\"/en/Vorax_Season_skills\">EN English</a></li>\n                <li><a class=\"dropdown-item\" href=\"/tw/Vorax_Season_skills\">TW 繁體中文</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Vorax_Season_skills\">CN 简体中文</a></li>\n                <li><a class=\"dropdown-item\" href=\"/ko/Vorax_Season_skills\">KO 한국어</a></li>\n                <li><a class=\"dropdown-item\" href=\"/ja/Vorax_Season_skills\">JA Japanese</a></li>\n                <li><a class=\"dropdown-item\" href=\"/ru/Vorax_Season_skills\">RU Русский</a></li>\n                <!--\n                <li><a class='dropdown-item' href='/de/'>DE Deutsch</a></li>\n                <li><a class='dropdown-item' href='/es/'>ES Spanish</a></li>\n                <li><a class='dropdown-item' href='/fr/'>FR Français</a></li>\n                <li><a class='dropdown-item' href='/id/'>ID bahasa Indonesia</a></li>\n                <li><a class='dropdown-item' href='/pt/'>PT Português</a></li>\n                <li><a class='dropdown-item' href='/th/'>TH ภาษาไทย</a></li>\n                <li><a class='dropdown-item' href='/vi/'>VI Tiếng Việt</a></li>\n                -->\n              </ul>\n            </li>\n          </ul>\n    \n          <form class=\"d-flex\" role=\"search\" action=\"search\">\n            <input class=\"form-control me-2 ui-autocomplete-input\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\" id=\"navautosearch\" name=\"q\" autocomplete=\"off\">\n          </form>\n    \n        </div>\n      </div>\n    </nav>\n\n    <script> sidebar160(\"leftside_banner\", \"left\"); </script>\n    <script> sidebar160(\"rightside_banner\", \"right\"); </script>\n\n    <div class=\"page\">\n    <div class=\"page-content container\" role=\"main\">\n    <div class=\"text-center\">\n    <a href=\"Vorax_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S13_LegendStitching_03.webp\" class=\"size48\"></a>\n    <a href=\"Overrealm_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S12_LengJing_White01.webp\" class=\"size48\"></a>\n    <a href=\"Outlaw_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S11ChipMatching0_Icon.webp\" class=\"size48\"></a>\n    <a href=\"Sandlord_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/UI_Money_S10EquipEnchantMaterial_10_128.webp\" class=\"size48\"></a>\n    <a href=\"Arcana_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S9Pet_FateStar_128.webp\" class=\"size48\"></a>\n    <a href=\"The_Frozen_Canvas_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S8Gameplay_Snow2_128.webp\" class=\"size48\"></a>\n    <a href=\"Clockwork_Ballet_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_MysticTreeRespecPoint_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Whispering_Mist_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S6Gameplay_Tile_bench.webp\" class=\"size48\"></a>\n    <a href=\"Nightmare_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S5Gameplay_DreamTreasure_Almighty_C_128.webp\" class=\"size48\"></a>\n    <a href=\"Aeterna_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/S4/UI_S4Gameplay_talent01_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Cube_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S3Gameplay_Beads_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Blacksail_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S2BossTicket3_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Dark_Surge_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_Item_yimozhihe_Icon_128.webp\" class=\"size48\"></a>\n    </div>\n    <div class=\"text-center mb-2\"><a href=\"https://l.taptap.cn/SyBkGgT1?channel=rep-rep_voftpwn7cks\" target=\"_blank\"><img src=\"https://cdn.tlidb.com/image/torchlight/p3_20251226_cn.webp\" style=\"max-width: 100%;\"></a></div>\n    <div class=\"card mb-2 \">\n    <div class=\"card-header\">技能界面 /17 </div>\n    <div class=\"collapse show\">\n    \n    \n    <script>\n$(document).ready(function () {\n    filterClick($('[name=filter]'));\n});\n</script>\n\n<form><div class=\"input-group my-2\">\n    <button class=\"btn btn-outline-secondary\" type=\"reset\">Reset</button>\n    <input name=\"filter\" class=\"form-control\" placeholder=\"Search\">\n</div></form><div class=\"row row-cols-1 row-cols-lg-3 g-2\"><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_WindSlash_Starter1_Icon_128.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F7225\" href=\"Gale_Slash\">疾风裂地斩</a><div></div><div></div><div class=\"explicitMod\">连携起手1：向前冲锋，对经过的敌人造成 <span class=\"text-mod\">392%</span> 武器攻击伤害。</div><div class=\"explicitMod\">连携起手2：向前旋转攻击，造成 <span class=\"text-mod\">392%</span> 武器攻击伤害。</div><div class=\"explicitMod\">连携终结：跃起并猛击前方地面，造成 <span class=\"text-mod\">392%</span> 武器攻击伤害。</div><div class=\"explicitMod\">连携起手1：<br>造成 <span class=\"text-mod\">392%</span> 武器攻击伤害<br>向前冲刺 3.5 米，如果敌人过远，则改为冲刺 6 米<br>该技能的连携起手技1额外 <span class=\"text-mod\">+20</span>% 攻击速度</div><div class=\"explicitMod\">连携起手2：<br>造成 <span class=\"text-mod\">392%</span> 武器攻击伤害<br>向前位移 2.5 米<br>该技能的起手技2击中时，将敌人向技能释放方向击退</div><div class=\"explicitMod\">连携终结：<br>造成 <span class=\"text-mod\">392%</span> 武器攻击伤害<br>向前跳跃 4 米<br>该技能的连携终结技额外 <span class=\"text-mod\">-50</span>% 攻击速度</div><div class=\"explicitMod\">该技能 <span class=\"text-mod\">+30</span>% 连携终结技增幅<br>该技能对攻击速度的加成有衰减，衰减值等同于一般位移技能<br>每 <span class=\"text-mod\">+1</span>% 攻击速度，该技能额外 <span class=\"text-mod\">0.2</span>% 伤害</div><div class=\"explicitMod\">释放该技能的起手技后，每 <span class=\"text-mod\">1</span> 起手技获得的连携点，获得 1 层<e id=\"391\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;惊风&lt;/div&gt;&lt;div&gt;每层惊风使该技能额外 +1.5% 暴击值。最多叠加 20 层，持续 3 秒&lt;/div&gt;&lt;/div&gt;\">惊风</e><br>当前每有 1 点连携点，该技能的起手技 <span class=\"text-mod\">+5</span>% 位移距离，上限 <span class=\"text-mod\">4</span> 层<br>该技能无法被触发<br>该技能无法被触媒技能辅助</div><div class=\"explicitMod\">该技能的连携起手技1额外 <span class=\"text-mod\">+20</span>% 攻击速度<br>该技能的连携终结技额外 <span class=\"text-mod\">-50</span>% 攻击速度<br>释放该技能的起手技后，每 <span class=\"text-mod\">1</span> 起手技获得的连携点，获得 1 层<e id=\"391\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;惊风&lt;/div&gt;&lt;div&gt;每层惊风使该技能额外 +1.5% 暴击值。最多叠加 20 层，持续 3 秒&lt;/div&gt;&lt;/div&gt;\">惊风</e><br>当前每有 1 点连携点，该技能的起手技 <span class=\"text-mod\">+5</span>% 位移距离，上限 <span class=\"text-mod\">4</span> 层<br>该技能 <span class=\"text-mod\">+30</span>% 连携终结技增幅<br>每层增益使该技能的额外 <span class=\"text-mod\">1.5</span>% 暴击值<br>该技能无法被触发<br>每 <span class=\"text-mod\">+1</span>% 攻击速度，该技能额外 <span class=\"text-mod\">0.2</span>% 伤害</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_PhantomSlash_Starter1_Icon_128.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F7226\" href=\"Spectral_Slash\">分身灵爆斩</a><div></div><div></div><div class=\"explicitMod\">连携起手1：向前斩击，对命中的首个敌人造成 <span class=\"text-mod\">448%</span> 武器攻击伤害，并施加<e id=\"392\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;印记&lt;/div&gt;&lt;div&gt;额外 +30% 受到的该技能伤害，持续 5 秒&lt;/div&gt;&lt;/div&gt;\">印记</e>。</div><div class=\"explicitMod\">连携起手2：向前斩击，造成 <span class=\"text-mod\">448%</span> 武器攻击伤害，并扩散敌人身上的<e id=\"392\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;印记&lt;/div&gt;&lt;div&gt;额外 +30% 受到的该技能伤害，持续 5 秒&lt;/div&gt;&lt;/div&gt;\">印记</e>。</div><div class=\"explicitMod\">连携终结：猛击前方地面，造成 <span class=\"text-mod\">145%</span> 武器攻击伤害，并生成数个分身跳跃斩击拥有<e id=\"392\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;印记&lt;/div&gt;&lt;div&gt;额外 +30% 受到的该技能伤害，持续 5 秒&lt;/div&gt;&lt;/div&gt;\">印记</e>的敌人，造成 <span class=\"text-mod\">145%</span> 武器攻击伤害。</div><div class=\"explicitMod\">连携起手1：<br>造成 <span class=\"text-mod\">448%</span> 武器攻击伤害<br>该技能仅能击中 1 个敌人<br>该技能击中时，对敌人施加<e id=\"392\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;印记&lt;/div&gt;&lt;div&gt;额外 +30% 受到的该技能伤害，持续 5 秒&lt;/div&gt;&lt;/div&gt;\">印记</e><br>该技能击败敌人时，直接扩散敌人的<e id=\"392\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;印记&lt;/div&gt;&lt;div&gt;额外 +30% 受到的该技能伤害，持续 5 秒&lt;/div&gt;&lt;/div&gt;\">印记</e>状态至 <span class=\"text-mod\">8</span> 米内的其他敌人</div><div class=\"explicitMod\">连携起手2：<br>造成 <span class=\"text-mod\">448%</span> 武器攻击伤害<br>该技能击中时，扩散敌人的<e id=\"392\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;印记&lt;/div&gt;&lt;div&gt;额外 +30% 受到的该技能伤害，持续 5 秒&lt;/div&gt;&lt;/div&gt;\">印记</e>状态至 <span class=\"text-mod\">8</span> 米内的其他敌人（受技能范围属性影响）</div><div class=\"explicitMod\">连携终结：<br>造成 <span class=\"text-mod\">145%</span> 武器攻击伤害<br>每消耗 1 点连携点，额外生成一个分身，上限 4 个<br>分身的<e id=\"642\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;霰弹效应&lt;/div&gt;&lt;div&gt;单次技能产生的多个效果可以击中同一个敌人，首次击中的技能效果造成的伤害为100%，后续击中的技能效果造成的伤害额外降低。该效果也会影响技能造成的异常伤害。&lt;br/&gt;大部分技能的后续击中伤害为 36% &lt;br/&gt;特殊技能的霰弹效应标注在技能石描述上&lt;/div&gt;&lt;/div&gt;\">霰弹效应</e>衰减系数为 70%<br>技能结束后移除敌人的<e id=\"392\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;印记&lt;/div&gt;&lt;div&gt;额外 +30% 受到的该技能伤害，持续 5 秒&lt;/div&gt;&lt;/div&gt;\">印记</e></div><div class=\"explicitMod\">该技能的连携终结技额外 <span class=\"text-mod\">-40</span>% 攻击速度<br>该技能 <span class=\"text-mod\">+30</span>% 连携终结技增幅</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Revenge_Icon_128.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F7227\" href=\"Vendetta\">寻仇</a><div></div><div></div><div class=\"explicitMod\">传送至 9 米内的随机敌人身边，随后触发 1 次核心技能，被其触发的技能额外 +40% 攻击伤害。<br>该技能无法被触媒技能辅助。<br>仅限装备非引导、非位移、核心近战攻击技能时使用。</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ComboBattleCry_Icon_128.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F7228\" href=\"Shockwave_Warcry\">破势战吼</a><div></div><div></div><div class=\"explicitMod\">释放该技能发出战吼，嘲讽<e id=\"102\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;周围&lt;/div&gt;&lt;div&gt;6米内&lt;/div&gt;&lt;/div&gt;\">周围</e>敌人。该技能每影响一个敌人，连携终结技额外 <span class=\"text-mod\">3.1%</span> 伤害和异常伤害，持续 <span class=\"text-mod\">3</span> 秒。<br>战吼持续时，每释放一次连携终结技，连携技能 <span class=\"text-mod\">6%</span> 技能范围，上限 5 层。</div><div class=\"explicitMod\">释放该技能发出战吼：<br>嘲讽<e id=\"102\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;周围&lt;/div&gt;&lt;div&gt;6米内&lt;/div&gt;&lt;/div&gt;\">周围</e>敌人<br>每影响<e id=\"142\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;一个敌人&lt;/div&gt;&lt;div&gt;普通和魔法怪物算作1个&lt;br/&gt;稀有怪物算作2个&lt;br/&gt;首领算作5个&lt;/div&gt;&lt;/div&gt;\">一个敌人</e>，连携终结技额外 <span class=\"text-mod\">5.95</span>% 伤害和异常伤害，上限 <span class=\"text-mod\">8</span> 层<br>技能持续时，每释放一次连携终结技，连携技能 <span class=\"text-mod\">+6</span>% 技能范围，上限 <span class=\"text-mod\">5</span> 层<br>持续 <span class=\"text-mod\">3</span> 秒</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_EndlessRevenge_Icon_128.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F7229\" href=\"Endless_Vendetta\">无尽寻仇</a><div></div><div></div><div class=\"explicitMod\">以半径 12 米内的随机敌人为目标重复释放<e id=\"80039\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;寻仇&lt;/div&gt;&lt;div&gt;传送至 9 米内的随机敌人身边，随后触发 1 次核心技能，被其触发的技能额外 +40% 攻击伤害，冷却 3 秒&lt;/div&gt;&lt;/div&gt;\">寻仇</e>；初始额外 -30% 攻击速度，每重复释放一次<e id=\"80039\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;寻仇&lt;/div&gt;&lt;div&gt;传送至 9 米内的随机敌人身边，随后触发 1 次核心技能，被其触发的技能额外 +40% 攻击伤害，冷却 3 秒&lt;/div&gt;&lt;/div&gt;\">寻仇</e>，额外 +5% 攻击速度，最多重复释放 30 次。<br>该技能无法被触媒技能辅助。<br>技能释放期间再次点击该技能可以立即中断释放。</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_AilmentEnhance_Icon_128.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F7230\" href=\"Ailment_Amplification\">异常增幅</a><div></div><div></div><div class=\"explicitMod\">激活光环，自身和一定范围内的所有友军获得增益：<br>额外 <span class=\"text-mod\">14%</span> 异常伤害，<span class=\"text-mod\">10%</span> 几率造成<e id=\"503\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;异常状态&lt;/div&gt;&lt;div&gt;包括创伤、点燃、冰结、冰封、麻痹、凋零&lt;/div&gt;&lt;/div&gt;\">异常状态</e>，<span class=\"text-mod\">10%</span> <e id=\"503\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;异常状态&lt;/div&gt;&lt;div&gt;包括创伤、点燃、冰结、冰封、麻痹、凋零&lt;/div&gt;&lt;/div&gt;\">异常状态</e>持续时间。</div><div class=\"explicitMod\">激活光环，自身和一定范围内的所有友军获得增益：<br>额外 <span class=\"text-mod\">23.5</span>% 异常伤害<br><span class=\"text-mod\">+10</span>% 几率造成<e id=\"511\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;伤害型异常状态&lt;/div&gt;&lt;div&gt;包括创伤、点燃、凋零&lt;/div&gt;&lt;/div&gt;\">伤害型异常状态</e><br><span class=\"text-mod\">+10</span>% <e id=\"503\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;异常状态&lt;/div&gt;&lt;div&gt;包括创伤、点燃、冰结、冰封、麻痹、凋零&lt;/div&gt;&lt;/div&gt;\">异常状态</e>持续时间</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Entanglement_Icon_128.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F7622\" href=\"Spell_Tangle\">法术纠缠</a><div></div><div></div><div class=\"explicitMod\">辅助主动法术技能。<br>无法辅助引导技能、哨卫技能和召唤召唤物的技能。<br>该技能只能安装在每个主动技能的第 1 个辅助技能栏位。<br>被辅助技能以法术<e id=\"767\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;纠缠&lt;/div&gt;&lt;div&gt;由玩家生成，可以附着在敌人身上周期性触发指定的法术技能&lt;/div&gt;&lt;/div&gt;\">纠缠</e>的形式释放<br>被辅助技能额外 <span class=\"text-mod\">15.5</span>% 伤害 <small class=\"description\">(Lv1:31/2) (Lv21:51/2) (Lv41:71/2)</small></div><div class=\"explicitMod\">被辅助技能以法术<e id=\"767\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;纠缠&lt;/div&gt;&lt;div&gt;由玩家生成，可以附着在敌人身上周期性触发指定的法术技能&lt;/div&gt;&lt;/div&gt;\">纠缠</e>的形式释放<br>被辅助技能额外 <span class=\"text-mod\">15.5</span>% 伤害 <small class=\"description\">(Lv1:31/2) (Lv21:51/2) (Lv41:71/2)</small></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_MultiEntanglement_Icon_128.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F7623\" href=\"Manifold_Entanglement\">多重纠缠</a><div></div><div></div><div class=\"explicitMod\">辅助主动法术技能。<br>无法辅助引导技能、哨卫技能和召唤召唤物的技能。<br>使用被辅助技能时，创建等同于<e id=\"767\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;纠缠&lt;/div&gt;&lt;div&gt;由玩家生成，可以附着在敌人身上周期性触发指定的法术技能&lt;/div&gt;&lt;/div&gt;\">纠缠</e>数量上限的<e id=\"767\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;纠缠&lt;/div&gt;&lt;div&gt;由玩家生成，可以附着在敌人身上周期性触发指定的法术技能&lt;/div&gt;&lt;/div&gt;\">纠缠</e><br>被辅助技能额外 <span class=\"text-mod\">+1</span>% 伤害 <small class=\"description\">(Lv1:1) (Lv21:21) (Lv41:31)</small></div><div class=\"explicitMod\">使用被辅助技能时，创建等同于<e id=\"767\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;纠缠&lt;/div&gt;&lt;div&gt;由玩家生成，可以附着在敌人身上周期性触发指定的法术技能&lt;/div&gt;&lt;/div&gt;\">纠缠</e>数量上限的<e id=\"767\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;纠缠&lt;/div&gt;&lt;div&gt;由玩家生成，可以附着在敌人身上周期性触发指定的法术技能&lt;/div&gt;&lt;/div&gt;\">纠缠</e><br>被辅助技能额外 <span class=\"text-mod\">+1</span>% 伤害 <small class=\"description\">(Lv1:1) (Lv21:21) (Lv41:31)</small></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FlameSerpent_support01_Icon_128.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F7974\" href=\"Serpent_Beam%3A_Barrage_%28Magnificent%29\">流焰炎蛇引：火线（华贵）</a><div></div><div></div><div class=\"explicitMod\">辅助流焰炎蛇引技能。<br>该技能只能安装在每个主动技能的第 3 个辅助技能栏位。<br>被辅助技能额外 <span class=\"text-mod\">+20</span>% 伤害</div><div class=\"explicitMod\"><span class=\"tier tier1\"></span>每 <span class=\"text-mod\">+1</span> 射线条数，被辅助技能的连携终结技 <span class=\"text-mod\">+(39.0–40.0)</span>% 几率额外发射一条射线（超过 100% 时，必定发射多条射线）</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_WindSlash_support01_Icon_128.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F7978\" href=\"Gale_Slash%3A_Onslaught_%28Magnificent%29\">疾风裂地斩：突进（华贵）</a><div></div><div></div><div class=\"explicitMod\">辅助疾风裂地斩技能。<br>该技能只能安装在每个主动技能的第 3 个辅助技能栏位。<br>被辅助技能额外 <span class=\"text-mod\">+20</span>% 伤害</div><div class=\"explicitMod\"><span class=\"tier tier1\"></span>最近每移动 <span class=\"text-mod\">5</span> 米，被辅助技能额外 <span class=\"text-mod\">+(7.5–7.8)</span>% 伤害（叠乘），上限 <span class=\"text-mod\">5</span> 层</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_WindSlash_support02_Icon_128.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F7979\" href=\"Gale_Slash%3A_Dominance_%28Magnificent%29\">疾风裂地斩：强横（华贵）</a><div></div><div></div><div class=\"explicitMod\">辅助疾风裂地斩技能。<br>该技能只能安装在每个主动技能的第 3 个辅助技能栏位。<br>被辅助技能额外 <span class=\"text-mod\">+20</span>% 伤害<br>被辅助技能的连携起手技暴击时，获得 <span class=\"text-mod\">2</span> 点连携点；每次技能仅能触发 1 次该效果</div><div class=\"explicitMod\">被辅助技能的连携起手技暴击时，获得 <span class=\"text-mod\">2</span> 点连携点；每次技能仅能触发 1 次该效果</div><div class=\"explicitMod\"><span class=\"tier tier1\"></span>被辅助技能额外 <span class=\"text-mod\">+(22–24)</span>% 伤害</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_WindSlash_support03_Icon_128.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F7980\" href=\"Gale_Slash%3A_Soaring_%28Noble%29\">疾风裂地斩：腾跃（崇高）</a><div></div><div></div><div class=\"explicitMod\">辅助疾风裂地斩技能。<br>该技能只能安装在每个主动技能的第 5 个辅助技能栏位。<br>被辅助技能额外 <span class=\"text-mod\">+20</span>% 伤害<br>被辅助技能额外 <span class=\"text-mod\">-10</span>% 攻击速度<br>被辅助技能的连携起手技2移动距离提高至 <span class=\"text-mod\">3.5</span> 米<br>被辅助技能的连携终结技的最大跳跃距离提高至 <span class=\"text-mod\">7</span> 米<br>被辅助技能的连携终结技现在会在短暂延迟后再造成一次伤害</div><div class=\"explicitMod\">被辅助技能额外 <span class=\"text-mod\">-10</span>% 攻击速度<br>被辅助技能的连携起手技2移动距离提高至 <span class=\"text-mod\">3.5</span> 米<br>被辅助技能的连携终结技的最大跳跃距离提高至 <span class=\"text-mod\">7</span> 米<br>被辅助技能的连携终结技现在会在短暂延迟后再造成一次伤害</div><div class=\"explicitMod\"><span class=\"tier tier1\"></span>被辅助技能额外 <span class=\"text-mod\">(-15.0–-14.0)</span>% 伤害</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_WindSlash_support04_Icon_128.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F7981\" href=\"Gale_Slash%3A_Brutality_%28Noble%29\">疾风裂地斩：凶暴（崇高）</a><div></div><div></div><div class=\"explicitMod\">辅助疾风裂地斩技能。<br>该技能只能安装在每个主动技能的第 5 个辅助技能栏位。<br>被辅助技能额外 <span class=\"text-mod\">+20</span>% 伤害<br>释放被辅助技能的连携起手技1后，获得 <span class=\"text-mod\">3</span> 点连携点，冷却 <span class=\"text-mod\">4</span> 秒</div><div class=\"explicitMod\">释放被辅助技能的连携起手技1后，获得 <span class=\"text-mod\">3</span> 点连携点，冷却 <span class=\"text-mod\">4</span> 秒</div><div class=\"explicitMod\"><span class=\"tier tier1\"></span>每消耗 1 点连携点，被辅助技能的连携终结技额外 <span class=\"text-mod\">+(7.7–8.0)</span>% 暴击伤害，上限 <span class=\"text-mod\">12</span> 层</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_PhantomSlash_support01_Icon_128.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F7982\" href=\"Spectral_Slash%3A_Detonation_%28Magnificent%29\">分身灵爆斩：引爆（华贵）</a><div></div><div></div><div class=\"explicitMod\">辅助分身灵爆斩技能。<br>该技能只能安装在每个主动技能的第 3 个辅助技能栏位。<br>被辅助技能额外 <span class=\"text-mod\">+20</span>% 伤害<br>被辅助技能的分身击败敌人时，有 <span class=\"text-mod\">50</span>% 几率产生一次爆炸，造成 <span class=\"text-mod\">80</span>% 的击中伤害</div><div class=\"explicitMod\">被辅助技能的分身击败敌人时，有 <span class=\"text-mod\">50</span>% 几率产生一次爆炸，造成 <span class=\"text-mod\">80</span>% 的击中伤害</div><div class=\"explicitMod\"><span class=\"tier tier1\"></span>被辅助技能额外 <span class=\"text-mod\">+(22–24)</span>% 伤害</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_PhantomSlash_support02_Icon_128.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F7983\" href=\"Spectral_Slash%3A_Legion_%28Noble%29\">分身灵爆斩：群英（崇高）</a><div></div><div></div><div class=\"explicitMod\">辅助分身灵爆斩技能。<br>该技能只能安装在每个主动技能的第 5 个辅助技能栏位。<br>被辅助技能额外 <span class=\"text-mod\">+20</span>% 伤害<br><span class=\"text-mod\">15</span> 米内每有<e id=\"142\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;一个敌人&lt;/div&gt;&lt;div&gt;普通和魔法怪物算作1个&lt;br/&gt;稀有怪物算作2个&lt;br/&gt;首领算作5个&lt;/div&gt;&lt;/div&gt;\">一个敌人</e>，被辅助技能的连携终结技额外生成 1 个分身，至多额外生成 <span class=\"text-mod\">5</span> 个</div><div class=\"explicitMod\"><span class=\"text-mod\">15</span> 米内每有<e id=\"142\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;一个敌人&lt;/div&gt;&lt;div&gt;普通和魔法怪物算作1个&lt;br/&gt;稀有怪物算作2个&lt;br/&gt;首领算作5个&lt;/div&gt;&lt;/div&gt;\">一个敌人</e>，被辅助技能的连携终结技额外生成 1 个分身，至多额外生成 <span class=\"text-mod\">5</span> 个</div><div class=\"explicitMod\"><span class=\"tier tier1\"></span>被辅助技能额外 <span class=\"text-mod\">+(10–12)</span>% 伤害</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_CMEntanglement_Icon_128.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F8030\" href=\"Activation_Medium%3A_Tangle\">触媒：纠缠</a><div></div><div></div><div class=\"explicitMod\">辅助主动法术技能。<br>无法辅助引导技能、哨卫技能和召唤召唤物的技能。<br>该技能只能安装在每个主动技能的第 1 个辅助技能栏位。<br>被辅助技能以法术<e id=\"767\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;纠缠&lt;/div&gt;&lt;div&gt;由玩家生成，可以附着在敌人身上周期性触发指定的法术技能&lt;/div&gt;&lt;/div&gt;\">纠缠</e>的形式释放</div><div class=\"explicitMod\">被辅助技能以法术<e id=\"767\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;纠缠&lt;/div&gt;&lt;div&gt;由玩家生成，可以附着在敌人身上周期性触发指定的法术技能&lt;/div&gt;&lt;/div&gt;\">纠缠</e>的形式释放</div><div class=\"explicitMod\"><span class=\"tier tier1\"></span>被辅助技能额外 <span class=\"text-mod\">+(11–15)</span>% 伤害</div><div class=\"explicitMod\"><span class=\"tier tier1\"></span><span class=\"text-mod\">20</span> 米内的<e id=\"767\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;纠缠&lt;/div&gt;&lt;div&gt;由玩家生成，可以附着在敌人身上周期性触发指定的法术技能&lt;/div&gt;&lt;/div&gt;\">纠缠</e>数量未达到上限时，触发被辅助技能，并以<e id=\"767\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;纠缠&lt;/div&gt;&lt;div&gt;由玩家生成，可以附着在敌人身上周期性触发指定的法术技能&lt;/div&gt;&lt;/div&gt;\">纠缠</e>形式创建，间隔 <span class=\"text-mod\">0.4</span> 秒</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_AilmentEnhanceSpecial_Icon_128.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F8331\" href=\"Precise%3A_Ailment_Amplification\">精密 异常增幅</a><div></div><div></div><div class=\"explicitMod\">激活光环，自身和一定范围内的所有友军获得增益：<br>额外 <span class=\"text-mod\">15.5%</span> 异常伤害，<span class=\"text-mod\">17%</span> 几率造成<e id=\"503\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;异常状态&lt;/div&gt;&lt;div&gt;包括创伤、点燃、冰结、冰封、麻痹、凋零&lt;/div&gt;&lt;/div&gt;\">异常状态</e>，<span class=\"text-mod\">10%</span> <e id=\"503\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;异常状态&lt;/div&gt;&lt;div&gt;包括创伤、点燃、冰结、冰封、麻痹、凋零&lt;/div&gt;&lt;/div&gt;\">异常状态</e>持续时间。</div><div class=\"explicitMod\">激活光环，自身和一定范围内的所有友军获得增益：<br>额外 <span class=\"text-mod\">+25</span>% 异常伤害<br><span class=\"text-mod\">+17</span>% 几率造成<e id=\"511\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;伤害型异常状态&lt;/div&gt;&lt;div&gt;包括创伤、点燃、凋零&lt;/div&gt;&lt;/div&gt;\">伤害型异常状态</e><br><span class=\"text-mod\">+10</span>% <e id=\"503\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;异常状态&lt;/div&gt;&lt;div&gt;包括创伤、点燃、冰结、冰封、麻痹、凋零&lt;/div&gt;&lt;/div&gt;\">异常状态</e>持续时间</div></div></div></div></div>\n    \n    </div>\n</div>\n    </div>\n    </div>\n\n    <footer class=\"text-center text-lg-left container mt-2\">\n      <div class=\"card p-4\">\n        <div class=\"row\">\n\n          <div class=\"col-lg-3 col-md-12 mb-4 mb-md-0\">\n            <h5 class=\"text-uppercase\">Sites</h5>\n            <ul class=\"list-unstyled mb-0\">\n              <li> <a target=\"_blank\" href=\"https://poedb.tw/\">poedb.tw</a> </li>\n              <li> <a target=\"_blank\" href=\"https://tlidb.com/\">tlidb.com</a> </li>\n              <!--<li> <a target=\"_blank\" href=\"https://diablo4.cc/\">diablo4.cc</a> </li>-->\n              <li> <a target=\"_blank\" href=\"https://poe2db.tw/\">poe2db.tw</a> </li>\n              <li> <a target=\"_blank\" href=\"https://paldb.cc/\">paldb.cc</a> </li>\n            </ul>\n          </div>\n\n          <div class=\"col-lg-3 col-md-12 mb-4 mb-md-0\">\n            <h5 class=\"text-uppercase\">About Site</h5>\n            <ul class=\"list-unstyled mb-0\">\n              <li><a href=\"privacy\">Privacy</a></li>\n              <li> <a target=\"_blank\" href=\"https://www.reddit.com/user/chuanhsing\">About US</a> </li>\n            </ul>\n          </div>\n\n          <div class=\"col-lg-3 col-md-6 mb-4 mb-md-0\">\n            <h5 class=\"text-uppercase\">Community</h5>\n            <ul class=\"list-unstyled mb-0\">\n            </ul>\n          </div>\n\n        </div>\n      </div>\n      <div class=\"p-3\">\n\n      <span>资料库内容为测试资料，正确资讯请以官方游戏内的内容为准。</span>\n      </div>\n    </footer>\n\n    <a href=\"#top\" id=\"toTop\"><span class=\"fas fa-arrow-circle-up fa-3x\"></span></a>\n    <div id=\"consent-box\" style=\"display:none\">\n      <button onclick=\"window.__cmp('showModal');\">\n        Update cookie preferences\n      </button>\n    </div>\n    \n    <script>\n      if (window[\"nitroAds\"] && window[\"nitroAds\"].loaded) {\n        document.getElementById(\"consent-box\").style.display = window[\"__tcfapi\"]\n          ? \"\"\n          : \"none\";\n      } else {\n        document.addEventListener(\n          \"nitroAds.loaded\",\n          () =>\n            (document.getElementById(\"consent-box\").style.display = window[\"__tcfapi\"]\n              ? \"\"\n              : \"none\")\n        );\n      }\n    </script>\n  <script defer=\"\" src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon=\"{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;83af079277c347f9ba9fc040e0d21cb5&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}\" crossorigin=\"anonymous\"></script>\n\n\n<ul id=\"ui-id-1\" tabindex=\"0\" class=\"ui-menu ui-widget ui-widget-content ui-autocomplete ui-front\" unselectable=\"on\" style=\"display: none;\"></ul><div role=\"status\" aria-live=\"assertive\" aria-relevant=\"additions\" class=\"ui-helper-hidden-accessible\"></div><iframe marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" id=\"143a308026972d\" width=\"0\" height=\"0\" src=\"about:blank\" name=\"__pb_locator__\" style=\"display: none; height: 0px; width: 0px; border: 0px;\"></iframe><iframe name=\"__uspapiLocator\" style=\"display: none;\"></iframe>",
+    "content": "火炬编年史\n英雄\n仓库\n技能\n打造\n成就\n异界\n商城\n            \n技能界面 /17\nReset\n疾风裂地斩\n连携起手1：向前冲锋，对经过的敌人造成 392% 武器攻击伤害。\n连携起手2：向前旋转攻击，造成 392% 武器攻击伤害。\n连携终结：跃起并猛击前方地面，造成 392% 武器攻击伤害。\n连携起手1：\n造成 392% 武器攻击伤害\n向前冲刺 3.5 米，如果敌人过远，则改为冲刺 6 米\n该技能的连携起手技1额外 +20% 攻击速度\n连携起手2：\n造成 392% 武器攻击伤害\n向前位移 2.5 米\n该技能的起手技2击中时，将敌人向技能释放方向击退\n连携终结：\n造成 392% 武器攻击伤害\n向前跳跃 4 米\n该技能的连携终结技额外 -50% 攻击速度\n该技能 +30% 连携终结技增幅\n该技能对攻击速度的加成有衰减，衰减值等同于一般位移技能\n每 +1% 攻击速度，该技能额外 0.2% 伤害\n释放该技能的起手技后，每 1 起手技获得的连携点，获得 1 层惊风\n当前每有 1 点连携点，该技能的起手技 +5% 位移距离，上限 4 层\n该技能无法被触发\n该技能无法被触媒技能辅助\n该技能的连携起手技1额外 +20% 攻击速度\n该技能的连携终结技额外 -50% 攻击速度\n释放该技能的起手技后，每 1 起手技获得的连携点，获得 1 层惊风\n当前每有 1 点连携点，该技能的起手技 +5% 位移距离，上限 4 层\n该技能 +30% 连携终结技增幅\n每层增益使该技能的额外 1.5% 暴击值\n该技能无法被触发\n每 +1% 攻击速度，该技能额外 0.2% 伤害\n分身灵爆斩\n连携起手1：向前斩击，对命中的首个敌人造成 448% 武器攻击伤害，并施加印记。\n连携起手2：向前斩击，造成 448% 武器攻击伤害，并扩散敌人身上的印记。\n连携终结：猛击前方地面，造成 145% 武器攻击伤害，并生成数个分身跳跃斩击拥有印记的敌人，造成 145% 武器攻击伤害。\n连携起手1：\n造成 448% 武器攻击伤害\n该技能仅能击中 1 个敌人\n该技能击中时，对敌人施加印记\n该技能击败敌人时，直接扩散敌人的印记状态至 8 米内的其他敌人\n连携起手2：\n造成 448% 武器攻击伤害\n该技能击中时，扩散敌人的印记状态至 8 米内的其他敌人（受技能范围属性影响）\n连携终结：\n造成 145% 武器攻击伤害\n每消耗 1 点连携点，额外生成一个分身，上限 4 个\n分身的霰弹效应衰减系数为 70%\n技能结束后移除敌人的印记\n该技能的连携终结技额外 -40% 攻击速度\n该技能 +30% 连携终结技增幅\n寻仇\n传送至 9 米内的随机敌人身边，随后触发 1 次核心技能，被其触发的技能额外 +40% 攻击伤害。\n该技能无法被触媒技能辅助。\n仅限装备非引导、非位移、核心近战攻击技能时使用。\n破势战吼\n释放该技能发出战吼，嘲讽周围敌人。该技能每影响一个敌人，连携终结技额外 3.1% 伤害和异常伤害，持续 3 秒。\n战吼持续时，每释放一次连携终结技，连携技能 6% 技能范围，上限 5 层。\n释放该技能发出战吼：\n嘲讽周围敌人\n每影响一个敌人，连携终结技额外 5.95% 伤害和异常伤害，上限 8 层\n技能持续时，每释放一次连携终结技，连携技能 +6% 技能范围，上限 5 层\n持续 3 秒\n无尽寻仇\n以半径 12 米内的随机敌人为目标重复释放寻仇；初始额外 -30% 攻击速度，每重复释放一次寻仇，额外 +5% 攻击速度，最多重复释放 30 次。\n该技能无法被触媒技能辅助。\n技能释放期间再次点击该技能可以立即中断释放。\n异常增幅\n激活光环，自身和一定范围内的所有友军获得增益：\n额外 14% 异常伤害，10% 几率造成异常状态，10% 异常状态持续时间。\n激活光环，自身和一定范围内的所有友军获得增益：\n额外 23.5% 异常伤害\n+10% 几率造成伤害型异常状态\n+10% 异常状态持续时间\n法术纠缠\n辅助主动法术技能。\n无法辅助引导技能、哨卫技能和召唤召唤物的技能。\n该技能只能安装在每个主动技能的第 1 个辅助技能栏位。\n被辅助技能以法术纠缠的形式释放\n被辅助技能额外 15.5% 伤害\n被辅助技能以法术纠缠的形式释放\n被辅助技能额外 15.5% 伤害\n多重纠缠\n辅助主动法术技能。\n无法辅助引导技能、哨卫技能和召唤召唤物的技能。\n使用被辅助技能时，创建等同于纠缠数量上限的纠缠\n被辅助技能额外 +1% 伤害\n使用被辅助技能时，创建等同于纠缠数量上限的纠缠\n被辅助技能额外 +1% 伤害\n流焰炎蛇引：火线（华贵）\n辅助流焰炎蛇引技能。\n该技能只能安装在每个主动技能的第 3 个辅助技能栏位。\n被辅助技能额外 +20% 伤害\n每 +1 射线条数，被辅助技能的连携终结技 +(39.0–40.0)% 几率额外发射一条射线（超过 100% 时，必定发射多条射线）\n疾风裂地斩：突进（华贵）\n辅助疾风裂地斩技能。\n该技能只能安装在每个主动技能的第 3 个辅助技能栏位。\n被辅助技能额外 +20% 伤害\n最近每移动 5 米，被辅助技能额外 +(7.5–7.8)% 伤害（叠乘），上限 5 层\n疾风裂地斩：强横（华贵）\n辅助疾风裂地斩技能。\n该技能只能安装在每个主动技能的第 3 个辅助技能栏位。\n被辅助技能额外 +20% 伤害\n被辅助技能的连携起手技暴击时，获得 2 点连携点；每次技能仅能触发 1 次该效果\n被辅助技能的连携起手技暴击时，获得 2 点连携点；每次技能仅能触发 1 次该效果\n被辅助技能额外 +(22–24)% 伤害\n疾风裂地斩：腾跃（崇高）\n辅助疾风裂地斩技能。\n该技能只能安装在每个主动技能的第 5 个辅助技能栏位。\n被辅助技能额外 +20% 伤害\n被辅助技能额外 -10% 攻击速度\n被辅助技能的连携起手技2移动距离提高至 3.5 米\n被辅助技能的连携终结技的最大跳跃距离提高至 7 米\n被辅助技能的连携终结技现在会在短暂延迟后再造成一次伤害\n被辅助技能额外 -10% 攻击速度\n被辅助技能的连携起手技2移动距离提高至 3.5 米\n被辅助技能的连携终结技的最大跳跃距离提高至 7 米\n被辅助技能的连携终结技现在会在短暂延迟后再造成一次伤害\n被辅助技能额外 (-15.0–-14.0)% 伤害\n疾风裂地斩：凶暴（崇高）\n辅助疾风裂地斩技能。\n该技能只能安装在每个主动技能的第 5 个辅助技能栏位。\n被辅助技能额外 +20% 伤害\n释放被辅助技能的连携起手技1后，获得 3 点连携点，冷却 4 秒\n释放被辅助技能的连携起手技1后，获得 3 点连携点，冷却 4 秒\n每消耗 1 点连携点，被辅助技能的连携终结技额外 +(7.7–8.0)% 暴击伤害，上限 12 层\n分身灵爆斩：引爆（华贵）\n辅助分身灵爆斩技能。\n该技能只能安装在每个主动技能的第 3 个辅助技能栏位。\n被辅助技能额外 +20% 伤害\n被辅助技能的分身击败敌人时，有 50% 几率产生一次爆炸，造成 80% 的击中伤害\n被辅助技能的分身击败敌人时，有 50% 几率产生一次爆炸，造成 80% 的击中伤害\n被辅助技能额外 +(22–24)% 伤害\n分身灵爆斩：群英（崇高）\n辅助分身灵爆斩技能。\n该技能只能安装在每个主动技能的第 5 个辅助技能栏位。\n被辅助技能额外 +20% 伤害\n15 米内每有一个敌人，被辅助技能的连携终结技额外生成 1 个分身，至多额外生成 5 个\n15 米内每有一个敌人，被辅助技能的连携终结技额外生成 1 个分身，至多额外生成 5 个\n被辅助技能额外 +(10–12)% 伤害\n触媒：纠缠\n辅助主动法术技能。\n无法辅助引导技能、哨卫技能和召唤召唤物的技能。\n该技能只能安装在每个主动技能的第 1 个辅助技能栏位。\n被辅助技能以法术纠缠的形式释放\n被辅助技能以法术纠缠的形式释放\n被辅助技能额外 +(11–15)% 伤害\n20 米内的纠缠数量未达到上限时，触发被辅助技能，并以纠缠形式创建，间隔 0.4 秒\n精密 异常增幅\n激活光环，自身和一定范围内的所有友军获得增益：\n额外 15.5% 异常伤害，17% 几率造成异常状态，10% 异常状态持续时间。\n激活光环，自身和一定范围内的所有友军获得增益：\n额外 +25% 异常伤害\n+17% 几率造成伤害型异常状态\n+10% 异常状态持续时间\nSITES\npoedb.tw\ntlidb.com\npoe2db.tw\npaldb.cc\nABOUT SITE\nPrivacy\nAbout US\nCOMMUNITY\n资料库内容为测试资料，正确资讯请以官方游戏内的内容为准。",
+    "tables": [],
+    "lists": [
+      [
+        "英雄\n              \n                英雄\n                天赋",
+        "英雄",
+        "天赋",
+        "仓库\n              \n                仓库\n                传奇装备\n                异度棱镜\n                \n                契灵\n                \n                掉落来源\n                命运",
+        "仓库",
+        "传奇装备",
+        "异度棱镜",
+        "契灵",
+        "掉落来源",
+        "命运",
+        "技能\n              \n                主动技能\n                辅助技能\n                被动技能\n                \n                触媒技能\n                崇高辅助技能\n                华贵辅助技能\n                提示\n                Hyperlink",
+        "主动技能",
+        "辅助技能",
+        "被动技能",
+        "触媒技能",
+        "崇高辅助技能",
+        "华贵辅助技能",
+        "提示",
+        "Hyperlink",
+        "打造\n              \n                打造\n                \n                侵蚀\n                装备赋能\n                梦语\n                调香秘仪\n                高塔序列\n                缝合",
+        "打造",
+        "侵蚀",
+        "装备赋能",
+        "梦语",
+        "调香秘仪",
+        "高塔序列",
+        "缝合",
+        "成就\n              \n                \n                成长之路\n                \n                \n                \n                \n                帮助手册\n                情报",
+        "成长之路",
+        "",
+        "帮助手册",
+        "情报",
+        "异界\n              \n                异界\n                \n                混乱牌库\n                虚空星图\n                罗盘\n                赛季罗盘\n                \n                勇者之路",
+        "异界",
+        "混乱牌库",
+        "虚空星图",
+        "罗盘",
+        "赛季罗盘",
+        "",
+        "勇者之路",
+        "商城\n              \n    \n                时装\n                通货\n                恩赐",
+        "时装",
+        "通货",
+        "恩赐"
+      ],
+      [
+        "英雄",
+        "天赋"
+      ],
+      [
+        "仓库",
+        "传奇装备",
+        "异度棱镜",
+        "契灵",
+        "掉落来源",
+        "命运"
+      ],
+      [
+        "主动技能",
+        "辅助技能",
+        "被动技能",
+        "触媒技能",
+        "崇高辅助技能",
+        "华贵辅助技能",
+        "提示",
+        "Hyperlink"
+      ],
+      [
+        "打造",
+        "侵蚀",
+        "装备赋能",
+        "梦语",
+        "调香秘仪",
+        "高塔序列",
+        "缝合"
+      ],
+      [
+        "成长之路",
+        "",
+        "帮助手册",
+        "情报"
+      ],
+      [
+        "异界",
+        "混乱牌库",
+        "虚空星图",
+        "罗盘",
+        "赛季罗盘",
+        "",
+        "勇者之路"
+      ],
+      [
+        "时装",
+        "通货",
+        "恩赐"
+      ],
+      [
+        "EN English\n                TW 繁體中文\n                CN 简体中文\n                KO 한국어\n                JA Japanese\n                RU Русский",
+        "EN English",
+        "TW 繁體中文",
+        "CN 简体中文",
+        "KO 한국어",
+        "JA Japanese",
+        "RU Русский"
+      ],
+      [
+        "EN English",
+        "TW 繁體中文",
+        "CN 简体中文",
+        "KO 한국어",
+        "JA Japanese",
+        "RU Русский"
+      ],
+      [
+        "poedb.tw",
+        "tlidb.com",
+        "poe2db.tw",
+        "paldb.cc"
+      ],
+      [
+        "Privacy",
+        "About US"
+      ]
+    ],
+    "links": [
+      {
+        "href": "https://tlidb.com/cn/",
+        "text": "火炬编年史"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vorax_Season_skills#",
+        "text": "英雄"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hero",
+        "text": "英雄"
+      },
+      {
+        "href": "https://tlidb.com/cn/Talent",
+        "text": "天赋"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vorax_Season_skills#",
+        "text": "仓库"
+      },
+      {
+        "href": "https://tlidb.com/cn/Inventory",
+        "text": "仓库"
+      },
+      {
+        "href": "https://tlidb.com/cn/Legendary_Gear",
+        "text": "传奇装备"
+      },
+      {
+        "href": "https://tlidb.com/cn/Ethereal_Prism",
+        "text": "异度棱镜"
+      },
+      {
+        "href": "https://tlidb.com/cn/Pactspirit",
+        "text": "契灵"
+      },
+      {
+        "href": "https://tlidb.com/cn/Drop_Source",
+        "text": "掉落来源"
+      },
+      {
+        "href": "https://tlidb.com/cn/Destiny",
+        "text": "命运"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vorax_Season_skills#",
+        "text": "技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Active_Skill",
+        "text": "主动技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Support_Skill",
+        "text": "辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Passive_Skill",
+        "text": "被动技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Activation_Medium_Skill",
+        "text": "触媒技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Noble_Support_Skill",
+        "text": "崇高辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Magnificent_Support_Skill",
+        "text": "华贵辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Tip",
+        "text": "提示"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hyperlink",
+        "text": "Hyperlink"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vorax_Season_skills#",
+        "text": "打造"
+      },
+      {
+        "href": "https://tlidb.com/cn/Craft",
+        "text": "打造"
+      },
+      {
+        "href": "https://tlidb.com/cn/Corrosion",
+        "text": "侵蚀"
+      },
+      {
+        "href": "https://tlidb.com/cn/Gear_Empowerment",
+        "text": "装备赋能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Dream_Talking",
+        "text": "梦语"
+      },
+      {
+        "href": "https://tlidb.com/cn/Blending_Rituals",
+        "text": "调香秘仪"
+      },
+      {
+        "href": "https://tlidb.com/cn/TOWER_Sequence",
+        "text": "高塔序列"
+      },
+      {
+        "href": "https://tlidb.com/cn/Graft",
+        "text": "缝合"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vorax_Season_skills#",
+        "text": "成就"
+      },
+      {
+        "href": "https://tlidb.com/cn/Path_of_Progression",
+        "text": "成长之路"
+      },
+      {
+        "href": "https://tlidb.com/cn/Help",
+        "text": "帮助手册"
+      },
+      {
+        "href": "https://tlidb.com/cn/Codex",
+        "text": "情报"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vorax_Season_skills#",
+        "text": "异界"
+      },
+      {
+        "href": "https://tlidb.com/cn/Netherrealm",
+        "text": "异界"
+      },
+      {
+        "href": "https://tlidb.com/cn/Confusion_Card_Library",
+        "text": "混乱牌库"
+      },
+      {
+        "href": "https://tlidb.com/cn/Void_Chart",
+        "text": "虚空星图"
+      },
+      {
+        "href": "https://tlidb.com/cn/Compass",
+        "text": "罗盘"
+      },
+      {
+        "href": "https://tlidb.com/cn/Probe",
+        "text": "赛季罗盘"
+      },
+      {
+        "href": "https://tlidb.com/cn/Path_of_the_Brave",
+        "text": "勇者之路"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vorax_Season_skills#",
+        "text": "商城"
+      },
+      {
+        "href": "https://tlidb.com/cn/Outfit",
+        "text": "时装"
+      },
+      {
+        "href": "https://tlidb.com/cn/Commodity",
+        "text": "通货"
+      },
+      {
+        "href": "https://tlidb.com/cn/Boon",
+        "text": "恩赐"
+      },
+      {
+        "href": "https://tlidb.com/en/Vorax_Season_skills",
+        "text": "EN English"
+      },
+      {
+        "href": "https://tlidb.com/tw/Vorax_Season_skills",
+        "text": "TW 繁體中文"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vorax_Season_skills",
+        "text": "CN 简体中文"
+      },
+      {
+        "href": "https://tlidb.com/ko/Vorax_Season_skills",
+        "text": "KO 한국어"
+      },
+      {
+        "href": "https://tlidb.com/ja/Vorax_Season_skills",
+        "text": "JA Japanese"
+      },
+      {
+        "href": "https://tlidb.com/ru/Vorax_Season_skills",
+        "text": "RU Русский"
+      },
+      {
+        "href": "https://tlidb.com/cn/Gale_Slash",
+        "text": "疾风裂地斩"
+      },
+      {
+        "href": "https://tlidb.com/cn/Spectral_Slash",
+        "text": "分身灵爆斩"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vendetta",
+        "text": "寻仇"
+      },
+      {
+        "href": "https://tlidb.com/cn/Shockwave_Warcry",
+        "text": "破势战吼"
+      },
+      {
+        "href": "https://tlidb.com/cn/Endless_Vendetta",
+        "text": "无尽寻仇"
+      },
+      {
+        "href": "https://tlidb.com/cn/Ailment_Amplification",
+        "text": "异常增幅"
+      },
+      {
+        "href": "https://tlidb.com/cn/Spell_Tangle",
+        "text": "法术纠缠"
+      },
+      {
+        "href": "https://tlidb.com/cn/Manifold_Entanglement",
+        "text": "多重纠缠"
+      },
+      {
+        "href": "https://tlidb.com/cn/Serpent_Beam%3A_Barrage_%28Magnificent%29",
+        "text": "流焰炎蛇引：火线（华贵）"
+      },
+      {
+        "href": "https://tlidb.com/cn/Gale_Slash%3A_Onslaught_%28Magnificent%29",
+        "text": "疾风裂地斩：突进（华贵）"
+      },
+      {
+        "href": "https://tlidb.com/cn/Gale_Slash%3A_Dominance_%28Magnificent%29",
+        "text": "疾风裂地斩：强横（华贵）"
+      },
+      {
+        "href": "https://tlidb.com/cn/Gale_Slash%3A_Soaring_%28Noble%29",
+        "text": "疾风裂地斩：腾跃（崇高）"
+      },
+      {
+        "href": "https://tlidb.com/cn/Gale_Slash%3A_Brutality_%28Noble%29",
+        "text": "疾风裂地斩：凶暴（崇高）"
+      },
+      {
+        "href": "https://tlidb.com/cn/Spectral_Slash%3A_Detonation_%28Magnificent%29",
+        "text": "分身灵爆斩：引爆（华贵）"
+      },
+      {
+        "href": "https://tlidb.com/cn/Spectral_Slash%3A_Legion_%28Noble%29",
+        "text": "分身灵爆斩：群英（崇高）"
+      },
+      {
+        "href": "https://tlidb.com/cn/Activation_Medium%3A_Tangle",
+        "text": "触媒：纠缠"
+      },
+      {
+        "href": "https://tlidb.com/cn/Precise%3A_Ailment_Amplification",
+        "text": "精密 异常增幅"
+      },
+      {
+        "href": "https://poedb.tw/",
+        "text": "poedb.tw"
+      },
+      {
+        "href": "https://tlidb.com/",
+        "text": "tlidb.com"
+      },
+      {
+        "href": "https://poe2db.tw/",
+        "text": "poe2db.tw"
+      },
+      {
+        "href": "https://paldb.cc/",
+        "text": "paldb.cc"
+      },
+      {
+        "href": "https://tlidb.com/cn/privacy",
+        "text": "Privacy"
+      },
+      {
+        "href": "https://www.reddit.com/user/chuanhsing",
+        "text": "About US"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S13_LegendStitching_03.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S12_LengJing_White01.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S11ChipMatching0_Icon.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/UI_Money_S10EquipEnchantMaterial_10_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S9Pet_FateStar_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S8Gameplay_Snow2_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_MysticTreeRespecPoint_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S6Gameplay_Tile_bench.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S5Gameplay_DreamTreasure_Almighty_C_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/S4/UI_S4Gameplay_talent01_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S3Gameplay_Beads_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S2BossTicket3_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_Item_yimozhihe_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/image/torchlight/p3_20251226_cn.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_WindSlash_Starter1_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_PhantomSlash_Starter1_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Revenge_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ComboBattleCry_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_EndlessRevenge_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_AilmentEnhance_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Entanglement_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_MultiEntanglement_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FlameSerpent_support01_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_WindSlash_support01_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_WindSlash_support02_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_WindSlash_support03_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_WindSlash_support04_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_PhantomSlash_support01_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_PhantomSlash_support02_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_CMEntanglement_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_AilmentEnhanceSpecial_Icon_128.webp",
+        "alt": ""
+      }
+    ],
+    "meta": {
+      "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+      "color-scheme": "dark"
+    },
+    "structured_data": {}
+  }
+]

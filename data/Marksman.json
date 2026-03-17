@@ -1,0 +1,584 @@
+[
+  {
+    "url": "https://tlidb.com/cn/Marksman",
+    "title": "Marksman - 火炬编年史, Torchlight: Infinite Wiki",
+    "html": "\n    <div class=\"background-image\"></div>\n    <!-- Google tag (gtag.js) -->\n    <script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-P6KT6L9KX8\"></script>\n    <script>\n      window.dataLayer = window.dataLayer || [];\n      function gtag(){dataLayer.push(arguments);}\n      gtag('js', new Date());\n    \n      gtag('config', 'G-P6KT6L9KX8');\n    </script>\n\n    <nav class=\"navbar navbar-expand-lg navbar-dark\">\n      <div class=\"container\">\n        <a class=\"navbar-brand\" href=\"/cn/\">火炬编年史</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">英雄</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Hero\">英雄</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Talent\">天赋</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">仓库</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Inventory\">仓库</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Legendary_Gear\">传奇装备</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Ethereal_Prism\">异度棱镜</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_Synthetic_Synthetic\" href=\"/cn/Recipe\">Recipe</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Pactspirit\">契灵</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"function|name|116\" href=\"/cn/Black_Market\">Black Market</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Drop_Source\">掉落来源</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Destiny\">命运</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">技能</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Active_Skill\">主动技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Support_Skill\">辅助技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Passive_Skill\">被动技能</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_SkillBag_SkillType4\" href=\"/cn/Triggered_Skill\">Triggered Skill</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Activation_Medium_Skill\">触媒技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Noble_Support_Skill\">崇高辅助技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Magnificent_Support_Skill\">华贵辅助技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Tip\">提示</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Hyperlink\">Hyperlink</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">打造</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Craft\">打造</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"function|name|131\" href=\"/cn/Enchant\">Enchant</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Corrosion\">侵蚀</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Gear_Empowerment\">装备赋能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Dream_Talking\">梦语</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Blending_Rituals\">调香秘仪</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/TOWER_Sequence\">高塔序列</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Graft\">缝合</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">成就</a>\n              <ul class=\"dropdown-menu\">\n                <!--\n                <li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_Growth_Achievement_Title\" href=\"/cn/Path_of_Achievements\">Path of Achievements</a></li>\n                -->\n                <li><a class=\"dropdown-item\" href=\"/cn/Path_of_Progression\">成长之路</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"season|name1|101\" href=\"/cn/Dark_Surge_Season\">Dark Surge Season</a></li>-->\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_SeasonBook_Title\" href=\"/cn/Season_Pass\">Season Pass</a></li>-->\n                <!--\n                <li><a class=\"dropdown-item\" data-i18n=\"function|name|139\" href=\"/cn/Event\">Event</a></li>\n                -->\n                <li><hr class=\"dropdown-divider\"></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Help\">帮助手册</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Codex\">情报</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">异界</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Netherrealm\">异界</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_MysteryCard_PlayerDeck\" href=\"/cn/Trait_Decks\">Trait Decks</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Confusion_Card_Library\">混乱牌库</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Void_Chart\">虚空星图</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Compass\">罗盘</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Probe\">赛季罗盘</a></li>\n                <li><hr class=\"dropdown-divider\"></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Path_of_the_Brave\">勇者之路</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">商城</a>\n              <ul class=\"dropdown-menu\">\n    <!--\n                <li><a class=\"dropdown-item\" data-i18n=\"function|name|110\" href=\"/cn/Shop\">Shop</a></li>\n    -->\n                <li><a class=\"dropdown-item\" href=\"/cn/Outfit\">时装</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Commodity\">通货</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Boon\">恩赐</a></li>\n              </ul>\n            </li>\n    \n    <!--\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" data-i18n=\"Guide\" href=\"/cn/guides?season=The%20Frozen%20Canvas%20Season\">Guide</a>\n            </li>\n    -->\n    \n          </ul>\n    \n          <!--\n          <a class=\"nav-link2\" style=\"padding-right: 10px\" href=\"https://lihi1.com/cAO3Z\" target=\"_blank\">\n            <img style=\"height: 24px\" \n                src=\"https://cdn.tlidb.com/image/logo/torchlight-48.webp\"\n            />\n          </a>\n    \n          <a class=\"nav-link2\" style=\"padding-right: 10px\"\n            href=\"https://lihi1.com/l1NmL\"\n            target=\"_blank\">\n            <img style=\"height: 24px\" src=\"https://cdn.tlidb.com/image/logo/facebook-48.webp\"/>\n          </a>\n    \n          <a class=\"nav-link2\" style=\"padding-right: 10px\"\n            href=\"https://lihi1.com/neCTK\"\n            target=\"_blank\">\n            <img style=\"height: 24px\" src=\"https://cdn.tlidb.com/image/logo/youtube-48.webp\"/>\n          </a>\n    \n          <a class=\"nav-link2\" style=\"padding-right: 10px\" href=\"https://lihi1.com/owKrQ\" target=\"_blank\">\n            <img style=\"height: 24px\" src=\"https://cdn.tlidb.com/image/logo/discord-48.webp\"/>\n          </a>\n          -->\n    \n          <ul class=\"navbar-nav\">\n            <li class=\"nav-item dropdown\">\n              <a href=\"#\" class=\"nav-link dropdown-toggle\" role=\"button\" data-bs-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"> <i class=\"fas fa-language fa-lg\"></i></a>\n              <ul class=\"dropdown-menu language-menu\">\n                <li><a class=\"dropdown-item\" href=\"/en/Marksman\">EN English</a></li>\n                <li><a class=\"dropdown-item\" href=\"/tw/Marksman\">TW 繁體中文</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Marksman\">CN 简体中文</a></li>\n                <li><a class=\"dropdown-item\" href=\"/ko/Marksman\">KO 한국어</a></li>\n                <li><a class=\"dropdown-item\" href=\"/ja/Marksman\">JA Japanese</a></li>\n                <li><a class=\"dropdown-item\" href=\"/ru/Marksman\">RU Русский</a></li>\n                <!--\n                <li><a class='dropdown-item' href='/de/'>DE Deutsch</a></li>\n                <li><a class='dropdown-item' href='/es/'>ES Spanish</a></li>\n                <li><a class='dropdown-item' href='/fr/'>FR Français</a></li>\n                <li><a class='dropdown-item' href='/id/'>ID bahasa Indonesia</a></li>\n                <li><a class='dropdown-item' href='/pt/'>PT Português</a></li>\n                <li><a class='dropdown-item' href='/th/'>TH ภาษาไทย</a></li>\n                <li><a class='dropdown-item' href='/vi/'>VI Tiếng Việt</a></li>\n                -->\n              </ul>\n            </li>\n          </ul>\n    \n          <form class=\"d-flex\" role=\"search\" action=\"search\">\n            <input class=\"form-control me-2 ui-autocomplete-input\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\" id=\"navautosearch\" name=\"q\" autocomplete=\"off\">\n          </form>\n    \n        </div>\n      </div>\n    </nav>\n\n    <script> sidebar160(\"leftside_banner\", \"left\"); </script>\n    <script> sidebar160(\"rightside_banner\", \"right\"); </script>\n\n    <div class=\"page\">\n    <div class=\"page-content container\" role=\"main\">\n    <div class=\"text-center\">\n    <a href=\"Vorax_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S13_LegendStitching_03.webp\" class=\"size48\"></a>\n    <a href=\"Overrealm_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S12_LengJing_White01.webp\" class=\"size48\"></a>\n    <a href=\"Outlaw_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S11ChipMatching0_Icon.webp\" class=\"size48\"></a>\n    <a href=\"Sandlord_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/UI_Money_S10EquipEnchantMaterial_10_128.webp\" class=\"size48\"></a>\n    <a href=\"Arcana_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S9Pet_FateStar_128.webp\" class=\"size48\"></a>\n    <a href=\"The_Frozen_Canvas_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S8Gameplay_Snow2_128.webp\" class=\"size48\"></a>\n    <a href=\"Clockwork_Ballet_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_MysticTreeRespecPoint_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Whispering_Mist_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S6Gameplay_Tile_bench.webp\" class=\"size48\"></a>\n    <a href=\"Nightmare_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S5Gameplay_DreamTreasure_Almighty_C_128.webp\" class=\"size48\"></a>\n    <a href=\"Aeterna_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/S4/UI_S4Gameplay_talent01_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Cube_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S3Gameplay_Beads_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Blacksail_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S2BossTicket3_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Dark_Surge_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_Item_yimozhihe_Icon_128.webp\" class=\"size48\"></a>\n    </div>\n    <div class=\"text-center mb-2\"><a href=\"https://l.taptap.cn/SyBkGgT1?channel=rep-rep_voftpwn7cks\" target=\"_blank\"><img src=\"https://cdn.tlidb.com/image/torchlight/p3_20251226_cn.webp\" style=\"max-width: 100%;\"></a></div>\n    <ul class=\"nav nav-tabs d-flex flex-wrap\" role=\"tablist\"><li class=\"nav-item\" role=\"presentation\"><button class=\"nav-link active\" data-bs-toggle=\"tab\" role=\"tab\" aria-selected=\"true\" data-bs-target=\"#神射手\">神射手 /35 </button></li><li class=\"nav-item\" role=\"presentation\"><button class=\"nav-link\" data-bs-toggle=\"tab\" role=\"tab\" aria-selected=\"false\" data-bs-target=\"#ProfessionTree\" tabindex=\"-1\">Profession Tree</button></li></ul><div class=\"tab-content\"><div id=\"神射手\" class=\"tab-pane fade show active\" role=\"tabpanel\"><div class=\"card mb-2 \">\n    <div class=\"card-header\">神射手 /35 </div>\n    <div class=\"collapse show\">\n    <div class=\"p-2 d-flex\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentAgiS01_128.webp\" class=\"size128\" loading=\"lazy\"><div class=\"p-2\">狩猎之神的传承<br>标签：<richtext id=\"1087\">投射物、闪避<richtext><br>精通速度之力的狙击者</richtext></richtext></div></div>\n    \n    <script>\n$(document).ready(function () {\n    filterClick($('[name=filter]'));\n});\n</script>\n\n<form><div class=\"input-group my-2\">\n    <button class=\"btn btn-outline-secondary\" type=\"reset\">Reset</button>\n    <input name=\"filter\" class=\"form-control\" placeholder=\"Search\">\n</div></form><div class=\"row row-cols-1 row-cols-lg-3 g-2\"><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_kuangfeng_Icon_128.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21001100\">狂风</span><span>24pts</span><span>0/1</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\">对投射物速度加成的 <span class=\"text-mod\">60</span>% 同样作用于对投射物伤害的额外加成 （神格生效上限：1）</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_kangfen_Icon_128.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21001200\">亢奋</span><span>24pts</span><span>0/1</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\">每有 1 层<e id=\"716\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;灵动祝福&lt;/div&gt;&lt;div&gt;每层灵动祝福 +4% 攻击和施法速度，额外 +2% 伤害。初始上限为 4 层。&lt;/div&gt;&lt;/div&gt;\">灵动祝福</e>，额外 <span class=\"text-mod\">+4</span>% 闪避值 （神格生效上限：1）</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_dijinsheji_Icon_128.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21001300\">抵近射击</span><span>24pts</span><span>0/1</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\">投射物对<e id=\"160\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;近处&lt;/div&gt;&lt;div&gt;4米内&lt;/div&gt;&lt;/div&gt;\">近处</e>的敌人至多额外 <span class=\"text-mod\">+35</span>% 伤害，随距离递减 （神格生效上限：1）</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_taotuodashi_Icon_128.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21001400\">逃脱大师</span><span>24pts</span><span>0/1</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><span class=\"text-mod\">+1</span> <e id=\"159\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;偏斜&lt;/div&gt;&lt;div&gt;每层偏斜使受到的伤害额外降低 8%，上限 3 层；受击时，消耗所有偏斜层数&lt;/div&gt;&lt;/div&gt;\">偏斜</e>层数上限<br>闪避时，获得 <span class=\"text-mod\">1</span> 层<e id=\"159\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;偏斜&lt;/div&gt;&lt;div&gt;每层偏斜使受到的伤害额外降低 8%，上限 3 层；受击时，消耗所有偏斜层数&lt;/div&gt;&lt;/div&gt;\">偏斜</e> （神格生效上限：1）</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21010100\">小型天赋</span><span>0/3</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><span class=\"text-mod\">+9</span>% 投射物伤害</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/AtkSpeed_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21010300\">小型天赋</span><span>0/3</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><span class=\"text-mod\">+3</span>% 最大生命</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21010500\">小型天赋</span><span>0/3</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><span class=\"text-mod\">+7</span>% 闪避值</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21020100\">中型天赋</span><span>3pts</span><span>0/3</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><span class=\"text-mod\">+18</span>% 投射物伤害</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/CastSpeed_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21020200\">小型天赋</span><span>3pts</span><span>0/3</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><span class=\"text-mod\">+3</span>% 攻击与施法速度</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Dagger03_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21020300\">中型天赋</span><span>3pts</span><span>0/3</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><span class=\"text-mod\">+6</span>% 最大生命</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21020400\">小型天赋</span><span>3pts</span><span>0/3</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><span class=\"text-mod\">+450</span> 闪避值</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21020500\">中型天赋</span><span>3pts</span><span>0/3</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><span class=\"text-mod\">+14</span>% 闪避值</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21030100\">小型天赋</span><span>6pts</span><span>0/3</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><span class=\"text-mod\">4.5</span>% 投射物伤害<br><span class=\"text-mod\">+3</span>% 投射物速度</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21030200\">中型天赋</span><span>6pts</span><span>0/3</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><span class=\"text-mod\">+6</span>% 攻击与施法速度</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21030300\">小型天赋</span><span>6pts</span><span>0/3</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><span class=\"text-mod\">+15</span>% 投射物暴击值</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21030400\">中型天赋</span><span>6pts</span><span>0/3</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><span class=\"text-mod\">+900</span> 闪避值</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence01_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21030500\">小型天赋</span><span>6pts</span><span>0/3</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><span class=\"text-mod\">1.5</span>% 几率避免伤害</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21040100\">中型天赋</span><span>9pts</span><span>0/3</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><span class=\"text-mod\">+12</span>% 投射物速度</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit02_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21040200\">中型天赋</span><span>9pts</span><span>0/3</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><span class=\"text-mod\">+30</span>% 投射物暴击值</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgPhys_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21040300\">中型天赋</span><span>9pts</span><span>0/3</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><span class=\"text-mod\">+15</span>% 投射物暴击伤害</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21040400\">小型天赋</span><span>9pts</span><span>0/3</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><span class=\"text-mod\">+7</span>% 闪避值</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence01_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21040500\">中型天赋</span><span>9pts</span><span>0/3</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><span class=\"text-mod\">+3</span>% 几率避免伤害</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21050100\">传奇中型天赋</span><span>12pts</span><span>0/1</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><span class=\"text-mod\">+8</span>% 投射物速度<br>投射物伤害随飞行距离递增：对<e id=\"150\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;远处&lt;/div&gt;&lt;div&gt;6米外&lt;/div&gt;&lt;/div&gt;\">远处</e>的敌人至多 <span class=\"text-mod\">+48</span>% 伤害</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit03_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21050200\">传奇中型天赋</span><span>12pts</span><span>0/1</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\">对<e id=\"160\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;近处&lt;/div&gt;&lt;div&gt;4米内&lt;/div&gt;&lt;/div&gt;\">近处</e>的敌人 <span class=\"text-mod\">+60</span>% 投射物伤害</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21050300\">小型天赋</span><span>12pts</span><span>0/3</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><span class=\"text-mod\">+8</span> 敏捷</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21050400\">传奇中型天赋</span><span>12pts</span><span>0/1</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><span class=\"text-mod\">+12</span>% 闪避值<br><span class=\"text-mod\">+12</span>% 几率避免<e id=\"101\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;元素异常&lt;/div&gt;&lt;div&gt;包括点燃、冰结、冰封、麻痹&lt;/div&gt;&lt;/div&gt;\">元素异常</e>状态</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21060200\">小型天赋</span><span>15pts</span><span>0/3</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><span class=\"text-mod\">+9</span>% 投射物伤害</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21060300\">传奇中型天赋</span><span>15pts</span><span>0/1</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\">每 <span class=\"text-mod\">24</span> 点敏捷， <span class=\"text-mod\">+1</span>% 闪避 （神格生效上限：1）</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21060400\">小型天赋</span><span>15pts</span><span>0/3</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><span class=\"text-mod\">+10</span>% <e id=\"716\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;灵动祝福&lt;/div&gt;&lt;div&gt;每层灵动祝福 +4% 攻击和施法速度，额外 +2% 伤害。初始上限为 4 层。&lt;/div&gt;&lt;/div&gt;\">灵动祝福</e>持续时间<br>拥有<e id=\"716\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;灵动祝福&lt;/div&gt;&lt;div&gt;每层灵动祝福 +4% 攻击和施法速度，额外 +2% 伤害。初始上限为 4 层。&lt;/div&gt;&lt;/div&gt;\">灵动祝福</e>时，<span class=\"text-mod\">+7</span>% 闪避值</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21060500\">小型天赋</span><span>15pts</span><span>0/3</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><span class=\"text-mod\">+7</span>% 闪避值</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crossbow02_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21070100\">传奇中型天赋</span><span>18pts</span><span>0/1</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><span class=\"text-mod\">+1</span> 抛射投射物<e id=\"106\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;分裂&lt;/div&gt;&lt;div&gt;抛射投射物命中目标后分裂出多个次级投射物向外发射&lt;/div&gt;&lt;/div&gt;\">分裂</e>数量 （神格生效上限：1）</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Bow01_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21070200\">传奇中型天赋</span><span>18pts</span><span>0/1</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><span class=\"text-mod\">+1</span> <e id=\"107\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;弹射&lt;/div&gt;&lt;div&gt;直射投射物或连锁技能命中目标后跳跃到附近的目标&lt;/div&gt;&lt;/div&gt;\">弹射</e>次数</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit04_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21070300\">传奇中型天赋</span><span>18pts</span><span>0/1</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><span class=\"text-mod\">+2</span> 直射投射物<e id=\"109\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;穿透&lt;/div&gt;&lt;div&gt;直射投射物命中目标后穿透并继续飞行，直到达到穿透上限&lt;/div&gt;&lt;/div&gt;\">穿透</e>次数</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgLightning_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21070400\">传奇中型天赋</span><span>18pts</span><span>0/1</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\">每有 1 层<e id=\"716\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;灵动祝福&lt;/div&gt;&lt;div&gt;每层灵动祝福 +4% 攻击和施法速度，额外 +2% 伤害。初始上限为 4 层。&lt;/div&gt;&lt;/div&gt;\">灵动祝福</e>， <span class=\"text-mod\">+6</span>% 闪避值 （神格生效上限：1）</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgLightning_64.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><div class=\"d-flex justify-content-between\"><span class=\"fw-bold\" data-talent-id=\"21070500\">传奇中型天赋</span><span>18pts</span><span>0/1</span></div><hr style=\"width: 80%\" class=\"mx-auto my-1\">对法术伤害，额外 <span class=\"text-mod\">+20</span>% 闪避值 （神格生效上限：1）</div></div></div></div>\n    \n    </div>\n</div></div><div id=\"ProfessionTree\" class=\"tab-pane fade\" role=\"tabpanel\"><div class=\"row row-cols-1 row-cols-lg-2 g-2 pb-2\"><div class=\"col\"><div class=\"card text-center\"><div class=\"card-body\"><div>24</div><div> <img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_kuangfeng_Icon_128.webp\" data-bs-html=\"true\" class=\"size64\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;狂风&lt;/div&gt;对投射物速度加成的 60% 同样作用于对投射物伤害的额外加成\" loading=\"lazy\"> <img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_kangfen_Icon_128.webp\" data-bs-html=\"true\" class=\"size64\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;亢奋&lt;/div&gt;每有 1 层灵动祝福，额外 +4% 闪避值\" loading=\"lazy\"> <img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_dijinsheji_Icon_128.webp\" data-bs-html=\"true\" class=\"size64\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;抵近射击&lt;/div&gt;投射物对近处的敌人至多额外 +35% 伤害，随距离递减\" loading=\"lazy\"> <img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_taotuodashi_Icon_128.webp\" data-bs-html=\"true\" class=\"size64\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;逃脱大师&lt;/div&gt;+1 偏斜层数上限&lt;br /&gt;\n闪避时，获得 1 层偏斜\" loading=\"lazy\"></div></div></div></div></div><span data-tabname=\"Profession Tree\"></span>\n<svg viewBox=\"32 0 896 528\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n<style>\nsvg {\n    background-color: #222;\n}\n.nodes, .connections {\n    color: gray;\n}\n.level_up_time {\n    color: yellow;\n    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;\n}\n.level_circle {\n    color: white;\n}\n.points {\n    color: black;\n}\n.talent {\n    filter: invert(1);\n}\n.talent_bg {\n    color: white;\n}\n</style>\n<g class=\"connections\" fill=\"none\" stroke-width=\"4\" stroke=\"currentColor\">\n<line x1=\"192\" y1=\"82\" x2=\"128\" y2=\"82\"></line>\n<line x1=\"448\" y1=\"82\" x2=\"384\" y2=\"82\"></line>\n<line x1=\"576\" y1=\"82\" x2=\"512\" y2=\"82\"></line>\n<line x1=\"832\" y1=\"82\" x2=\"768\" y2=\"178\"></line>\n<line x1=\"320\" y1=\"178\" x2=\"256\" y2=\"178\"></line>\n<line x1=\"448\" y1=\"178\" x2=\"384\" y2=\"82\"></line>\n<line x1=\"576\" y1=\"178\" x2=\"512\" y2=\"178\"></line>\n<line x1=\"832\" y1=\"178\" x2=\"768\" y2=\"178\"></line>\n<line x1=\"192\" y1=\"274\" x2=\"128\" y2=\"274\"></line>\n<line x1=\"448\" y1=\"274\" x2=\"384\" y2=\"274\"></line>\n<line x1=\"704\" y1=\"274\" x2=\"640\" y2=\"274\"></line>\n<line x1=\"832\" y1=\"274\" x2=\"768\" y2=\"178\"></line>\n<line x1=\"320\" y1=\"370\" x2=\"256\" y2=\"370\"></line>\n<line x1=\"576\" y1=\"370\" x2=\"512\" y2=\"370\"></line>\n<line x1=\"832\" y1=\"370\" x2=\"768\" y2=\"370\"></line>\n<line x1=\"192\" y1=\"466\" x2=\"128\" y2=\"466\"></line>\n<line x1=\"448\" y1=\"466\" x2=\"384\" y2=\"466\"></line>\n<line x1=\"832\" y1=\"466\" x2=\"768\" y2=\"466\"></line>\n\n</g>\n<g class=\"nodes\" stroke=\"currentColor\" fill=\"currentColor\">\n<circle cx=\"96\" cy=\"80\" r=\"32\" class=\"talent_bg talent_type1\"></circle><image x=\"64\" y=\"48\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;小型天赋&lt;/div&gt;+9% 投射物伤害\" class=\"talent\"></image>\n<text x=\"118\" y=\"106\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">3</text><circle cx=\"224\" cy=\"80\" r=\"32\" class=\"talent_bg talent_type3\"></circle><image x=\"192\" y=\"48\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;中型天赋&lt;/div&gt;+18% 投射物伤害\" class=\"talent\"></image>\n<text x=\"246\" y=\"106\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">3</text><circle cx=\"352\" cy=\"80\" r=\"32\" class=\"talent_bg talent_type1\"></circle><image x=\"320\" y=\"48\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;小型天赋&lt;/div&gt;4.5% 投射物伤害&lt;br /&gt;\n+3% 投射物速度\" class=\"talent\"></image>\n<text x=\"374\" y=\"106\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">3</text><circle cx=\"480\" cy=\"80\" r=\"32\" class=\"talent_bg talent_type3\"></circle><image x=\"448\" y=\"48\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;中型天赋&lt;/div&gt;+12% 投射物速度\" class=\"talent\"></image>\n<text x=\"502\" y=\"106\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">3</text><circle cx=\"608\" cy=\"80\" r=\"32\" class=\"talent_bg talent_type4\"></circle><image x=\"576\" y=\"48\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;传奇中型天赋&lt;/div&gt;+8% 投射物速度&lt;br /&gt;\n投射物伤害随飞行距离递增：对远处的敌人至多 +48% 伤害\" class=\"talent\"></image>\n<text x=\"630\" y=\"106\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">1</text><circle cx=\"864\" cy=\"80\" r=\"32\" class=\"talent_bg talent_type4\"></circle><image x=\"832\" y=\"48\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crossbow02_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;传奇中型天赋&lt;/div&gt;+1 抛射投射物分裂数量\" class=\"talent\"></image>\n<text x=\"886\" y=\"106\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">1</text><circle cx=\"224\" cy=\"176\" r=\"32\" class=\"talent_bg talent_type1\"></circle><image x=\"192\" y=\"144\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/CastSpeed_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;小型天赋&lt;/div&gt;+3% 攻击与施法速度\" class=\"talent\"></image>\n<text x=\"246\" y=\"202\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">3</text><circle cx=\"352\" cy=\"176\" r=\"32\" class=\"talent_bg talent_type3\"></circle><image x=\"320\" y=\"144\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;中型天赋&lt;/div&gt;+6% 攻击与施法速度\" class=\"talent\"></image>\n<text x=\"374\" y=\"202\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">3</text><circle cx=\"480\" cy=\"176\" r=\"32\" class=\"talent_bg talent_type3\"></circle><image x=\"448\" y=\"144\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit02_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;中型天赋&lt;/div&gt;+30% 投射物暴击值\" class=\"talent\"></image>\n<text x=\"502\" y=\"202\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">3</text><circle cx=\"608\" cy=\"176\" r=\"32\" class=\"talent_bg talent_type4\"></circle><image x=\"576\" y=\"144\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit03_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;传奇中型天赋&lt;/div&gt;对近处的敌人 +60% 投射物伤害\" class=\"talent\"></image>\n<text x=\"630\" y=\"202\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">1</text><circle cx=\"736\" cy=\"176\" r=\"32\" class=\"talent_bg talent_type1\"></circle><image x=\"704\" y=\"144\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;小型天赋&lt;/div&gt;+9% 投射物伤害\" class=\"talent\"></image>\n<text x=\"758\" y=\"202\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">3</text><circle cx=\"864\" cy=\"176\" r=\"32\" class=\"talent_bg talent_type4\"></circle><image x=\"832\" y=\"144\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Bow01_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;传奇中型天赋&lt;/div&gt;+1 弹射次数\" class=\"talent\"></image>\n<text x=\"886\" y=\"202\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">1</text><circle cx=\"96\" cy=\"272\" r=\"32\" class=\"talent_bg talent_type1\"></circle><image x=\"64\" y=\"240\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/AtkSpeed_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;小型天赋&lt;/div&gt;+3% 最大生命\" class=\"talent\"></image>\n<text x=\"118\" y=\"298\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">3</text><circle cx=\"224\" cy=\"272\" r=\"32\" class=\"talent_bg talent_type3\"></circle><image x=\"192\" y=\"240\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Dagger03_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;中型天赋&lt;/div&gt;+6% 最大生命\" class=\"talent\"></image>\n<text x=\"246\" y=\"298\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">3</text><circle cx=\"352\" cy=\"272\" r=\"32\" class=\"talent_bg talent_type1\"></circle><image x=\"320\" y=\"240\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;小型天赋&lt;/div&gt;+15% 投射物暴击值\" class=\"talent\"></image>\n<text x=\"374\" y=\"298\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">3</text><circle cx=\"480\" cy=\"272\" r=\"32\" class=\"talent_bg talent_type3\"></circle><image x=\"448\" y=\"240\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgPhys_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;中型天赋&lt;/div&gt;+15% 投射物暴击伤害\" class=\"talent\"></image>\n<text x=\"502\" y=\"298\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">3</text><circle cx=\"608\" cy=\"272\" r=\"32\" class=\"talent_bg talent_type1\"></circle><image x=\"576\" y=\"240\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;小型天赋&lt;/div&gt;+8 敏捷\" class=\"talent\"></image>\n<text x=\"630\" y=\"298\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">3</text><circle cx=\"736\" cy=\"272\" r=\"32\" class=\"talent_bg talent_type4\"></circle><image x=\"704\" y=\"240\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;传奇中型天赋&lt;/div&gt;每 24 点敏捷， +1% 闪避\" class=\"talent\"></image>\n<text x=\"758\" y=\"298\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">1</text><circle cx=\"864\" cy=\"272\" r=\"32\" class=\"talent_bg talent_type4\"></circle><image x=\"832\" y=\"240\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit04_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;传奇中型天赋&lt;/div&gt;+2 直射投射物穿透次数\" class=\"talent\"></image>\n<text x=\"886\" y=\"298\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">1</text><circle cx=\"224\" cy=\"368\" r=\"32\" class=\"talent_bg talent_type1\"></circle><image x=\"192\" y=\"336\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;小型天赋&lt;/div&gt;+450 闪避值\" class=\"talent\"></image>\n<text x=\"246\" y=\"394\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">3</text><circle cx=\"352\" cy=\"368\" r=\"32\" class=\"talent_bg talent_type3\"></circle><image x=\"320\" y=\"336\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;中型天赋&lt;/div&gt;+900 闪避值\" class=\"talent\"></image>\n<text x=\"374\" y=\"394\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">3</text><circle cx=\"480\" cy=\"368\" r=\"32\" class=\"talent_bg talent_type1\"></circle><image x=\"448\" y=\"336\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;小型天赋&lt;/div&gt;+7% 闪避值\" class=\"talent\"></image>\n<text x=\"502\" y=\"394\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">3</text><circle cx=\"608\" cy=\"368\" r=\"32\" class=\"talent_bg talent_type4\"></circle><image x=\"576\" y=\"336\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;传奇中型天赋&lt;/div&gt;+12% 闪避值&lt;br /&gt;\n+12% 几率避免元素异常状态\" class=\"talent\"></image>\n<text x=\"630\" y=\"394\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">1</text><circle cx=\"736\" cy=\"368\" r=\"32\" class=\"talent_bg talent_type1\"></circle><image x=\"704\" y=\"336\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;小型天赋&lt;/div&gt;+10% 灵动祝福持续时间&lt;br /&gt;\n拥有灵动祝福时，+7% 闪避值\" class=\"talent\"></image>\n<text x=\"758\" y=\"394\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">3</text><circle cx=\"864\" cy=\"368\" r=\"32\" class=\"talent_bg talent_type4\"></circle><image x=\"832\" y=\"336\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgLightning_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;传奇中型天赋&lt;/div&gt;每有 1 层灵动祝福， +6% 闪避值\" class=\"talent\"></image>\n<text x=\"886\" y=\"394\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">1</text><circle cx=\"96\" cy=\"464\" r=\"32\" class=\"talent_bg talent_type1\"></circle><image x=\"64\" y=\"432\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;小型天赋&lt;/div&gt;+7% 闪避值\" class=\"talent\"></image>\n<text x=\"118\" y=\"490\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">3</text><circle cx=\"224\" cy=\"464\" r=\"32\" class=\"talent_bg talent_type3\"></circle><image x=\"192\" y=\"432\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;中型天赋&lt;/div&gt;+14% 闪避值\" class=\"talent\"></image>\n<text x=\"246\" y=\"490\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">3</text><circle cx=\"352\" cy=\"464\" r=\"32\" class=\"talent_bg talent_type1\"></circle><image x=\"320\" y=\"432\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence01_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;小型天赋&lt;/div&gt;1.5% 几率避免伤害\" class=\"talent\"></image>\n<text x=\"374\" y=\"490\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">3</text><circle cx=\"480\" cy=\"464\" r=\"32\" class=\"talent_bg talent_type3\"></circle><image x=\"448\" y=\"432\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence01_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;中型天赋&lt;/div&gt;+3% 几率避免伤害\" class=\"talent\"></image>\n<text x=\"502\" y=\"490\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">3</text><circle cx=\"736\" cy=\"464\" r=\"32\" class=\"talent_bg talent_type1\"></circle><image x=\"704\" y=\"432\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;小型天赋&lt;/div&gt;+7% 闪避值\" class=\"talent\"></image>\n<text x=\"758\" y=\"490\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">3</text><circle cx=\"864\" cy=\"464\" r=\"32\" class=\"talent_bg talent_type4\"></circle><image x=\"832\" y=\"432\" width=\"64\" height=\"64\" xlink:href=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgLightning_64.webp\" data-bs-html=\"true\" data-bs-toggle=\"tooltip\" data-bs-title=\"&lt;div class=&quot;fw-bold&quot;&gt;传奇中型天赋&lt;/div&gt;对法术伤害，额外 +20% 闪避值\" class=\"talent\"></image>\n<text x=\"886\" y=\"490\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"level_up_time\">1</text><line x1=\"96\" y1=\"24\" x2=\"864\" y2=\"24\"></line>\n<circle cx=\"96\" cy=\"24\" r=\"15\" class=\"level_circle\"></circle><circle cx=\"224\" cy=\"24\" r=\"15\" class=\"level_circle\"></circle><circle cx=\"352\" cy=\"24\" r=\"15\" class=\"level_circle\"></circle><circle cx=\"480\" cy=\"24\" r=\"15\" class=\"level_circle\"></circle><circle cx=\"608\" cy=\"24\" r=\"15\" class=\"level_circle\"></circle><circle cx=\"736\" cy=\"24\" r=\"15\" class=\"level_circle\"></circle><circle cx=\"864\" cy=\"24\" r=\"15\" class=\"level_circle\"></circle><text x=\"96\" y=\"24\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"points\">0</text><text x=\"224\" y=\"24\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"points\">3</text><text x=\"352\" y=\"24\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"points\">6</text><text x=\"480\" y=\"24\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"points\">9</text><text x=\"608\" y=\"24\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"points\">12</text><text x=\"736\" y=\"24\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"points\">15</text><text x=\"864\" y=\"24\" dominant-baseline=\"middle\" text-anchor=\"middle\" class=\"points\">18</text>\n</g>\n</svg></div></div>\n    </div>\n    </div>\n\n    <footer class=\"text-center text-lg-left container mt-2\">\n      <div class=\"card p-4\">\n        <div class=\"row\">\n\n          <div class=\"col-lg-3 col-md-12 mb-4 mb-md-0\">\n            <h5 class=\"text-uppercase\">Sites</h5>\n            <ul class=\"list-unstyled mb-0\">\n              <li> <a target=\"_blank\" href=\"https://poedb.tw/\">poedb.tw</a> </li>\n              <li> <a target=\"_blank\" href=\"https://tlidb.com/\">tlidb.com</a> </li>\n              <!--<li> <a target=\"_blank\" href=\"https://diablo4.cc/\">diablo4.cc</a> </li>-->\n              <li> <a target=\"_blank\" href=\"https://poe2db.tw/\">poe2db.tw</a> </li>\n              <li> <a target=\"_blank\" href=\"https://paldb.cc/\">paldb.cc</a> </li>\n            </ul>\n          </div>\n\n          <div class=\"col-lg-3 col-md-12 mb-4 mb-md-0\">\n            <h5 class=\"text-uppercase\">About Site</h5>\n            <ul class=\"list-unstyled mb-0\">\n              <li><a href=\"privacy\">Privacy</a></li>\n              <li> <a target=\"_blank\" href=\"https://www.reddit.com/user/chuanhsing\">About US</a> </li>\n            </ul>\n          </div>\n\n          <div class=\"col-lg-3 col-md-6 mb-4 mb-md-0\">\n            <h5 class=\"text-uppercase\">Community</h5>\n            <ul class=\"list-unstyled mb-0\">\n            </ul>\n          </div>\n\n        </div>\n      </div>\n      <div class=\"p-3\">\n\n      <span>资料库内容为测试资料，正确资讯请以官方游戏内的内容为准。</span>\n      </div>\n    </footer>\n\n    <a href=\"#top\" id=\"toTop\"><span class=\"fas fa-arrow-circle-up fa-3x\"></span></a>\n    <div id=\"consent-box\" style=\"display:none\">\n      <button onclick=\"window.__cmp('showModal');\">\n        Update cookie preferences\n      </button>\n    </div>\n    \n    <script>\n      if (window[\"nitroAds\"] && window[\"nitroAds\"].loaded) {\n        document.getElementById(\"consent-box\").style.display = window[\"__tcfapi\"]\n          ? \"\"\n          : \"none\";\n      } else {\n        document.addEventListener(\n          \"nitroAds.loaded\",\n          () =>\n            (document.getElementById(\"consent-box\").style.display = window[\"__tcfapi\"]\n              ? \"\"\n              : \"none\")\n        );\n      }\n    </script>\n  <script defer=\"\" src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon=\"{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;83af079277c347f9ba9fc040e0d21cb5&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}\" crossorigin=\"anonymous\"></script>\n\n\n<ul id=\"ui-id-1\" tabindex=\"0\" class=\"ui-menu ui-widget ui-widget-content ui-autocomplete ui-front\" unselectable=\"on\" style=\"display: none;\"></ul><div role=\"status\" aria-live=\"assertive\" aria-relevant=\"additions\" class=\"ui-helper-hidden-accessible\"></div><iframe marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" id=\"1d42859dc96662\" width=\"0\" height=\"0\" src=\"about:blank\" name=\"__pb_locator__\" style=\"display: none; height: 0px; width: 0px; border: 0px;\"></iframe><iframe name=\"__uspapiLocator\" style=\"display: none;\"></iframe>",
+    "content": "火炬编年史\n英雄\n仓库\n技能\n打造\n成就\n异界\n商城\n            \n神射手 /35\nProfession Tree\n神射手 /35\n狩猎之神的传承\n标签：投射物、闪避\n精通速度之力的狙击者\nReset\n狂风\n24pts\n0/1\n对投射物速度加成的 60% 同样作用于对投射物伤害的额外加成 （神格生效上限：1）\n亢奋\n24pts\n0/1\n每有 1 层灵动祝福，额外 +4% 闪避值 （神格生效上限：1）\n抵近射击\n24pts\n0/1\n投射物对近处的敌人至多额外 +35% 伤害，随距离递减 （神格生效上限：1）\n逃脱大师\n24pts\n0/1\n+1 偏斜层数上限\n闪避时，获得 1 层偏斜 （神格生效上限：1）\n小型天赋\n0/3\n+9% 投射物伤害\n小型天赋\n0/3\n+3% 最大生命\n小型天赋\n0/3\n+7% 闪避值\n中型天赋\n3pts\n0/3\n+18% 投射物伤害\n小型天赋\n3pts\n0/3\n+3% 攻击与施法速度\n中型天赋\n3pts\n0/3\n+6% 最大生命\n小型天赋\n3pts\n0/3\n+450 闪避值\n中型天赋\n3pts\n0/3\n+14% 闪避值\n小型天赋\n6pts\n0/3\n4.5% 投射物伤害\n+3% 投射物速度\n中型天赋\n6pts\n0/3\n+6% 攻击与施法速度\n小型天赋\n6pts\n0/3\n+15% 投射物暴击值\n中型天赋\n6pts\n0/3\n+900 闪避值\n小型天赋\n6pts\n0/3\n1.5% 几率避免伤害\n中型天赋\n9pts\n0/3\n+12% 投射物速度\n中型天赋\n9pts\n0/3\n+30% 投射物暴击值\n中型天赋\n9pts\n0/3\n+15% 投射物暴击伤害\n小型天赋\n9pts\n0/3\n+7% 闪避值\n中型天赋\n9pts\n0/3\n+3% 几率避免伤害\n传奇中型天赋\n12pts\n0/1\n+8% 投射物速度\n投射物伤害随飞行距离递增：对远处的敌人至多 +48% 伤害\n传奇中型天赋\n12pts\n0/1\n对近处的敌人 +60% 投射物伤害\n小型天赋\n12pts\n0/3\n+8 敏捷\n传奇中型天赋\n12pts\n0/1\n+12% 闪避值\n+12% 几率避免元素异常状态\n小型天赋\n15pts\n0/3\n+9% 投射物伤害\n传奇中型天赋\n15pts\n0/1\n每 24 点敏捷， +1% 闪避 （神格生效上限：1）\n小型天赋\n15pts\n0/3\n+10% 灵动祝福持续时间\n拥有灵动祝福时，+7% 闪避值\n小型天赋\n15pts\n0/3\n+7% 闪避值\n传奇中型天赋\n18pts\n0/1\n+1 抛射投射物分裂数量 （神格生效上限：1）\n传奇中型天赋\n18pts\n0/1\n+1 弹射次数\n传奇中型天赋\n18pts\n0/1\n+2 直射投射物穿透次数\n传奇中型天赋\n18pts\n0/1\n每有 1 层灵动祝福， +6% 闪避值 （神格生效上限：1）\n传奇中型天赋\n18pts\n0/1\n对法术伤害，额外 +20% 闪避值 （神格生效上限：1）\nSITES\npoedb.tw\ntlidb.com\npoe2db.tw\npaldb.cc\nABOUT SITE\nPrivacy\nAbout US\nCOMMUNITY\n资料库内容为测试资料，正确资讯请以官方游戏内的内容为准。",
+    "tables": [],
+    "lists": [
+      [
+        "英雄\n              \n                英雄\n                天赋",
+        "英雄",
+        "天赋",
+        "仓库\n              \n                仓库\n                传奇装备\n                异度棱镜\n                \n                契灵\n                \n                掉落来源\n                命运",
+        "仓库",
+        "传奇装备",
+        "异度棱镜",
+        "契灵",
+        "掉落来源",
+        "命运",
+        "技能\n              \n                主动技能\n                辅助技能\n                被动技能\n                \n                触媒技能\n                崇高辅助技能\n                华贵辅助技能\n                提示\n                Hyperlink",
+        "主动技能",
+        "辅助技能",
+        "被动技能",
+        "触媒技能",
+        "崇高辅助技能",
+        "华贵辅助技能",
+        "提示",
+        "Hyperlink",
+        "打造\n              \n                打造\n                \n                侵蚀\n                装备赋能\n                梦语\n                调香秘仪\n                高塔序列\n                缝合",
+        "打造",
+        "侵蚀",
+        "装备赋能",
+        "梦语",
+        "调香秘仪",
+        "高塔序列",
+        "缝合",
+        "成就\n              \n                \n                成长之路\n                \n                \n                \n                \n                帮助手册\n                情报",
+        "成长之路",
+        "",
+        "帮助手册",
+        "情报",
+        "异界\n              \n                异界\n                \n                混乱牌库\n                虚空星图\n                罗盘\n                赛季罗盘\n                \n                勇者之路",
+        "异界",
+        "混乱牌库",
+        "虚空星图",
+        "罗盘",
+        "赛季罗盘",
+        "",
+        "勇者之路",
+        "商城\n              \n    \n                时装\n                通货\n                恩赐",
+        "时装",
+        "通货",
+        "恩赐"
+      ],
+      [
+        "英雄",
+        "天赋"
+      ],
+      [
+        "仓库",
+        "传奇装备",
+        "异度棱镜",
+        "契灵",
+        "掉落来源",
+        "命运"
+      ],
+      [
+        "主动技能",
+        "辅助技能",
+        "被动技能",
+        "触媒技能",
+        "崇高辅助技能",
+        "华贵辅助技能",
+        "提示",
+        "Hyperlink"
+      ],
+      [
+        "打造",
+        "侵蚀",
+        "装备赋能",
+        "梦语",
+        "调香秘仪",
+        "高塔序列",
+        "缝合"
+      ],
+      [
+        "成长之路",
+        "",
+        "帮助手册",
+        "情报"
+      ],
+      [
+        "异界",
+        "混乱牌库",
+        "虚空星图",
+        "罗盘",
+        "赛季罗盘",
+        "",
+        "勇者之路"
+      ],
+      [
+        "时装",
+        "通货",
+        "恩赐"
+      ],
+      [
+        "EN English\n                TW 繁體中文\n                CN 简体中文\n                KO 한국어\n                JA Japanese\n                RU Русский",
+        "EN English",
+        "TW 繁體中文",
+        "CN 简体中文",
+        "KO 한국어",
+        "JA Japanese",
+        "RU Русский"
+      ],
+      [
+        "EN English",
+        "TW 繁體中文",
+        "CN 简体中文",
+        "KO 한국어",
+        "JA Japanese",
+        "RU Русский"
+      ],
+      [
+        "神射手 /35",
+        "Profession Tree"
+      ],
+      [
+        "poedb.tw",
+        "tlidb.com",
+        "poe2db.tw",
+        "paldb.cc"
+      ],
+      [
+        "Privacy",
+        "About US"
+      ]
+    ],
+    "links": [
+      {
+        "href": "https://tlidb.com/cn/",
+        "text": "火炬编年史"
+      },
+      {
+        "href": "https://tlidb.com/cn/Marksman#",
+        "text": "英雄"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hero",
+        "text": "英雄"
+      },
+      {
+        "href": "https://tlidb.com/cn/Talent",
+        "text": "天赋"
+      },
+      {
+        "href": "https://tlidb.com/cn/Marksman#",
+        "text": "仓库"
+      },
+      {
+        "href": "https://tlidb.com/cn/Inventory",
+        "text": "仓库"
+      },
+      {
+        "href": "https://tlidb.com/cn/Legendary_Gear",
+        "text": "传奇装备"
+      },
+      {
+        "href": "https://tlidb.com/cn/Ethereal_Prism",
+        "text": "异度棱镜"
+      },
+      {
+        "href": "https://tlidb.com/cn/Pactspirit",
+        "text": "契灵"
+      },
+      {
+        "href": "https://tlidb.com/cn/Drop_Source",
+        "text": "掉落来源"
+      },
+      {
+        "href": "https://tlidb.com/cn/Destiny",
+        "text": "命运"
+      },
+      {
+        "href": "https://tlidb.com/cn/Marksman#",
+        "text": "技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Active_Skill",
+        "text": "主动技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Support_Skill",
+        "text": "辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Passive_Skill",
+        "text": "被动技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Activation_Medium_Skill",
+        "text": "触媒技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Noble_Support_Skill",
+        "text": "崇高辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Magnificent_Support_Skill",
+        "text": "华贵辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Tip",
+        "text": "提示"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hyperlink",
+        "text": "Hyperlink"
+      },
+      {
+        "href": "https://tlidb.com/cn/Marksman#",
+        "text": "打造"
+      },
+      {
+        "href": "https://tlidb.com/cn/Craft",
+        "text": "打造"
+      },
+      {
+        "href": "https://tlidb.com/cn/Corrosion",
+        "text": "侵蚀"
+      },
+      {
+        "href": "https://tlidb.com/cn/Gear_Empowerment",
+        "text": "装备赋能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Dream_Talking",
+        "text": "梦语"
+      },
+      {
+        "href": "https://tlidb.com/cn/Blending_Rituals",
+        "text": "调香秘仪"
+      },
+      {
+        "href": "https://tlidb.com/cn/TOWER_Sequence",
+        "text": "高塔序列"
+      },
+      {
+        "href": "https://tlidb.com/cn/Graft",
+        "text": "缝合"
+      },
+      {
+        "href": "https://tlidb.com/cn/Marksman#",
+        "text": "成就"
+      },
+      {
+        "href": "https://tlidb.com/cn/Path_of_Progression",
+        "text": "成长之路"
+      },
+      {
+        "href": "https://tlidb.com/cn/Help",
+        "text": "帮助手册"
+      },
+      {
+        "href": "https://tlidb.com/cn/Codex",
+        "text": "情报"
+      },
+      {
+        "href": "https://tlidb.com/cn/Marksman#",
+        "text": "异界"
+      },
+      {
+        "href": "https://tlidb.com/cn/Netherrealm",
+        "text": "异界"
+      },
+      {
+        "href": "https://tlidb.com/cn/Confusion_Card_Library",
+        "text": "混乱牌库"
+      },
+      {
+        "href": "https://tlidb.com/cn/Void_Chart",
+        "text": "虚空星图"
+      },
+      {
+        "href": "https://tlidb.com/cn/Compass",
+        "text": "罗盘"
+      },
+      {
+        "href": "https://tlidb.com/cn/Probe",
+        "text": "赛季罗盘"
+      },
+      {
+        "href": "https://tlidb.com/cn/Path_of_the_Brave",
+        "text": "勇者之路"
+      },
+      {
+        "href": "https://tlidb.com/cn/Marksman#",
+        "text": "商城"
+      },
+      {
+        "href": "https://tlidb.com/cn/Outfit",
+        "text": "时装"
+      },
+      {
+        "href": "https://tlidb.com/cn/Commodity",
+        "text": "通货"
+      },
+      {
+        "href": "https://tlidb.com/cn/Boon",
+        "text": "恩赐"
+      },
+      {
+        "href": "https://tlidb.com/en/Marksman",
+        "text": "EN English"
+      },
+      {
+        "href": "https://tlidb.com/tw/Marksman",
+        "text": "TW 繁體中文"
+      },
+      {
+        "href": "https://tlidb.com/cn/Marksman",
+        "text": "CN 简体中文"
+      },
+      {
+        "href": "https://tlidb.com/ko/Marksman",
+        "text": "KO 한국어"
+      },
+      {
+        "href": "https://tlidb.com/ja/Marksman",
+        "text": "JA Japanese"
+      },
+      {
+        "href": "https://tlidb.com/ru/Marksman",
+        "text": "RU Русский"
+      },
+      {
+        "href": "https://poedb.tw/",
+        "text": "poedb.tw"
+      },
+      {
+        "href": "https://tlidb.com/",
+        "text": "tlidb.com"
+      },
+      {
+        "href": "https://poe2db.tw/",
+        "text": "poe2db.tw"
+      },
+      {
+        "href": "https://paldb.cc/",
+        "text": "paldb.cc"
+      },
+      {
+        "href": "https://tlidb.com/cn/privacy",
+        "text": "Privacy"
+      },
+      {
+        "href": "https://www.reddit.com/user/chuanhsing",
+        "text": "About US"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S13_LegendStitching_03.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S12_LengJing_White01.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S11ChipMatching0_Icon.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/UI_Money_S10EquipEnchantMaterial_10_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S9Pet_FateStar_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S8Gameplay_Snow2_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_MysticTreeRespecPoint_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S6Gameplay_Tile_bench.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S5Gameplay_DreamTreasure_Almighty_C_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/S4/UI_S4Gameplay_talent01_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S3Gameplay_Beads_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S2BossTicket3_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_Item_yimozhihe_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/image/torchlight/p3_20251226_cn.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentAgiS01_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_kuangfeng_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_kangfen_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_dijinsheji_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_taotuodashi_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/AtkSpeed_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/CastSpeed_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Dagger03_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence01_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit02_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgPhys_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence01_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit03_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crossbow02_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Bow01_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit04_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgLightning_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgLightning_64.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_kuangfeng_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_kangfen_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_dijinsheji_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_taotuodashi_Icon_128.webp",
+        "alt": ""
+      }
+    ],
+    "meta": {
+      "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+      "color-scheme": "dark"
+    },
+    "structured_data": {}
+  }
+]

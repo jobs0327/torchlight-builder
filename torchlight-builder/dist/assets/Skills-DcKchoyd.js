@@ -1,0 +1,1 @@
+import{_ as o,o as c,c as a,a as e}from"./index-Bo0N4uTp.js";const t={},n={class:"skills-page"};function l(r,s){return c(),a("div",n,[...s[0]||(s[0]=[e("h1",null,"技能系统",-1),e("p",{class:"coming-soon"},"功能开发中...",-1)])])}const d=o(t,[["render",l],["__scopeId","data-v-3c003d0e"]]);export{d as default};

@@ -1,0 +1,1982 @@
+[
+  {
+    "url": "https://tlidb.com/cn/",
+    "title": "火炬编年史, Torchlight: Infinite Wiki",
+    "html": "\n    <div class=\"background-image\"></div>\n    <!-- Google tag (gtag.js) -->\n    <script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-P6KT6L9KX8\"></script>\n    <script>\n      window.dataLayer = window.dataLayer || [];\n      function gtag(){dataLayer.push(arguments);}\n      gtag('js', new Date());\n    \n      gtag('config', 'G-P6KT6L9KX8');\n    </script>\n\n    <nav class=\"navbar navbar-expand-lg navbar-dark\">\n      <div class=\"container\">\n        <a class=\"navbar-brand\" href=\"/cn/\">火炬编年史</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">英雄</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Hero\">英雄</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Talent\">天赋</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">仓库</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Inventory\">仓库</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Legendary_Gear\">传奇装备</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Ethereal_Prism\">异度棱镜</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_Synthetic_Synthetic\" href=\"/cn/Recipe\">Recipe</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Pactspirit\">契灵</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"function|name|116\" href=\"/cn/Black_Market\">Black Market</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Drop_Source\">掉落来源</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Destiny\">命运</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">技能</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Active_Skill\">主动技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Support_Skill\">辅助技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Passive_Skill\">被动技能</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_SkillBag_SkillType4\" href=\"/cn/Triggered_Skill\">Triggered Skill</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Activation_Medium_Skill\">触媒技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Noble_Support_Skill\">崇高辅助技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Magnificent_Support_Skill\">华贵辅助技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Tip\">提示</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Hyperlink\">Hyperlink</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">打造</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Craft\">打造</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"function|name|131\" href=\"/cn/Enchant\">Enchant</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Corrosion\">侵蚀</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Gear_Empowerment\">装备赋能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Dream_Talking\">梦语</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Blending_Rituals\">调香秘仪</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/TOWER_Sequence\">高塔序列</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Graft\">缝合</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">成就</a>\n              <ul class=\"dropdown-menu\">\n                <!--\n                <li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_Growth_Achievement_Title\" href=\"/cn/Path_of_Achievements\">Path of Achievements</a></li>\n                -->\n                <li><a class=\"dropdown-item\" href=\"/cn/Path_of_Progression\">成长之路</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"season|name1|101\" href=\"/cn/Dark_Surge_Season\">Dark Surge Season</a></li>-->\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_SeasonBook_Title\" href=\"/cn/Season_Pass\">Season Pass</a></li>-->\n                <!--\n                <li><a class=\"dropdown-item\" data-i18n=\"function|name|139\" href=\"/cn/Event\">Event</a></li>\n                -->\n                <li><hr class=\"dropdown-divider\"></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Help\">帮助手册</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Codex\">情报</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">异界</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Netherrealm\">异界</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_MysteryCard_PlayerDeck\" href=\"/cn/Trait_Decks\">Trait Decks</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Confusion_Card_Library\">混乱牌库</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Void_Chart\">虚空星图</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Compass\">罗盘</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Probe\">赛季罗盘</a></li>\n                <li><hr class=\"dropdown-divider\"></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Path_of_the_Brave\">勇者之路</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">商城</a>\n              <ul class=\"dropdown-menu\">\n    <!--\n                <li><a class=\"dropdown-item\" data-i18n=\"function|name|110\" href=\"/cn/Shop\">Shop</a></li>\n    -->\n                <li><a class=\"dropdown-item\" href=\"/cn/Outfit\">时装</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Commodity\">通货</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Boon\">恩赐</a></li>\n              </ul>\n            </li>\n    \n    <!--\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" data-i18n=\"Guide\" href=\"/cn/guides?season=The%20Frozen%20Canvas%20Season\">Guide</a>\n            </li>\n    -->\n    \n          </ul>\n    \n          <!--\n          <a class=\"nav-link2\" style=\"padding-right: 10px\" href=\"https://lihi1.com/cAO3Z\" target=\"_blank\">\n            <img style=\"height: 24px\" \n                src=\"https://cdn.tlidb.com/image/logo/torchlight-48.webp\"\n            />\n          </a>\n    \n          <a class=\"nav-link2\" style=\"padding-right: 10px\"\n            href=\"https://lihi1.com/l1NmL\"\n            target=\"_blank\">\n            <img style=\"height: 24px\" src=\"https://cdn.tlidb.com/image/logo/facebook-48.webp\"/>\n          </a>\n    \n          <a class=\"nav-link2\" style=\"padding-right: 10px\"\n            href=\"https://lihi1.com/neCTK\"\n            target=\"_blank\">\n            <img style=\"height: 24px\" src=\"https://cdn.tlidb.com/image/logo/youtube-48.webp\"/>\n          </a>\n    \n          <a class=\"nav-link2\" style=\"padding-right: 10px\" href=\"https://lihi1.com/owKrQ\" target=\"_blank\">\n            <img style=\"height: 24px\" src=\"https://cdn.tlidb.com/image/logo/discord-48.webp\"/>\n          </a>\n          -->\n    \n          <ul class=\"navbar-nav\">\n            <li class=\"nav-item dropdown\">\n              <a href=\"#\" class=\"nav-link dropdown-toggle\" role=\"button\" data-bs-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"> <i class=\"fas fa-language fa-lg\"></i></a>\n              <ul class=\"dropdown-menu language-menu\">\n                <li><a class=\"dropdown-item\" href=\"/en/\">EN English</a></li>\n                <li><a class=\"dropdown-item\" href=\"/tw/\">TW 繁體中文</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/\">CN 简体中文</a></li>\n                <li><a class=\"dropdown-item\" href=\"/ko/\">KO 한국어</a></li>\n                <li><a class=\"dropdown-item\" href=\"/ja/\">JA Japanese</a></li>\n                <li><a class=\"dropdown-item\" href=\"/ru/\">RU Русский</a></li>\n                <!--\n                <li><a class='dropdown-item' href='/de/'>DE Deutsch</a></li>\n                <li><a class='dropdown-item' href='/es/'>ES Spanish</a></li>\n                <li><a class='dropdown-item' href='/fr/'>FR Français</a></li>\n                <li><a class='dropdown-item' href='/id/'>ID bahasa Indonesia</a></li>\n                <li><a class='dropdown-item' href='/pt/'>PT Português</a></li>\n                <li><a class='dropdown-item' href='/th/'>TH ภาษาไทย</a></li>\n                <li><a class='dropdown-item' href='/vi/'>VI Tiếng Việt</a></li>\n                -->\n              </ul>\n            </li>\n          </ul>\n    \n          <form class=\"d-flex\" role=\"search\" action=\"search\">\n            <input class=\"form-control me-2\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\" id=\"navautosearch\" name=\"q\">\n          </form>\n    \n        </div>\n      </div>\n    </nav>\n\n    <script> sidebar160(\"leftside_banner\", \"left\"); </script>\n    <script> sidebar160(\"rightside_banner\", \"right\"); </script>\n\n    <div class=\"page\">\n    <div class=\"page-content container\" role=\"main\">\n    <div class=\"text-center\">\n    <a href=\"Vorax_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S13_LegendStitching_03.webp\" class=\"size48\"></a>\n    <a href=\"Overrealm_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S12_LengJing_White01.webp\" class=\"size48\"></a>\n    <a href=\"Outlaw_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S11ChipMatching0_Icon.webp\" class=\"size48\"></a>\n    <a href=\"Sandlord_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/UI_Money_S10EquipEnchantMaterial_10_128.webp\" class=\"size48\"></a>\n    <a href=\"Arcana_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S9Pet_FateStar_128.webp\" class=\"size48\"></a>\n    <a href=\"The_Frozen_Canvas_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S8Gameplay_Snow2_128.webp\" class=\"size48\"></a>\n    <a href=\"Clockwork_Ballet_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_MysticTreeRespecPoint_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Whispering_Mist_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S6Gameplay_Tile_bench.webp\" class=\"size48\"></a>\n    <a href=\"Nightmare_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S5Gameplay_DreamTreasure_Almighty_C_128.webp\" class=\"size48\"></a>\n    <a href=\"Aeterna_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/S4/UI_S4Gameplay_talent01_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Cube_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S3Gameplay_Beads_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Blacksail_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S2BossTicket3_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Dark_Surge_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_Item_yimozhihe_Icon_128.webp\" class=\"size48\"></a>\n    </div>\n    <div class=\"text-center mb-2\"><a href=\"https://l.taptap.cn/SyBkGgT1?channel=rep-rep_voftpwn7cks\" target=\"_blank\"><img src=\"https://cdn.tlidb.com/image/torchlight/p3_20251226_cn.webp\" style=\"max-width: 100%;\"></a></div>\n    <div class=\"row row-cols-1 row-cols-lg-3\"><div class=\"col\"><div class=\"card mb-2 \">\n    <div class=\"card-header\"><div class=\"d-flex\">渴瘾赛季<div class=\"ms-auto\">SS11</div></div></div>\n    <div class=\"collapse show\">\n    <div style=\"padding:0.5rem 0.5rem 0.5rem 0.5rem\"><div class=\"row\"><div class=\"col text-center\"><div data-displaytime=\"1768528800\">2026-01-16 10:00</div>Starts in:<div class=\"\" data-countdown=\"1768528800\" data-format=\"day\">59d 16h 42m 44s</div></div></div></div>\n    \n    \n    \n    </div>\n</div></div></div><div class=\"card mt-2\">\n    <div class=\"card-header\">SS11 渴瘾赛季<span class=\"float-end\">2026/1/16 10:00 (GMT+8) ~</span></div>\n    <div class=\"card-body d-flex flex-wrap\">\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Vorax_Season\">渴瘾赛季</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"https://torchlight.xd.cn/news/single?id=xv7LDI6y\" target=\"_blank\">Patch Note</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"https://www.bilibili.com/video/BV1LrrMBQEpH/\" target=\"_blank\">Season Preview VOD</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Vendetta%27s_Sting\">寻仇之刺</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Graft\">缝合</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Vorax_Season_uniques\">传奇装备</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Vorax_Season_skills\">技能界面</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Vorax_Season_items\">物品</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Vorax_Season_pactspirit\">契灵</a>\n    </div>\n</div>\n<div class=\"card mt-2\">\n  <div class=\"card-header\">News</div>\n  <ul class=\"list-group list-group-flush d-flex flex-row flex-wrap\">\n    <li class=\"list-group-item col-lg-6\"><a target=\"_blank\" href=\"https://torchlight.xd.cn/news/single?id=xv7LDI6y\">2026/01/09 【渴瘾症】新赛季情报全面解禁！</a></li>\n    <li class=\"list-group-item col-lg-6\"><a target=\"_blank\" href=\"https://torchlight.xd.cn/news/single?id=buYaN1rB\">2025/09/29 【叠界】SS10赛季前瞻和更新内容解禁！</a></li>\n    <li class=\"list-group-item col-lg-6\"><a target=\"_blank\" href=\"https://torchlight.xd.cn/news/single?id=duQq1hQ7\">2025/07/11 【头号通缉】赛季前瞻和更新内容解禁！</a></li>\n    <li class=\"list-group-item col-lg-6\"><a target=\"_blank\" href=\"https://torchlight.xd.cn/news/single?id=kuPiKemL\">2025/06/27 【头号通缉】宝物将于7月11日运抵嘉年华高塔金库，请赏金猎人们前往拦截！</a></li>\n  </ul>\n</div>\n<div class=\"card mt-2\">\n    <div class=\"card-header\">英雄</div>\n    <div class=\"card-body\">\n        <a class=\"figure\" target=\"\" href=\"Anger\" data-bs-toggle=\"tooltip\" data-bs-title=\"怒火\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Rehan/UI_Portrait_Rehan_01_128.webp\" class=\"size96 border tlborder\" loading=\"lazy\">\n        <figcaption>怒火</figcaption>\n        </a>\n        <a class=\"figure\" target=\"\" href=\"Seething_Silhouette\" data-bs-toggle=\"tooltip\" data-bs-title=\"怒影\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Rehan/UI_Portrait_Rehan_02_128.webp\" class=\"size96 border tlborder\" loading=\"lazy\">\n        <figcaption>怒影</figcaption>\n        </a>\n        <a class=\"figure\" target=\"\" href=\"Ranger_of_Glory\" data-bs-toggle=\"tooltip\" data-bs-title=\"荣光游侠\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Carino/UI_Portrait_Carino_01_128.webp\" class=\"size96 border tlborder\" loading=\"lazy\">\n        <figcaption>荣光游侠</figcaption>\n        </a>\n        <a class=\"figure\" target=\"\" href=\"Lethal_Flash\" data-bs-toggle=\"tooltip\" data-bs-title=\"至暗掠影\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Carino/UI_Portrait_Carino_02_128.webp\" class=\"size96 border tlborder\" loading=\"lazy\">\n        <figcaption>至暗掠影</figcaption>\n        </a>\n        <a class=\"figure\" target=\"\" href=\"Zealot_of_War\" data-bs-toggle=\"tooltip\" data-bs-title=\"战火狂徒\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Carino/UI_Portrait_Carino_03_128.webp\" class=\"size96 border tlborder\" loading=\"lazy\">\n        <figcaption>战火狂徒</figcaption>\n        </a>\n        <a class=\"figure\" target=\"\" href=\"Wind_Stalker\" data-bs-toggle=\"tooltip\" data-bs-title=\"疾风追猎\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Erika/UI_Portrait_Erika_01_128.webp\" class=\"size96 border tlborder\" loading=\"lazy\">\n        <figcaption>疾风追猎</figcaption>\n        </a>\n        <a class=\"figure\" target=\"\" href=\"Lightning_Shadow\" data-bs-toggle=\"tooltip\" data-bs-title=\"电光猫影\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Erika/UI_Portrait_Erika_02_128.webp\" class=\"size96 border tlborder\" loading=\"lazy\">\n        <figcaption>电光猫影</figcaption>\n        </a>\n        <a class=\"figure\" target=\"\" href=\"Vendetta%27s_Sting\" data-bs-toggle=\"tooltip\" data-bs-title=\"寻仇之刺\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Erika/UI_Portrait_Erika_03_128.webp\" class=\"size96 border tlborder\" loading=\"lazy\">\n        <figcaption>寻仇之刺</figcaption>\n        </a>\n        <a class=\"figure\" target=\"\" href=\"Blast_Nova\" data-bs-toggle=\"tooltip\" data-bs-title=\"爆破新星\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Bing/UI_Portrait_Bing_01_128.webp\" class=\"size96 border tlborder\" loading=\"lazy\">\n        <figcaption>爆破新星</figcaption>\n        </a>\n        <a class=\"figure\" target=\"\" href=\"Creative_Genius\" data-bs-toggle=\"tooltip\" data-bs-title=\"创想鬼才\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Bing/UI_Portrait_Bing_02_128.webp\" class=\"size96 border tlborder\" loading=\"lazy\">\n        <figcaption>创想鬼才</figcaption>\n        </a>\n        <a class=\"figure\" target=\"\" href=\"Flame_of_Pleasure\" data-bs-toggle=\"tooltip\" data-bs-title=\"欢愉之焰\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Gemma/UI_Portrait_Gemma_03_128.webp\" class=\"size96 border tlborder\" loading=\"lazy\">\n        <figcaption>欢愉之焰</figcaption>\n        </a>\n        <a class=\"figure\" target=\"\" href=\"Frostbitten_Heart\" data-bs-toggle=\"tooltip\" data-bs-title=\"冰结之心\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Gemma/UI_Portrait_Gemma_02_128.webp\" class=\"size96 border tlborder\" loading=\"lazy\">\n        <figcaption>冰结之心</figcaption>\n        </a>\n        <a class=\"figure\" target=\"\" href=\"Ice-Fire_Fusion\" data-bs-toggle=\"tooltip\" data-bs-title=\"冰火融合\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Gemma/UI_Portrait_Gemma_01_128.webp\" class=\"size96 border tlborder\" loading=\"lazy\">\n        <figcaption>冰火融合</figcaption>\n        </a>\n        <a class=\"figure\" target=\"\" href=\"Wisdom_of_The_Gods\" data-bs-toggle=\"tooltip\" data-bs-title=\"众神之伟智\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Thea/UI_Portrait_Thea_01_128.webp\" class=\"size96 border tlborder\" loading=\"lazy\">\n        <figcaption>众神之伟智</figcaption>\n        </a>\n        <a class=\"figure\" target=\"\" href=\"Incarnation_of_the_Gods\" data-bs-toggle=\"tooltip\" data-bs-title=\"众神之化身\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Thea/UI_Portrait_Thea_02_128.webp\" class=\"size96 border tlborder\" loading=\"lazy\">\n        <figcaption>众神之化身</figcaption>\n        </a>\n        <a class=\"figure\" target=\"\" href=\"Blasphemer\" data-bs-toggle=\"tooltip\" data-bs-title=\"渎神\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Thea/UI_Portrait_Thea_03_128.webp\" class=\"size96 border tlborder\" loading=\"lazy\">\n        <figcaption>渎神</figcaption>\n        </a>\n        <a class=\"figure\" target=\"\" href=\"Spacetime_Illusion\" data-bs-toggle=\"tooltip\" data-bs-title=\"时空幻象\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Youga/UI_Portrait_Youga_01_128.webp\" class=\"size96 border tlborder\" loading=\"lazy\">\n        <figcaption>时空幻象</figcaption>\n        </a>\n        <a class=\"figure\" target=\"\" href=\"Spacetime_Elapse\" data-bs-toggle=\"tooltip\" data-bs-title=\"时空流逝\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Youga/UI_Portrait_Youga_02_128.webp\" class=\"size96 border tlborder\" loading=\"lazy\">\n        <figcaption>时空流逝</figcaption>\n        </a>\n        <a class=\"figure\" target=\"\" href=\"Order_Calling\" data-bs-toggle=\"tooltip\" data-bs-title=\"号令征召\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Moto/UI_Portrait_Moto_01_128.webp\" class=\"size96 border tlborder\" loading=\"lazy\">\n        <figcaption>号令征召</figcaption>\n        </a>\n        <a class=\"figure\" target=\"\" href=\"Charge_Calling\" data-bs-toggle=\"tooltip\" data-bs-title=\"冲锋征召\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Moto/UI_Portrait_Moto_02_128.webp\" class=\"size96 border tlborder\" loading=\"lazy\">\n        <figcaption>冲锋征召</figcaption>\n        </a>\n        <a class=\"figure\" target=\"\" href=\"High_Court_Chariot\" data-bs-toggle=\"tooltip\" data-bs-title=\"圣庭战车\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Rosa/UI_Portrait_Rosa_01_128.webp\" class=\"size96 border tlborder\" loading=\"lazy\">\n        <figcaption>圣庭战车</figcaption>\n        </a>\n        <a class=\"figure\" target=\"\" href=\"Unsullied_Blade\" data-bs-toggle=\"tooltip\" data-bs-title=\"无垢之刃\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Rosa/UI_Portrait_Rosa_02_128.webp\" class=\"size96 border tlborder\" loading=\"lazy\">\n        <figcaption>无垢之刃</figcaption>\n        </a>\n        <a class=\"figure\" target=\"\" href=\"Growing_Breeze\" data-bs-toggle=\"tooltip\" data-bs-title=\"生长的微风\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Iris/UI_Portrait_Iris_01_128.webp\" class=\"size96 border tlborder\" loading=\"lazy\">\n        <figcaption>生长的微风</figcaption>\n        </a>\n        <a class=\"figure\" target=\"\" href=\"Vigilant_Breeze\" data-bs-toggle=\"tooltip\" data-bs-title=\"守望的暖风\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Iris/UI_Portrait_Iris_02_128.webp\" class=\"size96 border tlborder\" loading=\"lazy\">\n        <figcaption>守望的暖风</figcaption>\n        </a>\n        <a class=\"figure\" target=\"\" href=\"Sing_with_the_Tide\" data-bs-toggle=\"tooltip\" data-bs-title=\"与海潮同歌\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Selena/UI_Portrait_Selena_01_128.webp\" class=\"size96 border tlborder\" loading=\"lazy\">\n        <figcaption>与海潮同歌</figcaption>\n        </a>\n    </div>\n</div>\n<div class=\"row row-cols-1 row-cols-lg-2 g-2 mt-2\">\n<div class=\"col\">\n  <div class=\"card\">\n    <div class=\"card-header\">巨力之神</div>\n    <div class=\"card-body\">\n      <a class=\"figure\" href=\"God_of_Might\" data-bs-toggle=\"tooltip\" data-bs-title=\"巨力之神\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentStr_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>巨力之神</figcaption>\n      </a>\n      <a class=\"figure\" href=\"The_Brave\" data-bs-toggle=\"tooltip\" data-bs-title=\"勇者\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentStrS01_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>勇者</figcaption>\n      </a>\n      <a class=\"figure\" href=\"Onslaughter\" data-bs-toggle=\"tooltip\" data-bs-title=\"猛袭者\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentStrS02_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>猛袭者</figcaption>\n      </a>\n      <a class=\"figure\" href=\"Warlord\" data-bs-toggle=\"tooltip\" data-bs-title=\"督军\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentStrS03_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>督军</figcaption>\n      </a>\n      <a class=\"figure\" href=\"Warrior\" data-bs-toggle=\"tooltip\" data-bs-title=\"斗士\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentStrS04_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>斗士</figcaption>\n      </a>\n    </div>\n  </div>\n</div>\n<div class=\"col\">\n  <div class=\"card\">\n    <div class=\"card-header\">狩猎之神</div>\n    <div class=\"card-body\">\n      <a class=\"figure\" href=\"Goddess_of_Hunting\" data-bs-toggle=\"tooltip\" data-bs-title=\"狩猎之神\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentAgi_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>狩猎之神</figcaption>\n      </a>\n      <a class=\"figure\" href=\"Marksman\" data-bs-toggle=\"tooltip\" data-bs-title=\"神射手\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentAgiS01_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>神射手</figcaption>\n      </a>\n      <a class=\"figure\" href=\"Bladerunner\" data-bs-toggle=\"tooltip\" data-bs-title=\"刀锋行者\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentAgiS02_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>刀锋行者</figcaption>\n      </a>\n      <a class=\"figure\" href=\"Druid\" data-bs-toggle=\"tooltip\" data-bs-title=\"德鲁伊\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentAgiS03_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>德鲁伊</figcaption>\n      </a>\n      <a class=\"figure\" href=\"Assassin\" data-bs-toggle=\"tooltip\" data-bs-title=\"刺客\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentAgiS04_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>刺客</figcaption>\n      </a>\n    </div>\n  </div>\n</div>\n<div class=\"col\">\n  <div class=\"card\">\n    <div class=\"card-header\">知识之神</div>\n    <div class=\"card-body\">\n      <a class=\"figure\" href=\"Goddess_of_Knowledge\" data-bs-toggle=\"tooltip\" data-bs-title=\"知识之神\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentInt_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>知识之神</figcaption>\n      </a>\n      <a class=\"figure\" href=\"Magister\" data-bs-toggle=\"tooltip\" data-bs-title=\"魔导师\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentIntS01_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>魔导师</figcaption>\n      </a>\n      <a class=\"figure\" href=\"Arcanist\" data-bs-toggle=\"tooltip\" data-bs-title=\"秘术师\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentIntS02_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>秘术师</figcaption>\n      </a>\n      <a class=\"figure\" href=\"Elementalist\" data-bs-toggle=\"tooltip\" data-bs-title=\"元素师\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentIntS03_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>元素师</figcaption>\n      </a>\n      <a class=\"figure\" href=\"Prophet\" data-bs-toggle=\"tooltip\" data-bs-title=\"先知\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentIntS04_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>先知</figcaption>\n      </a>\n    </div>\n  </div>\n</div>\n<div class=\"col\">\n  <div class=\"card\">\n    <div class=\"card-header\">征战之神</div>\n    <div class=\"card-body\">\n      <a class=\"figure\" href=\"God_of_War\" data-bs-toggle=\"tooltip\" data-bs-title=\"征战之神\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentSA_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>征战之神</figcaption>\n      </a>\n      <a class=\"figure\" href=\"Shadowdancer\" data-bs-toggle=\"tooltip\" data-bs-title=\"影舞者\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentSAS01_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>影舞者</figcaption>\n      </a>\n      <a class=\"figure\" href=\"Ronin\" data-bs-toggle=\"tooltip\" data-bs-title=\"神行武士\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentSAS02_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>神行武士</figcaption>\n      </a>\n      <a class=\"figure\" href=\"Ranger\" data-bs-toggle=\"tooltip\" data-bs-title=\"游侠\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentSAS03_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>游侠</figcaption>\n      </a>\n      <a class=\"figure\" href=\"Sentinel\" data-bs-toggle=\"tooltip\" data-bs-title=\"铁卫\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentSAS04_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>铁卫</figcaption>\n      </a>\n    </div>\n  </div>\n</div>\n<div class=\"col\">\n  <div class=\"card\">\n    <div class=\"card-header\">欺诈之神</div>\n    <div class=\"card-body\">\n      <a class=\"figure\" href=\"Goddess_of_Deception\" data-bs-toggle=\"tooltip\" data-bs-title=\"欺诈之神\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentAI_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>欺诈之神</figcaption>\n      </a>\n      <a class=\"figure\" href=\"Shadowmaster\" data-bs-toggle=\"tooltip\" data-bs-title=\"驭影者\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentAIS01_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>驭影者</figcaption>\n      </a>\n      <a class=\"figure\" href=\"Psychic\" data-bs-toggle=\"tooltip\" data-bs-title=\"异能者\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentAIS02_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>异能者</figcaption>\n      </a>\n      <a class=\"figure\" href=\"Warlock\" data-bs-toggle=\"tooltip\" data-bs-title=\"暗影术士\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentAIS03_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>暗影术士</figcaption>\n      </a>\n      <a class=\"figure\" href=\"Lich\" data-bs-toggle=\"tooltip\" data-bs-title=\"巫妖\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentAIS04_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>巫妖</figcaption>\n      </a>\n    </div>\n  </div>\n</div>\n<div class=\"col\">\n  <div class=\"card\">\n    <div class=\"card-header\">机械之神</div>\n    <div class=\"card-body\">\n      <a class=\"figure\" href=\"God_of_Machines\" data-bs-toggle=\"tooltip\" data-bs-title=\"机械之神\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentSI_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>机械之神</figcaption>\n      </a>\n      <a class=\"figure\" href=\"Machinist\" data-bs-toggle=\"tooltip\" data-bs-title=\"机械师\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentSIS01_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>机械师</figcaption>\n      </a>\n      <a class=\"figure\" href=\"Steel_Vanguard\" data-bs-toggle=\"tooltip\" data-bs-title=\"钢铁先锋\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentSIS02_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>钢铁先锋</figcaption>\n      </a>\n      <a class=\"figure\" href=\"Alchemist\" data-bs-toggle=\"tooltip\" data-bs-title=\"炼金术士\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentSIS03_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>炼金术士</figcaption>\n      </a>\n      <a class=\"figure\" href=\"Artisan\" data-bs-toggle=\"tooltip\" data-bs-title=\"巧匠\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentSIS04_128.webp\" class=\"size96\" loading=\"lazy\">\n        <figcaption>巧匠</figcaption>\n      </a>\n    </div>\n  </div>\n</div>\n</div>\n<div class=\"row mt-2\"><div class=\"col-lg-6\"><div class=\"card\">\n    <div class=\"card-header\">装备</div>\n    <div class=\"card-body\">\n        <div class=\"py-2\">\n            <span class=\"p-2\">头部</span>:\n            <a href=\"STR_Helmet\" class=\"p-2\">力量头部</a>\n            <a href=\"DEX_Helmet\" class=\"p-2\">敏捷头部</a>\n            <a href=\"INT_Helmet\" class=\"p-2\">智慧头部</a>\n        </div>\n        <div class=\"py-2\">\n            <span class=\"p-2\">胸甲</span>:\n            <a href=\"STR_Chest_Armor\" class=\"p-2\">力量胸甲</a>\n            <a href=\"DEX_Chest_Armor\" class=\"p-2\">敏捷胸甲</a>\n            <a href=\"INT_Chest_Armor\" class=\"p-2\">智慧胸甲</a>\n        </div>\n        <div class=\"py-2\">\n            <span class=\"p-2\">手套</span>:\n            <a href=\"STR_Gloves\" class=\"p-2\">力量手套</a>\n            <a href=\"DEX_Gloves\" class=\"p-2\">敏捷手套</a>\n            <a href=\"INT_Gloves\" class=\"p-2\">智慧手套</a>\n        </div>\n        <div class=\"py-2\">\n            <span class=\"p-2\">鞋子</span>:\n            <a href=\"STR_Boots\" class=\"p-2\">力量鞋子</a>\n            <a href=\"DEX_Boots\" class=\"p-2\">敏捷鞋子</a>\n            <a href=\"INT_Boots\" class=\"p-2\">智慧鞋子</a>\n        </div>\n        <div class=\"py-2\">\n            <span class=\"p-2\">单手</span>:\n            <a href=\"Claw\" class=\"p-2\">爪</a>\n            <a href=\"Dagger\" class=\"p-2\">匕首</a>\n            <a href=\"One-Handed_Sword\" class=\"p-2\">单手剑</a>\n            <a href=\"One-Handed_Hammer\" class=\"p-2\">单手锤</a>\n            <a href=\"One-Handed_Axe\" class=\"p-2\">单手斧</a>\n            <a href=\"Wand\" class=\"p-2\">法杖</a>\n            <a href=\"Rod\" class=\"p-2\">灵杖</a>\n            <a href=\"Scepter\" class=\"p-2\">魔杖</a>\n            <a href=\"Cane\" class=\"p-2\">手杖</a>\n            <a href=\"Pistol\" class=\"p-2\">手枪</a>\n        </div>\n        <div class=\"py-2\">\n            <span class=\"p-2\">双手</span>:\n            <a href=\"Two-Handed_Sword\" class=\"p-2\">双手剑</a>\n            <a href=\"Two-Handed_Hammer\" class=\"p-2\">双手锤</a>\n            <a href=\"Two-Handed_Axe\" class=\"p-2\">双手斧</a>\n            <a href=\"Tin_Staff\" class=\"p-2\">锡杖</a>\n            <a href=\"Cudgel\" class=\"p-2\">武杖</a>\n            <a href=\"Bow\" class=\"p-2\">弓</a>\n            <a href=\"Crossbow\" class=\"p-2\">弩</a>\n            <a href=\"Musket\" class=\"p-2\">火枪</a>\n            <a href=\"Fire_Cannon\" class=\"p-2\">火炮</a>\n        </div>\n        <div class=\"py-2\">\n            <span class=\"p-2\">盾牌</span>:\n            <a href=\"STR_Shield\" class=\"p-2\">力量盾牌</a>\n            <a href=\"DEX_Shield\" class=\"p-2\">敏捷盾牌</a>\n            <a href=\"INT_Shield\" class=\"p-2\">智慧盾牌</a>\n        </div>\n        <div class=\"py-2\">\n            <span class=\"p-2\">饰品</span>:\n            <a href=\"Necklace\" class=\"p-2\">项链</a>\n            <a href=\"Ring\" class=\"p-2\">戒指</a>\n            <a href=\"Belt\" class=\"p-2\">腰带</a>\n            <a href=\"Spirit_Ring\" class=\"p-2\">灵戒</a>\n        </div>\n        <div class=\"py-2\">\n            <span class=\"p-2\">英雄</span>:\n            <a href=\"Hero_Memories\" class=\"p-2\">英雄追忆</a>\n            <a href=\"Divinity_Slate\" class=\"p-2\">神格石板</a>\n        </div>\n        <div class=\"py-2\">\n            <a href=\"Destiny\" class=\"p-2\">命运</a>\n            <a href=\"Ethereal_Prism\" class=\"p-2\">异度棱镜</a>\n        </div>\n        <div class=\"py-2\">\n            <span class=\"p-2\">渴瘾症</span>:\n            <a href=\"Vorax_Limb%3A_Head\" class=\"p-2\">渴瘾肢体：脑部</a>\n            <a href=\"Vorax_Limb%3A_Chest\" class=\"p-2\">渴瘾肢体：胸部</a>\n            <a href=\"Vorax_Limb%3A_Hands\" class=\"p-2\">渴瘾肢体：手部</a>\n            <a href=\"Vorax_Limb%3A_Legs\" class=\"p-2\">渴瘾肢体：腿部</a>\n            <a href=\"Vorax_Aberrant_Limb%3A_Legs\" class=\"p-2\">渴瘾异肢：腿部</a>\n            <a href=\"Vorax_Limb%3A_Neck\" class=\"p-2\">渴瘾肢体：颈部</a>\n            <a href=\"Vorax_Limb%3A_Digits\" class=\"p-2\">渴瘾肢体：指部</a>\n            <a href=\"Vorax_Aberrant_Limb%3A_Digits\" class=\"p-2\">渴瘾异肢：指部</a>\n            <a href=\"Vorax_Limb%3A_Waist\" class=\"p-2\">渴瘾肢体：腰部</a>\n            <a href=\"Vorax_Aberrant_Limb%3A_Waist\" class=\"p-2\">渴瘾异肢：腰部</a>\n        </div>\n\n    </div>\n</div>\n</div><div class=\"col-lg-6\"><div class=\"card mt-2\">\n    <div class=\"card-header\">仓库</div>\n    <div class=\"card-body d-flex flex-wrap\">\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Fluorescent_Memory\">记忆荧光</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Active_Skill\">主动技能</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Support_Skill\">辅助技能</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Passive_Skill\">被动技能</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Activation_Medium_Skill\">触媒技能</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Magnificent_Support_Skill\">华贵辅助技能</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Noble_Support_Skill\">崇高辅助技能</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Universal_Items\">通用道具</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Compass\">罗盘</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Probe\">探针</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Season_Compass\">赛季罗盘</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Dream_Talking\">梦语</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Ember\">灰烬</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Fossil\">化石</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Fuel\">燃料</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Divinity_Emblems\">神威纹章</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Dark_Surge_Edict\">黑潮敕令</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Void_Sea_Invitation\">虚海请柬</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Desire_Core\">欲念原核</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Queen%27s_Wick\">王后烛芯</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Queen%27s_Grace\">女王恩宠</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Beacon\">信标</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Primeval_Core\">原初之核</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Proof_of_the_Brave\">勇者之证</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Corrosion_Material\">侵蚀材料</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Memory_Scrap\">追忆碎絮</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Memory_Thread\">追忆游丝</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Transcendence_Wedge\">升华之楔</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Unifying_Wedge\">归一之楔</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Divinity_Pact\">神格契约</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Divinity_Fragment\">神格残片</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Divinity_Stone\">神威辉石</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"The_City_of_Aeterna\">永恒迷城</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Aeterna_Reverberation\">迷城残响</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Whispering_Mist\">雾都怪谈</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"TOWER_Token\">高塔筹码</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"God_of_Might\">巨力之神</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Goddess_of_Hunting\">狩猎之神</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Goddess_of_Knowledge\">知识之神</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"God_of_War\">征战之神</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Goddess_of_Deception\">欺诈之神</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"God_of_Machines\">机械之神</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Gear_Blueprint\">装备蓝图</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"The_Frozen_Canvas\">画中雪原</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Destiny_Related\">命运相关</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Inverse_Image_Echo\">逆像的残影</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Undetermined_Fate\">未定宿命</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Aromatic_Material\">香料</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Mod\">元件</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Ethereal_Prism\">异度棱镜</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Special_Prism\">特殊棱镜</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Prism_Gauge\">棱镜校尺</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Prism_Level\">棱镜水平仪</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Prism_Repairer\">棱镜修复仪</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Normal_Organ\">普通器官</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Flawless_Wings_-_Persistent\">完美羽翼-持续</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Flawless_Skin_-_Defensive\">完美皮肤-防御</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Flawless_Eyes_-_Debuff\">完美眼球-减益</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Flawless_Embryo_-_Summon\">完美胚胎-召唤</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Flawless_Heart_-_Buff\">完美心脏-增益</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Flawless_Tongue_-_Blessing\">完美喉舌-祝福</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Flawless_Liver_-_Damage_Conversion\">完美肝脏-转伤</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Special_Organ_-_Other\">特殊器官-其它</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Core_Organ_-_Helmet\">核心器官-头部</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Core_Organ_-_Chest_Armor\">核心器官-胸甲</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Core_Organ_-_Gloves\">核心器官-手套</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Core_Organ_-_Boots\">核心器官-鞋子</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Core_Organ_-_Ring\">核心器官-戒指</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Core_Organ_-_Necklace\">核心器官-项链</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Core_Organ_-_Belt\">核心器官-腰带</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Cutting_Instrument\">切割器具</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Imprinting_Iron\">拓印烙铁</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Suture\">缝线</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Vorax_Amputated_Limb\">渴瘾残肢</a>\n    </div>\n</div>\n</div></div><div class=\"card mt-2\">\n    <div class=\"card-header\">剧情</div>\n    <div class=\"card-body d-flex flex-wrap\">\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Chapter_1\">第一章</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Chapter_2\">第二章</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Chapter_3\">第三章</a>\n    </div>\n</div>\n<div class=\"card mt-2\">\n    <div class=\"card-header\">玩法</div>\n    <div class=\"card-body d-flex flex-wrap\">\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Netherrealm\">异界</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Confusion_Card_Library\">混乱牌库</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Path_of_the_Brave\">勇者之路</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Gameplay_-_Trial%3A_God_of_War\">玩法-征战之神的试炼</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Gameplay_-_Trial%3A_God_of_Might\">玩法-巨力之神的试炼</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Gameplay_-_Trial%3A_God_of_Machines\">玩法-机械之神的试炼</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Gameplay_-_Trial%3A_Goddess_of_Hunting\">玩法-狩猎之神的试炼</a>\n    </div>\n</div>\n<div class=\"card mt-2\">\n    <div class=\"card-header\">成长之路</div>\n    <div class=\"card-body d-flex flex-wrap\">\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Journey\">旅程</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Skill\">技能</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Gear\">装备</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Hero_Memories\">英雄追忆</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Loot\">打宝</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Divinity_Slate\">神格石板</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Challenge\">挑战</a>\n    </div>\n</div>\n<div class=\"card mt-2\">\n    <div class=\"card-header\">情报</div>\n    <div class=\"card-body d-flex flex-wrap\">\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Pages\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/TabCardIcon/NoAtlas/UI_Gather_ICONTAB1.webp\" width=\"32\" loading=\"lazy\">书页</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Glyph\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/TabCardIcon/NoAtlas/UI_Gather_ICONTAB2.webp\" width=\"32\" loading=\"lazy\">铭文</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Geography\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/TabCardIcon/NoAtlas/UI_Gather_ICONTAB3.webp\" width=\"32\" loading=\"lazy\">地理</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Environment\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/TabCardIcon/NoAtlas/UI_Gather_ICONTAB4.webp\" width=\"32\" loading=\"lazy\">风物</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"History\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/TabCardIcon/NoAtlas/UI_Gather_ICONTAB5.webp\" width=\"32\" loading=\"lazy\">历史</a>\n    </div>\n</div>\n<div class=\"card mt-2\">\n    <div class=\"card-header\">商城</div>\n    <div class=\"card-body d-flex flex-wrap\">\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Account\">账号功能</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Pactspirit_Shop\">契灵商店</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Pack\">礼包</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Illusion_Essence_Shop\">幻想精华商店</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Outfit_Shop\">时装商店</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Ultimate_Shop\">至臻商店</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Outfit_Pack\">时装礼包</a>\n    </div>\n</div>\n<div class=\"card mt-2\">\n    <div class=\"card-header\">时装</div>\n    <div class=\"card-body d-flex flex-wrap\">\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Hero_Outfit\">英雄时装</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Weapon_Skin\">武器时装</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Weapon_Skin\">武器时装</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Headdress\">头饰</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Back_accessory\">背饰</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Skill_Outfit\">技能时装</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Body_effect\">身体特效</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Footprint_effect\">足迹特效</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Teleport_effect\">传送特效</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Weapon_effect\">武器特效</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Weapon_effect\">武器特效</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Portrait\">头像</a>\n    </div>\n</div>\n<div class=\"card mt-2\">\n    <div class=\"card-header\">SS10 叠界赛季<span class=\"float-end\">2025/10/11 10:00 (GMT+8) ~</span></div>\n    <div class=\"card-body d-flex flex-wrap\">\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Overrealm_Season\">叠界赛季</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"https://torchlight.xd.cn/news/single?id=buYaN1rB\" target=\"_blank\">Patch Note</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"https://www.bilibili.com/video/BV1gKn6zPEfR/\" target=\"_blank\">Season Preview VOD</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Containment_Dossier\">收容档案</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Ethereal_Prism\">异度棱镜</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Special_Prism\">特殊棱镜</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Prism_Gauge\">棱镜校尺</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Creative_Genius\">创想鬼才</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Combo\">连携</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Overrealm_Season_uniques\">传奇装备</a>\n    </div>\n</div>\n<div class=\"card mt-2\">\n    <div class=\"card-header\">SS9 通缉赛季<span class=\"float-end\">2025/7/18 10:00 (GMT+8) ~ 10/10</span></div>\n    <div class=\"card-body d-flex flex-wrap\">\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Outlaw_Season\">通缉赛季</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"https://torchlight.xd.cn/news/single?id=duQq1hQ7\" target=\"_blank\">Patch Note</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"https://www.bilibili.com/video/BV1ZSugzwEj1/\" target=\"_blank\">Season Preview VOD</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"TOWER_Sequence\">高塔序列</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Hot_Streak\">好运时刻</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Crime_Rating\">犯罪星级</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"TOWER_Co._Central_Vault\">高塔中央金库</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Unsullied_Blade\">无垢之刃</a>\n    </div>\n</div>\n<div class=\"card mt-2\">\n    <div class=\"card-header\">SS8 大亨赛季<span class=\"float-end\">2025/04/18 10:00 (GMT+8) ~ 2025/7/18</span></div>\n    <div class=\"card-body d-flex flex-wrap\">\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Sandlord_Season\">大亨赛季</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"https://torchlight.xd.cn/news/single?id=euI8bgFS\" target=\"_blank\">Patch Note</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"https://www.bilibili.com/video/BV1YsdhYWEa7/\" target=\"_blank\">Season Preview VOD</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Cloud_Oasis\">云端绿洲</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Blending_Rituals\">调香秘仪</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Aromatic_Material\">香料</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Blasphemer\">渎神</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Season_Compass\">赛季罗盘</a>\n    </div>\n</div>\n<div class=\"card mt-2\">\n    <div class=\"card-header\">SS7 塔罗赛季<span class=\"float-end\">2025/01/10 10:00 (GMT+8) ~ 04/18 10:00</span></div>\n    <div class=\"card-body d-flex flex-wrap\">\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Arcana_Season\">塔罗赛季</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"https://torchlight.xd.cn/news/single?id=buySzds8\" target=\"_blank\">Patch Note</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"https://www.bilibili.com/video/BV16prxYEEtj/\" target=\"_blank\">Season Preview VOD</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Tarot_Path\">塔罗秘径</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Destiny\">命运</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Vigilant_Breeze\">守望的暖风</a>\n    </div>\n</div>\n<div class=\"card mt-2\">\n    <div class=\"card-header\">SS6 画雪赛季<span class=\"float-end\">2024/10/25 10:00 (GMT+8) ~ 2025/1/9</span></div>\n    <div class=\"card-body d-flex flex-wrap\">\n        <a class=\"p-1 m-1 d-inline-block \" href=\"The_Frozen_Canvas_Season\">画雪赛季</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"https://www.taptap.cn/moment/595992469095581592\" target=\"_blank\">Patch Note</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"https://www.bilibili.com/video/BV1s72SYBEQ6/\" target=\"_blank\">Season Preview VOD</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Noble_Support_Skill\">崇高辅助技能</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Magnificent_Support_Skill\">华贵辅助技能</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Aureate_Calamity_Ordrak\">金色浩劫·奥达克</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Supreme_Showdown\">巅峰对决</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Hero_Memories\">英雄追忆</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Sing_with_the_Tide\">与海潮同歌</a>\n    </div>\n</div>\n<div class=\"card mt-2\">\n    <div class=\"card-header\">SS5 玩偶赛季<span class=\"float-end\">2024/07/05 10:00 (GMT+8) ~ 2024/10/24</span></div>\n    <div class=\"card-body d-flex flex-wrap\">\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Clockwork_Ballet_Season\">玩偶赛季</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"https://torchlight.xd.cn/news/single?id=9ugZrpXl\" target=\"_blank\">Patch Note</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"https://www.bilibili.com/video/BV1jJ4m1u7CR/\" target=\"_blank\">Season Preview VOD</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Clockwork_Ballet_Member_Services\">玩偶俱乐部会员服务</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Zealot_of_War\">战火狂徒</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Void_Chart\">虚空星图</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"\"></a>\n    </div>\n</div>\n<div class=\"card mt-2\">\n    <div class=\"card-header\">SS4 怪谈赛季<span class=\"float-end\">2024/04/19 10:00 (GMT+8) ~ 2024/07/04</span></div>\n    <div class=\"card-body d-flex flex-wrap\">\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Whispering_Mist_Season\">怪谈赛季</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"https://torchlight.xd.cn/news/single?id=fu9r19zA\" target=\"_blank\">Patch Note</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"https://www.bilibili.com/video/BV1ET421U79K/\" target=\"_blank\">Season Preview VOD</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Deduction_Record\">推理记录</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Mistville_Exploration\">雾都探索</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Mistville_Trader\">雾都商人</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Lightning_Shadow\">电光猫影</a>\n    </div>\n</div>\n<div class=\"card mt-2\">\n    <div class=\"card-header\">SS3季前赛<span class=\"float-end\">2024/02/23 10AM (GMT+8) ~ </span></div>\n    <div class=\"card-body d-flex flex-wrap\">\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Preseason_SS4\">SS3季前赛</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"https://www.youtube.com/watch?v=PMmCX6hYAXY\" target=\"_blank\">Season Preview VOD</a>\n    </div>\n</div>\n<div class=\"card mt-2\">\n    <div class=\"card-header\">SS3 梦魇赛季<span class=\"float-end\">2023/12/29 ~ 2024/04/18</span></div>\n    <div class=\"card-body d-flex flex-wrap\">\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Nightmare_Season\">梦魇赛季</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"https://torchlight.xd.cn/news/single?id=ytYLMpG8\" target=\"_blank\">Patch Note</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"https://www.youtube.com/watch?v=QV2zWcQWxFQ\" target=\"_blank\">Season Preview VOD</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Dream_Talking\">梦语</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Dream_Bubbles\">梦境泡影</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Dream_Cloud_Atlas\">梦境云图</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"High_Court_Chariot\">圣庭战车</a>\n    </div>\n</div>\n<div class=\"card mt-2\">\n    <div class=\"card-header\">SS1季前赛<span class=\"float-end\">2023/10/27 10AM (GMT+8) ~ 2023/11/27</span></div>\n    <div class=\"card-body d-flex flex-wrap\">\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Preseason_SS3\">SS1季前赛</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"https://www.youtube.com/watch?v=JFaKERMysOo\" target=\"_blank\">Season Preview VOD</a>\n    </div>\n</div>\n<div class=\"card mt-2\">\n    <div class=\"card-header\">SS2 迷城赛季<span class=\"float-end\">2023/9/8 ~ 2023/12/28</span></div>\n    <div class=\"card-body d-flex flex-wrap\">\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Aeterna_Season\">迷城赛季</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"https://torchlight.xd.cn/news/single?id=mtNPWg0u\" target=\"_blank\">Patch Note</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"https://torchlight.xd.cn/news/single?id=atNQ0vcZ\" target=\"_blank\">Balance Adjustments</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"https://torchlight.xd.cn/news/single?id=otOS6a7G\" target=\"_blank\">Balance Adjustment Supplement</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"https://www.youtube.com/watch?v=Quk1O9BQY-8\" target=\"_blank\">Season Preview VOD</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Aeterna_Map\">迷城版图</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Psalms_of_Aeterna\">永恒诗篇</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Pages_of_Aeterna\">永恒残页</a>\n    </div>\n</div>\n<div class=\"card mt-2\">\n    <div class=\"card-header\">SS1 魔方赛季<span class=\"float-end\">2023-04-10 ~ 2023-09-07</span></div>\n    <div class=\"card-body d-flex flex-wrap\">\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Cube_Season\">魔方赛季</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"https://torchlight.xd.cn/news/single/?id=ptBW3rSm\" target=\"_blank\">Patch Note</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"https://torchlight.xd.cn/news/single/?id=7tCOzwuh\" target=\"_blank\">Balance Adjustments</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Divinity_Slate\">神格石板</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Avarice_Code\">黑心者律典</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Spell_Burst\">法术迸发</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Command\">统御</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"The_Law_Bearer\">持律人</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Desire_Crystal\">欲念结晶</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Desire_Bead\">神威辉石</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Desire_Core\">欲念原核-记录</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Unifying_Wedge\">归一之楔</a>\n    </div>\n</div>\n<div class=\"card mt-2\">\n    <div class=\"card-header\">S2 黑帆赛季<span class=\"float-end\">2023-01-12 ~ 2023-04-09</span></div>\n    <div class=\"card-body d-flex flex-wrap\">\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Blacksail_Season\">黑帆赛季</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Void_Sea_Flame\">虚海夜火</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Void_Sea_Terminal\">虚空终港</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Hero_Memories\">英雄追忆</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Whisper_of_Wealth\">财富秘语</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Whisper_of_Armament\">军械秘语</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Whisper_of_Wonder\">奇珍秘语</a>\n    </div>\n</div>\n<div class=\"card mt-2\">\n    <div class=\"card-header\">S1 黑潮赛季<span class=\"float-end\">2022-10-12 ~ 2023-01-11</span></div>\n    <div class=\"card-body d-flex flex-wrap\">\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Dark_Surge_Season\">黑潮赛季</a>\n        <a class=\"p-1 m-1 d-inline-block \" href=\"Corrosion\">侵蚀</a>\n    </div>\n</div>\n\n    </div>\n    </div>\n\n    <footer class=\"text-center text-lg-left container mt-2\">\n      <div class=\"card p-4\">\n        <div class=\"row\">\n\n          <div class=\"col-lg-3 col-md-12 mb-4 mb-md-0\">\n            <h5 class=\"text-uppercase\">Sites</h5>\n            <ul class=\"list-unstyled mb-0\">\n              <li> <a target=\"_blank\" href=\"https://poedb.tw/\">poedb.tw</a> </li>\n              <li> <a target=\"_blank\" href=\"https://tlidb.com/\">tlidb.com</a> </li>\n              <!--<li> <a target=\"_blank\" href=\"https://diablo4.cc/\">diablo4.cc</a> </li>-->\n              <li> <a target=\"_blank\" href=\"https://poe2db.tw/\">poe2db.tw</a> </li>\n              <li> <a target=\"_blank\" href=\"https://paldb.cc/\">paldb.cc</a> </li>\n            </ul>\n          </div>\n\n          <div class=\"col-lg-3 col-md-12 mb-4 mb-md-0\">\n            <h5 class=\"text-uppercase\">About Site</h5>\n            <ul class=\"list-unstyled mb-0\">\n              <li><a href=\"privacy\">Privacy</a></li>\n              <li> <a target=\"_blank\" href=\"https://www.reddit.com/user/chuanhsing\">About US</a> </li>\n            </ul>\n          </div>\n\n          <div class=\"col-lg-3 col-md-6 mb-4 mb-md-0\">\n            <h5 class=\"text-uppercase\">Community</h5>\n            <ul class=\"list-unstyled mb-0\">\n            </ul>\n          </div>\n\n        </div>\n      </div>\n      <div class=\"p-3\">\n\n      <span>资料库内容为测试资料，正确资讯请以官方游戏内的内容为准。</span>\n      </div>\n    </footer>\n\n    <a href=\"#top\" id=\"toTop\"><span class=\"fas fa-arrow-circle-up fa-3x\"></span></a>\n    <div id=\"consent-box\" style=\"display:none\">\n      <button onclick=\"window.__cmp('showModal');\">\n        Update cookie preferences\n      </button>\n    </div>\n    \n    <script>\n      if (window[\"nitroAds\"] && window[\"nitroAds\"].loaded) {\n        document.getElementById(\"consent-box\").style.display = window[\"__tcfapi\"]\n          ? \"\"\n          : \"none\";\n      } else {\n        document.addEventListener(\n          \"nitroAds.loaded\",\n          () =>\n            (document.getElementById(\"consent-box\").style.display = window[\"__tcfapi\"]\n              ? \"\"\n              : \"none\")\n        );\n      }\n    </script>\n  <script defer=\"\" src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon=\"{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;83af079277c347f9ba9fc040e0d21cb5&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}\" crossorigin=\"anonymous\"></script>\n\n\n<iframe marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" id=\"17be72038560dd8\" width=\"0\" height=\"0\" src=\"about:blank\" name=\"__pb_locator__\" style=\"display: none; height: 0px; width: 0px; border: 0px;\"></iframe><iframe name=\"__uspapiLocator\" style=\"display: none;\"></iframe>",
+    "content": "火炬编年史\n英雄\n仓库\n技能\n打造\n成就\n异界\n商城\n            \n渴瘾赛季\nSS11\n2026-01-16 10:00\nStarts in:\n59d 16h 42m 44s\nSS11 渴瘾赛季\n2026/1/16 10:00 (GMT+8) ~\n渴瘾赛季\nPatch Note\nSeason Preview VOD\n寻仇之刺\n缝合\n传奇装备\n技能界面\n物品\n契灵\nNews\n2026/01/09 【渴瘾症】新赛季情报全面解禁！\n2025/09/29 【叠界】SS10赛季前瞻和更新内容解禁！\n2025/07/11 【头号通缉】赛季前瞻和更新内容解禁！\n2025/06/27 【头号通缉】宝物将于7月11日运抵嘉年华高塔金库，请赏金猎人们前往拦截！\n英雄\n怒火\n \n怒影\n \n荣光游侠\n \n至暗掠影\n \n战火狂徒\n \n疾风追猎\n \n电光猫影\n \n寻仇之刺\n \n爆破新星\n \n创想鬼才\n \n欢愉之焰\n \n冰结之心\n \n冰火融合\n \n众神之伟智\n \n众神之化身\n \n渎神\n \n时空幻象\n \n时空流逝\n \n号令征召\n \n冲锋征召\n \n圣庭战车\n \n无垢之刃\n \n生长的微风\n \n守望的暖风\n \n与海潮同歌\n巨力之神\n巨力之神\n \n勇者\n \n猛袭者\n \n督军\n \n斗士\n狩猎之神\n狩猎之神\n \n神射手\n \n刀锋行者\n \n德鲁伊\n \n刺客\n知识之神\n知识之神\n \n魔导师\n \n秘术师\n \n元素师\n \n先知\n征战之神\n征战之神\n \n影舞者\n \n神行武士\n \n游侠\n \n铁卫\n欺诈之神\n欺诈之神\n \n驭影者\n \n异能者\n \n暗影术士\n \n巫妖\n机械之神\n机械之神\n \n机械师\n \n钢铁先锋\n \n炼金术士\n \n巧匠\n装备\n头部: 力量头部 敏捷头部 智慧头部\n胸甲: 力量胸甲 敏捷胸甲 智慧胸甲\n手套: 力量手套 敏捷手套 智慧手套\n鞋子: 力量鞋子 敏捷鞋子 智慧鞋子\n单手: 爪 匕首 单手剑 单手锤 单手斧 法杖 灵杖 魔杖 手杖 手枪\n双手: 双手剑 双手锤 双手斧 锡杖 武杖 弓 弩 火枪 火炮\n盾牌: 力量盾牌 敏捷盾牌 智慧盾牌\n饰品: 项链 戒指 腰带 灵戒\n英雄: 英雄追忆 神格石板\n命运 异度棱镜\n渴瘾症: 渴瘾肢体：脑部 渴瘾肢体：胸部 渴瘾肢体：手部 渴瘾肢体：腿部 渴瘾异肢：腿部 渴瘾肢体：颈部 渴瘾肢体：指部 渴瘾异肢：指部 渴瘾肢体：腰部 渴瘾异肢：腰部\n仓库\n记忆荧光\n主动技能\n辅助技能\n被动技能\n触媒技能\n华贵辅助技能\n崇高辅助技能\n通用道具\n罗盘\n探针\n赛季罗盘\n梦语\n灰烬\n化石\n燃料\n神威纹章\n黑潮敕令\n虚海请柬\n欲念原核\n王后烛芯\n女王恩宠\n信标\n原初之核\n勇者之证\n侵蚀材料\n追忆碎絮\n追忆游丝\n升华之楔\n归一之楔\n神格契约\n神格残片\n神威辉石\n永恒迷城\n迷城残响\n雾都怪谈\n高塔筹码\n巨力之神\n狩猎之神\n知识之神\n征战之神\n欺诈之神\n机械之神\n装备蓝图\n画中雪原\n命运相关\n逆像的残影\n未定宿命\n香料\n元件\n异度棱镜\n特殊棱镜\n棱镜校尺\n棱镜水平仪\n棱镜修复仪\n普通器官\n完美羽翼-持续\n完美皮肤-防御\n完美眼球-减益\n完美胚胎-召唤\n完美心脏-增益\n完美喉舌-祝福\n完美肝脏-转伤\n特殊器官-其它\n核心器官-头部\n核心器官-胸甲\n核心器官-手套\n核心器官-鞋子\n核心器官-戒指\n核心器官-项链\n核心器官-腰带\n切割器具\n拓印烙铁\n缝线\n渴瘾残肢\n剧情\n第一章\n第二章\n第三章\n玩法\n异界\n混乱牌库\n勇者之路\n玩法-征战之神的试炼\n玩法-巨力之神的试炼\n玩法-机械之神的试炼\n玩法-狩猎之神的试炼\n成长之路\n旅程\n技能\n装备\n英雄追忆\n打宝\n神格石板\n挑战\n情报\n书页\n铭文\n地理\n风物\n历史\n商城\n账号功能\n契灵商店\n礼包\n幻想精华商店\n时装商店\n至臻商店\n时装礼包\n时装\n英雄时装\n武器时装\n武器时装\n头饰\n背饰\n技能时装\n身体特效\n足迹特效\n传送特效\n武器特效\n武器特效\n头像\nSS10 叠界赛季\n2025/10/11 10:00 (GMT+8) ~\n叠界赛季\nPatch Note\nSeason Preview VOD\n收容档案\n异度棱镜\n特殊棱镜\n棱镜校尺\n创想鬼才\n连携\n传奇装备\nSS9 通缉赛季\n2025/7/18 10:00 (GMT+8) ~ 10/10\n通缉赛季\nPatch Note\nSeason Preview VOD\n高塔序列\n好运时刻\n犯罪星级\n高塔中央金库\n无垢之刃\nSS8 大亨赛季\n2025/04/18 10:00 (GMT+8) ~ 2025/7/18\n大亨赛季\nPatch Note\nSeason Preview VOD\n云端绿洲\n调香秘仪\n香料\n渎神\n赛季罗盘\nSS7 塔罗赛季\n2025/01/10 10:00 (GMT+8) ~ 04/18 10:00\n塔罗赛季\nPatch Note\nSeason Preview VOD\n塔罗秘径\n命运\n守望的暖风\nSS6 画雪赛季\n2024/10/25 10:00 (GMT+8) ~ 2025/1/9\n画雪赛季\nPatch Note\nSeason Preview VOD\n崇高辅助技能\n华贵辅助技能\n金色浩劫·奥达克\n巅峰对决\n英雄追忆\n与海潮同歌\nSS5 玩偶赛季\n2024/07/05 10:00 (GMT+8) ~ 2024/10/24\n玩偶赛季\nPatch Note\nSeason Preview VOD\n玩偶俱乐部会员服务\n战火狂徒\n虚空星图\nSS4 怪谈赛季\n2024/04/19 10:00 (GMT+8) ~ 2024/07/04\n怪谈赛季\nPatch Note\nSeason Preview VOD\n推理记录\n雾都探索\n雾都商人\n电光猫影\nSS3季前赛\n2024/02/23 10AM (GMT+8) ~\nSS3季前赛\nSeason Preview VOD\nSS3 梦魇赛季\n2023/12/29 ~ 2024/04/18\n梦魇赛季\nPatch Note\nSeason Preview VOD\n梦语\n梦境泡影\n梦境云图\n圣庭战车\nSS1季前赛\n2023/10/27 10AM (GMT+8) ~ 2023/11/27\nSS1季前赛\nSeason Preview VOD\nSS2 迷城赛季\n2023/9/8 ~ 2023/12/28\n迷城赛季\nPatch Note\nBalance Adjustments\nBalance Adjustment Supplement\nSeason Preview VOD\n迷城版图\n永恒诗篇\n永恒残页\nSS1 魔方赛季\n2023-04-10 ~ 2023-09-07\n魔方赛季\nPatch Note\nBalance Adjustments\n神格石板\n黑心者律典\n法术迸发\n统御\n持律人\n欲念结晶\n神威辉石\n欲念原核-记录\n归一之楔\nS2 黑帆赛季\n2023-01-12 ~ 2023-04-09\n黑帆赛季\n虚海夜火\n虚空终港\n英雄追忆\n财富秘语\n军械秘语\n奇珍秘语\nS1 黑潮赛季\n2022-10-12 ~ 2023-01-11\n黑潮赛季\n侵蚀\nSITES\npoedb.tw\ntlidb.com\npoe2db.tw\npaldb.cc\nABOUT SITE\nPrivacy\nAbout US\nCOMMUNITY\n资料库内容为测试资料，正确资讯请以官方游戏内的内容为准。",
+    "tables": [],
+    "lists": [
+      [
+        "英雄\n              \n                英雄\n                天赋",
+        "英雄",
+        "天赋",
+        "仓库\n              \n                仓库\n                传奇装备\n                异度棱镜\n                \n                契灵\n                \n                掉落来源\n                命运",
+        "仓库",
+        "传奇装备",
+        "异度棱镜",
+        "契灵",
+        "掉落来源",
+        "命运",
+        "技能\n              \n                主动技能\n                辅助技能\n                被动技能\n                \n                触媒技能\n                崇高辅助技能\n                华贵辅助技能\n                提示\n                Hyperlink",
+        "主动技能",
+        "辅助技能",
+        "被动技能",
+        "触媒技能",
+        "崇高辅助技能",
+        "华贵辅助技能",
+        "提示",
+        "Hyperlink",
+        "打造\n              \n                打造\n                \n                侵蚀\n                装备赋能\n                梦语\n                调香秘仪\n                高塔序列\n                缝合",
+        "打造",
+        "侵蚀",
+        "装备赋能",
+        "梦语",
+        "调香秘仪",
+        "高塔序列",
+        "缝合",
+        "成就\n              \n                \n                成长之路\n                \n                \n                \n                \n                帮助手册\n                情报",
+        "成长之路",
+        "",
+        "帮助手册",
+        "情报",
+        "异界\n              \n                异界\n                \n                混乱牌库\n                虚空星图\n                罗盘\n                赛季罗盘\n                \n                勇者之路",
+        "异界",
+        "混乱牌库",
+        "虚空星图",
+        "罗盘",
+        "赛季罗盘",
+        "",
+        "勇者之路",
+        "商城\n              \n    \n                时装\n                通货\n                恩赐",
+        "时装",
+        "通货",
+        "恩赐"
+      ],
+      [
+        "英雄",
+        "天赋"
+      ],
+      [
+        "仓库",
+        "传奇装备",
+        "异度棱镜",
+        "契灵",
+        "掉落来源",
+        "命运"
+      ],
+      [
+        "主动技能",
+        "辅助技能",
+        "被动技能",
+        "触媒技能",
+        "崇高辅助技能",
+        "华贵辅助技能",
+        "提示",
+        "Hyperlink"
+      ],
+      [
+        "打造",
+        "侵蚀",
+        "装备赋能",
+        "梦语",
+        "调香秘仪",
+        "高塔序列",
+        "缝合"
+      ],
+      [
+        "成长之路",
+        "",
+        "帮助手册",
+        "情报"
+      ],
+      [
+        "异界",
+        "混乱牌库",
+        "虚空星图",
+        "罗盘",
+        "赛季罗盘",
+        "",
+        "勇者之路"
+      ],
+      [
+        "时装",
+        "通货",
+        "恩赐"
+      ],
+      [
+        "EN English\n                TW 繁體中文\n                CN 简体中文\n                KO 한국어\n                JA Japanese\n                RU Русский",
+        "EN English",
+        "TW 繁體中文",
+        "CN 简体中文",
+        "KO 한국어",
+        "JA Japanese",
+        "RU Русский"
+      ],
+      [
+        "EN English",
+        "TW 繁體中文",
+        "CN 简体中文",
+        "KO 한국어",
+        "JA Japanese",
+        "RU Русский"
+      ],
+      [
+        "2026/01/09 【渴瘾症】新赛季情报全面解禁！",
+        "2025/09/29 【叠界】SS10赛季前瞻和更新内容解禁！",
+        "2025/07/11 【头号通缉】赛季前瞻和更新内容解禁！",
+        "2025/06/27 【头号通缉】宝物将于7月11日运抵嘉年华高塔金库，请赏金猎人们前往拦截！"
+      ],
+      [
+        "poedb.tw",
+        "tlidb.com",
+        "poe2db.tw",
+        "paldb.cc"
+      ],
+      [
+        "Privacy",
+        "About US"
+      ]
+    ],
+    "links": [
+      {
+        "href": "https://tlidb.com/cn/",
+        "text": "火炬编年史"
+      },
+      {
+        "href": "https://tlidb.com/cn/#",
+        "text": "英雄"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hero",
+        "text": "英雄"
+      },
+      {
+        "href": "https://tlidb.com/cn/Talent",
+        "text": "天赋"
+      },
+      {
+        "href": "https://tlidb.com/cn/#",
+        "text": "仓库"
+      },
+      {
+        "href": "https://tlidb.com/cn/Inventory",
+        "text": "仓库"
+      },
+      {
+        "href": "https://tlidb.com/cn/Legendary_Gear",
+        "text": "传奇装备"
+      },
+      {
+        "href": "https://tlidb.com/cn/Ethereal_Prism",
+        "text": "异度棱镜"
+      },
+      {
+        "href": "https://tlidb.com/cn/Pactspirit",
+        "text": "契灵"
+      },
+      {
+        "href": "https://tlidb.com/cn/Drop_Source",
+        "text": "掉落来源"
+      },
+      {
+        "href": "https://tlidb.com/cn/Destiny",
+        "text": "命运"
+      },
+      {
+        "href": "https://tlidb.com/cn/#",
+        "text": "技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Active_Skill",
+        "text": "主动技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Support_Skill",
+        "text": "辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Passive_Skill",
+        "text": "被动技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Activation_Medium_Skill",
+        "text": "触媒技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Noble_Support_Skill",
+        "text": "崇高辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Magnificent_Support_Skill",
+        "text": "华贵辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Tip",
+        "text": "提示"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hyperlink",
+        "text": "Hyperlink"
+      },
+      {
+        "href": "https://tlidb.com/cn/#",
+        "text": "打造"
+      },
+      {
+        "href": "https://tlidb.com/cn/Craft",
+        "text": "打造"
+      },
+      {
+        "href": "https://tlidb.com/cn/Corrosion",
+        "text": "侵蚀"
+      },
+      {
+        "href": "https://tlidb.com/cn/Gear_Empowerment",
+        "text": "装备赋能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Dream_Talking",
+        "text": "梦语"
+      },
+      {
+        "href": "https://tlidb.com/cn/Blending_Rituals",
+        "text": "调香秘仪"
+      },
+      {
+        "href": "https://tlidb.com/cn/TOWER_Sequence",
+        "text": "高塔序列"
+      },
+      {
+        "href": "https://tlidb.com/cn/Graft",
+        "text": "缝合"
+      },
+      {
+        "href": "https://tlidb.com/cn/#",
+        "text": "成就"
+      },
+      {
+        "href": "https://tlidb.com/cn/Path_of_Progression",
+        "text": "成长之路"
+      },
+      {
+        "href": "https://tlidb.com/cn/Help",
+        "text": "帮助手册"
+      },
+      {
+        "href": "https://tlidb.com/cn/Codex",
+        "text": "情报"
+      },
+      {
+        "href": "https://tlidb.com/cn/#",
+        "text": "异界"
+      },
+      {
+        "href": "https://tlidb.com/cn/Netherrealm",
+        "text": "异界"
+      },
+      {
+        "href": "https://tlidb.com/cn/Confusion_Card_Library",
+        "text": "混乱牌库"
+      },
+      {
+        "href": "https://tlidb.com/cn/Void_Chart",
+        "text": "虚空星图"
+      },
+      {
+        "href": "https://tlidb.com/cn/Compass",
+        "text": "罗盘"
+      },
+      {
+        "href": "https://tlidb.com/cn/Probe",
+        "text": "赛季罗盘"
+      },
+      {
+        "href": "https://tlidb.com/cn/Path_of_the_Brave",
+        "text": "勇者之路"
+      },
+      {
+        "href": "https://tlidb.com/cn/#",
+        "text": "商城"
+      },
+      {
+        "href": "https://tlidb.com/cn/Outfit",
+        "text": "时装"
+      },
+      {
+        "href": "https://tlidb.com/cn/Commodity",
+        "text": "通货"
+      },
+      {
+        "href": "https://tlidb.com/cn/Boon",
+        "text": "恩赐"
+      },
+      {
+        "href": "https://tlidb.com/en/",
+        "text": "EN English"
+      },
+      {
+        "href": "https://tlidb.com/tw/",
+        "text": "TW 繁體中文"
+      },
+      {
+        "href": "https://tlidb.com/cn/",
+        "text": "CN 简体中文"
+      },
+      {
+        "href": "https://tlidb.com/ko/",
+        "text": "KO 한국어"
+      },
+      {
+        "href": "https://tlidb.com/ja/",
+        "text": "JA Japanese"
+      },
+      {
+        "href": "https://tlidb.com/ru/",
+        "text": "RU Русский"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vorax_Season",
+        "text": "渴瘾赛季"
+      },
+      {
+        "href": "https://torchlight.xd.cn/news/single?id=xv7LDI6y",
+        "text": "Patch Note"
+      },
+      {
+        "href": "https://www.bilibili.com/video/BV1LrrMBQEpH/",
+        "text": "Season Preview VOD"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vendetta%27s_Sting",
+        "text": "寻仇之刺"
+      },
+      {
+        "href": "https://tlidb.com/cn/Graft",
+        "text": "缝合"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vorax_Season_uniques",
+        "text": "传奇装备"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vorax_Season_skills",
+        "text": "技能界面"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vorax_Season_items",
+        "text": "物品"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vorax_Season_pactspirit",
+        "text": "契灵"
+      },
+      {
+        "href": "https://torchlight.xd.cn/news/single?id=xv7LDI6y",
+        "text": "2026/01/09 【渴瘾症】新赛季情报全面解禁！"
+      },
+      {
+        "href": "https://torchlight.xd.cn/news/single?id=buYaN1rB",
+        "text": "2025/09/29 【叠界】SS10赛季前瞻和更新内容解禁！"
+      },
+      {
+        "href": "https://torchlight.xd.cn/news/single?id=duQq1hQ7",
+        "text": "2025/07/11 【头号通缉】赛季前瞻和更新内容解禁！"
+      },
+      {
+        "href": "https://torchlight.xd.cn/news/single?id=kuPiKemL",
+        "text": "2025/06/27 【头号通缉】宝物将于7月11日运抵嘉年华高塔金库，请赏金猎人们前往拦截！"
+      },
+      {
+        "href": "https://tlidb.com/cn/Anger",
+        "text": "怒火"
+      },
+      {
+        "href": "https://tlidb.com/cn/Seething_Silhouette",
+        "text": "怒影"
+      },
+      {
+        "href": "https://tlidb.com/cn/Ranger_of_Glory",
+        "text": "荣光游侠"
+      },
+      {
+        "href": "https://tlidb.com/cn/Lethal_Flash",
+        "text": "至暗掠影"
+      },
+      {
+        "href": "https://tlidb.com/cn/Zealot_of_War",
+        "text": "战火狂徒"
+      },
+      {
+        "href": "https://tlidb.com/cn/Wind_Stalker",
+        "text": "疾风追猎"
+      },
+      {
+        "href": "https://tlidb.com/cn/Lightning_Shadow",
+        "text": "电光猫影"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vendetta%27s_Sting",
+        "text": "寻仇之刺"
+      },
+      {
+        "href": "https://tlidb.com/cn/Blast_Nova",
+        "text": "爆破新星"
+      },
+      {
+        "href": "https://tlidb.com/cn/Creative_Genius",
+        "text": "创想鬼才"
+      },
+      {
+        "href": "https://tlidb.com/cn/Flame_of_Pleasure",
+        "text": "欢愉之焰"
+      },
+      {
+        "href": "https://tlidb.com/cn/Frostbitten_Heart",
+        "text": "冰结之心"
+      },
+      {
+        "href": "https://tlidb.com/cn/Ice-Fire_Fusion",
+        "text": "冰火融合"
+      },
+      {
+        "href": "https://tlidb.com/cn/Wisdom_of_The_Gods",
+        "text": "众神之伟智"
+      },
+      {
+        "href": "https://tlidb.com/cn/Incarnation_of_the_Gods",
+        "text": "众神之化身"
+      },
+      {
+        "href": "https://tlidb.com/cn/Blasphemer",
+        "text": "渎神"
+      },
+      {
+        "href": "https://tlidb.com/cn/Spacetime_Illusion",
+        "text": "时空幻象"
+      },
+      {
+        "href": "https://tlidb.com/cn/Spacetime_Elapse",
+        "text": "时空流逝"
+      },
+      {
+        "href": "https://tlidb.com/cn/Order_Calling",
+        "text": "号令征召"
+      },
+      {
+        "href": "https://tlidb.com/cn/Charge_Calling",
+        "text": "冲锋征召"
+      },
+      {
+        "href": "https://tlidb.com/cn/High_Court_Chariot",
+        "text": "圣庭战车"
+      },
+      {
+        "href": "https://tlidb.com/cn/Unsullied_Blade",
+        "text": "无垢之刃"
+      },
+      {
+        "href": "https://tlidb.com/cn/Growing_Breeze",
+        "text": "生长的微风"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vigilant_Breeze",
+        "text": "守望的暖风"
+      },
+      {
+        "href": "https://tlidb.com/cn/Sing_with_the_Tide",
+        "text": "与海潮同歌"
+      },
+      {
+        "href": "https://tlidb.com/cn/God_of_Might",
+        "text": "巨力之神"
+      },
+      {
+        "href": "https://tlidb.com/cn/The_Brave",
+        "text": "勇者"
+      },
+      {
+        "href": "https://tlidb.com/cn/Onslaughter",
+        "text": "猛袭者"
+      },
+      {
+        "href": "https://tlidb.com/cn/Warlord",
+        "text": "督军"
+      },
+      {
+        "href": "https://tlidb.com/cn/Warrior",
+        "text": "斗士"
+      },
+      {
+        "href": "https://tlidb.com/cn/Goddess_of_Hunting",
+        "text": "狩猎之神"
+      },
+      {
+        "href": "https://tlidb.com/cn/Marksman",
+        "text": "神射手"
+      },
+      {
+        "href": "https://tlidb.com/cn/Bladerunner",
+        "text": "刀锋行者"
+      },
+      {
+        "href": "https://tlidb.com/cn/Druid",
+        "text": "德鲁伊"
+      },
+      {
+        "href": "https://tlidb.com/cn/Assassin",
+        "text": "刺客"
+      },
+      {
+        "href": "https://tlidb.com/cn/Goddess_of_Knowledge",
+        "text": "知识之神"
+      },
+      {
+        "href": "https://tlidb.com/cn/Magister",
+        "text": "魔导师"
+      },
+      {
+        "href": "https://tlidb.com/cn/Arcanist",
+        "text": "秘术师"
+      },
+      {
+        "href": "https://tlidb.com/cn/Elementalist",
+        "text": "元素师"
+      },
+      {
+        "href": "https://tlidb.com/cn/Prophet",
+        "text": "先知"
+      },
+      {
+        "href": "https://tlidb.com/cn/God_of_War",
+        "text": "征战之神"
+      },
+      {
+        "href": "https://tlidb.com/cn/Shadowdancer",
+        "text": "影舞者"
+      },
+      {
+        "href": "https://tlidb.com/cn/Ronin",
+        "text": "神行武士"
+      },
+      {
+        "href": "https://tlidb.com/cn/Ranger",
+        "text": "游侠"
+      },
+      {
+        "href": "https://tlidb.com/cn/Sentinel",
+        "text": "铁卫"
+      },
+      {
+        "href": "https://tlidb.com/cn/Goddess_of_Deception",
+        "text": "欺诈之神"
+      },
+      {
+        "href": "https://tlidb.com/cn/Shadowmaster",
+        "text": "驭影者"
+      },
+      {
+        "href": "https://tlidb.com/cn/Psychic",
+        "text": "异能者"
+      },
+      {
+        "href": "https://tlidb.com/cn/Warlock",
+        "text": "暗影术士"
+      },
+      {
+        "href": "https://tlidb.com/cn/Lich",
+        "text": "巫妖"
+      },
+      {
+        "href": "https://tlidb.com/cn/God_of_Machines",
+        "text": "机械之神"
+      },
+      {
+        "href": "https://tlidb.com/cn/Machinist",
+        "text": "机械师"
+      },
+      {
+        "href": "https://tlidb.com/cn/Steel_Vanguard",
+        "text": "钢铁先锋"
+      },
+      {
+        "href": "https://tlidb.com/cn/Alchemist",
+        "text": "炼金术士"
+      },
+      {
+        "href": "https://tlidb.com/cn/Artisan",
+        "text": "巧匠"
+      },
+      {
+        "href": "https://tlidb.com/cn/STR_Helmet",
+        "text": "力量头部"
+      },
+      {
+        "href": "https://tlidb.com/cn/DEX_Helmet",
+        "text": "敏捷头部"
+      },
+      {
+        "href": "https://tlidb.com/cn/INT_Helmet",
+        "text": "智慧头部"
+      },
+      {
+        "href": "https://tlidb.com/cn/STR_Chest_Armor",
+        "text": "力量胸甲"
+      },
+      {
+        "href": "https://tlidb.com/cn/DEX_Chest_Armor",
+        "text": "敏捷胸甲"
+      },
+      {
+        "href": "https://tlidb.com/cn/INT_Chest_Armor",
+        "text": "智慧胸甲"
+      },
+      {
+        "href": "https://tlidb.com/cn/STR_Gloves",
+        "text": "力量手套"
+      },
+      {
+        "href": "https://tlidb.com/cn/DEX_Gloves",
+        "text": "敏捷手套"
+      },
+      {
+        "href": "https://tlidb.com/cn/INT_Gloves",
+        "text": "智慧手套"
+      },
+      {
+        "href": "https://tlidb.com/cn/STR_Boots",
+        "text": "力量鞋子"
+      },
+      {
+        "href": "https://tlidb.com/cn/DEX_Boots",
+        "text": "敏捷鞋子"
+      },
+      {
+        "href": "https://tlidb.com/cn/INT_Boots",
+        "text": "智慧鞋子"
+      },
+      {
+        "href": "https://tlidb.com/cn/Claw",
+        "text": "爪"
+      },
+      {
+        "href": "https://tlidb.com/cn/Dagger",
+        "text": "匕首"
+      },
+      {
+        "href": "https://tlidb.com/cn/One-Handed_Sword",
+        "text": "单手剑"
+      },
+      {
+        "href": "https://tlidb.com/cn/One-Handed_Hammer",
+        "text": "单手锤"
+      },
+      {
+        "href": "https://tlidb.com/cn/One-Handed_Axe",
+        "text": "单手斧"
+      },
+      {
+        "href": "https://tlidb.com/cn/Wand",
+        "text": "法杖"
+      },
+      {
+        "href": "https://tlidb.com/cn/Rod",
+        "text": "灵杖"
+      },
+      {
+        "href": "https://tlidb.com/cn/Scepter",
+        "text": "魔杖"
+      },
+      {
+        "href": "https://tlidb.com/cn/Cane",
+        "text": "手杖"
+      },
+      {
+        "href": "https://tlidb.com/cn/Pistol",
+        "text": "手枪"
+      },
+      {
+        "href": "https://tlidb.com/cn/Two-Handed_Sword",
+        "text": "双手剑"
+      },
+      {
+        "href": "https://tlidb.com/cn/Two-Handed_Hammer",
+        "text": "双手锤"
+      },
+      {
+        "href": "https://tlidb.com/cn/Two-Handed_Axe",
+        "text": "双手斧"
+      },
+      {
+        "href": "https://tlidb.com/cn/Tin_Staff",
+        "text": "锡杖"
+      },
+      {
+        "href": "https://tlidb.com/cn/Cudgel",
+        "text": "武杖"
+      },
+      {
+        "href": "https://tlidb.com/cn/Bow",
+        "text": "弓"
+      },
+      {
+        "href": "https://tlidb.com/cn/Crossbow",
+        "text": "弩"
+      },
+      {
+        "href": "https://tlidb.com/cn/Musket",
+        "text": "火枪"
+      },
+      {
+        "href": "https://tlidb.com/cn/Fire_Cannon",
+        "text": "火炮"
+      },
+      {
+        "href": "https://tlidb.com/cn/STR_Shield",
+        "text": "力量盾牌"
+      },
+      {
+        "href": "https://tlidb.com/cn/DEX_Shield",
+        "text": "敏捷盾牌"
+      },
+      {
+        "href": "https://tlidb.com/cn/INT_Shield",
+        "text": "智慧盾牌"
+      },
+      {
+        "href": "https://tlidb.com/cn/Necklace",
+        "text": "项链"
+      },
+      {
+        "href": "https://tlidb.com/cn/Ring",
+        "text": "戒指"
+      },
+      {
+        "href": "https://tlidb.com/cn/Belt",
+        "text": "腰带"
+      },
+      {
+        "href": "https://tlidb.com/cn/Spirit_Ring",
+        "text": "灵戒"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hero_Memories",
+        "text": "英雄追忆"
+      },
+      {
+        "href": "https://tlidb.com/cn/Divinity_Slate",
+        "text": "神格石板"
+      },
+      {
+        "href": "https://tlidb.com/cn/Destiny",
+        "text": "命运"
+      },
+      {
+        "href": "https://tlidb.com/cn/Ethereal_Prism",
+        "text": "异度棱镜"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vorax_Limb%3A_Head",
+        "text": "渴瘾肢体：脑部"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vorax_Limb%3A_Chest",
+        "text": "渴瘾肢体：胸部"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vorax_Limb%3A_Hands",
+        "text": "渴瘾肢体：手部"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vorax_Limb%3A_Legs",
+        "text": "渴瘾肢体：腿部"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vorax_Aberrant_Limb%3A_Legs",
+        "text": "渴瘾异肢：腿部"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vorax_Limb%3A_Neck",
+        "text": "渴瘾肢体：颈部"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vorax_Limb%3A_Digits",
+        "text": "渴瘾肢体：指部"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vorax_Aberrant_Limb%3A_Digits",
+        "text": "渴瘾异肢：指部"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vorax_Limb%3A_Waist",
+        "text": "渴瘾肢体：腰部"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vorax_Aberrant_Limb%3A_Waist",
+        "text": "渴瘾异肢：腰部"
+      },
+      {
+        "href": "https://tlidb.com/cn/Fluorescent_Memory",
+        "text": "记忆荧光"
+      },
+      {
+        "href": "https://tlidb.com/cn/Active_Skill",
+        "text": "主动技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Support_Skill",
+        "text": "辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Passive_Skill",
+        "text": "被动技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Activation_Medium_Skill",
+        "text": "触媒技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Magnificent_Support_Skill",
+        "text": "华贵辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Noble_Support_Skill",
+        "text": "崇高辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Universal_Items",
+        "text": "通用道具"
+      },
+      {
+        "href": "https://tlidb.com/cn/Compass",
+        "text": "罗盘"
+      },
+      {
+        "href": "https://tlidb.com/cn/Probe",
+        "text": "探针"
+      },
+      {
+        "href": "https://tlidb.com/cn/Season_Compass",
+        "text": "赛季罗盘"
+      },
+      {
+        "href": "https://tlidb.com/cn/Dream_Talking",
+        "text": "梦语"
+      },
+      {
+        "href": "https://tlidb.com/cn/Ember",
+        "text": "灰烬"
+      },
+      {
+        "href": "https://tlidb.com/cn/Fossil",
+        "text": "化石"
+      },
+      {
+        "href": "https://tlidb.com/cn/Fuel",
+        "text": "燃料"
+      },
+      {
+        "href": "https://tlidb.com/cn/Divinity_Emblems",
+        "text": "神威纹章"
+      },
+      {
+        "href": "https://tlidb.com/cn/Dark_Surge_Edict",
+        "text": "黑潮敕令"
+      },
+      {
+        "href": "https://tlidb.com/cn/Void_Sea_Invitation",
+        "text": "虚海请柬"
+      },
+      {
+        "href": "https://tlidb.com/cn/Desire_Core",
+        "text": "欲念原核"
+      },
+      {
+        "href": "https://tlidb.com/cn/Queen%27s_Wick",
+        "text": "王后烛芯"
+      },
+      {
+        "href": "https://tlidb.com/cn/Queen%27s_Grace",
+        "text": "女王恩宠"
+      },
+      {
+        "href": "https://tlidb.com/cn/Beacon",
+        "text": "信标"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primeval_Core",
+        "text": "原初之核"
+      },
+      {
+        "href": "https://tlidb.com/cn/Proof_of_the_Brave",
+        "text": "勇者之证"
+      },
+      {
+        "href": "https://tlidb.com/cn/Corrosion_Material",
+        "text": "侵蚀材料"
+      },
+      {
+        "href": "https://tlidb.com/cn/Memory_Scrap",
+        "text": "追忆碎絮"
+      },
+      {
+        "href": "https://tlidb.com/cn/Memory_Thread",
+        "text": "追忆游丝"
+      },
+      {
+        "href": "https://tlidb.com/cn/Transcendence_Wedge",
+        "text": "升华之楔"
+      },
+      {
+        "href": "https://tlidb.com/cn/Unifying_Wedge",
+        "text": "归一之楔"
+      },
+      {
+        "href": "https://tlidb.com/cn/Divinity_Pact",
+        "text": "神格契约"
+      },
+      {
+        "href": "https://tlidb.com/cn/Divinity_Fragment",
+        "text": "神格残片"
+      },
+      {
+        "href": "https://tlidb.com/cn/Divinity_Stone",
+        "text": "神威辉石"
+      },
+      {
+        "href": "https://tlidb.com/cn/The_City_of_Aeterna",
+        "text": "永恒迷城"
+      },
+      {
+        "href": "https://tlidb.com/cn/Aeterna_Reverberation",
+        "text": "迷城残响"
+      },
+      {
+        "href": "https://tlidb.com/cn/Whispering_Mist",
+        "text": "雾都怪谈"
+      },
+      {
+        "href": "https://tlidb.com/cn/TOWER_Token",
+        "text": "高塔筹码"
+      },
+      {
+        "href": "https://tlidb.com/cn/God_of_Might",
+        "text": "巨力之神"
+      },
+      {
+        "href": "https://tlidb.com/cn/Goddess_of_Hunting",
+        "text": "狩猎之神"
+      },
+      {
+        "href": "https://tlidb.com/cn/Goddess_of_Knowledge",
+        "text": "知识之神"
+      },
+      {
+        "href": "https://tlidb.com/cn/God_of_War",
+        "text": "征战之神"
+      },
+      {
+        "href": "https://tlidb.com/cn/Goddess_of_Deception",
+        "text": "欺诈之神"
+      },
+      {
+        "href": "https://tlidb.com/cn/God_of_Machines",
+        "text": "机械之神"
+      },
+      {
+        "href": "https://tlidb.com/cn/Gear_Blueprint",
+        "text": "装备蓝图"
+      },
+      {
+        "href": "https://tlidb.com/cn/The_Frozen_Canvas",
+        "text": "画中雪原"
+      },
+      {
+        "href": "https://tlidb.com/cn/Destiny_Related",
+        "text": "命运相关"
+      },
+      {
+        "href": "https://tlidb.com/cn/Inverse_Image_Echo",
+        "text": "逆像的残影"
+      },
+      {
+        "href": "https://tlidb.com/cn/Undetermined_Fate",
+        "text": "未定宿命"
+      },
+      {
+        "href": "https://tlidb.com/cn/Aromatic_Material",
+        "text": "香料"
+      },
+      {
+        "href": "https://tlidb.com/cn/Mod",
+        "text": "元件"
+      },
+      {
+        "href": "https://tlidb.com/cn/Ethereal_Prism",
+        "text": "异度棱镜"
+      },
+      {
+        "href": "https://tlidb.com/cn/Special_Prism",
+        "text": "特殊棱镜"
+      },
+      {
+        "href": "https://tlidb.com/cn/Prism_Gauge",
+        "text": "棱镜校尺"
+      },
+      {
+        "href": "https://tlidb.com/cn/Prism_Level",
+        "text": "棱镜水平仪"
+      },
+      {
+        "href": "https://tlidb.com/cn/Prism_Repairer",
+        "text": "棱镜修复仪"
+      },
+      {
+        "href": "https://tlidb.com/cn/Normal_Organ",
+        "text": "普通器官"
+      },
+      {
+        "href": "https://tlidb.com/cn/Flawless_Wings_-_Persistent",
+        "text": "完美羽翼-持续"
+      },
+      {
+        "href": "https://tlidb.com/cn/Flawless_Skin_-_Defensive",
+        "text": "完美皮肤-防御"
+      },
+      {
+        "href": "https://tlidb.com/cn/Flawless_Eyes_-_Debuff",
+        "text": "完美眼球-减益"
+      },
+      {
+        "href": "https://tlidb.com/cn/Flawless_Embryo_-_Summon",
+        "text": "完美胚胎-召唤"
+      },
+      {
+        "href": "https://tlidb.com/cn/Flawless_Heart_-_Buff",
+        "text": "完美心脏-增益"
+      },
+      {
+        "href": "https://tlidb.com/cn/Flawless_Tongue_-_Blessing",
+        "text": "完美喉舌-祝福"
+      },
+      {
+        "href": "https://tlidb.com/cn/Flawless_Liver_-_Damage_Conversion",
+        "text": "完美肝脏-转伤"
+      },
+      {
+        "href": "https://tlidb.com/cn/Special_Organ_-_Other",
+        "text": "特殊器官-其它"
+      },
+      {
+        "href": "https://tlidb.com/cn/Core_Organ_-_Helmet",
+        "text": "核心器官-头部"
+      },
+      {
+        "href": "https://tlidb.com/cn/Core_Organ_-_Chest_Armor",
+        "text": "核心器官-胸甲"
+      },
+      {
+        "href": "https://tlidb.com/cn/Core_Organ_-_Gloves",
+        "text": "核心器官-手套"
+      },
+      {
+        "href": "https://tlidb.com/cn/Core_Organ_-_Boots",
+        "text": "核心器官-鞋子"
+      },
+      {
+        "href": "https://tlidb.com/cn/Core_Organ_-_Ring",
+        "text": "核心器官-戒指"
+      },
+      {
+        "href": "https://tlidb.com/cn/Core_Organ_-_Necklace",
+        "text": "核心器官-项链"
+      },
+      {
+        "href": "https://tlidb.com/cn/Core_Organ_-_Belt",
+        "text": "核心器官-腰带"
+      },
+      {
+        "href": "https://tlidb.com/cn/Cutting_Instrument",
+        "text": "切割器具"
+      },
+      {
+        "href": "https://tlidb.com/cn/Imprinting_Iron",
+        "text": "拓印烙铁"
+      },
+      {
+        "href": "https://tlidb.com/cn/Suture",
+        "text": "缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vorax_Amputated_Limb",
+        "text": "渴瘾残肢"
+      },
+      {
+        "href": "https://tlidb.com/cn/Chapter_1",
+        "text": "第一章"
+      },
+      {
+        "href": "https://tlidb.com/cn/Chapter_2",
+        "text": "第二章"
+      },
+      {
+        "href": "https://tlidb.com/cn/Chapter_3",
+        "text": "第三章"
+      },
+      {
+        "href": "https://tlidb.com/cn/Netherrealm",
+        "text": "异界"
+      },
+      {
+        "href": "https://tlidb.com/cn/Confusion_Card_Library",
+        "text": "混乱牌库"
+      },
+      {
+        "href": "https://tlidb.com/cn/Path_of_the_Brave",
+        "text": "勇者之路"
+      },
+      {
+        "href": "https://tlidb.com/cn/Gameplay_-_Trial%3A_God_of_War",
+        "text": "玩法-征战之神的试炼"
+      },
+      {
+        "href": "https://tlidb.com/cn/Gameplay_-_Trial%3A_God_of_Might",
+        "text": "玩法-巨力之神的试炼"
+      },
+      {
+        "href": "https://tlidb.com/cn/Gameplay_-_Trial%3A_God_of_Machines",
+        "text": "玩法-机械之神的试炼"
+      },
+      {
+        "href": "https://tlidb.com/cn/Gameplay_-_Trial%3A_Goddess_of_Hunting",
+        "text": "玩法-狩猎之神的试炼"
+      },
+      {
+        "href": "https://tlidb.com/cn/Journey",
+        "text": "旅程"
+      },
+      {
+        "href": "https://tlidb.com/cn/Skill",
+        "text": "技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Gear",
+        "text": "装备"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hero_Memories",
+        "text": "英雄追忆"
+      },
+      {
+        "href": "https://tlidb.com/cn/Loot",
+        "text": "打宝"
+      },
+      {
+        "href": "https://tlidb.com/cn/Divinity_Slate",
+        "text": "神格石板"
+      },
+      {
+        "href": "https://tlidb.com/cn/Challenge",
+        "text": "挑战"
+      },
+      {
+        "href": "https://tlidb.com/cn/Pages",
+        "text": "书页"
+      },
+      {
+        "href": "https://tlidb.com/cn/Glyph",
+        "text": "铭文"
+      },
+      {
+        "href": "https://tlidb.com/cn/Geography",
+        "text": "地理"
+      },
+      {
+        "href": "https://tlidb.com/cn/Environment",
+        "text": "风物"
+      },
+      {
+        "href": "https://tlidb.com/cn/History",
+        "text": "历史"
+      },
+      {
+        "href": "https://tlidb.com/cn/Account",
+        "text": "账号功能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Pactspirit_Shop",
+        "text": "契灵商店"
+      },
+      {
+        "href": "https://tlidb.com/cn/Pack",
+        "text": "礼包"
+      },
+      {
+        "href": "https://tlidb.com/cn/Illusion_Essence_Shop",
+        "text": "幻想精华商店"
+      },
+      {
+        "href": "https://tlidb.com/cn/Outfit_Shop",
+        "text": "时装商店"
+      },
+      {
+        "href": "https://tlidb.com/cn/Ultimate_Shop",
+        "text": "至臻商店"
+      },
+      {
+        "href": "https://tlidb.com/cn/Outfit_Pack",
+        "text": "时装礼包"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hero_Outfit",
+        "text": "英雄时装"
+      },
+      {
+        "href": "https://tlidb.com/cn/Weapon_Skin",
+        "text": "武器时装"
+      },
+      {
+        "href": "https://tlidb.com/cn/Weapon_Skin",
+        "text": "武器时装"
+      },
+      {
+        "href": "https://tlidb.com/cn/Headdress",
+        "text": "头饰"
+      },
+      {
+        "href": "https://tlidb.com/cn/Back_accessory",
+        "text": "背饰"
+      },
+      {
+        "href": "https://tlidb.com/cn/Skill_Outfit",
+        "text": "技能时装"
+      },
+      {
+        "href": "https://tlidb.com/cn/Body_effect",
+        "text": "身体特效"
+      },
+      {
+        "href": "https://tlidb.com/cn/Footprint_effect",
+        "text": "足迹特效"
+      },
+      {
+        "href": "https://tlidb.com/cn/Teleport_effect",
+        "text": "传送特效"
+      },
+      {
+        "href": "https://tlidb.com/cn/Weapon_effect",
+        "text": "武器特效"
+      },
+      {
+        "href": "https://tlidb.com/cn/Weapon_effect",
+        "text": "武器特效"
+      },
+      {
+        "href": "https://tlidb.com/cn/Portrait",
+        "text": "头像"
+      },
+      {
+        "href": "https://tlidb.com/cn/Overrealm_Season",
+        "text": "叠界赛季"
+      },
+      {
+        "href": "https://torchlight.xd.cn/news/single?id=buYaN1rB",
+        "text": "Patch Note"
+      },
+      {
+        "href": "https://www.bilibili.com/video/BV1gKn6zPEfR/",
+        "text": "Season Preview VOD"
+      },
+      {
+        "href": "https://tlidb.com/cn/Containment_Dossier",
+        "text": "收容档案"
+      },
+      {
+        "href": "https://tlidb.com/cn/Ethereal_Prism",
+        "text": "异度棱镜"
+      },
+      {
+        "href": "https://tlidb.com/cn/Special_Prism",
+        "text": "特殊棱镜"
+      },
+      {
+        "href": "https://tlidb.com/cn/Prism_Gauge",
+        "text": "棱镜校尺"
+      },
+      {
+        "href": "https://tlidb.com/cn/Creative_Genius",
+        "text": "创想鬼才"
+      },
+      {
+        "href": "https://tlidb.com/cn/Combo",
+        "text": "连携"
+      },
+      {
+        "href": "https://tlidb.com/cn/Overrealm_Season_uniques",
+        "text": "传奇装备"
+      },
+      {
+        "href": "https://tlidb.com/cn/Outlaw_Season",
+        "text": "通缉赛季"
+      },
+      {
+        "href": "https://torchlight.xd.cn/news/single?id=duQq1hQ7",
+        "text": "Patch Note"
+      },
+      {
+        "href": "https://www.bilibili.com/video/BV1ZSugzwEj1/",
+        "text": "Season Preview VOD"
+      },
+      {
+        "href": "https://tlidb.com/cn/TOWER_Sequence",
+        "text": "高塔序列"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hot_Streak",
+        "text": "好运时刻"
+      },
+      {
+        "href": "https://tlidb.com/cn/Crime_Rating",
+        "text": "犯罪星级"
+      },
+      {
+        "href": "https://tlidb.com/cn/TOWER_Co._Central_Vault",
+        "text": "高塔中央金库"
+      },
+      {
+        "href": "https://tlidb.com/cn/Unsullied_Blade",
+        "text": "无垢之刃"
+      },
+      {
+        "href": "https://tlidb.com/cn/Sandlord_Season",
+        "text": "大亨赛季"
+      },
+      {
+        "href": "https://torchlight.xd.cn/news/single?id=euI8bgFS",
+        "text": "Patch Note"
+      },
+      {
+        "href": "https://www.bilibili.com/video/BV1YsdhYWEa7/",
+        "text": "Season Preview VOD"
+      },
+      {
+        "href": "https://tlidb.com/cn/Cloud_Oasis",
+        "text": "云端绿洲"
+      },
+      {
+        "href": "https://tlidb.com/cn/Blending_Rituals",
+        "text": "调香秘仪"
+      },
+      {
+        "href": "https://tlidb.com/cn/Aromatic_Material",
+        "text": "香料"
+      },
+      {
+        "href": "https://tlidb.com/cn/Blasphemer",
+        "text": "渎神"
+      },
+      {
+        "href": "https://tlidb.com/cn/Season_Compass",
+        "text": "赛季罗盘"
+      },
+      {
+        "href": "https://tlidb.com/cn/Arcana_Season",
+        "text": "塔罗赛季"
+      },
+      {
+        "href": "https://torchlight.xd.cn/news/single?id=buySzds8",
+        "text": "Patch Note"
+      },
+      {
+        "href": "https://www.bilibili.com/video/BV16prxYEEtj/",
+        "text": "Season Preview VOD"
+      },
+      {
+        "href": "https://tlidb.com/cn/Tarot_Path",
+        "text": "塔罗秘径"
+      },
+      {
+        "href": "https://tlidb.com/cn/Destiny",
+        "text": "命运"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vigilant_Breeze",
+        "text": "守望的暖风"
+      },
+      {
+        "href": "https://tlidb.com/cn/The_Frozen_Canvas_Season",
+        "text": "画雪赛季"
+      },
+      {
+        "href": "https://www.taptap.cn/moment/595992469095581592",
+        "text": "Patch Note"
+      },
+      {
+        "href": "https://www.bilibili.com/video/BV1s72SYBEQ6/",
+        "text": "Season Preview VOD"
+      },
+      {
+        "href": "https://tlidb.com/cn/Noble_Support_Skill",
+        "text": "崇高辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Magnificent_Support_Skill",
+        "text": "华贵辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Aureate_Calamity_Ordrak",
+        "text": "金色浩劫·奥达克"
+      },
+      {
+        "href": "https://tlidb.com/cn/Supreme_Showdown",
+        "text": "巅峰对决"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hero_Memories",
+        "text": "英雄追忆"
+      },
+      {
+        "href": "https://tlidb.com/cn/Sing_with_the_Tide",
+        "text": "与海潮同歌"
+      },
+      {
+        "href": "https://tlidb.com/cn/Clockwork_Ballet_Season",
+        "text": "玩偶赛季"
+      },
+      {
+        "href": "https://torchlight.xd.cn/news/single?id=9ugZrpXl",
+        "text": "Patch Note"
+      },
+      {
+        "href": "https://www.bilibili.com/video/BV1jJ4m1u7CR/",
+        "text": "Season Preview VOD"
+      },
+      {
+        "href": "https://tlidb.com/cn/Clockwork_Ballet_Member_Services",
+        "text": "玩偶俱乐部会员服务"
+      },
+      {
+        "href": "https://tlidb.com/cn/Zealot_of_War",
+        "text": "战火狂徒"
+      },
+      {
+        "href": "https://tlidb.com/cn/Void_Chart",
+        "text": "虚空星图"
+      },
+      {
+        "href": "https://tlidb.com/cn/Whispering_Mist_Season",
+        "text": "怪谈赛季"
+      },
+      {
+        "href": "https://torchlight.xd.cn/news/single?id=fu9r19zA",
+        "text": "Patch Note"
+      },
+      {
+        "href": "https://www.bilibili.com/video/BV1ET421U79K/",
+        "text": "Season Preview VOD"
+      },
+      {
+        "href": "https://tlidb.com/cn/Deduction_Record",
+        "text": "推理记录"
+      },
+      {
+        "href": "https://tlidb.com/cn/Mistville_Exploration",
+        "text": "雾都探索"
+      },
+      {
+        "href": "https://tlidb.com/cn/Mistville_Trader",
+        "text": "雾都商人"
+      },
+      {
+        "href": "https://tlidb.com/cn/Lightning_Shadow",
+        "text": "电光猫影"
+      },
+      {
+        "href": "https://tlidb.com/cn/Preseason_SS4",
+        "text": "SS3季前赛"
+      },
+      {
+        "href": "https://www.youtube.com/watch?v=PMmCX6hYAXY",
+        "text": "Season Preview VOD"
+      },
+      {
+        "href": "https://tlidb.com/cn/Nightmare_Season",
+        "text": "梦魇赛季"
+      },
+      {
+        "href": "https://torchlight.xd.cn/news/single?id=ytYLMpG8",
+        "text": "Patch Note"
+      },
+      {
+        "href": "https://www.youtube.com/watch?v=QV2zWcQWxFQ",
+        "text": "Season Preview VOD"
+      },
+      {
+        "href": "https://tlidb.com/cn/Dream_Talking",
+        "text": "梦语"
+      },
+      {
+        "href": "https://tlidb.com/cn/Dream_Bubbles",
+        "text": "梦境泡影"
+      },
+      {
+        "href": "https://tlidb.com/cn/Dream_Cloud_Atlas",
+        "text": "梦境云图"
+      },
+      {
+        "href": "https://tlidb.com/cn/High_Court_Chariot",
+        "text": "圣庭战车"
+      },
+      {
+        "href": "https://tlidb.com/cn/Preseason_SS3",
+        "text": "SS1季前赛"
+      },
+      {
+        "href": "https://www.youtube.com/watch?v=JFaKERMysOo",
+        "text": "Season Preview VOD"
+      },
+      {
+        "href": "https://tlidb.com/cn/Aeterna_Season",
+        "text": "迷城赛季"
+      },
+      {
+        "href": "https://torchlight.xd.cn/news/single?id=mtNPWg0u",
+        "text": "Patch Note"
+      },
+      {
+        "href": "https://torchlight.xd.cn/news/single?id=atNQ0vcZ",
+        "text": "Balance Adjustments"
+      },
+      {
+        "href": "https://torchlight.xd.cn/news/single?id=otOS6a7G",
+        "text": "Balance Adjustment Supplement"
+      },
+      {
+        "href": "https://www.youtube.com/watch?v=Quk1O9BQY-8",
+        "text": "Season Preview VOD"
+      },
+      {
+        "href": "https://tlidb.com/cn/Aeterna_Map",
+        "text": "迷城版图"
+      },
+      {
+        "href": "https://tlidb.com/cn/Psalms_of_Aeterna",
+        "text": "永恒诗篇"
+      },
+      {
+        "href": "https://tlidb.com/cn/Pages_of_Aeterna",
+        "text": "永恒残页"
+      },
+      {
+        "href": "https://tlidb.com/cn/Cube_Season",
+        "text": "魔方赛季"
+      },
+      {
+        "href": "https://torchlight.xd.cn/news/single/?id=ptBW3rSm",
+        "text": "Patch Note"
+      },
+      {
+        "href": "https://torchlight.xd.cn/news/single/?id=7tCOzwuh",
+        "text": "Balance Adjustments"
+      },
+      {
+        "href": "https://tlidb.com/cn/Divinity_Slate",
+        "text": "神格石板"
+      },
+      {
+        "href": "https://tlidb.com/cn/Avarice_Code",
+        "text": "黑心者律典"
+      },
+      {
+        "href": "https://tlidb.com/cn/Spell_Burst",
+        "text": "法术迸发"
+      },
+      {
+        "href": "https://tlidb.com/cn/Command",
+        "text": "统御"
+      },
+      {
+        "href": "https://tlidb.com/cn/The_Law_Bearer",
+        "text": "持律人"
+      },
+      {
+        "href": "https://tlidb.com/cn/Desire_Crystal",
+        "text": "欲念结晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Desire_Bead",
+        "text": "神威辉石"
+      },
+      {
+        "href": "https://tlidb.com/cn/Desire_Core",
+        "text": "欲念原核-记录"
+      },
+      {
+        "href": "https://tlidb.com/cn/Unifying_Wedge",
+        "text": "归一之楔"
+      },
+      {
+        "href": "https://tlidb.com/cn/Blacksail_Season",
+        "text": "黑帆赛季"
+      },
+      {
+        "href": "https://tlidb.com/cn/Void_Sea_Flame",
+        "text": "虚海夜火"
+      },
+      {
+        "href": "https://tlidb.com/cn/Void_Sea_Terminal",
+        "text": "虚空终港"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hero_Memories",
+        "text": "英雄追忆"
+      },
+      {
+        "href": "https://tlidb.com/cn/Whisper_of_Wealth",
+        "text": "财富秘语"
+      },
+      {
+        "href": "https://tlidb.com/cn/Whisper_of_Armament",
+        "text": "军械秘语"
+      },
+      {
+        "href": "https://tlidb.com/cn/Whisper_of_Wonder",
+        "text": "奇珍秘语"
+      },
+      {
+        "href": "https://tlidb.com/cn/Dark_Surge_Season",
+        "text": "黑潮赛季"
+      },
+      {
+        "href": "https://tlidb.com/cn/Corrosion",
+        "text": "侵蚀"
+      },
+      {
+        "href": "https://poedb.tw/",
+        "text": "poedb.tw"
+      },
+      {
+        "href": "https://tlidb.com/",
+        "text": "tlidb.com"
+      },
+      {
+        "href": "https://poe2db.tw/",
+        "text": "poe2db.tw"
+      },
+      {
+        "href": "https://paldb.cc/",
+        "text": "paldb.cc"
+      },
+      {
+        "href": "https://tlidb.com/cn/privacy",
+        "text": "Privacy"
+      },
+      {
+        "href": "https://www.reddit.com/user/chuanhsing",
+        "text": "About US"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S13_LegendStitching_03.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S12_LengJing_White01.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S11ChipMatching0_Icon.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/UI_Money_S10EquipEnchantMaterial_10_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S9Pet_FateStar_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S8Gameplay_Snow2_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_MysticTreeRespecPoint_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S6Gameplay_Tile_bench.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S5Gameplay_DreamTreasure_Almighty_C_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/S4/UI_S4Gameplay_talent01_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S3Gameplay_Beads_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S2BossTicket3_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_Item_yimozhihe_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/image/torchlight/p3_20251226_cn.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Rehan/UI_Portrait_Rehan_01_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Rehan/UI_Portrait_Rehan_02_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Carino/UI_Portrait_Carino_01_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Carino/UI_Portrait_Carino_02_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Carino/UI_Portrait_Carino_03_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Erika/UI_Portrait_Erika_01_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Erika/UI_Portrait_Erika_02_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Erika/UI_Portrait_Erika_03_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Bing/UI_Portrait_Bing_01_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Bing/UI_Portrait_Bing_02_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Gemma/UI_Portrait_Gemma_03_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Gemma/UI_Portrait_Gemma_02_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Gemma/UI_Portrait_Gemma_01_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Thea/UI_Portrait_Thea_01_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Thea/UI_Portrait_Thea_02_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Thea/UI_Portrait_Thea_03_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Youga/UI_Portrait_Youga_01_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Youga/UI_Portrait_Youga_02_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Moto/UI_Portrait_Moto_01_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Moto/UI_Portrait_Moto_02_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Rosa/UI_Portrait_Rosa_01_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Rosa/UI_Portrait_Rosa_02_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Iris/UI_Portrait_Iris_01_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Iris/UI_Portrait_Iris_02_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Selena/UI_Portrait_Selena_01_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentStr_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentStrS01_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentStrS02_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentStrS03_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentStrS04_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentAgi_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentAgiS01_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentAgiS02_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentAgiS03_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentAgiS04_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentInt_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentIntS01_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentIntS02_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentIntS03_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentIntS04_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentSA_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentSAS01_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentSAS02_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentSAS03_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentSAS04_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentAI_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentAIS01_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentAIS02_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentAIS03_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentAIS04_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentSI_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentSIS01_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentSIS02_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentSIS03_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/128/UI_TalentIcon_TalentSIS04_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/TabCardIcon/NoAtlas/UI_Gather_ICONTAB1.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/TabCardIcon/NoAtlas/UI_Gather_ICONTAB2.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/TabCardIcon/NoAtlas/UI_Gather_ICONTAB3.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/TabCardIcon/NoAtlas/UI_Gather_ICONTAB4.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/TabCardIcon/NoAtlas/UI_Gather_ICONTAB5.webp",
+        "alt": ""
+      }
+    ],
+    "meta": {
+      "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+      "color-scheme": "dark"
+    },
+    "structured_data": {}
+  }
+]

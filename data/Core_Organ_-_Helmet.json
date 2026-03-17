@@ -1,0 +1,948 @@
+[
+  {
+    "url": "https://tlidb.com/cn/Core_Organ_-_Helmet",
+    "title": "Core_Organ_-_Helmet - 火炬编年史, Torchlight: Infinite Wiki",
+    "html": "\n    <div class=\"background-image\"></div>\n    <!-- Google tag (gtag.js) -->\n    <script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-P6KT6L9KX8\"></script>\n    <script>\n      window.dataLayer = window.dataLayer || [];\n      function gtag(){dataLayer.push(arguments);}\n      gtag('js', new Date());\n    \n      gtag('config', 'G-P6KT6L9KX8');\n    </script>\n\n    <nav class=\"navbar navbar-expand-lg navbar-dark\">\n      <div class=\"container\">\n        <a class=\"navbar-brand\" href=\"/cn/\">火炬编年史</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">英雄</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Hero\">英雄</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Talent\">天赋</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">仓库</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Inventory\">仓库</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Legendary_Gear\">传奇装备</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Ethereal_Prism\">异度棱镜</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_Synthetic_Synthetic\" href=\"/cn/Recipe\">Recipe</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Pactspirit\">契灵</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"function|name|116\" href=\"/cn/Black_Market\">Black Market</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Drop_Source\">掉落来源</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Destiny\">命运</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">技能</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Active_Skill\">主动技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Support_Skill\">辅助技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Passive_Skill\">被动技能</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_SkillBag_SkillType4\" href=\"/cn/Triggered_Skill\">Triggered Skill</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Activation_Medium_Skill\">触媒技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Noble_Support_Skill\">崇高辅助技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Magnificent_Support_Skill\">华贵辅助技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Tip\">提示</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Hyperlink\">Hyperlink</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">打造</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Craft\">打造</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"function|name|131\" href=\"/cn/Enchant\">Enchant</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Corrosion\">侵蚀</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Gear_Empowerment\">装备赋能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Dream_Talking\">梦语</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Blending_Rituals\">调香秘仪</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/TOWER_Sequence\">高塔序列</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Graft\">缝合</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">成就</a>\n              <ul class=\"dropdown-menu\">\n                <!--\n                <li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_Growth_Achievement_Title\" href=\"/cn/Path_of_Achievements\">Path of Achievements</a></li>\n                -->\n                <li><a class=\"dropdown-item\" href=\"/cn/Path_of_Progression\">成长之路</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"season|name1|101\" href=\"/cn/Dark_Surge_Season\">Dark Surge Season</a></li>-->\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_SeasonBook_Title\" href=\"/cn/Season_Pass\">Season Pass</a></li>-->\n                <!--\n                <li><a class=\"dropdown-item\" data-i18n=\"function|name|139\" href=\"/cn/Event\">Event</a></li>\n                -->\n                <li><hr class=\"dropdown-divider\"></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Help\">帮助手册</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Codex\">情报</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">异界</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Netherrealm\">异界</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_MysteryCard_PlayerDeck\" href=\"/cn/Trait_Decks\">Trait Decks</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Confusion_Card_Library\">混乱牌库</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Void_Chart\">虚空星图</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Compass\">罗盘</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Probe\">赛季罗盘</a></li>\n                <li><hr class=\"dropdown-divider\"></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Path_of_the_Brave\">勇者之路</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">商城</a>\n              <ul class=\"dropdown-menu\">\n    <!--\n                <li><a class=\"dropdown-item\" data-i18n=\"function|name|110\" href=\"/cn/Shop\">Shop</a></li>\n    -->\n                <li><a class=\"dropdown-item\" href=\"/cn/Outfit\">时装</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Commodity\">通货</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Boon\">恩赐</a></li>\n              </ul>\n            </li>\n    \n    <!--\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" data-i18n=\"Guide\" href=\"/cn/guides?season=The%20Frozen%20Canvas%20Season\">Guide</a>\n            </li>\n    -->\n    \n          </ul>\n    \n          <!--\n          <a class=\"nav-link2\" style=\"padding-right: 10px\" href=\"https://lihi1.com/cAO3Z\" target=\"_blank\">\n            <img style=\"height: 24px\" \n                src=\"https://cdn.tlidb.com/image/logo/torchlight-48.webp\"\n            />\n          </a>\n    \n          <a class=\"nav-link2\" style=\"padding-right: 10px\"\n            href=\"https://lihi1.com/l1NmL\"\n            target=\"_blank\">\n            <img style=\"height: 24px\" src=\"https://cdn.tlidb.com/image/logo/facebook-48.webp\"/>\n          </a>\n    \n          <a class=\"nav-link2\" style=\"padding-right: 10px\"\n            href=\"https://lihi1.com/neCTK\"\n            target=\"_blank\">\n            <img style=\"height: 24px\" src=\"https://cdn.tlidb.com/image/logo/youtube-48.webp\"/>\n          </a>\n    \n          <a class=\"nav-link2\" style=\"padding-right: 10px\" href=\"https://lihi1.com/owKrQ\" target=\"_blank\">\n            <img style=\"height: 24px\" src=\"https://cdn.tlidb.com/image/logo/discord-48.webp\"/>\n          </a>\n          -->\n    \n          <ul class=\"navbar-nav\">\n            <li class=\"nav-item dropdown\">\n              <a href=\"#\" class=\"nav-link dropdown-toggle\" role=\"button\" data-bs-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"> <i class=\"fas fa-language fa-lg\"></i></a>\n              <ul class=\"dropdown-menu language-menu\">\n                <li><a class=\"dropdown-item\" href=\"/en/Core_Organ_-_Helmet\">EN English</a></li>\n                <li><a class=\"dropdown-item\" href=\"/tw/Core_Organ_-_Helmet\">TW 繁體中文</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Core_Organ_-_Helmet\">CN 简体中文</a></li>\n                <li><a class=\"dropdown-item\" href=\"/ko/Core_Organ_-_Helmet\">KO 한국어</a></li>\n                <li><a class=\"dropdown-item\" href=\"/ja/Core_Organ_-_Helmet\">JA Japanese</a></li>\n                <li><a class=\"dropdown-item\" href=\"/ru/Core_Organ_-_Helmet\">RU Русский</a></li>\n                <!--\n                <li><a class='dropdown-item' href='/de/'>DE Deutsch</a></li>\n                <li><a class='dropdown-item' href='/es/'>ES Spanish</a></li>\n                <li><a class='dropdown-item' href='/fr/'>FR Français</a></li>\n                <li><a class='dropdown-item' href='/id/'>ID bahasa Indonesia</a></li>\n                <li><a class='dropdown-item' href='/pt/'>PT Português</a></li>\n                <li><a class='dropdown-item' href='/th/'>TH ภาษาไทย</a></li>\n                <li><a class='dropdown-item' href='/vi/'>VI Tiếng Việt</a></li>\n                -->\n              </ul>\n            </li>\n          </ul>\n    \n          <form class=\"d-flex\" role=\"search\" action=\"search\">\n            <input class=\"form-control me-2 ui-autocomplete-input\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\" id=\"navautosearch\" name=\"q\" autocomplete=\"off\">\n          </form>\n    \n        </div>\n      </div>\n    </nav>\n\n    <script> sidebar160(\"leftside_banner\", \"left\"); </script>\n    <script> sidebar160(\"rightside_banner\", \"right\"); </script>\n\n    <div class=\"page\">\n    <div class=\"page-content container\" role=\"main\">\n    <div class=\"text-center\">\n    <a href=\"Vorax_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S13_LegendStitching_03.webp\" class=\"size48\"></a>\n    <a href=\"Overrealm_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S12_LengJing_White01.webp\" class=\"size48\"></a>\n    <a href=\"Outlaw_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S11ChipMatching0_Icon.webp\" class=\"size48\"></a>\n    <a href=\"Sandlord_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/UI_Money_S10EquipEnchantMaterial_10_128.webp\" class=\"size48\"></a>\n    <a href=\"Arcana_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S9Pet_FateStar_128.webp\" class=\"size48\"></a>\n    <a href=\"The_Frozen_Canvas_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S8Gameplay_Snow2_128.webp\" class=\"size48\"></a>\n    <a href=\"Clockwork_Ballet_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_MysticTreeRespecPoint_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Whispering_Mist_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S6Gameplay_Tile_bench.webp\" class=\"size48\"></a>\n    <a href=\"Nightmare_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S5Gameplay_DreamTreasure_Almighty_C_128.webp\" class=\"size48\"></a>\n    <a href=\"Aeterna_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/S4/UI_S4Gameplay_talent01_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Cube_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S3Gameplay_Beads_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Blacksail_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S2BossTicket3_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Dark_Surge_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_Item_yimozhihe_Icon_128.webp\" class=\"size48\"></a>\n    </div>\n    <div class=\"text-center mb-2\"><a href=\"https://l.taptap.cn/SyBkGgT1?channel=rep-rep_voftpwn7cks\" target=\"_blank\"><img src=\"https://cdn.tlidb.com/image/torchlight/p3_20251226_cn.webp\" style=\"max-width: 100%;\"></a></div>\n    <div class=\"card mb-2 \">\n    <div class=\"card-header\">Item /33 </div>\n    <div class=\"collapse show\">\n    \n    \n    <script>\n$(document).ready(function () {\n    filterClick($('[name=filter]'));\n});\n</script>\n\n<form><div class=\"input-group my-2\">\n    <button class=\"btn btn-outline-secondary\" type=\"reset\">Reset</button>\n    <input name=\"filter\" class=\"form-control\" placeholder=\"Search\">\n</div></form><div class=\"row row-cols-1 row-cols-lg-3 g-2\"><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_401_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F382001\" href=\"Organ%3A_Rock_Lizard%27s_Skull\">器官：岩石巨蜥之颅</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112201\" href=\"Rock_Lizard%27s_Skull\" class=\"item_rarity100\">岩石巨蜥之颅</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380105\" href=\"Sullied_Suture\">肮脏缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【岩石巨蜥之颅】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_410_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F382002\" href=\"Organ%3A_Siren_Faceguard\">器官：海妖面甲</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112213\" href=\"Siren_Faceguard\" class=\"item_rarity100\">海妖面甲</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380105\" href=\"Sullied_Suture\">肮脏缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【海妖面甲】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_411_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F382003\" href=\"Organ%3A_Scarlet_Decree\">器官：猩红敕令</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112214\" href=\"Scarlet_Decree\" class=\"item_rarity100\">猩红敕令</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380105\" href=\"Sullied_Suture\">肮脏缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【猩红敕令】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_307_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F382004\" href=\"Organ%3A_Corrupted_Marrow\">器官：蚀髓</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112221\" href=\"Corrupted_Marrow\" class=\"item_rarity100\">蚀髓</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380105\" href=\"Sullied_Suture\">肮脏缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【蚀髓】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_327_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"/cache/cn/Torchlight_ItemBase_hover/2b38b77960a84cb7a74ab5080d721ab1316d148c3bd59a69ce3c54faf420feb1\" href=\"Organ%3A_Brainwave_Emitter\">器官：脑波迸发器</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112252\" href=\"Brainwave_Emitter\" class=\"item_rarity100\">脑波迸发器</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380105\" href=\"Sullied_Suture\">肮脏缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【脑波迸发器】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_403_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F382006\" href=\"Organ%3A_Last_Words_of_Chaos\">器官：混沌遗言</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112203\" href=\"Last_Words_of_Chaos\" class=\"item_rarity100\">混沌遗言</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380106\" href=\"Tenacious_Suture\">坚韧缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【混沌遗言】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_405_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F382007\" href=\"Organ%3A_Opening_Heart\">器官：敞开心扉</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112206\" href=\"Opening_Heart\" class=\"item_rarity100\">敞开心扉</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380106\" href=\"Tenacious_Suture\">坚韧缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【敞开心扉】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_406_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"/cache/cn/Torchlight_ItemBase_hover/9f7728d01d9137c92721b8af5ab6402337688409cc332bddf7b7cf55a6dc2432\" href=\"Organ%3A_Cold_Breath\">器官：冰冷呼吸</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112207\" href=\"Cold_Breath\" class=\"item_rarity100\">冰冷呼吸</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380106\" href=\"Tenacious_Suture\">坚韧缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【冰冷呼吸】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_201_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F382009\" href=\"Organ%3A_Fiend_Crown\">器官：邪龙头冠</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112209\" href=\"Fiend_Crown\" class=\"item_rarity100\">邪龙头冠</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380106\" href=\"Tenacious_Suture\">坚韧缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【邪龙头冠】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_408_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F382010\" href=\"Organ%3A_Webbed_Arcane_Headscarf\">器官：蛛网奥秘头巾</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112211\" href=\"Webbed_Arcane_Headscarf\" class=\"item_rarity100\">蛛网奥秘头巾</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380106\" href=\"Tenacious_Suture\">坚韧缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【蛛网奥秘头巾】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_409_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F382011\" href=\"Organ%3A_Blind_Vision\">器官：盲眼之视</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112212\" href=\"Blind_Vision\" class=\"item_rarity100\">盲眼之视</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380106\" href=\"Tenacious_Suture\">坚韧缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【盲眼之视】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_412_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F382012\" href=\"Organ%3A_Awakening_Skull\">器官：苏醒头颅</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112215\" href=\"Awakening_Skull\" class=\"item_rarity100\">苏醒头颅</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380106\" href=\"Tenacious_Suture\">坚韧缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【苏醒头颅】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_306_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F382013\" href=\"Organ%3A_Thunder_Jawbone\">器官：万雷颚骨</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112220\" href=\"Thunder_Jawbone\" class=\"item_rarity100\">万雷颚骨</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380106\" href=\"Tenacious_Suture\">坚韧缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【万雷颚骨】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_309_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F382014\" href=\"Organ%3A_When_Winter_Comes\">器官：霜起之时</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112223\" href=\"When_Winter_Comes\" class=\"item_rarity100\">霜起之时</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380106\" href=\"Tenacious_Suture\">坚韧缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【霜起之时】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_312_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F382015\" href=\"Organ%3A_Divine_Ember\">器官：神躯燃烬</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112229\" href=\"Divine_Ember\" class=\"item_rarity100\">神躯燃烬</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380106\" href=\"Tenacious_Suture\">坚韧缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【神躯燃烬】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_313_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F382016\" href=\"Organ%3A_Hekate%27s_Vision\">器官：巫神视界</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112230\" href=\"Hekate%27s_Vision\" class=\"item_rarity100\">巫神视界</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380106\" href=\"Tenacious_Suture\">坚韧缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【巫神视界】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_314_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F382017\" href=\"Organ%3A_Hunting_the_Eye_of_the_Kraken\">器官：追猎海妖之眼</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112231\" href=\"Hunting_the_Eye_of_the_Kraken\" class=\"item_rarity100\">追猎海妖之眼</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380106\" href=\"Tenacious_Suture\">坚韧缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【追猎海妖之眼】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_413_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F382018\" href=\"Organ%3A_Flying_Light_at_Daybreak\">器官：飞光破晓</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112232\" href=\"Flying_Light_at_Daybreak\" class=\"item_rarity100\">飞光破晓</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380106\" href=\"Tenacious_Suture\">坚韧缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【飞光破晓】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_323_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F382019\" href=\"Organ%3A_Hanging_Two-Tone_Mask\">器官：倒吊的半面</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112241\" href=\"Hanging_Two-Tone_Mask\" class=\"item_rarity100\">倒吊的半面</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380106\" href=\"Tenacious_Suture\">坚韧缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【倒吊的半面】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_325_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F382021\" href=\"Organ%3A_Headless_Crown\">器官：无首之冕</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112250\" href=\"Headless_Crown\" class=\"item_rarity100\">无首之冕</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380106\" href=\"Tenacious_Suture\">坚韧缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【无首之冕】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_302_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F382022\" href=\"Organ%3A_Surging_Inspiration\">器官：涌动灵感</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112208\" href=\"Surging_Inspiration\" class=\"item_rarity100\">涌动灵感</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380107\" href=\"Exquisite_Suture\">精美缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【涌动灵感】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_202_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F382023\" href=\"Organ%3A_Imperial_Iron_Sentry\">器官：皇家铁卫</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112216\" href=\"Imperial_Iron_Sentry\" class=\"item_rarity100\">皇家铁卫</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380107\" href=\"Exquisite_Suture\">精美缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【皇家铁卫】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_203_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F382024\" href=\"Organ%3A_Tide_of_the_Styx\">器官：冥河潮汐</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112217\" href=\"Tide_of_the_Styx\" class=\"item_rarity100\">冥河潮汐</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380107\" href=\"Exquisite_Suture\">精美缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【冥河潮汐】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_305_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F382025\" href=\"Organ%3A_Sun%27s_Embrace\">器官：烈阳之拥</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112219\" href=\"Sun%27s_Embrace\" class=\"item_rarity100\">烈阳之拥</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380107\" href=\"Exquisite_Suture\">精美缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【烈阳之拥】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_311_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F382026\" href=\"Organ%3A_Fool%27s_Crown\">器官：愚人的帝冕</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112228\" href=\"Fool%27s_Crown\" class=\"item_rarity100\">愚人的帝冕</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380107\" href=\"Exquisite_Suture\">精美缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【愚人的帝冕】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_317_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F382027\" href=\"Organ%3A_Troublemaker\">器官：捣乱份子</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112235\" href=\"Troublemaker\" class=\"item_rarity100\">捣乱份子</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380107\" href=\"Exquisite_Suture\">精美缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【捣乱份子】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_322_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F382028\" href=\"Organ%3A_Legless_Bird%27s_Lament\">器官：无脚鸟的悲啼</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112240\" href=\"Legless_Bird%27s_Lament\" class=\"item_rarity100\">无脚鸟的悲啼</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380107\" href=\"Exquisite_Suture\">精美缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【无脚鸟的悲啼】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_326_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F382029\" href=\"Organ%3A_Solid_River\">器官：凝河</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112251\" href=\"Solid_River\" class=\"item_rarity100\">凝河</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380107\" href=\"Exquisite_Suture\">精美缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【凝河】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_329_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F382030\" href=\"Organ%3A_Mask_of_Infernal_Iron\">器官：业火的铁面</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112253\" href=\"Mask_of_Infernal_Iron\" class=\"item_rarity100\">业火的铁面</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380107\" href=\"Exquisite_Suture\">精美缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【业火的铁面】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_328_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"/cache/cn/Torchlight_ItemBase_hover/7fc34cc2b4318ea96a9463d2821a2c617ad4a2ae3640f2d137384a72c2f8171b\" href=\"Organ%3A_Kragol%27s_Roar\">器官：克拉戈尔的嘶吼</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112254\" href=\"Kragol%27s_Roar\" class=\"item_rarity100\">克拉戈尔的嘶吼</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380107\" href=\"Exquisite_Suture\">精美缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【克拉戈尔的嘶吼】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_332_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F382241\" href=\"Organ%3A_Iron_and_Bloom\">器官：铁与花</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112256\" href=\"Iron_and_Bloom\" class=\"item_rarity100\">铁与花</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380107\" href=\"Exquisite_Suture\">精美缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【铁与花】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_333_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F382242\" href=\"Organ%3A_Malign_Embrace\">器官：恶意缠绵</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112257\" href=\"Malign_Embrace\" class=\"item_rarity100\">恶意缠绵</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380107\" href=\"Exquisite_Suture\">精美缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【恶意缠绵】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_319_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"/cache/cn/Torchlight_ItemBase_hover/756bbcc2934642210d478ec98e9c0695303b695fd4d0b78e2890a4c06750713d\" href=\"%E5%99%A8%E5%AE%98%EF%BC%9A%E8%8E%BD%E5%A4%AB%E7%9A%84%E9%93%81%E5%86%A0\">器官：莽夫的铁冠</a><div><div class=\"text-center bg-dark tlborder\"><a data-hover=\"?s=ItemGold%2F112237\" href=\"Boor%27s_Iron_Crown\" class=\"item_rarity100\">莽夫的铁冠</a></div><div>消耗 <a data-hover=\"?s=ItemBase%2F380105\" href=\"Sullied_Suture\">肮脏缝线</a> x1</div></div><hr style=\"width: 80%\" class=\"mx-auto my-1\"><div></div><div></div><div>用于在缝合中添加【莽夫的铁冠】的相关词缀<br>已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效<div>缝合: 头部、项链</div></div></div></div></div></div>\n    \n    </div>\n</div>\n    </div>\n    </div>\n\n    <footer class=\"text-center text-lg-left container mt-2\">\n      <div class=\"card p-4\">\n        <div class=\"row\">\n\n          <div class=\"col-lg-3 col-md-12 mb-4 mb-md-0\">\n            <h5 class=\"text-uppercase\">Sites</h5>\n            <ul class=\"list-unstyled mb-0\">\n              <li> <a target=\"_blank\" href=\"https://poedb.tw/\">poedb.tw</a> </li>\n              <li> <a target=\"_blank\" href=\"https://tlidb.com/\">tlidb.com</a> </li>\n              <!--<li> <a target=\"_blank\" href=\"https://diablo4.cc/\">diablo4.cc</a> </li>-->\n              <li> <a target=\"_blank\" href=\"https://poe2db.tw/\">poe2db.tw</a> </li>\n              <li> <a target=\"_blank\" href=\"https://paldb.cc/\">paldb.cc</a> </li>\n            </ul>\n          </div>\n\n          <div class=\"col-lg-3 col-md-12 mb-4 mb-md-0\">\n            <h5 class=\"text-uppercase\">About Site</h5>\n            <ul class=\"list-unstyled mb-0\">\n              <li><a href=\"privacy\">Privacy</a></li>\n              <li> <a target=\"_blank\" href=\"https://www.reddit.com/user/chuanhsing\">About US</a> </li>\n            </ul>\n          </div>\n\n          <div class=\"col-lg-3 col-md-6 mb-4 mb-md-0\">\n            <h5 class=\"text-uppercase\">Community</h5>\n            <ul class=\"list-unstyled mb-0\">\n            </ul>\n          </div>\n\n        </div>\n      </div>\n      <div class=\"p-3\">\n\n      <span>资料库内容为测试资料，正确资讯请以官方游戏内的内容为准。</span>\n      </div>\n    </footer>\n\n    <a href=\"#top\" id=\"toTop\"><span class=\"fas fa-arrow-circle-up fa-3x\"></span></a>\n    <div id=\"consent-box\" style=\"display:none\">\n      <button onclick=\"window.__cmp('showModal');\">\n        Update cookie preferences\n      </button>\n    </div>\n    \n    <script>\n      if (window[\"nitroAds\"] && window[\"nitroAds\"].loaded) {\n        document.getElementById(\"consent-box\").style.display = window[\"__tcfapi\"]\n          ? \"\"\n          : \"none\";\n      } else {\n        document.addEventListener(\n          \"nitroAds.loaded\",\n          () =>\n            (document.getElementById(\"consent-box\").style.display = window[\"__tcfapi\"]\n              ? \"\"\n              : \"none\")\n        );\n      }\n    </script>\n  <script defer=\"\" src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon=\"{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;83af079277c347f9ba9fc040e0d21cb5&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}\" crossorigin=\"anonymous\"></script>\n\n\n<ul id=\"ui-id-1\" tabindex=\"0\" class=\"ui-menu ui-widget ui-widget-content ui-autocomplete ui-front\" unselectable=\"on\" style=\"display: none;\"></ul><div role=\"status\" aria-live=\"assertive\" aria-relevant=\"additions\" class=\"ui-helper-hidden-accessible\"></div><iframe marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" id=\"11bab488fb0f888\" width=\"0\" height=\"0\" src=\"about:blank\" name=\"__pb_locator__\" style=\"display: none; height: 0px; width: 0px; border: 0px;\"></iframe><iframe name=\"__uspapiLocator\" style=\"display: none;\"></iframe>",
+    "content": "火炬编年史\n英雄\n仓库\n技能\n打造\n成就\n异界\n商城\n            \nItem /33\nReset\n器官：岩石巨蜥之颅\n岩石巨蜥之颅\n消耗 肮脏缝线 x1\n用于在缝合中添加【岩石巨蜥之颅】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：海妖面甲\n海妖面甲\n消耗 肮脏缝线 x1\n用于在缝合中添加【海妖面甲】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：猩红敕令\n猩红敕令\n消耗 肮脏缝线 x1\n用于在缝合中添加【猩红敕令】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：蚀髓\n蚀髓\n消耗 肮脏缝线 x1\n用于在缝合中添加【蚀髓】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：脑波迸发器\n脑波迸发器\n消耗 肮脏缝线 x1\n用于在缝合中添加【脑波迸发器】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：混沌遗言\n混沌遗言\n消耗 坚韧缝线 x1\n用于在缝合中添加【混沌遗言】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：敞开心扉\n敞开心扉\n消耗 坚韧缝线 x1\n用于在缝合中添加【敞开心扉】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：冰冷呼吸\n冰冷呼吸\n消耗 坚韧缝线 x1\n用于在缝合中添加【冰冷呼吸】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：邪龙头冠\n邪龙头冠\n消耗 坚韧缝线 x1\n用于在缝合中添加【邪龙头冠】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：蛛网奥秘头巾\n蛛网奥秘头巾\n消耗 坚韧缝线 x1\n用于在缝合中添加【蛛网奥秘头巾】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：盲眼之视\n盲眼之视\n消耗 坚韧缝线 x1\n用于在缝合中添加【盲眼之视】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：苏醒头颅\n苏醒头颅\n消耗 坚韧缝线 x1\n用于在缝合中添加【苏醒头颅】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：万雷颚骨\n万雷颚骨\n消耗 坚韧缝线 x1\n用于在缝合中添加【万雷颚骨】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：霜起之时\n霜起之时\n消耗 坚韧缝线 x1\n用于在缝合中添加【霜起之时】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：神躯燃烬\n神躯燃烬\n消耗 坚韧缝线 x1\n用于在缝合中添加【神躯燃烬】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：巫神视界\n巫神视界\n消耗 坚韧缝线 x1\n用于在缝合中添加【巫神视界】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：追猎海妖之眼\n追猎海妖之眼\n消耗 坚韧缝线 x1\n用于在缝合中添加【追猎海妖之眼】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：飞光破晓\n飞光破晓\n消耗 坚韧缝线 x1\n用于在缝合中添加【飞光破晓】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：倒吊的半面\n倒吊的半面\n消耗 坚韧缝线 x1\n用于在缝合中添加【倒吊的半面】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：无首之冕\n无首之冕\n消耗 坚韧缝线 x1\n用于在缝合中添加【无首之冕】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：涌动灵感\n涌动灵感\n消耗 精美缝线 x1\n用于在缝合中添加【涌动灵感】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：皇家铁卫\n皇家铁卫\n消耗 精美缝线 x1\n用于在缝合中添加【皇家铁卫】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：冥河潮汐\n冥河潮汐\n消耗 精美缝线 x1\n用于在缝合中添加【冥河潮汐】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：烈阳之拥\n烈阳之拥\n消耗 精美缝线 x1\n用于在缝合中添加【烈阳之拥】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：愚人的帝冕\n愚人的帝冕\n消耗 精美缝线 x1\n用于在缝合中添加【愚人的帝冕】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：捣乱份子\n捣乱份子\n消耗 精美缝线 x1\n用于在缝合中添加【捣乱份子】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：无脚鸟的悲啼\n无脚鸟的悲啼\n消耗 精美缝线 x1\n用于在缝合中添加【无脚鸟的悲啼】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：凝河\n凝河\n消耗 精美缝线 x1\n用于在缝合中添加【凝河】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：业火的铁面\n业火的铁面\n消耗 精美缝线 x1\n用于在缝合中添加【业火的铁面】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：克拉戈尔的嘶吼\n克拉戈尔的嘶吼\n消耗 精美缝线 x1\n用于在缝合中添加【克拉戈尔的嘶吼】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：铁与花\n铁与花\n消耗 精美缝线 x1\n用于在缝合中添加【铁与花】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：恶意缠绵\n恶意缠绵\n消耗 精美缝线 x1\n用于在缝合中添加【恶意缠绵】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\n器官：莽夫的铁冠\n莽夫的铁冠\n消耗 肮脏缝线 x1\n用于在缝合中添加【莽夫的铁冠】的相关词缀\n已装备对应的传奇装备时，渴瘾装备中的传奇词缀无法生效\n缝合: 头部、项链\nSITES\npoedb.tw\ntlidb.com\npoe2db.tw\npaldb.cc\nABOUT SITE\nPrivacy\nAbout US\nCOMMUNITY\n资料库内容为测试资料，正确资讯请以官方游戏内的内容为准。",
+    "tables": [],
+    "lists": [
+      [
+        "英雄\n              \n                英雄\n                天赋",
+        "英雄",
+        "天赋",
+        "仓库\n              \n                仓库\n                传奇装备\n                异度棱镜\n                \n                契灵\n                \n                掉落来源\n                命运",
+        "仓库",
+        "传奇装备",
+        "异度棱镜",
+        "契灵",
+        "掉落来源",
+        "命运",
+        "技能\n              \n                主动技能\n                辅助技能\n                被动技能\n                \n                触媒技能\n                崇高辅助技能\n                华贵辅助技能\n                提示\n                Hyperlink",
+        "主动技能",
+        "辅助技能",
+        "被动技能",
+        "触媒技能",
+        "崇高辅助技能",
+        "华贵辅助技能",
+        "提示",
+        "Hyperlink",
+        "打造\n              \n                打造\n                \n                侵蚀\n                装备赋能\n                梦语\n                调香秘仪\n                高塔序列\n                缝合",
+        "打造",
+        "侵蚀",
+        "装备赋能",
+        "梦语",
+        "调香秘仪",
+        "高塔序列",
+        "缝合",
+        "成就\n              \n                \n                成长之路\n                \n                \n                \n                \n                帮助手册\n                情报",
+        "成长之路",
+        "",
+        "帮助手册",
+        "情报",
+        "异界\n              \n                异界\n                \n                混乱牌库\n                虚空星图\n                罗盘\n                赛季罗盘\n                \n                勇者之路",
+        "异界",
+        "混乱牌库",
+        "虚空星图",
+        "罗盘",
+        "赛季罗盘",
+        "",
+        "勇者之路",
+        "商城\n              \n    \n                时装\n                通货\n                恩赐",
+        "时装",
+        "通货",
+        "恩赐"
+      ],
+      [
+        "英雄",
+        "天赋"
+      ],
+      [
+        "仓库",
+        "传奇装备",
+        "异度棱镜",
+        "契灵",
+        "掉落来源",
+        "命运"
+      ],
+      [
+        "主动技能",
+        "辅助技能",
+        "被动技能",
+        "触媒技能",
+        "崇高辅助技能",
+        "华贵辅助技能",
+        "提示",
+        "Hyperlink"
+      ],
+      [
+        "打造",
+        "侵蚀",
+        "装备赋能",
+        "梦语",
+        "调香秘仪",
+        "高塔序列",
+        "缝合"
+      ],
+      [
+        "成长之路",
+        "",
+        "帮助手册",
+        "情报"
+      ],
+      [
+        "异界",
+        "混乱牌库",
+        "虚空星图",
+        "罗盘",
+        "赛季罗盘",
+        "",
+        "勇者之路"
+      ],
+      [
+        "时装",
+        "通货",
+        "恩赐"
+      ],
+      [
+        "EN English\n                TW 繁體中文\n                CN 简体中文\n                KO 한국어\n                JA Japanese\n                RU Русский",
+        "EN English",
+        "TW 繁體中文",
+        "CN 简体中文",
+        "KO 한국어",
+        "JA Japanese",
+        "RU Русский"
+      ],
+      [
+        "EN English",
+        "TW 繁體中文",
+        "CN 简体中文",
+        "KO 한국어",
+        "JA Japanese",
+        "RU Русский"
+      ],
+      [
+        "poedb.tw",
+        "tlidb.com",
+        "poe2db.tw",
+        "paldb.cc"
+      ],
+      [
+        "Privacy",
+        "About US"
+      ]
+    ],
+    "links": [
+      {
+        "href": "https://tlidb.com/cn/",
+        "text": "火炬编年史"
+      },
+      {
+        "href": "https://tlidb.com/cn/Core_Organ_-_Helmet#",
+        "text": "英雄"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hero",
+        "text": "英雄"
+      },
+      {
+        "href": "https://tlidb.com/cn/Talent",
+        "text": "天赋"
+      },
+      {
+        "href": "https://tlidb.com/cn/Core_Organ_-_Helmet#",
+        "text": "仓库"
+      },
+      {
+        "href": "https://tlidb.com/cn/Inventory",
+        "text": "仓库"
+      },
+      {
+        "href": "https://tlidb.com/cn/Legendary_Gear",
+        "text": "传奇装备"
+      },
+      {
+        "href": "https://tlidb.com/cn/Ethereal_Prism",
+        "text": "异度棱镜"
+      },
+      {
+        "href": "https://tlidb.com/cn/Pactspirit",
+        "text": "契灵"
+      },
+      {
+        "href": "https://tlidb.com/cn/Drop_Source",
+        "text": "掉落来源"
+      },
+      {
+        "href": "https://tlidb.com/cn/Destiny",
+        "text": "命运"
+      },
+      {
+        "href": "https://tlidb.com/cn/Core_Organ_-_Helmet#",
+        "text": "技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Active_Skill",
+        "text": "主动技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Support_Skill",
+        "text": "辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Passive_Skill",
+        "text": "被动技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Activation_Medium_Skill",
+        "text": "触媒技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Noble_Support_Skill",
+        "text": "崇高辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Magnificent_Support_Skill",
+        "text": "华贵辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Tip",
+        "text": "提示"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hyperlink",
+        "text": "Hyperlink"
+      },
+      {
+        "href": "https://tlidb.com/cn/Core_Organ_-_Helmet#",
+        "text": "打造"
+      },
+      {
+        "href": "https://tlidb.com/cn/Craft",
+        "text": "打造"
+      },
+      {
+        "href": "https://tlidb.com/cn/Corrosion",
+        "text": "侵蚀"
+      },
+      {
+        "href": "https://tlidb.com/cn/Gear_Empowerment",
+        "text": "装备赋能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Dream_Talking",
+        "text": "梦语"
+      },
+      {
+        "href": "https://tlidb.com/cn/Blending_Rituals",
+        "text": "调香秘仪"
+      },
+      {
+        "href": "https://tlidb.com/cn/TOWER_Sequence",
+        "text": "高塔序列"
+      },
+      {
+        "href": "https://tlidb.com/cn/Graft",
+        "text": "缝合"
+      },
+      {
+        "href": "https://tlidb.com/cn/Core_Organ_-_Helmet#",
+        "text": "成就"
+      },
+      {
+        "href": "https://tlidb.com/cn/Path_of_Progression",
+        "text": "成长之路"
+      },
+      {
+        "href": "https://tlidb.com/cn/Help",
+        "text": "帮助手册"
+      },
+      {
+        "href": "https://tlidb.com/cn/Codex",
+        "text": "情报"
+      },
+      {
+        "href": "https://tlidb.com/cn/Core_Organ_-_Helmet#",
+        "text": "异界"
+      },
+      {
+        "href": "https://tlidb.com/cn/Netherrealm",
+        "text": "异界"
+      },
+      {
+        "href": "https://tlidb.com/cn/Confusion_Card_Library",
+        "text": "混乱牌库"
+      },
+      {
+        "href": "https://tlidb.com/cn/Void_Chart",
+        "text": "虚空星图"
+      },
+      {
+        "href": "https://tlidb.com/cn/Compass",
+        "text": "罗盘"
+      },
+      {
+        "href": "https://tlidb.com/cn/Probe",
+        "text": "赛季罗盘"
+      },
+      {
+        "href": "https://tlidb.com/cn/Path_of_the_Brave",
+        "text": "勇者之路"
+      },
+      {
+        "href": "https://tlidb.com/cn/Core_Organ_-_Helmet#",
+        "text": "商城"
+      },
+      {
+        "href": "https://tlidb.com/cn/Outfit",
+        "text": "时装"
+      },
+      {
+        "href": "https://tlidb.com/cn/Commodity",
+        "text": "通货"
+      },
+      {
+        "href": "https://tlidb.com/cn/Boon",
+        "text": "恩赐"
+      },
+      {
+        "href": "https://tlidb.com/en/Core_Organ_-_Helmet",
+        "text": "EN English"
+      },
+      {
+        "href": "https://tlidb.com/tw/Core_Organ_-_Helmet",
+        "text": "TW 繁體中文"
+      },
+      {
+        "href": "https://tlidb.com/cn/Core_Organ_-_Helmet",
+        "text": "CN 简体中文"
+      },
+      {
+        "href": "https://tlidb.com/ko/Core_Organ_-_Helmet",
+        "text": "KO 한국어"
+      },
+      {
+        "href": "https://tlidb.com/ja/Core_Organ_-_Helmet",
+        "text": "JA Japanese"
+      },
+      {
+        "href": "https://tlidb.com/ru/Core_Organ_-_Helmet",
+        "text": "RU Русский"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Rock_Lizard%27s_Skull",
+        "text": "器官：岩石巨蜥之颅"
+      },
+      {
+        "href": "https://tlidb.com/cn/Rock_Lizard%27s_Skull",
+        "text": "岩石巨蜥之颅"
+      },
+      {
+        "href": "https://tlidb.com/cn/Sullied_Suture",
+        "text": "肮脏缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Siren_Faceguard",
+        "text": "器官：海妖面甲"
+      },
+      {
+        "href": "https://tlidb.com/cn/Siren_Faceguard",
+        "text": "海妖面甲"
+      },
+      {
+        "href": "https://tlidb.com/cn/Sullied_Suture",
+        "text": "肮脏缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Scarlet_Decree",
+        "text": "器官：猩红敕令"
+      },
+      {
+        "href": "https://tlidb.com/cn/Scarlet_Decree",
+        "text": "猩红敕令"
+      },
+      {
+        "href": "https://tlidb.com/cn/Sullied_Suture",
+        "text": "肮脏缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Corrupted_Marrow",
+        "text": "器官：蚀髓"
+      },
+      {
+        "href": "https://tlidb.com/cn/Corrupted_Marrow",
+        "text": "蚀髓"
+      },
+      {
+        "href": "https://tlidb.com/cn/Sullied_Suture",
+        "text": "肮脏缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Brainwave_Emitter",
+        "text": "器官：脑波迸发器"
+      },
+      {
+        "href": "https://tlidb.com/cn/Brainwave_Emitter",
+        "text": "脑波迸发器"
+      },
+      {
+        "href": "https://tlidb.com/cn/Sullied_Suture",
+        "text": "肮脏缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Last_Words_of_Chaos",
+        "text": "器官：混沌遗言"
+      },
+      {
+        "href": "https://tlidb.com/cn/Last_Words_of_Chaos",
+        "text": "混沌遗言"
+      },
+      {
+        "href": "https://tlidb.com/cn/Tenacious_Suture",
+        "text": "坚韧缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Opening_Heart",
+        "text": "器官：敞开心扉"
+      },
+      {
+        "href": "https://tlidb.com/cn/Opening_Heart",
+        "text": "敞开心扉"
+      },
+      {
+        "href": "https://tlidb.com/cn/Tenacious_Suture",
+        "text": "坚韧缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Cold_Breath",
+        "text": "器官：冰冷呼吸"
+      },
+      {
+        "href": "https://tlidb.com/cn/Cold_Breath",
+        "text": "冰冷呼吸"
+      },
+      {
+        "href": "https://tlidb.com/cn/Tenacious_Suture",
+        "text": "坚韧缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Fiend_Crown",
+        "text": "器官：邪龙头冠"
+      },
+      {
+        "href": "https://tlidb.com/cn/Fiend_Crown",
+        "text": "邪龙头冠"
+      },
+      {
+        "href": "https://tlidb.com/cn/Tenacious_Suture",
+        "text": "坚韧缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Webbed_Arcane_Headscarf",
+        "text": "器官：蛛网奥秘头巾"
+      },
+      {
+        "href": "https://tlidb.com/cn/Webbed_Arcane_Headscarf",
+        "text": "蛛网奥秘头巾"
+      },
+      {
+        "href": "https://tlidb.com/cn/Tenacious_Suture",
+        "text": "坚韧缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Blind_Vision",
+        "text": "器官：盲眼之视"
+      },
+      {
+        "href": "https://tlidb.com/cn/Blind_Vision",
+        "text": "盲眼之视"
+      },
+      {
+        "href": "https://tlidb.com/cn/Tenacious_Suture",
+        "text": "坚韧缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Awakening_Skull",
+        "text": "器官：苏醒头颅"
+      },
+      {
+        "href": "https://tlidb.com/cn/Awakening_Skull",
+        "text": "苏醒头颅"
+      },
+      {
+        "href": "https://tlidb.com/cn/Tenacious_Suture",
+        "text": "坚韧缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Thunder_Jawbone",
+        "text": "器官：万雷颚骨"
+      },
+      {
+        "href": "https://tlidb.com/cn/Thunder_Jawbone",
+        "text": "万雷颚骨"
+      },
+      {
+        "href": "https://tlidb.com/cn/Tenacious_Suture",
+        "text": "坚韧缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_When_Winter_Comes",
+        "text": "器官：霜起之时"
+      },
+      {
+        "href": "https://tlidb.com/cn/When_Winter_Comes",
+        "text": "霜起之时"
+      },
+      {
+        "href": "https://tlidb.com/cn/Tenacious_Suture",
+        "text": "坚韧缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Divine_Ember",
+        "text": "器官：神躯燃烬"
+      },
+      {
+        "href": "https://tlidb.com/cn/Divine_Ember",
+        "text": "神躯燃烬"
+      },
+      {
+        "href": "https://tlidb.com/cn/Tenacious_Suture",
+        "text": "坚韧缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Hekate%27s_Vision",
+        "text": "器官：巫神视界"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hekate%27s_Vision",
+        "text": "巫神视界"
+      },
+      {
+        "href": "https://tlidb.com/cn/Tenacious_Suture",
+        "text": "坚韧缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Hunting_the_Eye_of_the_Kraken",
+        "text": "器官：追猎海妖之眼"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hunting_the_Eye_of_the_Kraken",
+        "text": "追猎海妖之眼"
+      },
+      {
+        "href": "https://tlidb.com/cn/Tenacious_Suture",
+        "text": "坚韧缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Flying_Light_at_Daybreak",
+        "text": "器官：飞光破晓"
+      },
+      {
+        "href": "https://tlidb.com/cn/Flying_Light_at_Daybreak",
+        "text": "飞光破晓"
+      },
+      {
+        "href": "https://tlidb.com/cn/Tenacious_Suture",
+        "text": "坚韧缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Hanging_Two-Tone_Mask",
+        "text": "器官：倒吊的半面"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hanging_Two-Tone_Mask",
+        "text": "倒吊的半面"
+      },
+      {
+        "href": "https://tlidb.com/cn/Tenacious_Suture",
+        "text": "坚韧缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Headless_Crown",
+        "text": "器官：无首之冕"
+      },
+      {
+        "href": "https://tlidb.com/cn/Headless_Crown",
+        "text": "无首之冕"
+      },
+      {
+        "href": "https://tlidb.com/cn/Tenacious_Suture",
+        "text": "坚韧缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Surging_Inspiration",
+        "text": "器官：涌动灵感"
+      },
+      {
+        "href": "https://tlidb.com/cn/Surging_Inspiration",
+        "text": "涌动灵感"
+      },
+      {
+        "href": "https://tlidb.com/cn/Exquisite_Suture",
+        "text": "精美缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Imperial_Iron_Sentry",
+        "text": "器官：皇家铁卫"
+      },
+      {
+        "href": "https://tlidb.com/cn/Imperial_Iron_Sentry",
+        "text": "皇家铁卫"
+      },
+      {
+        "href": "https://tlidb.com/cn/Exquisite_Suture",
+        "text": "精美缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Tide_of_the_Styx",
+        "text": "器官：冥河潮汐"
+      },
+      {
+        "href": "https://tlidb.com/cn/Tide_of_the_Styx",
+        "text": "冥河潮汐"
+      },
+      {
+        "href": "https://tlidb.com/cn/Exquisite_Suture",
+        "text": "精美缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Sun%27s_Embrace",
+        "text": "器官：烈阳之拥"
+      },
+      {
+        "href": "https://tlidb.com/cn/Sun%27s_Embrace",
+        "text": "烈阳之拥"
+      },
+      {
+        "href": "https://tlidb.com/cn/Exquisite_Suture",
+        "text": "精美缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Fool%27s_Crown",
+        "text": "器官：愚人的帝冕"
+      },
+      {
+        "href": "https://tlidb.com/cn/Fool%27s_Crown",
+        "text": "愚人的帝冕"
+      },
+      {
+        "href": "https://tlidb.com/cn/Exquisite_Suture",
+        "text": "精美缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Troublemaker",
+        "text": "器官：捣乱份子"
+      },
+      {
+        "href": "https://tlidb.com/cn/Troublemaker",
+        "text": "捣乱份子"
+      },
+      {
+        "href": "https://tlidb.com/cn/Exquisite_Suture",
+        "text": "精美缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Legless_Bird%27s_Lament",
+        "text": "器官：无脚鸟的悲啼"
+      },
+      {
+        "href": "https://tlidb.com/cn/Legless_Bird%27s_Lament",
+        "text": "无脚鸟的悲啼"
+      },
+      {
+        "href": "https://tlidb.com/cn/Exquisite_Suture",
+        "text": "精美缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Solid_River",
+        "text": "器官：凝河"
+      },
+      {
+        "href": "https://tlidb.com/cn/Solid_River",
+        "text": "凝河"
+      },
+      {
+        "href": "https://tlidb.com/cn/Exquisite_Suture",
+        "text": "精美缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Mask_of_Infernal_Iron",
+        "text": "器官：业火的铁面"
+      },
+      {
+        "href": "https://tlidb.com/cn/Mask_of_Infernal_Iron",
+        "text": "业火的铁面"
+      },
+      {
+        "href": "https://tlidb.com/cn/Exquisite_Suture",
+        "text": "精美缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Kragol%27s_Roar",
+        "text": "器官：克拉戈尔的嘶吼"
+      },
+      {
+        "href": "https://tlidb.com/cn/Kragol%27s_Roar",
+        "text": "克拉戈尔的嘶吼"
+      },
+      {
+        "href": "https://tlidb.com/cn/Exquisite_Suture",
+        "text": "精美缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Iron_and_Bloom",
+        "text": "器官：铁与花"
+      },
+      {
+        "href": "https://tlidb.com/cn/Iron_and_Bloom",
+        "text": "铁与花"
+      },
+      {
+        "href": "https://tlidb.com/cn/Exquisite_Suture",
+        "text": "精美缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/Organ%3A_Malign_Embrace",
+        "text": "器官：恶意缠绵"
+      },
+      {
+        "href": "https://tlidb.com/cn/Malign_Embrace",
+        "text": "恶意缠绵"
+      },
+      {
+        "href": "https://tlidb.com/cn/Exquisite_Suture",
+        "text": "精美缝线"
+      },
+      {
+        "href": "https://tlidb.com/cn/%E5%99%A8%E5%AE%98%EF%BC%9A%E8%8E%BD%E5%A4%AB%E7%9A%84%E9%93%81%E5%86%A0",
+        "text": "器官：莽夫的铁冠"
+      },
+      {
+        "href": "https://tlidb.com/cn/Boor%27s_Iron_Crown",
+        "text": "莽夫的铁冠"
+      },
+      {
+        "href": "https://tlidb.com/cn/Sullied_Suture",
+        "text": "肮脏缝线"
+      },
+      {
+        "href": "https://poedb.tw/",
+        "text": "poedb.tw"
+      },
+      {
+        "href": "https://tlidb.com/",
+        "text": "tlidb.com"
+      },
+      {
+        "href": "https://poe2db.tw/",
+        "text": "poe2db.tw"
+      },
+      {
+        "href": "https://paldb.cc/",
+        "text": "paldb.cc"
+      },
+      {
+        "href": "https://tlidb.com/cn/privacy",
+        "text": "Privacy"
+      },
+      {
+        "href": "https://www.reddit.com/user/chuanhsing",
+        "text": "About US"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S13_LegendStitching_03.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S12_LengJing_White01.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S11ChipMatching0_Icon.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/UI_Money_S10EquipEnchantMaterial_10_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S9Pet_FateStar_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S8Gameplay_Snow2_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_MysticTreeRespecPoint_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S6Gameplay_Tile_bench.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S5Gameplay_DreamTreasure_Almighty_C_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/S4/UI_S4Gameplay_talent01_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S3Gameplay_Beads_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S2BossTicket3_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_Item_yimozhihe_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/image/torchlight/p3_20251226_cn.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_401_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_410_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_411_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_307_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_327_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_403_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_405_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_406_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_201_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_408_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_409_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_412_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_306_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_309_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_312_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_313_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_314_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_413_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_323_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_325_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_302_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_202_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_203_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_305_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_311_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_317_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_322_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_326_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_329_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_328_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_332_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_333_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Organ/128/Icon_Organ_Helmet_Epic_319_128.webp",
+        "alt": ""
+      }
+    ],
+    "meta": {
+      "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+      "color-scheme": "dark"
+    },
+    "structured_data": {}
+  }
+]

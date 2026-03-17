@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <circle cx="25" cy="25" r="22" fill="#1a1a2e" stroke="#ffd700" stroke-width="2"/>
+  <path d="M15 25L20 15L25 25L30 15L35 25L30 35L25 25L20 35Z" fill="url(#legendary-gradient)"/>
+  <defs>
+    <linearGradient id="legendary-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd700"/>
+      <stop offset="100%" stop-color="#ff8c00"/>
+    </linearGradient>
+  </defs>
+  <circle cx="25" cy="25" r="7" fill="#3a3a5a"/>
+</svg>

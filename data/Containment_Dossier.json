@@ -1,0 +1,484 @@
+[
+  {
+    "url": "https://tlidb.com/cn/Containment_Dossier",
+    "title": "Containment_Dossier - 火炬编年史, Torchlight: Infinite Wiki",
+    "html": "\n    <div class=\"background-image\"></div>\n    <!-- Google tag (gtag.js) -->\n    <script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-P6KT6L9KX8\"></script>\n    <script>\n      window.dataLayer = window.dataLayer || [];\n      function gtag(){dataLayer.push(arguments);}\n      gtag('js', new Date());\n    \n      gtag('config', 'G-P6KT6L9KX8');\n    </script>\n\n    <nav class=\"navbar navbar-expand-lg navbar-dark\">\n      <div class=\"container\">\n        <a class=\"navbar-brand\" href=\"/cn/\">火炬编年史</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">英雄</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Hero\">英雄</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Talent\">天赋</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">仓库</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Inventory\">仓库</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Legendary_Gear\">传奇装备</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Ethereal_Prism\">异度棱镜</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_Synthetic_Synthetic\" href=\"/cn/Recipe\">Recipe</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Pactspirit\">契灵</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"function|name|116\" href=\"/cn/Black_Market\">Black Market</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Drop_Source\">掉落来源</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Destiny\">命运</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">技能</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Active_Skill\">主动技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Support_Skill\">辅助技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Passive_Skill\">被动技能</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_SkillBag_SkillType4\" href=\"/cn/Triggered_Skill\">Triggered Skill</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Activation_Medium_Skill\">触媒技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Noble_Support_Skill\">崇高辅助技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Magnificent_Support_Skill\">华贵辅助技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Tip\">提示</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Hyperlink\">Hyperlink</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">打造</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Craft\">打造</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"function|name|131\" href=\"/cn/Enchant\">Enchant</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Corrosion\">侵蚀</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Gear_Empowerment\">装备赋能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Dream_Talking\">梦语</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Blending_Rituals\">调香秘仪</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/TOWER_Sequence\">高塔序列</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Graft\">缝合</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">成就</a>\n              <ul class=\"dropdown-menu\">\n                <!--\n                <li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_Growth_Achievement_Title\" href=\"/cn/Path_of_Achievements\">Path of Achievements</a></li>\n                -->\n                <li><a class=\"dropdown-item\" href=\"/cn/Path_of_Progression\">成长之路</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"season|name1|101\" href=\"/cn/Dark_Surge_Season\">Dark Surge Season</a></li>-->\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_SeasonBook_Title\" href=\"/cn/Season_Pass\">Season Pass</a></li>-->\n                <!--\n                <li><a class=\"dropdown-item\" data-i18n=\"function|name|139\" href=\"/cn/Event\">Event</a></li>\n                -->\n                <li><hr class=\"dropdown-divider\"></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Help\">帮助手册</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Codex\">情报</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">异界</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Netherrealm\">异界</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_MysteryCard_PlayerDeck\" href=\"/cn/Trait_Decks\">Trait Decks</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Confusion_Card_Library\">混乱牌库</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Void_Chart\">虚空星图</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Compass\">罗盘</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Probe\">赛季罗盘</a></li>\n                <li><hr class=\"dropdown-divider\"></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Path_of_the_Brave\">勇者之路</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">商城</a>\n              <ul class=\"dropdown-menu\">\n    <!--\n                <li><a class=\"dropdown-item\" data-i18n=\"function|name|110\" href=\"/cn/Shop\">Shop</a></li>\n    -->\n                <li><a class=\"dropdown-item\" href=\"/cn/Outfit\">时装</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Commodity\">通货</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Boon\">恩赐</a></li>\n              </ul>\n            </li>\n    \n    <!--\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" data-i18n=\"Guide\" href=\"/cn/guides?season=The%20Frozen%20Canvas%20Season\">Guide</a>\n            </li>\n    -->\n    \n          </ul>\n    \n          <!--\n          <a class=\"nav-link2\" style=\"padding-right: 10px\" href=\"https://lihi1.com/cAO3Z\" target=\"_blank\">\n            <img style=\"height: 24px\" \n                src=\"https://cdn.tlidb.com/image/logo/torchlight-48.webp\"\n            />\n          </a>\n    \n          <a class=\"nav-link2\" style=\"padding-right: 10px\"\n            href=\"https://lihi1.com/l1NmL\"\n            target=\"_blank\">\n            <img style=\"height: 24px\" src=\"https://cdn.tlidb.com/image/logo/facebook-48.webp\"/>\n          </a>\n    \n          <a class=\"nav-link2\" style=\"padding-right: 10px\"\n            href=\"https://lihi1.com/neCTK\"\n            target=\"_blank\">\n            <img style=\"height: 24px\" src=\"https://cdn.tlidb.com/image/logo/youtube-48.webp\"/>\n          </a>\n    \n          <a class=\"nav-link2\" style=\"padding-right: 10px\" href=\"https://lihi1.com/owKrQ\" target=\"_blank\">\n            <img style=\"height: 24px\" src=\"https://cdn.tlidb.com/image/logo/discord-48.webp\"/>\n          </a>\n          -->\n    \n          <ul class=\"navbar-nav\">\n            <li class=\"nav-item dropdown\">\n              <a href=\"#\" class=\"nav-link dropdown-toggle\" role=\"button\" data-bs-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"> <i class=\"fas fa-language fa-lg\"></i></a>\n              <ul class=\"dropdown-menu language-menu\">\n                <li><a class=\"dropdown-item\" href=\"/en/Containment_Dossier\">EN English</a></li>\n                <li><a class=\"dropdown-item\" href=\"/tw/Containment_Dossier\">TW 繁體中文</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Containment_Dossier\">CN 简体中文</a></li>\n                <li><a class=\"dropdown-item\" href=\"/ko/Containment_Dossier\">KO 한국어</a></li>\n                <li><a class=\"dropdown-item\" href=\"/ja/Containment_Dossier\">JA Japanese</a></li>\n                <li><a class=\"dropdown-item\" href=\"/ru/Containment_Dossier\">RU Русский</a></li>\n                <!--\n                <li><a class='dropdown-item' href='/de/'>DE Deutsch</a></li>\n                <li><a class='dropdown-item' href='/es/'>ES Spanish</a></li>\n                <li><a class='dropdown-item' href='/fr/'>FR Français</a></li>\n                <li><a class='dropdown-item' href='/id/'>ID bahasa Indonesia</a></li>\n                <li><a class='dropdown-item' href='/pt/'>PT Português</a></li>\n                <li><a class='dropdown-item' href='/th/'>TH ภาษาไทย</a></li>\n                <li><a class='dropdown-item' href='/vi/'>VI Tiếng Việt</a></li>\n                -->\n              </ul>\n            </li>\n          </ul>\n    \n          <form class=\"d-flex\" role=\"search\" action=\"search\">\n            <input class=\"form-control me-2 ui-autocomplete-input\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\" id=\"navautosearch\" name=\"q\" autocomplete=\"off\">\n          </form>\n    \n        </div>\n      </div>\n    </nav>\n\n    <script> sidebar160(\"leftside_banner\", \"left\"); </script>\n    <script> sidebar160(\"rightside_banner\", \"right\"); </script>\n\n    <div class=\"page\">\n    <div class=\"page-content container\" role=\"main\">\n    <div class=\"text-center\">\n    <a href=\"Vorax_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S13_LegendStitching_03.webp\" class=\"size48\"></a>\n    <a href=\"Overrealm_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S12_LengJing_White01.webp\" class=\"size48\"></a>\n    <a href=\"Outlaw_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S11ChipMatching0_Icon.webp\" class=\"size48\"></a>\n    <a href=\"Sandlord_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/UI_Money_S10EquipEnchantMaterial_10_128.webp\" class=\"size48\"></a>\n    <a href=\"Arcana_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S9Pet_FateStar_128.webp\" class=\"size48\"></a>\n    <a href=\"The_Frozen_Canvas_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S8Gameplay_Snow2_128.webp\" class=\"size48\"></a>\n    <a href=\"Clockwork_Ballet_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_MysticTreeRespecPoint_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Whispering_Mist_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S6Gameplay_Tile_bench.webp\" class=\"size48\"></a>\n    <a href=\"Nightmare_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S5Gameplay_DreamTreasure_Almighty_C_128.webp\" class=\"size48\"></a>\n    <a href=\"Aeterna_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/S4/UI_S4Gameplay_talent01_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Cube_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S3Gameplay_Beads_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Blacksail_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S2BossTicket3_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Dark_Surge_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_Item_yimozhihe_Icon_128.webp\" class=\"size48\"></a>\n    </div>\n    <div class=\"text-center mb-2\"><a href=\"https://l.taptap.cn/SyBkGgT1?channel=rep-rep_voftpwn7cks\" target=\"_blank\"><img src=\"https://cdn.tlidb.com/image/torchlight/p3_20251226_cn.webp\" style=\"max-width: 100%;\"></a></div>\n    <div class=\"card mb-2 \">\n    <div class=\"card-header\">收容档案 /16 </div>\n    <div class=\"collapse show\">\n    \n    \n    <script>\n$(document).ready(function () {\n    filterClick($('[name=filter]'));\n});\n</script>\n\n<form><div class=\"input-group my-2\">\n    <button class=\"btn btn-outline-secondary\" type=\"reset\">Reset</button>\n    <input name=\"filter\" class=\"form-control\" placeholder=\"Search\">\n</div></form><div class=\"row row-cols-1 row-cols-lg-2 g-2\"><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_01.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">集物之手<div>从<e id=\"12000013\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;叠界&lt;/div&gt;&lt;div&gt;穿过异界关卡中的“门”可进入的空间。将继承所在异界关卡中的时刻加成、异界回响加成、部分探针、罗盘与异界天赋加成。&lt;br/&gt;叠界内的掉落不受除叠界契灵外其他契灵的影响&lt;/div&gt;&lt;/div&gt;\">叠界</e>返回异界后，可在集物之手中领取所有未拾取的掉落</div><div class=\"border-top mt-2\" style=\"color:#b3b3b3\">多数情况下，该收容物呈现静止、透明、稳定的状态。仅在叠界中未存在■■活动的迹象时，它才会发生移动，扭曲蠕动着卷走遗落在地上的物品，将它们搬运进“门”里。<br>请勿长时间在叠界中保持静止，而被其当做■■■处理。</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_02.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">逆向时钟<div><e id=\"12000013\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;叠界&lt;/div&gt;&lt;div&gt;穿过异界关卡中的“门”可进入的空间。将继承所在异界关卡中的时刻加成、异界回响加成、部分探针、罗盘与异界天赋加成。&lt;br/&gt;叠界内的掉落不受除叠界契灵外其他契灵的影响&lt;/div&gt;&lt;/div&gt;\">叠界</e>中概率出现收容物：<e id=\"12000001\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;逆向时钟&lt;/div&gt;&lt;div&gt;触碰后，增加该层的剩余时间&lt;/div&gt;&lt;/div&gt;\">逆向时钟</e></div><div class=\"border-top mt-2\" style=\"color:#b3b3b3\">该收容物外观类似于一座时钟，但不知为何，它的指针是倒着转的。每当叠界开始■■时，你总想知晓时间，但总是徒劳无功。</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_03.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">被斩下的翅膀<div><e id=\"12000013\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;叠界&lt;/div&gt;&lt;div&gt;穿过异界关卡中的“门”可进入的空间。将继承所在异界关卡中的时刻加成、异界回响加成、部分探针、罗盘与异界天赋加成。&lt;br/&gt;叠界内的掉落不受除叠界契灵外其他契灵的影响&lt;/div&gt;&lt;/div&gt;\">叠界</e>中概率出现收容物：<e id=\"12000002\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;被斩下的翅膀&lt;/div&gt;&lt;div&gt;触碰后，一定时间内大幅提升移动速度、攻击和施法速度、位移技能冷却回复速度&lt;/div&gt;&lt;/div&gt;\">被斩下的翅膀</e></div><div class=\"border-top mt-2\" style=\"color:#b3b3b3\">即使是最见多识广的探员，也无法分辨这个收容物是什么东西的翅膀。它是一双翅膀，也似乎只是一双翅膀。我的意思是，它的其他部分好像被全部■■了。<br>如果不慎接触到它，你的双脚会无法控制想要前进的冲动，直到■■。</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_04.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">活铳<div><e id=\"12000013\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;叠界&lt;/div&gt;&lt;div&gt;穿过异界关卡中的“门”可进入的空间。将继承所在异界关卡中的时刻加成、异界回响加成、部分探针、罗盘与异界天赋加成。&lt;br/&gt;叠界内的掉落不受除叠界契灵外其他契灵的影响&lt;/div&gt;&lt;/div&gt;\">叠界</e>中概率出现收容物：<e id=\"12000003\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;活铳&lt;/div&gt;&lt;div&gt;触碰后，一定时间内不断向周围的敌人发射超高伤害的投射物&lt;/div&gt;&lt;/div&gt;\">活铳</e></div><div class=\"border-top mt-2\" style=\"color:#b3b3b3\">这是一把铳，技术员传来的拆解报告是这样显示的。但当■握住它的时候，能够清晰地感受到皮肤温热的触感，以及如同脉搏一般的跳动。<br>当探员们赶到时，■站在原地，周围满是同事的■■，但他坚称，自己什么都没有做。</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_05.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">回归的锚点<div>进入<e id=\"12000013\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;叠界&lt;/div&gt;&lt;div&gt;穿过异界关卡中的“门”可进入的空间。将继承所在异界关卡中的时刻加成、异界回响加成、部分探针、罗盘与异界天赋加成。&lt;br/&gt;叠界内的掉落不受除叠界契灵外其他契灵的影响&lt;/div&gt;&lt;/div&gt;\">叠界</e>时，在原地生成一个<e id=\"12000004\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;回归锚点&lt;/div&gt;&lt;div&gt;叠界中的坐标点。探索过程中，猎人可以随时传送至该坐标&lt;/div&gt;&lt;/div&gt;\">回归锚点</e>(可在控制设置中添加对应的快捷键)</div><div class=\"border-top mt-2\" style=\"color:#b3b3b3\">进入叠界之前，■■用■■刻下了一个锚点。<br>那是一个标志，是一个讯号，是一个方向。<br>■■总会回到那个锚点，就像是找到了家的方向。</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_06.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">第二道门<div><e id=\"12000013\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;叠界&lt;/div&gt;&lt;div&gt;穿过异界关卡中的“门”可进入的空间。将继承所在异界关卡中的时刻加成、异界回响加成、部分探针、罗盘与异界天赋加成。&lt;br/&gt;叠界内的掉落不受除叠界契灵外其他契灵的影响&lt;/div&gt;&lt;/div&gt;\">叠界</e><e id=\"12000005\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;最大层数&lt;/div&gt;&lt;div&gt;叠界时间耗尽前集满收容进度，有概率开启通向更深层叠界的门。&lt;br/&gt;集满第四层叠界的收容进度后，时间耗尽时将遭遇“守门人”（幽邃时刻8及以上难度的守门人概率掉落特殊棱镜：逆像）。&lt;/div&gt;&lt;/div&gt;\">最大层数</e>提升至：2</div><div class=\"border-top mt-2\" style=\"color:#b3b3b3\">想要前往叠界的更深层，你必须带上该收容物。<br>你还能记住这是你推开的第几道门吗？</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_07.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">坠落之物<div><e id=\"12000013\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;叠界&lt;/div&gt;&lt;div&gt;穿过异界关卡中的“门”可进入的空间。将继承所在异界关卡中的时刻加成、异界回响加成、部分探针、罗盘与异界天赋加成。&lt;br/&gt;叠界内的掉落不受除叠界契灵外其他契灵的影响&lt;/div&gt;&lt;/div&gt;\">叠界</e>概率受到<e id=\"12000006\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;叠界扰动：坠落&lt;/div&gt;&lt;div&gt;每隔一定时间，叠界中会落下触手团，对目标区域造成大量伤害，并带来一群拥有额外掉落数量加成的魔法异常体&lt;/div&gt;&lt;/div&gt;\">叠界扰动：坠落</e>的影响</div><div class=\"border-top mt-2\" style=\"color:#b3b3b3\">叠界中，有时候会有一些物体掉落下来，这很危险，但好像也没那么危险。<br>只是在某个时间点，似乎在那些坠落下来的物体里，看到了一张分外熟悉的脸。</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_08.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">躁乱的复生<div><e id=\"12000013\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;叠界&lt;/div&gt;&lt;div&gt;穿过异界关卡中的“门”可进入的空间。将继承所在异界关卡中的时刻加成、异界回响加成、部分探针、罗盘与异界天赋加成。&lt;br/&gt;叠界内的掉落不受除叠界契灵外其他契灵的影响&lt;/div&gt;&lt;/div&gt;\">叠界</e>概率受到<e id=\"12000007\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;叠界扰动：复生&lt;/div&gt;&lt;div&gt;叠界中的异常体被击败时，有概率复生成拥有额外掉落数量加成的普通异常体&lt;/div&gt;&lt;/div&gt;\">叠界扰动：复生</e>的影响</div><div class=\"border-top mt-2\" style=\"color:#b3b3b3\">这个收容物似乎没有形体，它更像是一种弥漫的氛围。<br>在该收容物影响的范围内，所有■■的生物都会复活成同一个模样，并表现出惊人的攻击性。</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_09.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">被监禁者<div><e id=\"12000013\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;叠界&lt;/div&gt;&lt;div&gt;穿过异界关卡中的“门”可进入的空间。将继承所在异界关卡中的时刻加成、异界回响加成、部分探针、罗盘与异界天赋加成。&lt;br/&gt;叠界内的掉落不受除叠界契灵外其他契灵的影响&lt;/div&gt;&lt;/div&gt;\">叠界</e>概率受到<e id=\"12000008\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;叠界扰动：监禁&lt;/div&gt;&lt;div&gt;每隔一定时间，猎人附近会刷新一批拥有额外掉落数量加成的稀有异常体&lt;/div&gt;&lt;/div&gt;\">叠界扰动：监禁</e>的影响</div><div class=\"border-top mt-2\" style=\"color:#b3b3b3\">该收容物外观类似于一种人形生物。多数时候，他只是安静地蹲在角落里，不移动也不发出声音。但当你放松警惕，距离他过近时，就再也不能■■他了。</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_10.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">空洞的瓶子<div><e id=\"12000013\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;叠界&lt;/div&gt;&lt;div&gt;穿过异界关卡中的“门”可进入的空间。将继承所在异界关卡中的时刻加成、异界回响加成、部分探针、罗盘与异界天赋加成。&lt;br/&gt;叠界内的掉落不受除叠界契灵外其他契灵的影响&lt;/div&gt;&lt;/div&gt;\">叠界</e>概率出现：携带<e id=\"12000012\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;瓶中叠影&lt;/div&gt;&lt;div&gt;内含一条提高叠界中掉落的奖励词缀，将在一轮叠界玩法中持续生效；多条奖励词缀的效果可以叠加产生更丰富的掉落。&lt;br/&gt;时刻4及以上难度的叠界中，集满收容进度时会固定获得一条瓶中叠影;进入第三、四层叠界时，会固定额外获得一条瓶中叠影。&lt;/div&gt;&lt;/div&gt;\">瓶中叠影</e>的特殊怪物</div><div class=\"border-top mt-2\" style=\"color:#b3b3b3\">叠影有时会附着在异常体上，想要将其捕捉，需要带上这个收容物。<br>当探员在叠界中进行收容时，注意收集这些叠影，这或许能给你带来意想不到的■■。</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_11.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">第三道门<div><e id=\"12000013\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;叠界&lt;/div&gt;&lt;div&gt;穿过异界关卡中的“门”可进入的空间。将继承所在异界关卡中的时刻加成、异界回响加成、部分探针、罗盘与异界天赋加成。&lt;br/&gt;叠界内的掉落不受除叠界契灵外其他契灵的影响&lt;/div&gt;&lt;/div&gt;\">叠界</e><e id=\"12000005\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;最大层数&lt;/div&gt;&lt;div&gt;叠界时间耗尽前集满收容进度，有概率开启通向更深层叠界的门。&lt;br/&gt;集满第四层叠界的收容进度后，时间耗尽时将遭遇“守门人”（幽邃时刻8及以上难度的守门人概率掉落特殊棱镜：逆像）。&lt;/div&gt;&lt;/div&gt;\">最大层数</e>提升至：3</div><div class=\"border-top mt-2\" style=\"color:#b3b3b3\">想要前往叠界的更深层，你必须带上该收容物。<br>你还能记住这是你推开的第几道门吗？</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_12.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">漂浮头颅<div><e id=\"12000013\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;叠界&lt;/div&gt;&lt;div&gt;穿过异界关卡中的“门”可进入的空间。将继承所在异界关卡中的时刻加成、异界回响加成、部分探针、罗盘与异界天赋加成。&lt;br/&gt;叠界内的掉落不受除叠界契灵外其他契灵的影响&lt;/div&gt;&lt;/div&gt;\">叠界</e>中概率出现异常收容物：<e id=\"12000009\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;漂浮头颅&lt;/div&gt;&lt;div&gt;携带大量掉落且生命值超高的异常收容物，被击败后掉落稀有奖励，并有一定概率复生&lt;/div&gt;&lt;/div&gt;\">漂浮头颅</e></div><div class=\"border-top mt-2\" style=\"color:#b3b3b3\">该收容物的外观类似一个漂浮的头颅。它总是在叠界中飘荡，吞食沿途的■■，其中自然不乏有价值的物品。<br>当你在叠界中遇到它的时候，请务必将它■■。</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_13.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">逆模因之笼<div><e id=\"12000013\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;叠界&lt;/div&gt;&lt;div&gt;穿过异界关卡中的“门”可进入的空间。将继承所在异界关卡中的时刻加成、异界回响加成、部分探针、罗盘与异界天赋加成。&lt;br/&gt;叠界内的掉落不受除叠界契灵外其他契灵的影响&lt;/div&gt;&lt;/div&gt;\">叠界</e>中概率出现收容物：<e id=\"12000010\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;逆模因之笼&lt;/div&gt;&lt;div&gt;触碰后，猎人周围出现铁笼，同时刷新出若干只强大且拥有大量掉落的稀有异常体，击败所有异常体才能打开铁笼&lt;/div&gt;&lt;/div&gt;\">逆模因之笼</e></div><div class=\"border-top mt-2\" style=\"color:#b3b3b3\">该收容物是一个精致的鸟笼，似乎有一种特殊的吸引力，当你清醒的时候，往往发现自己已经走入其中。<br>但你不记得后面会发生什么了，只是觉得，■■没什么不好。</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_14.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">“狩门人”<div><e id=\"12000013\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;叠界&lt;/div&gt;&lt;div&gt;穿过异界关卡中的“门”可进入的空间。将继承所在异界关卡中的时刻加成、异界回响加成、部分探针、罗盘与异界天赋加成。&lt;br/&gt;叠界内的掉落不受除叠界契灵外其他契灵的影响&lt;/div&gt;&lt;/div&gt;\">叠界</e>中概率出现异常收容物：<e id=\"12000011\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;“狩门人”&lt;/div&gt;&lt;div&gt;叠界中隐藏的首领异常体，击败后掉落大量奖励&lt;/div&gt;&lt;/div&gt;\">“狩门人”</e></div><div class=\"border-top mt-2\" style=\"color:#b3b3b3\">我在叠界中遇到了“守门人”，但当我■■了他的时候，那道门并没有被打开。<br>真好啊，那么接下来，换你来当■■■了。</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_15.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">回归之所<div>可通过点击按钮，放置<e id=\"12000004\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;回归锚点&lt;/div&gt;&lt;div&gt;叠界中的坐标点。探索过程中，猎人可以随时传送至该坐标&lt;/div&gt;&lt;/div&gt;\">回归锚点</e>到当前位置(可在控制设置中添加对应的快捷键)</div><div class=\"border-top mt-2\" style=\"color:#b3b3b3\">你好像又忘记了家在哪里。<br>不过没关系。我们找到了。</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_16.webp\" class=\"size64\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">最后一道门<div><e id=\"12000013\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;叠界&lt;/div&gt;&lt;div&gt;穿过异界关卡中的“门”可进入的空间。将继承所在异界关卡中的时刻加成、异界回响加成、部分探针、罗盘与异界天赋加成。&lt;br/&gt;叠界内的掉落不受除叠界契灵外其他契灵的影响&lt;/div&gt;&lt;/div&gt;\">叠界</e><e id=\"12000005\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;最大层数&lt;/div&gt;&lt;div&gt;叠界时间耗尽前集满收容进度，有概率开启通向更深层叠界的门。&lt;br/&gt;集满第四层叠界的收容进度后，时间耗尽时将遭遇“守门人”（幽邃时刻8及以上难度的守门人概率掉落特殊棱镜：逆像）。&lt;/div&gt;&lt;/div&gt;\">最大层数</e>提升至：4</div><div class=\"border-top mt-2\" style=\"color:#b3b3b3\">我穿越了一道门，一道门，一道门，一道门。<br>门里走出了一个我，一个我，一个我，一个我，一个我。<br>现在，是时候推开最后的门了。</div></div></div></div></div>\n    \n    </div>\n</div>\n    </div>\n    </div>\n\n    <footer class=\"text-center text-lg-left container mt-2\">\n      <div class=\"card p-4\">\n        <div class=\"row\">\n\n          <div class=\"col-lg-3 col-md-12 mb-4 mb-md-0\">\n            <h5 class=\"text-uppercase\">Sites</h5>\n            <ul class=\"list-unstyled mb-0\">\n              <li> <a target=\"_blank\" href=\"https://poedb.tw/\">poedb.tw</a> </li>\n              <li> <a target=\"_blank\" href=\"https://tlidb.com/\">tlidb.com</a> </li>\n              <!--<li> <a target=\"_blank\" href=\"https://diablo4.cc/\">diablo4.cc</a> </li>-->\n              <li> <a target=\"_blank\" href=\"https://poe2db.tw/\">poe2db.tw</a> </li>\n              <li> <a target=\"_blank\" href=\"https://paldb.cc/\">paldb.cc</a> </li>\n            </ul>\n          </div>\n\n          <div class=\"col-lg-3 col-md-12 mb-4 mb-md-0\">\n            <h5 class=\"text-uppercase\">About Site</h5>\n            <ul class=\"list-unstyled mb-0\">\n              <li><a href=\"privacy\">Privacy</a></li>\n              <li> <a target=\"_blank\" href=\"https://www.reddit.com/user/chuanhsing\">About US</a> </li>\n            </ul>\n          </div>\n\n          <div class=\"col-lg-3 col-md-6 mb-4 mb-md-0\">\n            <h5 class=\"text-uppercase\">Community</h5>\n            <ul class=\"list-unstyled mb-0\">\n            </ul>\n          </div>\n\n        </div>\n      </div>\n      <div class=\"p-3\">\n\n      <span>资料库内容为测试资料，正确资讯请以官方游戏内的内容为准。</span>\n      </div>\n    </footer>\n\n    <a href=\"#top\" id=\"toTop\"><span class=\"fas fa-arrow-circle-up fa-3x\"></span></a>\n    <div id=\"consent-box\" style=\"display:none\">\n      <button onclick=\"window.__cmp('showModal');\">\n        Update cookie preferences\n      </button>\n    </div>\n    \n    <script>\n      if (window[\"nitroAds\"] && window[\"nitroAds\"].loaded) {\n        document.getElementById(\"consent-box\").style.display = window[\"__tcfapi\"]\n          ? \"\"\n          : \"none\";\n      } else {\n        document.addEventListener(\n          \"nitroAds.loaded\",\n          () =>\n            (document.getElementById(\"consent-box\").style.display = window[\"__tcfapi\"]\n              ? \"\"\n              : \"none\")\n        );\n      }\n    </script>\n  <script defer=\"\" src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon=\"{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;83af079277c347f9ba9fc040e0d21cb5&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}\" crossorigin=\"anonymous\"></script>\n\n\n<ul id=\"ui-id-1\" tabindex=\"0\" class=\"ui-menu ui-widget ui-widget-content ui-autocomplete ui-front\" unselectable=\"on\" style=\"display: none;\"></ul><div role=\"status\" aria-live=\"assertive\" aria-relevant=\"additions\" class=\"ui-helper-hidden-accessible\"></div><iframe marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" id=\"119d2d38e3abd38\" width=\"0\" height=\"0\" src=\"about:blank\" name=\"__pb_locator__\" style=\"display: none; height: 0px; width: 0px; border: 0px;\"></iframe><iframe name=\"__uspapiLocator\" style=\"display: none;\"></iframe>",
+    "content": "火炬编年史\n英雄\n仓库\n技能\n打造\n成就\n异界\n商城\n            \n收容档案 /16\nReset\n集物之手\n从叠界返回异界后，可在集物之手中领取所有未拾取的掉落\n多数情况下，该收容物呈现静止、透明、稳定的状态。仅在叠界中未存在■■活动的迹象时，它才会发生移动，扭曲蠕动着卷走遗落在地上的物品，将它们搬运进“门”里。\n请勿长时间在叠界中保持静止，而被其当做■■■处理。\n逆向时钟\n叠界中概率出现收容物：逆向时钟\n该收容物外观类似于一座时钟，但不知为何，它的指针是倒着转的。每当叠界开始■■时，你总想知晓时间，但总是徒劳无功。\n被斩下的翅膀\n叠界中概率出现收容物：被斩下的翅膀\n即使是最见多识广的探员，也无法分辨这个收容物是什么东西的翅膀。它是一双翅膀，也似乎只是一双翅膀。我的意思是，它的其他部分好像被全部■■了。\n如果不慎接触到它，你的双脚会无法控制想要前进的冲动，直到■■。\n活铳\n叠界中概率出现收容物：活铳\n这是一把铳，技术员传来的拆解报告是这样显示的。但当■握住它的时候，能够清晰地感受到皮肤温热的触感，以及如同脉搏一般的跳动。\n当探员们赶到时，■站在原地，周围满是同事的■■，但他坚称，自己什么都没有做。\n回归的锚点\n进入叠界时，在原地生成一个回归锚点(可在控制设置中添加对应的快捷键)\n进入叠界之前，■■用■■刻下了一个锚点。\n那是一个标志，是一个讯号，是一个方向。\n■■总会回到那个锚点，就像是找到了家的方向。\n第二道门\n叠界最大层数提升至：2\n想要前往叠界的更深层，你必须带上该收容物。\n你还能记住这是你推开的第几道门吗？\n坠落之物\n叠界概率受到叠界扰动：坠落的影响\n叠界中，有时候会有一些物体掉落下来，这很危险，但好像也没那么危险。\n只是在某个时间点，似乎在那些坠落下来的物体里，看到了一张分外熟悉的脸。\n躁乱的复生\n叠界概率受到叠界扰动：复生的影响\n这个收容物似乎没有形体，它更像是一种弥漫的氛围。\n在该收容物影响的范围内，所有■■的生物都会复活成同一个模样，并表现出惊人的攻击性。\n被监禁者\n叠界概率受到叠界扰动：监禁的影响\n该收容物外观类似于一种人形生物。多数时候，他只是安静地蹲在角落里，不移动也不发出声音。但当你放松警惕，距离他过近时，就再也不能■■他了。\n空洞的瓶子\n叠界概率出现：携带瓶中叠影的特殊怪物\n叠影有时会附着在异常体上，想要将其捕捉，需要带上这个收容物。\n当探员在叠界中进行收容时，注意收集这些叠影，这或许能给你带来意想不到的■■。\n第三道门\n叠界最大层数提升至：3\n想要前往叠界的更深层，你必须带上该收容物。\n你还能记住这是你推开的第几道门吗？\n漂浮头颅\n叠界中概率出现异常收容物：漂浮头颅\n该收容物的外观类似一个漂浮的头颅。它总是在叠界中飘荡，吞食沿途的■■，其中自然不乏有价值的物品。\n当你在叠界中遇到它的时候，请务必将它■■。\n逆模因之笼\n叠界中概率出现收容物：逆模因之笼\n该收容物是一个精致的鸟笼，似乎有一种特殊的吸引力，当你清醒的时候，往往发现自己已经走入其中。\n但你不记得后面会发生什么了，只是觉得，■■没什么不好。\n“狩门人”\n叠界中概率出现异常收容物：“狩门人”\n我在叠界中遇到了“守门人”，但当我■■了他的时候，那道门并没有被打开。\n真好啊，那么接下来，换你来当■■■了。\n回归之所\n可通过点击按钮，放置回归锚点到当前位置(可在控制设置中添加对应的快捷键)\n你好像又忘记了家在哪里。\n不过没关系。我们找到了。\n最后一道门\n叠界最大层数提升至：4\n我穿越了一道门，一道门，一道门，一道门。\n门里走出了一个我，一个我，一个我，一个我，一个我。\n现在，是时候推开最后的门了。\nSITES\npoedb.tw\ntlidb.com\npoe2db.tw\npaldb.cc\nABOUT SITE\nPrivacy\nAbout US\nCOMMUNITY\n资料库内容为测试资料，正确资讯请以官方游戏内的内容为准。",
+    "tables": [],
+    "lists": [
+      [
+        "英雄\n              \n                英雄\n                天赋",
+        "英雄",
+        "天赋",
+        "仓库\n              \n                仓库\n                传奇装备\n                异度棱镜\n                \n                契灵\n                \n                掉落来源\n                命运",
+        "仓库",
+        "传奇装备",
+        "异度棱镜",
+        "契灵",
+        "掉落来源",
+        "命运",
+        "技能\n              \n                主动技能\n                辅助技能\n                被动技能\n                \n                触媒技能\n                崇高辅助技能\n                华贵辅助技能\n                提示\n                Hyperlink",
+        "主动技能",
+        "辅助技能",
+        "被动技能",
+        "触媒技能",
+        "崇高辅助技能",
+        "华贵辅助技能",
+        "提示",
+        "Hyperlink",
+        "打造\n              \n                打造\n                \n                侵蚀\n                装备赋能\n                梦语\n                调香秘仪\n                高塔序列\n                缝合",
+        "打造",
+        "侵蚀",
+        "装备赋能",
+        "梦语",
+        "调香秘仪",
+        "高塔序列",
+        "缝合",
+        "成就\n              \n                \n                成长之路\n                \n                \n                \n                \n                帮助手册\n                情报",
+        "成长之路",
+        "",
+        "帮助手册",
+        "情报",
+        "异界\n              \n                异界\n                \n                混乱牌库\n                虚空星图\n                罗盘\n                赛季罗盘\n                \n                勇者之路",
+        "异界",
+        "混乱牌库",
+        "虚空星图",
+        "罗盘",
+        "赛季罗盘",
+        "",
+        "勇者之路",
+        "商城\n              \n    \n                时装\n                通货\n                恩赐",
+        "时装",
+        "通货",
+        "恩赐"
+      ],
+      [
+        "英雄",
+        "天赋"
+      ],
+      [
+        "仓库",
+        "传奇装备",
+        "异度棱镜",
+        "契灵",
+        "掉落来源",
+        "命运"
+      ],
+      [
+        "主动技能",
+        "辅助技能",
+        "被动技能",
+        "触媒技能",
+        "崇高辅助技能",
+        "华贵辅助技能",
+        "提示",
+        "Hyperlink"
+      ],
+      [
+        "打造",
+        "侵蚀",
+        "装备赋能",
+        "梦语",
+        "调香秘仪",
+        "高塔序列",
+        "缝合"
+      ],
+      [
+        "成长之路",
+        "",
+        "帮助手册",
+        "情报"
+      ],
+      [
+        "异界",
+        "混乱牌库",
+        "虚空星图",
+        "罗盘",
+        "赛季罗盘",
+        "",
+        "勇者之路"
+      ],
+      [
+        "时装",
+        "通货",
+        "恩赐"
+      ],
+      [
+        "EN English\n                TW 繁體中文\n                CN 简体中文\n                KO 한국어\n                JA Japanese\n                RU Русский",
+        "EN English",
+        "TW 繁體中文",
+        "CN 简体中文",
+        "KO 한국어",
+        "JA Japanese",
+        "RU Русский"
+      ],
+      [
+        "EN English",
+        "TW 繁體中文",
+        "CN 简体中文",
+        "KO 한국어",
+        "JA Japanese",
+        "RU Русский"
+      ],
+      [
+        "poedb.tw",
+        "tlidb.com",
+        "poe2db.tw",
+        "paldb.cc"
+      ],
+      [
+        "Privacy",
+        "About US"
+      ]
+    ],
+    "links": [
+      {
+        "href": "https://tlidb.com/cn/",
+        "text": "火炬编年史"
+      },
+      {
+        "href": "https://tlidb.com/cn/Containment_Dossier#",
+        "text": "英雄"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hero",
+        "text": "英雄"
+      },
+      {
+        "href": "https://tlidb.com/cn/Talent",
+        "text": "天赋"
+      },
+      {
+        "href": "https://tlidb.com/cn/Containment_Dossier#",
+        "text": "仓库"
+      },
+      {
+        "href": "https://tlidb.com/cn/Inventory",
+        "text": "仓库"
+      },
+      {
+        "href": "https://tlidb.com/cn/Legendary_Gear",
+        "text": "传奇装备"
+      },
+      {
+        "href": "https://tlidb.com/cn/Ethereal_Prism",
+        "text": "异度棱镜"
+      },
+      {
+        "href": "https://tlidb.com/cn/Pactspirit",
+        "text": "契灵"
+      },
+      {
+        "href": "https://tlidb.com/cn/Drop_Source",
+        "text": "掉落来源"
+      },
+      {
+        "href": "https://tlidb.com/cn/Destiny",
+        "text": "命运"
+      },
+      {
+        "href": "https://tlidb.com/cn/Containment_Dossier#",
+        "text": "技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Active_Skill",
+        "text": "主动技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Support_Skill",
+        "text": "辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Passive_Skill",
+        "text": "被动技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Activation_Medium_Skill",
+        "text": "触媒技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Noble_Support_Skill",
+        "text": "崇高辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Magnificent_Support_Skill",
+        "text": "华贵辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Tip",
+        "text": "提示"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hyperlink",
+        "text": "Hyperlink"
+      },
+      {
+        "href": "https://tlidb.com/cn/Containment_Dossier#",
+        "text": "打造"
+      },
+      {
+        "href": "https://tlidb.com/cn/Craft",
+        "text": "打造"
+      },
+      {
+        "href": "https://tlidb.com/cn/Corrosion",
+        "text": "侵蚀"
+      },
+      {
+        "href": "https://tlidb.com/cn/Gear_Empowerment",
+        "text": "装备赋能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Dream_Talking",
+        "text": "梦语"
+      },
+      {
+        "href": "https://tlidb.com/cn/Blending_Rituals",
+        "text": "调香秘仪"
+      },
+      {
+        "href": "https://tlidb.com/cn/TOWER_Sequence",
+        "text": "高塔序列"
+      },
+      {
+        "href": "https://tlidb.com/cn/Graft",
+        "text": "缝合"
+      },
+      {
+        "href": "https://tlidb.com/cn/Containment_Dossier#",
+        "text": "成就"
+      },
+      {
+        "href": "https://tlidb.com/cn/Path_of_Progression",
+        "text": "成长之路"
+      },
+      {
+        "href": "https://tlidb.com/cn/Help",
+        "text": "帮助手册"
+      },
+      {
+        "href": "https://tlidb.com/cn/Codex",
+        "text": "情报"
+      },
+      {
+        "href": "https://tlidb.com/cn/Containment_Dossier#",
+        "text": "异界"
+      },
+      {
+        "href": "https://tlidb.com/cn/Netherrealm",
+        "text": "异界"
+      },
+      {
+        "href": "https://tlidb.com/cn/Confusion_Card_Library",
+        "text": "混乱牌库"
+      },
+      {
+        "href": "https://tlidb.com/cn/Void_Chart",
+        "text": "虚空星图"
+      },
+      {
+        "href": "https://tlidb.com/cn/Compass",
+        "text": "罗盘"
+      },
+      {
+        "href": "https://tlidb.com/cn/Probe",
+        "text": "赛季罗盘"
+      },
+      {
+        "href": "https://tlidb.com/cn/Path_of_the_Brave",
+        "text": "勇者之路"
+      },
+      {
+        "href": "https://tlidb.com/cn/Containment_Dossier#",
+        "text": "商城"
+      },
+      {
+        "href": "https://tlidb.com/cn/Outfit",
+        "text": "时装"
+      },
+      {
+        "href": "https://tlidb.com/cn/Commodity",
+        "text": "通货"
+      },
+      {
+        "href": "https://tlidb.com/cn/Boon",
+        "text": "恩赐"
+      },
+      {
+        "href": "https://tlidb.com/en/Containment_Dossier",
+        "text": "EN English"
+      },
+      {
+        "href": "https://tlidb.com/tw/Containment_Dossier",
+        "text": "TW 繁體中文"
+      },
+      {
+        "href": "https://tlidb.com/cn/Containment_Dossier",
+        "text": "CN 简体中文"
+      },
+      {
+        "href": "https://tlidb.com/ko/Containment_Dossier",
+        "text": "KO 한국어"
+      },
+      {
+        "href": "https://tlidb.com/ja/Containment_Dossier",
+        "text": "JA Japanese"
+      },
+      {
+        "href": "https://tlidb.com/ru/Containment_Dossier",
+        "text": "RU Русский"
+      },
+      {
+        "href": "https://poedb.tw/",
+        "text": "poedb.tw"
+      },
+      {
+        "href": "https://tlidb.com/",
+        "text": "tlidb.com"
+      },
+      {
+        "href": "https://poe2db.tw/",
+        "text": "poe2db.tw"
+      },
+      {
+        "href": "https://paldb.cc/",
+        "text": "paldb.cc"
+      },
+      {
+        "href": "https://tlidb.com/cn/privacy",
+        "text": "Privacy"
+      },
+      {
+        "href": "https://www.reddit.com/user/chuanhsing",
+        "text": "About US"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S13_LegendStitching_03.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S12_LengJing_White01.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S11ChipMatching0_Icon.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/UI_Money_S10EquipEnchantMaterial_10_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S9Pet_FateStar_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S8Gameplay_Snow2_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_MysticTreeRespecPoint_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S6Gameplay_Tile_bench.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S5Gameplay_DreamTreasure_Almighty_C_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/S4/UI_S4Gameplay_talent01_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S3Gameplay_Beads_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S2BossTicket3_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_Item_yimozhihe_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/image/torchlight/p3_20251226_cn.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_01.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_02.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_03.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_04.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_05.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_06.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_07.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_08.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_09.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_10.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_11.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_12.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_13.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_14.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_15.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S12Gameplay_Talent_16.webp",
+        "alt": ""
+      }
+    ],
+    "meta": {
+      "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+      "color-scheme": "dark"
+    },
+    "structured_data": {}
+  }
+]

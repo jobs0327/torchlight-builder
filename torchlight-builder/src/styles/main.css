@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;
+  background: #0f0f1a;
+  color: #e0e0e0;
+}
+
+:root {
+  --primary-color: #e94560;
+  --secondary-color: #0f3460;
+  --background-dark: #0f0f1a;
+  --background-light: #1a1a2e;
+  --text-primary: #ffffff;
+  --text-secondary: #a0a0a0;
+  --border-color: #2a2a4a;
+  
+  --god-strength: #e94560;
+  --god-dexterity: #4ade80;
+  --god-intelligence: #60a5fa;
+  --god-war: #f97316;
+  --god-trickery: #a855f7;
+  --god-machine: #fbbf24;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--secondary-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color);
+}
