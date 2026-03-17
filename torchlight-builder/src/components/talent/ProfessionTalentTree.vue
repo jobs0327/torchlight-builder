@@ -15,14 +15,19 @@
 
     <div class="tree-viewport" ref="viewportRef">
       <!-- 核心天赋区域 -->
-      <div class="core-talents-section">
-        <div class="core-talents-title">核心天赋</div>
+      <div class="core-talents-section" :style="{ height: coreSectionHeight + 'px' }">
         <div class="core-talents-container">
           <div 
             v-for="node in tree.coreTalents" 
             :key="node.id"
-            :class="['core-talent-node', { allocated: node.currentPoints > 0, locked: isLocked(node), hovered: hoveredNode?.id === node.id }]"
-            :style="getCoreTalentStyle(node)"
+            :class="[
+              'core-talent-node',
+              {
+                allocated: node.currentPoints > 0,
+                locked: tree.allocatedPoints < node.requiredPoints,
+                hovered: hoveredNode?.id === node.id
+              }
+            ]"
             @click.stop="onNodeClick(node)"
             @contextmenu.stop="onNodeRightClick(node, $event)"
             @mouseenter="onNodeHover(node, $event)"
@@ -66,42 +71,16 @@
 
         <!-- 层级指示器 -->
         <div class="level-indicators">
+          <div class="level-line"></div>
           <div 
             v-for="(level, index) in LEVELS" 
-            :key="index"
+            :key="level"
             class="level-indicator"
-            :style="getLevelIndicatorStyle(index)"
+            :style="getLevelIndicatorStyle(level, index)"
           >
             <span class="level-number">{{ level }}</span>
-            <div class="level-label">点</div>
           </div>
         </div>
-
-        <!-- 网格线 -->
-        <svg class="grid-svg" :viewBox="`0 0 ${svgWidth} ${svgHeight}`">
-          <g class="grid-lines">
-            <!-- 水平线 - 基于实际节点位置 -->
-            <line 
-              v-for="(y, index) in [82, 178, 274, 370, 466]" 
-              :key="`h-${index}`"
-              :x1="0" 
-              :y1="y"
-              :x2="svgWidth" 
-              :y2="y"
-              class="grid-line horizontal"
-            />
-            <!-- 垂直线 - 基于实际节点位置 -->
-            <line 
-              v-for="(x, index) in [136, 272, 408, 544, 672, 808]" 
-              :key="`v-${index}`"
-              :x1="x"
-              :y1="0" 
-              :x2="x"
-              :y2="svgHeight"
-              class="grid-line vertical"
-            />
-          </g>
-        </svg>
 
         <!-- 连接线 -->
         <svg class="connections-svg" :viewBox="`0 0 ${svgWidth} ${svgHeight}`">
@@ -129,10 +108,12 @@
           <div class="node-icon">
             <div class="node-background" :style="{ backgroundColor: getNodeBackgroundColor(node) }"></div>
             <div class="node-ring" :style="{ borderColor: getNodeColor(node) }">
-              <span v-if="node.maxPoints > 1 && node.currentPoints > 0" class="node-points">
-                {{ node.currentPoints }}/{{ node.maxPoints }}
+              <span
+                v-if="node.currentPoints > 0"
+                class="node-points"
+              >
+                {{ node.currentPoints }}/{{ getDisplayMaxPoints(node) }}
               </span>
-              <span v-else-if="node.currentPoints > 0" class="node-check">✓</span>
               <div v-else class="node-icon-container">
                 <img 
                   :src="getTalentIcon(node)" 
@@ -142,27 +123,34 @@
               </div>
             </div>
           </div>
-          <div class="node-name">{{ node.name }}</div>
+          <div class="node-name">{{ getDisplayName(node) }}</div>
         </div>
       </div>
     </div>
 
     <div v-if="hoveredNode" class="node-tooltip" :style="tooltipStyle">
       <div class="tooltip-header">
-        <span :class="['tooltip-type', hoveredNode.type]">{{ getNodeTypeName(hoveredNode.type) }}</span>
-        <span class="tooltip-name">{{ hoveredNode.name }}</span>
+        <span
+          :class="['tooltip-type', hoveredNode.id?.startsWith('core_') ? 'core' : hoveredNode.type]"
+        >
+          {{ getNodeTypeName(hoveredNode.type, hoveredNode.id) }}
+        </span>
+        <span class="tooltip-name">{{ getDisplayName(hoveredNode) }}</span>
       </div>
       <div class="tooltip-effects">
         <p v-for="(effect, index) in hoveredNode.effects" :key="index" class="effect-line">
           {{ effect }}
         </p>
       </div>
-      <div v-if="hoveredNode.requiredPoints > 0" class="tooltip-requirement">
+      <div
+        v-if="hoveredNode.requiredPoints > 0 && !hoveredNode.id?.startsWith('core_')"
+        class="tooltip-requirement"
+      >
         需要 {{ hoveredNode.requiredPoints }} 点已分配
       </div>
       <div class="tooltip-points">
         <span class="points-label">可分配点数:</span>
-        <span class="points-value">{{ hoveredNode.maxPoints }}</span>
+        <span class="points-value">{{ getDisplayMaxPoints(hoveredNode) }}</span>
       </div>
     </div>
   </div>
@@ -195,21 +183,82 @@ const lastPanX = ref(0)
 const hoveredNode = ref<ProfessionTalentNode | null>(null)
 const tooltipPos = ref({ x: 0, y: 0 })
 
+// 统一根据行列或已有坐标计算像素位置，方便支持无 x/y 的爬虫数据
+function getNodeCoord(node: ProfessionTalentNode) {
+  const { position } = node
+
+  // 如果已经在数据里写死了 x/y，就直接用，兼容当前数据
+  if (
+    typeof position.x === 'number' &&
+    typeof position.y === 'number' &&
+    (position.x !== 0 || position.y !== 0)
+  ) {
+    return { x: position.x, y: position.y }
+  }
+
+  // 否则根据行列和网格配置计算
+  const x = GRID_CONFIG.offsetX + position.col * GRID_CONFIG.colSpacing
+  const y = GRID_CONFIG.offsetY + position.row * GRID_CONFIG.rowSpacing + 82 // 82 为第一行基准高度
+  return { x, y }
+}
+
+function stripHtml(text: string): string {
+  return text.replace(/<[^>]*>/g, '')
+}
+
+function getDisplayName(node: ProfessionTalentNode | null) {
+  if (!node) return ''
+  const rawName = (node.name || '').trim()
+  const genericNames = ['小型天赋', '中型天赋', '传奇中型天赋']
+
+  if (!genericNames.includes(rawName)) {
+    return rawName
+  }
+
+  if (node.effects && node.effects.length > 0) {
+    const first = stripHtml(node.effects[0]).trim()
+    // 去掉前缀里的「小型天赋/中型天赋/传奇中型天赋」等字样
+    const cleaned = first
+      .replace(/^小型天赋[:：]?\s*/,'')
+      .replace(/^中型天赋[:：]?\s*/,'')
+      .replace(/^传奇中型天赋[:：]?\s*/,'')
+      .trim()
+    return cleaned || rawName
+  }
+
+  return rawName
+}
+
+function getDisplayMaxPoints(node: ProfessionTalentNode | null): number {
+  if (!node) return 0
+  return node.type === 'legendary' ? 1 : node.maxPoints
+}
+
 const svgWidth = computed(() => {
-  const maxX = Math.max(...props.tree.nodes.map(n => n.position.x), 0)
+  const allNodes = [...props.tree.nodes, ...(props.tree.coreTalents || [])]
+  const maxX = Math.max(...allNodes.map(n => getNodeCoord(n).x), 0)
   return maxX + 100
 })
 
 const svgHeight = computed(() => {
-  const maxY = Math.max(...props.tree.nodes.map(n => n.position.y), 0)
+  const allNodes = [...props.tree.nodes, ...(props.tree.coreTalents || [])]
+  const maxY = Math.max(...allNodes.map(n => getNodeCoord(n).y), 0)
   return maxY + 100
+})
+
+const coreSectionHeight = computed(() => {
+  const coreNodes = props.tree.coreTalents || []
+  if (!coreNodes.length) return 0
+  const maxY = Math.max(...coreNodes.map(n => getNodeCoord(n).y), 0)
+  // 预留节点自身高度和下边距
+  return maxY + 150
 })
 
 const contentStyle = computed(() => {
   const viewportHeight = viewportRef.value?.clientHeight || 500
   const contentHeight = svgHeight.value
   const coreTalentHeight = 180
-  const topOffset = Math.max(coreTalentHeight, (viewportHeight - contentHeight) / 2)
+  const topOffset = coreTalentHeight
   
   return {
     width: `${svgWidth.value}px`,
@@ -238,10 +287,17 @@ const connections = computed<ConnectionPath[]>(() => {
         if (connectionKeys.has(key)) continue
         connectionKeys.add(key)
 
-        const x1 = parentNode.position.x
-        const y1 = parentNode.position.y
-        const x2 = node.position.x
-        const y2 = node.position.y
+        // 使用节点视觉中心作为连线端点，避免小型/中型天赋之间连线错位
+        const xOffset = GRID_CONFIG.nodeWidth / 2
+        const yOffset = GRID_CONFIG.nodeHeight / 2
+
+        const parentCoord = getNodeCoord(parentNode)
+        const nodeCoord = getNodeCoord(node)
+
+        const x1 = parentCoord.x + xOffset
+        const y1 = parentCoord.y + yOffset
+        const x2 = nodeCoord.x + xOffset
+        const y2 = nodeCoord.y + yOffset
 
         const path = `M ${x1} ${y1} L ${x2} ${y2}`
         
@@ -283,36 +339,39 @@ const tooltipStyle = computed(() => {
 })
 
 function getNodeStyle(node: ProfessionTalentNode) {
+  const { x, y } = getNodeCoord(node)
+  // 节点坐标基于图标中心计算，这里需要把外层盒子水平居中到该坐标
+  const wrapperWidth = 120
+  const iconWidth = GRID_CONFIG.nodeWidth
+  const offsetX = (wrapperWidth - iconWidth) / 2
   return {
-    left: `${node.position.x}px`,
-    top: `${node.position.y}px`
+    left: `${x - offsetX}px`,
+    top: `${y}px`
   }
 }
 
-function getCoreTalentStyle(node: ProfessionTalentNode) {
-  return {
-    left: `${node.position.x}px`,
-    top: `${node.position.y}px`
+function getLevelIndicatorStyle(level: number, index: number) {
+  // 按「第一行的节点顺序」来对齐层级指示器：
+  // 0、3、6、9、12、15、18 分别对应第一行从左到右的几个节点
+  const nodes = props.tree.nodes
+  if (!nodes.length) {
+    return { left: '0px' }
   }
-}
 
-function getLevelIndicatorStyle(index: number) {
-  const level = LEVELS[index]
-  let x = 0
-  
-  switch(level) {
-    case 0: x = 128; break
-    case 3: x = 192; break
-    case 6: x = 384; break
-    case 9: x = 448; break
-    case 12: x = 640; break
-    case 15: x = 704; break
-    case 18: x = 768; break
-    default: x = 128
-  }
-  
+  // 找到整个树中 row 最小的一行（视觉上的第一行）
+  const minRow = Math.min(...nodes.map(n => n.position.row))
+  const topRowNodes = nodes
+    .filter(n => n.position.row === minRow)
+    .sort((a, b) => getNodeCoord(a).x - getNodeCoord(b).x)
+
+  const xOffset = GRID_CONFIG.nodeWidth / 2
+
+  const targetNode = topRowNodes[index] || topRowNodes[topRowNodes.length - 1]
+  const { x } = getNodeCoord(targetNode)
+
   return {
-    left: `${x}px`
+    // 与节点外层盒子中心对齐（节点中心 x + 半个节点宽）
+    left: `${x + xOffset}px`
   }
 }
 
@@ -336,7 +395,8 @@ function getNodeBackgroundColor(node: ProfessionTalentNode): string {
   return 'transparent'
 }
 
-function getNodeTypeName(type: string): string {
+function getNodeTypeName(type: string, id?: string): string {
+  if (id && id.startsWith('core_')) return '核心'
   switch (type) {
     case 'legendary': return '传奇'
     case 'notable': return '中型'
@@ -364,42 +424,76 @@ function getTalentIcon(node: ProfessionTalentNode): string {
   }
 }
 
+function getNodeRequiredThreshold(node: ProfessionTalentNode): number {
+  // 按「纵向列」来划分层级：
+  // - 第 0 列 → LEVELS[0] = 0
+  // - 第 1 列 → LEVELS[1] = 3
+  // - 第 2 列 → LEVELS[2] = 6
+  // 依此类推，同一列（纵向）共用同一个解锁门槛
+  const colIndex = node.position.col ?? 0
+  const levelIndex = Math.min(Math.max(colIndex, 0), LEVELS.length - 1)
+  return LEVELS[levelIndex]
+}
+
 function isLocked(node: ProfessionTalentNode): boolean {
-  if (props.tree.allocatedPoints < node.requiredPoints) {
+  // 1) 纵向层级逻辑：
+  //    - 初始：第 0 列（9% 攻击伤害 / 3% 最大生命 / 7% 护甲）可以点
+  //    - 当总点数 >= 3：解锁第 1 列整列
+  //    - 当总点数 >= 6：解锁第 2 列整列，以此类推
+  const threshold = getNodeRequiredThreshold(node)
+  if (props.tree.allocatedPoints < threshold) {
     return true
   }
-  
-  for (const parentId of node.connections) {
-    const parentNode = props.tree.nodes.find(n => n.id === parentId)
-    if (parentNode && parentNode.currentPoints === 0) {
-      return true
-    }
+
+  // 2) 前置节点必须点满后，后续节点才允许加点：
+  //    - 当前节点的 connections 里列出的，且在左侧列的节点视为前置节点
+  const parents = props.tree.nodes.filter(
+    n =>
+      node.connections.includes(n.id) &&
+      (n.position.col ?? 0) < (node.position.col ?? 0)
+  )
+
+  if (parents.length === 0) {
+    return false
   }
-  
-  return false
+
+  // 只有当所有前置节点都点满时，当前节点才解锁
+  const allParentsMaxed = parents.every(
+    p => p.currentPoints >= p.maxPoints
+  )
+
+  return !allParentsMaxed
 }
 
 function onNodeClick(node: ProfessionTalentNode) {
+  // 核心天赋：受自身 requiredPoints 限制（如 24pts），与天赋树总加点数联动
+  if (node.id.startsWith('core_')) {
+    if (props.tree.allocatedPoints < node.requiredPoints) return
+    const maxPoints = getDisplayMaxPoints(node)
+    if (node.currentPoints >= maxPoints) return
+    emit('allocate', node.id)
+    return
+  }
+
   if (isLocked(node)) return
   
-  if (node.currentPoints >= node.maxPoints) {
-    const hasAllocatedChildren = props.tree.nodes.some(n => 
-      n.connections.includes(node.id) && n.currentPoints > 0
-    )
-    if (hasAllocatedChildren) return
-    emit('deallocate', node.id)
-  } else {
-    emit('allocate', node.id)
-  }
+  // 左键只负责加点，直到达到 maxPoints 为止
+  const maxPoints = getDisplayMaxPoints(node)
+  if (node.currentPoints >= maxPoints) return
+  emit('allocate', node.id)
 }
 
 function onNodeRightClick(node: ProfessionTalentNode, event: MouseEvent) {
   event.preventDefault()
   if (node.currentPoints > 0) {
     const hasAllocatedChildren = props.tree.nodes.some(n => 
-      n.connections.includes(node.id) && n.currentPoints > 0
+      n.connections.includes(node.id) &&
+      n.currentPoints > 0 &&
+      // 只把「在纵向后面的」节点视为后续节点，避免双向连接导致互相锁死
+      n.position.col > (node.position.col ?? 0)
     )
-    if (hasAllocatedChildren && node.currentPoints === 1) return
+    // 规则同 store：如果当前节点是「前置」，且有后续已分配点，则完全禁止减点
+    if (hasAllocatedChildren) return
     emit('deallocate', node.id)
   }
 }
@@ -439,11 +533,8 @@ function adjustCanvasPosition() {
   if (viewportRef.value) {
     const containerWidth = viewportRef.value.clientWidth
     const contentWidth = svgWidth.value
-    if (contentWidth > containerWidth) {
-      panX.value = 0
-    } else {
-      panX.value = (containerWidth - contentWidth) / 2
-    }
+    // 左对齐：只在内容比容器窄时保持在最左侧
+    panX.value = 0
   }
 }
 
@@ -606,6 +697,19 @@ function onUnmounted() {
   z-index: 5;
 }
 
+.level-line {
+  position: absolute;
+  /* 与 30px 高的圆形指示器垂直居中对齐 */
+  top: 15px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #ffd700; /* 与文字颜色一致 */
+  opacity: 0.4;
+  transform: none;
+  pointer-events: none;
+}
+
 .level-indicator {
   position: absolute;
   width: 30px;
@@ -619,6 +723,7 @@ function onUnmounted() {
   justify-content: center;
   transform: translateX(-50%);
   transition: all 0.3s ease;
+  z-index: 1; /* 指示器在横线之上 */
 }
 
 .level-indicator:hover {
@@ -699,7 +804,7 @@ function onUnmounted() {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80px;
+  width: 120px;
   cursor: pointer;
   transition: all 0.3s ease;
   z-index: 3;
@@ -845,9 +950,14 @@ function onUnmounted() {
   font-size: 11px;
   color: #888;
   text-align: center;
-  max-width: 70px;
+  max-width: 200px;
   word-break: break-all;
   line-height: 1.3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* 最多显示两行 */
+  -webkit-box-orient: vertical;
   transition: all 0.3s ease;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
 }
@@ -921,6 +1031,12 @@ function onUnmounted() {
   background: linear-gradient(135deg, #555, #333);
   color: #fff;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.tooltip-type.core {
+  background: linear-gradient(135deg, #ff4b4b, #b31217);
+  color: #fff;
+  box-shadow: 0 2px 10px rgba(255, 75, 75, 0.5);
 }
 
 .tooltip-name {
@@ -1051,12 +1167,14 @@ function onUnmounted() {
   width: 100%;
   height: auto;
   min-height: 80px;
-  overflow: auto;
-  padding: 40px 20px 20px;
+  /* 让内容不出现滚动条，由父容器高度自适应 */
+  overflow: visible;
+  padding: 20px;
+  display: flex;
+  gap: 16px;
 }
 
 .core-talent-node {
-  position: absolute;
   width: 140px;
   height: auto;
   min-height: 80px;

@@ -1,0 +1,134 @@
+{
+  "professionId": "the_brave",
+  "professionName": "勇者",
+  "talents": [
+    {
+      "id": "talent_0",
+      "type": "notable",
+      "requiredPoints": 3,
+      "maxPoints": 3,
+      "description": "+18% 攻击伤害\n小型天赋",
+      "name": "+18% 攻击伤害"
+    },
+    {
+      "id": "talent_1",
+      "type": "notable",
+      "requiredPoints": 3,
+      "maxPoints": 3,
+      "description": "+5% 最大生命\n每秒自然回复 0.5% 生命",
+      "name": "+5% 最大生命"
+    },
+    {
+      "id": "talent_2",
+      "type": "small",
+      "requiredPoints": 3,
+      "maxPoints": 3,
+      "description": "+450 护甲值\n中型天赋",
+      "name": "+450 护甲值"
+    },
+    {
+      "id": "talent_3",
+      "type": "small",
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "description": "+15% 攻击暴击值\n中型天赋",
+      "name": "+15% 攻击暴击值"
+    },
+    {
+      "id": "talent_4",
+      "type": "small",
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "description": "+4% 攻击格挡率\n中型天赋",
+      "name": "+4% 攻击格挡率"
+    },
+    {
+      "id": "talent_5",
+      "type": "small",
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "description": "+7% 护甲值\n中型天赋",
+      "name": "+7% 护甲值"
+    },
+    {
+      "id": "talent_6",
+      "type": "small",
+      "requiredPoints": 9,
+      "maxPoints": 3,
+      "description": "1.5% 生命返还\n中型天赋",
+      "name": "1.5% 生命返还"
+    },
+    {
+      "id": "talent_7",
+      "type": "small",
+      "requiredPoints": 9,
+      "maxPoints": 3,
+      "description": "受到伤害时，+25% 几率获得 1 层坚韧祝福，间隔 1 秒\n传奇中型天赋",
+      "name": "受到伤害时，+25% 几率获得 1 层坚韧祝福，间隔 1 秒"
+    },
+    {
+      "id": "talent_8",
+      "type": "small",
+      "requiredPoints": 12,
+      "maxPoints": 3,
+      "description": "持单手武器时， +9% 攻击伤害\n中型天赋",
+      "name": "持单手武器时， +9% 攻击伤害"
+    },
+    {
+      "id": "talent_9",
+      "type": "small",
+      "requiredPoints": 12,
+      "maxPoints": 3,
+      "description": "+5% 战吼技能冷却回复速度\n传奇中型天赋",
+      "name": "+5% 战吼技能冷却回复速度"
+    },
+    {
+      "id": "talent_10",
+      "type": "notable",
+      "requiredPoints": 15,
+      "maxPoints": 3,
+      "description": "持单手武器时， +18% 攻击伤害\n中型天赋",
+      "name": "持单手武器时， +18% 攻击伤害"
+    },
+    {
+      "id": "talent_11",
+      "type": "notable",
+      "requiredPoints": 15,
+      "maxPoints": 3,
+      "description": "+6% 战吼技能的效果\n小型天赋",
+      "name": "+6% 战吼技能的效果"
+    },
+    {
+      "id": "talent_12",
+      "type": "small",
+      "requiredPoints": 15,
+      "maxPoints": 3,
+      "description": "+2% 元素抗性\n+2% 腐蚀抗性",
+      "name": "+2% 元素抗性"
+    },
+    {
+      "id": "talent_13",
+      "type": "legendary",
+      "requiredPoints": 18,
+      "maxPoints": 1,
+      "description": "持单手武器时，额外 +8% 攻击伤害\n传奇中型天赋",
+      "name": "持单手武器时，额外 +8% 攻击伤害"
+    },
+    {
+      "id": "talent_14",
+      "type": "legendary",
+      "requiredPoints": 18,
+      "maxPoints": 1,
+      "description": "+4 战吼至少影响的敌人数量\n传奇中型天赋",
+      "name": "+4 战吼至少影响的敌人数量"
+    },
+    {
+      "id": "talent_15",
+      "type": "legendary",
+      "requiredPoints": 18,
+      "maxPoints": 1,
+      "description": "每 3000 点护甲， 0.5% 元素抗性，至多 6%\n每 3000 点护甲， 0.5% 腐蚀抗性，至多 6%",
+      "name": "每 3000 点护甲， 0.5% 元素抗性，至多 6%"
+    }
+  ]
+}

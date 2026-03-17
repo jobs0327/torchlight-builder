@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "Assassin",
+    "id": "assassin",
+    "name": "刺客",
+    "type": "panel",
+    "godType": "dexterity",
+    "sourceFile": "Assassin.json"
+  },
+  {
+    "slug": "Marksman",
+    "id": "marksman",
+    "name": "神射手",
+    "type": "panel",
+    "godType": "dexterity",
+    "sourceFile": "Marksman.json"
+  },
+  {
+    "slug": "Elementalist",
+    "id": "elementalist",
+    "name": "元素师",
+    "type": "panel",
+    "godType": "intelligence",
+    "sourceFile": "Elementalist.json"
+  },
+  {
+    "slug": "Alchemist",
+    "id": "alchemist",
+    "name": "炼金术士",
+    "type": "panel",
+    "godType": "intelligence",
+    "sourceFile": "Alchemist.json"
+  },
+  {
+    "slug": "The_Brave",
+    "id": "the_brave",
+    "name": "勇者",
+    "type": "panel",
+    "godType": "strength",
+    "sourceFile": "The_Brave.json"
+  },
+  {
+    "slug": "Warrior",
+    "id": "warrior",
+    "name": "斗士",
+    "type": "panel",
+    "godType": "strength",
+    "sourceFile": "Warrior.json"
+  },
+  {
+    "slug": "Warlord",
+    "id": "warlord",
+    "name": "督军",
+    "type": "panel",
+    "godType": "strength",
+    "sourceFile": "Warlord.json"
+  }
+]

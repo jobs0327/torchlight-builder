@@ -1,62 +1,182 @@
 <template>
   <div class="talent-page">
+    <!-- 左侧导航：总览 / 神格列表 / 面板列表 -->
     <div class="talent-sidebar">
-      <div class="profession-selector">
-        <h3 class="sidebar-title">职业天赋</h3>
-        <div class="profession-list">
+      <div class="nav-section">
+        <button
+          class="nav-item"
+          :class="{ active: activeNav === 'overview' }"
+          @click="activeNav = 'overview'"
+        >
+          总览
+        </button>
+        <button
+          v-for="god in godOrder"
+          :key="god"
+          class="nav-item"
+          :class="{ active: activeNav === god }"
+          @click="selectGod(god)"
+        >
+          {{ GOD_NAMES[god] }}
+        </button>
+      </div>
+
+      <div class="panel-section" v-if="activeNav !== 'overview'">
+        <div class="panel-section-header">
+          <div class="panel-god-icon" v-if="activeGodType">
+            <span class="god-icon">{{ godIcons[activeGodType] }}</span>
+          </div>
+          <div class="panel-god-info" v-if="activeGodType">
+            <div class="panel-god-name">{{ GOD_NAMES[activeGodType] }}</div>
+            <div class="panel-god-tip">选择一个天赋面板进入加点</div>
+          </div>
+        </div>
+
+        <div v-if="panelsForActiveGod.length" class="panel-list">
           <div
-            v-for="tree in professionStore.trees"
-            :key="tree.id"
-            :class="['profession-item', { active: professionStore.activeTreeId === tree.id }]"
-            @click="selectProfession(tree.id)"
+            v-for="panel in panelsForActiveGod"
+            :key="panel.id"
+            class="panel-item"
+            :class="{ active: professionStore.activeTreeId === panel.id }"
+            @click="selectPanel(panel.id)"
           >
-            <div class="profession-icon" :style="{ borderColor: GOD_COLORS[tree.godType] }">
-              {{ tree.name.charAt(0) }}
+            <div class="panel-icon" :style="{ borderColor: GOD_COLORS[panel.godType] }">
+              {{ panel.name.charAt(0) }}
             </div>
-            <div class="profession-info">
-              <span class="profession-name">{{ tree.name }}</span>
-              <span class="profession-points">{{ tree.allocatedPoints }}/{{ tree.totalPoints }}</span>
+            <div class="panel-info">
+              <span class="panel-name">{{ panel.name }}</span>
+              <span class="panel-points">
+                {{ panel.allocatedPoints }}/{{ panel.totalPoints }}
+              </span>
             </div>
           </div>
+        </div>
+
+        <div v-else class="panel-empty">
+          该神格暂时没有可用的天赋面板
         </div>
       </div>
 
       <div class="allocated-effects" v-if="allocatedEffects.length > 0">
         <h3 class="sidebar-title">已分配效果</h3>
         <div class="effects-list">
-          <div v-for="(effect, index) in allocatedEffects" :key="index" class="effect-item">
+          <div
+            v-for="(effect, index) in allocatedEffects"
+            :key="index"
+            class="effect-item"
+          >
             {{ effect }}
           </div>
         </div>
       </div>
     </div>
 
+    <!-- 右侧：神格总览 + 当前天赋树 -->
     <div class="talent-main">
-      <ProfessionTalentTree
-        v-if="professionStore.activeTree"
-        :tree="professionStore.activeTree"
-        @allocate="onAllocate"
-        @deallocate="onDeallocate"
-        @reset="onReset"
-      />
-      <div v-else class="no-tree">
-        <p>请选择一个职业天赋树</p>
+      <div class="god-overview" v-if="activeNav === 'overview'">
+        <div
+          v-for="god in godOrder"
+          :key="god"
+          class="god-card"
+          :style="{ '--god-color': GOD_COLORS[god] }"
+        >
+          <div class="god-card-header">
+            <div class="god-card-title">{{ GOD_NAMES[god] }}</div>
+          </div>
+          <div class="god-card-body">
+            <button
+              v-for="tree in treesByGod[god] || []"
+              :key="tree.id"
+              class="god-panel-btn"
+              :class="{ active: professionStore.activeTreeId === tree.id }"
+              @click="selectPanel(tree.id)"
+            >
+              <span class="god-panel-name">{{ tree.name }}</span>
+              <span class="god-panel-points">
+                {{ tree.allocatedPoints }}/{{ tree.totalPoints }}
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="talent-tree-container">
+        <ProfessionTalentTree
+          v-if="professionStore.activeTree"
+          :tree="professionStore.activeTree"
+          @allocate="onAllocate"
+          @deallocate="onDeallocate"
+          @reset="onReset"
+        />
+        <div v-else class="no-tree">
+          <p>请选择一个天赋面板</p>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import { useProfessionTalentStore } from '@/stores/professionTalent'
 import ProfessionTalentTree from '@/components/talent/ProfessionTalentTree.vue'
-import { GOD_COLORS } from '@/types'
+import { GOD_COLORS, GOD_NAMES, type GodType } from '@/types'
 
 const professionStore = useProfessionTalentStore()
 
 const allocatedEffects = computed(() => professionStore.getAllocatedEffects())
 
-function selectProfession(treeId: string) {
+const godOrder: GodType[] = [
+  'strength',
+  'dexterity',
+  'intelligence',
+  'war',
+  'trickery',
+  'machine',
+]
+
+type NavKey = 'overview' | GodType
+const activeNav = ref<NavKey>('overview')
+
+const activeGodType = computed<GodType | null>(() => {
+  return activeNav.value === 'overview' ? null : (activeNav.value as GodType)
+})
+
+const godIcons: Record<GodType, string> = {
+  strength: '💪',
+  dexterity: '🏹',
+  intelligence: '📚',
+  war: '⚔️',
+  trickery: '🎭',
+  machine: '⚙️',
+}
+
+const treesByGod = computed(() => {
+  const map: Record<GodType, typeof professionStore.trees> = {
+    strength: [],
+    dexterity: [],
+    intelligence: [],
+    war: [],
+    trickery: [],
+    machine: [],
+  }
+  for (const tree of professionStore.trees) {
+    map[tree.godType].push(tree)
+  }
+  return map
+})
+
+const panelsForActiveGod = computed(() => {
+  if (activeNav.value === 'overview') return []
+  const god = activeNav.value as GodType
+  return treesByGod.value[god] || []
+})
+
+function selectGod(god: GodType) {
+  activeNav.value = god
+}
+
+function selectPanel(treeId: string) {
   professionStore.setActiveTree(treeId)
 }
 
@@ -81,12 +201,142 @@ function onReset() {
 }
 
 .talent-sidebar {
-  width: 280px;
+  width: 260px;
   background: rgba(0, 0, 0, 0.3);
   border-right: 1px solid rgba(255, 255, 255, 0.1);
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  padding: 12px 8px;
+  gap: 12px;
+}
+
+.nav-section {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.nav-item {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #cbd5f5;
+  padding: 8px 10px;
+  text-align: left;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 13px;
+}
+
+.nav-item.active {
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
+}
+
+.panel-section {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 50vh;
+  overflow-y: auto;
+}
+
+.panel-section-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 4px 4px;
+}
+
+.panel-god-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: rgba(15, 23, 42, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.panel-god-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.panel-god-name {
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.panel-god-tip {
+  font-size: 11px;
+  color: #9ca3af;
+}
+
+.panel-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.panel-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.panel-item:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.panel-item.active {
+  background: rgba(233, 69, 96, 0.26);
+  border: 1px solid rgba(233, 69, 96, 0.6);
+}
+
+.panel-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid #3a3a5a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.panel-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.panel-name {
+  font-size: 13px;
+  color: #fff;
+}
+
+.panel-points {
+  font-size: 11px;
+  color: #ffd700;
+}
+
+.panel-empty {
+  padding: 8px 4px;
+  font-size: 12px;
+  color: #6b7280;
 }
 
 .sidebar-title {
@@ -94,75 +344,14 @@ function onReset() {
   color: #888;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin: 0 0 16px 0;
-  padding-bottom: 8px;
+  margin: 0 0 8px 0;
+  padding-bottom: 4px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.profession-selector {
-  padding: 20px;
-}
-
-.profession-list {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.profession-item {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 12px;
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 8px;
-  cursor: pointer;
-  transition: all 0.2s;
-}
-
-.profession-item:hover {
-  background: rgba(255, 255, 255, 0.1);
-}
-
-.profession-item.active {
-  background: rgba(233, 69, 96, 0.2);
-  border: 1px solid rgba(233, 69, 96, 0.5);
-}
-
-.profession-icon {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border: 2px solid #3a3a5a;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 16px;
-  font-weight: bold;
-  color: #fff;
-  background: rgba(0, 0, 0, 0.3);
-}
-
-.profession-info {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.profession-name {
-  font-size: 14px;
-  color: #fff;
-  font-weight: 500;
-}
-
-.profession-points {
-  font-size: 12px;
-  color: #ffd700;
 }
 
 .allocated-effects {
   flex: 1;
-  padding: 20px;
+  padding-top: 8px;
   overflow-y: auto;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -170,11 +359,11 @@ function onReset() {
 .effects-list {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 6px;
 }
 
 .effect-item {
-  padding: 8px 12px;
+  padding: 6px 8px;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 4px;
   font-size: 12px;
@@ -183,6 +372,76 @@ function onReset() {
 }
 
 .talent-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.god-overview {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 20px 24px 0;
+}
+
+.god-card {
+  width: 180px;
+  background: rgba(15, 23, 42, 0.9);
+  border-radius: 10px;
+  padding: 12px 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.god-card-header {
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.god-card-title {
+  font-size: 14px;
+  color: #e5e7eb;
+  text-align: center;
+}
+
+.god-card-body {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.god-panel-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 6px 4px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: #e5e7eb;
+  font-size: 12px;
+}
+
+.god-panel-btn.active {
+  border-color: var(--god-color);
+  box-shadow: 0 0 10px color-mix(in srgb, var(--god-color) 60%, transparent);
+}
+
+.god-panel-name {
+  font-size: 12px;
+}
+
+.god-panel-points {
+  font-size: 11px;
+  color: #facc15;
+}
+
+.talent-tree-container {
   flex: 1;
   position: relative;
   overflow: hidden;

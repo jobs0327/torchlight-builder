@@ -1,0 +1,4732 @@
+[
+  {
+    "id": "assassin",
+    "name": "刺客",
+    "godType": "dexterity",
+    "description": "巨力之神的传承，攻守均衡的战斗大师",
+    "tags": [
+      "单手武器",
+      "护甲"
+    ],
+    "totalPoints": 36,
+    "allocatedPoints": 0,
+    "coreRequiredPoints": 24,
+    "coreTalents": [],
+    "nodes": [
+      {
+        "id": "node_0",
+        "name": "+9% 攻击伤害",
+        "type": "small",
+        "effects": [
+          "+9% 攻击伤害"
+        ],
+        "requiredPoints": 0,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 0,
+          "x": 96.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_1"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+      },
+      {
+        "id": "node_1",
+        "name": "+18% 闪电伤害",
+        "type": "notable",
+        "effects": [
+          "+18% 闪电伤害",
+          "召唤物 +18% 闪电伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 1,
+          "x": 224.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_0"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+      },
+      {
+        "id": "node_2",
+        "name": "+20% 攻击暴击值",
+        "type": "small",
+        "effects": [
+          "+20% 攻击暴击值",
+          "+5% 暴击伤害"
+        ],
+        "requiredPoints": 6,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 2,
+          "x": 352.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_3"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit04_64.webp"
+      },
+      {
+        "id": "node_3",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+20% 暴击值",
+          "+20% 召唤物暴击值",
+          "+5% 暴击伤害",
+          "+5% 召唤物暴击伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 3,
+          "x": 480.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_2"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit04_64.webp"
+      },
+      {
+        "id": "node_4",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "+20% 麻痹效果"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 6,
+          "x": 864.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_9"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Electrocute_64.webp"
+      },
+      {
+        "id": "node_5",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+3% 攻击与施法速度"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 1,
+          "x": 224.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_6"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/CastSpeed_64.webp"
+      },
+      {
+        "id": "node_6",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+6% 攻击与施法速度"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 2,
+          "x": 352.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_5"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/CastSpeed_64.webp"
+      },
+      {
+        "id": "node_7",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+9% 闪电伤害",
+          "召唤物 +9% 闪电伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 3,
+          "x": 480.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_8"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+      },
+      {
+        "id": "node_8",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "100% 物理伤害转化为闪电伤害",
+          "召唤物 100% 物理伤害转化为闪电伤害"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 4,
+          "x": 608.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_7"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      },
+      {
+        "id": "node_9",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+9% 闪电伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 5,
+          "x": 736.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_4",
+          "node_10",
+          "node_16"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      },
+      {
+        "id": "node_10",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "施加麻痹的最大生命和护盾阈值 -4%",
+          "额外施加 1 层麻痹"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 6,
+          "x": 864.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_9"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Electrocute_64.webp"
+      },
+      {
+        "id": "node_11",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+3% 最大生命",
+          "+3% 最大护盾"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 0,
+          "x": 96.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_12"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Aura_64.webp"
+      },
+      {
+        "id": "node_12",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+6% 最大生命",
+          "+6% 最大护盾"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 1,
+          "x": 224.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_11"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Aura_64.webp"
+      },
+      {
+        "id": "node_13",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+4% 闪电抗性"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 2,
+          "x": 352.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_14"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence02_64.webp"
+      },
+      {
+        "id": "node_14",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "免疫麻痹",
+          "召唤物免疫闪电伤害"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 3,
+          "x": 480.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_13"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+      },
+      {
+        "id": "node_15",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "50% 闪电伤害转化为火焰伤害"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 4,
+          "x": 608.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_19"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp"
+      },
+      {
+        "id": "node_16",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "造成击中闪电伤害时，施加麻痹"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 6,
+          "x": 864.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_9"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgLightning_64.webp"
+      },
+      {
+        "id": "node_17",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+7% 闪避值"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 1,
+          "x": 224.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_18"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp"
+      },
+      {
+        "id": "node_18",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+14% 闪避值"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 2,
+          "x": 352.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_17"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp"
+      },
+      {
+        "id": "node_19",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+9% 闪电伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 3,
+          "x": 480.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_15",
+          "node_20"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+      },
+      {
+        "id": "node_20",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "50% 闪电伤害转化为冰冷伤害"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 4,
+          "x": 608.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_19"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+      },
+      {
+        "id": "node_21",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "1.5% 闪电穿透",
+          "召唤物 1.5% 闪电穿透"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 5,
+          "x": 736.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_22"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+      },
+      {
+        "id": "node_22",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "暴击时，施加闪电渗透"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 6,
+          "x": 864.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_21"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgLightning_64.webp"
+      },
+      {
+        "id": "node_23",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+6% 投射物速度"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 0,
+          "x": 96.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_24"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp"
+      },
+      {
+        "id": "node_24",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+12% 投射物速度"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 1,
+          "x": 224.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_23"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp"
+      },
+      {
+        "id": "node_25",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+8 敏捷"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 2,
+          "x": 352.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_26"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgLightning_64.webp"
+      },
+      {
+        "id": "node_26",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+5% 敏捷"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 3,
+          "x": 480.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_25",
+          "node_27"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Electrocute_64.webp"
+      },
+      {
+        "id": "node_27",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "+12% 敏捷"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 4,
+          "x": 608.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_26"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      },
+      {
+        "id": "node_28",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "额外 +2% 最大伤害",
+          "召唤物额外 +2% 最大伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 5,
+          "x": 736.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_29"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+      },
+      {
+        "id": "node_29",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "额外 +12% 最大伤害",
+          "召唤物额外 +12% 最大伤害"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 6,
+          "x": 864.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_28"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+      }
+    ]
+  },
+  {
+    "id": "marksman",
+    "name": "神射手",
+    "godType": "dexterity",
+    "description": "巨力之神的传承，攻守均衡的战斗大师",
+    "tags": [
+      "单手武器",
+      "护甲"
+    ],
+    "totalPoints": 36,
+    "allocatedPoints": 0,
+    "coreRequiredPoints": 24,
+    "coreTalents": [],
+    "nodes": [
+      {
+        "id": "node_0",
+        "name": "+9% 攻击伤害",
+        "type": "small",
+        "effects": [
+          "+9% 攻击伤害"
+        ],
+        "requiredPoints": 0,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 0,
+          "x": 96.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_1"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+      },
+      {
+        "id": "node_1",
+        "name": "+6% 最大生命",
+        "type": "notable",
+        "effects": [
+          "+6% 最大生命"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 1,
+          "x": 224.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_0"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      },
+      {
+        "id": "node_2",
+        "name": "+20% 攻击暴击值",
+        "type": "small",
+        "effects": [
+          "+20% 攻击暴击值",
+          "+5% 暴击伤害"
+        ],
+        "requiredPoints": 6,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 2,
+          "x": 352.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_3",
+          "node_8"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+      },
+      {
+        "id": "node_3",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+12% 投射物速度"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 3,
+          "x": 480.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_2",
+          "node_4"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp"
+      },
+      {
+        "id": "node_4",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "+8% 投射物速度",
+          "投射物伤害随飞行距离递增：对远处的敌人至多 +48% 伤害"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 4,
+          "x": 608.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_3"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      },
+      {
+        "id": "node_5",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "+1 抛射投射物分裂数量"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 6,
+          "x": 864.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_10"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crossbow02_64.webp"
+      },
+      {
+        "id": "node_6",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+3% 攻击与施法速度"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 1,
+          "x": 224.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_7"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/CastSpeed_64.webp"
+      },
+      {
+        "id": "node_7",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+6% 攻击与施法速度"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 2,
+          "x": 352.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_6"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp"
+      },
+      {
+        "id": "node_8",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+30% 投射物暴击值"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 3,
+          "x": 480.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_2",
+          "node_9"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit02_64.webp"
+      },
+      {
+        "id": "node_9",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "对近处的敌人 +60% 投射物伤害"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 4,
+          "x": 608.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_8"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit03_64.webp"
+      },
+      {
+        "id": "node_10",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+9% 投射物伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 5,
+          "x": 736.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_5",
+          "node_11",
+          "node_18"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+      },
+      {
+        "id": "node_11",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "+1 弹射次数"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 6,
+          "x": 864.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_10"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Bow01_64.webp"
+      },
+      {
+        "id": "node_12",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+3% 最大生命"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 0,
+          "x": 96.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_13"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/AtkSpeed_64.webp"
+      },
+      {
+        "id": "node_13",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+6% 最大生命"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 1,
+          "x": 224.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_12"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Dagger03_64.webp"
+      },
+      {
+        "id": "node_14",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+15% 投射物暴击值"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 2,
+          "x": 352.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_15"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+      },
+      {
+        "id": "node_15",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+15% 投射物暴击伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 3,
+          "x": 480.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_14"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgPhys_64.webp"
+      },
+      {
+        "id": "node_16",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+8 敏捷"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 4,
+          "x": 608.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_17"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+      },
+      {
+        "id": "node_17",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "每 24 点敏捷， +1% 闪避"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 5,
+          "x": 736.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_16"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp"
+      },
+      {
+        "id": "node_18",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "+2 直射投射物穿透次数"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 6,
+          "x": 864.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_10"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit04_64.webp"
+      },
+      {
+        "id": "node_19",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+450 闪避值"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 1,
+          "x": 224.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_20"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp"
+      },
+      {
+        "id": "node_20",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+900 闪避值"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 2,
+          "x": 352.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_19"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp"
+      },
+      {
+        "id": "node_21",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+7% 闪避值"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 3,
+          "x": 480.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_22"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp"
+      },
+      {
+        "id": "node_22",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "+12% 闪避值",
+          "+12% 几率避免元素异常状态"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 4,
+          "x": 608.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_21"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp"
+      },
+      {
+        "id": "node_23",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+10% 灵动祝福持续时间",
+          "拥有灵动祝福时，+7% 闪避值"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 5,
+          "x": 736.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_24"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp"
+      },
+      {
+        "id": "node_24",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "每有 1 层灵动祝福， +6% 闪避值"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 6,
+          "x": 864.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_23"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgLightning_64.webp"
+      },
+      {
+        "id": "node_25",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+7% 闪避值"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 0,
+          "x": 96.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_26"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp"
+      },
+      {
+        "id": "node_26",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+14% 闪避值"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 1,
+          "x": 224.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_25"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp"
+      },
+      {
+        "id": "node_27",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "1.5% 几率避免伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 2,
+          "x": 352.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_28"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence01_64.webp"
+      },
+      {
+        "id": "node_28",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+3% 几率避免伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 3,
+          "x": 480.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_27"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence01_64.webp"
+      },
+      {
+        "id": "node_29",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+7% 闪避值"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 5,
+          "x": 736.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_30"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp"
+      },
+      {
+        "id": "node_30",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "对法术伤害，额外 +20% 闪避值"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 6,
+          "x": 864.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_29"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgLightning_64.webp"
+      }
+    ]
+  },
+  {
+    "id": "elementalist",
+    "name": "元素师",
+    "godType": "intelligence",
+    "description": "巨力之神的传承，攻守均衡的战斗大师",
+    "tags": [
+      "单手武器",
+      "护甲"
+    ],
+    "totalPoints": 36,
+    "allocatedPoints": 0,
+    "coreRequiredPoints": 24,
+    "coreTalents": [],
+    "nodes": [
+      {
+        "id": "node_0",
+        "name": "+9% 攻击伤害",
+        "type": "small",
+        "effects": [
+          "+9% 攻击伤害"
+        ],
+        "requiredPoints": 0,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 0,
+          "x": 96.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_1"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      },
+      {
+        "id": "node_1",
+        "name": "+18% 引导技能伤害",
+        "type": "notable",
+        "effects": [
+          "+18% 引导技能伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 1,
+          "x": 224.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_0"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Channel03_64.webp"
+      },
+      {
+        "id": "node_2",
+        "name": "+20% 攻击暴击值",
+        "type": "small",
+        "effects": [
+          "+20% 攻击暴击值",
+          "+5% 暴击伤害"
+        ],
+        "requiredPoints": 6,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 2,
+          "x": 352.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_3"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit04_64.webp"
+      },
+      {
+        "id": "node_3",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+8% 最大魔力"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 3,
+          "x": 480.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_2"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+      },
+      {
+        "id": "node_4",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+3% 引导技能攻击与施法速度"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 4,
+          "x": 608.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_5",
+          "node_11"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Flask02_64.webp"
+      },
+      {
+        "id": "node_5",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "每有 +1 额外引导层数上限，+6% 伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 5,
+          "x": 736.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_4",
+          "node_6"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Channel02_64.webp"
+      },
+      {
+        "id": "node_6",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "+1 引导层数上限"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 6,
+          "x": 864.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_5"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Channel03_64.webp"
+      },
+      {
+        "id": "node_7",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+3% 攻击与施法速度"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 1,
+          "x": 224.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_8"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp"
+      },
+      {
+        "id": "node_8",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+6% 攻击与施法速度",
+          "-4 技能消耗"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 2,
+          "x": 352.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_7"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp"
+      },
+      {
+        "id": "node_9",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+9% 引导技能伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 3,
+          "x": 480.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_10"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      },
+      {
+        "id": "node_10",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "静止时，+60% 伤害"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 4,
+          "x": 608.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_9"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp"
+      },
+      {
+        "id": "node_11",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "引导层数不等于上限时， +12% 攻击与施法速度"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 5,
+          "x": 736.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_4",
+          "node_12"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Blind_64.webp"
+      },
+      {
+        "id": "node_12",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "额外 +40% 射线长度"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 6,
+          "x": 864.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_11"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Accuracy_64.webp"
+      },
+      {
+        "id": "node_13",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+3% 最大生命",
+          "+3% 最大护盾"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 0,
+          "x": 96.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_14"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Aura_64.webp"
+      },
+      {
+        "id": "node_14",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+6% 最大生命",
+          "+6% 最大护盾"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 1,
+          "x": 224.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_13"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Aura_64.webp"
+      },
+      {
+        "id": "node_15",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+3% 几率避免元素异常状态"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 2,
+          "x": 352.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_16"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      },
+      {
+        "id": "node_16",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+7% 几率避免元素异常状态"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 3,
+          "x": 480.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_15"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      },
+      {
+        "id": "node_17",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+8 智慧"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 4,
+          "x": 608.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_18"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Blind_64.webp"
+      },
+      {
+        "id": "node_18",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+5% 智慧"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 5,
+          "x": 736.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_17"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Flask02_64.webp"
+      },
+      {
+        "id": "node_19",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "+1 火焰技能等级"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 6,
+          "x": 864.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_22"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgFire_64.webp"
+      },
+      {
+        "id": "node_20",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+15% 暴击值"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 1,
+          "x": 224.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_21"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit01_64.webp"
+      },
+      {
+        "id": "node_21",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+20% 暴击值",
+          "+5% 暴击伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 2,
+          "x": 352.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_20"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit04_64.webp"
+      },
+      {
+        "id": "node_22",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "攻击和法术附加 2 - 2 点火焰伤害",
+          "攻击和法术附加 1 - 3 点闪电伤害",
+          "攻击和法术附加 2 - 2 点冰冷伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 5,
+          "x": 736.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_19",
+          "node_23",
+          "node_30"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp"
+      },
+      {
+        "id": "node_23",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "+1 闪电技能等级"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 6,
+          "x": 864.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_22"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgLightning_64.webp"
+      },
+      {
+        "id": "node_24",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+9% 元素伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 0,
+          "x": 96.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_25"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgEle_64.webp"
+      },
+      {
+        "id": "node_25",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+18% 元素伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 1,
+          "x": 224.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_24"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgEle_64.webp"
+      },
+      {
+        "id": "node_26",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "伤害穿透 1.5% 元素抗性"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 2,
+          "x": 352.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_27"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgEle_64.webp"
+      },
+      {
+        "id": "node_27",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "造成伤害时，敌人每有一种元素异常状态，伤害穿透 3% 元素抗性"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 3,
+          "x": 480.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_26"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Duration_64.webp"
+      },
+      {
+        "id": "node_28",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+2% 元素抗性"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 4,
+          "x": 608.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_29"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgEle_64.webp"
+      },
+      {
+        "id": "node_29",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "最近每受到一种类型的元素伤害，额外 -5% 受到的元素伤害"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 5,
+          "x": 736.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_28"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence03_64.webp"
+      },
+      {
+        "id": "node_30",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "+1 冰冷技能等级"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 6,
+          "x": 864.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_22"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgCold_64.webp"
+      }
+    ]
+  },
+  {
+    "id": "alchemist",
+    "name": "炼金术士",
+    "godType": "intelligence",
+    "description": "巨力之神的传承，攻守均衡的战斗大师",
+    "tags": [
+      "单手武器",
+      "护甲"
+    ],
+    "totalPoints": 36,
+    "allocatedPoints": 0,
+    "coreRequiredPoints": 24,
+    "coreTalents": [],
+    "nodes": [
+      {
+        "id": "node_0",
+        "name": "+9% 攻击伤害",
+        "type": "small",
+        "effects": [
+          "+9% 攻击伤害"
+        ],
+        "requiredPoints": 0,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 0,
+          "x": 96.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_1"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      },
+      {
+        "id": "node_1",
+        "name": "+18% 召唤物伤害",
+        "type": "notable",
+        "effects": [
+          "+18% 召唤物伤害",
+          "+18% 伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 1,
+          "x": 224.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_0"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      },
+      {
+        "id": "node_2",
+        "name": "+20% 攻击暴击值",
+        "type": "small",
+        "effects": [
+          "+20% 攻击暴击值",
+          "+5% 暴击伤害"
+        ],
+        "requiredPoints": 6,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 2,
+          "x": 352.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_3"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit04_64.webp"
+      },
+      {
+        "id": "node_3",
+        "name": "+6% 最大生命",
+        "type": "notable",
+        "effects": [
+          "+6% 最大生命",
+          "+6% 最大护盾"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 3,
+          "x": 480.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_2"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      },
+      {
+        "id": "node_4",
+        "name": "每秒自然回复 0.8% 生命",
+        "type": "small",
+        "effects": [
+          "每秒自然回复 0.8% 生命"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 5,
+          "x": 736.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_5"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp"
+      },
+      {
+        "id": "node_5",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "+1 魔灵技能等级",
+          "魔灵额外 -80% 受到的伤害"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 6,
+          "x": 864.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_4"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Dual01_64.webp"
+      },
+      {
+        "id": "node_6",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+3% 召唤物攻击与施法速度",
+          "+3% 攻击与施法速度"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 1,
+          "x": 224.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_7"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp"
+      },
+      {
+        "id": "node_7",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+6% 召唤物攻击与施法速度",
+          "+6% 攻击与施法速度"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 2,
+          "x": 352.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_6"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Accuracy_64.webp"
+      },
+      {
+        "id": "node_8",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "魔灵 +2% 强化技能使用几率"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 3,
+          "x": 480.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_9"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp"
+      },
+      {
+        "id": "node_9",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "魔灵 +4% 强化技能使用几率"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 4,
+          "x": 608.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_8"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp"
+      },
+      {
+        "id": "node_10",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+4% 魔灵之源效果"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 5,
+          "x": 736.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_11"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Flask02_64.webp"
+      },
+      {
+        "id": "node_11",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "+1 魔灵最大数量上限",
+          "额外 -40% 魔灵技能伤害"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 6,
+          "x": 864.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_10"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp"
+      },
+      {
+        "id": "node_12",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+3% 最大生命",
+          "+3% 最大护盾"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 0,
+          "x": 96.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_13"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+      },
+      {
+        "id": "node_13",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+6% 最大生命",
+          "+6% 最大护盾"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 1,
+          "x": 224.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_12"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+      },
+      {
+        "id": "node_14",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "4.5% 魔灵终极技能冷却回复速度"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 3,
+          "x": 480.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_15"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp"
+      },
+      {
+        "id": "node_15",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+9% 魔灵终极技能冷却回复速度"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 4,
+          "x": 608.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_14"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp"
+      },
+      {
+        "id": "node_16",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+9% 召唤物伤害",
+          "+9% 伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 5,
+          "x": 736.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_17"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      },
+      {
+        "id": "node_17",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "+1 被动技能等级"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 6,
+          "x": 864.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_16"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Dagger03_64.webp"
+      },
+      {
+        "id": "node_18",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+8% 召唤物伤害",
+          "召唤物 +12% 几率造成伤害型异常状态"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 1,
+          "x": 224.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_19"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+      },
+      {
+        "id": "node_19",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+16% 召唤物伤害",
+          "召唤物 +24% 几率造成伤害型异常状态"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 2,
+          "x": 352.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_18"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+      },
+      {
+        "id": "node_20",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+12% 魔灵终极技能伤害和终极技能造成的异常伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 3,
+          "x": 480.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_21"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgEle_64.webp"
+      },
+      {
+        "id": "node_21",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+24% 魔灵终极技能伤害和终极技能造成的异常伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 4,
+          "x": 608.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_20"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgEle_64.webp"
+      },
+      {
+        "id": "node_22",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "魔灵技能 12.5% 魔力封印补偿"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 5,
+          "x": 736.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_23"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgEle_64.webp"
+      },
+      {
+        "id": "node_23",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "8% 受到的伤害转移至随机召唤物",
+          "魔灵额外 -80% 受到的伤害"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 6,
+          "x": 864.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_22"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp"
+      },
+      {
+        "id": "node_24",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "每秒自然回复 0.4% 生命"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 0,
+          "x": 96.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_25"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Flask01_64.webp"
+      },
+      {
+        "id": "node_25",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "每秒自然回复 0.8% 生命"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 1,
+          "x": 224.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_24"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Flask01_64.webp"
+      },
+      {
+        "id": "node_26",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+3% 护盾充能速度"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 2,
+          "x": 352.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_27"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgEle_64.webp"
+      },
+      {
+        "id": "node_27",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+6% 护盾充能速度"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 3,
+          "x": 480.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_26"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgEle_64.webp"
+      },
+      {
+        "id": "node_28",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+3% 最大生命",
+          "+3% 最大护盾"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 4,
+          "x": 608.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_29"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+      },
+      {
+        "id": "node_29",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+6% 最大生命",
+          "+6% 最大护盾"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 5,
+          "x": 736.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_28",
+          "node_30"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+      },
+      {
+        "id": "node_30",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "+15% 生命自然回复速度",
+          "额外 -15% 护盾充能间隔"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 6,
+          "x": 864.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_29"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Flask01_64.webp"
+      }
+    ]
+  },
+  {
+    "id": "the_brave",
+    "name": "勇者",
+    "godType": "strength",
+    "description": "巨力之神的传承，攻守均衡的战斗大师",
+    "tags": [
+      "单手武器",
+      "护甲"
+    ],
+    "totalPoints": 36,
+    "allocatedPoints": 0,
+    "coreRequiredPoints": 24,
+    "coreTalents": [],
+    "nodes": [
+      {
+        "id": "node_0",
+        "name": "+9% 攻击伤害",
+        "type": "small",
+        "effects": [
+          "+9% 攻击伤害"
+        ],
+        "requiredPoints": 0,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 0,
+          "x": 96.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_1"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+      },
+      {
+        "id": "node_1",
+        "name": "+18% 攻击伤害",
+        "type": "notable",
+        "effects": [
+          "+18% 攻击伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 1,
+          "x": 224.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_0"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Accuracy_64.webp"
+      },
+      {
+        "id": "node_2",
+        "name": "+20% 攻击暴击值",
+        "type": "small",
+        "effects": [
+          "+20% 攻击暴击值",
+          "+5% 暴击伤害"
+        ],
+        "requiredPoints": 6,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 2,
+          "x": 352.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_3"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp"
+      },
+      {
+        "id": "node_3",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+20% 攻击暴击值",
+          "+5% 暴击伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 3,
+          "x": 480.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_2"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      },
+      {
+        "id": "node_4",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "持单手武器时， +9% 攻击伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 4,
+          "x": 608.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_5",
+          "node_11"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgPhys_64.webp"
+      },
+      {
+        "id": "node_5",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "持单手武器时， +18% 攻击伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 5,
+          "x": 736.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_4",
+          "node_6"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgPhys_64.webp"
+      },
+      {
+        "id": "node_6",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "持单手武器时，额外 +8% 攻击伤害"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 6,
+          "x": 864.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_5"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp"
+      },
+      {
+        "id": "node_7",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+3% 攻击速度"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 1,
+          "x": 224.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_8"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp"
+      },
+      {
+        "id": "node_8",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+6% 攻击速度",
+          "-4 技能消耗"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 2,
+          "x": 352.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_7"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/AtkSpeed_64.webp"
+      },
+      {
+        "id": "node_9",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "1.5% 生命返还"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 3,
+          "x": 480.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_10"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Axe01_64.webp"
+      },
+      {
+        "id": "node_10",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+3% 生命返还"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 4,
+          "x": 608.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_9"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/AtkSpeed_64.webp"
+      },
+      {
+        "id": "node_11",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "持盾时， +12% 伤害",
+          "持盾时， +4% 攻击格挡率"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 5,
+          "x": 736.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_4",
+          "node_12"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit04_64.webp"
+      },
+      {
+        "id": "node_12",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "持盾时， +5% 格挡比例"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 6,
+          "x": 864.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_11"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Flask02_64.webp"
+      },
+      {
+        "id": "node_13",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+3% 最大生命"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 0,
+          "x": 96.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_14"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Duration_64.webp"
+      },
+      {
+        "id": "node_14",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+5% 最大生命",
+          "每秒自然回复 0.5% 生命"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 1,
+          "x": 224.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_13"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Flask02_64.webp"
+      },
+      {
+        "id": "node_15",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+4% 攻击格挡率"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 2,
+          "x": 352.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_16"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp"
+      },
+      {
+        "id": "node_16",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+8% 攻击格挡率"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 3,
+          "x": 480.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_15"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp"
+      },
+      {
+        "id": "node_17",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+5% 战吼技能冷却回复速度"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 4,
+          "x": 608.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_18"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crossbow02_64.webp"
+      },
+      {
+        "id": "node_18",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+6% 战吼技能的效果"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 5,
+          "x": 736.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_17",
+          "node_19"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp"
+      },
+      {
+        "id": "node_19",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "+4 战吼至少影响的敌人数量"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 6,
+          "x": 864.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_18"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp"
+      },
+      {
+        "id": "node_20",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+450 护甲值"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 1,
+          "x": 224.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_21"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Armor_64.webp"
+      },
+      {
+        "id": "node_21",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+900 护甲值"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 2,
+          "x": 352.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_20"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Armor_64.webp"
+      },
+      {
+        "id": "node_22",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "受到伤害时，+25% 几率获得 1 层坚韧祝福，间隔 1 秒"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 3,
+          "x": 480.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_23"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+      },
+      {
+        "id": "node_23",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "每有 1 层坚韧祝福， +6% 护甲值"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 4,
+          "x": 608.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_22"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+      },
+      {
+        "id": "node_24",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+8 力量"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 5,
+          "x": 736.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_25"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgEle_64.webp"
+      },
+      {
+        "id": "node_25",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "每 24 点力量， +1% 护甲值"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 6,
+          "x": 864.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_24"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Channel01_64.webp"
+      },
+      {
+        "id": "node_26",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+7% 护甲值"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 0,
+          "x": 96.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_27"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Armor_64.webp"
+      },
+      {
+        "id": "node_27",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+14% 护甲值"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 1,
+          "x": 224.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_26"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence03_64.webp"
+      },
+      {
+        "id": "node_28",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+7% 护甲值"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 2,
+          "x": 352.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_29"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Armor_64.webp"
+      },
+      {
+        "id": "node_29",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "+40% 从胸甲获得的防御值"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 3,
+          "x": 480.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_28"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Dot_64.webp"
+      },
+      {
+        "id": "node_30",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+2% 元素抗性",
+          "+2% 腐蚀抗性"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 5,
+          "x": 736.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_31"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+      },
+      {
+        "id": "node_31",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "每 3000 点护甲， 0.5% 元素抗性，至多 6%",
+          "每 3000 点护甲， 0.5% 腐蚀抗性，至多 6%"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 6,
+          "x": 864.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_30"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Armor_64.webp"
+      }
+    ]
+  },
+  {
+    "id": "warrior",
+    "name": "斗士",
+    "godType": "strength",
+    "description": "巨力之神的传承，攻守均衡的战斗大师",
+    "tags": [
+      "单手武器",
+      "护甲"
+    ],
+    "totalPoints": 36,
+    "allocatedPoints": 0,
+    "coreRequiredPoints": 24,
+    "coreTalents": [],
+    "nodes": [
+      {
+        "id": "node_0",
+        "name": "+9% 攻击伤害",
+        "type": "small",
+        "effects": [
+          "+9% 攻击伤害"
+        ],
+        "requiredPoints": 0,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 0,
+          "x": 96.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_1"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      },
+      {
+        "id": "node_1",
+        "name": "+6% 防御值",
+        "type": "notable",
+        "effects": [
+          "+6% 防御值"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 1,
+          "x": 224.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_0"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      },
+      {
+        "id": "node_2",
+        "name": "+20% 攻击暴击值",
+        "type": "small",
+        "effects": [
+          "+20% 攻击暴击值",
+          "+5% 暴击伤害"
+        ],
+        "requiredPoints": 6,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 2,
+          "x": 352.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_3"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit01_64.webp"
+      },
+      {
+        "id": "node_3",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+20% 暴击值",
+          "+5% 暴击伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 3,
+          "x": 480.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_2"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit04_64.webp"
+      },
+      {
+        "id": "node_4",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+9% 伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 4,
+          "x": 608.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_5"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      },
+      {
+        "id": "node_5",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "对生命濒危敌人， +50% 伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 5,
+          "x": 736.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_4",
+          "node_6"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Axe02_64.webp"
+      },
+      {
+        "id": "node_6",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "对生命濒危敌人，额外 +25% 伤害"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 6,
+          "x": 864.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_5"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Axe02_64.webp"
+      },
+      {
+        "id": "node_7",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+3% 攻击与施法速度",
+          "+3% 召唤物攻击与施法速度"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 1,
+          "x": 224.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_8"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp"
+      },
+      {
+        "id": "node_8",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+6% 攻击与施法速度",
+          "+6% 召唤物攻击与施法速度"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 2,
+          "x": 352.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_7",
+          "node_9"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp"
+      },
+      {
+        "id": "node_9",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "每损失1%生命， 0.3% 攻击速度"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 3,
+          "x": 480.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_8"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp"
+      },
+      {
+        "id": "node_10",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+3% 防御值"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 0,
+          "x": 96.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_11"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Armor_64.webp"
+      },
+      {
+        "id": "node_11",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+6% 防御值"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 1,
+          "x": 224.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_10"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Armor_64.webp"
+      },
+      {
+        "id": "node_12",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "1.5% 生命返还"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 3,
+          "x": 480.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_13"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence02_64.webp"
+      },
+      {
+        "id": "node_13",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "额外 -15% 生命返还间隔",
+          "使用攻击技能时，消耗 2% 当前生命"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 4,
+          "x": 608.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_12"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp"
+      },
+      {
+        "id": "node_14",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "如果最近受到了伤害，  +12% 伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 5,
+          "x": 736.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_15"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Armor_64.webp"
+      },
+      {
+        "id": "node_15",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "使用近战技能时，获得一层强硬"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 6,
+          "x": 864.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_14"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Armor_64.webp"
+      },
+      {
+        "id": "node_16",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+40 最大生命"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 1,
+          "x": 224.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_17"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      },
+      {
+        "id": "node_17",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+80 最大生命"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 2,
+          "x": 352.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_16"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      },
+      {
+        "id": "node_18",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+3% 最大生命"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 3,
+          "x": 480.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_19"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+      },
+      {
+        "id": "node_19",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "击败时，回复 3% 生命"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 4,
+          "x": 608.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_18"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+      },
+      {
+        "id": "node_20",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+8 力量"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 5,
+          "x": 736.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_21"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp"
+      },
+      {
+        "id": "node_21",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "每 5 点力量， +1 点最大生命"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 6,
+          "x": 864.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_20"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Dot_64.webp"
+      },
+      {
+        "id": "node_22",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+3% 最大生命"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 0,
+          "x": 96.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_23"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+      },
+      {
+        "id": "node_23",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+6% 最大生命"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 1,
+          "x": 224.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_22"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+      },
+      {
+        "id": "node_24",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "每秒自然回复 0.4% 生命"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 2,
+          "x": 352.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_25"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Flask01_64.webp"
+      },
+      {
+        "id": "node_25",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "每秒自然回复 0.8% 生命"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 3,
+          "x": 480.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_24",
+          "node_26"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Flask01_64.webp"
+      },
+      {
+        "id": "node_26",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "如果最近消耗过生命，额外 +8% 伤害"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 4,
+          "x": 608.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_25"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+      },
+      {
+        "id": "node_27",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+3% 最大生命"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 5,
+          "x": 736.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_28"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+      },
+      {
+        "id": "node_28",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+3% 受伤缓冲"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 6,
+          "x": 864.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_27"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp"
+      }
+    ]
+  },
+  {
+    "id": "warlord",
+    "name": "督军",
+    "godType": "strength",
+    "description": "巨力之神的传承，攻守均衡的战斗大师",
+    "tags": [
+      "单手武器",
+      "护甲"
+    ],
+    "totalPoints": 36,
+    "allocatedPoints": 0,
+    "coreRequiredPoints": 24,
+    "coreTalents": [],
+    "nodes": [
+      {
+        "id": "node_0",
+        "name": "+9% 攻击伤害",
+        "type": "small",
+        "effects": [
+          "+9% 攻击伤害"
+        ],
+        "requiredPoints": 0,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 0,
+          "x": 96.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_1"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      },
+      {
+        "id": "node_1",
+        "name": "+18% 火焰伤害",
+        "type": "notable",
+        "effects": [
+          "+18% 火焰伤害",
+          "+18% 召唤物火焰伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 1,
+          "x": 224.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_0"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgFire_64.webp"
+      },
+      {
+        "id": "node_2",
+        "name": "+20% 攻击暴击值",
+        "type": "small",
+        "effects": [
+          "+20% 攻击暴击值",
+          "+5% 暴击伤害"
+        ],
+        "requiredPoints": 6,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 2,
+          "x": 352.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_3"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit01_64.webp"
+      },
+      {
+        "id": "node_3",
+        "name": "+6% 最大生命",
+        "type": "notable",
+        "effects": [
+          "+6% 最大生命",
+          "+6% 最大护盾"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 3,
+          "x": 480.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_2"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit04_64.webp"
+      },
+      {
+        "id": "node_4",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+9% 火焰伤害",
+          "+9% 召唤物火焰伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 4,
+          "x": 608.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_5"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      },
+      {
+        "id": "node_5",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "100% 物理伤害转化为火焰伤害",
+          "召唤物 100% 物理伤害转化为火焰伤害"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 1,
+          "col": 5,
+          "x": 736.0,
+          "y": 80.0
+        },
+        "connections": [
+          "node_4"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgPhys_64.webp"
+      },
+      {
+        "id": "node_6",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+3% 攻击与施法速度",
+          "+3% 召唤物攻击与施法速度"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 1,
+          "x": 224.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_7"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp"
+      },
+      {
+        "id": "node_7",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+6% 攻击与施法速度",
+          "+6% 召唤物攻击与施法速度"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 2,
+          "x": 352.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_6"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp"
+      },
+      {
+        "id": "node_8",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+9% 火焰伤害",
+          "+9% 召唤物火焰伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 3,
+          "x": 480.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_9"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      },
+      {
+        "id": "node_9",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+18% 火焰伤害",
+          "+18% 召唤物火焰伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 4,
+          "x": 608.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_8"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgFire_64.webp"
+      },
+      {
+        "id": "node_10",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+8 力量"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 5,
+          "x": 736.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_11"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp"
+      },
+      {
+        "id": "node_11",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "每 12 点力量， +1% 火焰伤害",
+          "每 12 点力量， +1% 召唤物火焰伤害"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 2,
+          "col": 6,
+          "x": 864.0,
+          "y": 176.0
+        },
+        "connections": [
+          "node_10"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgFire_64.webp"
+      },
+      {
+        "id": "node_12",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+3% 最大生命",
+          "+3% 最大护盾"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 0,
+          "x": 96.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_13"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+      },
+      {
+        "id": "node_13",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+6% 最大生命",
+          "+6% 最大护盾"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 1,
+          "x": 224.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_12"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+      },
+      {
+        "id": "node_14",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "1.5% 生命返还",
+          "1.5% 护盾返还"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 2,
+          "x": 352.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_15"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence02_64.webp"
+      },
+      {
+        "id": "node_15",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+3% 生命返还",
+          "+3% 护盾返还"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 3,
+          "x": 480.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_14"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence02_64.webp"
+      },
+      {
+        "id": "node_16",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "对被点燃的敌人， +2% 火焰穿透",
+          "对被点燃的敌人， 召唤物 +2% 火焰穿透"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 4,
+          "x": 608.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_17"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+      },
+      {
+        "id": "node_17",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "对被点燃的敌人造成火焰伤害时，造成火焰渗透"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 3,
+          "col": 5,
+          "x": 736.0,
+          "y": 272.0
+        },
+        "connections": [
+          "node_16"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+      },
+      {
+        "id": "node_18",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+4% 火焰抗性"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 1,
+          "x": 224.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_19"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp"
+      },
+      {
+        "id": "node_19",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "+4% 火焰抗性上限"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 2,
+          "x": 352.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_18"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp"
+      },
+      {
+        "id": "node_20",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+3% 最大生命",
+          "+3% 最大护盾"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 3,
+          "x": 480.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_21"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+      },
+      {
+        "id": "node_21",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "免疫点燃",
+          "召唤物免疫火焰伤害"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 4,
+          "x": 608.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_20"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Flask02_64.webp"
+      },
+      {
+        "id": "node_22",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+9% 火焰伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 5,
+          "x": 736.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_23"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      },
+      {
+        "id": "node_23",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "额外 +4% 火焰伤害",
+          "+8% 点燃几率"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 4,
+          "col": 6,
+          "x": 864.0,
+          "y": 368.0
+        },
+        "connections": [
+          "node_22"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+      },
+      {
+        "id": "node_24",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+9% 火焰持续伤害",
+          "+9% 召唤物火焰伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 0,
+          "x": 96.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_25"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Dot_64.webp"
+      },
+      {
+        "id": "node_25",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+18% 火焰持续伤害",
+          "+18% 召唤物火焰伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 1,
+          "x": 224.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_24"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Dot_64.webp"
+      },
+      {
+        "id": "node_26",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+3% 点燃几率",
+          "召唤物 +6% 点燃几率"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 2,
+          "x": 352.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_27"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      },
+      {
+        "id": "node_27",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+6% 点燃几率",
+          "召唤物 +12% 点燃几率"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 3,
+          "x": 480.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_26"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      },
+      {
+        "id": "node_28",
+        "name": "小型天赋",
+        "type": "small",
+        "effects": [
+          "+9% 火焰持续伤害",
+          "+9% 召唤物火焰伤害",
+          "附加 10 - 10 基础点燃伤害"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 4,
+          "x": 608.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_29"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Dot_64.webp"
+      },
+      {
+        "id": "node_29",
+        "name": "中型天赋",
+        "type": "notable",
+        "effects": [
+          "+15% 加剧效果",
+          "+15% 召唤物加剧效果",
+          "+8 每秒施加加剧值",
+          "+8 召唤物每秒施加加剧值"
+        ],
+        "requiredPoints": 3,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 5,
+          "x": 736.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_28",
+          "node_30"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+      },
+      {
+        "id": "node_30",
+        "name": "传奇中型天赋",
+        "type": "legendary",
+        "effects": [
+          "额外造成 1 层点燃"
+        ],
+        "requiredPoints": 1,
+        "maxPoints": 3,
+        "currentPoints": 0,
+        "position": {
+          "row": 5,
+          "col": 6,
+          "x": 864.0,
+          "y": 464.0
+        },
+        "connections": [
+          "node_29"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgFire_64.webp"
+      }
+    ]
+  }
+]
