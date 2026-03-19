@@ -9,6 +9,7 @@
       </div>
       <div class="points-info">
         <span class="points-text">{{ tree.allocatedPoints }} / {{ tree.totalPoints }} pts</span>
+        <button class="close-btn" @click="$emit('close')" title="取消选中">×</button>
         <button class="reset-btn" @click="resetTree">重置</button>
       </div>
     </div>
@@ -17,40 +18,46 @@
       <!-- 核心天赋区域 -->
       <div class="core-talents-section" :style="{ height: coreSectionHeight + 'px' }">
         <div class="core-talents-container">
-          <div 
-            v-for="node in tree.coreTalents" 
-            :key="node.id"
-            :class="[
-              'core-talent-node',
-              {
-                allocated: node.currentPoints > 0,
-                locked: tree.allocatedPoints < node.requiredPoints,
-                hovered: hoveredNode?.id === node.id
-              }
-            ]"
-            @click.stop="onNodeClick(node)"
-            @contextmenu.stop="onNodeRightClick(node, $event)"
-            @mouseenter="onNodeHover(node, $event)"
-            @mouseleave="onNodeLeave"
-          >
-            <div class="core-talent-icon">
-              <div class="core-talent-background" :style="{ backgroundColor: getNodeBackgroundColor(node) }"></div>
-              <div class="core-talent-ring" :style="{ borderColor: getNodeColor(node) }">
-                <span v-if="node.currentPoints > 0" class="core-talent-check">✓</span>
-                <div v-else class="core-talent-icon-container">
-                  <img 
-                    :src="node.icon || getTalentIcon(node)" 
-                    :alt="node.name"
-                    class="core-talent-icon-image"
-                  />
+          <template v-for="(node, idx) in sortedCoreTalents" :key="node.id">
+            <div 
+              :class="[
+                'core-talent-node',
+                {
+                  allocated: node.currentPoints > 0,
+                  locked: tree.allocatedPoints < node.requiredPoints,
+                  hovered: hoveredNode?.id === node.id
+                }
+              ]"
+              @click.stop="onNodeClick(node)"
+              @contextmenu.stop="onNodeRightClick(node, $event)"
+              @mouseenter="onNodeHover(node, $event)"
+              @mouseleave="onNodeLeave"
+            >
+              <div class="core-talent-icon">
+                <div class="core-talent-background" :style="{ backgroundColor: getNodeBackgroundColor(node) }"></div>
+                <div class="core-talent-ring" :style="{ borderColor: getNodeColor(node) }">
+                  <span v-if="node.currentPoints > 0" class="core-talent-check">✓</span>
+                  <div v-else class="core-talent-icon-container">
+                    <img 
+                      :src="node.icon || getTalentIcon(node)" 
+                      :alt="node.name"
+                      class="core-talent-icon-image"
+                    />
+                  </div>
                 </div>
               </div>
+              <div class="core-talent-info">
+                <div class="core-talent-name">{{ node.name }}</div>
+                <div class="core-talent-points">需要 {{ node.requiredPoints }} 点</div>
+              </div>
             </div>
-            <div class="core-talent-info">
-              <div class="core-talent-name">{{ node.name }}</div>
-              <div class="core-talent-points">需要 {{ node.requiredPoints }} 点</div>
-            </div>
-          </div>
+
+            <div
+              v-if="idx === 2 && sortedCoreTalents.length >= 6"
+              class="core-talents-divider"
+              aria-hidden="true"
+            />
+          </template>
         </div>
       </div>
 
@@ -158,8 +165,8 @@
 
 <script setup lang="ts">
 import { ref, computed, onMounted, watch } from 'vue'
-import type { ProfessionTalentTree, ProfessionTalentNode } from '@/data/professionTalentData'
-import { GRID_CONFIG, LEVELS } from '@/data/professionTalentData'
+import type { ProfessionTalentTree, ProfessionTalentNode } from '@/data/talents/meta/professionTalentData'
+import { GRID_CONFIG, LEVELS } from '@/data/talents/meta/professionTalentData'
 import { GOD_COLORS } from '@/types'
 
 interface Props {
@@ -172,6 +179,7 @@ const emit = defineEmits<{
   (e: 'allocate', nodeId: string): void
   (e: 'deallocate', nodeId: string): void
   (e: 'reset'): void
+  (e: 'close'): void
 }>()
 
 const containerRef = ref<HTMLElement | null>(null)
@@ -182,6 +190,16 @@ const dragStart = ref({ x: 0, y: 0 })
 const lastPanX = ref(0)
 const hoveredNode = ref<ProfessionTalentNode | null>(null)
 const tooltipPos = ref({ x: 0, y: 0 })
+
+const sortedCoreTalents = computed(() => {
+  const list = props.tree.coreTalents || []
+  return [...list].sort((a, b) => {
+    const ac = a.position?.col ?? 0
+    const bc = b.position?.col ?? 0
+    if (ac !== bc) return ac - bc
+    return a.id.localeCompare(b.id)
+  })
+})
 
 // 统一根据行列或已有坐标计算像素位置，方便支持无 x/y 的爬虫数据
 function getNodeCoord(node: ProfessionTalentNode) {
@@ -351,23 +369,24 @@ function getNodeStyle(node: ProfessionTalentNode) {
 }
 
 function getLevelIndicatorStyle(level: number, index: number) {
-  // 按「第一行的节点顺序」来对齐层级指示器：
-  // 0、3、6、9、12、15、18 分别对应第一行从左到右的几个节点
+  // 层级指示器应按「所有行的同一列」对齐，而不是只对齐第一行；
+  // 0、3、6、9、12、15、18 分别对应第 0~6 列（纵向列）。
   const nodes = props.tree.nodes
   if (!nodes.length) {
     return { left: '0px' }
   }
 
-  // 找到整个树中 row 最小的一行（视觉上的第一行）
-  const minRow = Math.min(...nodes.map(n => n.position.row))
-  const topRowNodes = nodes
-    .filter(n => n.position.row === minRow)
-    .sort((a, b) => getNodeCoord(a).x - getNodeCoord(b).x)
-
   const xOffset = GRID_CONFIG.nodeWidth / 2
 
-  const targetNode = topRowNodes[index] || topRowNodes[topRowNodes.length - 1]
-  const { x } = getNodeCoord(targetNode)
+  const colNodes = nodes
+    .filter(n => (n.position.col ?? 0) === index)
+    .sort((a, b) => getNodeCoord(a).x - getNodeCoord(b).x)
+
+  // 同一列的 x 理论上相同；若某列没有节点，则用网格配置兜底
+  const x =
+    colNodes.length > 0
+      ? getNodeCoord(colNodes[0]).x
+      : GRID_CONFIG.offsetX + index * GRID_CONFIG.colSpacing
 
   return {
     // 与节点外层盒子中心对齐（节点中心 x + 半个节点宽）
@@ -612,6 +631,27 @@ function onUnmounted() {
   display: flex;
   align-items: center;
   gap: 16px;
+}
+
+.close-btn {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(0, 0, 0, 0.25);
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 18px;
+  line-height: 24px;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
 }
 
 .points-text {
@@ -1172,6 +1212,20 @@ function onUnmounted() {
   padding: 20px;
   display: flex;
   gap: 16px;
+  align-items: center;
+}
+
+.core-talents-divider {
+  width: 1px;
+  height: 72px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(255, 255, 255, 0.18),
+    transparent
+  );
+  flex: 0 0 1px;
+  margin: 0 6px;
 }
 
 .core-talent-node {

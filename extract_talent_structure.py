@@ -56,29 +56,23 @@ def load_html() -> str:
 
 def extract_talents_from_content(content: str) -> List[Dict]:
     """
-    从文本内容中用正则抽取天赋：
-    原网页结构大致为：
-      小型天赋
-      0/3
-      +9% 攻击伤害
+    从页面纯文本 content 中抽取普通天赋条目。
 
-      中型天赋
-      3pts
-      0/3
-      +18% 攻击伤害
-      ...
-    当前正则策略参考你原来的实现，只做了一点健壮性增强。
+    文本结构在不同页面里存在几种变体：
+    - 0 点（第一列）通常没有 "0pts" 行：
+        小型天赋
+        0/3
+        +9% 攻击伤害
+    - 非 0 点会有 "3pts/6pts..."：
+        中型天赋
+        3pts
+        0/3
+        +18% 攻击伤害
+    - 描述可能 1 行或多行（直到下一个“类型标记行”开始）
+
+    早期用正则一次性抓取会出现“把下一条的类型行当成当前描述第二行”的吞行问题，
+    进而造成后续条目缺失与整体错位，因此这里改成逐行状态机解析。
     """
-    # 允许 "0/3" 或 "0 / 3" 等写法，点数行有时是 "3pts" 有时直接 "0/3"
-    pattern = re.compile(
-        r"(小型天赋|中型天赋|传奇中型天赋)\s+"          # 类型
-        r"(\d+)pts\s+"                                 # 需要点数（3/6/9/12/15/18）
-        r"0\s*/\s*(\d+)\s+"                            # 当前/最大点数（0/3 或 0 / 3）
-        r"([^\n]+(?:\n[^\n]+)?)"                       # 描述（1～2 行）
-    )
-
-    matches = pattern.findall(content)
-
     talent_type_map = {
         "小型天赋": "small",
         "中型天赋": "notable",
@@ -87,25 +81,83 @@ def extract_talents_from_content(content: str) -> List[Dict]:
 
     talents: List[Dict] = []
 
-    for i, (talent_type, points, max_points, description) in enumerate(matches):
+    lines = [ln.strip() for ln in content.splitlines()]
+    type_tokens = set(talent_type_map.keys())
+
+    def _is_points_line(s: str) -> bool:
+        return bool(s) and s.endswith("pts") and s[:-3].strip().isdigit()
+
+    def _parse_points_line(s: str) -> int:
+        try:
+            return int(s.replace("pts", "").strip())
+        except Exception:
+            return 0
+
+    def _is_count_line(s: str) -> bool:
+        return bool(re.match(r"^0\s*/\s*\d+\s*$", s))
+
+    def _parse_max_points(s: str) -> int:
+        m = re.match(r"^0\s*/\s*(\d+)\s*$", s)
+        return int(m.group(1)) if m else 3
+
+    i = 0
+    tid = 0
+    while i < len(lines):
+        ttype_cn = lines[i]
+        if ttype_cn not in type_tokens:
+            i += 1
+            continue
+
+        ttype = talent_type_map.get(ttype_cn, "small")
+        i += 1
+
+        req_points = 0
+        # 可选 points 行
+        if i < len(lines) and _is_points_line(lines[i]):
+            req_points = _parse_points_line(lines[i])
+            i += 1
+
+        # 必须有 count 行
+        if i >= len(lines) or not _is_count_line(lines[i]):
+            continue
+        max_points = _parse_max_points(lines[i])
+        i += 1
+
+        # 描述：读到下一个类型标记行（或结束）
+        desc_lines: List[str] = []
+        while i < len(lines):
+            s = lines[i].strip()
+            if not s:
+                i += 1
+                continue
+            if s in type_tokens:
+                break
+            # 防止极端情况下把 pts/count 行吞进描述（结构错乱）
+            if _is_points_line(s) or _is_count_line(s):
+                break
+            desc_lines.append(s)
+            i += 1
+
+        clean_desc = "\n".join(desc_lines).strip()
         clean_desc = (
-            description.strip()
-            .replace(" （神格生效上限：1）", "")
+            clean_desc.replace(" （神格生效上限：1）", "")
             .replace("(神格生效上限：1)", "")
+            .strip()
         )
-        first_line = clean_desc.split("\n", 1)[0]
+
+        first_line = clean_desc.split("\n", 1)[0] if clean_desc else ""
 
         talents.append(
             {
-                "id": f"talent_{i}",
-                "type": talent_type_map.get(talent_type, "small"),
-                "requiredPoints": int(points),
-                "maxPoints": int(max_points),
+                "id": f"talent_{tid}",
+                "type": ttype,
+                "requiredPoints": req_points,
+                "maxPoints": max_points,
                 "description": clean_desc,
-                # 先用描述第一行作为名称，前端可以再自定义展示
-                "name": first_line[:60],
+                "name": (first_line[:60] if first_line else ""),
             }
         )
+        tid += 1
 
     return talents
 
@@ -184,8 +236,13 @@ def parse_svg_to_nodes_and_connections(svg_text: str) -> Tuple[List[Dict], List[
     nodes: List[Dict] = []
     core_nodes: List[Dict] = []
     current_node: Dict | None = None
+    level_texts: List[Tuple[float, float, int]] = []
 
-    for elem in list(nodes_group):
+    # 注意：神格页的 SVG 结构里，circle/image/text 往往嵌套在 <g> 内，
+    # 不能只遍历 nodes_group 的直接子元素，否则会漏掉 0/3/6/9/12/15/18 的层级文本。
+    for elem in nodes_group.iter():
+        if elem is nodes_group:
+            continue
         tag = _strip_tag(elem.tag)
         cls = elem.attrib.get("class", "")
 
@@ -219,7 +276,7 @@ def parse_svg_to_nodes_and_connections(svg_text: str) -> Tuple[List[Dict], List[
             else:
                 nodes.append(current_node)
 
-        elif tag == "image" and nodes:
+        elif tag == "image" and current_node is not None:
             # 补充 icon & tooltip
             href = (
                 elem.attrib.get("{http://www.w3.org/1999/xlink}href")
@@ -229,16 +286,49 @@ def parse_svg_to_nodes_and_connections(svg_text: str) -> Tuple[List[Dict], List[
             tooltip_raw = elem.attrib.get("data-bs-title", "")
             name = _parse_tooltip_name(tooltip_raw)
 
-            nodes[-1]["icon"] = href
+            current_node["icon"] = href
             if name:
-                nodes[-1]["name"] = name
+                current_node["name"] = name
             if tooltip_raw:
-                nodes[-1]["tooltip"] = tooltip_raw
+                current_node["tooltip"] = tooltip_raw
 
-        elif tag == "text" and "level_up_time" in cls and nodes:
+        elif tag == "text" and "level_up_time" in cls:
+            # 神格页/部分职业页中，level_up_time 的 <text> 位置不一定紧跟对应节点，
+            # 不能简单写入 nodes[-1]，改为记录坐标并在后面做最近邻匹配。
             text_value = (elem.text or "").strip()
-            if text_value.isdigit():
-                nodes[-1]["requiredPoints"] = int(text_value)
+            if not text_value.isdigit():
+                continue
+            x_raw = elem.attrib.get("x")
+            y_raw = elem.attrib.get("y")
+            if x_raw is None or y_raw is None:
+                continue
+            try:
+                x = float(x_raw)
+                y = float(y_raw)
+                val = int(text_value)
+            except ValueError:
+                continue
+            # 只接受层级点数（0/3/6/9/12/15/18），避免把其他数字（如 1）误当作层级
+            if val < 0 or val > 18 or val % 3 != 0:
+                continue
+            level_texts.append((x, y, val))
+
+    # 将 level_up_time 文本按坐标就近匹配到节点，补齐 requiredPoints（0/3/6/9/12/15/18）
+    if level_texts and nodes:
+        def _nearest_node_obj(x: float, y: float) -> Dict:
+            best = nodes[0]
+            best_dist = float("inf")
+            for n in nodes:
+                dx = n["cx"] - x
+                dy = n["cy"] - y
+                d2 = dx * dx + dy * dy
+                if d2 < best_dist:
+                    best_dist = d2
+                    best = n
+            return best
+
+        for x, y, val in level_texts:
+            _nearest_node_obj(x, y)["requiredPoints"] = val
 
     # 解析连接线：用 line 两端点分别匹配最近的节点
     def nearest_node(x: float, y: float) -> int:
@@ -401,19 +491,33 @@ def extract_core_talents_from_content(
     if not content:
         return []
 
+    # 优先在 card-body 内查找带 CoreTalentIcon 的 <img>，
+    # 若未找到，则在整页 HTML 内兜底查找。
+    img_html_list: List[str] = []
+
     m = re.search(
         r'<div[^>]*class="[^"]*card-body[^"]*"[^>]*>(.*?)</div>',
         content,
         flags=re.IGNORECASE | re.DOTALL,
     )
-    if not m:
+    if m:
+        block = html.unescape(m.group(1))
+        img_html_list = re.findall(
+            r'<img[^>]+CoreTalentIcon[^>]*>',
+            block,
+            flags=re.IGNORECASE,
+        )
+
+    if not img_html_list:
+        # 兜底：直接在整页 HTML 内找 CoreTalentIcon 图标
+        img_html_list = re.findall(
+            r'<img[^>]+CoreTalentIcon[^>]*>',
+            content,
+            flags=re.IGNORECASE,
+        )
+
+    if not img_html_list:
         return []
-
-    # card-body 里的 HTML 可能被转义，先整体反转义一次
-    block = html.unescape(m.group(1))
-
-    # 提取所有核心天赋图标 <img ...>
-    img_html_list = re.findall(r"<img[^>]+>", block, flags=re.IGNORECASE)
     core_talents: List[Dict] = []
 
     for i, img_html in enumerate(img_html_list):
@@ -468,6 +572,7 @@ def build_tree_payload(
     connections: List[Tuple[int, int]],
     core_required_points: int,
     core_talents_from_page: List[Dict],
+    tree_id: str | None = None,
 ) -> Dict:
     """
     组合文本天赋信息 + SVG 节点信息，生成一个接近前端 ProfessionTalentTree 的结构。
@@ -475,26 +580,181 @@ def build_tree_payload(
     """
     enrich_nodes_with_grid(svg_nodes)
 
-    # 按 requiredPoints + type 简单对齐文本描述（数量和顺序与网页大体一致）
-    bucket: Dict[Tuple[int, str], List[Dict]] = defaultdict(list)
-    for t in talents:
-        bucket[(t["requiredPoints"], t["type"])].append(t)
+    # 先过滤 SVG 中的“空占位 circle”：
+    # 这类节点通常没有 image（icon 为空），也没有 tooltip/name。
+    # 如果不提前过滤，后续的文本映射会把真实天赋条目错误地分配给这些占位点，造成全局错位。
+    svg_nodes = [
+        n
+        for n in svg_nodes
+        if (n.get("icon") or n.get("tooltip") or n.get("name"))
+    ]
 
-    def pop_matching_talent(req: int, ttype: str) -> Dict | None:
-        key = (req, ttype)
-        arr = bucket.get(key)
-        if arr:
-            return arr.pop(0)
-        # 备用：只按点数兜底
-        for (r, _), arr2 in bucket.items():
-            if r == req and arr2:
-                return arr2.pop(0)
+    # SVG 中层级（0/3/6/9/12/15/18）文本在不同页面里可能缺失或错位，
+    # 这里用网格列（col）推导每个节点的 requiredPoints，保证层级稳定。
+    unique_cols = sorted({n["col"] for n in svg_nodes})
+    col_to_points: Dict[int, int] = {}
+    for idx, col in enumerate(unique_cols):
+        col_to_points[col] = idx * 3
+    for n in svg_nodes:
+        n["requiredPoints"] = col_to_points.get(n["col"], n.get("requiredPoints", 0))
+
+    def _norm(s: str) -> str:
+        if not s:
+            return ""
+        s = _html_to_text(s)
+        s = s.replace("\u3000", " ").strip()
+        # 统一常见空白/标点差异，尽量提高匹配命中率
+        s = re.sub(r"\s+", " ", s)
+        s = s.replace("：", ":")
+        s = s.replace("（", "(").replace("）", ")")
+        s = s.replace("％", "%")
+        return s.strip()
+
+    def _desc_key(t: Dict) -> str:
+        # talents 来自纯文本，description 可能含 1~2 行
+        return _norm(t.get("description", ""))
+
+    def _name_key(t: Dict) -> str:
+        return _norm(t.get("name", ""))
+
+    # 构建多级索引：优先按 tooltip/名称匹配，其次按 (req,type/name) 精准匹配，再按顺序兜底。
+    # 注意：同一个 talent 会被放入多个 bucket，因此必须用 used 集合避免重复分配。
+    bucket_req_type_name: Dict[Tuple[int, str, str], List[Dict]] = defaultdict(list)
+    bucket_req_name: Dict[Tuple[int, str], List[Dict]] = defaultdict(list)
+    bucket_req_type: Dict[Tuple[int, str], List[Dict]] = defaultdict(list)
+    bucket_req: Dict[int, List[Dict]] = defaultdict(list)
+
+    for t in talents:
+        req = int(t.get("requiredPoints", 0) or 0)
+        ttype = t.get("type", "small") or "small"
+        nk = _name_key(t)
+        bucket_req_type_name[(req, ttype, nk)].append(t)
+        if nk:
+            bucket_req_name[(req, nk)].append(t)
+        bucket_req_type[(req, ttype)].append(t)
+        bucket_req[req].append(t)
+
+    used_talent_ids: set[str] = set()
+
+    def _pop_from_list(arr: List[Dict] | None) -> Dict | None:
+        if not arr:
+            return None
+        while arr:
+            t = arr.pop(0)
+            tid = str(t.get("id", ""))
+            if tid and tid in used_talent_ids:
+                continue
+            if tid:
+                used_talent_ids.add(tid)
+            return t
+        return None
+
+    def _score_by_description(tooltip_text: str, talent: Dict) -> int:
+        """
+        用“描述行命中数”做一个轻量评分：
+        - tooltip_text 来自 SVG 的 data-bs-title，经 _norm 归一
+        - talent description 来自 content 抓取（通常 1~2 行）
+        """
+        if not tooltip_text:
+            return 0
+        desc = talent.get("description", "") or ""
+        parts = [p.strip() for p in desc.splitlines() if p.strip()]
+        if not parts:
+            return 0
+        score = 0
+        for p in parts:
+            np = _norm(p)
+            if np and np in tooltip_text:
+                score += 1
+        return score
+
+    generic_node_names = {"小型天赋", "中型天赋", "传奇中型天赋"}
+
+    def pop_matching_talent_for_node(n: Dict) -> Dict | None:
+        req = int(n.get("requiredPoints", 0) or 0)
+        ttype = n.get("type", "small") or "small"
+
+        # node name 优先使用 SVG tooltip 里的 fw-bold 名称（parse_svg 已填充），否则退回空
+        node_name = _norm(n.get("name", ""))
+        if node_name in generic_node_names:
+            node_name = ""
+        node_tooltip = _norm(n.get("tooltip", ""))
+
+        # 0) 若 tooltip 里包含具体效果文本，优先用“描述相似度”在同 req 内挑最佳匹配，
+        # 这样即使 SVG 的 type 识别有误，也能更稳地对齐到正确的文本条目。
+        if node_tooltip:
+            candidates = bucket_req.get(req, []) or []
+            best = None
+            best_score = 0
+            best_idx = -1
+            for idx, cand in enumerate(candidates):
+                tid = str(cand.get("id", ""))
+                if tid and tid in used_talent_ids:
+                    continue
+                sc = _score_by_description(node_tooltip, cand)
+                if sc > best_score:
+                    best_score = sc
+                    best = cand
+                    best_idx = idx
+                    # 2 行全命中基本就足够确定
+                    if best_score >= 2:
+                        break
+            if best and best_score > 0:
+                # 从候选列表里移除该元素，避免再次命中
+                try:
+                    candidates.pop(best_idx)
+                except Exception:
+                    pass
+                tid = str(best.get("id", ""))
+                if tid:
+                    used_talent_ids.add(tid)
+                return best
+
+        # 1) (req,type,name) 精准匹配
+        if node_name:
+            hit = _pop_from_list(bucket_req_type_name.get((req, ttype, node_name)))
+            if hit:
+                return hit
+
+        # 2) (req,name) 次优匹配（同一层可能有跨 type 的描述变体）
+        if node_name:
+            hit = _pop_from_list(bucket_req_name.get((req, node_name)))
+            if hit:
+                return hit
+
+        # 3) (req,type) 顺序兜底
+        hit = _pop_from_list(bucket_req_type.get((req, ttype)))
+        if hit:
+            return hit
+
+        # 4) 只按 req 兜底
+        hit = _pop_from_list(bucket_req.get(req))
+        if hit:
+            return hit
+
         return None
 
     tree_nodes = []
-    for n in svg_nodes:
-        talent = pop_matching_talent(n["requiredPoints"], n["type"])
-        name = talent["name"] if talent else n["name"]
+    # 为了让“顺序兜底”更稳定，先把 svg_nodes 做一个确定性排序（从左到右、从上到下）
+    # 这样即使某页的 SVG 遍历顺序变化，也不至于导致大规模错位。
+    svg_nodes_sorted = sorted(
+        svg_nodes,
+        key=lambda x: (
+            int(x.get("requiredPoints", 0) or 0),
+            str(x.get("type", "")),
+            int(x.get("row", 0) or 0),
+            float(x.get("cy", 0) or 0),
+            float(x.get("cx", 0) or 0),
+        ),
+    )
+
+    for n in svg_nodes_sorted:
+        talent = pop_matching_talent_for_node(n)
+        # 当 SVG 给的是泛化名（小型/中型/传奇中型天赋）时，优先用文本天赋第一行作为展示名
+        base_name = n.get("name", "")
+        name = talent["name"] if talent else base_name
+        if _norm(base_name) in generic_node_names and talent:
+            name = talent.get("name") or name
         raw_desc = talent["description"] if talent else n.get("tooltip", "")
         desc = _html_to_text(raw_desc)
 
@@ -521,13 +781,18 @@ def build_tree_payload(
         if not name and not effects and not n.get("icon"):
             continue
 
+        # 如果 name 仍是泛化名，但 effects 有内容，则用 effects[0] 作为 name（避免前端显示“中型天赋”）
+        if _norm(name) in generic_node_names and effects:
+            name = effects[0]
+
         tree_nodes.append(
             {
                 "id": f"node_{n['id']}",
                 "name": name or "",
                 "type": n["type"],
                 "effects": effects,
-                "requiredPoints": n["requiredPoints"],
+                # 优先使用文本解析出来的 requiredPoints（更稳定），避免 SVG 层级文本缺失/错位导致 0-18 层级错乱
+                "requiredPoints": talent["requiredPoints"] if talent else n["requiredPoints"],
                 "maxPoints": talent["maxPoints"] if talent else 3,
                 "currentPoints": 0,
                 "position": {
@@ -541,20 +806,7 @@ def build_tree_payload(
             }
         )
 
-    # 针对「勇者」职业的第一颗起始小型天赋，网站上实际为「+9% 攻击伤害，0 点层级」，
-    # 但 SVG / 文本解析的顺序会导致它被错误匹配为「+450 护甲值」。
-    # 这里做一次显式修正，确保 node_0 的数据与官网保持一致。
-    for tn in tree_nodes:
-        # node_0：首个小型天赋，应为 +9% 攻击伤害，0 层级
-        if tn["id"] == "node_0":
-            tn["name"] = "+9% 攻击伤害"
-            tn["effects"] = ["+9% 攻击伤害"]
-            tn["requiredPoints"] = 0
-        # node_2：第一行第三个小型天赋，应为 +20% 攻击暴击值 / +5% 暴击伤害，6 层级
-        if tn["id"] == "node_2":
-            tn["name"] = "+20% 攻击暴击值"
-            tn["effects"] = ["+20% 攻击暴击值", "+5% 暴击伤害"]
-            tn["requiredPoints"] = 6
+    # 说明：如仍有个别页面 tooltip 缺失导致的错位，可在此处添加 tree_id 级别特例修正。
 
     # 根据 connections 数组填充每个节点的 connections 字段（存对方 id）
     id_to_idx = {tn["id"]: idx for idx, tn in enumerate(tree_nodes)}
@@ -685,6 +937,7 @@ def main() -> None:
         connections,
         core_required_points,
         core_talents_from_page,
+        tree_id="the_brave",
     )
 
     with open(TREE_OUTPUT_FILE, "w", encoding="utf-8") as f:

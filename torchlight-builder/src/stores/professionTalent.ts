@@ -1,7 +1,8 @@
 import { defineStore } from 'pinia'
 import { ref, computed } from 'vue'
-import type { ProfessionTalentTree, ProfessionTalentNode } from '@/data/professionTalentData'
-import professionTreesJson from '@/data/profession_trees.json'
+import type { ProfessionTalentTree, ProfessionTalentNode } from '@/data/talents/meta/professionTalentData'
+import professionTreesJson from '@/data/talents/profession_trees.json'
+import { GOD_NAMES } from '@/types'
 
 function stripHtml(text: string): string {
   return text.replace(/<[^>]*>/g, '')
@@ -14,10 +15,41 @@ export const useProfessionTalentStore = defineStore('professionTalent', () => {
     )
   )
   const activeTreeId = ref<string>(trees.value[0]?.id ?? '')
+  // 总览里职业面板的“选中顺序”（仅职业面板，不含神格面板）
+  const selectedProfessionOrder = ref<string[]>([])
+  // 总览模块的“选中高亮”状态，保存到 trees 数据里（运行时内存态）
+  for (const t of trees.value) {
+    if (typeof t.isSelected !== 'boolean') t.isSelected = false
+    // 兼容旧数据：若没带 isGodRoot，则通过「名称是否等于神格名」推导
+    if (typeof (t as any).isGodRoot !== 'boolean') {
+      ;(t as any).isGodRoot = t.name === GOD_NAMES[t.godType]
+    }
+  }
+  if (activeTreeId.value) {
+    const initial = trees.value.find(t => t.id === activeTreeId.value)
+    if (initial) initial.isSelected = true
+  }
+
+  // 初始化职业面板选中顺序（基于当前 isSelected 的顺序，不保证历史顺序，仅用于首屏一致性）
+  selectedProfessionOrder.value = trees.value
+    .filter(t => t.isSelected && !t.isGodRoot)
+    .map(t => t.id)
 
   const activeTree = computed(() => 
     trees.value.find(t => t.id === activeTreeId.value) || null
   )
+
+  const toastMessage = ref<string>('')
+  let toastTimer: number | null = null
+
+  function pushToast(message: string) {
+    toastMessage.value = message
+    if (toastTimer) window.clearTimeout(toastTimer)
+    toastTimer = window.setTimeout(() => {
+      toastMessage.value = ''
+      toastTimer = null
+    }, 2200)
+  }
 
   const totalAllocatedPoints = computed(() => 
     trees.value.reduce((sum, tree) => sum + tree.allocatedPoints, 0)
@@ -32,13 +64,22 @@ export const useProfessionTalentStore = defineStore('professionTalent', () => {
       tree.coreTalents.find(n => n.id === nodeId)
     if (!node) return false
 
-    // 核心天赋：根据自身 requiredPoints 与天赋树总加点数联动，且全局单选
+    const isCore = node.id.startsWith('core_')
+
+    // 核心天赋：根据自身 requiredPoints 与天赋树总加点数联动
     if (node.id.startsWith('core_')) {
       if (tree.allocatedPoints < node.requiredPoints) return false
 
-      // 如果已经选中过其他核心天赋，则先取消之前的核心点数
+      // 核心天赋选择规则：
+      // - 职业页通常只有同一档 requiredPoints（如 24），等价于单选
+      // - 神格页会出现两档（如 12 / 24），应允许「每一档各选一个」
+      // 因此仅在同一档 requiredPoints 内互斥。
       for (const core of tree.coreTalents) {
-        if (core.id !== node.id && core.currentPoints > 0) {
+        if (
+          core.id !== node.id &&
+          core.currentPoints > 0 &&
+          core.requiredPoints === node.requiredPoints
+        ) {
           tree.allocatedPoints -= core.currentPoints
           core.currentPoints = 0
         }
@@ -49,7 +90,7 @@ export const useProfessionTalentStore = defineStore('professionTalent', () => {
     const maxPoints = node.type === 'legendary' ? 1 : node.maxPoints
 
     // 再做一层防御性校验：所有前置节点必须点满
-    if ('position' in node) {
+    if (!isCore && 'position' in node) {
       const parents = tree.nodes.filter(
         n =>
           node.connections.includes(n.id) &&
@@ -62,6 +103,9 @@ export const useProfessionTalentStore = defineStore('professionTalent', () => {
         return false
       }
     }
+
+    // 注意：神格树内的普通节点加点不应依赖是否已选择核心天赋；
+    // 核心天赋本身受 requiredPoints 门槛控制即可，避免形成“先选核心/先加点”的死锁。
 
     if (node.currentPoints >= maxPoints) return false
 
@@ -88,6 +132,8 @@ export const useProfessionTalentStore = defineStore('professionTalent', () => {
     // 规则：当前节点作为「前置节点」时，只要后续有已分配点的节点，就完全不能取消加点
     if (hasAllocatedChildren) return false
 
+    // 神格树退点：不额外施加“必须保留某列至少 1 个”等限制（按用户最新需求）
+
     node.currentPoints--
     tree.allocatedPoints--
     return true
@@ -109,8 +155,87 @@ export const useProfessionTalentStore = defineStore('professionTalent', () => {
     tree.allocatedPoints = 0
   }
 
-  function setActiveTree(treeId: string) {
+  type TreeSelectResult = 'SELECTED' | 'DESELECTED' | 'NEED_CONFIRM_CLEAR'
+
+  function setActiveTree(treeId: string): TreeSelectResult | void {
+    const t = trees.value.find(x => x.id === treeId)
+    if (!t) return
+
+    // 总览交互调整：点击面板只负责“选中/切换右侧展示”，不再通过再次点击来取消选中。
+    // 取消选中由右侧 X 按钮触发（见 deselectTree）。
+    const isAlreadySelected = !!t.isSelected
+    if (isAlreadySelected) {
+      activeTreeId.value = treeId
+      return 'SELECTED'
+    }
+
+    // 点击未选中面板：选中（不影响其他已选中）
+    // 规则 A：6 个神格天赋面板（isGodRoot）互斥，只能选 1 个
+    // 总览限制：若当前已选中的神格天赋下已有职业天赋加点，则不允许在总览里切换到其他神格
+    if (t.isGodRoot) {
+      const currentSelectedGod = trees.value.find(x => x.isSelected && x.isGodRoot)
+      if (currentSelectedGod && (currentSelectedGod.allocatedPoints ?? 0) > 0) {
+        pushToast('当前神格天赋下已有职业天赋选择，无法切换神格')
+        return
+      }
+      for (const tree of trees.value) {
+        if (tree.isGodRoot) tree.isSelected = false
+      }
+      t.isSelected = true
+      activeTreeId.value = treeId
+      return 'SELECTED'
+    }
+
+    // 以下均为职业面板规则（不含神格面板）
+    const selectedGod = trees.value.find(x => x.isSelected && x.isGodRoot) || null
+    const selectedProfessionCount = trees.value.reduce(
+      (sum, tree) => sum + (tree.isSelected && !tree.isGodRoot ? 1 : 0),
+      0
+    )
+
+    // 规则 B：最多同时选中 3 个职业天赋面板
+    if (selectedProfessionCount >= 3) {
+      pushToast('最多只能选择三个职业天赋')
+      return
+    }
+
+    // 规则 C：当已选中一个神格天赋后，第一个职业天赋必须来自当前神格（同 godType）
+    if (selectedProfessionCount === 0) {
+      if (!selectedGod) {
+        pushToast('请先选择一个神格天赋')
+        return
+      }
+      if (t.godType !== selectedGod.godType) {
+        pushToast('第一个职业天赋必须从当前神格天赋下选择')
+        return
+      }
+    }
+
+    t.isSelected = true
+    selectedProfessionOrder.value = [...selectedProfessionOrder.value, treeId]
     activeTreeId.value = treeId
+    return 'SELECTED'
+  }
+
+  function deselectTree(treeId: string): TreeSelectResult | void {
+    const t = trees.value.find(x => x.id === treeId)
+    if (!t) return
+    if (!t.isSelected) return
+
+    if ((t.allocatedPoints ?? 0) > 0) {
+      // 通过返回特殊值让调用方弹出确认框
+      // 注意：此处不要改动 isSelected/activeTreeId，用户点“取消”时应保持高亮不变
+      return 'NEED_CONFIRM_CLEAR'
+    }
+
+    t.isSelected = false
+    if (!t.isGodRoot) {
+      selectedProfessionOrder.value = selectedProfessionOrder.value.filter(id => id !== treeId)
+    }
+    if (activeTreeId.value === treeId) {
+      activeTreeId.value = ''
+    }
+    return 'DESELECTED'
   }
 
   function getAllocatedEffects(): string[] {
@@ -215,10 +340,13 @@ export const useProfessionTalentStore = defineStore('professionTalent', () => {
     activeTreeId,
     activeTree,
     totalAllocatedPoints,
+    toastMessage,
+    selectedProfessionOrder,
     allocateNode,
     deallocateNode,
     resetTree,
     setActiveTree,
+    deselectTree,
     getAllocatedEffects
   }
 })

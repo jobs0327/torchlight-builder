@@ -6,6 +6,7 @@
       </div>
       <nav class="nav-menu">
         <router-link to="/" class="nav-link">首页</router-link>
+        <router-link to="/hero" class="nav-link">英雄</router-link>
         <router-link to="/talent" class="nav-link">天赋</router-link>
         <router-link to="/skills" class="nav-link">技能</router-link>
         <router-link to="/equipment" class="nav-link">装备</router-link>

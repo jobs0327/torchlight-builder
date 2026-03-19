@@ -1,6 +1,15 @@
 <template>
   <div class="talent-page">
-    <!-- 左侧导航：总览 / 神格列表 / 面板列表 -->
+    <ToastMessage :message="professionStore.toastMessage" type="warning" />
+    <ConfirmDialog
+      v-model="showClearConfirm"
+      title="提示"
+      message="当前天赋已有天赋被选择，是否要清空？"
+      cancel-text="取消"
+      confirm-text="确认"
+      @confirm="onConfirmClearAndDeselect"
+      @cancel="onCancelClear"
+    />
     <div class="talent-sidebar">
       <div class="nav-section">
         <button
@@ -10,7 +19,7 @@
         >
           总览
         </button>
-        <button
+        <!-- <button
           v-for="god in godOrder"
           :key="god"
           class="nav-item"
@@ -18,10 +27,10 @@
           @click="selectGod(god)"
         >
           {{ GOD_NAMES[god] }}
-        </button>
+        </button> -->
       </div>
 
-      <div class="panel-section" v-if="activeNav !== 'overview'">
+      <!-- <div class="panel-section" v-if="activeNav !== 'overview'">
         <div class="panel-section-header">
           <div class="panel-god-icon" v-if="activeGodType">
             <span class="god-icon">{{ godIcons[activeGodType] }}</span>
@@ -37,7 +46,7 @@
             v-for="panel in panelsForActiveGod"
             :key="panel.id"
             class="panel-item"
-            :class="{ active: professionStore.activeTreeId === panel.id }"
+            :class="{ active: !!panel.isSelected }"
             @click="selectPanel(panel.id)"
           >
             <div class="panel-icon" :style="{ borderColor: GOD_COLORS[panel.godType] }">
@@ -45,9 +54,6 @@
             </div>
             <div class="panel-info">
               <span class="panel-name">{{ panel.name }}</span>
-              <span class="panel-points">
-                {{ panel.allocatedPoints }}/{{ panel.totalPoints }}
-              </span>
             </div>
           </div>
         </div>
@@ -55,11 +61,11 @@
         <div v-else class="panel-empty">
           该神格暂时没有可用的天赋面板
         </div>
-      </div>
+      </div> -->
 
-      <div class="allocated-effects" v-if="allocatedEffects.length > 0">
+      <div class="allocated-effects">
         <h3 class="sidebar-title">已分配效果</h3>
-        <div class="effects-list">
+        <div class="effects-list" v-if="allocatedEffects.length > 0">
           <div
             v-for="(effect, index) in allocatedEffects"
             :key="index"
@@ -88,13 +94,19 @@
               v-for="tree in treesByGod[god] || []"
               :key="tree.id"
               class="god-panel-btn"
-              :class="{ active: professionStore.activeTreeId === tree.id }"
+              :class="{ active: !!tree.isSelected }"
               @click="selectPanel(tree.id)"
             >
               <span class="god-panel-name">{{ tree.name }}</span>
-              <span class="god-panel-points">
-                {{ tree.allocatedPoints }}/{{ tree.totalPoints }}
-              </span>
+              <button
+                v-if="tree.isSelected"
+                type="button"
+                class="god-panel-close"
+                title="取消选中"
+                @click.stop="onDeselectPanel(tree.id)"
+              >
+                ×
+              </button>
             </button>
           </div>
         </div>
@@ -107,6 +119,7 @@
           @allocate="onAllocate"
           @deallocate="onDeallocate"
           @reset="onReset"
+          @close="onCloseActiveTree"
         />
         <div v-else class="no-tree">
           <p>请选择一个天赋面板</p>
@@ -120,6 +133,8 @@
 import { computed, ref } from 'vue'
 import { useProfessionTalentStore } from '@/stores/professionTalent'
 import ProfessionTalentTree from '@/components/talent/ProfessionTalentTree.vue'
+import ConfirmDialog from '@/components/ui/ConfirmDialog.vue'
+import ToastMessage from '@/components/ui/ToastMessage.vue'
 import { GOD_COLORS, GOD_NAMES, type GodType } from '@/types'
 
 const professionStore = useProfessionTalentStore()
@@ -178,6 +193,40 @@ function selectGod(god: GodType) {
 
 function selectPanel(treeId: string) {
   professionStore.setActiveTree(treeId)
+}
+
+const showClearConfirm = ref(false)
+const pendingCancelTreeId = ref<string>('')
+
+function onCloseActiveTree() {
+  const treeId = professionStore.activeTree?.id
+  if (!treeId) return
+  const result = professionStore.deselectTree(treeId)
+  if (result === 'NEED_CONFIRM_CLEAR') {
+    pendingCancelTreeId.value = treeId
+    showClearConfirm.value = true
+  }
+}
+
+function onDeselectPanel(treeId: string) {
+  const result = professionStore.deselectTree(treeId)
+  if (result === 'NEED_CONFIRM_CLEAR') {
+    pendingCancelTreeId.value = treeId
+    showClearConfirm.value = true
+  }
+}
+
+function onConfirmClearAndDeselect() {
+  const treeId = pendingCancelTreeId.value
+  if (!treeId) return
+  professionStore.resetTree(treeId)
+  // 清空后再取消高亮
+  professionStore.deselectTree(treeId)
+  pendingCancelTreeId.value = ''
+}
+
+function onCancelClear() {
+  pendingCancelTreeId.value = ''
 }
 
 function onAllocate(nodeId: string) {
@@ -425,15 +474,43 @@ function onReset() {
   transition: all 0.2s ease;
   color: #e5e7eb;
   font-size: 12px;
+  position: relative;
 }
 
 .god-panel-btn.active {
   border-color: var(--god-color);
   box-shadow: 0 0 10px color-mix(in srgb, var(--god-color) 60%, transparent);
+  background: color-mix(in srgb, var(--god-color) 18%, rgba(0, 0, 0, 0.3));
 }
 
 .god-panel-name {
   font-size: 12px;
+  padding-right: 16px;
+}
+
+.god-panel-close {
+  position: absolute;
+  top: 50%;
+  right: 6px;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  border-radius: 6px;
+  border: none;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 14px;
+  line-height: 14px;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.god-panel-close:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
 }
 
 .god-panel-points {

@@ -1,7 +1,7 @@
 import { defineStore } from 'pinia'
 import { ref, computed } from 'vue'
 import type { TalentNode, TalentTree, TalentPanel, GodType } from '@/types'
-import { generateTalentPanels, GOD_NAMES } from '@/data/talentData'
+import { generateTalentPanels, GOD_NAMES } from '@/data/talents/meta/talentData'
 
 export const useTalentStore = defineStore('talent', () => {
   const panels = ref<TalentPanel[]>([])

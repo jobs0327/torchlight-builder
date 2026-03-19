@@ -69,8 +69,8 @@ def build_profession_index() -> None:
   for slug, name in slug_to_name.items():
     name_to_slugs.setdefault(name, []).append(slug)
 
-  # 通过「勇者 / 巨力之神的传承」这类描述，反推出每个职业面板所属的神格
-  GOD_CN_TO_TYPE: Dict[str, str] = {
+  # 通过标题/描述反推出每个职业面板所属的神格
+GOD_CN_TO_TYPE: Dict[str, str] = {
     "巨力之神": "strength",
     "狩猎之神": "dexterity",
     "知识之神": "intelligence",
@@ -79,14 +79,29 @@ def build_profession_index() -> None:
     "机械之神": "machine",
   }
 
+GOD_TYPE_ORDER: Dict[str, int] = {
+  "strength": 0,
+  "dexterity": 1,
+  "intelligence": 2,
+  "war": 3,
+  "trickery": 4,
+  "machine": 5,
+}
+
   lines = [ln.strip() for ln in content.splitlines()]
   slug_god_type: Dict[str, str] = {}
 
+  # 先直接把「巨力之神 / 狩猎之神 ...」这些神格本体映射到自身 godType
+  for god_cn, god_type in GOD_CN_TO_TYPE.items():
+    if god_cn in name_to_slugs:
+      for slug in name_to_slugs[god_cn]:
+        slug_god_type[slug] = god_type
+
+  # 再通过「勇者 / 巨力之神的传承」这类描述，反推出其余面板的 godType
   for idx, line in enumerate(lines):
     if not line or line not in name_to_slugs:
       continue
 
-    # 向后寻找下一条非空行，通常是「巨力之神的传承」之类的描述
     next_line = ""
     for j in range(idx + 1, len(lines)):
       if lines[j]:
@@ -96,32 +111,33 @@ def build_profession_index() -> None:
     if not next_line:
       continue
 
-    for god_cn, god_type in GOD_CN_TO_TYPE.items():
-      if god_cn in next_line:
-        for slug in name_to_slugs[line]:
-          slug_god_type[slug] = god_type
-        break
+    # 优先根据描述中首次出现的神格名识别所属神格：
+    # 若描述中同时出现多个神格（例如「征战之神的侍者，融合巨力之神力」），
+    # 以文本中首次出现的那个视为所属神格（这里是征战之神）。
+    candidates: list[tuple[int, str]] = []
+    for god_cn in GOD_CN_TO_TYPE.keys():
+      idx_pos = next_line.find(god_cn)
+      if idx_pos != -1:
+        candidates.append((idx_pos, god_cn))
 
-  # 将 data 目录下已抓取的页面作为「可用的职业/神格」
-  available_files = {
-    os.path.splitext(fname)[0]: fname
-    for fname in os.listdir(DATA_DIR)
-    if fname.endswith(".json")
-  }
+    if candidates:
+      candidates.sort(key=lambda t: t[0])
+      main_god_name = candidates[0][1]
+      god_type = GOD_CN_TO_TYPE[main_god_name]
+      for slug in name_to_slugs[line]:
+        slug_god_type[slug] = god_type
+      continue
 
   index: List[Dict] = []
 
   for slug, name in slug_to_name.items():
-    if slug not in available_files:
-      # 尚未抓取到对应页面，暂不纳入索引
-      continue
-
     god_type = slug_god_type.get(slug)
     # 未能从正文中归类的，先跳过，避免弄错分组
     if not god_type:
       continue
 
-    entry_type = "god" if slug.startswith("God_of_") or slug.startswith("Goddess_of_") else "panel"
+    is_god_root = slug.startswith("God_of_") or slug.startswith("Goddess_of_")
+    entry_type = "panel"  # 统一按面板处理，是否神格根节点由 isGodRoot 标记
 
     index.append(
       {
@@ -130,12 +146,40 @@ def build_profession_index() -> None:
         "name": name,
         "type": entry_type,
         "godType": god_type,
-        "sourceFile": available_files[slug],
+        "sourceFile": f"{slug}.json",
+        "isGodRoot": is_god_root,
       }
     )
 
-  # 按 godType + type + name 排序，方便阅读
-  index.sort(key=lambda e: (e["godType"], e["type"], e["name"]))
+  # 根据正文出现顺序为每个 godType 建立面板顺序
+  god_orders: Dict[str, list[str]] = {gt: [] for gt in GOD_TYPE_ORDER.keys()}
+  for line in lines:
+    if not line or line not in name_to_slugs:
+      continue
+    for slug in name_to_slugs[line]:
+      god_type = slug_god_type.get(slug)
+      if not god_type:
+        continue
+      arr = god_orders.setdefault(god_type, [])
+      if slug not in arr:
+        arr.append(slug)
+
+  # 写回 order 字段
+  for e in index:
+    gt = e["godType"]
+    order_list = god_orders.get(gt, [])
+    try:
+      e["order"] = order_list.index(e["slug"])
+    except ValueError:
+      e["order"] = len(order_list)
+
+  # 按神格顺序 + 面板顺序排序，使前端渲染顺序与官网一致
+  index.sort(
+    key=lambda e: (
+      GOD_TYPE_ORDER.get(e["godType"], 99),
+      e.get("order", 0),
+    )
+  )
 
   with open(OUTPUT_INDEX_FILE, "w", encoding="utf-8") as f:
     json.dump(index, f, ensure_ascii=False, indent=2)
