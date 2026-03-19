@@ -1,0 +1,783 @@
+{
+  "id": "magister",
+  "name": "魔导师",
+  "godType": "intelligence",
+  "description": "深究世界本源的魔法导师",
+  "tags": [
+    "法术",
+    "护盾"
+  ],
+  "totalPoints": 36,
+  "allocatedPoints": 0,
+  "coreRequiredPoints": 24,
+  "coreTalents": [
+    {
+      "id": "core_0",
+      "name": "积聚",
+      "type": "legendary",
+      "description": "+1 聚能祝福层数上限\n每有 1 层聚能祝福， 额外 +3% 法术伤害 （神格生效上限：1）",
+      "effects": [
+        "+1 聚能祝福层数上限",
+        "每有 1 层聚能祝福， 额外 +3% 法术伤害 （神格生效上限：1）"
+      ],
+      "requiredPoints": 24,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 0,
+        "col": 0,
+        "x": 150,
+        "y": 30
+      },
+      "connections": [],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_jiju_Icon_128.webp"
+    },
+    {
+      "id": "core_1",
+      "name": "稳扎稳打",
+      "type": "legendary",
+      "description": "对施法速度的加成与额外加成的 100% 同样作用于法术迸发充能速度\n额外 -33% 法术迸发充能速度\n法术迸发释放的技能额外 +40% 击中伤害 （神格生效上限：1）",
+      "effects": [
+        "对施法速度的加成与额外加成的 100% 同样作用于法术迸发充能速度",
+        "额外 -33% 法术迸发充能速度",
+        "法术迸发释放的技能额外 +40% 击中伤害 （神格生效上限：1）"
+      ],
+      "requiredPoints": 24,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 0,
+        "col": 1,
+        "x": 350,
+        "y": 30
+      },
+      "connections": [],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_wenzhawenda_Icon_128.webp"
+    },
+    {
+      "id": "core_2",
+      "name": "甲壳",
+      "type": "legendary",
+      "description": "额外 +35% 最大护盾\n最大生命固定为 100 （神格生效上限：1）",
+      "effects": [
+        "额外 +35% 最大护盾",
+        "最大生命固定为 100 （神格生效上限：1）"
+      ],
+      "requiredPoints": 24,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 0,
+        "col": 2,
+        "x": 550,
+        "y": 30
+      },
+      "connections": [],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_jiaqiao_Icon_128.webp"
+    },
+    {
+      "id": "core_3",
+      "name": "光辉结界",
+      "type": "legendary",
+      "description": "最近开启的护盾充能无法被伤害打断\n+50% 护盾充能速度 （神格生效上限：1）",
+      "effects": [
+        "最近开启的护盾充能无法被伤害打断",
+        "+50% 护盾充能速度 （神格生效上限：1）"
+      ],
+      "requiredPoints": 24,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 0,
+        "col": 3,
+        "x": 750,
+        "y": 30
+      },
+      "connections": [],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_guanghuijiejie_Icon_128.webp"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "node_0",
+      "name": "+9% 法术伤害",
+      "type": "small",
+      "effects": [
+        "+9% 法术伤害"
+      ],
+      "requiredPoints": 0,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 0,
+        "x": 96.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_1"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+    },
+    {
+      "id": "node_13",
+      "name": "+4% 最大魔力",
+      "type": "small",
+      "effects": [
+        "+4% 最大魔力"
+      ],
+      "requiredPoints": 0,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 0,
+        "x": 96.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_14"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence03_64.webp"
+    },
+    {
+      "id": "node_25",
+      "name": "+3% 最大护盾",
+      "type": "small",
+      "effects": [
+        "+3% 最大护盾"
+      ],
+      "requiredPoints": 0,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 0,
+        "x": 96.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_26"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+    },
+    {
+      "id": "node_1",
+      "name": "+18% 法术伤害",
+      "type": "notable",
+      "effects": [
+        "+18% 法术伤害"
+      ],
+      "requiredPoints": 3,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 1,
+        "x": 224.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_0"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+    },
+    {
+      "id": "node_14",
+      "name": "+6% 最大魔力",
+      "type": "notable",
+      "effects": [
+        "+6% 最大魔力",
+        "+18% 魔力自然回复速度"
+      ],
+      "requiredPoints": 3,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 1,
+        "x": 224.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_13"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp"
+    },
+    {
+      "id": "node_26",
+      "name": "+6% 最大护盾",
+      "type": "notable",
+      "effects": [
+        "+6% 最大护盾"
+      ],
+      "requiredPoints": 3,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 1,
+        "x": 224.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_25"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+    },
+    {
+      "id": "node_7",
+      "name": "+3% 施法速度",
+      "type": "small",
+      "effects": [
+        "+3% 施法速度"
+      ],
+      "requiredPoints": 3,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 1,
+        "x": 224.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_8"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/CastSpeed_64.webp"
+    },
+    {
+      "id": "node_19",
+      "name": "持盾时， +12% 法术伤害",
+      "type": "small",
+      "effects": [
+        "持盾时， +12% 法术伤害"
+      ],
+      "requiredPoints": 3,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 1,
+        "x": 224.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_20"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp"
+    },
+    {
+      "id": "node_8",
+      "name": "+6% 施法速度",
+      "type": "notable",
+      "effects": [
+        "+6% 施法速度"
+      ],
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 2,
+        "x": 352.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_7"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/CastSpeed_64.webp"
+    },
+    {
+      "id": "node_20",
+      "name": "持盾时， +24% 法术伤害",
+      "type": "notable",
+      "effects": [
+        "持盾时， +24% 法术伤害"
+      ],
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 2,
+        "x": 352.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_19"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp"
+    },
+    {
+      "id": "node_2",
+      "name": "+15% 法术暴击值",
+      "type": "small",
+      "effects": [
+        "+15% 法术暴击值"
+      ],
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 2,
+        "x": 352.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_3"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit04_64.webp"
+    },
+    {
+      "id": "node_15",
+      "name": "+3% 最大护盾",
+      "type": "small",
+      "effects": [
+        "+3% 最大护盾"
+      ],
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 2,
+        "x": 352.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_16"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+    },
+    {
+      "id": "node_27",
+      "name": "+4% 法术格挡率",
+      "type": "small",
+      "effects": [
+        "+4% 法术格挡率"
+      ],
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 2,
+        "x": 352.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_28"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/BlockSpell_64.webp"
+    },
+    {
+      "id": "node_16",
+      "name": "击败时，回复 3% 护盾",
+      "type": "legendary",
+      "effects": [
+        "击败时，回复 3% 护盾"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 3,
+        "x": 480.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_15"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp"
+    },
+    {
+      "id": "node_28",
+      "name": "+12% 法术格挡率",
+      "type": "legendary",
+      "effects": [
+        "+12% 法术格挡率",
+        "+15% 从盾牌获得的护盾值"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 3,
+        "x": 480.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_27"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/BlockSpell_64.webp"
+    },
+    {
+      "id": "node_3",
+      "name": "+20% 法术暴击值",
+      "type": "notable",
+      "effects": [
+        "+20% 法术暴击值",
+        "+5% 法术暴击伤害"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 3,
+        "x": 480.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_2"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit04_64.webp"
+    },
+    {
+      "id": "node_9",
+      "name": "+10% 聚能祝福持续时间",
+      "type": "small",
+      "effects": [
+        "+10% 聚能祝福持续时间",
+        "拥有聚能祝福时， +10% 法术伤害"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 3,
+        "x": 480.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_10"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit01_64.webp"
+    },
+    {
+      "id": "node_21",
+      "name": "1.5% 护盾返还",
+      "type": "small",
+      "effects": [
+        "1.5% 护盾返还"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 3,
+        "x": 480.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_22"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence02_64.webp"
+    },
+    {
+      "id": "node_10",
+      "name": "激活法术迸发时，获得 1 层聚能祝福",
+      "type": "legendary",
+      "effects": [
+        "激活法术迸发时，获得 1 层聚能祝福"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 4,
+        "x": 608.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_9"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+    },
+    {
+      "id": "node_22",
+      "name": "额外 -8% 护盾返还间隔",
+      "type": "legendary",
+      "effects": [
+        "额外 -8% 护盾返还间隔",
+        "+8% 护盾返还"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 4,
+        "x": 608.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_21"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+    },
+    {
+      "id": "node_4",
+      "name": "+4% 法术迸发充能速度",
+      "type": "small",
+      "effects": [
+        "+4% 法术迸发充能速度"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 4,
+        "x": 608.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_5"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+    },
+    {
+      "id": "node_17",
+      "name": "+8 智慧",
+      "type": "small",
+      "effects": [
+        "+8 智慧"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 4,
+        "x": 608.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_18"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Dagger01_64.webp"
+    },
+    {
+      "id": "node_29",
+      "name": "+75 最大护盾",
+      "type": "small",
+      "effects": [
+        "+75 最大护盾"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 4,
+        "x": 608.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_30"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence02_64.webp"
+    },
+    {
+      "id": "node_18",
+      "name": "+12% 智慧",
+      "type": "legendary",
+      "effects": [
+        "+12% 智慧"
+      ],
+      "requiredPoints": 15,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 5,
+        "x": 736.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_17"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Flask02_64.webp"
+    },
+    {
+      "id": "node_30",
+      "name": "每 5 点智慧， +2 最大护盾",
+      "type": "legendary",
+      "effects": [
+        "每 5 点智慧， +2 最大护盾"
+      ],
+      "requiredPoints": 15,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 5,
+        "x": 736.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_29",
+        "node_31"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence02_64.webp"
+    },
+    {
+      "id": "node_5",
+      "name": "+8% 法术迸发充能速度",
+      "type": "notable",
+      "effects": [
+        "+8% 法术迸发充能速度"
+      ],
+      "requiredPoints": 15,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 5,
+        "x": 736.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_4",
+        "node_6"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+    },
+    {
+      "id": "node_11",
+      "name": "+10% 聚能祝福持续时间",
+      "type": "small",
+      "effects": [
+        "+10% 聚能祝福持续时间",
+        "拥有聚能祝福时， +4% 施法速度"
+      ],
+      "requiredPoints": 15,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 5,
+        "x": 736.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_12"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit01_64.webp"
+    },
+    {
+      "id": "node_23",
+      "name": "+9% 法术伤害",
+      "type": "small",
+      "effects": [
+        "+9% 法术伤害"
+      ],
+      "requiredPoints": 15,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 5,
+        "x": 736.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_24"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+    },
+    {
+      "id": "node_6",
+      "name": "法术迸发上限 +1",
+      "type": "legendary",
+      "effects": [
+        "法术迸发上限 +1"
+      ],
+      "requiredPoints": 18,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 6,
+        "x": 864.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_5"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Aura_64.webp"
+    },
+    {
+      "id": "node_12",
+      "name": "每有 1 层聚能祝福， +5% 法术暴击伤害",
+      "type": "legendary",
+      "effects": [
+        "每有 1 层聚能祝福， +5% 法术暴击伤害"
+      ],
+      "requiredPoints": 18,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 6,
+        "x": 864.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_11"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Dot_64.webp"
+    },
+    {
+      "id": "node_24",
+      "name": "法术击中时，施加软弱",
+      "type": "legendary",
+      "effects": [
+        "法术击中时，施加软弱"
+      ],
+      "requiredPoints": 18,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 6,
+        "x": 864.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_23"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Bleed_64.webp"
+    },
+    {
+      "id": "node_31",
+      "name": "进入低护盾状态时，立即开启护盾充能",
+      "type": "legendary",
+      "effects": [
+        "进入低护盾状态时，立即开启护盾充能"
+      ],
+      "requiredPoints": 18,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 6,
+        "x": 864.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_30"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Cannon02_64.webp"
+    }
+  ],
+  "isGodRoot": false
+}

@@ -1,0 +1,691 @@
+[
+  {
+    "url": "https://tlidb.com/cn/Arcana_Season",
+    "title": "Arcana_Season - 火炬编年史, Torchlight: Infinite Wiki",
+    "html": "\n    <div class=\"background-image\"></div>\n    <!-- Google tag (gtag.js) -->\n    <script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-P6KT6L9KX8\"></script>\n    <script>\n      window.dataLayer = window.dataLayer || [];\n      function gtag(){dataLayer.push(arguments);}\n      gtag('js', new Date());\n    \n      gtag('config', 'G-P6KT6L9KX8');\n    </script>\n\n    <nav class=\"navbar navbar-expand-lg navbar-dark\">\n      <div class=\"container\">\n        <a class=\"navbar-brand\" href=\"/cn/\">火炬编年史</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">英雄</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Hero\">英雄</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Talent\">天赋</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">仓库</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Inventory\">仓库</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Legendary_Gear\">传奇装备</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Ethereal_Prism\">异度棱镜</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_Synthetic_Synthetic\" href=\"/cn/Recipe\">Recipe</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Pactspirit\">契灵</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"function|name|116\" href=\"/cn/Black_Market\">Black Market</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Drop_Source\">掉落来源</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Destiny\">命运</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">技能</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Active_Skill\">主动技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Support_Skill\">辅助技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Passive_Skill\">被动技能</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_SkillBag_SkillType4\" href=\"/cn/Triggered_Skill\">Triggered Skill</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Activation_Medium_Skill\">触媒技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Noble_Support_Skill\">崇高辅助技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Magnificent_Support_Skill\">华贵辅助技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Tip\">提示</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Hyperlink\">Hyperlink</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">打造</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Craft\">打造</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"function|name|131\" href=\"/cn/Enchant\">Enchant</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Corrosion\">侵蚀</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Gear_Empowerment\">装备赋能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Dream_Talking\">梦语</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Blending_Rituals\">调香秘仪</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/TOWER_Sequence\">高塔序列</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Graft\">缝合</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">成就</a>\n              <ul class=\"dropdown-menu\">\n                <!--\n                <li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_Growth_Achievement_Title\" href=\"/cn/Path_of_Achievements\">Path of Achievements</a></li>\n                -->\n                <li><a class=\"dropdown-item\" href=\"/cn/Path_of_Progression\">成长之路</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"season|name1|101\" href=\"/cn/Dark_Surge_Season\">Dark Surge Season</a></li>-->\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_SeasonBook_Title\" href=\"/cn/Season_Pass\">Season Pass</a></li>-->\n                <!--\n                <li><a class=\"dropdown-item\" data-i18n=\"function|name|139\" href=\"/cn/Event\">Event</a></li>\n                -->\n                <li><hr class=\"dropdown-divider\"></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Help\">帮助手册</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Codex\">情报</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">异界</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Netherrealm\">异界</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_MysteryCard_PlayerDeck\" href=\"/cn/Trait_Decks\">Trait Decks</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Confusion_Card_Library\">混乱牌库</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Void_Chart\">虚空星图</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Compass\">罗盘</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Probe\">赛季罗盘</a></li>\n                <li><hr class=\"dropdown-divider\"></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Path_of_the_Brave\">勇者之路</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">商城</a>\n              <ul class=\"dropdown-menu\">\n    <!--\n                <li><a class=\"dropdown-item\" data-i18n=\"function|name|110\" href=\"/cn/Shop\">Shop</a></li>\n    -->\n                <li><a class=\"dropdown-item\" href=\"/cn/Outfit\">时装</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Commodity\">通货</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Boon\">恩赐</a></li>\n              </ul>\n            </li>\n    \n    <!--\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" data-i18n=\"Guide\" href=\"/cn/guides?season=The%20Frozen%20Canvas%20Season\">Guide</a>\n            </li>\n    -->\n    \n          </ul>\n    \n          <!--\n          <a class=\"nav-link2\" style=\"padding-right: 10px\" href=\"https://lihi1.com/cAO3Z\" target=\"_blank\">\n            <img style=\"height: 24px\" \n                src=\"https://cdn.tlidb.com/image/logo/torchlight-48.webp\"\n            />\n          </a>\n    \n          <a class=\"nav-link2\" style=\"padding-right: 10px\"\n            href=\"https://lihi1.com/l1NmL\"\n            target=\"_blank\">\n            <img style=\"height: 24px\" src=\"https://cdn.tlidb.com/image/logo/facebook-48.webp\"/>\n          </a>\n    \n          <a class=\"nav-link2\" style=\"padding-right: 10px\"\n            href=\"https://lihi1.com/neCTK\"\n            target=\"_blank\">\n            <img style=\"height: 24px\" src=\"https://cdn.tlidb.com/image/logo/youtube-48.webp\"/>\n          </a>\n    \n          <a class=\"nav-link2\" style=\"padding-right: 10px\" href=\"https://lihi1.com/owKrQ\" target=\"_blank\">\n            <img style=\"height: 24px\" src=\"https://cdn.tlidb.com/image/logo/discord-48.webp\"/>\n          </a>\n          -->\n    \n          <ul class=\"navbar-nav\">\n            <li class=\"nav-item dropdown\">\n              <a href=\"#\" class=\"nav-link dropdown-toggle\" role=\"button\" data-bs-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"> <i class=\"fas fa-language fa-lg\"></i></a>\n              <ul class=\"dropdown-menu language-menu\">\n                <li><a class=\"dropdown-item\" href=\"/en/Arcana_Season\">EN English</a></li>\n                <li><a class=\"dropdown-item\" href=\"/tw/Arcana_Season\">TW 繁體中文</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Arcana_Season\">CN 简体中文</a></li>\n                <li><a class=\"dropdown-item\" href=\"/ko/Arcana_Season\">KO 한국어</a></li>\n                <li><a class=\"dropdown-item\" href=\"/ja/Arcana_Season\">JA Japanese</a></li>\n                <li><a class=\"dropdown-item\" href=\"/ru/Arcana_Season\">RU Русский</a></li>\n                <!--\n                <li><a class='dropdown-item' href='/de/'>DE Deutsch</a></li>\n                <li><a class='dropdown-item' href='/es/'>ES Spanish</a></li>\n                <li><a class='dropdown-item' href='/fr/'>FR Français</a></li>\n                <li><a class='dropdown-item' href='/id/'>ID bahasa Indonesia</a></li>\n                <li><a class='dropdown-item' href='/pt/'>PT Português</a></li>\n                <li><a class='dropdown-item' href='/th/'>TH ภาษาไทย</a></li>\n                <li><a class='dropdown-item' href='/vi/'>VI Tiếng Việt</a></li>\n                -->\n              </ul>\n            </li>\n          </ul>\n    \n          <form class=\"d-flex\" role=\"search\" action=\"search\">\n            <input class=\"form-control me-2 ui-autocomplete-input\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\" id=\"navautosearch\" name=\"q\" autocomplete=\"off\">\n          </form>\n    \n        </div>\n      </div>\n    </nav>\n\n    <script> sidebar160(\"leftside_banner\", \"left\"); </script>\n    <script> sidebar160(\"rightside_banner\", \"right\"); </script>\n\n    <div class=\"page\">\n    <div class=\"page-content container\" role=\"main\">\n    <div class=\"text-center\">\n    <a href=\"Vorax_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S13_LegendStitching_03.webp\" class=\"size48\"></a>\n    <a href=\"Overrealm_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S12_LengJing_White01.webp\" class=\"size48\"></a>\n    <a href=\"Outlaw_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S11ChipMatching0_Icon.webp\" class=\"size48\"></a>\n    <a href=\"Sandlord_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/UI_Money_S10EquipEnchantMaterial_10_128.webp\" class=\"size48\"></a>\n    <a href=\"Arcana_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S9Pet_FateStar_128.webp\" class=\"size48\"></a>\n    <a href=\"The_Frozen_Canvas_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S8Gameplay_Snow2_128.webp\" class=\"size48\"></a>\n    <a href=\"Clockwork_Ballet_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_MysticTreeRespecPoint_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Whispering_Mist_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S6Gameplay_Tile_bench.webp\" class=\"size48\"></a>\n    <a href=\"Nightmare_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S5Gameplay_DreamTreasure_Almighty_C_128.webp\" class=\"size48\"></a>\n    <a href=\"Aeterna_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/S4/UI_S4Gameplay_talent01_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Cube_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S3Gameplay_Beads_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Blacksail_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S2BossTicket3_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Dark_Surge_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_Item_yimozhihe_Icon_128.webp\" class=\"size48\"></a>\n    </div>\n    <div class=\"text-center mb-2\"><a href=\"https://l.taptap.cn/SyBkGgT1?channel=rep-rep_voftpwn7cks\" target=\"_blank\"><img src=\"https://cdn.tlidb.com/image/torchlight/p3_20251226_cn.webp\" style=\"max-width: 100%;\"></a></div>\n    <ul class=\"nav nav-tabs d-flex flex-wrap\" role=\"tablist\"><li class=\"nav-item\" role=\"presentation\"><button class=\"nav-link active\" data-bs-toggle=\"tab\" role=\"tab\" aria-selected=\"true\" data-bs-target=\"#塔罗赛季\">塔罗赛季 /0 </button></li><li class=\"nav-item\" role=\"presentation\"><button class=\"nav-link\" data-bs-toggle=\"tab\" role=\"tab\" aria-selected=\"false\" data-bs-target=\"#橙色装备\" tabindex=\"-1\">橙色装备 /13 </button></li><li class=\"nav-item\" role=\"presentation\"><button class=\"nav-link\" data-bs-toggle=\"tab\" role=\"tab\" aria-selected=\"false\" data-bs-target=\"#技能界面\" tabindex=\"-1\">技能界面 /2 </button></li><li class=\"nav-item\" role=\"presentation\"><button class=\"nav-link\" data-bs-toggle=\"tab\" role=\"tab\" aria-selected=\"false\" data-bs-target=\"#Item\" tabindex=\"-1\">Item /5 </button></li><li class=\"nav-item\" role=\"presentation\"><button class=\"nav-link\" data-bs-toggle=\"tab\" role=\"tab\" aria-selected=\"false\" data-bs-target=\"#契灵\" tabindex=\"-1\">契灵 /9 </button></li></ul><div class=\"tab-content\"><div id=\"塔罗赛季\" class=\"tab-pane fade show active\" role=\"tabpanel\"><div class=\"card mb-2 \">\n    <div class=\"card-header\">塔罗赛季 /0 </div>\n    <div class=\"collapse show\">\n    <div class=\"card-body\">赛季背景<br>默念你所求之事，占卜就要开始了。<br>你选到了女皇，战车……<br>在我解读牌面以前，最后一次提醒——<br>你确定，你愿意承担窥探宿命的代价吗？<br>哪怕是，你想要获知的未来，正是由现在抽取的每一张塔罗牌塑造<br>——你还是想要去看吗？<br><br>全新玩法<br>神秘的塔罗牌散落在异界关卡之中，每一张都会揭示出一段独特的命运启示，战车、国王、隐者、太阳……等十几种风格迥异的塔罗主题试炼等待各位猎人前往挑战。<br>完成每张塔罗试炼后，都有可能获得一枚塔罗师的灵签，有了这些灵签就能在塔罗秘径中大展身手。<br>秘径沿途有一个又一个充满诱惑的命运之匣，当然，也有可能踩中陷阱。<br>灵签将化为关键指引，引领你规避风险，拿到心仪的命运之匣。<br>当你想要兑现命运之匣时，宿命终极的考验就会降临。<br>届时，所有命运之匣对应的塔罗试炼将会逐一揭示。<br>开启特定波次的战斗时，新的塔罗试炼将会叠加额外的塔罗主题。<br>因此，随着战斗不断深入，多张塔罗牌的力量会同时在场上汇聚。<br>各位猎人的奖励，也将在这样精彩的试炼中达到顶峰。<br>正所谓命运的馈赠早已标好筹码，答案就在这些塔罗牌之中。<br><br>全新养成<br>猎人最多可以同时和三位掉落契灵，以及三位战斗契灵缔结契约。<br>通过塔罗玩法，可以获取种类繁多、效果不同的“命运”，将其安装在对应的战斗契灵天赋点上，可完全替换天赋点原本的效果，改变其原本的命运。<br>命运分为宿命和天命，还有更稀有的双生天命。<br>宿命可以为猎人提供常规属性上的补充，如抗性，魔力补偿，诅咒效果等。<br>天命则带有更稀有、更强大的机制，定能成为猎人们BD构筑中趣味横生的一环。<br><br></div>\n    \n    \n    \n    </div>\n</div></div><div id=\"橙色装备\" class=\"tab-pane fade\" role=\"tabpanel\"><div class=\"card mb-2 \">\n    <div class=\"card-header\">橙色装备 /13 </div>\n    <div class=\"collapse show\">\n    \n    \n    <script>\n$(document).ready(function () {\n    filterClick($('[name=filter]'));\n});\n</script>\n\n<form><div class=\"input-group my-2\">\n    <button class=\"btn btn-outline-secondary\" type=\"reset\">Reset</button>\n    <input name=\"filter\" class=\"form-control\" placeholder=\"Search\">\n</div></form><div class=\"row row-cols-1 row-cols-lg-2 g-2\"><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Despised_Shadow\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Amulet/128/Icon_Equip_Amulet_Epic_322_128.webp\" class=\"ui_item_base ui_item_quality100\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"/cache/cn/Torchlight_ItemGold_hover/2b6a97ce0c086cdc650199e3430c98445b74e9ab3e03e79b5066b7c408f29c30\" href=\"Despised_Shadow\">渎影</a><br>需求等级 15<hr style=\"width: 80%\" class=\"mx-auto my-1\"><div class=\"tierParent\"><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51210311\"><span class=\"text-mod\">+(5–15)</span> 敏捷</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51210321\"><span class=\"text-mod\">+(20–30)</span> 最大生命</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51210331\">使用影袭技能时，有 <span class=\"text-mod\">33</span>% 几率 <span class=\"text-mod\">+3</span> <e id=\"136\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;幻影&lt;/div&gt;&lt;div&gt;使用影袭技能时，会创建幻影，使用同样的攻击瞄准另外的目标，如果没有其他目标，则会瞄准人物攻击过的目标。&lt;br/&gt;多个幻影可以命中同一个敌人，幻影的霰弹效应衰减系数为 70%&lt;br/&gt;幻影和人物的伤害各自独立&lt;/div&gt;&lt;/div&gt;\">幻影</e>数量</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51210341\">额外 <span class=\"text-mod\">+(14–16)</span>% <e id=\"136\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;幻影&lt;/div&gt;&lt;div&gt;使用影袭技能时，会创建幻影，使用同样的攻击瞄准另外的目标，如果没有其他目标，则会瞄准人物攻击过的目标。&lt;br/&gt;多个幻影可以命中同一个敌人，幻影的霰弹效应衰减系数为 70%&lt;br/&gt;幻影和人物的伤害各自独立&lt;/div&gt;&lt;/div&gt;\">幻影</e>伤害</span></div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Revered_Light\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Epic_219_128.webp\" class=\"ui_item_base ui_item_quality100\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"/cache/cn/Torchlight_ItemGold_hover/a491970f8d557308f657078e79e2c20e6c4f3e25c99784247a38fc25dbe5f014\" href=\"Revered_Light\">崇光</a><br>需求等级 15<hr style=\"width: 80%\" class=\"mx-auto my-1\"><div class=\"tierParent\"><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51528211\"><span class=\"text-mod\">+1</span> 射线技能等级</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51528221\"><span class=\"text-mod\">+1</span> 射线条数</span></div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Berserker_Bracer\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Epic_404_128.webp\" class=\"ui_item_base ui_item_quality100\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"/cache/cn/Torchlight_ItemGold_hover/64b19b0f0893eaf68a80115b840759771a8124fc326214a9a93b01c6ff06fc24\" href=\"Berserker_Bracer\">狂猎者护腕</a><br>需求等级 20<hr style=\"width: 80%\" class=\"mx-auto my-1\"><div class=\"tierParent\"><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51430511\"><span class=\"text-mod\">+(30–40)</span>% 投射物伤害</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51430521\"><span class=\"text-mod\">+(10–20)</span>% 攻击与施法速度</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51430531\"><span class=\"text-mod\">+(60–70)</span>% 暴击值</span></div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Fighting_Stompers\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Epic_412_128.webp\" class=\"ui_item_base ui_item_quality100\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"/cache/cn/Torchlight_ItemGold_hover/9561373c885fd7f3b00846f86a52b74f10c4d792873ddaba35c25e0144564915\" href=\"Fighting_Stompers\">无尽斗志</a><br>需求等级 24<hr style=\"width: 80%\" class=\"mx-auto my-1\"><div class=\"tierParent\"><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51441711\">若最近使用过引导技能，额外 <span class=\"text-mod\">(-10–-5)</span>% 受到的伤害</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51441721\">若最近使用过引导技能， <span class=\"text-mod\">+(20–30)</span>% 移动速度</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51441731\">额外 <span class=\"text-mod\">+(7–10)</span>% 引导技能伤害</span></div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Lady%27s_Tears\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Amulet/128/Icon_Equip_Amulet_Epic_321_128.webp\" class=\"ui_item_base ui_item_quality100\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"/cache/cn/Torchlight_ItemGold_hover/d0b7917db2e2518dc860a802f731b30e5dc57575e7b7349ec5406be128f1a06f\" href=\"Lady%27s_Tears\">铃兰</a><br>需求等级 30<hr style=\"width: 80%\" class=\"mx-auto my-1\"><div class=\"tierParent\"><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51527211\"><span class=\"text-mod\">+1</span> 被动技能等级</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51527221\">额外 <span class=\"text-mod\">+(8–16)</span>% 魔灵<e id=\"158\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;终极技能&lt;/div&gt;&lt;div&gt;魔灵处于特定状态时，会使用终极技能，强度极高&lt;/div&gt;&lt;/div&gt;\">终极技能</e>伤害和<e id=\"158\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;终极技能&lt;/div&gt;&lt;div&gt;魔灵处于特定状态时，会使用终极技能，强度极高&lt;/div&gt;&lt;/div&gt;\">终极技能</e>造成的<e id=\"504\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;异常伤害&lt;/div&gt;&lt;div&gt;包括创伤、点燃、凋零&lt;/div&gt;&lt;/div&gt;\">异常伤害</e></span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51527231\">魔灵<e id=\"140\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;重聚&lt;/div&gt;&lt;div&gt;该状态下，获得额外生命回复，不再能够使用技能，也不会被选中为目标；生命回满时失去该状态&lt;/div&gt;&lt;/div&gt;\">重聚</e>时，每秒自然回复 <span class=\"text-mod\">(20–30)</span>% 生命</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51527241\">魔灵免疫元素伤害</span></div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Evil_Heart_Armor\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Epic_201_128.webp\" class=\"ui_item_base ui_item_quality100\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"/cache/cn/Torchlight_ItemGold_hover/d95877f711b19ad395d038788368f1f3161b497ac02e40677d1e363e03d2fc0d\" href=\"Evil_Heart_Armor\">邪心护甲</a><br>需求等级 58<hr style=\"width: 80%\" class=\"mx-auto my-1\"><div class=\"tierParent\"><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51410511\"><span class=\"text-mod\">+(3000–4000)</span> 该装备闪避值</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51410521\">额外 <span class=\"text-mod\">-20</span>% 受到的持续伤害</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51410531\"><span class=\"text-mod\">+(40–60)</span>% 异常伤害加深</span></div><div class=\"t1\"><span class=\"tier tier1\"></span>&lt;随机一条异常基础伤害词缀&gt;</div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51410551\">额外 <span class=\"text-mod\">-50</span>% 击中伤害</span></div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Machine_Lord\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Epic_303_128.webp\" class=\"ui_item_base ui_item_quality100\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"/cache/cn/Torchlight_ItemGold_hover/14a17cde4e828c392cf2591eec585ac8c86c845196880af113b48a84b43220bb\" href=\"Machine_Lord\">机械领主</a><br>需求等级 58<hr style=\"width: 80%\" class=\"mx-auto my-1\"><div class=\"tierParent\"><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"52420511\"><span class=\"text-mod\">+(10–20)</span>% 元素抗性</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51420521\">智械召唤物最大数量上限固定为 <span class=\"text-mod\">2</span></span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"52420531\">召唤物 <span class=\"text-mod\">+(20–30)</span>% 体型</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"52420541\">智械召唤物附加 <span class=\"text-mod\">(120–160)</span>% 物理伤害的火焰，冰冷和闪电伤害</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"52420551\">智械召唤物造成伤害时，淘汰生命值低于 <span class=\"text-mod\">(12–18)</span>% 的敌人</span></div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Chaos_Abyss\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Epic_202_128.webp\" class=\"ui_item_base ui_item_quality100\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"/cache/cn/Torchlight_ItemGold_hover/fb1bf0c1eb02b2955db8cd26faa863be790c045129c3d490838e73b415638330\" href=\"Chaos_Abyss\">混沌深渊</a><br>需求等级 58<hr style=\"width: 80%\" class=\"mx-auto my-1\"><div class=\"tierParent\"><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51431111\"><span class=\"text-mod\">+(200–250)</span> 最大生命</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51431121\"><span class=\"text-mod\">+(35–50)</span>% 攻击与施法速度</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51431131\">造成伤害时，敌人每有一层<e id=\"709\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;凋零&lt;/div&gt;&lt;div&gt;击中时有概率引发的异常状态，根据基础凋零伤害每秒造成腐蚀伤害，持续 1.5 秒，上限 30 层&lt;br/&gt;基础凋零伤害为 0 时，无法造成凋零&lt;/div&gt;&lt;/div&gt;\">凋零</e>，额外 <span class=\"text-mod\">+(1.5–2)</span>% 受到的伤害（叠乘）</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"55431141\">敌人<e id=\"709\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;凋零&lt;/div&gt;&lt;div&gt;击中时有概率引发的异常状态，根据基础凋零伤害每秒造成腐蚀伤害，持续 1.5 秒，上限 30 层&lt;br/&gt;基础凋零伤害为 0 时，无法造成凋零&lt;/div&gt;&lt;/div&gt;\">凋零</e>层数低于 <span class=\"text-mod\">20</span> 层时，额外 <span class=\"text-mod\">+(80–120)</span>% <e id=\"709\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;凋零&lt;/div&gt;&lt;div&gt;击中时有概率引发的异常状态，根据基础凋零伤害每秒造成腐蚀伤害，持续 1.5 秒，上限 30 层&lt;br/&gt;基础凋零伤害为 0 时，无法造成凋零&lt;/div&gt;&lt;/div&gt;\">凋零</e>持续时间</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51431161\">造成<e id=\"709\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;凋零&lt;/div&gt;&lt;div&gt;击中时有概率引发的异常状态，根据基础凋零伤害每秒造成腐蚀伤害，持续 1.5 秒，上限 30 层&lt;br/&gt;基础凋零伤害为 0 时，无法造成凋零&lt;/div&gt;&lt;/div&gt;\">凋零</e>时，失去 <span class=\"text-mod\">(8–10)</span>% 当前生命和护盾，间隔 <span class=\"text-mod\">0.5</span> 秒</span></div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Sage%27s_Insight\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Epic_203_128.webp\" class=\"ui_item_base ui_item_quality100\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"/cache/cn/Torchlight_ItemGold_hover/f00c2d7fe5d95b79c6ae0dbf8fa6ef9e4872856ada52bafd2b3bdc13ae94f533\" href=\"Sage%27s_Insight\">贤者的洞察</a><br>需求等级 58<hr style=\"width: 80%\" class=\"mx-auto my-1\"><div class=\"tierParent\"><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51431321\"><span class=\"text-mod\">+(150–350)</span> 该装备护盾</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51431331\"><span class=\"text-mod\">(-1–1)</span> 法术技能等级</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51431341\">法术击中造成火焰伤害时， <span class=\"text-mod\">-15</span>% 目标冰冷、闪电、腐蚀抗性，持续 <span class=\"text-mod\">3</span> 秒</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51431361\">法术击中造成冰冷伤害时， <span class=\"text-mod\">-15</span>% 目标火焰、闪电、腐蚀抗性，持续 <span class=\"text-mod\">3</span> 秒</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51431371\">法术击中造成闪电伤害时， <span class=\"text-mod\">-15</span>% 目标火焰、冰冷、腐蚀抗性，持续 <span class=\"text-mod\">3</span> 秒</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51431381\">法术击中造成腐蚀伤害时， <span class=\"text-mod\">-15</span>% 目标火焰、冰冷、闪电抗性，持续 <span class=\"text-mod\">3</span> 秒</span></div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Aeterna_Martyr\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Epic_207_128.webp\" class=\"ui_item_base ui_item_quality100\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"/cache/cn/Torchlight_ItemGold_hover/6c20392c6ff1c6b68bd8538319663d932a465c05bfa8bd133144d6ff37b1b596\" href=\"Aeterna_Martyr\">殉永恒者</a><br>需求等级 58<hr style=\"width: 80%\" class=\"mx-auto my-1\"><div class=\"tierParent\"><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51434011\"><span class=\"text-mod\">-20</span>% <e id=\"711\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;创伤&lt;/div&gt;&lt;div&gt;击中时有概率引发的异常状态，根据基础创伤伤害每秒造成物理伤害，持续 4 秒，无法叠加&lt;br/&gt;基础创伤伤害为 0 时，无法造成创伤&lt;/div&gt;&lt;/div&gt;\">创伤</e>几率</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51434021\"><span class=\"text-mod\">+(75–85)</span> 攻击和法术暴击值</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51434031\">额外 <span class=\"text-mod\">(-20–-15)</span>% 受到的物理伤害</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51434041\"><span class=\"text-mod\">+(94–100)</span>% <e id=\"138\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;收割&lt;/div&gt;&lt;div&gt;对目标造成真实伤害，数值等同于所有持续伤害一定时长的伤害量&lt;/div&gt;&lt;/div&gt;\">收割</e>回复速度</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51434051\">最近每造成 1 次暴击，额外 <span class=\"text-mod\">+(17–20)</span>% <e id=\"711\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;创伤&lt;/div&gt;&lt;div&gt;击中时有概率引发的异常状态，根据基础创伤伤害每秒造成物理伤害，持续 4 秒，无法叠加&lt;br/&gt;基础创伤伤害为 0 时，无法造成创伤&lt;/div&gt;&lt;/div&gt;\">创伤</e>伤害（叠乘），上限 <span class=\"text-mod\">(3–4)</span> 层</span></div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Archmage%27s_Hands\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Epic_212_128.webp\" class=\"ui_item_base ui_item_quality100\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"/cache/cn/Torchlight_ItemGold_hover/4b8e37d37c4f7369a7ef773d96004b6097dbae43323105faa1436dfbd3e268fc\" href=\"Archmage%27s_Hands\">大法师之手</a><br>需求等级 58<hr style=\"width: 80%\" class=\"mx-auto my-1\"><div class=\"tierParent\"><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51435011\"><span class=\"text-mod\">+(272–340)</span> 该装备护盾</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51435021\"><span class=\"text-mod\">+(20–27)</span>% 冰冷抗性</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51435031\"><span class=\"text-mod\">(15–20)</span>% 的伤害优先抵扣魔力</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51435041\">额外 <span class=\"text-mod\">+(30–35)</span>% 最大魔力<br>技能消耗固定为 <span class=\"text-mod\">(1–100)</span></span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51435051\">每有 <span class=\"text-mod\">(75–100)</span> 最大魔力，额外 <span class=\"text-mod\">+1</span>% 法术伤害，至多 <span class=\"text-mod\">100</span>%</span></div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Restless_Glacier\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Epic_408_128.webp\" class=\"ui_item_base ui_item_quality100\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"/cache/cn/Torchlight_ItemGold_hover/bffe6f40fa32eaf143943b2de39cea956c80545bb3fec65c6ca1d0203f7bfccf\" href=\"Restless_Glacier\">躁动冰河</a><br>需求等级 58<hr style=\"width: 80%\" class=\"mx-auto my-1\"><div class=\"tierParent\"><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51510921\"><span class=\"text-mod\">+(30–40)</span> 智慧</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51510931\"><span class=\"text-mod\">+(20–25)</span>% 冰冷抗性</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51510941\"><span class=\"text-mod\">+(10–15)</span> <e id=\"736\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;冰结值&lt;/div&gt;&lt;div&gt;敌人被冰结时将拥有冰结值，冰结值为固定数值，可以通过养成冰结值上限的方式增加，冰结值最大上限为 100 。&lt;/div&gt;&lt;/div&gt;\">冰结值</e>上限</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51510951\">击败被<e id=\"707\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;冰封&lt;/div&gt;&lt;div&gt;当一个单位的冰结值超过 100 点时，该单位会被冰封&lt;br/&gt;被冰封的非传奇首领会被周期性冰冻，无法行动。冰冻的持续时间为 2 秒，同一单位被冰冻的间隔为 3 秒&lt;br/&gt;冰结状态结束时，冰封状态也会结束&lt;/div&gt;&lt;/div&gt;\">冰封</e>的敌人时 <span class=\"text-mod\">(10–15)</span>% 几率爆炸，对半径 <span class=\"text-mod\">6</span> 米内的敌人造成被击败的敌人最大生命 <span class=\"text-mod\">(80–100)</span>% 的真实伤害</span></div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Ocean_of_Rock\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Amulet/128/Icon_Equip_Amulet_Epic_409_128.webp\" class=\"ui_item_base ui_item_quality100\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"/cache/cn/Torchlight_ItemGold_hover/a12baedd0d0f3fa27a27cb7be0925d1c2aded9a25b0456020869591d422cb1c6\" href=\"Ocean_of_Rock\">磐岩的汪洋</a><br>需求等级 58<hr style=\"width: 80%\" class=\"mx-auto my-1\"><div class=\"tierParent\"><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51521111\"><span class=\"text-mod\">+(132–176)</span> 最大生命</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51521121\"><span class=\"text-mod\">+(210–280)</span> 最大护盾</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51521131\">[龟缩] 每隔 1 秒，获得<e id=\"720\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;屏障&lt;/div&gt;&lt;div&gt;获得相当于最大生命和最大护盾之和的 20% 的防御罩，吸收受到击中伤害的 50%。拥有屏障时，无法获得屏障。&lt;/div&gt;&lt;/div&gt;\">屏障</e><br><span class=\"text-mod\">+50</span>% <e id=\"720\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;屏障&lt;/div&gt;&lt;div&gt;获得相当于最大生命和最大护盾之和的 20% 的防御罩，吸收受到击中伤害的 50%。拥有屏障时，无法获得屏障。&lt;/div&gt;&lt;/div&gt;\">屏障</e>吸收量</span></div><div class=\"t1\"><span class=\"tier tier1\"></span><span data-modifier-id=\"51521141\">附加 <span class=\"text-mod\">(10–15)</span>% 最大生命的护盾</span></div></div></div></div></div></div>\n    \n    </div>\n</div></div><div id=\"技能界面\" class=\"tab-pane fade\" role=\"tabpanel\"><div class=\"card mb-2 \">\n    <div class=\"card-header\">技能界面 /2 </div>\n    <div class=\"collapse show\">\n    \n    \n    <script>\n$(document).ready(function () {\n    filterClick($('[name=filter]'));\n});\n</script>\n\n<form><div class=\"input-group my-2\">\n    <button class=\"btn btn-outline-secondary\" type=\"reset\">Reset</button>\n    <input name=\"filter\" class=\"form-control\" placeholder=\"Search\">\n</div></form><div class=\"row row-cols-1 row-cols-lg-3 g-2\"><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonRockElement_Icon_128.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F7209\" href=\"Summon_Rock_Magus\">召唤磐石之灵</a><div><div>召唤物技能: <a data-hover=\"?s=ItemBase%2F7210\" href=\"Shattered_Stone\">裂石打击</a>, <a data-hover=\"?s=ItemBase%2F7211\" href=\"Gold_Rush\">聚石碎金</a>, <a data-hover=\"?s=ItemBase%2F7212\" href=\"Rock_Blast\">乱石横飞</a>, <a data-hover=\"?s=ItemBase%2F7213\" href=\"Towering_Mountains\">群峰压顶</a></div></div><div></div><div class=\"explicitMod\">激活该技能召唤 <span class=\"text-mod\">1</span> 个磐石之灵。<br>激活该技能使角色自身获得<e id=\"743\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;魔灵之源&lt;/div&gt;&lt;div&gt;激活召唤魔灵的技能后，获得的增益状态效果。&lt;/div&gt;&lt;/div&gt;\">魔灵之源</e>：额外 <span class=\"text-mod\">-5.2%</span> 受到的击中伤害（该效果至多额外 <span class=\"text-mod\">-50%</span>）。</div><div class=\"explicitMod\">召唤磐石之灵：<br>召唤 <span class=\"text-mod\">1</span> 个磐石之灵<br>该技能最多召唤 <span class=\"text-mod\">1</span> 个召唤物 <small class=\"description\">(Lv1:1)</small><br>魔灵无法被击败<br>魔灵触发无法被击败时获得<e id=\"140\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;重聚&lt;/div&gt;&lt;div&gt;该状态下，获得额外生命回复，不再能够使用技能，也不会被选中为目标；生命回满时失去该状态&lt;/div&gt;&lt;/div&gt;\">重聚</e>效果</div><div class=\"explicitMod\"><e id=\"743\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;魔灵之源&lt;/div&gt;&lt;div&gt;激活召唤魔灵的技能后，获得的增益状态效果。&lt;/div&gt;&lt;/div&gt;\">魔灵之源</e>：<br>额外 <span class=\"text-mod\">-8.05</span>% 受到的击中伤害（至多额外 <span class=\"text-mod\">-50</span>%）</div><div class=\"explicitMod\">磐石之灵拥有：<br>基础技能：裂石打击<br>激发技能：聚石碎金<br>强化技能：乱石横飞<br>终极技能：群峰压顶</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonRotElement_Icon_128.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F7214\" href=\"Summon_Erosion_Magus\">召唤腐化之灵</a><div><div>召唤物技能: <a data-hover=\"?s=ItemBase%2F7215\" href=\"Scattered_Mud\">零落成泥</a>, <a data-hover=\"?s=ItemBase%2F7216\" href=\"Withering_Payback\">凋敝奉还</a>, <a data-hover=\"?s=ItemBase%2F7217\" href=\"Bleak_Grass\">哀草丛生</a>, <a data-hover=\"?s=ItemBase%2F7218\" href=\"World_of_Thorns\">荆天棘地</a></div></div><div></div><div class=\"explicitMod\">激活该技能召唤 <span class=\"text-mod\">1</span> 个腐化之灵。<br>激活该技能使角色自身获得<e id=\"743\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;魔灵之源&lt;/div&gt;&lt;div&gt;激活召唤魔灵的技能后，获得的增益状态效果。&lt;/div&gt;&lt;/div&gt;\">魔灵之源</e>：额外 <span class=\"text-mod\">-6.3%</span> 受到的持续伤害（该效果至多额外 <span class=\"text-mod\">-50%</span>）。</div><div class=\"explicitMod\">召唤腐化之灵：<br>召唤 <span class=\"text-mod\">1</span> 个腐化之灵<br>该技能最多召唤 <span class=\"text-mod\">1</span> 个召唤物 <small class=\"description\">(Lv1:1)</small><br>魔灵无法被击败<br>魔灵触发无法被击败时获得<e id=\"140\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;重聚&lt;/div&gt;&lt;div&gt;该状态下，获得额外生命回复，不再能够使用技能，也不会被选中为目标；生命回满时失去该状态&lt;/div&gt;&lt;/div&gt;\">重聚</e>效果<br>魔灵 <span class=\"text-mod\">100%</span> 物理伤害转化为腐蚀伤害</div><div class=\"explicitMod\"><e id=\"743\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;魔灵之源&lt;/div&gt;&lt;div&gt;激活召唤魔灵的技能后，获得的增益状态效果。&lt;/div&gt;&lt;/div&gt;\">魔灵之源</e>：<br>额外 <span class=\"text-mod\">-9.15</span>% 受到的持续伤害（至多额外 <span class=\"text-mod\">-50</span>%）</div><div class=\"explicitMod\">腐化之灵拥有：<br>基础技能：零落成泥<br>激发技能：凋敝奉还<br>强化技能：哀草丛生<br>终极技能：荆天棘地</div></div></div></div></div>\n    \n    </div>\n</div></div><div id=\"Item\" class=\"tab-pane fade\" role=\"tabpanel\"><div class=\"card mb-2 \">\n    <div class=\"card-header\">Item /5 </div>\n    <div class=\"collapse show\">\n    \n    \n    <script>\n$(document).ready(function () {\n    filterClick($('[name=filter]'));\n});\n</script>\n\n<form><div class=\"input-group my-2\">\n    <button class=\"btn btn-outline-secondary\" type=\"reset\">Reset</button>\n    <input name=\"filter\" class=\"form-control\" placeholder=\"Search\">\n</div></form><div class=\"row row-cols-1 row-cols-lg-3 g-2\"><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Compass/128/UI_Compass_GameplayCube_2_2_Icon_128.webp\" class=\"size128 ui_item_base ui_item_quality3\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F10181\" href=\"Cube_Compass%3A_Two_Extremes\">双极之魔方罗盘</a><div>放入异界关卡的罗盘插槽，增加异界关卡的奖励<br><br>放入的罗盘在异界关卡开启后消耗</div><div></div><div class=\"explicitMod\"><div><span data-modifier-id=\"296307\">该关卡正在滋生恶欲</span></div><div>关卡正在滋生恶欲时，额外出现 2 只<e id=\"1310\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;极欲化身&lt;/div&gt;&lt;div&gt;极欲化身是魔方赛季的特殊劲敌，在地图上会有特殊的标识。包含恶欲告解者、恶欲监察者、恶欲处刑者、恶欲负律者、恶欲背誓者和恶欲诳语者。击败它们可以给予更多的神威辉石或欲念结晶。&lt;/div&gt;&lt;/div&gt;\">极欲化身</e></div><div>关卡中的怪物额外 +30% 最大生命</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Compass/128/UI_Compass_GameplayFrozenCanvas_1_1_Icon_128.webp\" class=\"size128 ui_item_base ui_item_quality2\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F10230\" href=\"Frozen_Canvas_Compass\">画雪罗盘</a><div>放入异界关卡的罗盘插槽，增加异界关卡的奖励<br><br>放入的罗盘在异界关卡开启后消耗</div><div></div><div class=\"explicitMod\"><div>关卡中出现 1 只染色雪怪</div><div>关卡中的怪物额外 +10% 最大生命</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Compass/128/UI_Compass_GameplayFrozenCanvas_2_2_Icon_128.webp\" class=\"size128 ui_item_base ui_item_quality3\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F10231\" href=\"Frozen_Canvas_Compass%3A_Abundance\">丰收之画雪罗盘</a><div>放入异界关卡的罗盘插槽，增加异界关卡的奖励<br><br>放入的罗盘在异界关卡开启后消耗</div><div></div><div class=\"explicitMod\"><div>关卡中出现 1 只染色雪怪</div><div>关卡中额外出现 1 只染色雪怪</div><div>染色雪怪额外掉落 5 组雪纸碎片</div><div>染色雪怪获得<e id=\"10101\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;极巨化&lt;/div&gt;&lt;div&gt;体型增大 15%，+40% 技能范围，受到的物理伤害额外降低 5%&lt;/div&gt;&lt;/div&gt;\">极巨化</e></div><div>关卡中的怪物额外 +30% 最大生命</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S9Pet_FateStar_128.webp\" class=\"size128 ui_item_base ui_item_quality3\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F338001\" href=\"Wandering_Star\">游散的命星</a><div></div><div></div><div>用来在【揭示命运】中兑换命运的道具，通过回收命运获得</div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S9Pet_StarCatcher_128.webp\" class=\"size128 ui_item_base ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=ItemBase%2F338002\" href=\"Star_Net\">捕星网</a><div></div><div></div><div>可以将命运无损取下</div></div></div></div></div>\n    \n    </div>\n</div></div><div id=\"契灵\" class=\"tab-pane fade\" role=\"tabpanel\"><div class=\"card mb-2 \">\n    <div class=\"card-header\">契灵 /9 </div>\n    <div class=\"collapse show\">\n    \n    \n    <script>\n$(document).ready(function () {\n    filterClick($('[name=filter]'));\n});\n</script>\n\n<form><div class=\"input-group my-2\">\n    <button class=\"btn btn-outline-secondary\" type=\"reset\">Reset</button>\n    <input name=\"filter\" class=\"form-control\" placeholder=\"Search\">\n</div></form><div class=\"row row-cols-1 row-cols-lg-3 g-2\"><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_GanFanWuShi_04_116.webp\" class=\"pactspirit_smallicon ui_item_quality2\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=Pactspirit%2F14210\" href=\"Feasting_Samurai_-_Garlic\" class=\"item_rarity2\">干饭武士-蒜香</a><div>召唤 <span class=\"item_rarity2\">魔法</span></div><div>仆从伤害，仆从伤害，仆从速度</div><div class=\"border-top\"><div class=\"modifier\">额外 <span class=\"text-mod\">+7</span>% 伤害；额外 <span class=\"text-mod\">+7</span>% 召唤物伤害</div><div class=\"modifier\"><e id=\"102\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;周围&lt;/div&gt;&lt;div&gt;6米内&lt;/div&gt;&lt;/div&gt;\">周围</e>存在魔灵时， <span class=\"text-mod\">+3</span>% 移动速度</div><div class=\"modifier\">额外 <span class=\"text-mod\">+4</span>% 召唤物伤害</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_QingLongCaiCai_03_116.webp\" class=\"pactspirit_smallicon ui_item_quality3\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=Pactspirit%2F14220\" href=\"Dragon_Plant_-_Onion\" class=\"item_rarity3\">青龙菜菜-洋葱</a><div>召唤 <span class=\"item_rarity3\">稀有</span></div><div>仆从伤害，仆从伤害，仆从速度</div><div class=\"border-top\"><div class=\"modifier\">额外 <span class=\"text-mod\">+7</span>% 伤害；额外 <span class=\"text-mod\">+7</span>% 召唤物伤害</div><div class=\"modifier\"><e id=\"102\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;周围&lt;/div&gt;&lt;div&gt;6米内&lt;/div&gt;&lt;/div&gt;\">周围</e>存在魔灵时， <span class=\"text-mod\">+6</span>% 移动速度</div><div class=\"modifier\">额外 <span class=\"text-mod\">+4</span>% 召唤物伤害</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_YouGuHuaLing_116.webp\" class=\"pactspirit_smallicon ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=Pactspirit%2F14230\" href=\"Sprite_of_Silent_Vale\" class=\"item_rarity100\">幽谷花灵</a><div>召唤 <span class=\"item_rarity100\">传奇</span></div><div>仆从伤害，仆从伤害，仆从速度</div><div class=\"border-top\"><div class=\"modifier\">魔灵 <span class=\"text-mod\">+75</span> 初始<e id=\"759\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;生长值&lt;/div&gt;&lt;div&gt;每 100 点生长值，魔灵召唤物便生长 1 阶。魔灵召唤物初始为 1 阶，最高生长至 5 阶。魔灵召唤物每 8 点生长值，+1% 体型，每生长 1 阶，额外+5% 技能范围，并获得不同加成：&lt;br/&gt;2 阶时，+30% 强化技能几率&lt;br/&gt;3 阶时，强化技能获得增强&lt;br/&gt;4 阶时，激发技能获得增强&lt;br/&gt;5 阶时，额外 +25% 伤害、额外 +10% 技能范围，且移动速度和索敌范围增加。&lt;br/&gt;生长值上限为 1000。&lt;/div&gt;&lt;/div&gt;\">生长值</e></div><div class=\"modifier\"><e id=\"102\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;周围&lt;/div&gt;&lt;div&gt;6米内&lt;/div&gt;&lt;/div&gt;\">周围</e>存在魔灵时， <span class=\"text-mod\">+12</span>% 移动速度</div><div class=\"modifier\">魔灵每有 <span class=\"text-mod\">20</span> 点<e id=\"759\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;生长值&lt;/div&gt;&lt;div&gt;每 100 点生长值，魔灵召唤物便生长 1 阶。魔灵召唤物初始为 1 阶，最高生长至 5 阶。魔灵召唤物每 8 点生长值，+1% 体型，每生长 1 阶，额外+5% 技能范围，并获得不同加成：&lt;br/&gt;2 阶时，+30% 强化技能几率&lt;br/&gt;3 阶时，强化技能获得增强&lt;br/&gt;4 阶时，激发技能获得增强&lt;br/&gt;5 阶时，额外 +25% 伤害、额外 +10% 技能范围，且移动速度和索敌范围增加。&lt;br/&gt;生长值上限为 1000。&lt;/div&gt;&lt;/div&gt;\">生长值</e>，额外 <span class=\"text-mod\">+1</span>% 伤害，最多额外 <span class=\"text-mod\">+10</span>%</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_ZhongCaoXiaoYa_116.webp\" class=\"pactspirit_smallicon ui_item_quality2\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=Pactspirit%2F14110\" href=\"Sprouting_Grass\" class=\"item_rarity2\">种草小芽</a><div>掉落 <span class=\"item_rarity2\">魔法</span></div><div>增加掉落数量</div><div class=\"border-top\"><div class=\"modifier\">在<e id=\"8000005\"> 宿命对局 </e>中，开启<e id=\"9000000\"> 命运之匣 </e>时，<e id=\"9000001\"> 命运之匣 </e>有 1% 概率翻倍（进入宿命对局时立即生效）</div><div class=\"modifier\">+8% <e id=\"507\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;掉落数量&lt;/div&gt;&lt;div&gt;影响掉落物品的数量，对任意类型掉落物生效&lt;/div&gt;&lt;/div&gt;\">掉落数量</e></div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LiangXingBaGe_02_116.webp\" class=\"pactspirit_smallicon ui_item_quality3\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=Pactspirit%2F14120\" href=\"Benign_Bug_-_Barbie_Pink\" class=\"item_rarity3\">良性八哥-芭比粉</a><div>掉落 <span class=\"item_rarity3\">稀有</span></div><div>增加掉落数量</div><div class=\"border-top\"><div class=\"modifier\">在<e id=\"8000005\"> 宿命对局 </e>中，开启<e id=\"9000000\"> 命运之匣 </e>时，<e id=\"9000001\"> 命运之匣 </e>有 2% 概率翻倍（进入宿命对局时立即生效）</div><div class=\"modifier\">+8% <e id=\"507\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;掉落数量&lt;/div&gt;&lt;div&gt;影响掉落物品的数量，对任意类型掉落物生效&lt;/div&gt;&lt;/div&gt;\">掉落数量</e></div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_HongTaoHuangNv_01_116.webp\" class=\"pactspirit_smallicon ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=Pactspirit%2F14130\" href=\"Jestress\" class=\"item_rarity100\">愚者</a><div>掉落 <span class=\"item_rarity100\">传奇</span></div><div>增加掉落数量</div><div class=\"border-top\"><div class=\"modifier\">在<e id=\"8000005\"> 宿命对局 </e>中，开启<e id=\"9000000\"> 命运之匣 </e>时，<e id=\"9000001\"> 命运之匣 </e>有 38% 概率翻倍（进入宿命对局时立即生效）</div><div class=\"modifier\">进入<e id=\"9000001\"> 塔罗秘径 </e>时，有 100% 概率额外获得1张 <e id=\"9000002\">塔罗师的灵签 </e></div><div class=\"modifier\">在<e id=\"8000005\">宿命对局</e>中，开启<e id=\"9000001\">命运之匣</e>时，翻倍的<e id=\"9000001\">命运之匣</e>有 100% 概率变为 3 倍（进入宿命对局时立即生效）</div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_ZhongCaoXiaoYa_02_116.webp\" class=\"pactspirit_smallicon ui_item_quality2\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=Pactspirit%2F14310\" href=\"Sprouting_Grass_-_Purple_Sand\" class=\"item_rarity2\">种草小芽-紫砂</a><div>掉落 <span class=\"item_rarity2\">魔法</span></div><div>增加掉落数量</div><div class=\"border-top\"><div class=\"modifier\"><span class=\"text-mod\">+8</span>% <e id=\"507\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;掉落数量&lt;/div&gt;&lt;div&gt;影响掉落物品的数量，对任意类型掉落物生效&lt;/div&gt;&lt;/div&gt;\">掉落数量</e></div><div class=\"modifier\">额外 <span class=\"text-mod\">+5</span>% 罗盘掉落数量</div><div class=\"modifier\"><span class=\"text-mod\">+6</span>% <e id=\"507\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;掉落数量&lt;/div&gt;&lt;div&gt;影响掉落物品的数量，对任意类型掉落物生效&lt;/div&gt;&lt;/div&gt;\">掉落数量</e></div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LiangXingBaGe_116.webp\" class=\"pactspirit_smallicon ui_item_quality3\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=Pactspirit%2F14320\" href=\"Benign_Bug\" class=\"item_rarity3\">良性八哥</a><div>掉落 <span class=\"item_rarity3\">稀有</span></div><div>增加掉落数量</div><div class=\"border-top\"><div class=\"modifier\"><span class=\"text-mod\">+8</span>% <e id=\"507\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;掉落数量&lt;/div&gt;&lt;div&gt;影响掉落物品的数量，对任意类型掉落物生效&lt;/div&gt;&lt;/div&gt;\">掉落数量</e></div><div class=\"modifier\">额外 <span class=\"text-mod\">+9</span>% 罗盘掉落数量</div><div class=\"modifier\"><span class=\"text-mod\">+6</span>% <e id=\"507\" class=\"Hyperlink\" data-bs-toggle=\"tooltip\" data-bs-html=\"true\" data-bs-title=\"&lt;div class=&quot;text-start&quot;&gt;&lt;div&gt;掉落数量&lt;/div&gt;&lt;div&gt;影响掉落物品的数量，对任意类型掉落物生效&lt;/div&gt;&lt;/div&gt;\">掉落数量</e></div></div></div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_TLS007_116.webp\" class=\"pactspirit_smallicon ui_item_quality100\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\"><a data-hover=\"?s=Pactspirit%2F14330\" href=\"Doro-Doro_Dorothy\" class=\"item_rarity100\">多多·多萝西</a><div>掉落 <span class=\"item_rarity100\">传奇</span></div><div>增加掉落数量</div><div class=\"border-top\"><div class=\"modifier\">在异界关卡中，掉落罗盘时，有 <span class=\"text-mod\">5</span>% 概率掉落一份多多补给，内含 5-10 个罗盘。有 <span class=\"text-mod\">34</span>% 概率额外掉落一份多多补给。</div><div class=\"modifier\">额外 <span class=\"text-mod\">+18</span>% 罗盘掉落数量</div></div></div></div></div></div>\n    \n    </div>\n</div></div></div>\n    </div>\n    </div>\n\n    <footer class=\"text-center text-lg-left container mt-2\">\n      <div class=\"card p-4\">\n        <div class=\"row\">\n\n          <div class=\"col-lg-3 col-md-12 mb-4 mb-md-0\">\n            <h5 class=\"text-uppercase\">Sites</h5>\n            <ul class=\"list-unstyled mb-0\">\n              <li> <a target=\"_blank\" href=\"https://poedb.tw/\">poedb.tw</a> </li>\n              <li> <a target=\"_blank\" href=\"https://tlidb.com/\">tlidb.com</a> </li>\n              <!--<li> <a target=\"_blank\" href=\"https://diablo4.cc/\">diablo4.cc</a> </li>-->\n              <li> <a target=\"_blank\" href=\"https://poe2db.tw/\">poe2db.tw</a> </li>\n              <li> <a target=\"_blank\" href=\"https://paldb.cc/\">paldb.cc</a> </li>\n            </ul>\n          </div>\n\n          <div class=\"col-lg-3 col-md-12 mb-4 mb-md-0\">\n            <h5 class=\"text-uppercase\">About Site</h5>\n            <ul class=\"list-unstyled mb-0\">\n              <li><a href=\"privacy\">Privacy</a></li>\n              <li> <a target=\"_blank\" href=\"https://www.reddit.com/user/chuanhsing\">About US</a> </li>\n            </ul>\n          </div>\n\n          <div class=\"col-lg-3 col-md-6 mb-4 mb-md-0\">\n            <h5 class=\"text-uppercase\">Community</h5>\n            <ul class=\"list-unstyled mb-0\">\n            </ul>\n          </div>\n\n        </div>\n      </div>\n      <div class=\"p-3\">\n\n      <span>资料库内容为测试资料，正确资讯请以官方游戏内的内容为准。</span>\n      </div>\n    </footer>\n\n    <a href=\"#top\" id=\"toTop\"><span class=\"fas fa-arrow-circle-up fa-3x\"></span></a>\n    <div id=\"consent-box\" style=\"display:none\">\n      <button onclick=\"window.__cmp('showModal');\">\n        Update cookie preferences\n      </button>\n    </div>\n    \n    <script>\n      if (window[\"nitroAds\"] && window[\"nitroAds\"].loaded) {\n        document.getElementById(\"consent-box\").style.display = window[\"__tcfapi\"]\n          ? \"\"\n          : \"none\";\n      } else {\n        document.addEventListener(\n          \"nitroAds.loaded\",\n          () =>\n            (document.getElementById(\"consent-box\").style.display = window[\"__tcfapi\"]\n              ? \"\"\n              : \"none\")\n        );\n      }\n    </script>\n  <script defer=\"\" src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon=\"{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;83af079277c347f9ba9fc040e0d21cb5&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}\" crossorigin=\"anonymous\"></script>\n\n\n<ul id=\"ui-id-1\" tabindex=\"0\" class=\"ui-menu ui-widget ui-widget-content ui-autocomplete ui-front\" unselectable=\"on\" style=\"display: none;\"></ul><div role=\"status\" aria-live=\"assertive\" aria-relevant=\"additions\" class=\"ui-helper-hidden-accessible\"></div><iframe marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" id=\"1d14ce4e370c44\" width=\"0\" height=\"0\" src=\"about:blank\" name=\"__pb_locator__\" style=\"display: none; height: 0px; width: 0px; border: 0px;\"></iframe><iframe name=\"__uspapiLocator\" style=\"display: none;\"></iframe>",
+    "content": "火炬编年史\n英雄\n仓库\n技能\n打造\n成就\n异界\n商城\n            \n塔罗赛季 /0\n橙色装备 /13\n技能界面 /2\nItem /5\n契灵 /9\n塔罗赛季 /0\n赛季背景\n默念你所求之事，占卜就要开始了。\n你选到了女皇，战车……\n在我解读牌面以前，最后一次提醒——\n你确定，你愿意承担窥探宿命的代价吗？\n哪怕是，你想要获知的未来，正是由现在抽取的每一张塔罗牌塑造\n——你还是想要去看吗？\n\n全新玩法\n神秘的塔罗牌散落在异界关卡之中，每一张都会揭示出一段独特的命运启示，战车、国王、隐者、太阳……等十几种风格迥异的塔罗主题试炼等待各位猎人前往挑战。\n完成每张塔罗试炼后，都有可能获得一枚塔罗师的灵签，有了这些灵签就能在塔罗秘径中大展身手。\n秘径沿途有一个又一个充满诱惑的命运之匣，当然，也有可能踩中陷阱。\n灵签将化为关键指引，引领你规避风险，拿到心仪的命运之匣。\n当你想要兑现命运之匣时，宿命终极的考验就会降临。\n届时，所有命运之匣对应的塔罗试炼将会逐一揭示。\n开启特定波次的战斗时，新的塔罗试炼将会叠加额外的塔罗主题。\n因此，随着战斗不断深入，多张塔罗牌的力量会同时在场上汇聚。\n各位猎人的奖励，也将在这样精彩的试炼中达到顶峰。\n正所谓命运的馈赠早已标好筹码，答案就在这些塔罗牌之中。\n\n全新养成\n猎人最多可以同时和三位掉落契灵，以及三位战斗契灵缔结契约。\n通过塔罗玩法，可以获取种类繁多、效果不同的“命运”，将其安装在对应的战斗契灵天赋点上，可完全替换天赋点原本的效果，改变其原本的命运。\n命运分为宿命和天命，还有更稀有的双生天命。\n宿命可以为猎人提供常规属性上的补充，如抗性，魔力补偿，诅咒效果等。\n天命则带有更稀有、更强大的机制，定能成为猎人们BD构筑中趣味横生的一环。\n\n\nSITES\npoedb.tw\ntlidb.com\npoe2db.tw\npaldb.cc\nABOUT SITE\nPrivacy\nAbout US\nCOMMUNITY\n资料库内容为测试资料，正确资讯请以官方游戏内的内容为准。",
+    "tables": [],
+    "lists": [
+      [
+        "英雄\n              \n                英雄\n                天赋",
+        "英雄",
+        "天赋",
+        "仓库\n              \n                仓库\n                传奇装备\n                异度棱镜\n                \n                契灵\n                \n                掉落来源\n                命运",
+        "仓库",
+        "传奇装备",
+        "异度棱镜",
+        "契灵",
+        "掉落来源",
+        "命运",
+        "技能\n              \n                主动技能\n                辅助技能\n                被动技能\n                \n                触媒技能\n                崇高辅助技能\n                华贵辅助技能\n                提示\n                Hyperlink",
+        "主动技能",
+        "辅助技能",
+        "被动技能",
+        "触媒技能",
+        "崇高辅助技能",
+        "华贵辅助技能",
+        "提示",
+        "Hyperlink",
+        "打造\n              \n                打造\n                \n                侵蚀\n                装备赋能\n                梦语\n                调香秘仪\n                高塔序列\n                缝合",
+        "打造",
+        "侵蚀",
+        "装备赋能",
+        "梦语",
+        "调香秘仪",
+        "高塔序列",
+        "缝合",
+        "成就\n              \n                \n                成长之路\n                \n                \n                \n                \n                帮助手册\n                情报",
+        "成长之路",
+        "",
+        "帮助手册",
+        "情报",
+        "异界\n              \n                异界\n                \n                混乱牌库\n                虚空星图\n                罗盘\n                赛季罗盘\n                \n                勇者之路",
+        "异界",
+        "混乱牌库",
+        "虚空星图",
+        "罗盘",
+        "赛季罗盘",
+        "",
+        "勇者之路",
+        "商城\n              \n    \n                时装\n                通货\n                恩赐",
+        "时装",
+        "通货",
+        "恩赐"
+      ],
+      [
+        "英雄",
+        "天赋"
+      ],
+      [
+        "仓库",
+        "传奇装备",
+        "异度棱镜",
+        "契灵",
+        "掉落来源",
+        "命运"
+      ],
+      [
+        "主动技能",
+        "辅助技能",
+        "被动技能",
+        "触媒技能",
+        "崇高辅助技能",
+        "华贵辅助技能",
+        "提示",
+        "Hyperlink"
+      ],
+      [
+        "打造",
+        "侵蚀",
+        "装备赋能",
+        "梦语",
+        "调香秘仪",
+        "高塔序列",
+        "缝合"
+      ],
+      [
+        "成长之路",
+        "",
+        "帮助手册",
+        "情报"
+      ],
+      [
+        "异界",
+        "混乱牌库",
+        "虚空星图",
+        "罗盘",
+        "赛季罗盘",
+        "",
+        "勇者之路"
+      ],
+      [
+        "时装",
+        "通货",
+        "恩赐"
+      ],
+      [
+        "EN English\n                TW 繁體中文\n                CN 简体中文\n                KO 한국어\n                JA Japanese\n                RU Русский",
+        "EN English",
+        "TW 繁體中文",
+        "CN 简体中文",
+        "KO 한국어",
+        "JA Japanese",
+        "RU Русский"
+      ],
+      [
+        "EN English",
+        "TW 繁體中文",
+        "CN 简体中文",
+        "KO 한국어",
+        "JA Japanese",
+        "RU Русский"
+      ],
+      [
+        "塔罗赛季 /0",
+        "橙色装备 /13",
+        "技能界面 /2",
+        "Item /5",
+        "契灵 /9"
+      ],
+      [
+        "poedb.tw",
+        "tlidb.com",
+        "poe2db.tw",
+        "paldb.cc"
+      ],
+      [
+        "Privacy",
+        "About US"
+      ]
+    ],
+    "links": [
+      {
+        "href": "https://tlidb.com/cn/",
+        "text": "火炬编年史"
+      },
+      {
+        "href": "https://tlidb.com/cn/Arcana_Season#",
+        "text": "英雄"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hero",
+        "text": "英雄"
+      },
+      {
+        "href": "https://tlidb.com/cn/Talent",
+        "text": "天赋"
+      },
+      {
+        "href": "https://tlidb.com/cn/Arcana_Season#",
+        "text": "仓库"
+      },
+      {
+        "href": "https://tlidb.com/cn/Inventory",
+        "text": "仓库"
+      },
+      {
+        "href": "https://tlidb.com/cn/Legendary_Gear",
+        "text": "传奇装备"
+      },
+      {
+        "href": "https://tlidb.com/cn/Ethereal_Prism",
+        "text": "异度棱镜"
+      },
+      {
+        "href": "https://tlidb.com/cn/Pactspirit",
+        "text": "契灵"
+      },
+      {
+        "href": "https://tlidb.com/cn/Drop_Source",
+        "text": "掉落来源"
+      },
+      {
+        "href": "https://tlidb.com/cn/Destiny",
+        "text": "命运"
+      },
+      {
+        "href": "https://tlidb.com/cn/Arcana_Season#",
+        "text": "技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Active_Skill",
+        "text": "主动技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Support_Skill",
+        "text": "辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Passive_Skill",
+        "text": "被动技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Activation_Medium_Skill",
+        "text": "触媒技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Noble_Support_Skill",
+        "text": "崇高辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Magnificent_Support_Skill",
+        "text": "华贵辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Tip",
+        "text": "提示"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hyperlink",
+        "text": "Hyperlink"
+      },
+      {
+        "href": "https://tlidb.com/cn/Arcana_Season#",
+        "text": "打造"
+      },
+      {
+        "href": "https://tlidb.com/cn/Craft",
+        "text": "打造"
+      },
+      {
+        "href": "https://tlidb.com/cn/Corrosion",
+        "text": "侵蚀"
+      },
+      {
+        "href": "https://tlidb.com/cn/Gear_Empowerment",
+        "text": "装备赋能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Dream_Talking",
+        "text": "梦语"
+      },
+      {
+        "href": "https://tlidb.com/cn/Blending_Rituals",
+        "text": "调香秘仪"
+      },
+      {
+        "href": "https://tlidb.com/cn/TOWER_Sequence",
+        "text": "高塔序列"
+      },
+      {
+        "href": "https://tlidb.com/cn/Graft",
+        "text": "缝合"
+      },
+      {
+        "href": "https://tlidb.com/cn/Arcana_Season#",
+        "text": "成就"
+      },
+      {
+        "href": "https://tlidb.com/cn/Path_of_Progression",
+        "text": "成长之路"
+      },
+      {
+        "href": "https://tlidb.com/cn/Help",
+        "text": "帮助手册"
+      },
+      {
+        "href": "https://tlidb.com/cn/Codex",
+        "text": "情报"
+      },
+      {
+        "href": "https://tlidb.com/cn/Arcana_Season#",
+        "text": "异界"
+      },
+      {
+        "href": "https://tlidb.com/cn/Netherrealm",
+        "text": "异界"
+      },
+      {
+        "href": "https://tlidb.com/cn/Confusion_Card_Library",
+        "text": "混乱牌库"
+      },
+      {
+        "href": "https://tlidb.com/cn/Void_Chart",
+        "text": "虚空星图"
+      },
+      {
+        "href": "https://tlidb.com/cn/Compass",
+        "text": "罗盘"
+      },
+      {
+        "href": "https://tlidb.com/cn/Probe",
+        "text": "赛季罗盘"
+      },
+      {
+        "href": "https://tlidb.com/cn/Path_of_the_Brave",
+        "text": "勇者之路"
+      },
+      {
+        "href": "https://tlidb.com/cn/Arcana_Season#",
+        "text": "商城"
+      },
+      {
+        "href": "https://tlidb.com/cn/Outfit",
+        "text": "时装"
+      },
+      {
+        "href": "https://tlidb.com/cn/Commodity",
+        "text": "通货"
+      },
+      {
+        "href": "https://tlidb.com/cn/Boon",
+        "text": "恩赐"
+      },
+      {
+        "href": "https://tlidb.com/en/Arcana_Season",
+        "text": "EN English"
+      },
+      {
+        "href": "https://tlidb.com/tw/Arcana_Season",
+        "text": "TW 繁體中文"
+      },
+      {
+        "href": "https://tlidb.com/cn/Arcana_Season",
+        "text": "CN 简体中文"
+      },
+      {
+        "href": "https://tlidb.com/ko/Arcana_Season",
+        "text": "KO 한국어"
+      },
+      {
+        "href": "https://tlidb.com/ja/Arcana_Season",
+        "text": "JA Japanese"
+      },
+      {
+        "href": "https://tlidb.com/ru/Arcana_Season",
+        "text": "RU Русский"
+      },
+      {
+        "href": "https://tlidb.com/cn/Despised_Shadow",
+        "text": "渎影"
+      },
+      {
+        "href": "https://tlidb.com/cn/Revered_Light",
+        "text": "崇光"
+      },
+      {
+        "href": "https://tlidb.com/cn/Berserker_Bracer",
+        "text": "狂猎者护腕"
+      },
+      {
+        "href": "https://tlidb.com/cn/Fighting_Stompers",
+        "text": "无尽斗志"
+      },
+      {
+        "href": "https://tlidb.com/cn/Lady%27s_Tears",
+        "text": "铃兰"
+      },
+      {
+        "href": "https://tlidb.com/cn/Evil_Heart_Armor",
+        "text": "邪心护甲"
+      },
+      {
+        "href": "https://tlidb.com/cn/Machine_Lord",
+        "text": "机械领主"
+      },
+      {
+        "href": "https://tlidb.com/cn/Chaos_Abyss",
+        "text": "混沌深渊"
+      },
+      {
+        "href": "https://tlidb.com/cn/Sage%27s_Insight",
+        "text": "贤者的洞察"
+      },
+      {
+        "href": "https://tlidb.com/cn/Aeterna_Martyr",
+        "text": "殉永恒者"
+      },
+      {
+        "href": "https://tlidb.com/cn/Archmage%27s_Hands",
+        "text": "大法师之手"
+      },
+      {
+        "href": "https://tlidb.com/cn/Restless_Glacier",
+        "text": "躁动冰河"
+      },
+      {
+        "href": "https://tlidb.com/cn/Ocean_of_Rock",
+        "text": "磐岩的汪洋"
+      },
+      {
+        "href": "https://tlidb.com/cn/Summon_Rock_Magus",
+        "text": "召唤磐石之灵"
+      },
+      {
+        "href": "https://tlidb.com/cn/Shattered_Stone",
+        "text": "裂石打击"
+      },
+      {
+        "href": "https://tlidb.com/cn/Gold_Rush",
+        "text": "聚石碎金"
+      },
+      {
+        "href": "https://tlidb.com/cn/Rock_Blast",
+        "text": "乱石横飞"
+      },
+      {
+        "href": "https://tlidb.com/cn/Towering_Mountains",
+        "text": "群峰压顶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Summon_Erosion_Magus",
+        "text": "召唤腐化之灵"
+      },
+      {
+        "href": "https://tlidb.com/cn/Scattered_Mud",
+        "text": "零落成泥"
+      },
+      {
+        "href": "https://tlidb.com/cn/Withering_Payback",
+        "text": "凋敝奉还"
+      },
+      {
+        "href": "https://tlidb.com/cn/Bleak_Grass",
+        "text": "哀草丛生"
+      },
+      {
+        "href": "https://tlidb.com/cn/World_of_Thorns",
+        "text": "荆天棘地"
+      },
+      {
+        "href": "https://tlidb.com/cn/Cube_Compass%3A_Two_Extremes",
+        "text": "双极之魔方罗盘"
+      },
+      {
+        "href": "https://tlidb.com/cn/Frozen_Canvas_Compass",
+        "text": "画雪罗盘"
+      },
+      {
+        "href": "https://tlidb.com/cn/Frozen_Canvas_Compass%3A_Abundance",
+        "text": "丰收之画雪罗盘"
+      },
+      {
+        "href": "https://tlidb.com/cn/Wandering_Star",
+        "text": "游散的命星"
+      },
+      {
+        "href": "https://tlidb.com/cn/Star_Net",
+        "text": "捕星网"
+      },
+      {
+        "href": "https://tlidb.com/cn/Feasting_Samurai_-_Garlic",
+        "text": "干饭武士-蒜香"
+      },
+      {
+        "href": "https://tlidb.com/cn/Dragon_Plant_-_Onion",
+        "text": "青龙菜菜-洋葱"
+      },
+      {
+        "href": "https://tlidb.com/cn/Sprite_of_Silent_Vale",
+        "text": "幽谷花灵"
+      },
+      {
+        "href": "https://tlidb.com/cn/Sprouting_Grass",
+        "text": "种草小芽"
+      },
+      {
+        "href": "https://tlidb.com/cn/Benign_Bug_-_Barbie_Pink",
+        "text": "良性八哥-芭比粉"
+      },
+      {
+        "href": "https://tlidb.com/cn/Jestress",
+        "text": "愚者"
+      },
+      {
+        "href": "https://tlidb.com/cn/Sprouting_Grass_-_Purple_Sand",
+        "text": "种草小芽-紫砂"
+      },
+      {
+        "href": "https://tlidb.com/cn/Benign_Bug",
+        "text": "良性八哥"
+      },
+      {
+        "href": "https://tlidb.com/cn/Doro-Doro_Dorothy",
+        "text": "多多·多萝西"
+      },
+      {
+        "href": "https://poedb.tw/",
+        "text": "poedb.tw"
+      },
+      {
+        "href": "https://tlidb.com/",
+        "text": "tlidb.com"
+      },
+      {
+        "href": "https://poe2db.tw/",
+        "text": "poe2db.tw"
+      },
+      {
+        "href": "https://paldb.cc/",
+        "text": "paldb.cc"
+      },
+      {
+        "href": "https://tlidb.com/cn/privacy",
+        "text": "Privacy"
+      },
+      {
+        "href": "https://www.reddit.com/user/chuanhsing",
+        "text": "About US"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S13_LegendStitching_03.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S12_LengJing_White01.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S11ChipMatching0_Icon.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/UI_Money_S10EquipEnchantMaterial_10_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S9Pet_FateStar_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S8Gameplay_Snow2_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_MysticTreeRespecPoint_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S6Gameplay_Tile_bench.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S5Gameplay_DreamTreasure_Almighty_C_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/S4/UI_S4Gameplay_talent01_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S3Gameplay_Beads_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S2BossTicket3_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_Item_yimozhihe_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/image/torchlight/p3_20251226_cn.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Amulet/128/Icon_Equip_Amulet_Epic_322_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Epic_219_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Epic_404_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Epic_412_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Amulet/128/Icon_Equip_Amulet_Epic_321_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Epic_201_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Epic_303_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Epic_202_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Epic_203_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Epic_207_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Epic_212_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Epic_408_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Amulet/128/Icon_Equip_Amulet_Epic_409_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonRockElement_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonRotElement_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Compass/128/UI_Compass_GameplayCube_2_2_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Compass/128/UI_Compass_GameplayFrozenCanvas_1_1_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Compass/128/UI_Compass_GameplayFrozenCanvas_2_2_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S9Pet_FateStar_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S9Pet_StarCatcher_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_GanFanWuShi_04_116.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_QingLongCaiCai_03_116.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_YouGuHuaLing_116.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_ZhongCaoXiaoYa_116.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LiangXingBaGe_02_116.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_HongTaoHuangNv_01_116.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_R_ZhongCaoXiaoYa_02_116.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SR_LiangXingBaGe_116.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Pet/116_192/UI_Pet_SSR_TLS007_116.webp",
+        "alt": ""
+      }
+    ],
+    "meta": {
+      "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+      "color-scheme": "dark"
+    },
+    "structured_data": {}
+  }
+]

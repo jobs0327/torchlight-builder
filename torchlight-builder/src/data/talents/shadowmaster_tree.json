@@ -1,0 +1,750 @@
+{
+  "id": "shadowmaster",
+  "name": "驭影者",
+  "godType": "trickery",
+  "description": "着迷于地下世界景象的艺术家",
+  "tags": [
+    "腐蚀",
+    "封印"
+  ],
+  "totalPoints": 34,
+  "allocatedPoints": 0,
+  "coreRequiredPoints": 24,
+  "coreTalents": [
+    {
+      "id": "core_0",
+      "name": "污垢",
+      "type": "legendary",
+      "description": "额外 +15% 腐蚀伤害\n对生命造成额外 10% 伤害 （神格生效上限：1）",
+      "effects": [
+        "额外 +15% 腐蚀伤害",
+        "对生命造成额外 10% 伤害 （神格生效上限：1）"
+      ],
+      "requiredPoints": 24,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 0,
+        "col": 0,
+        "x": 150,
+        "y": 30
+      },
+      "connections": [],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_xuewu_Icon_128.webp"
+    },
+    {
+      "id": "core_1",
+      "name": "隐刺",
+      "type": "legendary",
+      "description": "具有迷踪时，额外 -15% 受到的伤害\n失去迷踪后的 3 秒内，额外 +25% 伤害 （神格生效上限：1）",
+      "effects": [
+        "具有迷踪时，额外 -15% 受到的伤害",
+        "失去迷踪后的 3 秒内，额外 +25% 伤害 （神格生效上限：1）"
+      ],
+      "requiredPoints": 24,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 0,
+        "col": 1,
+        "x": 350,
+        "y": 30
+      },
+      "connections": [],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_yinci_Icon_128.webp"
+    },
+    {
+      "id": "core_2",
+      "name": "病入膏肓",
+      "type": "legendary",
+      "description": "敌人生命值越多，对其造成的凋零伤害就越多，至多额外 +60% 凋零伤害 （神格生效上限：1）",
+      "effects": [
+        "敌人生命值越多，对其造成的凋零伤害就越多，至多额外 +60% 凋零伤害 （神格生效上限：1）"
+      ],
+      "requiredPoints": 24,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 0,
+        "col": 2,
+        "x": 550,
+        "y": 30
+      },
+      "connections": [],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_bingrugaohuang_Icon_128.webp"
+    },
+    {
+      "id": "core_3",
+      "name": "扭曲信仰",
+      "type": "legendary",
+      "description": "+3 腐蚀技能等级\n-5% 腐蚀抗性上限 （神格生效上限：1）",
+      "effects": [
+        "+3 腐蚀技能等级",
+        "-5% 腐蚀抗性上限 （神格生效上限：1）"
+      ],
+      "requiredPoints": 24,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 0,
+        "col": 3,
+        "x": 750,
+        "y": 30
+      },
+      "connections": [],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_niuquxinyang_Icon_128.webp"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "node_0",
+      "name": "+9% 腐蚀伤害",
+      "type": "small",
+      "effects": [
+        "+9% 腐蚀伤害",
+        "+9% 召唤物腐蚀伤害"
+      ],
+      "requiredPoints": 0,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 0,
+        "x": 96.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_1"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgChaos_64.webp"
+    },
+    {
+      "id": "node_13",
+      "name": "+3% 最大护盾",
+      "type": "small",
+      "effects": [
+        "+3% 最大护盾",
+        "+3% 最大生命"
+      ],
+      "requiredPoints": 0,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 0,
+        "x": 96.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_14"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence02_64.webp"
+    },
+    {
+      "id": "node_25",
+      "name": "+3% 凋零几率",
+      "type": "small",
+      "effects": [
+        "+3% 凋零几率"
+      ],
+      "requiredPoints": 0,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 0,
+        "x": 96.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_26"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Channel02_64.webp"
+    },
+    {
+      "id": "node_1",
+      "name": "+18% 腐蚀伤害",
+      "type": "notable",
+      "effects": [
+        "+18% 腐蚀伤害",
+        "+18% 召唤物腐蚀伤害"
+      ],
+      "requiredPoints": 3,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 1,
+        "x": 224.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_0"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+    },
+    {
+      "id": "node_14",
+      "name": "+6% 最大护盾",
+      "type": "notable",
+      "effects": [
+        "+6% 最大护盾",
+        "+6% 最大生命"
+      ],
+      "requiredPoints": 3,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 1,
+        "x": 224.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_13"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence02_64.webp"
+    },
+    {
+      "id": "node_26",
+      "name": "+6% 凋零几率",
+      "type": "notable",
+      "effects": [
+        "+6% 凋零几率"
+      ],
+      "requiredPoints": 3,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 1,
+        "x": 224.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_25"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Duration_64.webp"
+    },
+    {
+      "id": "node_7",
+      "name": "+3% 攻击与施法速度",
+      "type": "small",
+      "effects": [
+        "+3% 攻击与施法速度"
+      ],
+      "requiredPoints": 3,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 1,
+        "x": 224.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_8"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp"
+    },
+    {
+      "id": "node_19",
+      "name": "+4% 恶化几率",
+      "type": "small",
+      "effects": [
+        "+4% 恶化几率"
+      ],
+      "requiredPoints": 3,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 1,
+        "x": 224.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_20"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgChaos_64.webp"
+    },
+    {
+      "id": "node_8",
+      "name": "+6% 攻击与施法速度",
+      "type": "notable",
+      "effects": [
+        "+6% 攻击与施法速度"
+      ],
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 2,
+        "x": 352.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_7"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp"
+    },
+    {
+      "id": "node_20",
+      "name": "+8% 恶化伤害",
+      "type": "notable",
+      "effects": [
+        "+8% 恶化伤害"
+      ],
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 2,
+        "x": 352.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_19"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Duration_64.webp"
+    },
+    {
+      "id": "node_2",
+      "name": "+15% 暴击值",
+      "type": "small",
+      "effects": [
+        "+15% 暴击值"
+      ],
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 2,
+        "x": 352.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_3"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit01_64.webp"
+    },
+    {
+      "id": "node_15",
+      "name": "+4% 腐蚀抗性",
+      "type": "small",
+      "effects": [
+        "+4% 腐蚀抗性"
+      ],
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 2,
+        "x": 352.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_16"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgChaos_64.webp"
+    },
+    {
+      "id": "node_16",
+      "name": "免疫凋零",
+      "type": "legendary",
+      "effects": [
+        "免疫凋零",
+        "召唤物免疫腐蚀伤害"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 3,
+        "x": 480.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_15"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Flask01_64.webp"
+    },
+    {
+      "id": "node_3",
+      "name": "+20% 暴击值",
+      "type": "notable",
+      "effects": [
+        "+20% 暴击值",
+        "+10% 暴击伤害"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 3,
+        "x": 480.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_2"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit03_64.webp"
+    },
+    {
+      "id": "node_9",
+      "name": "+9% 腐蚀伤害",
+      "type": "small",
+      "effects": [
+        "+9% 腐蚀伤害",
+        "+9% 召唤物腐蚀伤害"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 3,
+        "x": 480.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_10"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgChaos_64.webp"
+    },
+    {
+      "id": "node_21",
+      "name": "1.5% 生命返还",
+      "type": "small",
+      "effects": [
+        "1.5% 生命返还",
+        "1.5% 护盾返还"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 3,
+        "x": 480.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_22"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp"
+    },
+    {
+      "id": "node_27",
+      "name": "+3% 凋零几率",
+      "type": "small",
+      "effects": [
+        "+3% 凋零几率",
+        "附加 1 - 1 基础凋零伤害"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 3,
+        "x": 480.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_28"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Channel02_64.webp"
+    },
+    {
+      "id": "node_10",
+      "name": "造成凋零或恶化时，获得邪祟",
+      "type": "legendary",
+      "effects": [
+        "造成凋零或恶化时，获得邪祟"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 4,
+        "x": 608.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_9"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+    },
+    {
+      "id": "node_28",
+      "name": "+12% 凋零几率",
+      "type": "legendary",
+      "effects": [
+        "+12% 凋零几率",
+        "+6% 凋零持续时间"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 4,
+        "x": 608.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_27",
+        "node_29"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Claw02_64.webp"
+    },
+    {
+      "id": "node_22",
+      "name": "+3% 生命返还",
+      "type": "notable",
+      "effects": [
+        "+3% 生命返还",
+        "+3% 护盾返还"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 4,
+        "x": 608.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_21"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+    },
+    {
+      "id": "node_4",
+      "name": "+9% 腐蚀伤害",
+      "type": "small",
+      "effects": [
+        "+9% 腐蚀伤害"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 4,
+        "x": 608.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_5",
+        "node_11"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgChaos_64.webp"
+    },
+    {
+      "id": "node_17",
+      "name": "+9% 腐蚀伤害",
+      "type": "small",
+      "effects": [
+        "+9% 腐蚀伤害",
+        "+9% 召唤物腐蚀伤害"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 4,
+        "x": 608.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_18"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgChaos_64.webp"
+    },
+    {
+      "id": "node_18",
+      "name": "+1 腐蚀技能等级",
+      "type": "legendary",
+      "effects": [
+        "+1 腐蚀技能等级"
+      ],
+      "requiredPoints": 15,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 5,
+        "x": 736.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_17"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence02_64.webp"
+    },
+    {
+      "id": "node_29",
+      "name": "每造成 5 层凋零，获得迷踪",
+      "type": "legendary",
+      "effects": [
+        "每造成 5 层凋零，获得迷踪"
+      ],
+      "requiredPoints": 15,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 5,
+        "x": 736.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_28"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Claw02_64.webp"
+    },
+    {
+      "id": "node_5",
+      "name": "6% 几率额外造成 1 层凋零",
+      "type": "notable",
+      "effects": [
+        "6% 几率额外造成 1 层凋零"
+      ],
+      "requiredPoints": 15,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 5,
+        "x": 736.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_4",
+        "node_6"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+    },
+    {
+      "id": "node_11",
+      "name": "+8% 恶化几率",
+      "type": "notable",
+      "effects": [
+        "+8% 恶化几率"
+      ],
+      "requiredPoints": 15,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 5,
+        "x": 736.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_4",
+        "node_12"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgChaos_64.webp"
+    },
+    {
+      "id": "node_23",
+      "name": "+9% 腐蚀伤害",
+      "type": "small",
+      "effects": [
+        "+9% 腐蚀伤害",
+        "+9% 召唤物腐蚀伤害"
+      ],
+      "requiredPoints": 15,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 5,
+        "x": 736.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_24"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgChaos_64.webp"
+    },
+    {
+      "id": "node_6",
+      "name": "最近每造成 1 层凋零，1.2% 腐蚀伤害，至多叠加 60 层",
+      "type": "legendary",
+      "effects": [
+        "最近每造成 1 层凋零，1.2% 腐蚀伤害，至多叠加 60 层"
+      ],
+      "requiredPoints": 18,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 6,
+        "x": 864.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_5"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+    },
+    {
+      "id": "node_12",
+      "name": "额外 +8% 恶化伤害",
+      "type": "legendary",
+      "effects": [
+        "额外 +8% 恶化伤害",
+        "+5% 恶化持续时间"
+      ],
+      "requiredPoints": 18,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 6,
+        "x": 864.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_11"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence02_64.webp"
+    },
+    {
+      "id": "node_24",
+      "name": "100% 物理伤害转化为腐蚀伤害",
+      "type": "legendary",
+      "effects": [
+        "100% 物理伤害转化为腐蚀伤害",
+        "召唤物 100% 物理伤害转化为腐蚀伤害"
+      ],
+      "requiredPoints": 18,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 6,
+        "x": 864.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_23"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence02_64.webp"
+    }
+  ],
+  "isGodRoot": false
+}

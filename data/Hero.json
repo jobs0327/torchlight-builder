@@ -1,0 +1,628 @@
+[
+  {
+    "url": "https://tlidb.com/cn/Hero",
+    "title": "Hero - 火炬编年史, Torchlight: Infinite Wiki",
+    "html": "\n    <div class=\"background-image\"></div>\n    <!-- Google tag (gtag.js) -->\n    <script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-P6KT6L9KX8\"></script>\n    <script>\n      window.dataLayer = window.dataLayer || [];\n      function gtag(){dataLayer.push(arguments);}\n      gtag('js', new Date());\n    \n      gtag('config', 'G-P6KT6L9KX8');\n    </script>\n\n    <nav class=\"navbar navbar-expand-lg navbar-dark\">\n      <div class=\"container\">\n        <a class=\"navbar-brand\" href=\"/cn/\">火炬编年史</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">英雄</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Hero\">英雄</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Talent\">天赋</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">仓库</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Inventory\">仓库</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Legendary_Gear\">传奇装备</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Ethereal_Prism\">异度棱镜</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_Synthetic_Synthetic\" href=\"/cn/Recipe\">Recipe</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Pactspirit\">契灵</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"function|name|116\" href=\"/cn/Black_Market\">Black Market</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Drop_Source\">掉落来源</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Destiny\">命运</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">技能</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Active_Skill\">主动技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Support_Skill\">辅助技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Passive_Skill\">被动技能</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_SkillBag_SkillType4\" href=\"/cn/Triggered_Skill\">Triggered Skill</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Activation_Medium_Skill\">触媒技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Noble_Support_Skill\">崇高辅助技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Magnificent_Support_Skill\">华贵辅助技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Tip\">提示</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Hyperlink\">Hyperlink</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">打造</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Craft\">打造</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"function|name|131\" href=\"/cn/Enchant\">Enchant</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Corrosion\">侵蚀</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Gear_Empowerment\">装备赋能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Dream_Talking\">梦语</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Blending_Rituals\">调香秘仪</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/TOWER_Sequence\">高塔序列</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Graft\">缝合</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">成就</a>\n              <ul class=\"dropdown-menu\">\n                <!--\n                <li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_Growth_Achievement_Title\" href=\"/cn/Path_of_Achievements\">Path of Achievements</a></li>\n                -->\n                <li><a class=\"dropdown-item\" href=\"/cn/Path_of_Progression\">成长之路</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"season|name1|101\" href=\"/cn/Dark_Surge_Season\">Dark Surge Season</a></li>-->\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_SeasonBook_Title\" href=\"/cn/Season_Pass\">Season Pass</a></li>-->\n                <!--\n                <li><a class=\"dropdown-item\" data-i18n=\"function|name|139\" href=\"/cn/Event\">Event</a></li>\n                -->\n                <li><hr class=\"dropdown-divider\"></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Help\">帮助手册</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Codex\">情报</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">异界</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Netherrealm\">异界</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_MysteryCard_PlayerDeck\" href=\"/cn/Trait_Decks\">Trait Decks</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Confusion_Card_Library\">混乱牌库</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Void_Chart\">虚空星图</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Compass\">罗盘</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Probe\">赛季罗盘</a></li>\n                <li><hr class=\"dropdown-divider\"></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Path_of_the_Brave\">勇者之路</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">商城</a>\n              <ul class=\"dropdown-menu\">\n    <!--\n                <li><a class=\"dropdown-item\" data-i18n=\"function|name|110\" href=\"/cn/Shop\">Shop</a></li>\n    -->\n                <li><a class=\"dropdown-item\" href=\"/cn/Outfit\">时装</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Commodity\">通货</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Boon\">恩赐</a></li>\n              </ul>\n            </li>\n    \n    <!--\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" data-i18n=\"Guide\" href=\"/cn/guides?season=The%20Frozen%20Canvas%20Season\">Guide</a>\n            </li>\n    -->\n    \n          </ul>\n    \n          <!--\n          <a class=\"nav-link2\" style=\"padding-right: 10px\" href=\"https://lihi1.com/cAO3Z\" target=\"_blank\">\n            <img style=\"height: 24px\" \n                src=\"https://cdn.tlidb.com/image/logo/torchlight-48.webp\"\n            />\n          </a>\n    \n          <a class=\"nav-link2\" style=\"padding-right: 10px\"\n            href=\"https://lihi1.com/l1NmL\"\n            target=\"_blank\">\n            <img style=\"height: 24px\" src=\"https://cdn.tlidb.com/image/logo/facebook-48.webp\"/>\n          </a>\n    \n          <a class=\"nav-link2\" style=\"padding-right: 10px\"\n            href=\"https://lihi1.com/neCTK\"\n            target=\"_blank\">\n            <img style=\"height: 24px\" src=\"https://cdn.tlidb.com/image/logo/youtube-48.webp\"/>\n          </a>\n    \n          <a class=\"nav-link2\" style=\"padding-right: 10px\" href=\"https://lihi1.com/owKrQ\" target=\"_blank\">\n            <img style=\"height: 24px\" src=\"https://cdn.tlidb.com/image/logo/discord-48.webp\"/>\n          </a>\n          -->\n    \n          <ul class=\"navbar-nav\">\n            <li class=\"nav-item dropdown\">\n              <a href=\"#\" class=\"nav-link dropdown-toggle\" role=\"button\" data-bs-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"> <i class=\"fas fa-language fa-lg\"></i></a>\n              <ul class=\"dropdown-menu language-menu\">\n                <li><a class=\"dropdown-item\" href=\"/en/Hero\">EN English</a></li>\n                <li><a class=\"dropdown-item\" href=\"/tw/Hero\">TW 繁體中文</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Hero\">CN 简体中文</a></li>\n                <li><a class=\"dropdown-item\" href=\"/ko/Hero\">KO 한국어</a></li>\n                <li><a class=\"dropdown-item\" href=\"/ja/Hero\">JA Japanese</a></li>\n                <li><a class=\"dropdown-item\" href=\"/ru/Hero\">RU Русский</a></li>\n                <!--\n                <li><a class='dropdown-item' href='/de/'>DE Deutsch</a></li>\n                <li><a class='dropdown-item' href='/es/'>ES Spanish</a></li>\n                <li><a class='dropdown-item' href='/fr/'>FR Français</a></li>\n                <li><a class='dropdown-item' href='/id/'>ID bahasa Indonesia</a></li>\n                <li><a class='dropdown-item' href='/pt/'>PT Português</a></li>\n                <li><a class='dropdown-item' href='/th/'>TH ภาษาไทย</a></li>\n                <li><a class='dropdown-item' href='/vi/'>VI Tiếng Việt</a></li>\n                -->\n              </ul>\n            </li>\n          </ul>\n    \n          <form class=\"d-flex\" role=\"search\" action=\"search\">\n            <input class=\"form-control me-2 ui-autocomplete-input\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\" id=\"navautosearch\" name=\"q\" autocomplete=\"off\">\n          </form>\n    \n        </div>\n      </div>\n    </nav>\n\n    <script> sidebar160(\"leftside_banner\", \"left\"); </script>\n    <script> sidebar160(\"rightside_banner\", \"right\"); </script>\n\n    <div class=\"page\">\n    <div class=\"page-content container\" role=\"main\">\n    <div class=\"text-center\">\n    <a href=\"Vorax_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S13_LegendStitching_03.webp\" class=\"size48\"></a>\n    <a href=\"Overrealm_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S12_LengJing_White01.webp\" class=\"size48\"></a>\n    <a href=\"Outlaw_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S11ChipMatching0_Icon.webp\" class=\"size48\"></a>\n    <a href=\"Sandlord_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/UI_Money_S10EquipEnchantMaterial_10_128.webp\" class=\"size48\"></a>\n    <a href=\"Arcana_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S9Pet_FateStar_128.webp\" class=\"size48\"></a>\n    <a href=\"The_Frozen_Canvas_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S8Gameplay_Snow2_128.webp\" class=\"size48\"></a>\n    <a href=\"Clockwork_Ballet_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_MysticTreeRespecPoint_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Whispering_Mist_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S6Gameplay_Tile_bench.webp\" class=\"size48\"></a>\n    <a href=\"Nightmare_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S5Gameplay_DreamTreasure_Almighty_C_128.webp\" class=\"size48\"></a>\n    <a href=\"Aeterna_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/S4/UI_S4Gameplay_talent01_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Cube_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S3Gameplay_Beads_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Blacksail_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S2BossTicket3_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Dark_Surge_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_Item_yimozhihe_Icon_128.webp\" class=\"size48\"></a>\n    </div>\n    <div class=\"text-center mb-2\"><a href=\"https://l.taptap.cn/SyBkGgT1?channel=rep-rep_voftpwn7cks\" target=\"_blank\"><img src=\"https://cdn.tlidb.com/image/torchlight/p3_20251226_cn.webp\" style=\"max-width: 100%;\"></a></div>\n    <ul class=\"nav nav-tabs d-flex flex-wrap\" role=\"tablist\"><li class=\"nav-item\" role=\"presentation\"><button class=\"nav-link active\" data-bs-toggle=\"tab\" role=\"tab\" aria-selected=\"true\" data-bs-target=\"#英雄\">英雄 /25 </button></li><li class=\"nav-item\" role=\"presentation\"><button class=\"nav-link\" data-bs-toggle=\"tab\" role=\"tab\" aria-selected=\"false\" data-bs-target=\"#英雄特性-帮助手册\" tabindex=\"-1\">英雄特性 - 帮助手册</button></li></ul><div class=\"tab-content\"><div id=\"英雄\" class=\"tab-pane fade show active\" role=\"tabpanel\"><div class=\"card mb-2 \">\n    <div class=\"card-header\">英雄 /25 </div>\n    <div class=\"collapse show\">\n    \n    \n    <script>\n$(document).ready(function () {\n    filterClick($('[name=filter]'));\n});\n</script>\n\n<form><div class=\"input-group my-2\">\n    <button class=\"btn btn-outline-secondary\" type=\"reset\">Reset</button>\n    <input name=\"filter\" class=\"form-control\" placeholder=\"Search\">\n</div></form><div class=\"row row-cols-1 row-cols-lg-2 g-2\"><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Anger\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Rehan/UI_Portrait_Rehan_01_128.webp\" class=\"size128\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a href=\"Anger\">狂人 雷恩|怒火</a><hr style=\"width: 80%\" class=\"mx-auto my-1\">攻击击中或受到伤害时，雷恩会产生怒气。怒气将提高雷恩的伤害。当怒气达到上限值，雷恩会自动进入暴气状态，大幅提高战斗属性。</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Seething_Silhouette\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Rehan/UI_Portrait_Rehan_02_128.webp\" class=\"size128\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a href=\"Seething_Silhouette\">狂人 雷恩|怒影</a><hr style=\"width: 80%\" class=\"mx-auto my-1\">雷恩受到远古祖灵的庇佑，将有几率召唤愠怒之灵协助自己作战。愠怒之灵会自动释放核心技能，帮助雷恩对抗强大的敌人。</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Ranger_of_Glory\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Carino/UI_Portrait_Carino_01_128.webp\" class=\"size128\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a href=\"Ranger_of_Glory\">圣枪 卡里诺|荣光游侠</a><hr style=\"width: 80%\" class=\"mx-auto my-1\">卡里诺以投射物的特殊弹药为战斗特色。当使用投射物类的技能时，卡里诺会通过不同的特殊弹药组合来辅助射击，战斗过程中会消耗弹药来强化本次技能。</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Lethal_Flash\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Carino/UI_Portrait_Carino_02_128.webp\" class=\"size128\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a href=\"Lethal_Flash\">圣枪 卡里诺|至暗掠影</a><hr style=\"width: 80%\" class=\"mx-auto my-1\">卡里诺以投射物的霰弹效应为战斗特色。卡里诺可以通过位移高效装填弹药，同时控制与敌人之间的距离，来提高击中收益。</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Zealot_of_War\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Carino/UI_Portrait_Carino_03_128.webp\" class=\"size128\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a href=\"Zealot_of_War\">圣枪 卡里诺|战火狂徒</a><hr style=\"width: 80%\" class=\"mx-auto my-1\">卡里诺以射击模式切换和温度控制作为战斗特色。卡里诺能够通过切换模式来应对不同的战斗需求。并且能通过消耗弹药来获得高额伤害加成，但也会因为枪口过热被迫强制装填。</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Wind_Stalker\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Erika/UI_Portrait_Erika_01_128.webp\" class=\"size128\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a href=\"Wind_Stalker\">猫眼 艾瑞卡|疾风追猎</a><hr style=\"width: 80%\" class=\"mx-auto my-1\">在战斗中，艾瑞卡能够通过快速移动和灵活的走位规避伤害并释放危险一击。移动一定距离后，艾瑞卡会获得追猎，移动更加迅捷，并提升连续攻击几率和伤害。</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Lightning_Shadow\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Erika/UI_Portrait_Erika_02_128.webp\" class=\"size128\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a href=\"Lightning_Shadow\">猫眼 艾瑞卡|电光猫影</a><hr style=\"width: 80%\" class=\"mx-auto my-1\">利用闪电驱动灰烬科技，获得高额增益<br>通过触发猫猫灵影快速对范围内的敌人施加麻痹异常，有效提高伤害</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Vendetta%27s_Sting\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Erika/UI_Portrait_Erika_03_128.webp\" class=\"size128\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a href=\"Vendetta%27s_Sting\">猫眼 艾瑞卡|寻仇之刺</a><hr style=\"width: 80%\" class=\"mx-auto my-1\">化身刺客的艾瑞卡，疾速穿梭于敌群之中，施展迅猛而凌厉的近身攻击。</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Blast_Nova\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Bing/UI_Portrait_Bing_01_128.webp\" class=\"size128\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a href=\"Blast_Nova\">逃脱者 宾|爆破新星</a><hr style=\"width: 80%\" class=\"mx-auto my-1\">宾可以将大量投射物封装进他精致而又危险的炸弹中，通过快速投掷多枚炸弹，在瞬间引爆，释放出巨大伤害。</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Creative_Genius\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Bing/UI_Portrait_Bing_02_128.webp\" class=\"size128\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a href=\"Creative_Genius\">逃脱者 宾|创想鬼才</a><hr style=\"width: 80%\" class=\"mx-auto my-1\">宾携带两个灵感机，使用奇思素和妙想素为其充能，释放增加敌人受到法术伤害的奇思爆破，以及超强力法术迸发的妙想超载！</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Flame_of_Pleasure\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Gemma/UI_Portrait_Gemma_03_128.webp\" class=\"size128\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a href=\"Flame_of_Pleasure\">冰焰 吉玛|欢愉之焰</a><hr style=\"width: 80%\" class=\"mx-auto my-1\">能够释放炼狱，大幅削弱炼狱中的敌人，提高自己造成的伤害。</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Frostbitten_Heart\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Gemma/UI_Portrait_Gemma_02_128.webp\" class=\"size128\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a href=\"Frostbitten_Heart\">冰焰 吉玛|冰结之心</a><hr style=\"width: 80%\" class=\"mx-auto my-1\">使用冰冷技能时，吉玛会获得冰能量，冰能量能够增加冰冷伤害和冰结几率。冰能量达到上限时会释放冰霜脉冲，造成大量冰冷伤害。</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Ice-Fire_Fusion\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Gemma/UI_Portrait_Gemma_01_128.webp\" class=\"size128\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a href=\"Ice-Fire_Fusion\">冰焰 吉玛|冰火融合</a><hr style=\"width: 80%\" class=\"mx-auto my-1\">冰与火的力量在吉玛体内交融，相互增强彼此。使用冰冷和火焰技能时，吉玛将获得融合能量，当融合能量达到上限时，可以使用冰火暴走，提升伤害。</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Wisdom_of_The_Gods\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Thea/UI_Portrait_Thea_01_128.webp\" class=\"size128\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a href=\"Wisdom_of_The_Gods\">神谕者 希雅|众神之伟智</a><hr style=\"width: 80%\" class=\"mx-auto my-1\">希雅能够自如地获取和使用坚韧，聚能和灵动三种祝福，消耗祝福会强化即将到来的神赐，为自身带来增益。</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Incarnation_of_the_Gods\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Thea/UI_Portrait_Thea_02_128.webp\" class=\"size128\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a href=\"Incarnation_of_the_Gods\">神谕者 希雅|众神之化身</a><hr style=\"width: 80%\" class=\"mx-auto my-1\">希雅运用祝福在地上国度展开神域。在神域外时，希雅可以运用灵动祝福与敌人周旋；而进入神域后希雅将利用坚韧祝福对抗强大的敌人。</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Blasphemer\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Thea/UI_Portrait_Thea_03_128.webp\" class=\"size128\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a href=\"Blasphemer\">神谕者 希雅|渎神</a><hr style=\"width: 80%\" class=\"mx-auto my-1\">希雅将祝福转化为亵渎之力，既能够提升对单个敌人的腐蚀伤害，还能够造成大范围的腐蚀爆炸</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Spacetime_Illusion\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Youga/UI_Portrait_Youga_01_128.webp\" class=\"size128\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a href=\"Spacetime_Illusion\">时空见证者 尤加|时空幻象</a><hr style=\"width: 80%\" class=\"mx-auto my-1\">尤加能够以自身为坐标创造一片扭曲时空，身在其中能得到数种加成。此外，尤加能够在扭曲时空中召唤一个幻象，幻象将与本体协同作战，并且能够独立施法。</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Spacetime_Elapse\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Youga/UI_Portrait_Youga_02_128.webp\" class=\"size128\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a href=\"Spacetime_Elapse\">时空见证者 尤加|时空流逝</a><hr style=\"width: 80%\" class=\"mx-auto my-1\">尤加通过对敌人施放扭曲时空，使敌人遭受持续伤害。移动扭曲时空后，尤加能够对身处其中的敌人施加时空乱流，加速敌人身上持续伤害的生效速度，并提高持续伤害。</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Order_Calling\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Moto/UI_Portrait_Moto_01_128.webp\" class=\"size128\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a href=\"Order_Calling\">指挥官 莫托|号令征召</a><hr style=\"width: 80%\" class=\"mx-auto my-1\">莫托指挥智械同敌人作战。在战斗中，莫托会频繁为召唤物施加超载，提升它们的生命，速度和攻击力等能力，让这支钢铁大军为他冲锋陷阵。</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Charge_Calling\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Moto/UI_Portrait_Moto_02_128.webp\" class=\"size128\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a href=\"Charge_Calling\">指挥官 莫托|冲锋征召</a><hr style=\"width: 80%\" class=\"mx-auto my-1\">莫托指挥智械冲向敌人并使其自爆，对敌人造成巨额伤害。在战斗中，莫托可以通过超载在短时间内快速召唤智械，提升爆炸效率，增强战斗属性。</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"High_Court_Chariot\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Rosa/UI_Portrait_Rosa_01_128.webp\" class=\"size128\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a href=\"High_Court_Chariot\">光曜 罗莎|圣庭战车</a><hr style=\"width: 80%\" class=\"mx-auto my-1\">可以使用圣光领域将敌人强制聚拢，并在圣光领域中获得增益</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Unsullied_Blade\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Rosa/UI_Portrait_Rosa_02_128.webp\" class=\"size128\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a href=\"Unsullied_Blade\">光曜 罗莎|无垢之刃</a><hr style=\"width: 80%\" class=\"mx-auto my-1\">可以通过魔力相关的养成，对秘银净土内的敌人造成高额元素伤害</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Growing_Breeze\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Iris/UI_Portrait_Iris_01_128.webp\" class=\"size128\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a href=\"Growing_Breeze\">遗世魔灵 伊瑞斯|生长的微风</a><hr style=\"width: 80%\" class=\"mx-auto my-1\">与魔灵伙伴们一起作战，可以为魔灵们施加增益，加速魔灵的生长</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Vigilant_Breeze\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Iris/UI_Portrait_Iris_02_128.webp\" class=\"size128\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a href=\"Vigilant_Breeze\">遗世魔灵 伊瑞斯|守望的暖风</a><hr style=\"width: 80%\" class=\"mx-auto my-1\">伊瑞斯与魔灵融合，进入守望状态，使用魔灵技能进行战斗，并为魔灵施加暖风增强他们的伤害</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><a href=\"Sing_with_the_Tide\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Selena/UI_Portrait_Selena_01_128.webp\" class=\"size128\" loading=\"lazy\"></a></div><div class=\"flex-grow-1 mx-2 my-1\"><a href=\"Sing_with_the_Tide\">汐语 赛琳娜|与海潮同歌</a><hr style=\"width: 80%\" class=\"mx-auto my-1\">在吟游形态时，可以在移动期间将技能裹入泡沫之中，当泡沫破裂时，在对应的位置使用一次对应技能，并铺设海潮。在高歌形态时，则能够站在海潮里造成更高额的伤害</div></div></div></div>\n    \n    </div>\n</div></div><div id=\"英雄特性-帮助手册\" class=\"tab-pane fade\" role=\"tabpanel\"><div class=\"card\">\n  <div class=\"card-header\">英雄特性 - 帮助手册</div>\n  <div class=\"card-body\">\n    <img src=\"https://cdn.tlidb.com/UI/Textures/Common/ResError/NoAtlas/UI_ResError_Unknow.webp\" loading=\"lazy\">\n    <p class=\"card-text\"><richtext id=\"1433\">英雄特性<richtext>可以帮助英雄塑造自己的战斗风格，达到等级后即可选择不同的英雄特性分支。<br>可以点击英雄特性的图标，来使用其特殊的能力。</richtext></richtext></p>\n  </div>\n</div>\n</div></div>\n    </div>\n    </div>\n\n    <footer class=\"text-center text-lg-left container mt-2\">\n      <div class=\"card p-4\">\n        <div class=\"row\">\n\n          <div class=\"col-lg-3 col-md-12 mb-4 mb-md-0\">\n            <h5 class=\"text-uppercase\">Sites</h5>\n            <ul class=\"list-unstyled mb-0\">\n              <li> <a target=\"_blank\" href=\"https://poedb.tw/\">poedb.tw</a> </li>\n              <li> <a target=\"_blank\" href=\"https://tlidb.com/\">tlidb.com</a> </li>\n              <!--<li> <a target=\"_blank\" href=\"https://diablo4.cc/\">diablo4.cc</a> </li>-->\n              <li> <a target=\"_blank\" href=\"https://poe2db.tw/\">poe2db.tw</a> </li>\n              <li> <a target=\"_blank\" href=\"https://paldb.cc/\">paldb.cc</a> </li>\n            </ul>\n          </div>\n\n          <div class=\"col-lg-3 col-md-12 mb-4 mb-md-0\">\n            <h5 class=\"text-uppercase\">About Site</h5>\n            <ul class=\"list-unstyled mb-0\">\n              <li><a href=\"privacy\">Privacy</a></li>\n              <li> <a target=\"_blank\" href=\"https://www.reddit.com/user/chuanhsing\">About US</a> </li>\n            </ul>\n          </div>\n\n          <div class=\"col-lg-3 col-md-6 mb-4 mb-md-0\">\n            <h5 class=\"text-uppercase\">Community</h5>\n            <ul class=\"list-unstyled mb-0\">\n            </ul>\n          </div>\n\n        </div>\n      </div>\n      <div class=\"p-3\">\n\n      <span>资料库内容为测试资料，正确资讯请以官方游戏内的内容为准。</span>\n      </div>\n    </footer>\n\n    <a href=\"#top\" id=\"toTop\"><span class=\"fas fa-arrow-circle-up fa-3x\"></span></a>\n    <div id=\"consent-box\" style=\"display:none\">\n      <button onclick=\"window.__cmp('showModal');\">\n        Update cookie preferences\n      </button>\n    </div>\n    \n    <script>\n      if (window[\"nitroAds\"] && window[\"nitroAds\"].loaded) {\n        document.getElementById(\"consent-box\").style.display = window[\"__tcfapi\"]\n          ? \"\"\n          : \"none\";\n      } else {\n        document.addEventListener(\n          \"nitroAds.loaded\",\n          () =>\n            (document.getElementById(\"consent-box\").style.display = window[\"__tcfapi\"]\n              ? \"\"\n              : \"none\")\n        );\n      }\n    </script>\n  <script defer=\"\" src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon=\"{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;83af079277c347f9ba9fc040e0d21cb5&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}\" crossorigin=\"anonymous\"></script>\n\n\n<ul id=\"ui-id-1\" tabindex=\"0\" class=\"ui-menu ui-widget ui-widget-content ui-autocomplete ui-front\" unselectable=\"on\" style=\"display: none;\"></ul><div role=\"status\" aria-live=\"assertive\" aria-relevant=\"additions\" class=\"ui-helper-hidden-accessible\"></div><iframe marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" id=\"1345a80a8f7aa98\" width=\"0\" height=\"0\" src=\"about:blank\" name=\"__pb_locator__\" style=\"display: none; height: 0px; width: 0px; border: 0px;\"></iframe><iframe name=\"__uspapiLocator\" style=\"display: none;\"></iframe>",
+    "content": "火炬编年史\n英雄\n仓库\n技能\n打造\n成就\n异界\n商城\n            \n英雄 /25\n英雄特性 - 帮助手册\n英雄 /25\nReset\n狂人 雷恩|怒火\n攻击击中或受到伤害时，雷恩会产生怒气。怒气将提高雷恩的伤害。当怒气达到上限值，雷恩会自动进入暴气状态，大幅提高战斗属性。\n狂人 雷恩|怒影\n雷恩受到远古祖灵的庇佑，将有几率召唤愠怒之灵协助自己作战。愠怒之灵会自动释放核心技能，帮助雷恩对抗强大的敌人。\n圣枪 卡里诺|荣光游侠\n卡里诺以投射物的特殊弹药为战斗特色。当使用投射物类的技能时，卡里诺会通过不同的特殊弹药组合来辅助射击，战斗过程中会消耗弹药来强化本次技能。\n圣枪 卡里诺|至暗掠影\n卡里诺以投射物的霰弹效应为战斗特色。卡里诺可以通过位移高效装填弹药，同时控制与敌人之间的距离，来提高击中收益。\n圣枪 卡里诺|战火狂徒\n卡里诺以射击模式切换和温度控制作为战斗特色。卡里诺能够通过切换模式来应对不同的战斗需求。并且能通过消耗弹药来获得高额伤害加成，但也会因为枪口过热被迫强制装填。\n猫眼 艾瑞卡|疾风追猎\n在战斗中，艾瑞卡能够通过快速移动和灵活的走位规避伤害并释放危险一击。移动一定距离后，艾瑞卡会获得追猎，移动更加迅捷，并提升连续攻击几率和伤害。\n猫眼 艾瑞卡|电光猫影\n利用闪电驱动灰烬科技，获得高额增益\n通过触发猫猫灵影快速对范围内的敌人施加麻痹异常，有效提高伤害\n猫眼 艾瑞卡|寻仇之刺\n化身刺客的艾瑞卡，疾速穿梭于敌群之中，施展迅猛而凌厉的近身攻击。\n逃脱者 宾|爆破新星\n宾可以将大量投射物封装进他精致而又危险的炸弹中，通过快速投掷多枚炸弹，在瞬间引爆，释放出巨大伤害。\n逃脱者 宾|创想鬼才\n宾携带两个灵感机，使用奇思素和妙想素为其充能，释放增加敌人受到法术伤害的奇思爆破，以及超强力法术迸发的妙想超载！\n冰焰 吉玛|欢愉之焰\n能够释放炼狱，大幅削弱炼狱中的敌人，提高自己造成的伤害。\n冰焰 吉玛|冰结之心\n使用冰冷技能时，吉玛会获得冰能量，冰能量能够增加冰冷伤害和冰结几率。冰能量达到上限时会释放冰霜脉冲，造成大量冰冷伤害。\n冰焰 吉玛|冰火融合\n冰与火的力量在吉玛体内交融，相互增强彼此。使用冰冷和火焰技能时，吉玛将获得融合能量，当融合能量达到上限时，可以使用冰火暴走，提升伤害。\n神谕者 希雅|众神之伟智\n希雅能够自如地获取和使用坚韧，聚能和灵动三种祝福，消耗祝福会强化即将到来的神赐，为自身带来增益。\n神谕者 希雅|众神之化身\n希雅运用祝福在地上国度展开神域。在神域外时，希雅可以运用灵动祝福与敌人周旋；而进入神域后希雅将利用坚韧祝福对抗强大的敌人。\n神谕者 希雅|渎神\n希雅将祝福转化为亵渎之力，既能够提升对单个敌人的腐蚀伤害，还能够造成大范围的腐蚀爆炸\n时空见证者 尤加|时空幻象\n尤加能够以自身为坐标创造一片扭曲时空，身在其中能得到数种加成。此外，尤加能够在扭曲时空中召唤一个幻象，幻象将与本体协同作战，并且能够独立施法。\n时空见证者 尤加|时空流逝\n尤加通过对敌人施放扭曲时空，使敌人遭受持续伤害。移动扭曲时空后，尤加能够对身处其中的敌人施加时空乱流，加速敌人身上持续伤害的生效速度，并提高持续伤害。\n指挥官 莫托|号令征召\n莫托指挥智械同敌人作战。在战斗中，莫托会频繁为召唤物施加超载，提升它们的生命，速度和攻击力等能力，让这支钢铁大军为他冲锋陷阵。\n指挥官 莫托|冲锋征召\n莫托指挥智械冲向敌人并使其自爆，对敌人造成巨额伤害。在战斗中，莫托可以通过超载在短时间内快速召唤智械，提升爆炸效率，增强战斗属性。\n光曜 罗莎|圣庭战车\n可以使用圣光领域将敌人强制聚拢，并在圣光领域中获得增益\n光曜 罗莎|无垢之刃\n可以通过魔力相关的养成，对秘银净土内的敌人造成高额元素伤害\n遗世魔灵 伊瑞斯|生长的微风\n与魔灵伙伴们一起作战，可以为魔灵们施加增益，加速魔灵的生长\n遗世魔灵 伊瑞斯|守望的暖风\n伊瑞斯与魔灵融合，进入守望状态，使用魔灵技能进行战斗，并为魔灵施加暖风增强他们的伤害\n汐语 赛琳娜|与海潮同歌\n在吟游形态时，可以在移动期间将技能裹入泡沫之中，当泡沫破裂时，在对应的位置使用一次对应技能，并铺设海潮。在高歌形态时，则能够站在海潮里造成更高额的伤害\nSITES\npoedb.tw\ntlidb.com\npoe2db.tw\npaldb.cc\nABOUT SITE\nPrivacy\nAbout US\nCOMMUNITY\n资料库内容为测试资料，正确资讯请以官方游戏内的内容为准。",
+    "tables": [],
+    "lists": [
+      [
+        "英雄\n              \n                英雄\n                天赋",
+        "英雄",
+        "天赋",
+        "仓库\n              \n                仓库\n                传奇装备\n                异度棱镜\n                \n                契灵\n                \n                掉落来源\n                命运",
+        "仓库",
+        "传奇装备",
+        "异度棱镜",
+        "契灵",
+        "掉落来源",
+        "命运",
+        "技能\n              \n                主动技能\n                辅助技能\n                被动技能\n                \n                触媒技能\n                崇高辅助技能\n                华贵辅助技能\n                提示\n                Hyperlink",
+        "主动技能",
+        "辅助技能",
+        "被动技能",
+        "触媒技能",
+        "崇高辅助技能",
+        "华贵辅助技能",
+        "提示",
+        "Hyperlink",
+        "打造\n              \n                打造\n                \n                侵蚀\n                装备赋能\n                梦语\n                调香秘仪\n                高塔序列\n                缝合",
+        "打造",
+        "侵蚀",
+        "装备赋能",
+        "梦语",
+        "调香秘仪",
+        "高塔序列",
+        "缝合",
+        "成就\n              \n                \n                成长之路\n                \n                \n                \n                \n                帮助手册\n                情报",
+        "成长之路",
+        "",
+        "帮助手册",
+        "情报",
+        "异界\n              \n                异界\n                \n                混乱牌库\n                虚空星图\n                罗盘\n                赛季罗盘\n                \n                勇者之路",
+        "异界",
+        "混乱牌库",
+        "虚空星图",
+        "罗盘",
+        "赛季罗盘",
+        "",
+        "勇者之路",
+        "商城\n              \n    \n                时装\n                通货\n                恩赐",
+        "时装",
+        "通货",
+        "恩赐"
+      ],
+      [
+        "英雄",
+        "天赋"
+      ],
+      [
+        "仓库",
+        "传奇装备",
+        "异度棱镜",
+        "契灵",
+        "掉落来源",
+        "命运"
+      ],
+      [
+        "主动技能",
+        "辅助技能",
+        "被动技能",
+        "触媒技能",
+        "崇高辅助技能",
+        "华贵辅助技能",
+        "提示",
+        "Hyperlink"
+      ],
+      [
+        "打造",
+        "侵蚀",
+        "装备赋能",
+        "梦语",
+        "调香秘仪",
+        "高塔序列",
+        "缝合"
+      ],
+      [
+        "成长之路",
+        "",
+        "帮助手册",
+        "情报"
+      ],
+      [
+        "异界",
+        "混乱牌库",
+        "虚空星图",
+        "罗盘",
+        "赛季罗盘",
+        "",
+        "勇者之路"
+      ],
+      [
+        "时装",
+        "通货",
+        "恩赐"
+      ],
+      [
+        "EN English\n                TW 繁體中文\n                CN 简体中文\n                KO 한국어\n                JA Japanese\n                RU Русский",
+        "EN English",
+        "TW 繁體中文",
+        "CN 简体中文",
+        "KO 한국어",
+        "JA Japanese",
+        "RU Русский"
+      ],
+      [
+        "EN English",
+        "TW 繁體中文",
+        "CN 简体中文",
+        "KO 한국어",
+        "JA Japanese",
+        "RU Русский"
+      ],
+      [
+        "英雄 /25",
+        "英雄特性 - 帮助手册"
+      ],
+      [
+        "poedb.tw",
+        "tlidb.com",
+        "poe2db.tw",
+        "paldb.cc"
+      ],
+      [
+        "Privacy",
+        "About US"
+      ]
+    ],
+    "links": [
+      {
+        "href": "https://tlidb.com/cn/",
+        "text": "火炬编年史"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hero#",
+        "text": "英雄"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hero",
+        "text": "英雄"
+      },
+      {
+        "href": "https://tlidb.com/cn/Talent",
+        "text": "天赋"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hero#",
+        "text": "仓库"
+      },
+      {
+        "href": "https://tlidb.com/cn/Inventory",
+        "text": "仓库"
+      },
+      {
+        "href": "https://tlidb.com/cn/Legendary_Gear",
+        "text": "传奇装备"
+      },
+      {
+        "href": "https://tlidb.com/cn/Ethereal_Prism",
+        "text": "异度棱镜"
+      },
+      {
+        "href": "https://tlidb.com/cn/Pactspirit",
+        "text": "契灵"
+      },
+      {
+        "href": "https://tlidb.com/cn/Drop_Source",
+        "text": "掉落来源"
+      },
+      {
+        "href": "https://tlidb.com/cn/Destiny",
+        "text": "命运"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hero#",
+        "text": "技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Active_Skill",
+        "text": "主动技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Support_Skill",
+        "text": "辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Passive_Skill",
+        "text": "被动技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Activation_Medium_Skill",
+        "text": "触媒技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Noble_Support_Skill",
+        "text": "崇高辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Magnificent_Support_Skill",
+        "text": "华贵辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Tip",
+        "text": "提示"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hyperlink",
+        "text": "Hyperlink"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hero#",
+        "text": "打造"
+      },
+      {
+        "href": "https://tlidb.com/cn/Craft",
+        "text": "打造"
+      },
+      {
+        "href": "https://tlidb.com/cn/Corrosion",
+        "text": "侵蚀"
+      },
+      {
+        "href": "https://tlidb.com/cn/Gear_Empowerment",
+        "text": "装备赋能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Dream_Talking",
+        "text": "梦语"
+      },
+      {
+        "href": "https://tlidb.com/cn/Blending_Rituals",
+        "text": "调香秘仪"
+      },
+      {
+        "href": "https://tlidb.com/cn/TOWER_Sequence",
+        "text": "高塔序列"
+      },
+      {
+        "href": "https://tlidb.com/cn/Graft",
+        "text": "缝合"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hero#",
+        "text": "成就"
+      },
+      {
+        "href": "https://tlidb.com/cn/Path_of_Progression",
+        "text": "成长之路"
+      },
+      {
+        "href": "https://tlidb.com/cn/Help",
+        "text": "帮助手册"
+      },
+      {
+        "href": "https://tlidb.com/cn/Codex",
+        "text": "情报"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hero#",
+        "text": "异界"
+      },
+      {
+        "href": "https://tlidb.com/cn/Netherrealm",
+        "text": "异界"
+      },
+      {
+        "href": "https://tlidb.com/cn/Confusion_Card_Library",
+        "text": "混乱牌库"
+      },
+      {
+        "href": "https://tlidb.com/cn/Void_Chart",
+        "text": "虚空星图"
+      },
+      {
+        "href": "https://tlidb.com/cn/Compass",
+        "text": "罗盘"
+      },
+      {
+        "href": "https://tlidb.com/cn/Probe",
+        "text": "赛季罗盘"
+      },
+      {
+        "href": "https://tlidb.com/cn/Path_of_the_Brave",
+        "text": "勇者之路"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hero#",
+        "text": "商城"
+      },
+      {
+        "href": "https://tlidb.com/cn/Outfit",
+        "text": "时装"
+      },
+      {
+        "href": "https://tlidb.com/cn/Commodity",
+        "text": "通货"
+      },
+      {
+        "href": "https://tlidb.com/cn/Boon",
+        "text": "恩赐"
+      },
+      {
+        "href": "https://tlidb.com/en/Hero",
+        "text": "EN English"
+      },
+      {
+        "href": "https://tlidb.com/tw/Hero",
+        "text": "TW 繁體中文"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hero",
+        "text": "CN 简体中文"
+      },
+      {
+        "href": "https://tlidb.com/ko/Hero",
+        "text": "KO 한국어"
+      },
+      {
+        "href": "https://tlidb.com/ja/Hero",
+        "text": "JA Japanese"
+      },
+      {
+        "href": "https://tlidb.com/ru/Hero",
+        "text": "RU Русский"
+      },
+      {
+        "href": "https://tlidb.com/cn/Anger",
+        "text": "狂人 雷恩|怒火"
+      },
+      {
+        "href": "https://tlidb.com/cn/Seething_Silhouette",
+        "text": "狂人 雷恩|怒影"
+      },
+      {
+        "href": "https://tlidb.com/cn/Ranger_of_Glory",
+        "text": "圣枪 卡里诺|荣光游侠"
+      },
+      {
+        "href": "https://tlidb.com/cn/Lethal_Flash",
+        "text": "圣枪 卡里诺|至暗掠影"
+      },
+      {
+        "href": "https://tlidb.com/cn/Zealot_of_War",
+        "text": "圣枪 卡里诺|战火狂徒"
+      },
+      {
+        "href": "https://tlidb.com/cn/Wind_Stalker",
+        "text": "猫眼 艾瑞卡|疾风追猎"
+      },
+      {
+        "href": "https://tlidb.com/cn/Lightning_Shadow",
+        "text": "猫眼 艾瑞卡|电光猫影"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vendetta%27s_Sting",
+        "text": "猫眼 艾瑞卡|寻仇之刺"
+      },
+      {
+        "href": "https://tlidb.com/cn/Blast_Nova",
+        "text": "逃脱者 宾|爆破新星"
+      },
+      {
+        "href": "https://tlidb.com/cn/Creative_Genius",
+        "text": "逃脱者 宾|创想鬼才"
+      },
+      {
+        "href": "https://tlidb.com/cn/Flame_of_Pleasure",
+        "text": "冰焰 吉玛|欢愉之焰"
+      },
+      {
+        "href": "https://tlidb.com/cn/Frostbitten_Heart",
+        "text": "冰焰 吉玛|冰结之心"
+      },
+      {
+        "href": "https://tlidb.com/cn/Ice-Fire_Fusion",
+        "text": "冰焰 吉玛|冰火融合"
+      },
+      {
+        "href": "https://tlidb.com/cn/Wisdom_of_The_Gods",
+        "text": "神谕者 希雅|众神之伟智"
+      },
+      {
+        "href": "https://tlidb.com/cn/Incarnation_of_the_Gods",
+        "text": "神谕者 希雅|众神之化身"
+      },
+      {
+        "href": "https://tlidb.com/cn/Blasphemer",
+        "text": "神谕者 希雅|渎神"
+      },
+      {
+        "href": "https://tlidb.com/cn/Spacetime_Illusion",
+        "text": "时空见证者 尤加|时空幻象"
+      },
+      {
+        "href": "https://tlidb.com/cn/Spacetime_Elapse",
+        "text": "时空见证者 尤加|时空流逝"
+      },
+      {
+        "href": "https://tlidb.com/cn/Order_Calling",
+        "text": "指挥官 莫托|号令征召"
+      },
+      {
+        "href": "https://tlidb.com/cn/Charge_Calling",
+        "text": "指挥官 莫托|冲锋征召"
+      },
+      {
+        "href": "https://tlidb.com/cn/High_Court_Chariot",
+        "text": "光曜 罗莎|圣庭战车"
+      },
+      {
+        "href": "https://tlidb.com/cn/Unsullied_Blade",
+        "text": "光曜 罗莎|无垢之刃"
+      },
+      {
+        "href": "https://tlidb.com/cn/Growing_Breeze",
+        "text": "遗世魔灵 伊瑞斯|生长的微风"
+      },
+      {
+        "href": "https://tlidb.com/cn/Vigilant_Breeze",
+        "text": "遗世魔灵 伊瑞斯|守望的暖风"
+      },
+      {
+        "href": "https://tlidb.com/cn/Sing_with_the_Tide",
+        "text": "汐语 赛琳娜|与海潮同歌"
+      },
+      {
+        "href": "https://poedb.tw/",
+        "text": "poedb.tw"
+      },
+      {
+        "href": "https://tlidb.com/",
+        "text": "tlidb.com"
+      },
+      {
+        "href": "https://poe2db.tw/",
+        "text": "poe2db.tw"
+      },
+      {
+        "href": "https://paldb.cc/",
+        "text": "paldb.cc"
+      },
+      {
+        "href": "https://tlidb.com/cn/privacy",
+        "text": "Privacy"
+      },
+      {
+        "href": "https://www.reddit.com/user/chuanhsing",
+        "text": "About US"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S13_LegendStitching_03.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S12_LengJing_White01.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S11ChipMatching0_Icon.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/UI_Money_S10EquipEnchantMaterial_10_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S9Pet_FateStar_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S8Gameplay_Snow2_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_MysticTreeRespecPoint_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S6Gameplay_Tile_bench.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S5Gameplay_DreamTreasure_Almighty_C_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/S4/UI_S4Gameplay_talent01_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S3Gameplay_Beads_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S2BossTicket3_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_Item_yimozhihe_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/image/torchlight/p3_20251226_cn.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Rehan/UI_Portrait_Rehan_01_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Rehan/UI_Portrait_Rehan_02_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Carino/UI_Portrait_Carino_01_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Carino/UI_Portrait_Carino_02_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Carino/UI_Portrait_Carino_03_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Erika/UI_Portrait_Erika_01_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Erika/UI_Portrait_Erika_02_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Erika/UI_Portrait_Erika_03_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Bing/UI_Portrait_Bing_01_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Bing/UI_Portrait_Bing_02_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Gemma/UI_Portrait_Gemma_03_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Gemma/UI_Portrait_Gemma_02_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Gemma/UI_Portrait_Gemma_01_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Thea/UI_Portrait_Thea_01_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Thea/UI_Portrait_Thea_02_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Thea/UI_Portrait_Thea_03_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Youga/UI_Portrait_Youga_01_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Youga/UI_Portrait_Youga_02_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Moto/UI_Portrait_Moto_01_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Moto/UI_Portrait_Moto_02_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Rosa/UI_Portrait_Rosa_01_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Rosa/UI_Portrait_Rosa_02_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Iris/UI_Portrait_Iris_01_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Iris/UI_Portrait_Iris_02_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Selena/UI_Portrait_Selena_01_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/ResError/NoAtlas/UI_ResError_Unknow.webp",
+        "alt": ""
+      }
+    ],
+    "meta": {
+      "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+      "color-scheme": "dark"
+    },
+    "structured_data": {}
+  }
+]

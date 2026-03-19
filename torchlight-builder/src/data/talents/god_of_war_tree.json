@@ -1,0 +1,657 @@
+{
+  "id": "god_of_war",
+  "name": "征战之神",
+  "godType": "war",
+  "description": "雷尔夫，永恒战场的不败冠军",
+  "tags": [
+    "物理"
+  ],
+  "totalPoints": 30,
+  "allocatedPoints": 0,
+  "coreRequiredPoints": 12,
+  "coreTalents": [
+    {
+      "id": "core_0",
+      "name": "凝聚",
+      "type": "legendary",
+      "description": "每隔 1 秒，下一次核心技能额外 +50% 暴击值 （神格生效上限：1）",
+      "effects": [
+        "每隔 1 秒，下一次核心技能额外 +50% 暴击值 （神格生效上限：1）"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 0,
+        "col": 0,
+        "x": 150,
+        "y": 30
+      },
+      "connections": [],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_ningju_Icon_128.webp"
+    },
+    {
+      "id": "core_1",
+      "name": "钝器",
+      "type": "legendary",
+      "description": "额外 +30% 物理伤害\n敌人 +20% 受伤缓冲 （神格生效上限：1）",
+      "effects": [
+        "额外 +30% 物理伤害",
+        "敌人 +20% 受伤缓冲 （神格生效上限：1）"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 0,
+        "col": 1,
+        "x": 350,
+        "y": 30
+      },
+      "connections": [],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_dunqi_Icon_128.webp"
+    },
+    {
+      "id": "core_2",
+      "name": "坚强",
+      "type": "legendary",
+      "description": "受到巨额伤害后，50% 几率保留 1 点生命 （神格生效上限：1）",
+      "effects": [
+        "受到巨额伤害后，50% 几率保留 1 点生命 （神格生效上限：1）"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 0,
+        "col": 2,
+        "x": 550,
+        "y": 30
+      },
+      "connections": [],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_jianqiang_Icon_128.webp"
+    },
+    {
+      "id": "core_3",
+      "name": "野心",
+      "type": "legendary",
+      "description": "击中时，+100% 几率获得 10 点战意值\n周围有敌人时，获得战意 （神格生效上限：1）",
+      "effects": [
+        "击中时，+100% 几率获得 10 点战意值",
+        "周围有敌人时，获得战意 （神格生效上限：1）"
+      ],
+      "requiredPoints": 24,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 0,
+        "col": 3,
+        "x": 750,
+        "y": 30
+      },
+      "connections": [],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_yexin_Icon_128.webp"
+    },
+    {
+      "id": "core_4",
+      "name": "引力",
+      "type": "legendary",
+      "description": "额外 +25% 近战伤害\n近战技能具有反向击退 （神格生效上限：1）",
+      "effects": [
+        "额外 +25% 近战伤害",
+        "近战技能具有反向击退 （神格生效上限：1）"
+      ],
+      "requiredPoints": 24,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 0,
+        "col": 4,
+        "x": 950,
+        "y": 30
+      },
+      "connections": [],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_yinli_Icon_128.webp"
+    },
+    {
+      "id": "core_5",
+      "name": "流矢",
+      "type": "legendary",
+      "description": "额外 +25% 投射物伤害\n+50% 击退距离 （神格生效上限：1）",
+      "effects": [
+        "额外 +25% 投射物伤害",
+        "+50% 击退距离 （神格生效上限：1）"
+      ],
+      "requiredPoints": 24,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 0,
+        "col": 5,
+        "x": 1150,
+        "y": 30
+      },
+      "connections": [],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_liushi_Icon_128.webp"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "node_9",
+      "name": "+9% 伤害",
+      "type": "small",
+      "effects": [
+        "+9% 伤害"
+      ],
+      "requiredPoints": 0,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 0,
+        "x": 96.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_10"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+    },
+    {
+      "id": "node_10",
+      "name": "+18% 伤害",
+      "type": "notable",
+      "effects": [
+        "+18% 伤害"
+      ],
+      "requiredPoints": 3,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 1,
+        "x": 224.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_9"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+    },
+    {
+      "id": "node_5",
+      "name": "+15% 暴击值",
+      "type": "small",
+      "effects": [
+        "+15% 暴击值"
+      ],
+      "requiredPoints": 3,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 1,
+        "x": 224.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_6"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit04_64.webp"
+    },
+    {
+      "id": "node_16",
+      "name": "+6% 技能范围",
+      "type": "small",
+      "effects": [
+        "+6% 技能范围",
+        "+6% 投射物速度"
+      ],
+      "requiredPoints": 3,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 1,
+        "x": 224.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_17"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp"
+    },
+    {
+      "id": "node_6",
+      "name": "+25% 暴击值",
+      "type": "notable",
+      "effects": [
+        "+25% 暴击值",
+        "-4 技能消耗"
+      ],
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 2,
+        "x": 352.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_5"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit02_64.webp"
+    },
+    {
+      "id": "node_17",
+      "name": "+12% 技能范围",
+      "type": "notable",
+      "effects": [
+        "+12% 技能范围",
+        "+12% 投射物速度"
+      ],
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 2,
+        "x": 352.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_16"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp"
+    },
+    {
+      "id": "node_0",
+      "name": "+3% 攻击与施法速度",
+      "type": "small",
+      "effects": [
+        "+3% 攻击与施法速度"
+      ],
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 2,
+        "x": 352.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_1"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/CastSpeed_64.webp"
+    },
+    {
+      "id": "node_11",
+      "name": "+2% 攻击格挡率",
+      "type": "small",
+      "effects": [
+        "+2% 攻击格挡率",
+        "+2% 法术格挡率"
+      ],
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 2,
+        "x": 352.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_12"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp"
+    },
+    {
+      "id": "node_20",
+      "name": "+3% 最大生命",
+      "type": "small",
+      "effects": [
+        "+3% 最大生命",
+        "+3% 最大护盾"
+      ],
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 2,
+        "x": 352.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_21"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Aura_64.webp"
+    },
+    {
+      "id": "node_1",
+      "name": "+6% 攻击与施法速度",
+      "type": "notable",
+      "effects": [
+        "+6% 攻击与施法速度"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 3,
+        "x": 480.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_0"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/CastSpeed_64.webp"
+    },
+    {
+      "id": "node_12",
+      "name": "+4% 攻击格挡率",
+      "type": "notable",
+      "effects": [
+        "+4% 攻击格挡率",
+        "+4% 法术格挡率"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 3,
+        "x": 480.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_11",
+        "node_13"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Block_64.webp"
+    },
+    {
+      "id": "node_21",
+      "name": "+6% 最大生命",
+      "type": "notable",
+      "effects": [
+        "+6% 最大生命",
+        "+6% 最大护盾"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 3,
+        "x": 480.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_20"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Aura_64.webp"
+    },
+    {
+      "id": "node_7",
+      "name": "+8% 暴击伤害",
+      "type": "small",
+      "effects": [
+        "+8% 暴击伤害"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 3,
+        "x": 480.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_8"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+    },
+    {
+      "id": "node_18",
+      "name": "+3% 创伤几率",
+      "type": "small",
+      "effects": [
+        "+3% 创伤几率"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 3,
+        "x": 480.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_19"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Bleed_64.webp"
+    },
+    {
+      "id": "node_13",
+      "name": "格挡时，10% 几率回复 15% 生命、护盾和魔力",
+      "type": "legendary",
+      "effects": [
+        "格挡时，10% 几率回复 15% 生命、护盾和魔力"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 4,
+        "x": 608.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_12"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Flask02_64.webp"
+    },
+    {
+      "id": "node_19",
+      "name": "+8% 创伤几率",
+      "type": "legendary",
+      "effects": [
+        "+8% 创伤几率",
+        "+16% 创伤收割时间"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 4,
+        "x": 608.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_18"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+    },
+    {
+      "id": "node_8",
+      "name": "+16% 暴击伤害",
+      "type": "notable",
+      "effects": [
+        "+16% 暴击伤害"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 4,
+        "x": 608.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_7"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+    },
+    {
+      "id": "node_2",
+      "name": "+9% 物理伤害",
+      "type": "small",
+      "effects": [
+        "+9% 物理伤害"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 4,
+        "x": 608.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_3"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+    },
+    {
+      "id": "node_3",
+      "name": "+18% 物理伤害",
+      "type": "notable",
+      "effects": [
+        "+18% 物理伤害"
+      ],
+      "requiredPoints": 15,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 5,
+        "x": 736.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_2",
+        "node_4"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Aura_64.webp"
+    },
+    {
+      "id": "node_14",
+      "name": "1.5% 生命返还",
+      "type": "small",
+      "effects": [
+        "1.5% 生命返还",
+        "1.5% 护盾返还"
+      ],
+      "requiredPoints": 15,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 5,
+        "x": 736.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_15"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Dual01_64.webp"
+    },
+    {
+      "id": "node_22",
+      "name": "+9% 物理伤害",
+      "type": "small",
+      "effects": [
+        "+9% 物理伤害"
+      ],
+      "requiredPoints": 15,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 5,
+        "x": 736.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_23"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+    },
+    {
+      "id": "node_4",
+      "name": "+1 物理技能等级",
+      "type": "legendary",
+      "effects": [
+        "+1 物理技能等级"
+      ],
+      "requiredPoints": 18,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 6,
+        "x": 864.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_3"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+    },
+    {
+      "id": "node_23",
+      "name": "拥有战意时，额外 +8% 物理伤害",
+      "type": "legendary",
+      "effects": [
+        "拥有战意时，额外 +8% 物理伤害"
+      ],
+      "requiredPoints": 18,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 6,
+        "x": 864.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_22"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit01_64.webp"
+    },
+    {
+      "id": "node_15",
+      "name": "+3% 生命返还",
+      "type": "notable",
+      "effects": [
+        "+3% 生命返还",
+        "+3% 护盾返还"
+      ],
+      "requiredPoints": 18,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 6,
+        "x": 864.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_14"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Dual01_64.webp"
+    }
+  ],
+  "isGodRoot": true
+}

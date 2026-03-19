@@ -1,0 +1,771 @@
+{
+  "id": "alchemist",
+  "name": "炼金术士",
+  "godType": "machine",
+  "description": "试剂中蕴藏的一半是危险，另一半是希望",
+  "tags": [
+    "魔灵",
+    "召唤"
+  ],
+  "totalPoints": 35,
+  "allocatedPoints": 0,
+  "coreRequiredPoints": 24,
+  "coreTalents": [
+    {
+      "id": "core_0",
+      "name": "源泉",
+      "type": "legendary",
+      "description": "魔灵技能 +50% 魔力封印补偿\n额外 +30% 魔灵之源效果\n魔灵额外 +30% 激发技能效果 （神格生效上限：1）",
+      "effects": [
+        "魔灵技能 +50% 魔力封印补偿",
+        "额外 +30% 魔灵之源效果",
+        "魔灵额外 +30% 激发技能效果 （神格生效上限：1）"
+      ],
+      "requiredPoints": 24,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 0,
+        "col": 0,
+        "x": 150,
+        "y": 30
+      },
+      "connections": [],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_yuanquan_Icon_128.webp"
+    },
+    {
+      "id": "core_1",
+      "name": "赋能",
+      "type": "legendary",
+      "description": "魔灵最大数量上限为 1\n额外 +100% 魔灵技能伤害 （神格生效上限：1）",
+      "effects": [
+        "魔灵最大数量上限为 1",
+        "额外 +100% 魔灵技能伤害 （神格生效上限：1）"
+      ],
+      "requiredPoints": 24,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 0,
+        "col": 1,
+        "x": 350,
+        "y": 30
+      },
+      "connections": [],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_funeng_Icon_128.webp"
+    },
+    {
+      "id": "core_2",
+      "name": "冲锋号角",
+      "type": "legendary",
+      "description": "额外 -10% 召唤物攻击和施法速度\n魔灵 +50% 强化技能使用几率 （神格生效上限：1）",
+      "effects": [
+        "额外 -10% 召唤物攻击和施法速度",
+        "魔灵 +50% 强化技能使用几率 （神格生效上限：1）"
+      ],
+      "requiredPoints": 24,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 0,
+        "col": 2,
+        "x": 550,
+        "y": 30
+      },
+      "connections": [],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_chongfenghaojiao_Icon_128.webp"
+    },
+    {
+      "id": "core_3",
+      "name": "深渊爪牙",
+      "type": "legendary",
+      "description": "魔灵每有 20 点生长值，额外 +1% 伤害\n魔灵每有 40 点生长值，额外 +1% 终极技能攻击与施法速度 （神格生效上限：1）",
+      "effects": [
+        "魔灵每有 20 点生长值，额外 +1% 伤害",
+        "魔灵每有 40 点生长值，额外 +1% 终极技能攻击与施法速度 （神格生效上限：1）"
+      ],
+      "requiredPoints": 24,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 0,
+        "col": 3,
+        "x": 750,
+        "y": 30
+      },
+      "connections": [],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_shenyuanzhaoya_Icon_128.webp"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "node_0",
+      "name": "+9% 召唤物伤害",
+      "type": "small",
+      "effects": [
+        "+9% 召唤物伤害",
+        "+9% 伤害"
+      ],
+      "requiredPoints": 0,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 0,
+        "x": 96.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_1"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+    },
+    {
+      "id": "node_12",
+      "name": "+3% 最大生命",
+      "type": "small",
+      "effects": [
+        "+3% 最大生命",
+        "+3% 最大护盾"
+      ],
+      "requiredPoints": 0,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 0,
+        "x": 96.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_13"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+    },
+    {
+      "id": "node_24",
+      "name": "每秒自然回复 0.4% 生命",
+      "type": "small",
+      "effects": [
+        "每秒自然回复 0.4% 生命"
+      ],
+      "requiredPoints": 0,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 0,
+        "x": 96.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_25"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Flask01_64.webp"
+    },
+    {
+      "id": "node_1",
+      "name": "+18% 召唤物伤害",
+      "type": "notable",
+      "effects": [
+        "+18% 召唤物伤害",
+        "+18% 伤害"
+      ],
+      "requiredPoints": 3,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 1,
+        "x": 224.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_0"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+    },
+    {
+      "id": "node_13",
+      "name": "+6% 最大生命",
+      "type": "notable",
+      "effects": [
+        "+6% 最大生命",
+        "+6% 最大护盾"
+      ],
+      "requiredPoints": 3,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 1,
+        "x": 224.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_12"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+    },
+    {
+      "id": "node_25",
+      "name": "每秒自然回复 0.8% 生命",
+      "type": "notable",
+      "effects": [
+        "每秒自然回复 0.8% 生命"
+      ],
+      "requiredPoints": 3,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 1,
+        "x": 224.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_24"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Flask01_64.webp"
+    },
+    {
+      "id": "node_6",
+      "name": "+3% 召唤物攻击与施法速度",
+      "type": "small",
+      "effects": [
+        "+3% 召唤物攻击与施法速度",
+        "+3% 攻击与施法速度"
+      ],
+      "requiredPoints": 3,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 1,
+        "x": 224.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_7"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp"
+    },
+    {
+      "id": "node_18",
+      "name": "+8% 召唤物伤害",
+      "type": "small",
+      "effects": [
+        "+8% 召唤物伤害",
+        "召唤物 +12% 几率造成伤害型异常状态"
+      ],
+      "requiredPoints": 3,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 1,
+        "x": 224.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_19"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+    },
+    {
+      "id": "node_7",
+      "name": "+6% 召唤物攻击与施法速度",
+      "type": "notable",
+      "effects": [
+        "+6% 召唤物攻击与施法速度",
+        "+6% 攻击与施法速度"
+      ],
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 2,
+        "x": 352.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_6"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Accuracy_64.webp"
+    },
+    {
+      "id": "node_19",
+      "name": "+16% 召唤物伤害",
+      "type": "notable",
+      "effects": [
+        "+16% 召唤物伤害",
+        "召唤物 +24% 几率造成伤害型异常状态"
+      ],
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 2,
+        "x": 352.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_18"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+    },
+    {
+      "id": "node_2",
+      "name": "+15% 召唤物暴击值",
+      "type": "small",
+      "effects": [
+        "+15% 召唤物暴击值"
+      ],
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 2,
+        "x": 352.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_3"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit04_64.webp"
+    },
+    {
+      "id": "node_26",
+      "name": "+3% 护盾充能速度",
+      "type": "small",
+      "effects": [
+        "+3% 护盾充能速度"
+      ],
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 2,
+        "x": 352.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_27"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgEle_64.webp"
+    },
+    {
+      "id": "node_3",
+      "name": "+20% 召唤物暴击值",
+      "type": "notable",
+      "effects": [
+        "+20% 召唤物暴击值",
+        "+5% 召唤物暴击伤害"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 3,
+        "x": 480.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_2"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+    },
+    {
+      "id": "node_27",
+      "name": "+6% 护盾充能速度",
+      "type": "notable",
+      "effects": [
+        "+6% 护盾充能速度"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 3,
+        "x": 480.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_26"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgEle_64.webp"
+    },
+    {
+      "id": "node_8",
+      "name": "魔灵 +2% 强化技能使用几率",
+      "type": "small",
+      "effects": [
+        "魔灵 +2% 强化技能使用几率"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 3,
+        "x": 480.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_9"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp"
+    },
+    {
+      "id": "node_14",
+      "name": "4.5% 魔灵终极技能冷却回复速度",
+      "type": "small",
+      "effects": [
+        "4.5% 魔灵终极技能冷却回复速度"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 3,
+        "x": 480.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_15"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp"
+    },
+    {
+      "id": "node_20",
+      "name": "+12% 魔灵终极技能伤害和终极技能造成的异常伤害",
+      "type": "small",
+      "effects": [
+        "+12% 魔灵终极技能伤害和终极技能造成的异常伤害"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 3,
+        "x": 480.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_21"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgEle_64.webp"
+    },
+    {
+      "id": "node_9",
+      "name": "魔灵 +4% 强化技能使用几率",
+      "type": "notable",
+      "effects": [
+        "魔灵 +4% 强化技能使用几率"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 4,
+        "x": 608.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_8"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp"
+    },
+    {
+      "id": "node_15",
+      "name": "+9% 魔灵终极技能冷却回复速度",
+      "type": "notable",
+      "effects": [
+        "+9% 魔灵终极技能冷却回复速度"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 4,
+        "x": 608.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_14"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp"
+    },
+    {
+      "id": "node_21",
+      "name": "+24% 魔灵终极技能伤害和终极技能造成的异常伤害",
+      "type": "notable",
+      "effects": [
+        "+24% 魔灵终极技能伤害和终极技能造成的异常伤害"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 4,
+        "x": 608.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_20"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgEle_64.webp"
+    },
+    {
+      "id": "node_28",
+      "name": "+3% 最大生命",
+      "type": "small",
+      "effects": [
+        "+3% 最大生命",
+        "+3% 最大护盾"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 4,
+        "x": 608.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_29"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+    },
+    {
+      "id": "node_29",
+      "name": "+6% 最大生命",
+      "type": "notable",
+      "effects": [
+        "+6% 最大生命",
+        "+6% 最大护盾"
+      ],
+      "requiredPoints": 15,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 5,
+        "x": 736.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_28",
+        "node_30"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+    },
+    {
+      "id": "node_4",
+      "name": "+9% 魔灵技能伤害",
+      "type": "small",
+      "effects": [
+        "+9% 魔灵技能伤害"
+      ],
+      "requiredPoints": 15,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 5,
+        "x": 736.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_5"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp"
+    },
+    {
+      "id": "node_10",
+      "name": "+4% 魔灵之源效果",
+      "type": "small",
+      "effects": [
+        "+4% 魔灵之源效果"
+      ],
+      "requiredPoints": 15,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 5,
+        "x": 736.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_11"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Flask02_64.webp"
+    },
+    {
+      "id": "node_16",
+      "name": "+9% 召唤物伤害",
+      "type": "small",
+      "effects": [
+        "+9% 召唤物伤害",
+        "+9% 伤害"
+      ],
+      "requiredPoints": 15,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 5,
+        "x": 736.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_17"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+    },
+    {
+      "id": "node_22",
+      "name": "魔灵技能 12.5% 魔力封印补偿",
+      "type": "small",
+      "effects": [
+        "魔灵技能 12.5% 魔力封印补偿"
+      ],
+      "requiredPoints": 15,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 5,
+        "x": 736.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_23"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgEle_64.webp"
+    },
+    {
+      "id": "node_5",
+      "name": "+1 魔灵技能等级",
+      "type": "legendary",
+      "effects": [
+        "+1 魔灵技能等级",
+        "魔灵额外 -80% 受到的伤害"
+      ],
+      "requiredPoints": 18,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 6,
+        "x": 864.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_4"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Dual01_64.webp"
+    },
+    {
+      "id": "node_11",
+      "name": "+1 魔灵最大数量上限",
+      "type": "legendary",
+      "effects": [
+        "+1 魔灵最大数量上限",
+        "额外 -40% 魔灵技能伤害"
+      ],
+      "requiredPoints": 18,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 6,
+        "x": 864.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_10"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Evasion_64.webp"
+    },
+    {
+      "id": "node_17",
+      "name": "+1 被动技能等级",
+      "type": "legendary",
+      "effects": [
+        "+1 被动技能等级"
+      ],
+      "requiredPoints": 18,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 6,
+        "x": 864.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_16"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Dagger03_64.webp"
+    },
+    {
+      "id": "node_23",
+      "name": "8% 受到的伤害转移至随机召唤物",
+      "type": "legendary",
+      "effects": [
+        "8% 受到的伤害转移至随机召唤物",
+        "魔灵额外 -80% 受到的伤害"
+      ],
+      "requiredPoints": 18,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 6,
+        "x": 864.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_22"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp"
+    },
+    {
+      "id": "node_30",
+      "name": "+15% 生命自然回复速度",
+      "type": "legendary",
+      "effects": [
+        "+15% 生命自然回复速度",
+        "额外 -15% 护盾充能间隔"
+      ],
+      "requiredPoints": 18,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 6,
+        "x": 864.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_29"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Flask01_64.webp"
+    }
+  ],
+  "isGodRoot": false
+}

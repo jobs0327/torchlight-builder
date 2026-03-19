@@ -1,0 +1,717 @@
+{
+  "id": "warrior",
+  "name": "斗士",
+  "godType": "strength",
+  "description": "坚韧不屈，勇武之师",
+  "tags": [
+    "生命"
+  ],
+  "totalPoints": 33,
+  "allocatedPoints": 0,
+  "coreRequiredPoints": 24,
+  "coreTalents": [
+    {
+      "id": "core_0",
+      "name": "秘法",
+      "type": "legendary",
+      "description": "魔力消耗的 100% 转换为生命消耗\n额外 +25% 最大生命 （神格生效上限：1）",
+      "effects": [
+        "魔力消耗的 100% 转换为生命消耗",
+        "额外 +25% 最大生命 （神格生效上限：1）"
+      ],
+      "requiredPoints": 24,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 0,
+        "col": 0,
+        "x": 150,
+        "y": 30
+      },
+      "connections": [],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_mifa_Icon_128.webp"
+    },
+    {
+      "id": "core_1",
+      "name": "善始善终",
+      "type": "legendary",
+      "description": "生命濒危时，额外 +50% 攻击伤害\n你的最大护盾恒定为 0 （神格生效上限：1）",
+      "effects": [
+        "生命濒危时，额外 +50% 攻击伤害",
+        "你的最大护盾恒定为 0 （神格生效上限：1）"
+      ],
+      "requiredPoints": 24,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 0,
+        "col": 1,
+        "x": 350,
+        "y": 30
+      },
+      "connections": [],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_shanshishanzhong_Icon_128.webp"
+    },
+    {
+      "id": "core_2",
+      "name": "生命通道",
+      "type": "legendary",
+      "description": "生命返还量翻倍\n生命返还仅在生命小于 50% 时生效 （神格生效上限：1）",
+      "effects": [
+        "生命返还量翻倍",
+        "生命返还仅在生命小于 50% 时生效 （神格生效上限：1）"
+      ],
+      "requiredPoints": 24,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 0,
+        "col": 2,
+        "x": 550,
+        "y": 30
+      },
+      "connections": [],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_shengmingtongdao_Icon_128.webp"
+    },
+    {
+      "id": "core_3",
+      "name": "生存意志",
+      "type": "legendary",
+      "description": "非生命濒危时，额外 +30% 攻击伤害\n生命濒危时，回复 40% 最大生命，该效果有 10 秒间隔 （神格生效上限：1）",
+      "effects": [
+        "非生命濒危时，额外 +30% 攻击伤害",
+        "生命濒危时，回复 40% 最大生命，该效果有 10 秒间隔 （神格生效上限：1）"
+      ],
+      "requiredPoints": 24,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 0,
+        "col": 3,
+        "x": 750,
+        "y": 30
+      },
+      "connections": [],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_shengcunyizhi_Icon_128.webp"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "node_0",
+      "name": "+9% 伤害",
+      "type": "small",
+      "effects": [
+        "+9% 伤害"
+      ],
+      "requiredPoints": 0,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 0,
+        "x": 96.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_1"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+    },
+    {
+      "id": "node_10",
+      "name": "+3% 防御值",
+      "type": "small",
+      "effects": [
+        "+3% 防御值"
+      ],
+      "requiredPoints": 0,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 0,
+        "x": 96.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_11"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Armor_64.webp"
+    },
+    {
+      "id": "node_22",
+      "name": "+3% 最大生命",
+      "type": "small",
+      "effects": [
+        "+3% 最大生命"
+      ],
+      "requiredPoints": 0,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 0,
+        "x": 96.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_23"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+    },
+    {
+      "id": "node_1",
+      "name": "+18% 伤害",
+      "type": "notable",
+      "effects": [
+        "+18% 伤害"
+      ],
+      "requiredPoints": 3,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 1,
+        "x": 224.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_0"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+    },
+    {
+      "id": "node_11",
+      "name": "+6% 防御值",
+      "type": "notable",
+      "effects": [
+        "+6% 防御值"
+      ],
+      "requiredPoints": 3,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 1,
+        "x": 224.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_10"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Armor_64.webp"
+    },
+    {
+      "id": "node_23",
+      "name": "+6% 最大生命",
+      "type": "notable",
+      "effects": [
+        "+6% 最大生命"
+      ],
+      "requiredPoints": 3,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 1,
+        "x": 224.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_22"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+    },
+    {
+      "id": "node_7",
+      "name": "+3% 攻击与施法速度",
+      "type": "small",
+      "effects": [
+        "+3% 攻击与施法速度",
+        "+3% 召唤物攻击与施法速度"
+      ],
+      "requiredPoints": 3,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 1,
+        "x": 224.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_8"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp"
+    },
+    {
+      "id": "node_16",
+      "name": "+40 最大生命",
+      "type": "small",
+      "effects": [
+        "+40 最大生命"
+      ],
+      "requiredPoints": 3,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 1,
+        "x": 224.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_17"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+    },
+    {
+      "id": "node_8",
+      "name": "+6% 攻击与施法速度",
+      "type": "notable",
+      "effects": [
+        "+6% 攻击与施法速度",
+        "+6% 召唤物攻击与施法速度"
+      ],
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 2,
+        "x": 352.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_7",
+        "node_9"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp"
+    },
+    {
+      "id": "node_17",
+      "name": "+80 最大生命",
+      "type": "notable",
+      "effects": [
+        "+80 最大生命"
+      ],
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 2,
+        "x": 352.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_16"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+    },
+    {
+      "id": "node_2",
+      "name": "+15% 暴击值",
+      "type": "small",
+      "effects": [
+        "+15% 暴击值"
+      ],
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 2,
+        "x": 352.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_3"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit01_64.webp"
+    },
+    {
+      "id": "node_24",
+      "name": "每秒自然回复 0.4% 生命",
+      "type": "small",
+      "effects": [
+        "每秒自然回复 0.4% 生命"
+      ],
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 2,
+        "x": 352.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_25"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Flask01_64.webp"
+    },
+    {
+      "id": "node_9",
+      "name": "每损失1%生命， 0.3% 攻击速度",
+      "type": "legendary",
+      "effects": [
+        "每损失1%生命， 0.3% 攻击速度"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 3,
+        "x": 480.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_8"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp"
+    },
+    {
+      "id": "node_3",
+      "name": "+20% 暴击值",
+      "type": "notable",
+      "effects": [
+        "+20% 暴击值",
+        "+5% 暴击伤害"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 3,
+        "x": 480.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_2"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit04_64.webp"
+    },
+    {
+      "id": "node_25",
+      "name": "每秒自然回复 0.8% 生命",
+      "type": "notable",
+      "effects": [
+        "每秒自然回复 0.8% 生命"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 3,
+        "x": 480.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_24",
+        "node_26"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Flask01_64.webp"
+    },
+    {
+      "id": "node_12",
+      "name": "1.5% 生命返还",
+      "type": "small",
+      "effects": [
+        "1.5% 生命返还"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 3,
+        "x": 480.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_13"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Defence02_64.webp"
+    },
+    {
+      "id": "node_18",
+      "name": "+3% 最大生命",
+      "type": "small",
+      "effects": [
+        "+3% 最大生命"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 3,
+        "x": 480.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_19"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+    },
+    {
+      "id": "node_13",
+      "name": "额外 -15% 生命返还间隔",
+      "type": "legendary",
+      "effects": [
+        "额外 -15% 生命返还间隔",
+        "使用攻击技能时，消耗 2% 当前生命"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 4,
+        "x": 608.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_12"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp"
+    },
+    {
+      "id": "node_19",
+      "name": "击败时，回复 3% 生命",
+      "type": "legendary",
+      "effects": [
+        "击败时，回复 3% 生命"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 4,
+        "x": 608.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_18"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+    },
+    {
+      "id": "node_26",
+      "name": "如果最近消耗过生命，额外 +8% 伤害",
+      "type": "legendary",
+      "effects": [
+        "如果最近消耗过生命，额外 +8% 伤害"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 4,
+        "x": 608.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_25"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+    },
+    {
+      "id": "node_4",
+      "name": "+9% 伤害",
+      "type": "small",
+      "effects": [
+        "+9% 伤害"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 4,
+        "x": 608.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_5"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+    },
+    {
+      "id": "node_5",
+      "name": "对生命濒危敌人， +50% 伤害",
+      "type": "notable",
+      "effects": [
+        "对生命濒危敌人， +50% 伤害"
+      ],
+      "requiredPoints": 15,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 5,
+        "x": 736.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_4",
+        "node_6"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Axe02_64.webp"
+    },
+    {
+      "id": "node_14",
+      "name": "如果最近受到了伤害， +12% 伤害",
+      "type": "small",
+      "effects": [
+        "如果最近受到了伤害， +12% 伤害"
+      ],
+      "requiredPoints": 15,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 5,
+        "x": 736.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_15"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Armor_64.webp"
+    },
+    {
+      "id": "node_20",
+      "name": "+8 力量",
+      "type": "small",
+      "effects": [
+        "+8 力量"
+      ],
+      "requiredPoints": 15,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 5,
+        "x": 736.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_21"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp"
+    },
+    {
+      "id": "node_27",
+      "name": "+3% 最大生命",
+      "type": "small",
+      "effects": [
+        "+3% 最大生命"
+      ],
+      "requiredPoints": 15,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 5,
+        "x": 736.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_28"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+    },
+    {
+      "id": "node_6",
+      "name": "对生命濒危敌人，额外 +25% 伤害",
+      "type": "legendary",
+      "effects": [
+        "对生命濒危敌人，额外 +25% 伤害"
+      ],
+      "requiredPoints": 18,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 6,
+        "x": 864.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_5"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Axe02_64.webp"
+    },
+    {
+      "id": "node_15",
+      "name": "使用近战技能时，获得一层强硬",
+      "type": "legendary",
+      "effects": [
+        "使用近战技能时，获得一层强硬"
+      ],
+      "requiredPoints": 18,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 6,
+        "x": 864.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_14"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Armor_64.webp"
+    },
+    {
+      "id": "node_21",
+      "name": "每 5 点力量， +1 点最大生命",
+      "type": "legendary",
+      "effects": [
+        "每 5 点力量， +1 点最大生命"
+      ],
+      "requiredPoints": 18,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 6,
+        "x": 864.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_20"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Dot_64.webp"
+    },
+    {
+      "id": "node_28",
+      "name": "+3% 受伤缓冲",
+      "type": "notable",
+      "effects": [
+        "+3% 受伤缓冲"
+      ],
+      "requiredPoints": 18,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 6,
+        "x": 864.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_27"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp"
+    }
+  ],
+  "isGodRoot": false
+}

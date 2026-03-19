@@ -1,0 +1,750 @@
+{
+  "id": "god_of_machines",
+  "name": "机械之神",
+  "godType": "machine",
+  "description": "乌洛斯，不朽之躯的塑造者",
+  "tags": [
+    "召唤",
+    "哨卫"
+  ],
+  "totalPoints": 34,
+  "allocatedPoints": 0,
+  "coreRequiredPoints": 12,
+  "coreTalents": [
+    {
+      "id": "core_0",
+      "name": "号令",
+      "type": "legendary",
+      "description": "额外 +25% 召唤物伤害\n额外 +50% 召唤技能施法速度 （神格生效上限：1）",
+      "effects": [
+        "额外 +25% 召唤物伤害",
+        "额外 +50% 召唤技能施法速度 （神格生效上限：1）"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 0,
+        "col": 0,
+        "x": 150,
+        "y": 30
+      },
+      "connections": [],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_haoling_Icon_128.webp"
+    },
+    {
+      "id": "core_1",
+      "name": "哨兵",
+      "type": "legendary",
+      "description": "+1 哨卫数量上限\n放置哨卫的技能额外 +100% 施法速度 （神格生效上限：1）",
+      "effects": [
+        "+1 哨卫数量上限",
+        "放置哨卫的技能额外 +100% 施法速度 （神格生效上限：1）"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 0,
+        "col": 1,
+        "x": 350,
+        "y": 30
+      },
+      "connections": [],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_shaobing_Icon_128.webp"
+    },
+    {
+      "id": "core_2",
+      "name": "龟缩",
+      "type": "legendary",
+      "description": "每隔 1 秒，获得屏障\n+50% 屏障吸收量 （神格生效上限：1）",
+      "effects": [
+        "每隔 1 秒，获得屏障",
+        "+50% 屏障吸收量 （神格生效上限：1）"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 0,
+        "col": 2,
+        "x": 550,
+        "y": 30
+      },
+      "connections": [],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_guisuo_Icon_128.webp"
+    },
+    {
+      "id": "core_3",
+      "name": "强力护卫",
+      "type": "legendary",
+      "description": "+2 召唤召唤物的技能等级\n每秒统御值增加 4 点\n魔灵 +40 初始生长值 （神格生效上限：1）",
+      "effects": [
+        "+2 召唤召唤物的技能等级",
+        "每秒统御值增加 4 点",
+        "魔灵 +40 初始生长值 （神格生效上限：1）"
+      ],
+      "requiredPoints": 24,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 0,
+        "col": 3,
+        "x": 750,
+        "y": 30
+      },
+      "connections": [],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_qianglihuwei_Icon_128.webp"
+    },
+    {
+      "id": "core_4",
+      "name": "过度改装",
+      "type": "legendary",
+      "description": "额外 +30% 哨卫伤害，额外 -50% 非哨卫主动技能伤害 （神格生效上限：1）",
+      "effects": [
+        "额外 +30% 哨卫伤害，额外 -50% 非哨卫主动技能伤害 （神格生效上限：1）"
+      ],
+      "requiredPoints": 24,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 0,
+        "col": 4,
+        "x": 950,
+        "y": 30
+      },
+      "connections": [],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_guodugaizhuang_Icon_128.webp"
+    },
+    {
+      "id": "core_5",
+      "name": "同构武装",
+      "type": "legendary",
+      "description": "召唤物获得主手武器的加成\n携带法杖或锡杖时，召唤物额外 +30% 法术伤害 （神格生效上限：1）",
+      "effects": [
+        "召唤物获得主手武器的加成",
+        "携带法杖或锡杖时，召唤物额外 +30% 法术伤害 （神格生效上限：1）"
+      ],
+      "requiredPoints": 24,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 0,
+        "col": 5,
+        "x": 1150,
+        "y": 30
+      },
+      "connections": [],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_tonggouwuzhuang_Icon_128.webp"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "node_10",
+      "name": "+9% 伤害",
+      "type": "small",
+      "effects": [
+        "+9% 伤害",
+        "+9% 召唤物伤害"
+      ],
+      "requiredPoints": 0,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 0,
+        "x": 96.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_11"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/AtkSpeed_64.webp"
+    },
+    {
+      "id": "node_11",
+      "name": "+18% 伤害",
+      "type": "notable",
+      "effects": [
+        "+18% 伤害",
+        "+18% 召唤物伤害"
+      ],
+      "requiredPoints": 3,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 1,
+        "x": 224.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_10"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/AtkSpeed_64.webp"
+    },
+    {
+      "id": "node_5",
+      "name": "+3% 召唤物攻击与施法速度",
+      "type": "small",
+      "effects": [
+        "+3% 召唤物攻击与施法速度",
+        "每秒自然回复 4 魔力"
+      ],
+      "requiredPoints": 3,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 1,
+        "x": 224.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_6"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp"
+    },
+    {
+      "id": "node_17",
+      "name": "+7% 哨卫技能范围",
+      "type": "small",
+      "effects": [
+        "+7% 哨卫技能范围",
+        "+10% 哨卫持续时间",
+        "4.5% 哨卫投射物速度"
+      ],
+      "requiredPoints": 3,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 1,
+        "x": 224.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_18"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Bow01_64.webp"
+    },
+    {
+      "id": "node_6",
+      "name": "+6% 召唤物攻击与施法速度",
+      "type": "notable",
+      "effects": [
+        "+6% 召唤物攻击与施法速度",
+        "每秒自然回复 8 魔力"
+      ],
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 2,
+        "x": 352.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_5"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp"
+    },
+    {
+      "id": "node_18",
+      "name": "+7% 哨卫技能范围",
+      "type": "notable",
+      "effects": [
+        "+7% 哨卫技能范围",
+        "+20% 哨卫持续时间",
+        "+9% 哨卫投射物速度"
+      ],
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 2,
+        "x": 352.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_17"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Bow01_64.webp"
+    },
+    {
+      "id": "node_0",
+      "name": "+15% 召唤物暴击值",
+      "type": "small",
+      "effects": [
+        "+15% 召唤物暴击值",
+        "+6% 召唤物技能范围"
+      ],
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 2,
+        "x": 352.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_1"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit03_64.webp"
+    },
+    {
+      "id": "node_12",
+      "name": "+3% 最大生命",
+      "type": "small",
+      "effects": [
+        "+3% 最大生命",
+        "+3% 最大护盾"
+      ],
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 2,
+        "x": 352.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_13"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+    },
+    {
+      "id": "node_23",
+      "name": "+15% 哨卫技能暴击值",
+      "type": "small",
+      "effects": [
+        "+15% 哨卫技能暴击值"
+      ],
+      "requiredPoints": 6,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 2,
+        "x": 352.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_24"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Channel02_64.webp"
+    },
+    {
+      "id": "node_1",
+      "name": "+15% 召唤物暴击伤害",
+      "type": "notable",
+      "effects": [
+        "+15% 召唤物暴击伤害",
+        "+12% 召唤物技能范围"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 3,
+        "x": 480.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_0"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit03_64.webp"
+    },
+    {
+      "id": "node_13",
+      "name": "+6% 最大生命",
+      "type": "notable",
+      "effects": [
+        "+6% 最大生命",
+        "+6% 最大护盾"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 3,
+        "x": 480.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_12"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Es_64.webp"
+    },
+    {
+      "id": "node_24",
+      "name": "+20% 哨卫技能暴击值",
+      "type": "notable",
+      "effects": [
+        "+20% 哨卫技能暴击值",
+        "+5% 哨卫技能暴击伤害"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 3,
+        "x": 480.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_23"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Dagger02_64.webp"
+    },
+    {
+      "id": "node_7",
+      "name": "+9% 召唤物伤害",
+      "type": "small",
+      "effects": [
+        "+9% 召唤物伤害"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 3,
+        "x": 480.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_2",
+        "node_8"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Axe02_64.webp"
+    },
+    {
+      "id": "node_19",
+      "name": "+8% 屏障吸收量",
+      "type": "small",
+      "effects": [
+        "+8% 屏障吸收量"
+      ],
+      "requiredPoints": 9,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 3,
+        "x": 480.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_20"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp"
+    },
+    {
+      "id": "node_2",
+      "name": "每秒统御值增加 2 点",
+      "type": "notable",
+      "effects": [
+        "每秒统御值增加 2 点"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 4,
+        "x": 608.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_7"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/CastSpeed_64.webp"
+    },
+    {
+      "id": "node_8",
+      "name": "魔灵 +6% 强化技能使用几率",
+      "type": "notable",
+      "effects": [
+        "魔灵 +6% 强化技能使用几率",
+        "+27% 魔灵终极技能伤害和终极技能造成的异常伤害"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 4,
+        "x": 608.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_7"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/CastSpeed_64.webp"
+    },
+    {
+      "id": "node_20",
+      "name": "+16% 屏障吸收量",
+      "type": "notable",
+      "effects": [
+        "+16% 屏障吸收量"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 4,
+        "x": 608.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_19"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp"
+    },
+    {
+      "id": "node_14",
+      "name": "+9% 召唤物伤害",
+      "type": "small",
+      "effects": [
+        "+9% 召唤物伤害"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 4,
+        "x": 608.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_15"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Axe02_64.webp"
+    },
+    {
+      "id": "node_25",
+      "name": "+12% 哨卫伤害",
+      "type": "small",
+      "effects": [
+        "+12% 哨卫伤害"
+      ],
+      "requiredPoints": 12,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 4,
+        "x": 608.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_26"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/AtkSpeed_64.webp"
+    },
+    {
+      "id": "node_15",
+      "name": "召唤物暴击时，获得迅捷",
+      "type": "legendary",
+      "effects": [
+        "召唤物暴击时，获得迅捷"
+      ],
+      "requiredPoints": 15,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 5,
+        "x": 736.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_9",
+        "node_14",
+        "node_16"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Flask02_64.webp"
+    },
+    {
+      "id": "node_26",
+      "name": "+24% 哨卫伤害",
+      "type": "notable",
+      "effects": [
+        "+24% 哨卫伤害"
+      ],
+      "requiredPoints": 15,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 5,
+        "x": 736.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_25",
+        "node_27"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crossbow02_64.webp"
+    },
+    {
+      "id": "node_3",
+      "name": "+9% 召唤物伤害",
+      "type": "small",
+      "effects": [
+        "+9% 召唤物伤害"
+      ],
+      "requiredPoints": 15,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 5,
+        "x": 736.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_4"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+    },
+    {
+      "id": "node_21",
+      "name": "+4% 哨卫技能释放频率",
+      "type": "small",
+      "effects": [
+        "+4% 哨卫技能释放频率"
+      ],
+      "requiredPoints": 15,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 5,
+        "x": 736.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_22"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Duration_64.webp"
+    },
+    {
+      "id": "node_4",
+      "name": "+1 召唤召唤物的技能等级",
+      "type": "legendary",
+      "effects": [
+        "+1 召唤召唤物的技能等级"
+      ],
+      "requiredPoints": 18,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 1,
+        "col": 6,
+        "x": 864.0,
+        "y": 80.0
+      },
+      "connections": [
+        "node_3"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Flask02_64.webp"
+    },
+    {
+      "id": "node_9",
+      "name": "召唤物攻击暴击时，获得攻击激进",
+      "type": "legendary",
+      "effects": [
+        "召唤物攻击暴击时，获得攻击激进"
+      ],
+      "requiredPoints": 18,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 2,
+        "col": 6,
+        "x": 864.0,
+        "y": 176.0
+      },
+      "connections": [
+        "node_15"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/AtkSpeed_64.webp"
+    },
+    {
+      "id": "node_16",
+      "name": "召唤物法术暴击时，获得法术激进",
+      "type": "legendary",
+      "effects": [
+        "召唤物法术暴击时，获得法术激进"
+      ],
+      "requiredPoints": 18,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 3,
+        "col": 6,
+        "x": 864.0,
+        "y": 272.0
+      },
+      "connections": [
+        "node_15"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Flask01_64.webp"
+    },
+    {
+      "id": "node_27",
+      "name": "如果近 1 秒内没有使用哨卫技能，额外 +10% 哨卫伤害",
+      "type": "legendary",
+      "effects": [
+        "如果近 1 秒内没有使用哨卫技能，额外 +10% 哨卫伤害"
+      ],
+      "requiredPoints": 18,
+      "maxPoints": 1,
+      "currentPoints": 0,
+      "position": {
+        "row": 5,
+        "col": 6,
+        "x": 864.0,
+        "y": 464.0
+      },
+      "connections": [
+        "node_26"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Dual01_64.webp"
+    },
+    {
+      "id": "node_22",
+      "name": "+8% 哨卫技能释放频率",
+      "type": "notable",
+      "effects": [
+        "+8% 哨卫技能释放频率"
+      ],
+      "requiredPoints": 18,
+      "maxPoints": 3,
+      "currentPoints": 0,
+      "position": {
+        "row": 4,
+        "col": 6,
+        "x": 864.0,
+        "y": 368.0
+      },
+      "connections": [
+        "node_21"
+      ],
+      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Bow02_64.webp"
+    }
+  ],
+  "isGodRoot": true
+}

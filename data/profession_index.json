@@ -1,11 +1,39 @@
 [
   {
+    "slug": "Bladerunner",
+    "id": "bladerunner",
+    "name": "刀锋行者",
+    "type": "panel",
+    "godType": "dexterity",
+    "sourceFile": "Bladerunner.json",
+    "isGodRoot": false
+  },
+  {
     "slug": "Assassin",
     "id": "assassin",
     "name": "刺客",
     "type": "panel",
     "godType": "dexterity",
-    "sourceFile": "Assassin.json"
+    "sourceFile": "Assassin.json",
+    "isGodRoot": false
+  },
+  {
+    "slug": "Druid",
+    "id": "druid",
+    "name": "德鲁伊",
+    "type": "panel",
+    "godType": "dexterity",
+    "sourceFile": "Druid.json",
+    "isGodRoot": false
+  },
+  {
+    "slug": "Goddess_of_Hunting",
+    "id": "goddess_of_hunting",
+    "name": "狩猎之神",
+    "type": "panel",
+    "godType": "dexterity",
+    "sourceFile": "Goddess_of_Hunting.json",
+    "isGodRoot": true
   },
   {
     "slug": "Marksman",
@@ -13,7 +41,8 @@
     "name": "神射手",
     "type": "panel",
     "godType": "dexterity",
-    "sourceFile": "Marksman.json"
+    "sourceFile": "Marksman.json",
+    "isGodRoot": false
   },
   {
     "slug": "Elementalist",
@@ -21,15 +50,89 @@
     "name": "元素师",
     "type": "panel",
     "godType": "intelligence",
-    "sourceFile": "Elementalist.json"
+    "sourceFile": "Elementalist.json",
+    "isGodRoot": false
+  },
+  {
+    "slug": "Prophet",
+    "id": "prophet",
+    "name": "先知",
+    "type": "panel",
+    "godType": "intelligence",
+    "sourceFile": "Prophet.json",
+    "isGodRoot": false
+  },
+  {
+    "slug": "Goddess_of_Knowledge",
+    "id": "goddess_of_knowledge",
+    "name": "知识之神",
+    "type": "panel",
+    "godType": "intelligence",
+    "sourceFile": "Goddess_of_Knowledge.json",
+    "isGodRoot": true
+  },
+  {
+    "slug": "Arcanist",
+    "id": "arcanist",
+    "name": "秘术师",
+    "type": "panel",
+    "godType": "intelligence",
+    "sourceFile": "Arcanist.json",
+    "isGodRoot": false
+  },
+  {
+    "slug": "Magister",
+    "id": "magister",
+    "name": "魔导师",
+    "type": "panel",
+    "godType": "intelligence",
+    "sourceFile": "Magister.json",
+    "isGodRoot": false
+  },
+  {
+    "slug": "Artisan",
+    "id": "artisan",
+    "name": "巧匠",
+    "type": "panel",
+    "godType": "machine",
+    "sourceFile": "Artisan.json",
+    "isGodRoot": false
+  },
+  {
+    "slug": "God_of_Machines",
+    "id": "god_of_machines",
+    "name": "机械之神",
+    "type": "panel",
+    "godType": "machine",
+    "sourceFile": "God_of_Machines.json",
+    "isGodRoot": true
+  },
+  {
+    "slug": "Machinist",
+    "id": "machinist",
+    "name": "机械师",
+    "type": "panel",
+    "godType": "machine",
+    "sourceFile": "Machinist.json",
+    "isGodRoot": false
   },
   {
     "slug": "Alchemist",
     "id": "alchemist",
     "name": "炼金术士",
     "type": "panel",
-    "godType": "intelligence",
-    "sourceFile": "Alchemist.json"
+    "godType": "machine",
+    "sourceFile": "Alchemist.json",
+    "isGodRoot": false
+  },
+  {
+    "slug": "Steel_Vanguard",
+    "id": "steel_vanguard",
+    "name": "钢铁先锋",
+    "type": "panel",
+    "godType": "machine",
+    "sourceFile": "Steel_Vanguard.json",
+    "isGodRoot": false
   },
   {
     "slug": "The_Brave",
@@ -37,7 +140,17 @@
     "name": "勇者",
     "type": "panel",
     "godType": "strength",
-    "sourceFile": "The_Brave.json"
+    "sourceFile": "The_Brave.json",
+    "isGodRoot": false
+  },
+  {
+    "slug": "God_of_Might",
+    "id": "god_of_might",
+    "name": "巨力之神",
+    "type": "panel",
+    "godType": "strength",
+    "sourceFile": "God_of_Might.json",
+    "isGodRoot": true
   },
   {
     "slug": "Warrior",
@@ -45,7 +158,17 @@
     "name": "斗士",
     "type": "panel",
     "godType": "strength",
-    "sourceFile": "Warrior.json"
+    "sourceFile": "Warrior.json",
+    "isGodRoot": false
+  },
+  {
+    "slug": "Onslaughter",
+    "id": "onslaughter",
+    "name": "猛袭者",
+    "type": "panel",
+    "godType": "strength",
+    "sourceFile": "Onslaughter.json",
+    "isGodRoot": false
   },
   {
     "slug": "Warlord",
@@ -53,6 +176,97 @@
     "name": "督军",
     "type": "panel",
     "godType": "strength",
-    "sourceFile": "Warlord.json"
+    "sourceFile": "Warlord.json",
+    "isGodRoot": false
+  },
+  {
+    "slug": "Lich",
+    "id": "lich",
+    "name": "巫妖",
+    "type": "panel",
+    "godType": "trickery",
+    "sourceFile": "Lich.json",
+    "isGodRoot": false
+  },
+  {
+    "slug": "Psychic",
+    "id": "psychic",
+    "name": "异能者",
+    "type": "panel",
+    "godType": "trickery",
+    "sourceFile": "Psychic.json",
+    "isGodRoot": false
+  },
+  {
+    "slug": "Warlock",
+    "id": "warlock",
+    "name": "暗影术士",
+    "type": "panel",
+    "godType": "trickery",
+    "sourceFile": "Warlock.json",
+    "isGodRoot": false
+  },
+  {
+    "slug": "Goddess_of_Deception",
+    "id": "goddess_of_deception",
+    "name": "欺诈之神",
+    "type": "panel",
+    "godType": "trickery",
+    "sourceFile": "Goddess_of_Deception.json",
+    "isGodRoot": true
+  },
+  {
+    "slug": "Shadowmaster",
+    "id": "shadowmaster",
+    "name": "驭影者",
+    "type": "panel",
+    "godType": "trickery",
+    "sourceFile": "Shadowmaster.json",
+    "isGodRoot": false
+  },
+  {
+    "slug": "Shadowdancer",
+    "id": "shadowdancer",
+    "name": "影舞者",
+    "type": "panel",
+    "godType": "war",
+    "sourceFile": "Shadowdancer.json",
+    "isGodRoot": false
+  },
+  {
+    "slug": "God_of_War",
+    "id": "god_of_war",
+    "name": "征战之神",
+    "type": "panel",
+    "godType": "war",
+    "sourceFile": "God_of_War.json",
+    "isGodRoot": true
+  },
+  {
+    "slug": "Ranger",
+    "id": "ranger",
+    "name": "游侠",
+    "type": "panel",
+    "godType": "war",
+    "sourceFile": "Ranger.json",
+    "isGodRoot": false
+  },
+  {
+    "slug": "Ronin",
+    "id": "ronin",
+    "name": "神行武士",
+    "type": "panel",
+    "godType": "war",
+    "sourceFile": "Ronin.json",
+    "isGodRoot": false
+  },
+  {
+    "slug": "Sentinel",
+    "id": "sentinel",
+    "name": "铁卫",
+    "type": "panel",
+    "godType": "war",
+    "sourceFile": "Sentinel.json",
+    "isGodRoot": false
   }
 ]

@@ -1,0 +1,1620 @@
+[
+  {
+    "url": "https://tlidb.com/cn/Outfit_Shop",
+    "title": "Outfit_Shop - 火炬编年史, Torchlight: Infinite Wiki",
+    "html": "\n    <div class=\"background-image\"></div>\n    <!-- Google tag (gtag.js) -->\n    <script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-P6KT6L9KX8\"></script>\n    <script>\n      window.dataLayer = window.dataLayer || [];\n      function gtag(){dataLayer.push(arguments);}\n      gtag('js', new Date());\n    \n      gtag('config', 'G-P6KT6L9KX8');\n    </script>\n\n    <nav class=\"navbar navbar-expand-lg navbar-dark\">\n      <div class=\"container\">\n        <a class=\"navbar-brand\" href=\"/cn/\">火炬编年史</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">英雄</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Hero\">英雄</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Talent\">天赋</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">仓库</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Inventory\">仓库</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Legendary_Gear\">传奇装备</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Ethereal_Prism\">异度棱镜</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_Synthetic_Synthetic\" href=\"/cn/Recipe\">Recipe</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Pactspirit\">契灵</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"function|name|116\" href=\"/cn/Black_Market\">Black Market</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Drop_Source\">掉落来源</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Destiny\">命运</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">技能</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Active_Skill\">主动技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Support_Skill\">辅助技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Passive_Skill\">被动技能</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_SkillBag_SkillType4\" href=\"/cn/Triggered_Skill\">Triggered Skill</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Activation_Medium_Skill\">触媒技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Noble_Support_Skill\">崇高辅助技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Magnificent_Support_Skill\">华贵辅助技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Tip\">提示</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Hyperlink\">Hyperlink</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">打造</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Craft\">打造</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"function|name|131\" href=\"/cn/Enchant\">Enchant</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Corrosion\">侵蚀</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Gear_Empowerment\">装备赋能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Dream_Talking\">梦语</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Blending_Rituals\">调香秘仪</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/TOWER_Sequence\">高塔序列</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Graft\">缝合</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">成就</a>\n              <ul class=\"dropdown-menu\">\n                <!--\n                <li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_Growth_Achievement_Title\" href=\"/cn/Path_of_Achievements\">Path of Achievements</a></li>\n                -->\n                <li><a class=\"dropdown-item\" href=\"/cn/Path_of_Progression\">成长之路</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"season|name1|101\" href=\"/cn/Dark_Surge_Season\">Dark Surge Season</a></li>-->\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_SeasonBook_Title\" href=\"/cn/Season_Pass\">Season Pass</a></li>-->\n                <!--\n                <li><a class=\"dropdown-item\" data-i18n=\"function|name|139\" href=\"/cn/Event\">Event</a></li>\n                -->\n                <li><hr class=\"dropdown-divider\"></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Help\">帮助手册</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Codex\">情报</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">异界</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Netherrealm\">异界</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_MysteryCard_PlayerDeck\" href=\"/cn/Trait_Decks\">Trait Decks</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Confusion_Card_Library\">混乱牌库</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Void_Chart\">虚空星图</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Compass\">罗盘</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Probe\">赛季罗盘</a></li>\n                <li><hr class=\"dropdown-divider\"></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Path_of_the_Brave\">勇者之路</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">商城</a>\n              <ul class=\"dropdown-menu\">\n    <!--\n                <li><a class=\"dropdown-item\" data-i18n=\"function|name|110\" href=\"/cn/Shop\">Shop</a></li>\n    -->\n                <li><a class=\"dropdown-item\" href=\"/cn/Outfit\">时装</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Commodity\">通货</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Boon\">恩赐</a></li>\n              </ul>\n            </li>\n    \n    <!--\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" data-i18n=\"Guide\" href=\"/cn/guides?season=The%20Frozen%20Canvas%20Season\">Guide</a>\n            </li>\n    -->\n    \n          </ul>\n    \n          <!--\n          <a class=\"nav-link2\" style=\"padding-right: 10px\" href=\"https://lihi1.com/cAO3Z\" target=\"_blank\">\n            <img style=\"height: 24px\" \n                src=\"https://cdn.tlidb.com/image/logo/torchlight-48.webp\"\n            />\n          </a>\n    \n          <a class=\"nav-link2\" style=\"padding-right: 10px\"\n            href=\"https://lihi1.com/l1NmL\"\n            target=\"_blank\">\n            <img style=\"height: 24px\" src=\"https://cdn.tlidb.com/image/logo/facebook-48.webp\"/>\n          </a>\n    \n          <a class=\"nav-link2\" style=\"padding-right: 10px\"\n            href=\"https://lihi1.com/neCTK\"\n            target=\"_blank\">\n            <img style=\"height: 24px\" src=\"https://cdn.tlidb.com/image/logo/youtube-48.webp\"/>\n          </a>\n    \n          <a class=\"nav-link2\" style=\"padding-right: 10px\" href=\"https://lihi1.com/owKrQ\" target=\"_blank\">\n            <img style=\"height: 24px\" src=\"https://cdn.tlidb.com/image/logo/discord-48.webp\"/>\n          </a>\n          -->\n    \n          <ul class=\"navbar-nav\">\n            <li class=\"nav-item dropdown\">\n              <a href=\"#\" class=\"nav-link dropdown-toggle\" role=\"button\" data-bs-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"> <i class=\"fas fa-language fa-lg\"></i></a>\n              <ul class=\"dropdown-menu language-menu\">\n                <li><a class=\"dropdown-item\" href=\"/en/Outfit_Shop\">EN English</a></li>\n                <li><a class=\"dropdown-item\" href=\"/tw/Outfit_Shop\">TW 繁體中文</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Outfit_Shop\">CN 简体中文</a></li>\n                <li><a class=\"dropdown-item\" href=\"/ko/Outfit_Shop\">KO 한국어</a></li>\n                <li><a class=\"dropdown-item\" href=\"/ja/Outfit_Shop\">JA Japanese</a></li>\n                <li><a class=\"dropdown-item\" href=\"/ru/Outfit_Shop\">RU Русский</a></li>\n                <!--\n                <li><a class='dropdown-item' href='/de/'>DE Deutsch</a></li>\n                <li><a class='dropdown-item' href='/es/'>ES Spanish</a></li>\n                <li><a class='dropdown-item' href='/fr/'>FR Français</a></li>\n                <li><a class='dropdown-item' href='/id/'>ID bahasa Indonesia</a></li>\n                <li><a class='dropdown-item' href='/pt/'>PT Português</a></li>\n                <li><a class='dropdown-item' href='/th/'>TH ภาษาไทย</a></li>\n                <li><a class='dropdown-item' href='/vi/'>VI Tiếng Việt</a></li>\n                -->\n              </ul>\n            </li>\n          </ul>\n    \n          <form class=\"d-flex\" role=\"search\" action=\"search\">\n            <input class=\"form-control me-2 ui-autocomplete-input\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\" id=\"navautosearch\" name=\"q\" autocomplete=\"off\">\n          </form>\n    \n        </div>\n      </div>\n    </nav>\n\n    <script> sidebar160(\"leftside_banner\", \"left\"); </script>\n    <script> sidebar160(\"rightside_banner\", \"right\"); </script>\n\n    <div class=\"page\">\n    <div class=\"page-content container\" role=\"main\">\n    <div class=\"text-center\">\n    <a href=\"Vorax_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S13_LegendStitching_03.webp\" class=\"size48\"></a>\n    <a href=\"Overrealm_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S12_LengJing_White01.webp\" class=\"size48\"></a>\n    <a href=\"Outlaw_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S11ChipMatching0_Icon.webp\" class=\"size48\"></a>\n    <a href=\"Sandlord_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/UI_Money_S10EquipEnchantMaterial_10_128.webp\" class=\"size48\"></a>\n    <a href=\"Arcana_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S9Pet_FateStar_128.webp\" class=\"size48\"></a>\n    <a href=\"The_Frozen_Canvas_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S8Gameplay_Snow2_128.webp\" class=\"size48\"></a>\n    <a href=\"Clockwork_Ballet_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_MysticTreeRespecPoint_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Whispering_Mist_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S6Gameplay_Tile_bench.webp\" class=\"size48\"></a>\n    <a href=\"Nightmare_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S5Gameplay_DreamTreasure_Almighty_C_128.webp\" class=\"size48\"></a>\n    <a href=\"Aeterna_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/S4/UI_S4Gameplay_talent01_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Cube_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S3Gameplay_Beads_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Blacksail_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S2BossTicket3_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Dark_Surge_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_Item_yimozhihe_Icon_128.webp\" class=\"size48\"></a>\n    </div>\n    <div class=\"text-center mb-2\"><a href=\"https://l.taptap.cn/SyBkGgT1?channel=rep-rep_voftpwn7cks\" target=\"_blank\"><img src=\"https://cdn.tlidb.com/image/torchlight/p3_20251226_cn.webp\" style=\"max-width: 100%;\"></a></div>\n    <div class=\"card mb-2 \">\n    <div class=\"card-header\">时装商店 /100 </div>\n    <div class=\"collapse show\">\n    \n    \n    <script>\n$(document).ready(function () {\n    filterClick($('[name=filter]'));\n});\n</script>\n\n<form><div class=\"input-group my-2\">\n    <button class=\"btn btn-outline-secondary\" type=\"reset\">Reset</button>\n    <input name=\"filter\" class=\"form-control\" placeholder=\"Search\">\n</div></form><div class=\"row row-cols-1 row-cols-lg-2 g-2\"><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_bingyan_Hight_01_M_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">炽焰武士<br>【高级英雄服装-冰焰】<br>传说中长生不灭的武士，为追寻极致的剑术，纵身跃入灼热的火海。<br>炽焰焚尽残躯，英魂长存世间。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x2300<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_TaoTuoZhe_001_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">干脆面小子<br>【英雄服装-逃脱者】<br>优秀的逃脱大师，能够伪装成其他生物的模样，与周围环境融为一体。<br>“这，也是逃脱的艺术！”<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x2300<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_MaoNv_001_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">夜行<br>【英雄服装-追猎】<br>幽夜之下，谁眼眸灼灼？<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x2300<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_maonv_Hight_01_M_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">狂虎领主<br>【高级英雄服装-追猎】<br>“传说中那骁勇善战的领主，用自己的铁爪与利齿，博得了……”“数不清的小鱼干，嗷呜！”<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x3000<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_yuenv_Normal_01_M_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">蛇蝎<br>【英雄服装-神谕者】<br>不愿入梦的蛇蝎，渴饮着夜的呼吸。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x2300<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_C_W_ESound1hSw_HongYin_M_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">虹音轻剑<br>【武器皮肤-单手剑】<br>虚构妄想之虹，编织醒与梦的乐章。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_C_W_ESound2hAxe_HongYin_M_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">虹音巨斧<br>【武器皮肤-双手斧】<br>虚构妄想之虹，编织醒与梦的乐章。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_C_W_Cannon_HeartsParty_M_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">红心国王开场炮<br>【武器皮肤-炮】<br>一起来玩吧！在这里五张红色的糖纸也算同花顺！<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1250<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_2HSword_Watcher_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">监视者的审判<br>【武器皮肤-双手剑】<br>他并不介意你知道他在看你。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1250<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_C_W_Wand_Stargazing_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">占星短杖<br>【武器皮肤-法杖】<br>不可直视繁星，不可揣测命运。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_C_W_1HMace_Stargazing_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">碎星之锤<br>【武器皮肤-单手锤】<br>不可直视繁星，不可揣测命运。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_C_W_Shield_Stargazing_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">御星之盾<br>【武器皮肤-盾】<br>不可直视繁星，不可揣测命运。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_1HSword_Dreamland_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">惊梦<br>【武器皮肤-单手剑】<br>你渴望醒来，但它们却伸长了手，将你拖向更深一层的梦魇。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Pistol_DeadSoul_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">星彩短枪<br>【武器皮肤-手枪】<br>让那彩色浸染，直至包裹群星。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1200<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_1HAxe_DeadSoul_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">游魂巨斧<br>【武器皮肤-单手斧】<br>无数个影子在此地徘徊，却从未触及永恒的门扉。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1200<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Back_S3_005_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">衔春火<br>【背饰】<br>寸寸相思寸寸灰。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x2100<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Back_016_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">灰烬推进器<br>【背饰】<br>灰烬驱动的推进器原型。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x2100<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Back_14_M_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">幽夜君王大剑<br>【背饰】<br>昔日的君王之威重降人间。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x2100<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_FocusedShoot_01_M_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【专注射击】冰刺<br>【技能特效】专注射击<br>北境最凛冽的狂风中，除了刺骨的坚冰外，别无他物。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_DiffusionBlade_Shot_01_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【环绕飞刃】灾亡飞刃<br>【技能特效】环绕飞刃<br>灾烬的利刃终将切割开这个世界。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_EarthShock_DelayAttack_01_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【震撼大地】褪色大地<br>【技能特效】震撼大地<br>她仍在褪色的大地上找寻那颗孤星。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_IceArea_01_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【寒霜地面】搅动深渊<br>【技能特效】寒霜地面<br>深渊在扩散，罪孽在蔓延。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_UnleashFlame_LavaProjectile_01_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【烈焰释放】大精灵泉<br>【技能特效】烈焰释放<br>沉默的精灵泉开始怒号。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_FirePile_Attack_01_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【火焰之桩】罪焰爪牙<br>【技能特效】聚焰核心<br>罪女啊，成为炎狱的爪牙，在罪孽赎尽之前。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_ChaosRay_Ray_01_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【灼热射线】霓虹光束<br>【技能特效】灼热射线<br>笔直的霓虹，斑斓的数据块，和一个虚构的世界。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_Aura_01_M_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【光环】月笼清荷<br>【技能特效】光环<br>月下清荷风弄影。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_Aura_02_M_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【光环】暮影惊情<br>【技能特效】光环<br>饮下馥郁的芳菲，没入深红的欢愉。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_Aura_03_M_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【光环】虚海诡帆<br>【技能特效】光环<br>追逐、逃离、周而复始。<br>驶向无尽的循环。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_Surge_01_M_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【激发技能】虚海船影<br>【技能特效】激发<br>游荡的英雄啊，我会将你带向终港。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_ViolentSweep_Area_02_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【暴走巨刃】搅乱潮汐<br>【技能特效】暴走巨刃<br>时间已经过去了太久，久到这片深海的潮汐，也被她的双手搅乱。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_ThunderSlash_Slash_01_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【雷影斩】斩落深海<br>【技能特效】雷影斩<br>“小猫，你想成为海的主人吗？”她斩开阻隔彼此的深海，开口发问。<br>女孩歪着脑袋想了想，认真地摇了摇头。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_IceRing_02_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【冰环术】红夜火海<br>【技能特效】冰环术<br>待到下一个红月复临之夜，所有恶行注定湮灭于炎狱的火海。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_FlameRoad_02_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【烈焰之径】燃罪之路<br>【技能特效】烈焰之径<br>红月夫人行过此路，无数罪人妄图触摸她灼热的裙摆，直到化为飞灰。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_Surge_02_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【激发技能】凝海涡旋<br>【技能特效】激发<br>她抬起手，海潮将女孩卷起，女孩却笑得毫无防备，像极了那个被族人欺骗，孤独地走向深海的自己。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Aura_06_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【光环】烂漫音阶<br>【技能特效】光环<br>去阳光下，去把那些烂漫的风景唱成歌吧。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_FlameSlash_02_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【烈焰斩】全息之刃<br>【技能特效】烈焰斩<br>牢不可破的数字屏障被罗刹斩开，庞大的数据库也随之土崩瓦解。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_FireBlast_Attack_01_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【爆炎术】全息爆破<br>【技能特效】爆炎术<br>昂贵的数据在罗刹手中接连爆破，邪恶的网络组织再也无法为祸一方。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_IceRay_Ray_01_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【冰魄射线】寒枝惊雀<br>【技能特效】冰魄射线<br>它的羽翼挂满寒霜，却仍在寻找可栖的枝头。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_ThunderStorm_Storm_01_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【闪电风暴】极冬苍云<br>【技能特效】闪电风暴<br>那片云里藏着霜城的一整个冬。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Surge_04_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【激发技能】人格重载<br>【技能特效】激发<br>当身体里的每一条数据都被拷贝了无数次，骇客终于发现，构成自己的每一个比特，都和最初不再相同。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_ThunderstormRay_Ray_01_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【雷暴射线】幻彩螺旋<br>【技能特效】雷暴射线<br>那些散落的颜色转呀转呀，就转出了一整个奇幻多彩的世界。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_TuningField_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【调谐力场】奇点游转<br>【技能特效】调谐力场<br>坍缩的奇点之中，还在游转着谁曾存在过的世界？<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_FollowStar_Loop_01_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【追猎星芒】伞下歌<br>【技能特效】追猎星芒<br>三更雨尽时，伞下歌未眠。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_BladeRoundabout_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【刀锋回旋】出击！旋转鸭<br>【技能特效】刀锋回旋<br>出击吧，旋转鸭鸭！让那些呼啸的浪花，也和你们一起晕头转向吧！<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_IceBlink_Attack_01_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【寒冰传送】罪焰盛放<br>【技能特效】寒冰传送<br>炎狱的万千罪焰之中，唯一的无罪之花终于盛放。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x880<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_BowSentinel_Attack_01_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【飞箭英灵】炎狱射手<br>【技能特效】飞箭英灵<br>燃烧着的射手渡过炎海，等待着红月夫人的召唤。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x880<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_RaidSentinel_Attack_01_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【幽刃英灵】音波投手<br>【技能特效】幽刃英灵<br>邪恶的机械乐手向猫咪投掷出飞刀，猫咪轻盈地将其拨开，在远方炸开一团五颜六色的音波。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x880<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_LightningStab_Fire_01_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【雷光刺击】欢笑代码<br>【技能特效】雷光刺击<br>把代码藏进闪电，闪电落在哪里，欢笑就被传染到了哪里。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x880<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Blizzard_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【暴风雪】雾雨人<br>【技能特效】暴风雪<br>他来过，如雾都连绵不断的阴雨。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x880<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_WhirlingBlade_Dash_01_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【螺旋击】雾海浮沉<br>【技能特效】螺旋击<br>旋转，缠绵，浮沉。与我一同，雾海沉沦。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x880<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_Surge_05_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【激发技能】火箭突击<br>【技能特效】激发<br>快抓住火箭的尾巴，去天空城上冒险吧！<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x880<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Aura_09_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【光环】云梦游龙<br>【技能特效】光环<br>祥云如聚，金鳞凝光，四海舞游龙。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Nimbus_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【雷云放射】缠绵灯花<br>【技能特效】雷云放射<br>锦缎千树，灯花如雨，缠绵无绝期。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Body_042_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">浅海游鱼<br>【身体特效】<br>发光的鱼儿衔着第一千个梦，在她的身侧游转。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x880<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Step_037_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">浓缩海浪<br>【足迹特效】<br>小小的水球里，可是浓缩着深海最汹涌的海浪！<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x880<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Body_001_M_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">失格幽影<br>【身体特效】<br>未能晋升为觉醒者的幽影，没有归处，永无宁静。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x700<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Body_yuyue_01_M_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">心火征程<br>【高级身体特效】<br>心火如炬，不畏征程漫漫。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x700<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Body_034_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">深眠迷雾<br>【身体特效】<br>睡吧，在最深最沉的雾里，睡吧。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x700<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_body_021_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">蝶影蹁跹<br>【身体特效】<br>尤加自制的蝴蝶灰烬投影装置，一秒即可将正在惹祸的艾瑞卡引诱回身边。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x700<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Step_002_M_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">星语<br>【足迹特效】<br>星空低语宿命，循环往复轮回。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x500<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Step_022_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">蹈火<br>【足迹特效】<br>他曾为真理投渊蹈火，却也难逃恶业的审判。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x500<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Step_027_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">雪骨炽燃<br>【足迹特效】<br>直到冰雪浸染烈火。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x500<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Step_015_M_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">幽夜残火<br>【足迹特效】<br>无法逃脱的幽夜，永不熄灭的残火。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x500<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Step_031_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">猫爪软糖<br>【足迹特效】<br>那是一场软绵绵、甜丝丝的梦！<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x500<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Step_021_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">原点崩解<br>【足迹特效】<br>世界原初的架构正在分崩离析。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x500<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Step_DeadSoul_025_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">幽燃舞步<br>【足迹特效】<br>他与她共舞，直到永恒之火烧尽一切。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x500<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Portal_YanYuXinFei_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">炎狱心扉<br>【高级传送特效】<br>以刀尖沾染烈火，划开那扇心门。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Portal_ChiXinNuFang_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">痴心怒放<br>【传送特效】<br>“俺一看到你，心就跳得厉害。你说，你是不是会啥法术呢？”<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1600<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Portal_YanYuZhiShi_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">炎狱之噬<br>【高级传送特效】<br>唯有承受烈火的噬啮，才能触及炎狱的堤岸。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x2100<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_NvQiShi004_Showcase_Show_002_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">扬名<br>【光曜-出场】<br>“记住了。这条街上，我就是唯一的规矩。”<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x500<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_NvQiShi004_Showcase_Idle2_002_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">整备<br>【光曜-待机】<br>“在下场战斗到来之前，或许还有片刻的闲暇。”<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x500<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_C_W_Pistol_Fragrance_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">芳菲短枪<br>【武器皮肤-手枪】<br>春宵苦短，怎奈丽日芳菲。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1200<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_C_W_2HMace_GothicLolita_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">夜恋<br>【武器皮肤-双手锤】<br>那些夜是孤寂的。直到她的歌声催生了花海。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1200<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_C_W_Wand_GothicLolita_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">夜雨<br>【武器皮肤-法杖】<br>那些夜是干涸的。直到她的歌声唤醒了夜雨。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1200<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_Spark_Bullet_03_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【电火花】超能火花<br>【技能特效】电火花<br>罗刹无法理解“仇恨”。但骇客的仇恨是那般炙热，炙热到让那冰冷的数据块也燃起了烈火。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x880<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_LightingShoot_02_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【闪电射击】精神链表<br>【技能特效】闪电射击<br>为它们注入人格，为它们提供仇恨。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x880<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Aura_08_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【光环】数字囚牢<br>【技能特效】光环<br>骇客孤独地站在网络的最深处，那些数字化的回忆，早已成为禁锢他一生的囚牢。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x880<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_FrostStab_Attack_02_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【碎冰刺击】训诫之刺<br>【技能特效】碎冰刺击<br>“看起来，还有人需要学习规矩。”<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x880<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Strafe_Boom_01_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【炮轰】到此一游<br>【技能特效】炮轰<br>“好山好水，小爷我到此一游！”<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x880<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_DrainLife_02_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【摄念夺识】炎海古卷<br>【技能特效】摄念夺识<br>自此日夜吟诵万卷经文，静候她的降临。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x880<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_QuicklyPhantom_Cast_01_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【迅法幻身】交错时空<br>【技能特效】迅法幻身<br>“在那些我们不曾相遇的时空里，你会拥有一个美好的未来吗？”<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x880<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Fireball_Boom_02_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【裂变火球】巫师南瓜大暴走！<br>【技能特效】裂变火球<br>“号外号外，巫师小姐的南瓜从锅子里逃跑了！大家小心爆炸哦！”<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x880<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_SplitArrow_Bullet_02_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【分裂射击】魔法猫咪大添乱！<br>【技能特效】分裂射击<br>“魔法猫猫驾到！看看哪个倒霉鬼，适合装进巫师小姐的锅子里？”<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x880<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_C_W_Dagger_IceBlade_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">淬冰锋刃<br>【武器皮肤-匕首】<br>让寒冰浸染烈火，让烈火吻过寒冰。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1200<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_C_W_Bow_Electronic_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">滑音幻弓<br>【武器皮肤-弓】<br>给单调的音色注入点彩虹。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x1200<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Step_034_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">灰雾之绊<br>【足迹特效】<br>让我沉没，让我哭泣，让我的双手缠上你的脚踝。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x500<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Body_040_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">雾中的纠缠<br>【身体特效】<br>走近吧，安眠吧，投入至亲的怀抱吧。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x700<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Aura_013_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【光环】冰雪糯米球<br>【技能特效】光环<br>猜猜什么味道藏在球里了？<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x880<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Step_036_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">时间踪迹<br>【足迹特效】<br>我愿时间永失踪迹。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x500<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Body_041_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">时间纽带<br>【身体特效】<br>我愿时间再无纽带。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x700<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_ChaosRay_Ray_01_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【枯萎射线】枯萎芳心<br>【技能特效】枯萎射线<br>他们爱看飞鸟褪尽翎羽，爱看游鱼生出双翼，爱看夜莺在玫瑰和绸带装饰的笼中日渐枯萎。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x880<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Fireball_SKL_Tornado_01_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【呼啸烈风】幽夜舞曲<br>【技能特效】呼啸烈风<br>与她共舞，坠入幽夜那深邃静谧的螺旋。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x880<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_ShadowSlash_01_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【月华斩】飞花摘月<br>【技能特效】月华斩<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x880<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Body_045_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">风花之拥<br>【身体特效】<br>你拥着，风花缱绻入眠。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x700<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Step_041_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">风花之径<br>【足迹特效】<br>你走着，风花铺就行径。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x700<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Flawless_01_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">无暇-诅咒<br>【技能特效】诅咒<br>使用后可屏蔽技能原本的特效。<br><a data-hover=\"/cache/cn/Torchlight_Money_hover/c00c743849d975e49b24541f73080f49f1f5bbe4231ed6d3f6c1fd93a43346de\" href=\"Jagged_Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/UI_Money_BreakCrystal_Icon_128.webp\" height=\"24\" loading=\"lazy\">碎裂原晶</a> x60<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Flawless_01_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">无暇-光环<br>【技能特效】光环<br>使用后可屏蔽技能原本的特效。<br><a data-hover=\"/cache/cn/Torchlight_Money_hover/c00c743849d975e49b24541f73080f49f1f5bbe4231ed6d3f6c1fd93a43346de\" href=\"Jagged_Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/UI_Money_BreakCrystal_Icon_128.webp\" height=\"24\" loading=\"lazy\">碎裂原晶</a> x60<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Curse_Area_03_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">【诅咒】静寂海<br>【技能特效】诅咒<br>与我一同，坠入那片静寂之海。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x880<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Surge_07_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">星河殿堂<br>【技能特效】激发<br>将繁星披在肩上。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x880<br>限量 1</div></div></div><div class=\"col\"><div class=\"d-flex border-top rounded\"><div class=\"flex-shrink-0\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_SKL_HealthFountain_Cast_01_256.webp\" class=\"size128\" loading=\"lazy\"></div><div class=\"flex-grow-1 mx-2 my-1\">群星伊始<br>【技能特效】生命源泉<br>以凡人之躯，追逐群星最不可揣测之根源。<br><a data-hover=\"?s=Money%2F1\" href=\"Primocryst\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp\" height=\"24\" loading=\"lazy\">原晶</a> x880<br>限量 1</div></div></div></div>\n    \n    </div>\n</div>\n    </div>\n    </div>\n\n    <footer class=\"text-center text-lg-left container mt-2\">\n      <div class=\"card p-4\">\n        <div class=\"row\">\n\n          <div class=\"col-lg-3 col-md-12 mb-4 mb-md-0\">\n            <h5 class=\"text-uppercase\">Sites</h5>\n            <ul class=\"list-unstyled mb-0\">\n              <li> <a target=\"_blank\" href=\"https://poedb.tw/\">poedb.tw</a> </li>\n              <li> <a target=\"_blank\" href=\"https://tlidb.com/\">tlidb.com</a> </li>\n              <!--<li> <a target=\"_blank\" href=\"https://diablo4.cc/\">diablo4.cc</a> </li>-->\n              <li> <a target=\"_blank\" href=\"https://poe2db.tw/\">poe2db.tw</a> </li>\n              <li> <a target=\"_blank\" href=\"https://paldb.cc/\">paldb.cc</a> </li>\n            </ul>\n          </div>\n\n          <div class=\"col-lg-3 col-md-12 mb-4 mb-md-0\">\n            <h5 class=\"text-uppercase\">About Site</h5>\n            <ul class=\"list-unstyled mb-0\">\n              <li><a href=\"privacy\">Privacy</a></li>\n              <li> <a target=\"_blank\" href=\"https://www.reddit.com/user/chuanhsing\">About US</a> </li>\n            </ul>\n          </div>\n\n          <div class=\"col-lg-3 col-md-6 mb-4 mb-md-0\">\n            <h5 class=\"text-uppercase\">Community</h5>\n            <ul class=\"list-unstyled mb-0\">\n            </ul>\n          </div>\n\n        </div>\n      </div>\n      <div class=\"p-3\">\n\n      <span>资料库内容为测试资料，正确资讯请以官方游戏内的内容为准。</span>\n      </div>\n    </footer>\n\n    <a href=\"#top\" id=\"toTop\"><span class=\"fas fa-arrow-circle-up fa-3x\"></span></a>\n    <div id=\"consent-box\" style=\"display:none\">\n      <button onclick=\"window.__cmp('showModal');\">\n        Update cookie preferences\n      </button>\n    </div>\n    \n    <script>\n      if (window[\"nitroAds\"] && window[\"nitroAds\"].loaded) {\n        document.getElementById(\"consent-box\").style.display = window[\"__tcfapi\"]\n          ? \"\"\n          : \"none\";\n      } else {\n        document.addEventListener(\n          \"nitroAds.loaded\",\n          () =>\n            (document.getElementById(\"consent-box\").style.display = window[\"__tcfapi\"]\n              ? \"\"\n              : \"none\")\n        );\n      }\n    </script>\n  <script defer=\"\" src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon=\"{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;83af079277c347f9ba9fc040e0d21cb5&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}\" crossorigin=\"anonymous\"></script>\n\n\n<ul id=\"ui-id-1\" tabindex=\"0\" class=\"ui-menu ui-widget ui-widget-content ui-autocomplete ui-front\" unselectable=\"on\" style=\"display: none;\"></ul><div role=\"status\" aria-live=\"assertive\" aria-relevant=\"additions\" class=\"ui-helper-hidden-accessible\"></div><iframe marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" id=\"1a8cb928824b1b\" width=\"0\" height=\"0\" src=\"about:blank\" name=\"__pb_locator__\" style=\"display: none; height: 0px; width: 0px; border: 0px;\"></iframe><iframe name=\"__uspapiLocator\" style=\"display: none;\"></iframe><div class=\"ad_row adbannertop ad-mobile ad_sidebar adpopup boxad contentAd\" style=\"display: block !important; width: 1px !important; height: 1px !important; position: absolute !important; left: -5000px !important; top: -5000px !important;\"></div><div class=\"content-showcase-itru-sufficient-2d m5c2t8q\" style=\"display: block !important; width: 1px !important; height: 1px !important; position: absolute !important; left: -5000px !important; top: -5000px !important;\"></div><div class=\"content-showcase-itru-sufficient-2d v8n6y4p\" style=\"display: block !important; width: 1px !important; height: 1px !important; position: absolute !important; left: -5000px !important; top: -5000px !important;\"></div><div class=\"content-showcase-itru-sufficient-2d w3p9m6d\" style=\"display: block !important; width: 1px !important; height: 1px !important; position: absolute !important; left: -5000px !important; top: -5000px !important;\"></div><div class=\"content-showcase-itru-sufficient-2d k2y8f7x\" style=\"display: block !important; width: 1px !important; height: 1px !important; position: absolute !important; left: -5000px !important; top: -5000px !important;\"></div><div class=\"content-showcase-itru-sufficient-2d q7d5z1l\" style=\"display: block !important; width: 1px !important; height: 1px !important; position: absolute !important; left: -5000px !important; top: -5000px !important;\"></div><div class=\"content-showcase-itru-sufficient-2d x9a7b3k\" style=\"display: block !important; width: 1px !important; height: 1px !important; position: absolute !important; left: -5000px !important; top: -5000px !important;\"></div>",
+    "content": "火炬编年史\n英雄\n仓库\n技能\n打造\n成就\n异界\n商城\n            \n时装商店 /100\nReset\n炽焰武士\n【高级英雄服装-冰焰】\n传说中长生不灭的武士，为追寻极致的剑术，纵身跃入灼热的火海。\n炽焰焚尽残躯，英魂长存世间。\n原晶 x2300\n限量 1\n干脆面小子\n【英雄服装-逃脱者】\n优秀的逃脱大师，能够伪装成其他生物的模样，与周围环境融为一体。\n“这，也是逃脱的艺术！”\n原晶 x2300\n限量 1\n夜行\n【英雄服装-追猎】\n幽夜之下，谁眼眸灼灼？\n原晶 x2300\n限量 1\n狂虎领主\n【高级英雄服装-追猎】\n“传说中那骁勇善战的领主，用自己的铁爪与利齿，博得了……”“数不清的小鱼干，嗷呜！”\n原晶 x3000\n限量 1\n蛇蝎\n【英雄服装-神谕者】\n不愿入梦的蛇蝎，渴饮着夜的呼吸。\n原晶 x2300\n限量 1\n虹音轻剑\n【武器皮肤-单手剑】\n虚构妄想之虹，编织醒与梦的乐章。\n原晶 x1600\n限量 1\n虹音巨斧\n【武器皮肤-双手斧】\n虚构妄想之虹，编织醒与梦的乐章。\n原晶 x1600\n限量 1\n红心国王开场炮\n【武器皮肤-炮】\n一起来玩吧！在这里五张红色的糖纸也算同花顺！\n原晶 x1250\n限量 1\n监视者的审判\n【武器皮肤-双手剑】\n他并不介意你知道他在看你。\n原晶 x1250\n限量 1\n占星短杖\n【武器皮肤-法杖】\n不可直视繁星，不可揣测命运。\n原晶 x1600\n限量 1\n碎星之锤\n【武器皮肤-单手锤】\n不可直视繁星，不可揣测命运。\n原晶 x1600\n限量 1\n御星之盾\n【武器皮肤-盾】\n不可直视繁星，不可揣测命运。\n原晶 x1600\n限量 1\n惊梦\n【武器皮肤-单手剑】\n你渴望醒来，但它们却伸长了手，将你拖向更深一层的梦魇。\n原晶 x1600\n限量 1\n星彩短枪\n【武器皮肤-手枪】\n让那彩色浸染，直至包裹群星。\n原晶 x1200\n限量 1\n游魂巨斧\n【武器皮肤-单手斧】\n无数个影子在此地徘徊，却从未触及永恒的门扉。\n原晶 x1200\n限量 1\n衔春火\n【背饰】\n寸寸相思寸寸灰。\n原晶 x2100\n限量 1\n灰烬推进器\n【背饰】\n灰烬驱动的推进器原型。\n原晶 x2100\n限量 1\n幽夜君王大剑\n【背饰】\n昔日的君王之威重降人间。\n原晶 x2100\n限量 1\n【专注射击】冰刺\n【技能特效】专注射击\n北境最凛冽的狂风中，除了刺骨的坚冰外，别无他物。\n原晶 x1600\n限量 1\n【环绕飞刃】灾亡飞刃\n【技能特效】环绕飞刃\n灾烬的利刃终将切割开这个世界。\n原晶 x1600\n限量 1\n【震撼大地】褪色大地\n【技能特效】震撼大地\n她仍在褪色的大地上找寻那颗孤星。\n原晶 x1600\n限量 1\n【寒霜地面】搅动深渊\n【技能特效】寒霜地面\n深渊在扩散，罪孽在蔓延。\n原晶 x1600\n限量 1\n【烈焰释放】大精灵泉\n【技能特效】烈焰释放\n沉默的精灵泉开始怒号。\n原晶 x1600\n限量 1\n【火焰之桩】罪焰爪牙\n【技能特效】聚焰核心\n罪女啊，成为炎狱的爪牙，在罪孽赎尽之前。\n原晶 x1600\n限量 1\n【灼热射线】霓虹光束\n【技能特效】灼热射线\n笔直的霓虹，斑斓的数据块，和一个虚构的世界。\n原晶 x1600\n限量 1\n【光环】月笼清荷\n【技能特效】光环\n月下清荷风弄影。\n原晶 x1600\n限量 1\n【光环】暮影惊情\n【技能特效】光环\n饮下馥郁的芳菲，没入深红的欢愉。\n原晶 x1600\n限量 1\n【光环】虚海诡帆\n【技能特效】光环\n追逐、逃离、周而复始。\n驶向无尽的循环。\n原晶 x1600\n限量 1\n【激发技能】虚海船影\n【技能特效】激发\n游荡的英雄啊，我会将你带向终港。\n原晶 x1600\n限量 1\n【暴走巨刃】搅乱潮汐\n【技能特效】暴走巨刃\n时间已经过去了太久，久到这片深海的潮汐，也被她的双手搅乱。\n原晶 x1600\n限量 1\n【雷影斩】斩落深海\n【技能特效】雷影斩\n“小猫，你想成为海的主人吗？”她斩开阻隔彼此的深海，开口发问。\n女孩歪着脑袋想了想，认真地摇了摇头。\n原晶 x1600\n限量 1\n【冰环术】红夜火海\n【技能特效】冰环术\n待到下一个红月复临之夜，所有恶行注定湮灭于炎狱的火海。\n原晶 x1600\n限量 1\n【烈焰之径】燃罪之路\n【技能特效】烈焰之径\n红月夫人行过此路，无数罪人妄图触摸她灼热的裙摆，直到化为飞灰。\n原晶 x1600\n限量 1\n【激发技能】凝海涡旋\n【技能特效】激发\n她抬起手，海潮将女孩卷起，女孩却笑得毫无防备，像极了那个被族人欺骗，孤独地走向深海的自己。\n原晶 x1600\n限量 1\n【光环】烂漫音阶\n【技能特效】光环\n去阳光下，去把那些烂漫的风景唱成歌吧。\n原晶 x1600\n限量 1\n【烈焰斩】全息之刃\n【技能特效】烈焰斩\n牢不可破的数字屏障被罗刹斩开，庞大的数据库也随之土崩瓦解。\n原晶 x1600\n限量 1\n【爆炎术】全息爆破\n【技能特效】爆炎术\n昂贵的数据在罗刹手中接连爆破，邪恶的网络组织再也无法为祸一方。\n原晶 x1600\n限量 1\n【冰魄射线】寒枝惊雀\n【技能特效】冰魄射线\n它的羽翼挂满寒霜，却仍在寻找可栖的枝头。\n原晶 x1600\n限量 1\n【闪电风暴】极冬苍云\n【技能特效】闪电风暴\n那片云里藏着霜城的一整个冬。\n原晶 x1600\n限量 1\n【激发技能】人格重载\n【技能特效】激发\n当身体里的每一条数据都被拷贝了无数次，骇客终于发现，构成自己的每一个比特，都和最初不再相同。\n原晶 x1600\n限量 1\n【雷暴射线】幻彩螺旋\n【技能特效】雷暴射线\n那些散落的颜色转呀转呀，就转出了一整个奇幻多彩的世界。\n原晶 x1600\n限量 1\n【调谐力场】奇点游转\n【技能特效】调谐力场\n坍缩的奇点之中，还在游转着谁曾存在过的世界？\n原晶 x1600\n限量 1\n【追猎星芒】伞下歌\n【技能特效】追猎星芒\n三更雨尽时，伞下歌未眠。\n原晶 x1600\n限量 1\n【刀锋回旋】出击！旋转鸭\n【技能特效】刀锋回旋\n出击吧，旋转鸭鸭！让那些呼啸的浪花，也和你们一起晕头转向吧！\n原晶 x1600\n限量 1\n【寒冰传送】罪焰盛放\n【技能特效】寒冰传送\n炎狱的万千罪焰之中，唯一的无罪之花终于盛放。\n原晶 x880\n限量 1\n【飞箭英灵】炎狱射手\n【技能特效】飞箭英灵\n燃烧着的射手渡过炎海，等待着红月夫人的召唤。\n原晶 x880\n限量 1\n【幽刃英灵】音波投手\n【技能特效】幽刃英灵\n邪恶的机械乐手向猫咪投掷出飞刀，猫咪轻盈地将其拨开，在远方炸开一团五颜六色的音波。\n原晶 x880\n限量 1\n【雷光刺击】欢笑代码\n【技能特效】雷光刺击\n把代码藏进闪电，闪电落在哪里，欢笑就被传染到了哪里。\n原晶 x880\n限量 1\n【暴风雪】雾雨人\n【技能特效】暴风雪\n他来过，如雾都连绵不断的阴雨。\n原晶 x880\n限量 1\n【螺旋击】雾海浮沉\n【技能特效】螺旋击\n旋转，缠绵，浮沉。与我一同，雾海沉沦。\n原晶 x880\n限量 1\n【激发技能】火箭突击\n【技能特效】激发\n快抓住火箭的尾巴，去天空城上冒险吧！\n原晶 x880\n限量 1\n【光环】云梦游龙\n【技能特效】光环\n祥云如聚，金鳞凝光，四海舞游龙。\n原晶 x1600\n限量 1\n【雷云放射】缠绵灯花\n【技能特效】雷云放射\n锦缎千树，灯花如雨，缠绵无绝期。\n原晶 x1600\n限量 1\n浅海游鱼\n【身体特效】\n发光的鱼儿衔着第一千个梦，在她的身侧游转。\n原晶 x880\n限量 1\n浓缩海浪\n【足迹特效】\n小小的水球里，可是浓缩着深海最汹涌的海浪！\n原晶 x880\n限量 1\n失格幽影\n【身体特效】\n未能晋升为觉醒者的幽影，没有归处，永无宁静。\n原晶 x700\n限量 1\n心火征程\n【高级身体特效】\n心火如炬，不畏征程漫漫。\n原晶 x700\n限量 1\n深眠迷雾\n【身体特效】\n睡吧，在最深最沉的雾里，睡吧。\n原晶 x700\n限量 1\n蝶影蹁跹\n【身体特效】\n尤加自制的蝴蝶灰烬投影装置，一秒即可将正在惹祸的艾瑞卡引诱回身边。\n原晶 x700\n限量 1\n星语\n【足迹特效】\n星空低语宿命，循环往复轮回。\n原晶 x500\n限量 1\n蹈火\n【足迹特效】\n他曾为真理投渊蹈火，却也难逃恶业的审判。\n原晶 x500\n限量 1\n雪骨炽燃\n【足迹特效】\n直到冰雪浸染烈火。\n原晶 x500\n限量 1\n幽夜残火\n【足迹特效】\n无法逃脱的幽夜，永不熄灭的残火。\n原晶 x500\n限量 1\n猫爪软糖\n【足迹特效】\n那是一场软绵绵、甜丝丝的梦！\n原晶 x500\n限量 1\n原点崩解\n【足迹特效】\n世界原初的架构正在分崩离析。\n原晶 x500\n限量 1\n幽燃舞步\n【足迹特效】\n他与她共舞，直到永恒之火烧尽一切。\n原晶 x500\n限量 1\n炎狱心扉\n【高级传送特效】\n以刀尖沾染烈火，划开那扇心门。\n原晶 x1600\n限量 1\n痴心怒放\n【传送特效】\n“俺一看到你，心就跳得厉害。你说，你是不是会啥法术呢？”\n原晶 x1600\n限量 1\n炎狱之噬\n【高级传送特效】\n唯有承受烈火的噬啮，才能触及炎狱的堤岸。\n原晶 x2100\n限量 1\n扬名\n【光曜-出场】\n“记住了。这条街上，我就是唯一的规矩。”\n原晶 x500\n限量 1\n整备\n【光曜-待机】\n“在下场战斗到来之前，或许还有片刻的闲暇。”\n原晶 x500\n限量 1\n芳菲短枪\n【武器皮肤-手枪】\n春宵苦短，怎奈丽日芳菲。\n原晶 x1200\n限量 1\n夜恋\n【武器皮肤-双手锤】\n那些夜是孤寂的。直到她的歌声催生了花海。\n原晶 x1200\n限量 1\n夜雨\n【武器皮肤-法杖】\n那些夜是干涸的。直到她的歌声唤醒了夜雨。\n原晶 x1200\n限量 1\n【电火花】超能火花\n【技能特效】电火花\n罗刹无法理解“仇恨”。但骇客的仇恨是那般炙热，炙热到让那冰冷的数据块也燃起了烈火。\n原晶 x880\n限量 1\n【闪电射击】精神链表\n【技能特效】闪电射击\n为它们注入人格，为它们提供仇恨。\n原晶 x880\n限量 1\n【光环】数字囚牢\n【技能特效】光环\n骇客孤独地站在网络的最深处，那些数字化的回忆，早已成为禁锢他一生的囚牢。\n原晶 x880\n限量 1\n【碎冰刺击】训诫之刺\n【技能特效】碎冰刺击\n“看起来，还有人需要学习规矩。”\n原晶 x880\n限量 1\n【炮轰】到此一游\n【技能特效】炮轰\n“好山好水，小爷我到此一游！”\n原晶 x880\n限量 1\n【摄念夺识】炎海古卷\n【技能特效】摄念夺识\n自此日夜吟诵万卷经文，静候她的降临。\n原晶 x880\n限量 1\n【迅法幻身】交错时空\n【技能特效】迅法幻身\n“在那些我们不曾相遇的时空里，你会拥有一个美好的未来吗？”\n原晶 x880\n限量 1\n【裂变火球】巫师南瓜大暴走！\n【技能特效】裂变火球\n“号外号外，巫师小姐的南瓜从锅子里逃跑了！大家小心爆炸哦！”\n原晶 x880\n限量 1\n【分裂射击】魔法猫咪大添乱！\n【技能特效】分裂射击\n“魔法猫猫驾到！看看哪个倒霉鬼，适合装进巫师小姐的锅子里？”\n原晶 x880\n限量 1\n淬冰锋刃\n【武器皮肤-匕首】\n让寒冰浸染烈火，让烈火吻过寒冰。\n原晶 x1200\n限量 1\n滑音幻弓\n【武器皮肤-弓】\n给单调的音色注入点彩虹。\n原晶 x1200\n限量 1\n灰雾之绊\n【足迹特效】\n让我沉没，让我哭泣，让我的双手缠上你的脚踝。\n原晶 x500\n限量 1\n雾中的纠缠\n【身体特效】\n走近吧，安眠吧，投入至亲的怀抱吧。\n原晶 x700\n限量 1\n【光环】冰雪糯米球\n【技能特效】光环\n猜猜什么味道藏在球里了？\n原晶 x880\n限量 1\n时间踪迹\n【足迹特效】\n我愿时间永失踪迹。\n原晶 x500\n限量 1\n时间纽带\n【身体特效】\n我愿时间再无纽带。\n原晶 x700\n限量 1\n【枯萎射线】枯萎芳心\n【技能特效】枯萎射线\n他们爱看飞鸟褪尽翎羽，爱看游鱼生出双翼，爱看夜莺在玫瑰和绸带装饰的笼中日渐枯萎。\n原晶 x880\n限量 1\n【呼啸烈风】幽夜舞曲\n【技能特效】呼啸烈风\n与她共舞，坠入幽夜那深邃静谧的螺旋。\n原晶 x880\n限量 1\n【月华斩】飞花摘月\n【技能特效】月华斩\n原晶 x880\n限量 1\n风花之拥\n【身体特效】\n你拥着，风花缱绻入眠。\n原晶 x700\n限量 1\n风花之径\n【足迹特效】\n你走着，风花铺就行径。\n原晶 x700\n限量 1\n无暇-诅咒\n【技能特效】诅咒\n使用后可屏蔽技能原本的特效。\n碎裂原晶 x60\n限量 1\n无暇-光环\n【技能特效】光环\n使用后可屏蔽技能原本的特效。\n碎裂原晶 x60\n限量 1\n【诅咒】静寂海\n【技能特效】诅咒\n与我一同，坠入那片静寂之海。\n原晶 x880\n限量 1\n星河殿堂\n【技能特效】激发\n将繁星披在肩上。\n原晶 x880\n限量 1\n群星伊始\n【技能特效】生命源泉\n以凡人之躯，追逐群星最不可揣测之根源。\n原晶 x880\n限量 1\nSITES\npoedb.tw\ntlidb.com\npoe2db.tw\npaldb.cc\nABOUT SITE\nPrivacy\nAbout US\nCOMMUNITY\n资料库内容为测试资料，正确资讯请以官方游戏内的内容为准。",
+    "tables": [],
+    "lists": [
+      [
+        "英雄\n              \n                英雄\n                天赋",
+        "英雄",
+        "天赋",
+        "仓库\n              \n                仓库\n                传奇装备\n                异度棱镜\n                \n                契灵\n                \n                掉落来源\n                命运",
+        "仓库",
+        "传奇装备",
+        "异度棱镜",
+        "契灵",
+        "掉落来源",
+        "命运",
+        "技能\n              \n                主动技能\n                辅助技能\n                被动技能\n                \n                触媒技能\n                崇高辅助技能\n                华贵辅助技能\n                提示\n                Hyperlink",
+        "主动技能",
+        "辅助技能",
+        "被动技能",
+        "触媒技能",
+        "崇高辅助技能",
+        "华贵辅助技能",
+        "提示",
+        "Hyperlink",
+        "打造\n              \n                打造\n                \n                侵蚀\n                装备赋能\n                梦语\n                调香秘仪\n                高塔序列\n                缝合",
+        "打造",
+        "侵蚀",
+        "装备赋能",
+        "梦语",
+        "调香秘仪",
+        "高塔序列",
+        "缝合",
+        "成就\n              \n                \n                成长之路\n                \n                \n                \n                \n                帮助手册\n                情报",
+        "成长之路",
+        "",
+        "帮助手册",
+        "情报",
+        "异界\n              \n                异界\n                \n                混乱牌库\n                虚空星图\n                罗盘\n                赛季罗盘\n                \n                勇者之路",
+        "异界",
+        "混乱牌库",
+        "虚空星图",
+        "罗盘",
+        "赛季罗盘",
+        "",
+        "勇者之路",
+        "商城\n              \n    \n                时装\n                通货\n                恩赐",
+        "时装",
+        "通货",
+        "恩赐"
+      ],
+      [
+        "英雄",
+        "天赋"
+      ],
+      [
+        "仓库",
+        "传奇装备",
+        "异度棱镜",
+        "契灵",
+        "掉落来源",
+        "命运"
+      ],
+      [
+        "主动技能",
+        "辅助技能",
+        "被动技能",
+        "触媒技能",
+        "崇高辅助技能",
+        "华贵辅助技能",
+        "提示",
+        "Hyperlink"
+      ],
+      [
+        "打造",
+        "侵蚀",
+        "装备赋能",
+        "梦语",
+        "调香秘仪",
+        "高塔序列",
+        "缝合"
+      ],
+      [
+        "成长之路",
+        "",
+        "帮助手册",
+        "情报"
+      ],
+      [
+        "异界",
+        "混乱牌库",
+        "虚空星图",
+        "罗盘",
+        "赛季罗盘",
+        "",
+        "勇者之路"
+      ],
+      [
+        "时装",
+        "通货",
+        "恩赐"
+      ],
+      [
+        "EN English\n                TW 繁體中文\n                CN 简体中文\n                KO 한국어\n                JA Japanese\n                RU Русский",
+        "EN English",
+        "TW 繁體中文",
+        "CN 简体中文",
+        "KO 한국어",
+        "JA Japanese",
+        "RU Русский"
+      ],
+      [
+        "EN English",
+        "TW 繁體中文",
+        "CN 简体中文",
+        "KO 한국어",
+        "JA Japanese",
+        "RU Русский"
+      ],
+      [
+        "poedb.tw",
+        "tlidb.com",
+        "poe2db.tw",
+        "paldb.cc"
+      ],
+      [
+        "Privacy",
+        "About US"
+      ]
+    ],
+    "links": [
+      {
+        "href": "https://tlidb.com/cn/",
+        "text": "火炬编年史"
+      },
+      {
+        "href": "https://tlidb.com/cn/Outfit_Shop#",
+        "text": "英雄"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hero",
+        "text": "英雄"
+      },
+      {
+        "href": "https://tlidb.com/cn/Talent",
+        "text": "天赋"
+      },
+      {
+        "href": "https://tlidb.com/cn/Outfit_Shop#",
+        "text": "仓库"
+      },
+      {
+        "href": "https://tlidb.com/cn/Inventory",
+        "text": "仓库"
+      },
+      {
+        "href": "https://tlidb.com/cn/Legendary_Gear",
+        "text": "传奇装备"
+      },
+      {
+        "href": "https://tlidb.com/cn/Ethereal_Prism",
+        "text": "异度棱镜"
+      },
+      {
+        "href": "https://tlidb.com/cn/Pactspirit",
+        "text": "契灵"
+      },
+      {
+        "href": "https://tlidb.com/cn/Drop_Source",
+        "text": "掉落来源"
+      },
+      {
+        "href": "https://tlidb.com/cn/Destiny",
+        "text": "命运"
+      },
+      {
+        "href": "https://tlidb.com/cn/Outfit_Shop#",
+        "text": "技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Active_Skill",
+        "text": "主动技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Support_Skill",
+        "text": "辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Passive_Skill",
+        "text": "被动技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Activation_Medium_Skill",
+        "text": "触媒技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Noble_Support_Skill",
+        "text": "崇高辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Magnificent_Support_Skill",
+        "text": "华贵辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Tip",
+        "text": "提示"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hyperlink",
+        "text": "Hyperlink"
+      },
+      {
+        "href": "https://tlidb.com/cn/Outfit_Shop#",
+        "text": "打造"
+      },
+      {
+        "href": "https://tlidb.com/cn/Craft",
+        "text": "打造"
+      },
+      {
+        "href": "https://tlidb.com/cn/Corrosion",
+        "text": "侵蚀"
+      },
+      {
+        "href": "https://tlidb.com/cn/Gear_Empowerment",
+        "text": "装备赋能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Dream_Talking",
+        "text": "梦语"
+      },
+      {
+        "href": "https://tlidb.com/cn/Blending_Rituals",
+        "text": "调香秘仪"
+      },
+      {
+        "href": "https://tlidb.com/cn/TOWER_Sequence",
+        "text": "高塔序列"
+      },
+      {
+        "href": "https://tlidb.com/cn/Graft",
+        "text": "缝合"
+      },
+      {
+        "href": "https://tlidb.com/cn/Outfit_Shop#",
+        "text": "成就"
+      },
+      {
+        "href": "https://tlidb.com/cn/Path_of_Progression",
+        "text": "成长之路"
+      },
+      {
+        "href": "https://tlidb.com/cn/Help",
+        "text": "帮助手册"
+      },
+      {
+        "href": "https://tlidb.com/cn/Codex",
+        "text": "情报"
+      },
+      {
+        "href": "https://tlidb.com/cn/Outfit_Shop#",
+        "text": "异界"
+      },
+      {
+        "href": "https://tlidb.com/cn/Netherrealm",
+        "text": "异界"
+      },
+      {
+        "href": "https://tlidb.com/cn/Confusion_Card_Library",
+        "text": "混乱牌库"
+      },
+      {
+        "href": "https://tlidb.com/cn/Void_Chart",
+        "text": "虚空星图"
+      },
+      {
+        "href": "https://tlidb.com/cn/Compass",
+        "text": "罗盘"
+      },
+      {
+        "href": "https://tlidb.com/cn/Probe",
+        "text": "赛季罗盘"
+      },
+      {
+        "href": "https://tlidb.com/cn/Path_of_the_Brave",
+        "text": "勇者之路"
+      },
+      {
+        "href": "https://tlidb.com/cn/Outfit_Shop#",
+        "text": "商城"
+      },
+      {
+        "href": "https://tlidb.com/cn/Outfit",
+        "text": "时装"
+      },
+      {
+        "href": "https://tlidb.com/cn/Commodity",
+        "text": "通货"
+      },
+      {
+        "href": "https://tlidb.com/cn/Boon",
+        "text": "恩赐"
+      },
+      {
+        "href": "https://tlidb.com/en/Outfit_Shop",
+        "text": "EN English"
+      },
+      {
+        "href": "https://tlidb.com/tw/Outfit_Shop",
+        "text": "TW 繁體中文"
+      },
+      {
+        "href": "https://tlidb.com/cn/Outfit_Shop",
+        "text": "CN 简体中文"
+      },
+      {
+        "href": "https://tlidb.com/ko/Outfit_Shop",
+        "text": "KO 한국어"
+      },
+      {
+        "href": "https://tlidb.com/ja/Outfit_Shop",
+        "text": "JA Japanese"
+      },
+      {
+        "href": "https://tlidb.com/ru/Outfit_Shop",
+        "text": "RU Русский"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Jagged_Primocryst",
+        "text": "碎裂原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Jagged_Primocryst",
+        "text": "碎裂原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://tlidb.com/cn/Primocryst",
+        "text": "原晶"
+      },
+      {
+        "href": "https://poedb.tw/",
+        "text": "poedb.tw"
+      },
+      {
+        "href": "https://tlidb.com/",
+        "text": "tlidb.com"
+      },
+      {
+        "href": "https://poe2db.tw/",
+        "text": "poe2db.tw"
+      },
+      {
+        "href": "https://paldb.cc/",
+        "text": "paldb.cc"
+      },
+      {
+        "href": "https://tlidb.com/cn/privacy",
+        "text": "Privacy"
+      },
+      {
+        "href": "https://www.reddit.com/user/chuanhsing",
+        "text": "About US"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S13_LegendStitching_03.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S12_LengJing_White01.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S11ChipMatching0_Icon.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/UI_Money_S10EquipEnchantMaterial_10_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S9Pet_FateStar_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S8Gameplay_Snow2_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_MysticTreeRespecPoint_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S6Gameplay_Tile_bench.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S5Gameplay_DreamTreasure_Almighty_C_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/S4/UI_S4Gameplay_talent01_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S3Gameplay_Beads_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S2BossTicket3_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_Item_yimozhihe_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/image/torchlight/p3_20251226_cn.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_bingyan_Hight_01_M_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_TaoTuoZhe_001_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_MaoNv_001_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_maonv_Hight_01_M_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_yuenv_Normal_01_M_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_C_W_ESound1hSw_HongYin_M_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_C_W_ESound2hAxe_HongYin_M_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_C_W_Cannon_HeartsParty_M_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_2HSword_Watcher_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_C_W_Wand_Stargazing_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_C_W_1HMace_Stargazing_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_C_W_Shield_Stargazing_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_1HSword_Dreamland_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Pistol_DeadSoul_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_1HAxe_DeadSoul_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Back_S3_005_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Back_016_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Back_14_M_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_FocusedShoot_01_M_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_DiffusionBlade_Shot_01_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_EarthShock_DelayAttack_01_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_IceArea_01_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_UnleashFlame_LavaProjectile_01_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_FirePile_Attack_01_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_ChaosRay_Ray_01_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_Aura_01_M_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_Aura_02_M_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_Aura_03_M_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_Surge_01_M_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_ViolentSweep_Area_02_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_ThunderSlash_Slash_01_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_IceRing_02_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_FlameRoad_02_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_Surge_02_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Aura_06_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_FlameSlash_02_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_FireBlast_Attack_01_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_IceRay_Ray_01_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_ThunderStorm_Storm_01_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Surge_04_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_ThunderstormRay_Ray_01_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_TuningField_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_FollowStar_Loop_01_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_BladeRoundabout_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_IceBlink_Attack_01_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_BowSentinel_Attack_01_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_RaidSentinel_Attack_01_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_LightningStab_Fire_01_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Blizzard_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_WhirlingBlade_Dash_01_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_Surge_05_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Aura_09_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Nimbus_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Body_042_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Step_037_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Body_001_M_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Body_yuyue_01_M_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Body_034_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_body_021_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Step_002_M_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Step_022_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Step_027_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Step_015_M_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Step_031_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Step_021_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Step_DeadSoul_025_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Portal_YanYuXinFei_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Portal_ChiXinNuFang_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Portal_YanYuZhiShi_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_NvQiShi004_Showcase_Show_002_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_NvQiShi004_Showcase_Idle2_002_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_C_W_Pistol_Fragrance_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_C_W_2HMace_GothicLolita_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_C_W_Wand_GothicLolita_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_Spark_Bullet_03_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_LightingShoot_02_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Aura_08_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_FrostStab_Attack_02_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Strafe_Boom_01_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_DrainLife_02_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_QuicklyPhantom_Cast_01_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Fireball_Boom_02_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_SplitArrow_Bullet_02_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_C_W_Dagger_IceBlade_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_C_W_Bow_Electronic_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Step_034_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Body_040_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Aura_013_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Step_036_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Body_041_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Skill_ChaosRay_Ray_01_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Fireball_SKL_Tornado_01_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_ShadowSlash_01_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Body_045_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Step_041_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Flawless_01_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/UI_Money_BreakCrystal_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Flawless_01_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/UI_Money_BreakCrystal_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Curse_Area_03_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_Surge_07_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Fashin/256/UI_Fashion_SKL_HealthFountain_Cast_01_256.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/Icon_Crystal_128.webp",
+        "alt": ""
+      }
+    ],
+    "meta": {
+      "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+      "color-scheme": "dark"
+    },
+    "structured_data": {}
+  }
+]

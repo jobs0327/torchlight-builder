@@ -1,0 +1,685 @@
+[
+  {
+    "url": "https://tlidb.com/cn/Pages",
+    "title": "Pages - 火炬编年史, Torchlight: Infinite Wiki",
+    "html": "\n    <div class=\"background-image\"></div>\n    <!-- Google tag (gtag.js) -->\n    <script async=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-P6KT6L9KX8\"></script>\n    <script>\n      window.dataLayer = window.dataLayer || [];\n      function gtag(){dataLayer.push(arguments);}\n      gtag('js', new Date());\n    \n      gtag('config', 'G-P6KT6L9KX8');\n    </script>\n\n    <nav class=\"navbar navbar-expand-lg navbar-dark\">\n      <div class=\"container\">\n        <a class=\"navbar-brand\" href=\"/cn/\">火炬编年史</a>\n        <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n          <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n          <ul class=\"navbar-nav me-auto mb-2 mb-lg-0\">\n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">英雄</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Hero\">英雄</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Talent\">天赋</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">仓库</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Inventory\">仓库</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Legendary_Gear\">传奇装备</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Ethereal_Prism\">异度棱镜</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_Synthetic_Synthetic\" href=\"/cn/Recipe\">Recipe</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Pactspirit\">契灵</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"function|name|116\" href=\"/cn/Black_Market\">Black Market</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Drop_Source\">掉落来源</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Destiny\">命运</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">技能</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Active_Skill\">主动技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Support_Skill\">辅助技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Passive_Skill\">被动技能</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_SkillBag_SkillType4\" href=\"/cn/Triggered_Skill\">Triggered Skill</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Activation_Medium_Skill\">触媒技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Noble_Support_Skill\">崇高辅助技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Magnificent_Support_Skill\">华贵辅助技能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Tip\">提示</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Hyperlink\">Hyperlink</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">打造</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Craft\">打造</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"function|name|131\" href=\"/cn/Enchant\">Enchant</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Corrosion\">侵蚀</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Gear_Empowerment\">装备赋能</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Dream_Talking\">梦语</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Blending_Rituals\">调香秘仪</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/TOWER_Sequence\">高塔序列</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Graft\">缝合</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">成就</a>\n              <ul class=\"dropdown-menu\">\n                <!--\n                <li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_Growth_Achievement_Title\" href=\"/cn/Path_of_Achievements\">Path of Achievements</a></li>\n                -->\n                <li><a class=\"dropdown-item\" href=\"/cn/Path_of_Progression\">成长之路</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"season|name1|101\" href=\"/cn/Dark_Surge_Season\">Dark Surge Season</a></li>-->\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_SeasonBook_Title\" href=\"/cn/Season_Pass\">Season Pass</a></li>-->\n                <!--\n                <li><a class=\"dropdown-item\" data-i18n=\"function|name|139\" href=\"/cn/Event\">Event</a></li>\n                -->\n                <li><hr class=\"dropdown-divider\"></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Help\">帮助手册</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Codex\">情报</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">异界</a>\n              <ul class=\"dropdown-menu\">\n                <li><a class=\"dropdown-item\" href=\"/cn/Netherrealm\">异界</a></li>\n                <!--<li><a class=\"dropdown-item\" data-i18n=\"TextTable_GameFunc|value|Func_MysteryCard_PlayerDeck\" href=\"/cn/Trait_Decks\">Trait Decks</a></li>-->\n                <li><a class=\"dropdown-item\" href=\"/cn/Confusion_Card_Library\">混乱牌库</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Void_Chart\">虚空星图</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Compass\">罗盘</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Probe\">赛季罗盘</a></li>\n                <li><hr class=\"dropdown-divider\"></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Path_of_the_Brave\">勇者之路</a></li>\n              </ul>\n            </li>\n    \n            <li class=\"nav-item dropdown\">\n              <a class=\"nav-link dropdown-toggle\" href=\"#\" role=\"button\" data-bs-toggle=\"dropdown\" aria-expanded=\"false\">商城</a>\n              <ul class=\"dropdown-menu\">\n    <!--\n                <li><a class=\"dropdown-item\" data-i18n=\"function|name|110\" href=\"/cn/Shop\">Shop</a></li>\n    -->\n                <li><a class=\"dropdown-item\" href=\"/cn/Outfit\">时装</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Commodity\">通货</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Boon\">恩赐</a></li>\n              </ul>\n            </li>\n    \n    <!--\n            <li class=\"nav-item\">\n              <a class=\"nav-link\" data-i18n=\"Guide\" href=\"/cn/guides?season=The%20Frozen%20Canvas%20Season\">Guide</a>\n            </li>\n    -->\n    \n          </ul>\n    \n          <!--\n          <a class=\"nav-link2\" style=\"padding-right: 10px\" href=\"https://lihi1.com/cAO3Z\" target=\"_blank\">\n            <img style=\"height: 24px\" \n                src=\"https://cdn.tlidb.com/image/logo/torchlight-48.webp\"\n            />\n          </a>\n    \n          <a class=\"nav-link2\" style=\"padding-right: 10px\"\n            href=\"https://lihi1.com/l1NmL\"\n            target=\"_blank\">\n            <img style=\"height: 24px\" src=\"https://cdn.tlidb.com/image/logo/facebook-48.webp\"/>\n          </a>\n    \n          <a class=\"nav-link2\" style=\"padding-right: 10px\"\n            href=\"https://lihi1.com/neCTK\"\n            target=\"_blank\">\n            <img style=\"height: 24px\" src=\"https://cdn.tlidb.com/image/logo/youtube-48.webp\"/>\n          </a>\n    \n          <a class=\"nav-link2\" style=\"padding-right: 10px\" href=\"https://lihi1.com/owKrQ\" target=\"_blank\">\n            <img style=\"height: 24px\" src=\"https://cdn.tlidb.com/image/logo/discord-48.webp\"/>\n          </a>\n          -->\n    \n          <ul class=\"navbar-nav\">\n            <li class=\"nav-item dropdown\">\n              <a href=\"#\" class=\"nav-link dropdown-toggle\" role=\"button\" data-bs-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"> <i class=\"fas fa-language fa-lg\"></i></a>\n              <ul class=\"dropdown-menu language-menu\">\n                <li><a class=\"dropdown-item\" href=\"/en/Pages\">EN English</a></li>\n                <li><a class=\"dropdown-item\" href=\"/tw/Pages\">TW 繁體中文</a></li>\n                <li><a class=\"dropdown-item\" href=\"/cn/Pages\">CN 简体中文</a></li>\n                <li><a class=\"dropdown-item\" href=\"/ko/Pages\">KO 한국어</a></li>\n                <li><a class=\"dropdown-item\" href=\"/ja/Pages\">JA Japanese</a></li>\n                <li><a class=\"dropdown-item\" href=\"/ru/Pages\">RU Русский</a></li>\n                <!--\n                <li><a class='dropdown-item' href='/de/'>DE Deutsch</a></li>\n                <li><a class='dropdown-item' href='/es/'>ES Spanish</a></li>\n                <li><a class='dropdown-item' href='/fr/'>FR Français</a></li>\n                <li><a class='dropdown-item' href='/id/'>ID bahasa Indonesia</a></li>\n                <li><a class='dropdown-item' href='/pt/'>PT Português</a></li>\n                <li><a class='dropdown-item' href='/th/'>TH ภาษาไทย</a></li>\n                <li><a class='dropdown-item' href='/vi/'>VI Tiếng Việt</a></li>\n                -->\n              </ul>\n            </li>\n          </ul>\n    \n          <form class=\"d-flex\" role=\"search\" action=\"search\">\n            <input class=\"form-control me-2 ui-autocomplete-input\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\" id=\"navautosearch\" name=\"q\" autocomplete=\"off\">\n          </form>\n    \n        </div>\n      </div>\n    </nav>\n\n    <script> sidebar160(\"leftside_banner\", \"left\"); </script>\n    <script> sidebar160(\"rightside_banner\", \"right\"); </script>\n\n    <div class=\"page\">\n    <div class=\"page-content container\" role=\"main\">\n    <div class=\"text-center\">\n    <a href=\"Vorax_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S13_LegendStitching_03.webp\" class=\"size48\"></a>\n    <a href=\"Overrealm_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S12_LengJing_White01.webp\" class=\"size48\"></a>\n    <a href=\"Outlaw_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S11ChipMatching0_Icon.webp\" class=\"size48\"></a>\n    <a href=\"Sandlord_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/UI_Money_S10EquipEnchantMaterial_10_128.webp\" class=\"size48\"></a>\n    <a href=\"Arcana_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S9Pet_FateStar_128.webp\" class=\"size48\"></a>\n    <a href=\"The_Frozen_Canvas_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S8Gameplay_Snow2_128.webp\" class=\"size48\"></a>\n    <a href=\"Clockwork_Ballet_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_MysticTreeRespecPoint_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Whispering_Mist_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S6Gameplay_Tile_bench.webp\" class=\"size48\"></a>\n    <a href=\"Nightmare_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S5Gameplay_DreamTreasure_Almighty_C_128.webp\" class=\"size48\"></a>\n    <a href=\"Aeterna_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/S4/UI_S4Gameplay_talent01_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Cube_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S3Gameplay_Beads_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Blacksail_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S2BossTicket3_Icon_128.webp\" class=\"size48\"></a>\n    <a href=\"Dark_Surge_Season\"><img src=\"https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_Item_yimozhihe_Icon_128.webp\" class=\"size48\"></a>\n    </div>\n    <div class=\"text-center mb-2\"><a href=\"https://l.taptap.cn/SyBkGgT1?channel=rep-rep_voftpwn7cks\" target=\"_blank\"><img src=\"https://cdn.tlidb.com/image/torchlight/p3_20251226_cn.webp\" style=\"max-width: 100%;\"></a></div>\n    <div class=\"card mb-2 \">\n    <div class=\"card-header\">书页 /64 </div>\n    <div class=\"collapse show\">\n    \n    \n    <div id=\"DataTables_Table_0_wrapper\" class=\"dataTables_wrapper dt-bootstrap5 no-footer\"><div class=\"row\"><div class=\"col-sm-12 col-md-6\"></div><div class=\"col-sm-12 col-md-6\"><div id=\"DataTables_Table_0_filter\" class=\"dataTables_filter\"><label>Search:<input type=\"search\" class=\"form-control form-control-sm\" placeholder=\"\" aria-controls=\"DataTables_Table_0\"></label></div></div></div><div class=\"row\"><div class=\"col-sm-12\"><table class=\"table table-hover table-striped DataTable dataTable no-footer\" id=\"DataTables_Table_0\"><thead><tr><th class=\"sorting\" tabindex=\"0\" aria-controls=\"DataTables_Table_0\" rowspan=\"1\" colspan=\"1\" aria-label=\"name: activate to sort column ascending\">name</th><th class=\"sorting\" tabindex=\"0\" aria-controls=\"DataTables_Table_0\" rowspan=\"1\" colspan=\"1\" aria-label=\"unlocked_text: activate to sort column ascending\">unlocked_text</th></tr></thead><tbody>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<tr class=\"odd\"><td>点燃黑夜的火炬<br>艾伯特的笔记</td><td>作为一名不请自来的客人，我在夜色之中潜入了这座名为“余烬之息”的避难所。<br><br>这座从灾烬之上拔地而起的杰作，这些凝聚了最先进灰烬科技的复杂装置，简直就是“奇迹”最真实的写照。<br><br>我看到那些被灾烬感染的人们，那些被其他人恐惧、鄙夷和驱逐的人们，成为了火炬之光的猎人。<br><br>在一个濒临崩毁的世界里，也会存在如此炽热的希望吗？<br><br>火炬之光……我无比期待着，见证你们所走向的结局。<br><br><br><br></td></tr><tr class=\"even\"><td>终息之战<br>艾伯特的笔记</td><td>我在安达岭山地探险的过程中，发现了很多记载信息的古老石板，当我对上面的古老文字进行解读后，发现正如我所预料的：这一整片安达岭山地，是巨力纪元时期终息之战的古战场。<br><br>我的祖先曾在这里与龙族决战，并最终赢得了战争的胜利。即便如今已经过去了万年，但我依然能够感受到我祖先的英魂在这片土地上挥之不去。<br><br>我闭上眼，感受着身旁灼热的谷风，回想着古老石板上记载的那些画面，仿佛身临其境。<br><br>“那一天，天空的眷族们盘旋乱舞，天幕被焚烧，巨神如流星四散坠落。”</td></tr><tr class=\"odd\"><td>上古战场<br>艾伯特的笔记</td><td>矮人们都会叫这个地方为上古战场……尽管战场的痕迹已经被万年的时光悉数磨灭。据说这里曾经见证过我的祖先们在大地之上的最后荣光，也目睹了兄弟阋墙、众叛亲离、分崩离析。无论如何，现在在这儿生活的都是些快乐的小哥布林。<br><br>当看到古代矮人们为了战争而制造的巨大武器，被哥布林们用于改造他们的屋子，改善他们的生活的时候，我衷心为这些曾经的害人机器而感到高兴。纵使山峦会被斧头所砍平、大地会被钻头所掏空，但对于和平的向往却不会被任何力量所动摇。在这灾烬丛生的战争年代，是这样的共同的信念把不同种族联系起来。<br><br>我和哥布林们的大长老一起喝他们用古然草酿造的饮料，这是他们用于招待远方客人的饮品。我们谈笑、痛饮，直到深夜。灾烬带着腥风在这片大地上蔓延，今夜我们还是会为明天的太阳唱不成调的颂歌，这就是生活在莱提斯大陆的人们。</td></tr><tr class=\"even\"><td>背叛的诅咒<br>艾伯特的笔记</td><td>我今天在解读古矮人文字的时候发现了一个天大的笑话，他们竟然说：哥布林和鼠人是被诅咒的矮人。看来我的祖先也挺喜欢开玩笑的。<br><br>众所周知，哥布林是造物主在创造世界的时候打了一个喷嚏，从他喷出来的鼻涕泡中诞生的种族，这件事已经被史学家论证了无数遍了，是亘古不变的真理。可我的祖先非要说，他们曾经是声名显赫的矮人英雄，却为了一个愚蠢的诺言离开族群。最终，他们的背叛招来了诅咒，所有离开族群的人都变成了丑陋弱小的哥布林。<br><br>哥布林是矮人变的？简直是胡扯，这个玩笑一点都不好笑。</td></tr><tr class=\"odd\"><td>火炬之光的宣誓词</td><td>今夜，我燃起薪柴，手执炬火。漫天诸星为证，我将履行我的誓约——<br><br>无论过去身份与荣誉，也无关权利和利益。成为无名之火，与我的手足兄弟团结如一。<br><br>我们是刺破黑暗的利刃，是驱逐暗夜的曙光。为此我愿献出一切，化为夜幕下的星火。<br><br>我是火炬之光，自由，希望，永不放弃的光。我要让这漫漫长夜都响彻我们的名字。<br><br>终我一生，行我所志，终身不渝。</td></tr><tr class=\"even\"><td>对龙巨墙<br>艾伯特的笔记</td><td>牺牲了铲子老二十一，铲子小二十二和铲子小二十三之后，我终于攀上了这座传说之中的巨墙。<br><br><br><br>当我的双脚踏上这座钢铁壁垒之时，那深入灵魂的震撼和自豪，远甚于我在它的脚下仰望的所有时刻。<br><br><br><br>我们的祖先凿穿了万仞山壁，将矮人一族引以为傲的钢筋铁骨融入群山之中，以此对峙那宛如神明一般强大的残暴巨龙。<br><br><br><br>站在巨墙的边沿，我眺望远方那被云雾遮蔽的安达岭山脉，耳畔仿佛响起了机械的轰鸣、兵器的铮铮和巨龙的嘶吼。<br><br><br><br>我决定在这里多停留些时日，尽可能详尽地将这些景致记录进历史之中。<br><br><br><br>并考虑将一部分预算投入到灰烬科技登山装置的购置上。<br><br></td></tr><tr class=\"odd\"><td>对龙兵器<br>艾伯特的笔记</td><td>第一次见到那矗立在巨墙之上的对龙兵器时，我惊叹于它的巨大和沉重，并在尝试拔出它之后，理所当然地对古籍中记载的巨力纪元的矮人身高产生了质疑。<br><br>但很快，我便见到了那深埋在泥土砂石之间的巨型机甲。<br><br>那一刻，我的眼前仿佛出现了祖先们驾驭机甲同巨龙搏斗的场景。火光遍天，金铁交鸣，巨龙如流星般坠落在这片大地上，嘶吼声不绝于耳。<br><br>我继续前行，停靠在驻墙炮的脚下。<br><br>这些炮管直冲天际的巨炮，正是当年为了击落天幕之上盘旋的巨龙而铸造的兵器。时至今日，尽管它们早已沉眠了万年之久，但那巧夺天工的机械结构并没有被岁月风化。<br><br>如果说终息之战是巨力时代的终结，那么对龙巨墙便是那个时代最沉重也最辉煌的缩影。<br><br><br><br></td></tr><tr class=\"even\"><td>被撕碎的日记</td><td>“……<br><br>但我坚信，感染灾烬并不意味着走向绝路。<br><br>永别了，亲爱的故乡。<br><br>我将去向远方，寻找一条属于灾烬感染者的道路。”<br><br><br><br>“前些天捡来的那个女孩结束了今天的训练，像平常一样眼巴巴地看着我。<br><br>像是看着一个师长，一个姐姐，甚至是一个母亲。”<br><br>“我或许知道她渴望从我这里听到什么，但我什么都没有说。”<br><br>“感染者的生命毕竟太过短暂，我不能留下太多令她无法割舍的东西。”<br><br>“就像奥瑞恩老师离开我们的时候一样。”<br><br><br><br>“今天，我遇到了一位故人——我童年的玩伴，莱安。<br><br>他的实力无法估量，却执意要求成为一名暗鸦。<br><br>……”<br><br><br><br>“……<br><br>即使我早已没有资格。<br><br>但，相爱吧。<br><br>向这个末日证明，我们决不妥协。”<br><br></td></tr><tr class=\"odd\"><td>不摧甲胄<br>艾伯特的笔记</td><td>在我最近所搜集到的古文字中，有一段关于终息之战的记录，说“不摧甲胄”是我祖先们能够赢得战争胜利的关键——英雄身着不摧甲胄，他的身形变得如群山般伟岸。他用双拳砸出坑洞，后来成为山谷，他用双脚碾出凹陷，后来成为了河流，战争和统治在他降临的那一刻便落下帷幕。<br><br>我不知道“不摧甲胄”究竟是什么，那样的伟大之物若非亲眼所见，根本无法想象它的存在。</td></tr><tr class=\"even\"><td>地下矮人<br>艾伯特的笔记</td><td>一支缩在地下的矮人旁支……真是让人意想不到。这庞大的族群、与我地上的同族们迥异的科技形态。是的，他们的科技设施跟我在安达岭看到的古代机械残骸一模一样，这一切的一切都让我不禁想到了那个关于卡兹萨恩王的传说。<br><br>不，不。与其说是传说，不如说是被刻意隐藏的历史。但是……并不是每个矮人都敢于正视这段历史。在我们给后代写的历史课本里，古代矮人的事迹往往只到对龙战争的胜利便戛然而止。<br><br>但其实后来发生的事情我们都心知肚明。玛格努斯王因为劝谏卡兹萨恩王而遭到软禁。但他却在狱中挖掘了直通山脉之心的密道，在无人知晓的情况下盗取了火种。据说当玛格努斯王身揣火种从地下向上奔逃的时候，他身后的矿道因为失去火种而次第幽暗，而前路的黑夜却被照亮。数百族人在那光的吸引下，和玛格努斯王一起离开了地下。那就是地上矮人的始祖。</td></tr><tr class=\"odd\"><td>破碎工牌上的铭文</td><td>在一些堆积的杂物中发现的，早已破碎的工牌。上面的名字写的是：奎恩。</td></tr><tr class=\"even\"><td>矮人工头的日记</td><td>“11月5日，额定的工资没发，休假削了一半，工人偷懒误的工期还都要算在我头上。”<br><br>“11月7日，工人抱怨管得太严了，但我也没有办法。就在今天早上，隔壁的奎恩工头因为开采出来的结晶数量不过关，已经被扭送去了卡兹萨恩之心，也不知道什么时候才能回来。我可不想那样。”</td></tr><tr class=\"odd\"><td>纠察队的日记</td><td>今天我们得到了多加尔陛下的征召，即将正式成为纠察队的一员。我将忠诚地执行我的职责，为陛下整顿他的臣民。我首先要整顿的就是帕尔那个懒鬼，他昨天还在干活的时候偷偷搞那些石头收藏，我好心提醒他，他竟然说我烦人！天哪，我可都是为了多加尔陛下的雄图伟业啊！<br><br>不过，见陛下的时候，他旁边站着的那个黑衣人看着很让人不爽。看样子那是个地上来的人，竟然能和陛下说话！站在一起！我的天哪，什么时候我也能和陛下说上话，就谢天谢地了。</td></tr><tr class=\"even\"><td>矮人王<br>艾伯特的笔记</td><td>我混迹在觐见矮人王的队伍中，看着这个年轻的国王，踌躇满志，万人拥护。<br><br>但他的眼睛是瞎的。我的意思是，他因为古代矮人的荣耀和火种燃起的欲光而变得盲目，看不清自己的身边正发生着什么。他满口为了矮人王国的未来，却在透支矮人王国的现在。<br><br>我想我的旅程应该告一段落了，在我看完我祖先留给世间最后的文字之后。关于巨力纪元的那段历史，我已经完全理清了思路，也许不久的未来，我会把一切写进历史里。<br><br>我的祖先留给世人的话，我已翻译成了大陆通用语，虽然我根据喜好在其中加入了一些修辞，但内容主体是不变的。我将文字记录在了我的游记中，希望有天这会被其他人发现，英雄的牺牲需要被世界所铭记。</td></tr><tr class=\"odd\"><td>给我后世的子孙</td><td>给我后世的子孙：<br><br>我们曾被巨龙奴役了一整个时代，而今我们推翻了它们的残暴统治。这场举世无双的胜利，让我们矮人的文明足以名垂千史。<br><br>但我的手足兄弟，那个时代最伟大的君王，却渐渐迷失在原初之火带来的力量之中。他忘记了我们是为何站出来反抗霸权，他忘记了我们的族群被巨龙凌虐压迫的痛苦。他如今站在世界的中心，却醉心于荣誉和欲望——这是我最不愿看到的，这位骄傲的驯龙者，变成了恶龙。<br><br>他声称矮人理应独享胜利的果实，将原初之火永远留在地底。但我们心中都无比的清楚，矮人的文明已经足够繁荣，地面上的种族和生灵比我们更需要它的力量，如果最后真如我的兄弟所说，他们的文明将会彻底被黑暗吞没。<br><br>所以，我必须要为他们站出来，哪怕这样做会背叛我的族亲，哪怕会背上永世的骂名。我点选了几百位愿意追随我的勇士，合谋盗走了初火——这让我的兄弟大发雷霆，除了勒令我们永远不得返回王国之外，还降下了凶恶的诅咒：我们的子孙后代，永远都是丑陋弱小的畸形儿。<br><br>起初我并没有在意，直到我的妻子诞下了一名怪婴，我才知道，诅咒应验了。而随我一同出来的几百名族亲，他们的后代也无一例外都是样貌丑陋的怪胎——落叶不能归根，宗族无法延续，这就是背叛的代价。<br><br>我不知道我的后人是否有能力读懂这些文字，对于他们的未来，我感到十分痛心和惋惜，但我从未后悔自己所做的一切。如今原初之火回到了它原本的位置，万物得以感受它的光辉，没有独裁和欺凌，世界文明进入了全新时代。<br><br>我未来的子孙啊，如果你有幸能够读懂我们的文字，希望能够帮我们昭雪，我们不是背叛者。<br><br>我们的牺牲，将换来世界文明的万世繁荣。<br><br>背叛者·玛格努斯</td></tr><tr class=\"even\"><td>契约</td><td>火炬之光的猎人与暗鸦之间最坚不可摧的羁绊。<br><br>与猎人定下契约后，暗鸦会以自己的身躯帮助猎人分担身体里的灾烬，防止猎人彻底灾烬化。<br><br>契约仪式充满了危险，只有精神力极强的暗鸦才能胜任。<br><br><br><br></td></tr><tr class=\"odd\"><td>虚假的圣所<br>艾伯特的笔记</td><td>我来到了学城的避难所。那令无数人削尖了脑袋想要挤进来的，光明的圣所。<br><br>高昂的款项，严苛的校训，繁杂的守则。<br><br>被圈养在牢笼中的家畜，正享受着用金钱堆砌出来的“和平”。<br><br>虚假的光明绝不会持续太久。</td></tr><tr class=\"even\"><td>安东尼奥的研究日记</td><td>8月31日 晴<br><br>今天是离开魔法学院，来到黎明圣所的第一天。<br><br>昔日的同僚们嘲笑我是“老年失智”，我只当他们是在狗叫。<br><br>就在三天之前，我的《利用灰烬组件治愈失格者的可行性分析》再一次被理事长基冈驳回了。他痛斥我异端邪说，并将“利用失格者危害魔法学院”等一系列罪名强加到我的头上。<br><br>唉，如果德里克校长没有病重，想必基冈也不会如此猖狂。<br><br>没有人替我说话，除了那个圣诫骑士，罗梅尔。<br><br>他是德里克校长收养的孩子，被寄予厚望的，圣诫骑士们未来的领袖。<br><br>最后，在罗梅尔的竭力争取下，我才免于被流放的命运，而是被发配到黎明圣所。<br><br>当我把那少得可怜的行李摊开，想要晒晒霉斑的时候，罗梅尔来到了黎明圣所。他很认真地对我说，他与我的观点是一致的。光明不应当只照耀少数人，失格者也同样拥有被救赎的权利。<br><br>说实话，罗梅尔是我在魔法学院见到的，为数不多的正义之人了。<br><br>未来，我将居住在黎明圣所，寻求一条拯救失格者的路。<br><br><br>9月2日 阴转暴雨<br><br>研究迟迟没有进展，我咬咬牙揣上了自己的养老金，趁着夜色，偷偷来到了学者街巷。<br><br>和我接头的是个年轻的失格者女孩，骑着摩托车便从墙头一跃而下，吓得我这颗老心脏差点骤停。想不到她的摩托车居然稳稳地停在了我的面前，没弄出半点儿声响。<br><br>听了我的委托——一个最便宜的灰烬组件后，她爆发出一阵意味不明的大笑，这让我隐约有些恼火。所幸她很快就调整了状态，接过我的宝贝钱袋子掂了掂，又丢了回来。<br><br>“到时候再说！”<br><br>她丢下这句话，便和她的摩托一起，消失在了夜色之中。<br><br>而我呆呆地站在原地，直到那场倾盆大雨把我淋成了落汤鸡。<br><br><br>9月3日 晴<br><br>当我正在晾我那因为漏雨而被淋湿的被子时，那个失格者女孩从屋顶上一跃而下，大摇大摆地走到了我的面前。<br><br>我被她吓得花容失色，急忙将她带到了屋后。<br><br>“老头儿！看！灰烬组件！”她压低了声音，但我还是能听出她的喜悦。<br><br>她将一个鼓囊囊的袋子丢给我，我颤抖着双手，将袋子打开。袋子里装满了各式各样的灰烬组件，有陈旧的，也有崭新的。我的心跳得越来越快，只能强装镇定，挑出一个最旧的来——毕竟我不像学院里那些脑满肠肥的家伙一般，有大把的金币可以挥霍。<br><br>当我把我的宝贝钱袋倒过来，一枚一枚地数金币的时候，那个女孩很是愉悦地吹了声口哨，便转身跳上墙头，消失在了白色的砖墙之间。<br><br><br>9月6日 晴<br><br>经过了几天的研究，我已经彻底理解了灰烬组件的工作原理。<br><br>在一片薄薄的灰烬晶石切片上，刻印上固定的纹路，这片平平无奇的灰烬晶石切片，就能成为一个“灰烬组件”。据说灰烬组件能够激发失格者体内的灾烬力量，力量灌注进组件中，在那些纹路中传递和放大，最终变成一个酷炫的“招式”。<br><br>我刻好了一个叫做“火球术”的灰烬组件，并将它放到手心里，试图感应力量——除了有点手心发热外，并没有别的感觉。<br><br>我改进了这些纹路，制作出了一些新的灰烬组件。<br><br>希望这些灰烬组件，能够等到它真正的主人。</td></tr><tr class=\"odd\"><td>陨落的王庭<br>艾伯特的笔记</td><td>帝国已经完蛋了。这并不奇怪，从阿米尼乌斯用卑劣的手段驱逐赫尔曼家族之时，我就料到了会有这么一天。<br>现在，魔法学院在帝都支离破碎的残骸上，建立了自己的统治，还自诩为光明。<br>其实，魔法学院和帝国，无耻的程度不相上下。</td></tr><tr class=\"even\"><td>道貌岸然的圣堂<br>艾伯特的笔记</td><td>我潜入了学院，想看看在经历了数千年的时光后，魔法学院从他们先祖那里继承的光明魔法，发展成了什么样子。<br><br>我看到他们用最初级的治愈法术迷惑学徒，用最高级的屏障法术封锁通往火种圣殿的大门。<br><br>让人失望透顶。</td></tr><tr class=\"odd\"><td>圣德兰校训</td><td>本卷为圣德兰魔法学院的校训。学院的一切成员，都应当将他视作最高行为准则。<br><br>一：学者日出祷告，日落休憩<br><br>全体学者都需要在日出之前来到学城前厅，按照职级依次站好，不得懈怠。<br><br>当阳光爬上学堂门口的第七层台阶时，校长将宣布祷告开始。此时全体学者闭目肃立，双手合掌。<br><br>两名学士吟诵祷词，学者轻声跟诵。<br><br>祈祷结束后，学者按顺序依次回到自己的位置。<br><br>日落之后，全体学者需要尽快离开学堂，返回自己的居所，不得过多逗留。<br><br><br>二：全体成员外出均需提交书面申请，并自觉接受灾烬检查。<br><br>理论上不允许学院成员外出。<br><br>如遇特殊情况，需要向学院执事提交书面申请，经由理事长审核，领取外出通行证。<br><br>返回学院时，需要自觉接受灾烬检查，避免将灾烬带入圣德兰。<br><br><br>三：积极举报潜入圣德兰的流民<br><br>入住圣德兰需要严格的审核，此外一切进入圣德兰的人，皆当做入侵者处理。<br><br>全程成员应当杜绝与他们发生正面冲突，尽快向学院督查执事或学城守卫反映情况，以便将入侵者驱逐。<br><br>四：学城守卫应严以律己，遵守圣德兰校训。<br><br>学城守卫只听命于校长德里克，无需参与日常祈祷等活动。<br><br>学城守卫需要承担保护学院全体学者的义务、保护学城所有居民的义务、驱逐入侵者的义务。<br><br>每日学城守卫需要进行至少两次巡逻。<br></td></tr><tr class=\"even\"><td>再遇火种<br>艾伯特的笔记</td><td>费了不少劲，终于混进了魔法学院存放火种的圣殿。<br><br>火种的光芒比我上次看到的时候更黯淡了。魔法学院在利用它做什么吗？<br><br>火种落到这群小丑的手中，我实在难以接受。</td></tr><tr class=\"odd\"><td>原初之火的未来<br>艾伯特的笔记</td><td>在这片大陆上旅行多年，我一直没有荒废对原初之火和火种的研究。<br><br>在历史上的每一个纪元里，都能看到原初之火的影子。它就像黑暗中的火炬，指引着人们前进的方向。不过现在，这只火炬已经熄灭了。原初之火受到了来自异世界的邪神的攻击，碎裂成了四块火种，分散世界各处。<br><br>碎裂后的火种力量骤减，但还是拥有驱散一片区域内灾烬的能力。魔法学院正是利用了火种的力量，在乱世之中偏安一隅，并趁机收纳学徒，收敛财富。每每想到那些学者倨傲的嘴脸，我都能感觉到我那迷人的红胡子在剧烈颤抖……呸！一群小丑！懦夫！缩头乌龟！<br><br>除魔法学院之外，还有一个名叫“火炬之光”的新兴组织，在秘密保护着一枚火种。他们中大多都是可怜的失格者，却也在用自己的方式，向这个倒霉的世界抗争。老实说我很佩服他们——单凭他们敢对付异魔这点，就比魔法学院不知道强了多少倍了！<br><br>每次回想到魔法学院的小丑们簇拥着火种的滑稽样子……我都无比热烈地希望，火炬之光有朝一日能把他们的火种抢走！<br></td></tr><tr class=\"even\"><td>帝都居民守则</td><td>一：日落之后，禁止外出。<br><br>二：每月按时缴纳款项，不得拖欠。<br><br>三：每周需要参与两次以上祷告。<br><br>四：不得私自离开圣德兰。<br><br>五：不得打扰学者和学城守卫的日常工作。<br><br>六：不得帮助外人进入圣德兰，违者立即驱逐。<br><br>七：不得私自谈论灾烬、失格者、帝国；不得质疑魔法学院的一切决定。<br></td></tr><tr class=\"odd\"><td>怪物的秘密</td><td>给安德里克：<br><br>安德里克！我又看到那个怪物了！绝对不是眼花！这次你一定要相信我！<br><br>昨天晚上我绕过那个正在打瞌睡的学城守卫，来到街巷的深处的时候，我又看到了那个瘦瘦长长的影子。它浑身惨白，肿胀的脑袋活像个大西瓜！双腿好像没有骨头，软绵绵地搭在地上，但脖子和胸口上，却长出了好多好多只手！<br><br>我吓坏了，藏在树后面一动也不敢动。那个怪物用手撑着，爬过了花坛，扒着米莉家的窗户站了起来！他那好多好多只惨白惨白的手抓着米莉家的窗框，脸紧紧地贴在她家的玻璃上。这真的太可怕了！<br><br>正当我打算向学城守卫求助的时候，那个怪物却突然松开了手。然后他的手拨着地面，迅速地跑掉了。还好还好，他没有进到小米莉家里。<br><br>安德里克，安德里克，今天晚上和我一起出去吧！我向你保证，不会被学城守卫叔叔发现的！我们一起，揭开学者街巷怪物的秘密！<br></td></tr><tr class=\"even\"><td>虔诚者的街巷<br>艾伯特的笔记</td><td>这里是魔法学院“仁慈”的杰作，为寻求庇护的人们提供的居所。<br><br>呵，我当然知道这份“仁慈”意味着什么。想要入住学城，每人需要一次性缴纳十万帝国金币的“款项”。除此之外，每人每月还需要额外支付两千帝国金币，作为日常生活的费用。<br><br>作为回报，魔法学院为他们提供绝对安全的生活环境，包括全天巡逻的学城守卫和坚不可摧的防御机关。本着探索精神，我试探性地触碰了他们的机关——那强烈的光明魔法在一瞬间贯穿了我的全身，如果我没有身着那件“高浓度灰烬驱动绝对防御但又很便携的机械装甲”，想必现在已经骨头酥脆了。<br><br>当我一边痛骂傻子才会住在这里一边战略性撤退的时候，只听咔嚓一声。我低头向脚下望去——什么嘛，好像是个报警机关。<br><br>说时迟那时快，五个身着灰衣的学者从不同方向出现在我的身旁，举起手中的利刃，向我那肥美的肚子刺了下来！<br><br>这时我的“高浓度灰烬驱动绝对防御但又很便携的机械装甲”再次发挥了作用，任凭他们再怎么卖力输出，我依然纹丝不动。但高浓度灰烬毕竟太过昂贵，我想了想，还是迅速地离开了。<br><br>真是个可恨的地方！<br></td></tr><tr class=\"odd\"><td>城墙守卫的家书</td><td>给亲爱的安娜：<br><br>我已经下定决心，带马克和梅丽离开圣德兰。<br><br>知道得越多，就越发现，这里并不如想象中那么美好。日复一日的枯燥生活，只有马克和梅丽的笑容，才能让我稍微轻松那么一点。<br><br>但我知道，他们并不快乐。<br><br>是啊，当你的每一天都可以一眼望到尽头，或许生命已经没有什么快乐可言了吧。<br><br>灾烬刚爆发的时候，我是那么地害怕它。我害怕自己被灾烬感染，害怕灾烬中钻出来的异魔，更害怕自己会失去所拥有的一切。<br><br>你刚被灾烬感染的时候，我是那么迫不及待地想要逃离你。我是个骗子，是个懦夫，是个彻头彻尾的蠢货。<br><br>安娜，你的信我已经全部收到了。谢谢你让我知道了灾烬感染者的生活，知道了在遥远的地方，还有一个叫做火炬之光的组织，在勇敢地同灾烬和异魔抗争。<br><br>安娜，我不会再害怕灾烬了。我已经向魔法学院递交了申请，无论你是否愿意原谅我，我都会在三天之后离开圣德兰。<br><br>希望马克和梅丽，还有机会见到他们的妈妈。<br><br>你的 兰特斯</td></tr><tr class=\"even\"><td>叹息之墙<br>艾伯特的笔记</td><td>说来可笑，魔法学院修建这座戒备森严的厚重高墙，目的从来都不是防御灾烬。<br><br>他们只是为了，将那些渴望着光明和救赎的平民，阻挡在高墙之外。<br><br>魔法学院提供了廉价的救赎，前提是你有足够的钱来换。</td></tr><tr class=\"odd\"><td>光明魔法机关<br>艾伯特的笔记</td><td>在学城的城墙上潜伏了三天后，我也算是摸清了魔法学院光明魔法机关的工作原理。<br><br>魔法学院那些五花八门魔法机关大概可以分为三类：攻击型、阻碍型、传送型。换句话说，是“一碰就会被打型”、“非常碍事的挡路型”和“叫来一帮人打你型”。在我收藏的文献记载中，光明魔法向来都是倾向于治愈、净化和守护。现在发展成这副模样，让我忍不住一边骂着魔法学院一边多吃了两碗饭。<br><br>不过目前还有更令人头疼的问题。当我终于克服了恐高心理，决定使用“超轻型压缩式灰烬浮空飞行装置”离开城墙时，一旁的城墙机关突然弹起，瞄准正漂浮在半空中的我，发射了一枚光明魔法弹！我只记得我健美的身躯狠狠地砸在了城墙上，后面的事情就再也不记得了……</td></tr><tr class=\"even\"><td>阴影下的罪恶<br>艾伯特的笔记</td><td>我从来都没有像今天这样愤怒过。<br><br>老师曾经说过，我们只是历史的记录者。我们发掘历史，见证历史，用自己的方式将历史刻录在载体上，避免他们消失在时间的长河中。但我们永远都是旁观者——冰冷的，缄默的旁观者。不能虚构历史，更不能影响那些将要成为历史的事物。<br><br>但我始终无法像他那样，成为历史最忠诚的学徒，对一切事物都冷眼旁观。<br><br>在来到城墙外的遗落之城前，我便已经从其他资料中得知，他们是一群聚集在魔法学院的高墙之下的可怜人。因为支付不起高昂的款项，只能聚集在破败的街巷中，渴望着魔法学院的救赎。<br><br>但当我正在踏足于此之时，才发现除了贫困的平民外，这里还驻扎着一支庞大的黑恶组织——群狼帮。他们大都是前帝国的士兵，拥有不容小觑的武装力量。但他们却毫不犹豫地，将自己手中的枪炮对准了无辜的平民。<br><br>我原以为向穷人收取“保护费”已经是人性低劣的巅峰了，但接下来发生的事情远远超出了我的想象。<br><br>那天晚上，我躲在建筑物的后面，看着夜色笼罩下悄然上演的一切。两名群狼帮成员带着数十名平民，穿过隐蔽的小巷，最终消失在了城墙下的暗门里。时至今日我还记得那些人脸上的表情，虔诚而感激，热切而憧憬，似乎已经触碰到了遥不可及的救赎。<br><br>我不知道群狼帮向他们许诺了什么，但我知道，这一定是彻头彻尾的谎言。因为我看到了他们的货单。一个平民，500帝国金币。<br><br>我想要拦住他们，我想要拯救他们，但我最终什么都没有做。<br><br>我必须再回一次圣德兰。那座空无一物的魔法学院，一定还隐藏着些什么。</td></tr><tr class=\"odd\"><td>群狼帮入会合同</td><td>合同编号：QL－110227－113<br><br>为了维护遗落之城社会治安，贯彻道奇将军对群狼街巷的领导方针，经反复研究，精心组织，认真安排，特拟定以下协议条款：<br><br>1. 义务与责任<br>合同双方同意<richtext id=\"1067\">莱尼<richtext>加入群狼帮，并履行相应职责。<br><br>2. 期限<br>自签订本合同起，即为群狼帮成员。群狼帮有权开除未能履行职责的帮众，帮众不得以任何理由主动脱离群狼帮。<br><br>3. 工作日和工时<br>3.1 定期安排轮休。<br>3.2 值班日全天候随叫随到。<br>3.3 具体工作中，3.2优先级高于3.1。<br><br>4. 报酬<br>受到群狼帮庇护。提供武器与食宿。无基础工资，收入来自月底分红。分红比例由当月收取保护费数额决定。<br><br>5. 扣除款<br>5.1 武器装备租赁费用。在租期内自费保养武器，若武器损坏，照原价赔偿，并提高50%续租费用。<br>5.2 每月按时缴纳会费，逾期者额外支付50%逾期款，累计逾期三次，没收全部个人资产，开除会籍。<br><br>6.终止合同<br>详见第2条。<br><br>特别提醒：一旦你签署本合同，即意味着你已充分理解本合同所有条款的含义及相应的后果，同意与本合同其他方以纸质形式订立本合同并接受本合同约束。最终解释权归道奇将军所有。<br><br>合同签订地及履行地：群狼街巷<br><br>甲方：群狼街巷人事部<br><br>乙方：莱尼</richtext></richtext></td></tr><tr class=\"even\"><td>致队长的一封信</td><td>致我那肥胖且愚蠢的前队长奥森：<br><br>托您的福，我现在感觉好极了。<br><br>当您逼迫我前去银焰帮卧底的时候，我的内心万念俱灰。但当我真正来到这里的时候，却渐渐发现，这里简直是乐园！<br><br>我第一次知道，原来和别人交流不用总是扮出一副凶相；我第一次发现，原来见到比自己职位高的人，没有必要卑躬屈膝；我第一次吃到了冒着热气的饭菜，而不是冷冰冰的罐头；我第一次尝试帮助一个老头修理了屋顶，他笑得很开心，还送了我两颗新鲜的胡萝卜……<br><br>之前在群狼帮的时候，我害怕很多事情。害怕天黑，害怕出任务，害怕您的斥责，害怕收债对象不听话。不过现在，我什么都不怕了。<br><br>您当然不会记得我是谁。毕竟我只是您派去的十几个卧底中，微不足道的一个。<br><br>但我还是想说，我的肉体和灵魂，都已经和那个肮脏的群狼帮划清界限了！现在在我的眼中，您就是一头满脑子污泥的肥猪，带着一群趋炎附势的畜生，在臭狗屎里打滚的肥猪！<br><br>再您母亲的见！群狼帮！<br><br>来自一位不想透露姓名，并热切希望你们早日完蛋的银焰帮成员<br></td></tr><tr class=\"odd\"><td>失踪人口统计</td><td>整理了本月的失踪人口清单，比起上个月略有下降。<br><br>沃伦，男，45岁。银焰街巷47号。<br><br>韦恩，男，24岁。银焰街巷981号。<br><br>贝拉，女，25岁。银焰街巷981号。<br><br>迪克兰，男，28岁。银焰街巷189号。<br><br>奥尔加，女，61岁。银焰街巷19号。<br><br>……<br><br>居民失踪事件，群狼帮有很大嫌疑。目前暂未找到决定性线索。</td></tr><tr class=\"even\"><td>沾满泥污的日记</td><td>昨天，我变卖了仅剩的一点家具，但还是没能凑够米莉和艾尔莎下个月要支付的款项。<br><br>这几个月，越来越高昂的款项就像是一座大山，压得我喘不过气来。父亲留下的财产早就已经被我变卖一空，甚至没能留下什么可以当做念想的东西。<br><br>我需要钱。我需要很多很多的钱。<br><br>只要有了钱，我们一家就能在圣德兰团聚。我们就能沐浴在圣光的照耀之下，远离那些恶心的灾烬。<br><br>三天前，群狼帮的首领道奇找到了我，问我愿不愿意做一笔大生意。<br><br>只要帮他送二十个平民潜入魔法学院，他就会一次性支付我五十万帝国金币。<br><br>老实说，我并不想跟道奇打交道。但他好像看穿了我的顾虑，命人打开了面前的皮箱。那些明晃晃的金币，晃得我眼睛生疼。<br><br>我想，我必须要开始行动了。押上作为丈夫和父亲的名义。 <br></td></tr><tr class=\"odd\"><td>理事长基冈的信</td><td>我可怜的弟弟啊，请原谅我。虽然你已经看不到了。<br><br>为了这个世界的未来，必要的牺牲是圣灵所允许的。<br><br>我一直这样坚信，并且身体力行地从身边的人做起。<br><br>圣灵是孤独的，他需要人陪伴。当我成为校长到达彼岸的圣域，我将向他陈述你的努力和牺牲。<br><br>那时，海的对面的风景，将不再布满荆棘，永远向你敞开。</td></tr><tr class=\"even\"><td>火种实验记录</td><td>“火种实验是通往圣域的唯一阶梯，圣灵已经祝福于我，开启这全新世界的大门……”<br><br>“魔法学院的实验无一例外都失败了，人类的承受能力不足以支撑这种变化，或许……”<br><br>“重大发现！有一个实验体存活了！我要好好观察，期待她的醒来……她到底发生了什么事？\"<br><br>\"可恶！那个存活者从这里逃了出去，不知所踪！她爆发的力量实在太强大了……果然！火种实验是正确的！是必须坚持的伟业！”</td></tr><tr class=\"odd\"><td>坠星般闪耀的火山玻璃</td><td>这些黑色岩石所散发奇异光泽以及它们在我的放大镜下显露出的孔洞，使我几乎可以肯定这是火山玻璃。可问题在于，这些石头放在此处似乎并无实际功用，若仅仅为了装点，小国寡民的伊吉部族，为何不远万里从沙漠之外专程运输这种石材？<br><br>而天然形成的火山玻璃，需要具备熔岩与冰或者水发生相互作用的条件。难道这座沙漠并不如它所展现地那样古老，只是它一贯拒人于千里之外的危险程度为其掩埋了曾经的秘密？这是否也是世界上最后一条龙选择栖居于此的原因呢？</td></tr><tr class=\"even\"><td>威尔写给杰索米娜的第八百七十三封情书</td><td>亲爱的杰索米娜：<br><br>我的热夜之梦，展信悦。<br><br>我可否将你比作夏日……请原谅我情不自禁抄录了这首优美的诗歌，它使我想起初见您的情景。那时我才到坠星集市，无尽的夜幕总是那样低垂，可这里的石头中却散落着犹如星光一般的闪烁。自您的尾巴扫过我的鼻尖，沸腾的情感便在我胸膛中擂动，好几种念头始终在我的脑子里打架，它们仍迫不及待地想展示自己，争相化作我那上扬的嘴角和倾慕的语气，催促着我写满这张信笺……<br><br>您最诚挚的<br><br>威尔</td></tr><tr class=\"odd\"><td>沙漠之灯工程竞标书</td><td>【投标书】真挚友谊工程公司沙漠之灯项目投标书<br><br>项目名称：拉克胡马地区沙漠之灯工程<br><br>投标人：夏洛克<br><br>一、投标函：<br><br>既然我已通过投资获得伊吉公民的合法身份，何不让我为我的国家做更多贡献呢？根据招标工程项目的招标文件，遵照有关规定，经踏勘项目现场和研究上述招标文件及其他有关文件后，我方愿遵循合同条款、工程建设标准和工程量清单的条件要求承包上述工程的施工、竣工，并承担任何质量缺陷保修责任。<br><br>一旦我方中标，我方保证按投标须知规定的工期五年内完成并移交全部工程。<br><br>二、施工组织设计：<br><br>沙漠之灯工程最远可修至沙地边陲，我相信这远超任何一家公司划出的范围。同时，为了保护生态主义者脆弱的情感，保守主义者对母亲河不容亵渎的执着，我司拟不将灯柱及电缆排布入伯尔塔塔河区域。未免此举被上述民众视作对抗狮心王伟大决策的胜利凭证，经妥善研究，我司将对外宣称伯尔塔塔河地区复杂的地下水系和流沙质土壤使施工无法进行。</td></tr><tr class=\"even\"><td>《静静的伯尔塔塔河》选段</td><td>伯尔塔塔河起初不是天然河道，而是古伊吉一代君王在此得到神启，下令开凿的河道，无数劳工葬身此处，一时民间怨声载道。千年后，不息的焚风将拉克胡马古城沃土变为沙漠，这条河流竟然真成为古伊吉幸存者最后的绿洲，乃至被后来的伊吉部族奉为赖以生存的母亲河。 据说当年葬身于此的劳工的哀叹始终飘荡在水汽间，永夜无法使其安眠。</td></tr><tr class=\"odd\"><td>艾丝的木雕猫</td><td>粗劣的眉眼，显得格外滑稽。猫肚子上一本正经地刻着：给艾丝，我亲爱的女儿。看上去制作者虽然十分用心，却没什么手工天赋。</td></tr><tr class=\"even\"><td>飞艇公墓<br>艾伯特的笔记</td><td>“为了寻找世界上最后一条龙的归所，我来到拉克胡马沙漠。据说，沙漠深处生活着习性像猫的伊吉居民。这个古老的民族背负着一种”永夜的诅咒“，这诅咒既使外来人无法打扰他们的生活，也把这些居民长期禁锢在沙漠之中。此前我只是怀疑这里有奇怪的磁场导致我的指南针不时失灵，直到眼见这阴晦长夜中遍地的飞行器残骸，我才终于敢肯定——刚才的坠机事故不是因为我的飞行执照过期了！”</td></tr><tr class=\"odd\"><td>狮心王谕旨<br>禁市令</td><td>贼首尚在逃窜，凡坠星集市通外道路，一律严敕防守，不惜拆毁沿途沙漠之灯，务要阻塞叛军可逃匿之孔隙。</td></tr><tr class=\"even\"><td>一封未完成的无名信件</td><td>亲爱的艾丝：<br><br>请原谅我直呼您的名讳，因这或许是我最后一次这样称呼您。若您有机会读到这封信，我同众位战士大约已经殒命，王军包围了坠星集市，我们抵抗到最后一刻……请您保重，千万不要自责，我们并非殒于兵戈，而是殉于晚星的理想——晚星会带回曙光散布出去的一切。最后，我还有一个请求，若您有机会见到我的妈妈，请帮我转告她……</td></tr><tr class=\"odd\"><td>狮心王谕旨<br>清剿坠星集市</td><td>集市内暂停一切经营，私自贸易者没收全数家资，流放沙地边陲。与叛军勾结者，押闹市囚笼处示众，待平乱之日，与叛军同罪并处。宁可错判，绝不轻饶。</td></tr><tr class=\"even\"><td>沙漠中的长河<br>艾伯特的笔记</td><td>“伯尔塔塔河挟裹着沙砾汹涌流逝，没有留下任何旧日依恋。古老的伊吉部族生活在河流上游，守护一段被剔出记忆与历史的沙漠往事。顺便说，前面的路途中似乎在热火朝天的搞建设，到处都是电缆，我很高兴这里能看到一些自然的沙漠生态。如果四处都是人工穿凿的痕迹，让龙这种古老的生物生活到哪里去呢？”</td></tr><tr class=\"odd\"><td>威尔写给杰索米娜的第九百一十三封情书</td><td>亲爱的杰索米娜：<br><br>我荒芜的土地上最后的玫瑰，展信悦。<br><br>坠星集市一别，我在沙海的边陲流亡，四处不得觅见您的芳踪。请您分点怜悯给一个可怜人，教我知道您平安无事……期待我们在坠星集市的老地方相逢。<br><br>您最诚挚的，威尔。</td></tr><tr class=\"even\"><td>遮风的火山岩<br>艾伯特的笔记</td><td>……此处岩石的摆放显然经过人工排布，用以抵御这个区域特定时段的狂风。而从这些岩石的孔隙结构，坚硬质地，耐高温，抗风化且不易磨损等种种迹象看来，其应为炽热的岩浆经火山口喷出到地表冷凝而成的火山岩。<br><br>联想到坠星集市的火山玻璃，要么这些火山岩突兀地出现并非遮风这样单纯，要么……我不禁产生一个大胆的猜想，这些古老的石头在沙漠形成以前便存在于这里。<br><br>难道说，不是岩石奔向沙漠，而是沙砾掩埋了一座火山？这么想来，这里的黑夜也不是单纯的无光，狂风刮起的沙砾中似乎就夹杂着一些火山喷发时带出来的岩屑矿物质。<br><br>高温且矿藏丰富的火山口，确实比沙漠更像龙族喜栖之地……</td></tr><tr class=\"odd\"><td>绿洲中的囚牢<br>艾伯特的笔记</td><td>穿过遮风的石障，我终于找到伊吉部族的聚集地。起初，我在街面上看到四处陈列的兵器，这还算与传说中尚武的伊吉部族吻合，毕竟，在沙子里讨生活并不容易。<br><br>可是，随着我向里深入，街边出现了诸多牢笼，此时，我还猜想伊吉人传承了将俘虏示众的古老偏好。直到，我看清那些笼子里关的竟是伊吉人，他们嘴里一刻不停地咒骂国王。<br><br>这里似乎陷入了内乱，但我此行是为找最后一条龙的踪迹，加入任何一个阵营都不是冒险家艾伯特的课题。勇敢的冒险家与冒险的勇者的区别就在于：前者并不乐意掺和旅途中的是非。</td></tr><tr class=\"even\"><td>狮心王谕旨<br>捍御雄狮之心</td><td>特瑞特尔·那索：<br><br>预言之子将赴圣地，务必拦截叛军。<br><br>不要被私情干扰判断，不要让你古老的姓氏蒙羞。<br><br>太阳的后裔不会感念软弱的怜悯，对你和艾丝皆是。</td></tr><tr class=\"odd\"><td>书记官的私人史记</td><td>狮心王梅涅克，伊吉部族的新领袖，这位年轻国王在沙漠里找到一些古老的记录，一心想借此为陷入沉寂的土地带回光明。他坚信，那些记录显示古伊吉有一种人造太阳的技术。他试图从沙漠中挖掘出更多东西，证明先祖们真的曾把人造太阳升上天空，为古伊吉带来了一段耀眼的，奢侈的，仿佛永无止境的白昼。<br><br>……生于永夜的子民难以信服新王空洞的理想。当年轻的国王陷入对抗固有的制度，想要较量一下谁对国家贡献更多，一个发展时期就开始了。<br><br>……<br><br>大量的金子源源不断地运往中陆，换取中陆皇帝允诺的“灰烬机械”。所有时间，所有空间，所有力量，都被投入沙漠之灯的建设，保证维持这片土地的未来。所有人都为见到光明欢庆，所有人都听过：狮心王的名字不会在沙漠中陨灭，并将终生伴你左右。<br><br>……<br><br>沙漠之灯带来的光明已经不能满足狮心王的野望。那个神秘的女人劝说：若你能够得到太阳，何必在乎微末灯火？她自称是从我们古老传说中走出的预言之子，向狮心王预言灾祸将至，作为其能带回太阳的明证。<br><br>……<br><br>狮心王说，凡夫并无拒绝太阳的力量，预言之中万事早已发生。接着便频繁征兵，封锁伊吉聚落，撕毁《黄金条约》，拆除沙漠之灯……以抵抗逐一应验的预言——伊吉部族的内乱和外患。可作为一个谦卑的史官，我不禁想，倘若起初没有搬弄这些预言的舌头，它们是否还会如此精准的纷至沓来？<br><br>……呼唤他的名的臣民在背弃他，狮心王的名号逐渐被疯王取代。有时候他看到一面镜子，会石化一般僵住，他似乎从镜子里看见了些什么，某些他自己已经忘却的东西。公主出走之日，他将镜子摔得粉碎。<br><br>……</td></tr><tr class=\"even\"><td>圣地巡逻日志</td><td>圣地巡逻日志 两千二百八十四<br><br>今日巡逻路途十分平和，永夜沉沉，无突发事件。<br><br>从今天起，我要省略记录天气和日期的步骤。理由如下：<br><br>第一，昨天和今天对无尽的永夜而言，有什么分别？<br><br>第二，除了队长，没有人会抽查巡逻日志。<br><br>第三，我是队长。<br><br>……<br><br>圣地巡逻日志 三千零二十九<br><br>今日巡逻路途十分平和，永夜沉沉，无突发事件。<br><br>……<br><br>圣地巡逻日志 三千六百九十三<br><br>今日巡逻路途十分平和，永夜沉沉，无突发事件。<br><br>我是说，能有什么突发事件呢？我在期待预言之子奇迹般降临，还是期待一群暴民闯进来砸个稀巴烂？自从我爷爷的爷爷开始，我的家族便世代充当圣地守卫，但没人亲眼见到圣地开启。不知我的孙子的孙子能否得见，或许圣子经过试炼后，其他人也能跟在后面进去瞧瞧？<br><br>……<br><br>圣地巡逻日志<br><br> 两个鬼鬼祟祟的家伙躲在墙角，就像影子贴在石头上。我发誓，我听到它们说了“圣子大人”这个词，但当我走过去，什么都没有。难道说，我终于产生幻觉了？<br><br>……<br><br>圣地巡逻日志 <br><br>今日巡逻路途十分平和，永夜沉沉，无突发事件。<br><br>自从我见到鬼影的那日起，我愈发觉得不写日期是一项明智的选择。近来，我决定将编号也舍弃掉。我曾在一部中陆小说里读到，一位久居山中旅馆的作家因日记上的日期混乱而陷入自我质疑。而机智如我，早已将这一风险掐灭，哈，哈，哈。<br><br>……<br><br>圣地巡逻日志&nbsp; 一<br><br>……<br><br>&nbsp; 圣地巡逻日志&nbsp; 一<br><br>今天有人来传讯。我有多久没见过陌生人了？传讯者说，明天是重大时刻。会是预言之子吗？会是狮心王吗？——老天保佑，现在的皇帝还是他吗。总而言之，我要收拾点样子出来，瞧，我重新给巡逻日志写了编号，这是好兆头不是吗？但我实在想不起来具体日期了。</td></tr><tr class=\"odd\"><td>圣地传说</td><td>这些古老部族的后裔坚信他们之中迟早会诞生出一位预言之子，只有这个传奇人物能通过此处的试炼，一探其后的奥秘。我必须声名，我乐于尊重一切古老的文化传统和民族禁忌，但这里很可能有着世界上最后一条龙的线索，本着严谨的科学精神和不竭的求知精神，我有责任和义务踏足这个圣地。显然我并非那位能通过考验的预言之子，不过这里也不是冒险家艾伯特闯进的第一个禁止入内之所。至于进去的办法，我只能透露一点：一把矮人的的铲子不会输给任何一根法杖。</td></tr><tr class=\"even\"><td>拉克胡马古城考<br>艾伯特的笔记</td><td>“从圣地进来后，我发现了一座被黄金覆盖的古城。世间能一举融化数量如此之巨的黄金的热能，恐怕只有巨龙的吐息。<br><br>我继续前进，发现这被古城座落在英灵的脊背上，循环往复地上演挑战者的故事。但我有一种预感，永远无人能击败它们，或者说你以为的胜利无法通过战胜它们来获得，你只会融入他们，与这里合为一体。你可以穿越一座长廊，广场的废墟，再次消灭这里毁灭了一千年的东西，把你的名号写在每一寸金子铺设的地板上，但你的统治除了这座废墟残败的表层之外，一无他物。<br><br>究竟是什么融化了黄金，又将它们困在此处，我有预感，这些和龙脱不了干系。”</td></tr><tr class=\"odd\"><td>一封令我读罢悲从中来的“家信”<br>艾伯特的笔记</td><td>我捡到一封信件：<br><br>”巴尔比努斯阁下：我不知道如何回信。我无从下笔，你在期待什么样的回答？我们围坐在池水前，听我袒露自己的童年，梦想，和不幸？还是说，在你抛弃我和母亲十余载后，你想听我称呼你为，“父亲”。曾经我想：等我获得足够的力量，我就……后来我被一次次打败，我又想：等我复了仇，我就……现在，进入太阳斗场的机会唾手可得，扬名立万的日子近在咫尺。<br><br>不落的太阳照耀着内城，此刻空气干燥，万象日新，在方才结束的战斗中取胜的兴奋感里，我像往日拿起剑那样信心百倍，下定决心要重新开始生活。我将很快得到女王的召见，我的余生不会再笼罩在私生子的恶名之下。“<br><br>（但是我们都知道，一场天灾，让他的梦想永远停留在了功败垂成的时刻。）</td></tr><tr class=\"even\"><td>斗场残垣上的公告<br>艾伯特的笔记</td><td>我对两个功能相似，但结构迥异的竞技场产生了兴趣，在此盘桓数日遍访古迹，于断墙上公示的榜文中找到数行相关内容，现抄录如下：我们注意到一些斗士，不惮在皓月之路的搏斗比赛中使用龌龊的伎俩。胜利固然可贵，但我们坚决抵制违背女王律法和有碍搏斗观赏性的恶性行为。在伟大女王的授意下，现开设这个不受规则束缚，只凭优胜劣汰的竞技场——繁星之路，以供有此偏好的各位斗士随时随地，随心所欲地使用阴招。</td></tr><tr class=\"odd\"><td>角斗士的书信</td><td>亲爱的妈妈：<br><br>请原谅我不告而别。<br><br>我为在皓月之路的失败感到愧疚和羞耻，我没能像叔父杰拉尔德那样在竞技中拔得头筹，我让那索家族蒙羞。但请您相信，您的儿子绝不是一个软弱的废物，我将在繁星之路一雪前耻，如果只能有一个生还者从此走出，通向觐见女王的荣耀之路，那么这个人会是你的儿子。<br><br>请等等我吧，我在这里没有找到帮忙寄信的差役，难道这条路上完全没有秩序和服务了吗？但无需心急，待我觐见女王之日，我会请女王亲吻信笺，再将蒙受女王恩泽的此信奉与您，同您分享这荣耀。</td></tr><tr class=\"even\"><td>贵族角斗士的书信</td><td>“我必须承认，这是一种愉快的经验……尽管让我心神不宁。我用刀尖抵住对手的咽喉，割开他的皮肤，最后撕裂了他。猩红的液体从我的手掌蜿蜒淌下，那感觉令我毛骨悚然又反常的快乐……”</td></tr><tr class=\"odd\"><td>太阳斗场建筑考<br>艾伯特的笔记</td><td>古伊吉人就像明天行将消亡似地不计代价的铺张生活着，又好像将要永远活在世上一般忙于建设。这座奢华的斗场犹如这种矛盾的实体，它的墙壁，天花板和廊柱都用黄金堆砌，却任由生命泼洒立足的每一寸地方。<br><br>但世事多荒谬，女王同她的臣民们升起人造太阳，渴望像定格白昼一般定格此刻的欢愉，而最后太阳坠落，这座黄金堆砌的斗场朝四面八方熔化，所有人变成黄金浇筑的琥珀，永恒凝固在这一刻。他们一度最渴望的东西，酿成了一切最终的悲剧。至今，滚烫的流金仍不时从地底漫溢而出，冲刷着此处哀嚎的亡魂。</td></tr><tr class=\"even\"><td>深渊以下<br>艾伯特的笔记</td><td>“探索遗迹所花费的时间大大超出了我的预期，这座古老的宫殿如此宏伟，而她的奇妙之处似乎刚刚向我揭开一小点儿。一路深入的过程中我经过几个水池，池水历经数载仍然保持着温度，我猜想下面连接着天然温泉。火山岩，足够熔化能够铸造太阳那样大量黄金的热能，还有眼前天然温泉，我几乎可以断定深渊以下蛰伏着火山。我将继续向下弄个明白，世界上最后一条龙的归宿或许就在那里。”</td></tr><tr class=\"odd\"><td>伊吉艳后考<br>艾伯特的笔记</td><td>这是一篇关于歌颂女王的诗歌的研究：<br><br>“帕洛玛本是沿伯尔塔塔河漂流而至的一个弃婴，或许是她在尝到乳汁以前先受长河的洗礼，古伊吉人认为她的美貌为自然造化。王城里伫立着大量女王雕像，看上去她不喜欢华美衣裙，仅以黄金稍作点缀。底座上刻有她的一句箴言：辉煌日光自会为我蔽体。”<br><br>此外，书页里也抄录着难以计数的颂扬诗篇，她的美貌在无休无止的描摹里栩栩如生、纤毫毕现，从三色瞳孔，到嘴角弧度，乃至于睫毛的数量都成为创作的灵感。古伊吉人于帕洛玛身上看到众多的美——<br><br>耽于美欲者，能于其肢体中看到恣情纵欲、销魂夺魄的美；<br><br>崇尚权力者，能于其姿态中看见无与为比、高不可攀的美;<br><br>沉溺征伐者，能于其神情中看见毫不留情、凛若冰霜的美;<br><br>尽管这位女王仿佛是一尊为美而雕刻而出的雕像，可我在洋洋洒洒的赞颂里横看竖看，那种美有千姿百态，只欠缺了仁慈和爱。</td></tr><tr class=\"even\"><td>古伊吉王庭的秘辛<br>艾伯特的笔记</td><td>古城似乎正在醒来，我看到无数的影子起身歌颂太阳。这些影子残存的形体中和习性中，隐隐透露着些许龙的特征。可以想见彼时巨龙被古伊吉的人造太阳吸引，它扶摇而上，喷吐的龙息使太阳熔化。这巨大的热能波动带起一系列连锁反应，蛰伏在古伊吉城底的火山也喷发了。于是这座黄金建造的古城不仅吞没了它的人民，也带着巨龙沉入地底。<br><br>而深渊之下，火山洞窟与巨龙遗骸成了新生命诞生的天然温床，那些残肢断块在其怨念的驱使下开始了孵化和生长。这些残缺的生命体生于影中，消逝后化为污泥，通过吞噬自己的同类来使自己变得更加强大，再重新开始新一轮的生长。而今成千上万的巨龙子嗣正如潮水一般冲向深渊之外，意图再次重返世间。</td></tr><tr class=\"odd\"><td>堕落英灵的遗信</td><td>我仍记得昔日黄金城内的盛况。臣民来往于女王的王庭，吻她的塑像的脚趾，祈求她垂下手指，触碰自己草芥般的命运。直到那日，巨龙攀上永恒太阳，天幕再无日夜之分，徒留下一片烂漫黄昏，奄奄一息的人造太阳被龙息点燃，逐渐失去永恒的形状。于是天上长着双翼的飞鸟坠落如雨，地上两脚的人和四足的兽奔走践踏，滚烫的流金淌过，一具具皮包肉骨皆被塑成金像。<br><br>同样被黄金包裹的巨龙虽坠下深渊，但并未被陨落和千年的等待平息怨恨，蕴含在他身体中强大力量无时无刻不想冲破束缚，重见天光。一千年来，为女王而战的永恒信念，让我和无数伊吉战士的灵魂不灭，至今驻守在深渊的边界，同从龙的腐肉枯骨中诞生的影嗣鏖战。<br><br>现在女王从彼端归来，永恒太阳重新升起，我却并未像往日一般于它的辉照里获得力量，它的光芒不再是纯粹的金色，而其中的杂质正在腐化我们的意志，甚至让这些影嗣从中得到了某种滋养。<br><br>我写下这些文字，希望告知能看到这里的任何人，起初我们与邪龙的影嗣战斗，后来我们与同胞战斗，最后我们同自己意志的腐化战斗，甚至无法自戮明志。毕竟，已经消逝了一千年的灵魂，要如何期待从毁灭中获得解脱？这不是一场战斗，战场上没有敌人，也没有战利品，牺牲和荣耀，只有来自过去的影子，和被我们无限透支的永恒。此时此刻，我多么希望闭上眼睛，等再次睁开时就能从酣宴的梦中惊醒，那是无止无尽的狂喜，无边无垠的欢乐……</td></tr><tr class=\"even\"><td>女王闺阁<br>艾伯特的笔记</td><td>“追寻着龙的踪迹，我从竞技场一路至此，途中有幸于一些书志残篇，壁画织帛当中窥见一段古伊吉过往，而女王闺阁中的金像与妆镜正印证了我的猜想。由于这个故事有着近似爱情的主题，我尝试采取用一种夹杂着隐喻和联想的罗曼蒂克修辞：<br><br>正如灯火滚烫，飞蛾却执迷不悟。即使帕洛玛是那么的残忍无情，却仍有人痴迷于她的美貌，渴望得到她的垂青。杰拉尔德，那索家族的长子，甘愿走上黄金城中心最大的竞技场，用自己的凡夫之躯同野兽相博。最终，他割下野兽的头颅，站立在竞技场的最顶端，向着天空倾诉着他对女王的爱意。女王在她纯金的寝宫里接见了他，在无数镜子的折射下，想必杰拉尔德看到了无数个她，以及匍匐在她裙下的，无数个自己。<br><br>可怜的杰拉尔德，或许对着那令他魂牵梦萦的完美面容，诉说了他的思念，他的痴迷，他的爱慕，他想要给她的一切。<br><br>女王大抵也以某种方式让他相信他炙热的情感得到了回应，否则，还有什么能让一位能够撕下野兽头颅的勇士甘愿任人摆布呢？<br><br>我推测的根据就在女王的床帏之后，那里有一座刻着杰拉尔德·那索名号的金像，其面容上的痴恋仍旧栩栩如生，仿佛停留在滚烫的融进倾倒下来的那一刻。而在这座金像之后，无数座姿态各异的金像映入镜中。<br><br>最后，关于我称这个故事‘近似爱情’的缘由是，杰拉尔德的名号下，刻有一行铭文——‘在爱意最炙热的时候离去吧，只有这样，你的爱才能见证永恒。’<br><br>可究竟什么是永恒的呢，所谓‘其兴也勃焉，其亡也忽焉’，盛极一时的古伊吉文明也几乎没有在历史上留下痕迹。”</td></tr></tbody></table></div></div><div class=\"row\"><div class=\"col-sm-12 col-md-5\"></div><div class=\"col-sm-12 col-md-7\"></div></div></div>\n    \n    </div>\n</div>\n    </div>\n    </div><iframe marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" frameborder=\"0\" id=\"15d7915d987c3f8\" width=\"0\" height=\"0\" src=\"about:blank\" name=\"__pb_locator__\" style=\"display: none; height: 0px; width: 0px; border: 0px;\"></iframe><iframe name=\"__uspapiLocator\" style=\"display: none;\"></iframe>\n\n    <footer class=\"text-center text-lg-left container mt-2\">\n      <div class=\"card p-4\">\n        <div class=\"row\">\n\n          <div class=\"col-lg-3 col-md-12 mb-4 mb-md-0\">\n            <h5 class=\"text-uppercase\">Sites</h5>\n            <ul class=\"list-unstyled mb-0\">\n              <li> <a target=\"_blank\" href=\"https://poedb.tw/\">poedb.tw</a> </li>\n              <li> <a target=\"_blank\" href=\"https://tlidb.com/\">tlidb.com</a> </li>\n              <!--<li> <a target=\"_blank\" href=\"https://diablo4.cc/\">diablo4.cc</a> </li>-->\n              <li> <a target=\"_blank\" href=\"https://poe2db.tw/\">poe2db.tw</a> </li>\n              <li> <a target=\"_blank\" href=\"https://paldb.cc/\">paldb.cc</a> </li>\n            </ul>\n          </div>\n\n          <div class=\"col-lg-3 col-md-12 mb-4 mb-md-0\">\n            <h5 class=\"text-uppercase\">About Site</h5>\n            <ul class=\"list-unstyled mb-0\">\n              <li><a href=\"privacy\">Privacy</a></li>\n              <li> <a target=\"_blank\" href=\"https://www.reddit.com/user/chuanhsing\">About US</a> </li>\n            </ul>\n          </div>\n\n          <div class=\"col-lg-3 col-md-6 mb-4 mb-md-0\">\n            <h5 class=\"text-uppercase\">Community</h5>\n            <ul class=\"list-unstyled mb-0\">\n            </ul>\n          </div>\n\n        </div>\n      </div>\n      <div class=\"p-3\">\n\n      <span>资料库内容为测试资料，正确资讯请以官方游戏内的内容为准。</span>\n      </div>\n    </footer>\n\n    <a href=\"#top\" id=\"toTop\"><span class=\"fas fa-arrow-circle-up fa-3x\"></span></a>\n    <div id=\"consent-box\" style=\"display:none\">\n      <button onclick=\"window.__cmp('showModal');\">\n        Update cookie preferences\n      </button>\n    </div>\n    \n    <script>\n      if (window[\"nitroAds\"] && window[\"nitroAds\"].loaded) {\n        document.getElementById(\"consent-box\").style.display = window[\"__tcfapi\"]\n          ? \"\"\n          : \"none\";\n      } else {\n        document.addEventListener(\n          \"nitroAds.loaded\",\n          () =>\n            (document.getElementById(\"consent-box\").style.display = window[\"__tcfapi\"]\n              ? \"\"\n              : \"none\")\n        );\n      }\n    </script>\n  <script defer=\"\" src=\"https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516\" integrity=\"sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==\" data-cf-beacon=\"{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;83af079277c347f9ba9fc040e0d21cb5&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}\" crossorigin=\"anonymous\"></script>\n\n\n<ul id=\"ui-id-1\" tabindex=\"0\" class=\"ui-menu ui-widget ui-widget-content ui-autocomplete ui-front\" unselectable=\"on\" style=\"display: none;\"></ul><div role=\"status\" aria-live=\"assertive\" aria-relevant=\"additions\" class=\"ui-helper-hidden-accessible\"></div>",
+    "content": "火炬编年史\n英雄\n仓库\n技能\n打造\n成就\n异界\n商城\n            \n书页 /64\nSearch:\nname\tunlocked_text\n点燃黑夜的火炬\n艾伯特的笔记\t作为一名不请自来的客人，我在夜色之中潜入了这座名为“余烬之息”的避难所。\n\n这座从灾烬之上拔地而起的杰作，这些凝聚了最先进灰烬科技的复杂装置，简直就是“奇迹”最真实的写照。\n\n我看到那些被灾烬感染的人们，那些被其他人恐惧、鄙夷和驱逐的人们，成为了火炬之光的猎人。\n\n在一个濒临崩毁的世界里，也会存在如此炽热的希望吗？\n\n火炬之光……我无比期待着，见证你们所走向的结局。\n\n\n\n\n终息之战\n艾伯特的笔记\t我在安达岭山地探险的过程中，发现了很多记载信息的古老石板，当我对上面的古老文字进行解读后，发现正如我所预料的：这一整片安达岭山地，是巨力纪元时期终息之战的古战场。\n\n我的祖先曾在这里与龙族决战，并最终赢得了战争的胜利。即便如今已经过去了万年，但我依然能够感受到我祖先的英魂在这片土地上挥之不去。\n\n我闭上眼，感受着身旁灼热的谷风，回想着古老石板上记载的那些画面，仿佛身临其境。\n\n“那一天，天空的眷族们盘旋乱舞，天幕被焚烧，巨神如流星四散坠落。”\n上古战场\n艾伯特的笔记\t矮人们都会叫这个地方为上古战场……尽管战场的痕迹已经被万年的时光悉数磨灭。据说这里曾经见证过我的祖先们在大地之上的最后荣光，也目睹了兄弟阋墙、众叛亲离、分崩离析。无论如何，现在在这儿生活的都是些快乐的小哥布林。\n\n当看到古代矮人们为了战争而制造的巨大武器，被哥布林们用于改造他们的屋子，改善他们的生活的时候，我衷心为这些曾经的害人机器而感到高兴。纵使山峦会被斧头所砍平、大地会被钻头所掏空，但对于和平的向往却不会被任何力量所动摇。在这灾烬丛生的战争年代，是这样的共同的信念把不同种族联系起来。\n\n我和哥布林们的大长老一起喝他们用古然草酿造的饮料，这是他们用于招待远方客人的饮品。我们谈笑、痛饮，直到深夜。灾烬带着腥风在这片大地上蔓延，今夜我们还是会为明天的太阳唱不成调的颂歌，这就是生活在莱提斯大陆的人们。\n背叛的诅咒\n艾伯特的笔记\t我今天在解读古矮人文字的时候发现了一个天大的笑话，他们竟然说：哥布林和鼠人是被诅咒的矮人。看来我的祖先也挺喜欢开玩笑的。\n\n众所周知，哥布林是造物主在创造世界的时候打了一个喷嚏，从他喷出来的鼻涕泡中诞生的种族，这件事已经被史学家论证了无数遍了，是亘古不变的真理。可我的祖先非要说，他们曾经是声名显赫的矮人英雄，却为了一个愚蠢的诺言离开族群。最终，他们的背叛招来了诅咒，所有离开族群的人都变成了丑陋弱小的哥布林。\n\n哥布林是矮人变的？简直是胡扯，这个玩笑一点都不好笑。\n火炬之光的宣誓词\t今夜，我燃起薪柴，手执炬火。漫天诸星为证，我将履行我的誓约——\n\n无论过去身份与荣誉，也无关权利和利益。成为无名之火，与我的手足兄弟团结如一。\n\n我们是刺破黑暗的利刃，是驱逐暗夜的曙光。为此我愿献出一切，化为夜幕下的星火。\n\n我是火炬之光，自由，希望，永不放弃的光。我要让这漫漫长夜都响彻我们的名字。\n\n终我一生，行我所志，终身不渝。\n对龙巨墙\n艾伯特的笔记\t牺牲了铲子老二十一，铲子小二十二和铲子小二十三之后，我终于攀上了这座传说之中的巨墙。\n\n\n\n当我的双脚踏上这座钢铁壁垒之时，那深入灵魂的震撼和自豪，远甚于我在它的脚下仰望的所有时刻。\n\n\n\n我们的祖先凿穿了万仞山壁，将矮人一族引以为傲的钢筋铁骨融入群山之中，以此对峙那宛如神明一般强大的残暴巨龙。\n\n\n\n站在巨墙的边沿，我眺望远方那被云雾遮蔽的安达岭山脉，耳畔仿佛响起了机械的轰鸣、兵器的铮铮和巨龙的嘶吼。\n\n\n\n我决定在这里多停留些时日，尽可能详尽地将这些景致记录进历史之中。\n\n\n\n并考虑将一部分预算投入到灰烬科技登山装置的购置上。\n\n\n对龙兵器\n艾伯特的笔记\t第一次见到那矗立在巨墙之上的对龙兵器时，我惊叹于它的巨大和沉重，并在尝试拔出它之后，理所当然地对古籍中记载的巨力纪元的矮人身高产生了质疑。\n\n但很快，我便见到了那深埋在泥土砂石之间的巨型机甲。\n\n那一刻，我的眼前仿佛出现了祖先们驾驭机甲同巨龙搏斗的场景。火光遍天，金铁交鸣，巨龙如流星般坠落在这片大地上，嘶吼声不绝于耳。\n\n我继续前行，停靠在驻墙炮的脚下。\n\n这些炮管直冲天际的巨炮，正是当年为了击落天幕之上盘旋的巨龙而铸造的兵器。时至今日，尽管它们早已沉眠了万年之久，但那巧夺天工的机械结构并没有被岁月风化。\n\n如果说终息之战是巨力时代的终结，那么对龙巨墙便是那个时代最沉重也最辉煌的缩影。\n\n\n\n\n被撕碎的日记\t“……\n\n但我坚信，感染灾烬并不意味着走向绝路。\n\n永别了，亲爱的故乡。\n\n我将去向远方，寻找一条属于灾烬感染者的道路。”\n\n\n\n“前些天捡来的那个女孩结束了今天的训练，像平常一样眼巴巴地看着我。\n\n像是看着一个师长，一个姐姐，甚至是一个母亲。”\n\n“我或许知道她渴望从我这里听到什么，但我什么都没有说。”\n\n“感染者的生命毕竟太过短暂，我不能留下太多令她无法割舍的东西。”\n\n“就像奥瑞恩老师离开我们的时候一样。”\n\n\n\n“今天，我遇到了一位故人——我童年的玩伴，莱安。\n\n他的实力无法估量，却执意要求成为一名暗鸦。\n\n……”\n\n\n\n“……\n\n即使我早已没有资格。\n\n但，相爱吧。\n\n向这个末日证明，我们决不妥协。”\n\n\n不摧甲胄\n艾伯特的笔记\t在我最近所搜集到的古文字中，有一段关于终息之战的记录，说“不摧甲胄”是我祖先们能够赢得战争胜利的关键——英雄身着不摧甲胄，他的身形变得如群山般伟岸。他用双拳砸出坑洞，后来成为山谷，他用双脚碾出凹陷，后来成为了河流，战争和统治在他降临的那一刻便落下帷幕。\n\n我不知道“不摧甲胄”究竟是什么，那样的伟大之物若非亲眼所见，根本无法想象它的存在。\n地下矮人\n艾伯特的笔记\t一支缩在地下的矮人旁支……真是让人意想不到。这庞大的族群、与我地上的同族们迥异的科技形态。是的，他们的科技设施跟我在安达岭看到的古代机械残骸一模一样，这一切的一切都让我不禁想到了那个关于卡兹萨恩王的传说。\n\n不，不。与其说是传说，不如说是被刻意隐藏的历史。但是……并不是每个矮人都敢于正视这段历史。在我们给后代写的历史课本里，古代矮人的事迹往往只到对龙战争的胜利便戛然而止。\n\n但其实后来发生的事情我们都心知肚明。玛格努斯王因为劝谏卡兹萨恩王而遭到软禁。但他却在狱中挖掘了直通山脉之心的密道，在无人知晓的情况下盗取了火种。据说当玛格努斯王身揣火种从地下向上奔逃的时候，他身后的矿道因为失去火种而次第幽暗，而前路的黑夜却被照亮。数百族人在那光的吸引下，和玛格努斯王一起离开了地下。那就是地上矮人的始祖。\n破碎工牌上的铭文\t在一些堆积的杂物中发现的，早已破碎的工牌。上面的名字写的是：奎恩。\n矮人工头的日记\t“11月5日，额定的工资没发，休假削了一半，工人偷懒误的工期还都要算在我头上。”\n\n“11月7日，工人抱怨管得太严了，但我也没有办法。就在今天早上，隔壁的奎恩工头因为开采出来的结晶数量不过关，已经被扭送去了卡兹萨恩之心，也不知道什么时候才能回来。我可不想那样。”\n纠察队的日记\t今天我们得到了多加尔陛下的征召，即将正式成为纠察队的一员。我将忠诚地执行我的职责，为陛下整顿他的臣民。我首先要整顿的就是帕尔那个懒鬼，他昨天还在干活的时候偷偷搞那些石头收藏，我好心提醒他，他竟然说我烦人！天哪，我可都是为了多加尔陛下的雄图伟业啊！\n\n不过，见陛下的时候，他旁边站着的那个黑衣人看着很让人不爽。看样子那是个地上来的人，竟然能和陛下说话！站在一起！我的天哪，什么时候我也能和陛下说上话，就谢天谢地了。\n矮人王\n艾伯特的笔记\t我混迹在觐见矮人王的队伍中，看着这个年轻的国王，踌躇满志，万人拥护。\n\n但他的眼睛是瞎的。我的意思是，他因为古代矮人的荣耀和火种燃起的欲光而变得盲目，看不清自己的身边正发生着什么。他满口为了矮人王国的未来，却在透支矮人王国的现在。\n\n我想我的旅程应该告一段落了，在我看完我祖先留给世间最后的文字之后。关于巨力纪元的那段历史，我已经完全理清了思路，也许不久的未来，我会把一切写进历史里。\n\n我的祖先留给世人的话，我已翻译成了大陆通用语，虽然我根据喜好在其中加入了一些修辞，但内容主体是不变的。我将文字记录在了我的游记中，希望有天这会被其他人发现，英雄的牺牲需要被世界所铭记。\n给我后世的子孙\t给我后世的子孙：\n\n我们曾被巨龙奴役了一整个时代，而今我们推翻了它们的残暴统治。这场举世无双的胜利，让我们矮人的文明足以名垂千史。\n\n但我的手足兄弟，那个时代最伟大的君王，却渐渐迷失在原初之火带来的力量之中。他忘记了我们是为何站出来反抗霸权，他忘记了我们的族群被巨龙凌虐压迫的痛苦。他如今站在世界的中心，却醉心于荣誉和欲望——这是我最不愿看到的，这位骄傲的驯龙者，变成了恶龙。\n\n他声称矮人理应独享胜利的果实，将原初之火永远留在地底。但我们心中都无比的清楚，矮人的文明已经足够繁荣，地面上的种族和生灵比我们更需要它的力量，如果最后真如我的兄弟所说，他们的文明将会彻底被黑暗吞没。\n\n所以，我必须要为他们站出来，哪怕这样做会背叛我的族亲，哪怕会背上永世的骂名。我点选了几百位愿意追随我的勇士，合谋盗走了初火——这让我的兄弟大发雷霆，除了勒令我们永远不得返回王国之外，还降下了凶恶的诅咒：我们的子孙后代，永远都是丑陋弱小的畸形儿。\n\n起初我并没有在意，直到我的妻子诞下了一名怪婴，我才知道，诅咒应验了。而随我一同出来的几百名族亲，他们的后代也无一例外都是样貌丑陋的怪胎——落叶不能归根，宗族无法延续，这就是背叛的代价。\n\n我不知道我的后人是否有能力读懂这些文字，对于他们的未来，我感到十分痛心和惋惜，但我从未后悔自己所做的一切。如今原初之火回到了它原本的位置，万物得以感受它的光辉，没有独裁和欺凌，世界文明进入了全新时代。\n\n我未来的子孙啊，如果你有幸能够读懂我们的文字，希望能够帮我们昭雪，我们不是背叛者。\n\n我们的牺牲，将换来世界文明的万世繁荣。\n\n背叛者·玛格努斯\n契约\t火炬之光的猎人与暗鸦之间最坚不可摧的羁绊。\n\n与猎人定下契约后，暗鸦会以自己的身躯帮助猎人分担身体里的灾烬，防止猎人彻底灾烬化。\n\n契约仪式充满了危险，只有精神力极强的暗鸦才能胜任。\n\n\n\n\n虚假的圣所\n艾伯特的笔记\t我来到了学城的避难所。那令无数人削尖了脑袋想要挤进来的，光明的圣所。\n\n高昂的款项，严苛的校训，繁杂的守则。\n\n被圈养在牢笼中的家畜，正享受着用金钱堆砌出来的“和平”。\n\n虚假的光明绝不会持续太久。\n安东尼奥的研究日记\t8月31日 晴\n\n今天是离开魔法学院，来到黎明圣所的第一天。\n\n昔日的同僚们嘲笑我是“老年失智”，我只当他们是在狗叫。\n\n就在三天之前，我的《利用灰烬组件治愈失格者的可行性分析》再一次被理事长基冈驳回了。他痛斥我异端邪说，并将“利用失格者危害魔法学院”等一系列罪名强加到我的头上。\n\n唉，如果德里克校长没有病重，想必基冈也不会如此猖狂。\n\n没有人替我说话，除了那个圣诫骑士，罗梅尔。\n\n他是德里克校长收养的孩子，被寄予厚望的，圣诫骑士们未来的领袖。\n\n最后，在罗梅尔的竭力争取下，我才免于被流放的命运，而是被发配到黎明圣所。\n\n当我把那少得可怜的行李摊开，想要晒晒霉斑的时候，罗梅尔来到了黎明圣所。他很认真地对我说，他与我的观点是一致的。光明不应当只照耀少数人，失格者也同样拥有被救赎的权利。\n\n说实话，罗梅尔是我在魔法学院见到的，为数不多的正义之人了。\n\n未来，我将居住在黎明圣所，寻求一条拯救失格者的路。\n\n\n9月2日 阴转暴雨\n\n研究迟迟没有进展，我咬咬牙揣上了自己的养老金，趁着夜色，偷偷来到了学者街巷。\n\n和我接头的是个年轻的失格者女孩，骑着摩托车便从墙头一跃而下，吓得我这颗老心脏差点骤停。想不到她的摩托车居然稳稳地停在了我的面前，没弄出半点儿声响。\n\n听了我的委托——一个最便宜的灰烬组件后，她爆发出一阵意味不明的大笑，这让我隐约有些恼火。所幸她很快就调整了状态，接过我的宝贝钱袋子掂了掂，又丢了回来。\n\n“到时候再说！”\n\n她丢下这句话，便和她的摩托一起，消失在了夜色之中。\n\n而我呆呆地站在原地，直到那场倾盆大雨把我淋成了落汤鸡。\n\n\n9月3日 晴\n\n当我正在晾我那因为漏雨而被淋湿的被子时，那个失格者女孩从屋顶上一跃而下，大摇大摆地走到了我的面前。\n\n我被她吓得花容失色，急忙将她带到了屋后。\n\n“老头儿！看！灰烬组件！”她压低了声音，但我还是能听出她的喜悦。\n\n她将一个鼓囊囊的袋子丢给我，我颤抖着双手，将袋子打开。袋子里装满了各式各样的灰烬组件，有陈旧的，也有崭新的。我的心跳得越来越快，只能强装镇定，挑出一个最旧的来——毕竟我不像学院里那些脑满肠肥的家伙一般，有大把的金币可以挥霍。\n\n当我把我的宝贝钱袋倒过来，一枚一枚地数金币的时候，那个女孩很是愉悦地吹了声口哨，便转身跳上墙头，消失在了白色的砖墙之间。\n\n\n9月6日 晴\n\n经过了几天的研究，我已经彻底理解了灰烬组件的工作原理。\n\n在一片薄薄的灰烬晶石切片上，刻印上固定的纹路，这片平平无奇的灰烬晶石切片，就能成为一个“灰烬组件”。据说灰烬组件能够激发失格者体内的灾烬力量，力量灌注进组件中，在那些纹路中传递和放大，最终变成一个酷炫的“招式”。\n\n我刻好了一个叫做“火球术”的灰烬组件，并将它放到手心里，试图感应力量——除了有点手心发热外，并没有别的感觉。\n\n我改进了这些纹路，制作出了一些新的灰烬组件。\n\n希望这些灰烬组件，能够等到它真正的主人。\n陨落的王庭\n艾伯特的笔记\t帝国已经完蛋了。这并不奇怪，从阿米尼乌斯用卑劣的手段驱逐赫尔曼家族之时，我就料到了会有这么一天。\n现在，魔法学院在帝都支离破碎的残骸上，建立了自己的统治，还自诩为光明。\n其实，魔法学院和帝国，无耻的程度不相上下。\n道貌岸然的圣堂\n艾伯特的笔记\t我潜入了学院，想看看在经历了数千年的时光后，魔法学院从他们先祖那里继承的光明魔法，发展成了什么样子。\n\n我看到他们用最初级的治愈法术迷惑学徒，用最高级的屏障法术封锁通往火种圣殿的大门。\n\n让人失望透顶。\n圣德兰校训\t本卷为圣德兰魔法学院的校训。学院的一切成员，都应当将他视作最高行为准则。\n\n一：学者日出祷告，日落休憩\n\n全体学者都需要在日出之前来到学城前厅，按照职级依次站好，不得懈怠。\n\n当阳光爬上学堂门口的第七层台阶时，校长将宣布祷告开始。此时全体学者闭目肃立，双手合掌。\n\n两名学士吟诵祷词，学者轻声跟诵。\n\n祈祷结束后，学者按顺序依次回到自己的位置。\n\n日落之后，全体学者需要尽快离开学堂，返回自己的居所，不得过多逗留。\n\n\n二：全体成员外出均需提交书面申请，并自觉接受灾烬检查。\n\n理论上不允许学院成员外出。\n\n如遇特殊情况，需要向学院执事提交书面申请，经由理事长审核，领取外出通行证。\n\n返回学院时，需要自觉接受灾烬检查，避免将灾烬带入圣德兰。\n\n\n三：积极举报潜入圣德兰的流民\n\n入住圣德兰需要严格的审核，此外一切进入圣德兰的人，皆当做入侵者处理。\n\n全程成员应当杜绝与他们发生正面冲突，尽快向学院督查执事或学城守卫反映情况，以便将入侵者驱逐。\n\n四：学城守卫应严以律己，遵守圣德兰校训。\n\n学城守卫只听命于校长德里克，无需参与日常祈祷等活动。\n\n学城守卫需要承担保护学院全体学者的义务、保护学城所有居民的义务、驱逐入侵者的义务。\n\n每日学城守卫需要进行至少两次巡逻。\n\n再遇火种\n艾伯特的笔记\t费了不少劲，终于混进了魔法学院存放火种的圣殿。\n\n火种的光芒比我上次看到的时候更黯淡了。魔法学院在利用它做什么吗？\n\n火种落到这群小丑的手中，我实在难以接受。\n原初之火的未来\n艾伯特的笔记\t在这片大陆上旅行多年，我一直没有荒废对原初之火和火种的研究。\n\n在历史上的每一个纪元里，都能看到原初之火的影子。它就像黑暗中的火炬，指引着人们前进的方向。不过现在，这只火炬已经熄灭了。原初之火受到了来自异世界的邪神的攻击，碎裂成了四块火种，分散世界各处。\n\n碎裂后的火种力量骤减，但还是拥有驱散一片区域内灾烬的能力。魔法学院正是利用了火种的力量，在乱世之中偏安一隅，并趁机收纳学徒，收敛财富。每每想到那些学者倨傲的嘴脸，我都能感觉到我那迷人的红胡子在剧烈颤抖……呸！一群小丑！懦夫！缩头乌龟！\n\n除魔法学院之外，还有一个名叫“火炬之光”的新兴组织，在秘密保护着一枚火种。他们中大多都是可怜的失格者，却也在用自己的方式，向这个倒霉的世界抗争。老实说我很佩服他们——单凭他们敢对付异魔这点，就比魔法学院不知道强了多少倍了！\n\n每次回想到魔法学院的小丑们簇拥着火种的滑稽样子……我都无比热烈地希望，火炬之光有朝一日能把他们的火种抢走！\n\n帝都居民守则\t一：日落之后，禁止外出。\n\n二：每月按时缴纳款项，不得拖欠。\n\n三：每周需要参与两次以上祷告。\n\n四：不得私自离开圣德兰。\n\n五：不得打扰学者和学城守卫的日常工作。\n\n六：不得帮助外人进入圣德兰，违者立即驱逐。\n\n七：不得私自谈论灾烬、失格者、帝国；不得质疑魔法学院的一切决定。\n\n怪物的秘密\t给安德里克：\n\n安德里克！我又看到那个怪物了！绝对不是眼花！这次你一定要相信我！\n\n昨天晚上我绕过那个正在打瞌睡的学城守卫，来到街巷的深处的时候，我又看到了那个瘦瘦长长的影子。它浑身惨白，肿胀的脑袋活像个大西瓜！双腿好像没有骨头，软绵绵地搭在地上，但脖子和胸口上，却长出了好多好多只手！\n\n我吓坏了，藏在树后面一动也不敢动。那个怪物用手撑着，爬过了花坛，扒着米莉家的窗户站了起来！他那好多好多只惨白惨白的手抓着米莉家的窗框，脸紧紧地贴在她家的玻璃上。这真的太可怕了！\n\n正当我打算向学城守卫求助的时候，那个怪物却突然松开了手。然后他的手拨着地面，迅速地跑掉了。还好还好，他没有进到小米莉家里。\n\n安德里克，安德里克，今天晚上和我一起出去吧！我向你保证，不会被学城守卫叔叔发现的！我们一起，揭开学者街巷怪物的秘密！\n\n虔诚者的街巷\n艾伯特的笔记\t这里是魔法学院“仁慈”的杰作，为寻求庇护的人们提供的居所。\n\n呵，我当然知道这份“仁慈”意味着什么。想要入住学城，每人需要一次性缴纳十万帝国金币的“款项”。除此之外，每人每月还需要额外支付两千帝国金币，作为日常生活的费用。\n\n作为回报，魔法学院为他们提供绝对安全的生活环境，包括全天巡逻的学城守卫和坚不可摧的防御机关。本着探索精神，我试探性地触碰了他们的机关——那强烈的光明魔法在一瞬间贯穿了我的全身，如果我没有身着那件“高浓度灰烬驱动绝对防御但又很便携的机械装甲”，想必现在已经骨头酥脆了。\n\n当我一边痛骂傻子才会住在这里一边战略性撤退的时候，只听咔嚓一声。我低头向脚下望去——什么嘛，好像是个报警机关。\n\n说时迟那时快，五个身着灰衣的学者从不同方向出现在我的身旁，举起手中的利刃，向我那肥美的肚子刺了下来！\n\n这时我的“高浓度灰烬驱动绝对防御但又很便携的机械装甲”再次发挥了作用，任凭他们再怎么卖力输出，我依然纹丝不动。但高浓度灰烬毕竟太过昂贵，我想了想，还是迅速地离开了。\n\n真是个可恨的地方！\n\n城墙守卫的家书\t给亲爱的安娜：\n\n我已经下定决心，带马克和梅丽离开圣德兰。\n\n知道得越多，就越发现，这里并不如想象中那么美好。日复一日的枯燥生活，只有马克和梅丽的笑容，才能让我稍微轻松那么一点。\n\n但我知道，他们并不快乐。\n\n是啊，当你的每一天都可以一眼望到尽头，或许生命已经没有什么快乐可言了吧。\n\n灾烬刚爆发的时候，我是那么地害怕它。我害怕自己被灾烬感染，害怕灾烬中钻出来的异魔，更害怕自己会失去所拥有的一切。\n\n你刚被灾烬感染的时候，我是那么迫不及待地想要逃离你。我是个骗子，是个懦夫，是个彻头彻尾的蠢货。\n\n安娜，你的信我已经全部收到了。谢谢你让我知道了灾烬感染者的生活，知道了在遥远的地方，还有一个叫做火炬之光的组织，在勇敢地同灾烬和异魔抗争。\n\n安娜，我不会再害怕灾烬了。我已经向魔法学院递交了申请，无论你是否愿意原谅我，我都会在三天之后离开圣德兰。\n\n希望马克和梅丽，还有机会见到他们的妈妈。\n\n你的 兰特斯\n叹息之墙\n艾伯特的笔记\t说来可笑，魔法学院修建这座戒备森严的厚重高墙，目的从来都不是防御灾烬。\n\n他们只是为了，将那些渴望着光明和救赎的平民，阻挡在高墙之外。\n\n魔法学院提供了廉价的救赎，前提是你有足够的钱来换。\n光明魔法机关\n艾伯特的笔记\t在学城的城墙上潜伏了三天后，我也算是摸清了魔法学院光明魔法机关的工作原理。\n\n魔法学院那些五花八门魔法机关大概可以分为三类：攻击型、阻碍型、传送型。换句话说，是“一碰就会被打型”、“非常碍事的挡路型”和“叫来一帮人打你型”。在我收藏的文献记载中，光明魔法向来都是倾向于治愈、净化和守护。现在发展成这副模样，让我忍不住一边骂着魔法学院一边多吃了两碗饭。\n\n不过目前还有更令人头疼的问题。当我终于克服了恐高心理，决定使用“超轻型压缩式灰烬浮空飞行装置”离开城墙时，一旁的城墙机关突然弹起，瞄准正漂浮在半空中的我，发射了一枚光明魔法弹！我只记得我健美的身躯狠狠地砸在了城墙上，后面的事情就再也不记得了……\n阴影下的罪恶\n艾伯特的笔记\t我从来都没有像今天这样愤怒过。\n\n老师曾经说过，我们只是历史的记录者。我们发掘历史，见证历史，用自己的方式将历史刻录在载体上，避免他们消失在时间的长河中。但我们永远都是旁观者——冰冷的，缄默的旁观者。不能虚构历史，更不能影响那些将要成为历史的事物。\n\n但我始终无法像他那样，成为历史最忠诚的学徒，对一切事物都冷眼旁观。\n\n在来到城墙外的遗落之城前，我便已经从其他资料中得知，他们是一群聚集在魔法学院的高墙之下的可怜人。因为支付不起高昂的款项，只能聚集在破败的街巷中，渴望着魔法学院的救赎。\n\n但当我正在踏足于此之时，才发现除了贫困的平民外，这里还驻扎着一支庞大的黑恶组织——群狼帮。他们大都是前帝国的士兵，拥有不容小觑的武装力量。但他们却毫不犹豫地，将自己手中的枪炮对准了无辜的平民。\n\n我原以为向穷人收取“保护费”已经是人性低劣的巅峰了，但接下来发生的事情远远超出了我的想象。\n\n那天晚上，我躲在建筑物的后面，看着夜色笼罩下悄然上演的一切。两名群狼帮成员带着数十名平民，穿过隐蔽的小巷，最终消失在了城墙下的暗门里。时至今日我还记得那些人脸上的表情，虔诚而感激，热切而憧憬，似乎已经触碰到了遥不可及的救赎。\n\n我不知道群狼帮向他们许诺了什么，但我知道，这一定是彻头彻尾的谎言。因为我看到了他们的货单。一个平民，500帝国金币。\n\n我想要拦住他们，我想要拯救他们，但我最终什么都没有做。\n\n我必须再回一次圣德兰。那座空无一物的魔法学院，一定还隐藏着些什么。\n群狼帮入会合同\t合同编号：QL－110227－113\n\n为了维护遗落之城社会治安，贯彻道奇将军对群狼街巷的领导方针，经反复研究，精心组织，认真安排，特拟定以下协议条款：\n\n1. 义务与责任\n合同双方同意莱尼加入群狼帮，并履行相应职责。\n\n2. 期限\n自签订本合同起，即为群狼帮成员。群狼帮有权开除未能履行职责的帮众，帮众不得以任何理由主动脱离群狼帮。\n\n3. 工作日和工时\n3.1 定期安排轮休。\n3.2 值班日全天候随叫随到。\n3.3 具体工作中，3.2优先级高于3.1。\n\n4. 报酬\n受到群狼帮庇护。提供武器与食宿。无基础工资，收入来自月底分红。分红比例由当月收取保护费数额决定。\n\n5. 扣除款\n5.1 武器装备租赁费用。在租期内自费保养武器，若武器损坏，照原价赔偿，并提高50%续租费用。\n5.2 每月按时缴纳会费，逾期者额外支付50%逾期款，累计逾期三次，没收全部个人资产，开除会籍。\n\n6.终止合同\n详见第2条。\n\n特别提醒：一旦你签署本合同，即意味着你已充分理解本合同所有条款的含义及相应的后果，同意与本合同其他方以纸质形式订立本合同并接受本合同约束。最终解释权归道奇将军所有。\n\n合同签订地及履行地：群狼街巷\n\n甲方：群狼街巷人事部\n\n乙方：莱尼\n致队长的一封信\t致我那肥胖且愚蠢的前队长奥森：\n\n托您的福，我现在感觉好极了。\n\n当您逼迫我前去银焰帮卧底的时候，我的内心万念俱灰。但当我真正来到这里的时候，却渐渐发现，这里简直是乐园！\n\n我第一次知道，原来和别人交流不用总是扮出一副凶相；我第一次发现，原来见到比自己职位高的人，没有必要卑躬屈膝；我第一次吃到了冒着热气的饭菜，而不是冷冰冰的罐头；我第一次尝试帮助一个老头修理了屋顶，他笑得很开心，还送了我两颗新鲜的胡萝卜……\n\n之前在群狼帮的时候，我害怕很多事情。害怕天黑，害怕出任务，害怕您的斥责，害怕收债对象不听话。不过现在，我什么都不怕了。\n\n您当然不会记得我是谁。毕竟我只是您派去的十几个卧底中，微不足道的一个。\n\n但我还是想说，我的肉体和灵魂，都已经和那个肮脏的群狼帮划清界限了！现在在我的眼中，您就是一头满脑子污泥的肥猪，带着一群趋炎附势的畜生，在臭狗屎里打滚的肥猪！\n\n再您母亲的见！群狼帮！\n\n来自一位不想透露姓名，并热切希望你们早日完蛋的银焰帮成员\n\n失踪人口统计\t整理了本月的失踪人口清单，比起上个月略有下降。\n\n沃伦，男，45岁。银焰街巷47号。\n\n韦恩，男，24岁。银焰街巷981号。\n\n贝拉，女，25岁。银焰街巷981号。\n\n迪克兰，男，28岁。银焰街巷189号。\n\n奥尔加，女，61岁。银焰街巷19号。\n\n……\n\n居民失踪事件，群狼帮有很大嫌疑。目前暂未找到决定性线索。\n沾满泥污的日记\t昨天，我变卖了仅剩的一点家具，但还是没能凑够米莉和艾尔莎下个月要支付的款项。\n\n这几个月，越来越高昂的款项就像是一座大山，压得我喘不过气来。父亲留下的财产早就已经被我变卖一空，甚至没能留下什么可以当做念想的东西。\n\n我需要钱。我需要很多很多的钱。\n\n只要有了钱，我们一家就能在圣德兰团聚。我们就能沐浴在圣光的照耀之下，远离那些恶心的灾烬。\n\n三天前，群狼帮的首领道奇找到了我，问我愿不愿意做一笔大生意。\n\n只要帮他送二十个平民潜入魔法学院，他就会一次性支付我五十万帝国金币。\n\n老实说，我并不想跟道奇打交道。但他好像看穿了我的顾虑，命人打开了面前的皮箱。那些明晃晃的金币，晃得我眼睛生疼。\n\n我想，我必须要开始行动了。押上作为丈夫和父亲的名义。\n\n理事长基冈的信\t我可怜的弟弟啊，请原谅我。虽然你已经看不到了。\n\n为了这个世界的未来，必要的牺牲是圣灵所允许的。\n\n我一直这样坚信，并且身体力行地从身边的人做起。\n\n圣灵是孤独的，他需要人陪伴。当我成为校长到达彼岸的圣域，我将向他陈述你的努力和牺牲。\n\n那时，海的对面的风景，将不再布满荆棘，永远向你敞开。\n火种实验记录\t“火种实验是通往圣域的唯一阶梯，圣灵已经祝福于我，开启这全新世界的大门……”\n\n“魔法学院的实验无一例外都失败了，人类的承受能力不足以支撑这种变化，或许……”\n\n“重大发现！有一个实验体存活了！我要好好观察，期待她的醒来……她到底发生了什么事？\"\n\n\"可恶！那个存活者从这里逃了出去，不知所踪！她爆发的力量实在太强大了……果然！火种实验是正确的！是必须坚持的伟业！”\n坠星般闪耀的火山玻璃\t这些黑色岩石所散发奇异光泽以及它们在我的放大镜下显露出的孔洞，使我几乎可以肯定这是火山玻璃。可问题在于，这些石头放在此处似乎并无实际功用，若仅仅为了装点，小国寡民的伊吉部族，为何不远万里从沙漠之外专程运输这种石材？\n\n而天然形成的火山玻璃，需要具备熔岩与冰或者水发生相互作用的条件。难道这座沙漠并不如它所展现地那样古老，只是它一贯拒人于千里之外的危险程度为其掩埋了曾经的秘密？这是否也是世界上最后一条龙选择栖居于此的原因呢？\n威尔写给杰索米娜的第八百七十三封情书\t亲爱的杰索米娜：\n\n我的热夜之梦，展信悦。\n\n我可否将你比作夏日……请原谅我情不自禁抄录了这首优美的诗歌，它使我想起初见您的情景。那时我才到坠星集市，无尽的夜幕总是那样低垂，可这里的石头中却散落着犹如星光一般的闪烁。自您的尾巴扫过我的鼻尖，沸腾的情感便在我胸膛中擂动，好几种念头始终在我的脑子里打架，它们仍迫不及待地想展示自己，争相化作我那上扬的嘴角和倾慕的语气，催促着我写满这张信笺……\n\n您最诚挚的\n\n威尔\n沙漠之灯工程竞标书\t【投标书】真挚友谊工程公司沙漠之灯项目投标书\n\n项目名称：拉克胡马地区沙漠之灯工程\n\n投标人：夏洛克\n\n一、投标函：\n\n既然我已通过投资获得伊吉公民的合法身份，何不让我为我的国家做更多贡献呢？根据招标工程项目的招标文件，遵照有关规定，经踏勘项目现场和研究上述招标文件及其他有关文件后，我方愿遵循合同条款、工程建设标准和工程量清单的条件要求承包上述工程的施工、竣工，并承担任何质量缺陷保修责任。\n\n一旦我方中标，我方保证按投标须知规定的工期五年内完成并移交全部工程。\n\n二、施工组织设计：\n\n沙漠之灯工程最远可修至沙地边陲，我相信这远超任何一家公司划出的范围。同时，为了保护生态主义者脆弱的情感，保守主义者对母亲河不容亵渎的执着，我司拟不将灯柱及电缆排布入伯尔塔塔河区域。未免此举被上述民众视作对抗狮心王伟大决策的胜利凭证，经妥善研究，我司将对外宣称伯尔塔塔河地区复杂的地下水系和流沙质土壤使施工无法进行。\n《静静的伯尔塔塔河》选段\t伯尔塔塔河起初不是天然河道，而是古伊吉一代君王在此得到神启，下令开凿的河道，无数劳工葬身此处，一时民间怨声载道。千年后，不息的焚风将拉克胡马古城沃土变为沙漠，这条河流竟然真成为古伊吉幸存者最后的绿洲，乃至被后来的伊吉部族奉为赖以生存的母亲河。 据说当年葬身于此的劳工的哀叹始终飘荡在水汽间，永夜无法使其安眠。\n艾丝的木雕猫\t粗劣的眉眼，显得格外滑稽。猫肚子上一本正经地刻着：给艾丝，我亲爱的女儿。看上去制作者虽然十分用心，却没什么手工天赋。\n飞艇公墓\n艾伯特的笔记\t“为了寻找世界上最后一条龙的归所，我来到拉克胡马沙漠。据说，沙漠深处生活着习性像猫的伊吉居民。这个古老的民族背负着一种”永夜的诅咒“，这诅咒既使外来人无法打扰他们的生活，也把这些居民长期禁锢在沙漠之中。此前我只是怀疑这里有奇怪的磁场导致我的指南针不时失灵，直到眼见这阴晦长夜中遍地的飞行器残骸，我才终于敢肯定——刚才的坠机事故不是因为我的飞行执照过期了！”\n狮心王谕旨\n禁市令\t贼首尚在逃窜，凡坠星集市通外道路，一律严敕防守，不惜拆毁沿途沙漠之灯，务要阻塞叛军可逃匿之孔隙。\n一封未完成的无名信件\t亲爱的艾丝：\n\n请原谅我直呼您的名讳，因这或许是我最后一次这样称呼您。若您有机会读到这封信，我同众位战士大约已经殒命，王军包围了坠星集市，我们抵抗到最后一刻……请您保重，千万不要自责，我们并非殒于兵戈，而是殉于晚星的理想——晚星会带回曙光散布出去的一切。最后，我还有一个请求，若您有机会见到我的妈妈，请帮我转告她……\n狮心王谕旨\n清剿坠星集市\t集市内暂停一切经营，私自贸易者没收全数家资，流放沙地边陲。与叛军勾结者，押闹市囚笼处示众，待平乱之日，与叛军同罪并处。宁可错判，绝不轻饶。\n沙漠中的长河\n艾伯特的笔记\t“伯尔塔塔河挟裹着沙砾汹涌流逝，没有留下任何旧日依恋。古老的伊吉部族生活在河流上游，守护一段被剔出记忆与历史的沙漠往事。顺便说，前面的路途中似乎在热火朝天的搞建设，到处都是电缆，我很高兴这里能看到一些自然的沙漠生态。如果四处都是人工穿凿的痕迹，让龙这种古老的生物生活到哪里去呢？”\n威尔写给杰索米娜的第九百一十三封情书\t亲爱的杰索米娜：\n\n我荒芜的土地上最后的玫瑰，展信悦。\n\n坠星集市一别，我在沙海的边陲流亡，四处不得觅见您的芳踪。请您分点怜悯给一个可怜人，教我知道您平安无事……期待我们在坠星集市的老地方相逢。\n\n您最诚挚的，威尔。\n遮风的火山岩\n艾伯特的笔记\t……此处岩石的摆放显然经过人工排布，用以抵御这个区域特定时段的狂风。而从这些岩石的孔隙结构，坚硬质地，耐高温，抗风化且不易磨损等种种迹象看来，其应为炽热的岩浆经火山口喷出到地表冷凝而成的火山岩。\n\n联想到坠星集市的火山玻璃，要么这些火山岩突兀地出现并非遮风这样单纯，要么……我不禁产生一个大胆的猜想，这些古老的石头在沙漠形成以前便存在于这里。\n\n难道说，不是岩石奔向沙漠，而是沙砾掩埋了一座火山？这么想来，这里的黑夜也不是单纯的无光，狂风刮起的沙砾中似乎就夹杂着一些火山喷发时带出来的岩屑矿物质。\n\n高温且矿藏丰富的火山口，确实比沙漠更像龙族喜栖之地……\n绿洲中的囚牢\n艾伯特的笔记\t穿过遮风的石障，我终于找到伊吉部族的聚集地。起初，我在街面上看到四处陈列的兵器，这还算与传说中尚武的伊吉部族吻合，毕竟，在沙子里讨生活并不容易。\n\n可是，随着我向里深入，街边出现了诸多牢笼，此时，我还猜想伊吉人传承了将俘虏示众的古老偏好。直到，我看清那些笼子里关的竟是伊吉人，他们嘴里一刻不停地咒骂国王。\n\n这里似乎陷入了内乱，但我此行是为找最后一条龙的踪迹，加入任何一个阵营都不是冒险家艾伯特的课题。勇敢的冒险家与冒险的勇者的区别就在于：前者并不乐意掺和旅途中的是非。\n狮心王谕旨\n捍御雄狮之心\t特瑞特尔·那索：\n\n预言之子将赴圣地，务必拦截叛军。\n\n不要被私情干扰判断，不要让你古老的姓氏蒙羞。\n\n太阳的后裔不会感念软弱的怜悯，对你和艾丝皆是。\n书记官的私人史记\t狮心王梅涅克，伊吉部族的新领袖，这位年轻国王在沙漠里找到一些古老的记录，一心想借此为陷入沉寂的土地带回光明。他坚信，那些记录显示古伊吉有一种人造太阳的技术。他试图从沙漠中挖掘出更多东西，证明先祖们真的曾把人造太阳升上天空，为古伊吉带来了一段耀眼的，奢侈的，仿佛永无止境的白昼。\n\n……生于永夜的子民难以信服新王空洞的理想。当年轻的国王陷入对抗固有的制度，想要较量一下谁对国家贡献更多，一个发展时期就开始了。\n\n……\n\n大量的金子源源不断地运往中陆，换取中陆皇帝允诺的“灰烬机械”。所有时间，所有空间，所有力量，都被投入沙漠之灯的建设，保证维持这片土地的未来。所有人都为见到光明欢庆，所有人都听过：狮心王的名字不会在沙漠中陨灭，并将终生伴你左右。\n\n……\n\n沙漠之灯带来的光明已经不能满足狮心王的野望。那个神秘的女人劝说：若你能够得到太阳，何必在乎微末灯火？她自称是从我们古老传说中走出的预言之子，向狮心王预言灾祸将至，作为其能带回太阳的明证。\n\n……\n\n狮心王说，凡夫并无拒绝太阳的力量，预言之中万事早已发生。接着便频繁征兵，封锁伊吉聚落，撕毁《黄金条约》，拆除沙漠之灯……以抵抗逐一应验的预言——伊吉部族的内乱和外患。可作为一个谦卑的史官，我不禁想，倘若起初没有搬弄这些预言的舌头，它们是否还会如此精准的纷至沓来？\n\n……呼唤他的名的臣民在背弃他，狮心王的名号逐渐被疯王取代。有时候他看到一面镜子，会石化一般僵住，他似乎从镜子里看见了些什么，某些他自己已经忘却的东西。公主出走之日，他将镜子摔得粉碎。\n\n……\n圣地巡逻日志\t圣地巡逻日志 两千二百八十四\n\n今日巡逻路途十分平和，永夜沉沉，无突发事件。\n\n从今天起，我要省略记录天气和日期的步骤。理由如下：\n\n第一，昨天和今天对无尽的永夜而言，有什么分别？\n\n第二，除了队长，没有人会抽查巡逻日志。\n\n第三，我是队长。\n\n……\n\n圣地巡逻日志 三千零二十九\n\n今日巡逻路途十分平和，永夜沉沉，无突发事件。\n\n……\n\n圣地巡逻日志 三千六百九十三\n\n今日巡逻路途十分平和，永夜沉沉，无突发事件。\n\n我是说，能有什么突发事件呢？我在期待预言之子奇迹般降临，还是期待一群暴民闯进来砸个稀巴烂？自从我爷爷的爷爷开始，我的家族便世代充当圣地守卫，但没人亲眼见到圣地开启。不知我的孙子的孙子能否得见，或许圣子经过试炼后，其他人也能跟在后面进去瞧瞧？\n\n……\n\n圣地巡逻日志\n\n两个鬼鬼祟祟的家伙躲在墙角，就像影子贴在石头上。我发誓，我听到它们说了“圣子大人”这个词，但当我走过去，什么都没有。难道说，我终于产生幻觉了？\n\n……\n\n圣地巡逻日志\n\n今日巡逻路途十分平和，永夜沉沉，无突发事件。\n\n自从我见到鬼影的那日起，我愈发觉得不写日期是一项明智的选择。近来，我决定将编号也舍弃掉。我曾在一部中陆小说里读到，一位久居山中旅馆的作家因日记上的日期混乱而陷入自我质疑。而机智如我，早已将这一风险掐灭，哈，哈，哈。\n\n……\n\n圣地巡逻日志  一\n\n……\n\n  圣地巡逻日志  一\n\n今天有人来传讯。我有多久没见过陌生人了？传讯者说，明天是重大时刻。会是预言之子吗？会是狮心王吗？——老天保佑，现在的皇帝还是他吗。总而言之，我要收拾点样子出来，瞧，我重新给巡逻日志写了编号，这是好兆头不是吗？但我实在想不起来具体日期了。\n圣地传说\t这些古老部族的后裔坚信他们之中迟早会诞生出一位预言之子，只有这个传奇人物能通过此处的试炼，一探其后的奥秘。我必须声名，我乐于尊重一切古老的文化传统和民族禁忌，但这里很可能有着世界上最后一条龙的线索，本着严谨的科学精神和不竭的求知精神，我有责任和义务踏足这个圣地。显然我并非那位能通过考验的预言之子，不过这里也不是冒险家艾伯特闯进的第一个禁止入内之所。至于进去的办法，我只能透露一点：一把矮人的的铲子不会输给任何一根法杖。\n拉克胡马古城考\n艾伯特的笔记\t“从圣地进来后，我发现了一座被黄金覆盖的古城。世间能一举融化数量如此之巨的黄金的热能，恐怕只有巨龙的吐息。\n\n我继续前进，发现这被古城座落在英灵的脊背上，循环往复地上演挑战者的故事。但我有一种预感，永远无人能击败它们，或者说你以为的胜利无法通过战胜它们来获得，你只会融入他们，与这里合为一体。你可以穿越一座长廊，广场的废墟，再次消灭这里毁灭了一千年的东西，把你的名号写在每一寸金子铺设的地板上，但你的统治除了这座废墟残败的表层之外，一无他物。\n\n究竟是什么融化了黄金，又将它们困在此处，我有预感，这些和龙脱不了干系。”\n一封令我读罢悲从中来的“家信”\n艾伯特的笔记\t我捡到一封信件：\n\n”巴尔比努斯阁下：我不知道如何回信。我无从下笔，你在期待什么样的回答？我们围坐在池水前，听我袒露自己的童年，梦想，和不幸？还是说，在你抛弃我和母亲十余载后，你想听我称呼你为，“父亲”。曾经我想：等我获得足够的力量，我就……后来我被一次次打败，我又想：等我复了仇，我就……现在，进入太阳斗场的机会唾手可得，扬名立万的日子近在咫尺。\n\n不落的太阳照耀着内城，此刻空气干燥，万象日新，在方才结束的战斗中取胜的兴奋感里，我像往日拿起剑那样信心百倍，下定决心要重新开始生活。我将很快得到女王的召见，我的余生不会再笼罩在私生子的恶名之下。“\n\n（但是我们都知道，一场天灾，让他的梦想永远停留在了功败垂成的时刻。）\n斗场残垣上的公告\n艾伯特的笔记\t我对两个功能相似，但结构迥异的竞技场产生了兴趣，在此盘桓数日遍访古迹，于断墙上公示的榜文中找到数行相关内容，现抄录如下：我们注意到一些斗士，不惮在皓月之路的搏斗比赛中使用龌龊的伎俩。胜利固然可贵，但我们坚决抵制违背女王律法和有碍搏斗观赏性的恶性行为。在伟大女王的授意下，现开设这个不受规则束缚，只凭优胜劣汰的竞技场——繁星之路，以供有此偏好的各位斗士随时随地，随心所欲地使用阴招。\n角斗士的书信\t亲爱的妈妈：\n\n请原谅我不告而别。\n\n我为在皓月之路的失败感到愧疚和羞耻，我没能像叔父杰拉尔德那样在竞技中拔得头筹，我让那索家族蒙羞。但请您相信，您的儿子绝不是一个软弱的废物，我将在繁星之路一雪前耻，如果只能有一个生还者从此走出，通向觐见女王的荣耀之路，那么这个人会是你的儿子。\n\n请等等我吧，我在这里没有找到帮忙寄信的差役，难道这条路上完全没有秩序和服务了吗？但无需心急，待我觐见女王之日，我会请女王亲吻信笺，再将蒙受女王恩泽的此信奉与您，同您分享这荣耀。\n贵族角斗士的书信\t“我必须承认，这是一种愉快的经验……尽管让我心神不宁。我用刀尖抵住对手的咽喉，割开他的皮肤，最后撕裂了他。猩红的液体从我的手掌蜿蜒淌下，那感觉令我毛骨悚然又反常的快乐……”\n太阳斗场建筑考\n艾伯特的笔记\t古伊吉人就像明天行将消亡似地不计代价的铺张生活着，又好像将要永远活在世上一般忙于建设。这座奢华的斗场犹如这种矛盾的实体，它的墙壁，天花板和廊柱都用黄金堆砌，却任由生命泼洒立足的每一寸地方。\n\n但世事多荒谬，女王同她的臣民们升起人造太阳，渴望像定格白昼一般定格此刻的欢愉，而最后太阳坠落，这座黄金堆砌的斗场朝四面八方熔化，所有人变成黄金浇筑的琥珀，永恒凝固在这一刻。他们一度最渴望的东西，酿成了一切最终的悲剧。至今，滚烫的流金仍不时从地底漫溢而出，冲刷着此处哀嚎的亡魂。\n深渊以下\n艾伯特的笔记\t“探索遗迹所花费的时间大大超出了我的预期，这座古老的宫殿如此宏伟，而她的奇妙之处似乎刚刚向我揭开一小点儿。一路深入的过程中我经过几个水池，池水历经数载仍然保持着温度，我猜想下面连接着天然温泉。火山岩，足够熔化能够铸造太阳那样大量黄金的热能，还有眼前天然温泉，我几乎可以断定深渊以下蛰伏着火山。我将继续向下弄个明白，世界上最后一条龙的归宿或许就在那里。”\n伊吉艳后考\n艾伯特的笔记\t这是一篇关于歌颂女王的诗歌的研究：\n\n“帕洛玛本是沿伯尔塔塔河漂流而至的一个弃婴，或许是她在尝到乳汁以前先受长河的洗礼，古伊吉人认为她的美貌为自然造化。王城里伫立着大量女王雕像，看上去她不喜欢华美衣裙，仅以黄金稍作点缀。底座上刻有她的一句箴言：辉煌日光自会为我蔽体。”\n\n此外，书页里也抄录着难以计数的颂扬诗篇，她的美貌在无休无止的描摹里栩栩如生、纤毫毕现，从三色瞳孔，到嘴角弧度，乃至于睫毛的数量都成为创作的灵感。古伊吉人于帕洛玛身上看到众多的美——\n\n耽于美欲者，能于其肢体中看到恣情纵欲、销魂夺魄的美；\n\n崇尚权力者，能于其姿态中看见无与为比、高不可攀的美;\n\n沉溺征伐者，能于其神情中看见毫不留情、凛若冰霜的美;\n\n尽管这位女王仿佛是一尊为美而雕刻而出的雕像，可我在洋洋洒洒的赞颂里横看竖看，那种美有千姿百态，只欠缺了仁慈和爱。\n古伊吉王庭的秘辛\n艾伯特的笔记\t古城似乎正在醒来，我看到无数的影子起身歌颂太阳。这些影子残存的形体中和习性中，隐隐透露着些许龙的特征。可以想见彼时巨龙被古伊吉的人造太阳吸引，它扶摇而上，喷吐的龙息使太阳熔化。这巨大的热能波动带起一系列连锁反应，蛰伏在古伊吉城底的火山也喷发了。于是这座黄金建造的古城不仅吞没了它的人民，也带着巨龙沉入地底。\n\n而深渊之下，火山洞窟与巨龙遗骸成了新生命诞生的天然温床，那些残肢断块在其怨念的驱使下开始了孵化和生长。这些残缺的生命体生于影中，消逝后化为污泥，通过吞噬自己的同类来使自己变得更加强大，再重新开始新一轮的生长。而今成千上万的巨龙子嗣正如潮水一般冲向深渊之外，意图再次重返世间。\n堕落英灵的遗信\t我仍记得昔日黄金城内的盛况。臣民来往于女王的王庭，吻她的塑像的脚趾，祈求她垂下手指，触碰自己草芥般的命运。直到那日，巨龙攀上永恒太阳，天幕再无日夜之分，徒留下一片烂漫黄昏，奄奄一息的人造太阳被龙息点燃，逐渐失去永恒的形状。于是天上长着双翼的飞鸟坠落如雨，地上两脚的人和四足的兽奔走践踏，滚烫的流金淌过，一具具皮包肉骨皆被塑成金像。\n\n同样被黄金包裹的巨龙虽坠下深渊，但并未被陨落和千年的等待平息怨恨，蕴含在他身体中强大力量无时无刻不想冲破束缚，重见天光。一千年来，为女王而战的永恒信念，让我和无数伊吉战士的灵魂不灭，至今驻守在深渊的边界，同从龙的腐肉枯骨中诞生的影嗣鏖战。\n\n现在女王从彼端归来，永恒太阳重新升起，我却并未像往日一般于它的辉照里获得力量，它的光芒不再是纯粹的金色，而其中的杂质正在腐化我们的意志，甚至让这些影嗣从中得到了某种滋养。\n\n我写下这些文字，希望告知能看到这里的任何人，起初我们与邪龙的影嗣战斗，后来我们与同胞战斗，最后我们同自己意志的腐化战斗，甚至无法自戮明志。毕竟，已经消逝了一千年的灵魂，要如何期待从毁灭中获得解脱？这不是一场战斗，战场上没有敌人，也没有战利品，牺牲和荣耀，只有来自过去的影子，和被我们无限透支的永恒。此时此刻，我多么希望闭上眼睛，等再次睁开时就能从酣宴的梦中惊醒，那是无止无尽的狂喜，无边无垠的欢乐……\n女王闺阁\n艾伯特的笔记\t“追寻着龙的踪迹，我从竞技场一路至此，途中有幸于一些书志残篇，壁画织帛当中窥见一段古伊吉过往，而女王闺阁中的金像与妆镜正印证了我的猜想。由于这个故事有着近似爱情的主题，我尝试采取用一种夹杂着隐喻和联想的罗曼蒂克修辞：\n\n正如灯火滚烫，飞蛾却执迷不悟。即使帕洛玛是那么的残忍无情，却仍有人痴迷于她的美貌，渴望得到她的垂青。杰拉尔德，那索家族的长子，甘愿走上黄金城中心最大的竞技场，用自己的凡夫之躯同野兽相博。最终，他割下野兽的头颅，站立在竞技场的最顶端，向着天空倾诉着他对女王的爱意。女王在她纯金的寝宫里接见了他，在无数镜子的折射下，想必杰拉尔德看到了无数个她，以及匍匐在她裙下的，无数个自己。\n\n可怜的杰拉尔德，或许对着那令他魂牵梦萦的完美面容，诉说了他的思念，他的痴迷，他的爱慕，他想要给她的一切。\n\n女王大抵也以某种方式让他相信他炙热的情感得到了回应，否则，还有什么能让一位能够撕下野兽头颅的勇士甘愿任人摆布呢？\n\n我推测的根据就在女王的床帏之后，那里有一座刻着杰拉尔德·那索名号的金像，其面容上的痴恋仍旧栩栩如生，仿佛停留在滚烫的融进倾倒下来的那一刻。而在这座金像之后，无数座姿态各异的金像映入镜中。\n\n最后，关于我称这个故事‘近似爱情’的缘由是，杰拉尔德的名号下，刻有一行铭文——‘在爱意最炙热的时候离去吧，只有这样，你的爱才能见证永恒。’\n\n可究竟什么是永恒的呢，所谓‘其兴也勃焉，其亡也忽焉’，盛极一时的古伊吉文明也几乎没有在历史上留下痕迹。”\nSITES\npoedb.tw\ntlidb.com\npoe2db.tw\npaldb.cc\nABOUT SITE\nPrivacy\nAbout US\nCOMMUNITY\n资料库内容为测试资料，正确资讯请以官方游戏内的内容为准。",
+    "tables": [
+      {
+        "headers": [
+          "name",
+          "unlocked_text"
+        ],
+        "rows": [
+          [
+            "点燃黑夜的火炬艾伯特的笔记",
+            "作为一名不请自来的客人，我在夜色之中潜入了这座名为“余烬之息”的避难所。这座从灾烬之上拔地而起的杰作，这些凝聚了最先进灰烬科技的复杂装置，简直就是“奇迹”最真实的写照。我看到那些被灾烬感染的人们，那些被其他人恐惧、鄙夷和驱逐的人们，成为了火炬之光的猎人。在一个濒临崩毁的世界里，也会存在如此炽热的希望吗？火炬之光……我无比期待着，见证你们所走向的结局。"
+          ],
+          [
+            "终息之战艾伯特的笔记",
+            "我在安达岭山地探险的过程中，发现了很多记载信息的古老石板，当我对上面的古老文字进行解读后，发现正如我所预料的：这一整片安达岭山地，是巨力纪元时期终息之战的古战场。我的祖先曾在这里与龙族决战，并最终赢得了战争的胜利。即便如今已经过去了万年，但我依然能够感受到我祖先的英魂在这片土地上挥之不去。我闭上眼，感受着身旁灼热的谷风，回想着古老石板上记载的那些画面，仿佛身临其境。“那一天，天空的眷族们盘旋乱舞，天幕被焚烧，巨神如流星四散坠落。”"
+          ],
+          [
+            "上古战场艾伯特的笔记",
+            "矮人们都会叫这个地方为上古战场……尽管战场的痕迹已经被万年的时光悉数磨灭。据说这里曾经见证过我的祖先们在大地之上的最后荣光，也目睹了兄弟阋墙、众叛亲离、分崩离析。无论如何，现在在这儿生活的都是些快乐的小哥布林。当看到古代矮人们为了战争而制造的巨大武器，被哥布林们用于改造他们的屋子，改善他们的生活的时候，我衷心为这些曾经的害人机器而感到高兴。纵使山峦会被斧头所砍平、大地会被钻头所掏空，但对于和平的向往却不会被任何力量所动摇。在这灾烬丛生的战争年代，是这样的共同的信念把不同种族联系起来。我和哥布林们的大长老一起喝他们用古然草酿造的饮料，这是他们用于招待远方客人的饮品。我们谈笑、痛饮，直到深夜。灾烬带着腥风在这片大地上蔓延，今夜我们还是会为明天的太阳唱不成调的颂歌，这就是生活在莱提斯大陆的人们。"
+          ],
+          [
+            "背叛的诅咒艾伯特的笔记",
+            "我今天在解读古矮人文字的时候发现了一个天大的笑话，他们竟然说：哥布林和鼠人是被诅咒的矮人。看来我的祖先也挺喜欢开玩笑的。众所周知，哥布林是造物主在创造世界的时候打了一个喷嚏，从他喷出来的鼻涕泡中诞生的种族，这件事已经被史学家论证了无数遍了，是亘古不变的真理。可我的祖先非要说，他们曾经是声名显赫的矮人英雄，却为了一个愚蠢的诺言离开族群。最终，他们的背叛招来了诅咒，所有离开族群的人都变成了丑陋弱小的哥布林。哥布林是矮人变的？简直是胡扯，这个玩笑一点都不好笑。"
+          ],
+          [
+            "火炬之光的宣誓词",
+            "今夜，我燃起薪柴，手执炬火。漫天诸星为证，我将履行我的誓约——无论过去身份与荣誉，也无关权利和利益。成为无名之火，与我的手足兄弟团结如一。我们是刺破黑暗的利刃，是驱逐暗夜的曙光。为此我愿献出一切，化为夜幕下的星火。我是火炬之光，自由，希望，永不放弃的光。我要让这漫漫长夜都响彻我们的名字。终我一生，行我所志，终身不渝。"
+          ],
+          [
+            "对龙巨墙艾伯特的笔记",
+            "牺牲了铲子老二十一，铲子小二十二和铲子小二十三之后，我终于攀上了这座传说之中的巨墙。当我的双脚踏上这座钢铁壁垒之时，那深入灵魂的震撼和自豪，远甚于我在它的脚下仰望的所有时刻。我们的祖先凿穿了万仞山壁，将矮人一族引以为傲的钢筋铁骨融入群山之中，以此对峙那宛如神明一般强大的残暴巨龙。站在巨墙的边沿，我眺望远方那被云雾遮蔽的安达岭山脉，耳畔仿佛响起了机械的轰鸣、兵器的铮铮和巨龙的嘶吼。我决定在这里多停留些时日，尽可能详尽地将这些景致记录进历史之中。并考虑将一部分预算投入到灰烬科技登山装置的购置上。"
+          ],
+          [
+            "对龙兵器艾伯特的笔记",
+            "第一次见到那矗立在巨墙之上的对龙兵器时，我惊叹于它的巨大和沉重，并在尝试拔出它之后，理所当然地对古籍中记载的巨力纪元的矮人身高产生了质疑。但很快，我便见到了那深埋在泥土砂石之间的巨型机甲。那一刻，我的眼前仿佛出现了祖先们驾驭机甲同巨龙搏斗的场景。火光遍天，金铁交鸣，巨龙如流星般坠落在这片大地上，嘶吼声不绝于耳。我继续前行，停靠在驻墙炮的脚下。这些炮管直冲天际的巨炮，正是当年为了击落天幕之上盘旋的巨龙而铸造的兵器。时至今日，尽管它们早已沉眠了万年之久，但那巧夺天工的机械结构并没有被岁月风化。如果说终息之战是巨力时代的终结，那么对龙巨墙便是那个时代最沉重也最辉煌的缩影。"
+          ],
+          [
+            "被撕碎的日记",
+            "“……但我坚信，感染灾烬并不意味着走向绝路。永别了，亲爱的故乡。我将去向远方，寻找一条属于灾烬感染者的道路。”“前些天捡来的那个女孩结束了今天的训练，像平常一样眼巴巴地看着我。像是看着一个师长，一个姐姐，甚至是一个母亲。”“我或许知道她渴望从我这里听到什么，但我什么都没有说。”“感染者的生命毕竟太过短暂，我不能留下太多令她无法割舍的东西。”“就像奥瑞恩老师离开我们的时候一样。”“今天，我遇到了一位故人——我童年的玩伴，莱安。他的实力无法估量，却执意要求成为一名暗鸦。……”“……即使我早已没有资格。但，相爱吧。向这个末日证明，我们决不妥协。”"
+          ],
+          [
+            "不摧甲胄艾伯特的笔记",
+            "在我最近所搜集到的古文字中，有一段关于终息之战的记录，说“不摧甲胄”是我祖先们能够赢得战争胜利的关键——英雄身着不摧甲胄，他的身形变得如群山般伟岸。他用双拳砸出坑洞，后来成为山谷，他用双脚碾出凹陷，后来成为了河流，战争和统治在他降临的那一刻便落下帷幕。我不知道“不摧甲胄”究竟是什么，那样的伟大之物若非亲眼所见，根本无法想象它的存在。"
+          ],
+          [
+            "地下矮人艾伯特的笔记",
+            "一支缩在地下的矮人旁支……真是让人意想不到。这庞大的族群、与我地上的同族们迥异的科技形态。是的，他们的科技设施跟我在安达岭看到的古代机械残骸一模一样，这一切的一切都让我不禁想到了那个关于卡兹萨恩王的传说。不，不。与其说是传说，不如说是被刻意隐藏的历史。但是……并不是每个矮人都敢于正视这段历史。在我们给后代写的历史课本里，古代矮人的事迹往往只到对龙战争的胜利便戛然而止。但其实后来发生的事情我们都心知肚明。玛格努斯王因为劝谏卡兹萨恩王而遭到软禁。但他却在狱中挖掘了直通山脉之心的密道，在无人知晓的情况下盗取了火种。据说当玛格努斯王身揣火种从地下向上奔逃的时候，他身后的矿道因为失去火种而次第幽暗，而前路的黑夜却被照亮。数百族人在那光的吸引下，和玛格努斯王一起离开了地下。那就是地上矮人的始祖。"
+          ],
+          [
+            "破碎工牌上的铭文",
+            "在一些堆积的杂物中发现的，早已破碎的工牌。上面的名字写的是：奎恩。"
+          ],
+          [
+            "矮人工头的日记",
+            "“11月5日，额定的工资没发，休假削了一半，工人偷懒误的工期还都要算在我头上。”“11月7日，工人抱怨管得太严了，但我也没有办法。就在今天早上，隔壁的奎恩工头因为开采出来的结晶数量不过关，已经被扭送去了卡兹萨恩之心，也不知道什么时候才能回来。我可不想那样。”"
+          ],
+          [
+            "纠察队的日记",
+            "今天我们得到了多加尔陛下的征召，即将正式成为纠察队的一员。我将忠诚地执行我的职责，为陛下整顿他的臣民。我首先要整顿的就是帕尔那个懒鬼，他昨天还在干活的时候偷偷搞那些石头收藏，我好心提醒他，他竟然说我烦人！天哪，我可都是为了多加尔陛下的雄图伟业啊！不过，见陛下的时候，他旁边站着的那个黑衣人看着很让人不爽。看样子那是个地上来的人，竟然能和陛下说话！站在一起！我的天哪，什么时候我也能和陛下说上话，就谢天谢地了。"
+          ],
+          [
+            "矮人王艾伯特的笔记",
+            "我混迹在觐见矮人王的队伍中，看着这个年轻的国王，踌躇满志，万人拥护。但他的眼睛是瞎的。我的意思是，他因为古代矮人的荣耀和火种燃起的欲光而变得盲目，看不清自己的身边正发生着什么。他满口为了矮人王国的未来，却在透支矮人王国的现在。我想我的旅程应该告一段落了，在我看完我祖先留给世间最后的文字之后。关于巨力纪元的那段历史，我已经完全理清了思路，也许不久的未来，我会把一切写进历史里。我的祖先留给世人的话，我已翻译成了大陆通用语，虽然我根据喜好在其中加入了一些修辞，但内容主体是不变的。我将文字记录在了我的游记中，希望有天这会被其他人发现，英雄的牺牲需要被世界所铭记。"
+          ],
+          [
+            "给我后世的子孙",
+            "给我后世的子孙：我们曾被巨龙奴役了一整个时代，而今我们推翻了它们的残暴统治。这场举世无双的胜利，让我们矮人的文明足以名垂千史。但我的手足兄弟，那个时代最伟大的君王，却渐渐迷失在原初之火带来的力量之中。他忘记了我们是为何站出来反抗霸权，他忘记了我们的族群被巨龙凌虐压迫的痛苦。他如今站在世界的中心，却醉心于荣誉和欲望——这是我最不愿看到的，这位骄傲的驯龙者，变成了恶龙。他声称矮人理应独享胜利的果实，将原初之火永远留在地底。但我们心中都无比的清楚，矮人的文明已经足够繁荣，地面上的种族和生灵比我们更需要它的力量，如果最后真如我的兄弟所说，他们的文明将会彻底被黑暗吞没。所以，我必须要为他们站出来，哪怕这样做会背叛我的族亲，哪怕会背上永世的骂名。我点选了几百位愿意追随我的勇士，合谋盗走了初火——这让我的兄弟大发雷霆，除了勒令我们永远不得返回王国之外，还降下了凶恶的诅咒：我们的子孙后代，永远都是丑陋弱小的畸形儿。起初我并没有在意，直到我的妻子诞下了一名怪婴，我才知道，诅咒应验了。而随我一同出来的几百名族亲，他们的后代也无一例外都是样貌丑陋的怪胎——落叶不能归根，宗族无法延续，这就是背叛的代价。我不知道我的后人是否有能力读懂这些文字，对于他们的未来，我感到十分痛心和惋惜，但我从未后悔自己所做的一切。如今原初之火回到了它原本的位置，万物得以感受它的光辉，没有独裁和欺凌，世界文明进入了全新时代。我未来的子孙啊，如果你有幸能够读懂我们的文字，希望能够帮我们昭雪，我们不是背叛者。我们的牺牲，将换来世界文明的万世繁荣。背叛者·玛格努斯"
+          ],
+          [
+            "契约",
+            "火炬之光的猎人与暗鸦之间最坚不可摧的羁绊。与猎人定下契约后，暗鸦会以自己的身躯帮助猎人分担身体里的灾烬，防止猎人彻底灾烬化。契约仪式充满了危险，只有精神力极强的暗鸦才能胜任。"
+          ],
+          [
+            "虚假的圣所艾伯特的笔记",
+            "我来到了学城的避难所。那令无数人削尖了脑袋想要挤进来的，光明的圣所。高昂的款项，严苛的校训，繁杂的守则。被圈养在牢笼中的家畜，正享受着用金钱堆砌出来的“和平”。虚假的光明绝不会持续太久。"
+          ],
+          [
+            "安东尼奥的研究日记",
+            "8月31日 晴今天是离开魔法学院，来到黎明圣所的第一天。昔日的同僚们嘲笑我是“老年失智”，我只当他们是在狗叫。就在三天之前，我的《利用灰烬组件治愈失格者的可行性分析》再一次被理事长基冈驳回了。他痛斥我异端邪说，并将“利用失格者危害魔法学院”等一系列罪名强加到我的头上。唉，如果德里克校长没有病重，想必基冈也不会如此猖狂。没有人替我说话，除了那个圣诫骑士，罗梅尔。他是德里克校长收养的孩子，被寄予厚望的，圣诫骑士们未来的领袖。最后，在罗梅尔的竭力争取下，我才免于被流放的命运，而是被发配到黎明圣所。当我把那少得可怜的行李摊开，想要晒晒霉斑的时候，罗梅尔来到了黎明圣所。他很认真地对我说，他与我的观点是一致的。光明不应当只照耀少数人，失格者也同样拥有被救赎的权利。说实话，罗梅尔是我在魔法学院见到的，为数不多的正义之人了。未来，我将居住在黎明圣所，寻求一条拯救失格者的路。9月2日 阴转暴雨研究迟迟没有进展，我咬咬牙揣上了自己的养老金，趁着夜色，偷偷来到了学者街巷。和我接头的是个年轻的失格者女孩，骑着摩托车便从墙头一跃而下，吓得我这颗老心脏差点骤停。想不到她的摩托车居然稳稳地停在了我的面前，没弄出半点儿声响。听了我的委托——一个最便宜的灰烬组件后，她爆发出一阵意味不明的大笑，这让我隐约有些恼火。所幸她很快就调整了状态，接过我的宝贝钱袋子掂了掂，又丢了回来。“到时候再说！”她丢下这句话，便和她的摩托一起，消失在了夜色之中。而我呆呆地站在原地，直到那场倾盆大雨把我淋成了落汤鸡。9月3日 晴当我正在晾我那因为漏雨而被淋湿的被子时，那个失格者女孩从屋顶上一跃而下，大摇大摆地走到了我的面前。我被她吓得花容失色，急忙将她带到了屋后。“老头儿！看！灰烬组件！”她压低了声音，但我还是能听出她的喜悦。她将一个鼓囊囊的袋子丢给我，我颤抖着双手，将袋子打开。袋子里装满了各式各样的灰烬组件，有陈旧的，也有崭新的。我的心跳得越来越快，只能强装镇定，挑出一个最旧的来——毕竟我不像学院里那些脑满肠肥的家伙一般，有大把的金币可以挥霍。当我把我的宝贝钱袋倒过来，一枚一枚地数金币的时候，那个女孩很是愉悦地吹了声口哨，便转身跳上墙头，消失在了白色的砖墙之间。9月6日 晴经过了几天的研究，我已经彻底理解了灰烬组件的工作原理。在一片薄薄的灰烬晶石切片上，刻印上固定的纹路，这片平平无奇的灰烬晶石切片，就能成为一个“灰烬组件”。据说灰烬组件能够激发失格者体内的灾烬力量，力量灌注进组件中，在那些纹路中传递和放大，最终变成一个酷炫的“招式”。我刻好了一个叫做“火球术”的灰烬组件，并将它放到手心里，试图感应力量——除了有点手心发热外，并没有别的感觉。我改进了这些纹路，制作出了一些新的灰烬组件。希望这些灰烬组件，能够等到它真正的主人。"
+          ],
+          [
+            "陨落的王庭艾伯特的笔记",
+            "帝国已经完蛋了。这并不奇怪，从阿米尼乌斯用卑劣的手段驱逐赫尔曼家族之时，我就料到了会有这么一天。现在，魔法学院在帝都支离破碎的残骸上，建立了自己的统治，还自诩为光明。其实，魔法学院和帝国，无耻的程度不相上下。"
+          ],
+          [
+            "道貌岸然的圣堂艾伯特的笔记",
+            "我潜入了学院，想看看在经历了数千年的时光后，魔法学院从他们先祖那里继承的光明魔法，发展成了什么样子。我看到他们用最初级的治愈法术迷惑学徒，用最高级的屏障法术封锁通往火种圣殿的大门。让人失望透顶。"
+          ],
+          [
+            "圣德兰校训",
+            "本卷为圣德兰魔法学院的校训。学院的一切成员，都应当将他视作最高行为准则。一：学者日出祷告，日落休憩全体学者都需要在日出之前来到学城前厅，按照职级依次站好，不得懈怠。当阳光爬上学堂门口的第七层台阶时，校长将宣布祷告开始。此时全体学者闭目肃立，双手合掌。两名学士吟诵祷词，学者轻声跟诵。祈祷结束后，学者按顺序依次回到自己的位置。日落之后，全体学者需要尽快离开学堂，返回自己的居所，不得过多逗留。二：全体成员外出均需提交书面申请，并自觉接受灾烬检查。理论上不允许学院成员外出。如遇特殊情况，需要向学院执事提交书面申请，经由理事长审核，领取外出通行证。返回学院时，需要自觉接受灾烬检查，避免将灾烬带入圣德兰。三：积极举报潜入圣德兰的流民入住圣德兰需要严格的审核，此外一切进入圣德兰的人，皆当做入侵者处理。全程成员应当杜绝与他们发生正面冲突，尽快向学院督查执事或学城守卫反映情况，以便将入侵者驱逐。四：学城守卫应严以律己，遵守圣德兰校训。学城守卫只听命于校长德里克，无需参与日常祈祷等活动。学城守卫需要承担保护学院全体学者的义务、保护学城所有居民的义务、驱逐入侵者的义务。每日学城守卫需要进行至少两次巡逻。"
+          ],
+          [
+            "再遇火种艾伯特的笔记",
+            "费了不少劲，终于混进了魔法学院存放火种的圣殿。火种的光芒比我上次看到的时候更黯淡了。魔法学院在利用它做什么吗？火种落到这群小丑的手中，我实在难以接受。"
+          ],
+          [
+            "原初之火的未来艾伯特的笔记",
+            "在这片大陆上旅行多年，我一直没有荒废对原初之火和火种的研究。在历史上的每一个纪元里，都能看到原初之火的影子。它就像黑暗中的火炬，指引着人们前进的方向。不过现在，这只火炬已经熄灭了。原初之火受到了来自异世界的邪神的攻击，碎裂成了四块火种，分散世界各处。碎裂后的火种力量骤减，但还是拥有驱散一片区域内灾烬的能力。魔法学院正是利用了火种的力量，在乱世之中偏安一隅，并趁机收纳学徒，收敛财富。每每想到那些学者倨傲的嘴脸，我都能感觉到我那迷人的红胡子在剧烈颤抖……呸！一群小丑！懦夫！缩头乌龟！除魔法学院之外，还有一个名叫“火炬之光”的新兴组织，在秘密保护着一枚火种。他们中大多都是可怜的失格者，却也在用自己的方式，向这个倒霉的世界抗争。老实说我很佩服他们——单凭他们敢对付异魔这点，就比魔法学院不知道强了多少倍了！每次回想到魔法学院的小丑们簇拥着火种的滑稽样子……我都无比热烈地希望，火炬之光有朝一日能把他们的火种抢走！"
+          ],
+          [
+            "帝都居民守则",
+            "一：日落之后，禁止外出。二：每月按时缴纳款项，不得拖欠。三：每周需要参与两次以上祷告。四：不得私自离开圣德兰。五：不得打扰学者和学城守卫的日常工作。六：不得帮助外人进入圣德兰，违者立即驱逐。七：不得私自谈论灾烬、失格者、帝国；不得质疑魔法学院的一切决定。"
+          ],
+          [
+            "怪物的秘密",
+            "给安德里克：安德里克！我又看到那个怪物了！绝对不是眼花！这次你一定要相信我！昨天晚上我绕过那个正在打瞌睡的学城守卫，来到街巷的深处的时候，我又看到了那个瘦瘦长长的影子。它浑身惨白，肿胀的脑袋活像个大西瓜！双腿好像没有骨头，软绵绵地搭在地上，但脖子和胸口上，却长出了好多好多只手！我吓坏了，藏在树后面一动也不敢动。那个怪物用手撑着，爬过了花坛，扒着米莉家的窗户站了起来！他那好多好多只惨白惨白的手抓着米莉家的窗框，脸紧紧地贴在她家的玻璃上。这真的太可怕了！正当我打算向学城守卫求助的时候，那个怪物却突然松开了手。然后他的手拨着地面，迅速地跑掉了。还好还好，他没有进到小米莉家里。安德里克，安德里克，今天晚上和我一起出去吧！我向你保证，不会被学城守卫叔叔发现的！我们一起，揭开学者街巷怪物的秘密！"
+          ],
+          [
+            "虔诚者的街巷艾伯特的笔记",
+            "这里是魔法学院“仁慈”的杰作，为寻求庇护的人们提供的居所。呵，我当然知道这份“仁慈”意味着什么。想要入住学城，每人需要一次性缴纳十万帝国金币的“款项”。除此之外，每人每月还需要额外支付两千帝国金币，作为日常生活的费用。作为回报，魔法学院为他们提供绝对安全的生活环境，包括全天巡逻的学城守卫和坚不可摧的防御机关。本着探索精神，我试探性地触碰了他们的机关——那强烈的光明魔法在一瞬间贯穿了我的全身，如果我没有身着那件“高浓度灰烬驱动绝对防御但又很便携的机械装甲”，想必现在已经骨头酥脆了。当我一边痛骂傻子才会住在这里一边战略性撤退的时候，只听咔嚓一声。我低头向脚下望去——什么嘛，好像是个报警机关。说时迟那时快，五个身着灰衣的学者从不同方向出现在我的身旁，举起手中的利刃，向我那肥美的肚子刺了下来！这时我的“高浓度灰烬驱动绝对防御但又很便携的机械装甲”再次发挥了作用，任凭他们再怎么卖力输出，我依然纹丝不动。但高浓度灰烬毕竟太过昂贵，我想了想，还是迅速地离开了。真是个可恨的地方！"
+          ],
+          [
+            "城墙守卫的家书",
+            "给亲爱的安娜：我已经下定决心，带马克和梅丽离开圣德兰。知道得越多，就越发现，这里并不如想象中那么美好。日复一日的枯燥生活，只有马克和梅丽的笑容，才能让我稍微轻松那么一点。但我知道，他们并不快乐。是啊，当你的每一天都可以一眼望到尽头，或许生命已经没有什么快乐可言了吧。灾烬刚爆发的时候，我是那么地害怕它。我害怕自己被灾烬感染，害怕灾烬中钻出来的异魔，更害怕自己会失去所拥有的一切。你刚被灾烬感染的时候，我是那么迫不及待地想要逃离你。我是个骗子，是个懦夫，是个彻头彻尾的蠢货。安娜，你的信我已经全部收到了。谢谢你让我知道了灾烬感染者的生活，知道了在遥远的地方，还有一个叫做火炬之光的组织，在勇敢地同灾烬和异魔抗争。安娜，我不会再害怕灾烬了。我已经向魔法学院递交了申请，无论你是否愿意原谅我，我都会在三天之后离开圣德兰。希望马克和梅丽，还有机会见到他们的妈妈。你的 兰特斯"
+          ],
+          [
+            "叹息之墙艾伯特的笔记",
+            "说来可笑，魔法学院修建这座戒备森严的厚重高墙，目的从来都不是防御灾烬。他们只是为了，将那些渴望着光明和救赎的平民，阻挡在高墙之外。魔法学院提供了廉价的救赎，前提是你有足够的钱来换。"
+          ],
+          [
+            "光明魔法机关艾伯特的笔记",
+            "在学城的城墙上潜伏了三天后，我也算是摸清了魔法学院光明魔法机关的工作原理。魔法学院那些五花八门魔法机关大概可以分为三类：攻击型、阻碍型、传送型。换句话说，是“一碰就会被打型”、“非常碍事的挡路型”和“叫来一帮人打你型”。在我收藏的文献记载中，光明魔法向来都是倾向于治愈、净化和守护。现在发展成这副模样，让我忍不住一边骂着魔法学院一边多吃了两碗饭。不过目前还有更令人头疼的问题。当我终于克服了恐高心理，决定使用“超轻型压缩式灰烬浮空飞行装置”离开城墙时，一旁的城墙机关突然弹起，瞄准正漂浮在半空中的我，发射了一枚光明魔法弹！我只记得我健美的身躯狠狠地砸在了城墙上，后面的事情就再也不记得了……"
+          ],
+          [
+            "阴影下的罪恶艾伯特的笔记",
+            "我从来都没有像今天这样愤怒过。老师曾经说过，我们只是历史的记录者。我们发掘历史，见证历史，用自己的方式将历史刻录在载体上，避免他们消失在时间的长河中。但我们永远都是旁观者——冰冷的，缄默的旁观者。不能虚构历史，更不能影响那些将要成为历史的事物。但我始终无法像他那样，成为历史最忠诚的学徒，对一切事物都冷眼旁观。在来到城墙外的遗落之城前，我便已经从其他资料中得知，他们是一群聚集在魔法学院的高墙之下的可怜人。因为支付不起高昂的款项，只能聚集在破败的街巷中，渴望着魔法学院的救赎。但当我正在踏足于此之时，才发现除了贫困的平民外，这里还驻扎着一支庞大的黑恶组织——群狼帮。他们大都是前帝国的士兵，拥有不容小觑的武装力量。但他们却毫不犹豫地，将自己手中的枪炮对准了无辜的平民。我原以为向穷人收取“保护费”已经是人性低劣的巅峰了，但接下来发生的事情远远超出了我的想象。那天晚上，我躲在建筑物的后面，看着夜色笼罩下悄然上演的一切。两名群狼帮成员带着数十名平民，穿过隐蔽的小巷，最终消失在了城墙下的暗门里。时至今日我还记得那些人脸上的表情，虔诚而感激，热切而憧憬，似乎已经触碰到了遥不可及的救赎。我不知道群狼帮向他们许诺了什么，但我知道，这一定是彻头彻尾的谎言。因为我看到了他们的货单。一个平民，500帝国金币。我想要拦住他们，我想要拯救他们，但我最终什么都没有做。我必须再回一次圣德兰。那座空无一物的魔法学院，一定还隐藏着些什么。"
+          ],
+          [
+            "群狼帮入会合同",
+            "合同编号：QL－110227－113为了维护遗落之城社会治安，贯彻道奇将军对群狼街巷的领导方针，经反复研究，精心组织，认真安排，特拟定以下协议条款：1. 义务与责任合同双方同意莱尼加入群狼帮，并履行相应职责。2. 期限自签订本合同起，即为群狼帮成员。群狼帮有权开除未能履行职责的帮众，帮众不得以任何理由主动脱离群狼帮。3. 工作日和工时3.1 定期安排轮休。3.2 值班日全天候随叫随到。3.3 具体工作中，3.2优先级高于3.1。4. 报酬受到群狼帮庇护。提供武器与食宿。无基础工资，收入来自月底分红。分红比例由当月收取保护费数额决定。5. 扣除款5.1 武器装备租赁费用。在租期内自费保养武器，若武器损坏，照原价赔偿，并提高50%续租费用。5.2 每月按时缴纳会费，逾期者额外支付50%逾期款，累计逾期三次，没收全部个人资产，开除会籍。6.终止合同详见第2条。特别提醒：一旦你签署本合同，即意味着你已充分理解本合同所有条款的含义及相应的后果，同意与本合同其他方以纸质形式订立本合同并接受本合同约束。最终解释权归道奇将军所有。合同签订地及履行地：群狼街巷甲方：群狼街巷人事部乙方：莱尼"
+          ],
+          [
+            "致队长的一封信",
+            "致我那肥胖且愚蠢的前队长奥森：托您的福，我现在感觉好极了。当您逼迫我前去银焰帮卧底的时候，我的内心万念俱灰。但当我真正来到这里的时候，却渐渐发现，这里简直是乐园！我第一次知道，原来和别人交流不用总是扮出一副凶相；我第一次发现，原来见到比自己职位高的人，没有必要卑躬屈膝；我第一次吃到了冒着热气的饭菜，而不是冷冰冰的罐头；我第一次尝试帮助一个老头修理了屋顶，他笑得很开心，还送了我两颗新鲜的胡萝卜……之前在群狼帮的时候，我害怕很多事情。害怕天黑，害怕出任务，害怕您的斥责，害怕收债对象不听话。不过现在，我什么都不怕了。您当然不会记得我是谁。毕竟我只是您派去的十几个卧底中，微不足道的一个。但我还是想说，我的肉体和灵魂，都已经和那个肮脏的群狼帮划清界限了！现在在我的眼中，您就是一头满脑子污泥的肥猪，带着一群趋炎附势的畜生，在臭狗屎里打滚的肥猪！再您母亲的见！群狼帮！来自一位不想透露姓名，并热切希望你们早日完蛋的银焰帮成员"
+          ],
+          [
+            "失踪人口统计",
+            "整理了本月的失踪人口清单，比起上个月略有下降。沃伦，男，45岁。银焰街巷47号。韦恩，男，24岁。银焰街巷981号。贝拉，女，25岁。银焰街巷981号。迪克兰，男，28岁。银焰街巷189号。奥尔加，女，61岁。银焰街巷19号。……居民失踪事件，群狼帮有很大嫌疑。目前暂未找到决定性线索。"
+          ],
+          [
+            "沾满泥污的日记",
+            "昨天，我变卖了仅剩的一点家具，但还是没能凑够米莉和艾尔莎下个月要支付的款项。这几个月，越来越高昂的款项就像是一座大山，压得我喘不过气来。父亲留下的财产早就已经被我变卖一空，甚至没能留下什么可以当做念想的东西。我需要钱。我需要很多很多的钱。只要有了钱，我们一家就能在圣德兰团聚。我们就能沐浴在圣光的照耀之下，远离那些恶心的灾烬。三天前，群狼帮的首领道奇找到了我，问我愿不愿意做一笔大生意。只要帮他送二十个平民潜入魔法学院，他就会一次性支付我五十万帝国金币。老实说，我并不想跟道奇打交道。但他好像看穿了我的顾虑，命人打开了面前的皮箱。那些明晃晃的金币，晃得我眼睛生疼。我想，我必须要开始行动了。押上作为丈夫和父亲的名义。"
+          ],
+          [
+            "理事长基冈的信",
+            "我可怜的弟弟啊，请原谅我。虽然你已经看不到了。为了这个世界的未来，必要的牺牲是圣灵所允许的。我一直这样坚信，并且身体力行地从身边的人做起。圣灵是孤独的，他需要人陪伴。当我成为校长到达彼岸的圣域，我将向他陈述你的努力和牺牲。那时，海的对面的风景，将不再布满荆棘，永远向你敞开。"
+          ],
+          [
+            "火种实验记录",
+            "“火种实验是通往圣域的唯一阶梯，圣灵已经祝福于我，开启这全新世界的大门……”“魔法学院的实验无一例外都失败了，人类的承受能力不足以支撑这种变化，或许……”“重大发现！有一个实验体存活了！我要好好观察，期待她的醒来……她到底发生了什么事？\"\"可恶！那个存活者从这里逃了出去，不知所踪！她爆发的力量实在太强大了……果然！火种实验是正确的！是必须坚持的伟业！”"
+          ],
+          [
+            "坠星般闪耀的火山玻璃",
+            "这些黑色岩石所散发奇异光泽以及它们在我的放大镜下显露出的孔洞，使我几乎可以肯定这是火山玻璃。可问题在于，这些石头放在此处似乎并无实际功用，若仅仅为了装点，小国寡民的伊吉部族，为何不远万里从沙漠之外专程运输这种石材？而天然形成的火山玻璃，需要具备熔岩与冰或者水发生相互作用的条件。难道这座沙漠并不如它所展现地那样古老，只是它一贯拒人于千里之外的危险程度为其掩埋了曾经的秘密？这是否也是世界上最后一条龙选择栖居于此的原因呢？"
+          ],
+          [
+            "威尔写给杰索米娜的第八百七十三封情书",
+            "亲爱的杰索米娜：我的热夜之梦，展信悦。我可否将你比作夏日……请原谅我情不自禁抄录了这首优美的诗歌，它使我想起初见您的情景。那时我才到坠星集市，无尽的夜幕总是那样低垂，可这里的石头中却散落着犹如星光一般的闪烁。自您的尾巴扫过我的鼻尖，沸腾的情感便在我胸膛中擂动，好几种念头始终在我的脑子里打架，它们仍迫不及待地想展示自己，争相化作我那上扬的嘴角和倾慕的语气，催促着我写满这张信笺……您最诚挚的威尔"
+          ],
+          [
+            "沙漠之灯工程竞标书",
+            "【投标书】真挚友谊工程公司沙漠之灯项目投标书项目名称：拉克胡马地区沙漠之灯工程投标人：夏洛克一、投标函：既然我已通过投资获得伊吉公民的合法身份，何不让我为我的国家做更多贡献呢？根据招标工程项目的招标文件，遵照有关规定，经踏勘项目现场和研究上述招标文件及其他有关文件后，我方愿遵循合同条款、工程建设标准和工程量清单的条件要求承包上述工程的施工、竣工，并承担任何质量缺陷保修责任。一旦我方中标，我方保证按投标须知规定的工期五年内完成并移交全部工程。二、施工组织设计：沙漠之灯工程最远可修至沙地边陲，我相信这远超任何一家公司划出的范围。同时，为了保护生态主义者脆弱的情感，保守主义者对母亲河不容亵渎的执着，我司拟不将灯柱及电缆排布入伯尔塔塔河区域。未免此举被上述民众视作对抗狮心王伟大决策的胜利凭证，经妥善研究，我司将对外宣称伯尔塔塔河地区复杂的地下水系和流沙质土壤使施工无法进行。"
+          ],
+          [
+            "《静静的伯尔塔塔河》选段",
+            "伯尔塔塔河起初不是天然河道，而是古伊吉一代君王在此得到神启，下令开凿的河道，无数劳工葬身此处，一时民间怨声载道。千年后，不息的焚风将拉克胡马古城沃土变为沙漠，这条河流竟然真成为古伊吉幸存者最后的绿洲，乃至被后来的伊吉部族奉为赖以生存的母亲河。 据说当年葬身于此的劳工的哀叹始终飘荡在水汽间，永夜无法使其安眠。"
+          ],
+          [
+            "艾丝的木雕猫",
+            "粗劣的眉眼，显得格外滑稽。猫肚子上一本正经地刻着：给艾丝，我亲爱的女儿。看上去制作者虽然十分用心，却没什么手工天赋。"
+          ],
+          [
+            "飞艇公墓艾伯特的笔记",
+            "“为了寻找世界上最后一条龙的归所，我来到拉克胡马沙漠。据说，沙漠深处生活着习性像猫的伊吉居民。这个古老的民族背负着一种”永夜的诅咒“，这诅咒既使外来人无法打扰他们的生活，也把这些居民长期禁锢在沙漠之中。此前我只是怀疑这里有奇怪的磁场导致我的指南针不时失灵，直到眼见这阴晦长夜中遍地的飞行器残骸，我才终于敢肯定——刚才的坠机事故不是因为我的飞行执照过期了！”"
+          ],
+          [
+            "狮心王谕旨禁市令",
+            "贼首尚在逃窜，凡坠星集市通外道路，一律严敕防守，不惜拆毁沿途沙漠之灯，务要阻塞叛军可逃匿之孔隙。"
+          ],
+          [
+            "一封未完成的无名信件",
+            "亲爱的艾丝：请原谅我直呼您的名讳，因这或许是我最后一次这样称呼您。若您有机会读到这封信，我同众位战士大约已经殒命，王军包围了坠星集市，我们抵抗到最后一刻……请您保重，千万不要自责，我们并非殒于兵戈，而是殉于晚星的理想——晚星会带回曙光散布出去的一切。最后，我还有一个请求，若您有机会见到我的妈妈，请帮我转告她……"
+          ],
+          [
+            "狮心王谕旨清剿坠星集市",
+            "集市内暂停一切经营，私自贸易者没收全数家资，流放沙地边陲。与叛军勾结者，押闹市囚笼处示众，待平乱之日，与叛军同罪并处。宁可错判，绝不轻饶。"
+          ],
+          [
+            "沙漠中的长河艾伯特的笔记",
+            "“伯尔塔塔河挟裹着沙砾汹涌流逝，没有留下任何旧日依恋。古老的伊吉部族生活在河流上游，守护一段被剔出记忆与历史的沙漠往事。顺便说，前面的路途中似乎在热火朝天的搞建设，到处都是电缆，我很高兴这里能看到一些自然的沙漠生态。如果四处都是人工穿凿的痕迹，让龙这种古老的生物生活到哪里去呢？”"
+          ],
+          [
+            "威尔写给杰索米娜的第九百一十三封情书",
+            "亲爱的杰索米娜：我荒芜的土地上最后的玫瑰，展信悦。坠星集市一别，我在沙海的边陲流亡，四处不得觅见您的芳踪。请您分点怜悯给一个可怜人，教我知道您平安无事……期待我们在坠星集市的老地方相逢。您最诚挚的，威尔。"
+          ],
+          [
+            "遮风的火山岩艾伯特的笔记",
+            "……此处岩石的摆放显然经过人工排布，用以抵御这个区域特定时段的狂风。而从这些岩石的孔隙结构，坚硬质地，耐高温，抗风化且不易磨损等种种迹象看来，其应为炽热的岩浆经火山口喷出到地表冷凝而成的火山岩。联想到坠星集市的火山玻璃，要么这些火山岩突兀地出现并非遮风这样单纯，要么……我不禁产生一个大胆的猜想，这些古老的石头在沙漠形成以前便存在于这里。难道说，不是岩石奔向沙漠，而是沙砾掩埋了一座火山？这么想来，这里的黑夜也不是单纯的无光，狂风刮起的沙砾中似乎就夹杂着一些火山喷发时带出来的岩屑矿物质。高温且矿藏丰富的火山口，确实比沙漠更像龙族喜栖之地……"
+          ],
+          [
+            "绿洲中的囚牢艾伯特的笔记",
+            "穿过遮风的石障，我终于找到伊吉部族的聚集地。起初，我在街面上看到四处陈列的兵器，这还算与传说中尚武的伊吉部族吻合，毕竟，在沙子里讨生活并不容易。可是，随着我向里深入，街边出现了诸多牢笼，此时，我还猜想伊吉人传承了将俘虏示众的古老偏好。直到，我看清那些笼子里关的竟是伊吉人，他们嘴里一刻不停地咒骂国王。这里似乎陷入了内乱，但我此行是为找最后一条龙的踪迹，加入任何一个阵营都不是冒险家艾伯特的课题。勇敢的冒险家与冒险的勇者的区别就在于：前者并不乐意掺和旅途中的是非。"
+          ],
+          [
+            "狮心王谕旨捍御雄狮之心",
+            "特瑞特尔·那索：预言之子将赴圣地，务必拦截叛军。不要被私情干扰判断，不要让你古老的姓氏蒙羞。太阳的后裔不会感念软弱的怜悯，对你和艾丝皆是。"
+          ],
+          [
+            "书记官的私人史记",
+            "狮心王梅涅克，伊吉部族的新领袖，这位年轻国王在沙漠里找到一些古老的记录，一心想借此为陷入沉寂的土地带回光明。他坚信，那些记录显示古伊吉有一种人造太阳的技术。他试图从沙漠中挖掘出更多东西，证明先祖们真的曾把人造太阳升上天空，为古伊吉带来了一段耀眼的，奢侈的，仿佛永无止境的白昼。……生于永夜的子民难以信服新王空洞的理想。当年轻的国王陷入对抗固有的制度，想要较量一下谁对国家贡献更多，一个发展时期就开始了。……大量的金子源源不断地运往中陆，换取中陆皇帝允诺的“灰烬机械”。所有时间，所有空间，所有力量，都被投入沙漠之灯的建设，保证维持这片土地的未来。所有人都为见到光明欢庆，所有人都听过：狮心王的名字不会在沙漠中陨灭，并将终生伴你左右。……沙漠之灯带来的光明已经不能满足狮心王的野望。那个神秘的女人劝说：若你能够得到太阳，何必在乎微末灯火？她自称是从我们古老传说中走出的预言之子，向狮心王预言灾祸将至，作为其能带回太阳的明证。……狮心王说，凡夫并无拒绝太阳的力量，预言之中万事早已发生。接着便频繁征兵，封锁伊吉聚落，撕毁《黄金条约》，拆除沙漠之灯……以抵抗逐一应验的预言——伊吉部族的内乱和外患。可作为一个谦卑的史官，我不禁想，倘若起初没有搬弄这些预言的舌头，它们是否还会如此精准的纷至沓来？……呼唤他的名的臣民在背弃他，狮心王的名号逐渐被疯王取代。有时候他看到一面镜子，会石化一般僵住，他似乎从镜子里看见了些什么，某些他自己已经忘却的东西。公主出走之日，他将镜子摔得粉碎。……"
+          ],
+          [
+            "圣地巡逻日志",
+            "圣地巡逻日志 两千二百八十四今日巡逻路途十分平和，永夜沉沉，无突发事件。从今天起，我要省略记录天气和日期的步骤。理由如下：第一，昨天和今天对无尽的永夜而言，有什么分别？第二，除了队长，没有人会抽查巡逻日志。第三，我是队长。……圣地巡逻日志 三千零二十九今日巡逻路途十分平和，永夜沉沉，无突发事件。……圣地巡逻日志 三千六百九十三今日巡逻路途十分平和，永夜沉沉，无突发事件。我是说，能有什么突发事件呢？我在期待预言之子奇迹般降临，还是期待一群暴民闯进来砸个稀巴烂？自从我爷爷的爷爷开始，我的家族便世代充当圣地守卫，但没人亲眼见到圣地开启。不知我的孙子的孙子能否得见，或许圣子经过试炼后，其他人也能跟在后面进去瞧瞧？……圣地巡逻日志 两个鬼鬼祟祟的家伙躲在墙角，就像影子贴在石头上。我发誓，我听到它们说了“圣子大人”这个词，但当我走过去，什么都没有。难道说，我终于产生幻觉了？……圣地巡逻日志 今日巡逻路途十分平和，永夜沉沉，无突发事件。自从我见到鬼影的那日起，我愈发觉得不写日期是一项明智的选择。近来，我决定将编号也舍弃掉。我曾在一部中陆小说里读到，一位久居山中旅馆的作家因日记上的日期混乱而陷入自我质疑。而机智如我，早已将这一风险掐灭，哈，哈，哈。……圣地巡逻日志  一……  圣地巡逻日志  一今天有人来传讯。我有多久没见过陌生人了？传讯者说，明天是重大时刻。会是预言之子吗？会是狮心王吗？——老天保佑，现在的皇帝还是他吗。总而言之，我要收拾点样子出来，瞧，我重新给巡逻日志写了编号，这是好兆头不是吗？但我实在想不起来具体日期了。"
+          ],
+          [
+            "圣地传说",
+            "这些古老部族的后裔坚信他们之中迟早会诞生出一位预言之子，只有这个传奇人物能通过此处的试炼，一探其后的奥秘。我必须声名，我乐于尊重一切古老的文化传统和民族禁忌，但这里很可能有着世界上最后一条龙的线索，本着严谨的科学精神和不竭的求知精神，我有责任和义务踏足这个圣地。显然我并非那位能通过考验的预言之子，不过这里也不是冒险家艾伯特闯进的第一个禁止入内之所。至于进去的办法，我只能透露一点：一把矮人的的铲子不会输给任何一根法杖。"
+          ],
+          [
+            "拉克胡马古城考艾伯特的笔记",
+            "“从圣地进来后，我发现了一座被黄金覆盖的古城。世间能一举融化数量如此之巨的黄金的热能，恐怕只有巨龙的吐息。我继续前进，发现这被古城座落在英灵的脊背上，循环往复地上演挑战者的故事。但我有一种预感，永远无人能击败它们，或者说你以为的胜利无法通过战胜它们来获得，你只会融入他们，与这里合为一体。你可以穿越一座长廊，广场的废墟，再次消灭这里毁灭了一千年的东西，把你的名号写在每一寸金子铺设的地板上，但你的统治除了这座废墟残败的表层之外，一无他物。究竟是什么融化了黄金，又将它们困在此处，我有预感，这些和龙脱不了干系。”"
+          ],
+          [
+            "一封令我读罢悲从中来的“家信”艾伯特的笔记",
+            "我捡到一封信件：”巴尔比努斯阁下：我不知道如何回信。我无从下笔，你在期待什么样的回答？我们围坐在池水前，听我袒露自己的童年，梦想，和不幸？还是说，在你抛弃我和母亲十余载后，你想听我称呼你为，“父亲”。曾经我想：等我获得足够的力量，我就……后来我被一次次打败，我又想：等我复了仇，我就……现在，进入太阳斗场的机会唾手可得，扬名立万的日子近在咫尺。不落的太阳照耀着内城，此刻空气干燥，万象日新，在方才结束的战斗中取胜的兴奋感里，我像往日拿起剑那样信心百倍，下定决心要重新开始生活。我将很快得到女王的召见，我的余生不会再笼罩在私生子的恶名之下。“（但是我们都知道，一场天灾，让他的梦想永远停留在了功败垂成的时刻。）"
+          ],
+          [
+            "斗场残垣上的公告艾伯特的笔记",
+            "我对两个功能相似，但结构迥异的竞技场产生了兴趣，在此盘桓数日遍访古迹，于断墙上公示的榜文中找到数行相关内容，现抄录如下：我们注意到一些斗士，不惮在皓月之路的搏斗比赛中使用龌龊的伎俩。胜利固然可贵，但我们坚决抵制违背女王律法和有碍搏斗观赏性的恶性行为。在伟大女王的授意下，现开设这个不受规则束缚，只凭优胜劣汰的竞技场——繁星之路，以供有此偏好的各位斗士随时随地，随心所欲地使用阴招。"
+          ],
+          [
+            "角斗士的书信",
+            "亲爱的妈妈：请原谅我不告而别。我为在皓月之路的失败感到愧疚和羞耻，我没能像叔父杰拉尔德那样在竞技中拔得头筹，我让那索家族蒙羞。但请您相信，您的儿子绝不是一个软弱的废物，我将在繁星之路一雪前耻，如果只能有一个生还者从此走出，通向觐见女王的荣耀之路，那么这个人会是你的儿子。请等等我吧，我在这里没有找到帮忙寄信的差役，难道这条路上完全没有秩序和服务了吗？但无需心急，待我觐见女王之日，我会请女王亲吻信笺，再将蒙受女王恩泽的此信奉与您，同您分享这荣耀。"
+          ],
+          [
+            "贵族角斗士的书信",
+            "“我必须承认，这是一种愉快的经验……尽管让我心神不宁。我用刀尖抵住对手的咽喉，割开他的皮肤，最后撕裂了他。猩红的液体从我的手掌蜿蜒淌下，那感觉令我毛骨悚然又反常的快乐……”"
+          ],
+          [
+            "太阳斗场建筑考艾伯特的笔记",
+            "古伊吉人就像明天行将消亡似地不计代价的铺张生活着，又好像将要永远活在世上一般忙于建设。这座奢华的斗场犹如这种矛盾的实体，它的墙壁，天花板和廊柱都用黄金堆砌，却任由生命泼洒立足的每一寸地方。但世事多荒谬，女王同她的臣民们升起人造太阳，渴望像定格白昼一般定格此刻的欢愉，而最后太阳坠落，这座黄金堆砌的斗场朝四面八方熔化，所有人变成黄金浇筑的琥珀，永恒凝固在这一刻。他们一度最渴望的东西，酿成了一切最终的悲剧。至今，滚烫的流金仍不时从地底漫溢而出，冲刷着此处哀嚎的亡魂。"
+          ],
+          [
+            "深渊以下艾伯特的笔记",
+            "“探索遗迹所花费的时间大大超出了我的预期，这座古老的宫殿如此宏伟，而她的奇妙之处似乎刚刚向我揭开一小点儿。一路深入的过程中我经过几个水池，池水历经数载仍然保持着温度，我猜想下面连接着天然温泉。火山岩，足够熔化能够铸造太阳那样大量黄金的热能，还有眼前天然温泉，我几乎可以断定深渊以下蛰伏着火山。我将继续向下弄个明白，世界上最后一条龙的归宿或许就在那里。”"
+          ],
+          [
+            "伊吉艳后考艾伯特的笔记",
+            "这是一篇关于歌颂女王的诗歌的研究：“帕洛玛本是沿伯尔塔塔河漂流而至的一个弃婴，或许是她在尝到乳汁以前先受长河的洗礼，古伊吉人认为她的美貌为自然造化。王城里伫立着大量女王雕像，看上去她不喜欢华美衣裙，仅以黄金稍作点缀。底座上刻有她的一句箴言：辉煌日光自会为我蔽体。”此外，书页里也抄录着难以计数的颂扬诗篇，她的美貌在无休无止的描摹里栩栩如生、纤毫毕现，从三色瞳孔，到嘴角弧度，乃至于睫毛的数量都成为创作的灵感。古伊吉人于帕洛玛身上看到众多的美——耽于美欲者，能于其肢体中看到恣情纵欲、销魂夺魄的美；崇尚权力者，能于其姿态中看见无与为比、高不可攀的美;沉溺征伐者，能于其神情中看见毫不留情、凛若冰霜的美;尽管这位女王仿佛是一尊为美而雕刻而出的雕像，可我在洋洋洒洒的赞颂里横看竖看，那种美有千姿百态，只欠缺了仁慈和爱。"
+          ],
+          [
+            "古伊吉王庭的秘辛艾伯特的笔记",
+            "古城似乎正在醒来，我看到无数的影子起身歌颂太阳。这些影子残存的形体中和习性中，隐隐透露着些许龙的特征。可以想见彼时巨龙被古伊吉的人造太阳吸引，它扶摇而上，喷吐的龙息使太阳熔化。这巨大的热能波动带起一系列连锁反应，蛰伏在古伊吉城底的火山也喷发了。于是这座黄金建造的古城不仅吞没了它的人民，也带着巨龙沉入地底。而深渊之下，火山洞窟与巨龙遗骸成了新生命诞生的天然温床，那些残肢断块在其怨念的驱使下开始了孵化和生长。这些残缺的生命体生于影中，消逝后化为污泥，通过吞噬自己的同类来使自己变得更加强大，再重新开始新一轮的生长。而今成千上万的巨龙子嗣正如潮水一般冲向深渊之外，意图再次重返世间。"
+          ],
+          [
+            "堕落英灵的遗信",
+            "我仍记得昔日黄金城内的盛况。臣民来往于女王的王庭，吻她的塑像的脚趾，祈求她垂下手指，触碰自己草芥般的命运。直到那日，巨龙攀上永恒太阳，天幕再无日夜之分，徒留下一片烂漫黄昏，奄奄一息的人造太阳被龙息点燃，逐渐失去永恒的形状。于是天上长着双翼的飞鸟坠落如雨，地上两脚的人和四足的兽奔走践踏，滚烫的流金淌过，一具具皮包肉骨皆被塑成金像。同样被黄金包裹的巨龙虽坠下深渊，但并未被陨落和千年的等待平息怨恨，蕴含在他身体中强大力量无时无刻不想冲破束缚，重见天光。一千年来，为女王而战的永恒信念，让我和无数伊吉战士的灵魂不灭，至今驻守在深渊的边界，同从龙的腐肉枯骨中诞生的影嗣鏖战。现在女王从彼端归来，永恒太阳重新升起，我却并未像往日一般于它的辉照里获得力量，它的光芒不再是纯粹的金色，而其中的杂质正在腐化我们的意志，甚至让这些影嗣从中得到了某种滋养。我写下这些文字，希望告知能看到这里的任何人，起初我们与邪龙的影嗣战斗，后来我们与同胞战斗，最后我们同自己意志的腐化战斗，甚至无法自戮明志。毕竟，已经消逝了一千年的灵魂，要如何期待从毁灭中获得解脱？这不是一场战斗，战场上没有敌人，也没有战利品，牺牲和荣耀，只有来自过去的影子，和被我们无限透支的永恒。此时此刻，我多么希望闭上眼睛，等再次睁开时就能从酣宴的梦中惊醒，那是无止无尽的狂喜，无边无垠的欢乐……"
+          ],
+          [
+            "女王闺阁艾伯特的笔记",
+            "“追寻着龙的踪迹，我从竞技场一路至此，途中有幸于一些书志残篇，壁画织帛当中窥见一段古伊吉过往，而女王闺阁中的金像与妆镜正印证了我的猜想。由于这个故事有着近似爱情的主题，我尝试采取用一种夹杂着隐喻和联想的罗曼蒂克修辞：正如灯火滚烫，飞蛾却执迷不悟。即使帕洛玛是那么的残忍无情，却仍有人痴迷于她的美貌，渴望得到她的垂青。杰拉尔德，那索家族的长子，甘愿走上黄金城中心最大的竞技场，用自己的凡夫之躯同野兽相博。最终，他割下野兽的头颅，站立在竞技场的最顶端，向着天空倾诉着他对女王的爱意。女王在她纯金的寝宫里接见了他，在无数镜子的折射下，想必杰拉尔德看到了无数个她，以及匍匐在她裙下的，无数个自己。可怜的杰拉尔德，或许对着那令他魂牵梦萦的完美面容，诉说了他的思念，他的痴迷，他的爱慕，他想要给她的一切。女王大抵也以某种方式让他相信他炙热的情感得到了回应，否则，还有什么能让一位能够撕下野兽头颅的勇士甘愿任人摆布呢？我推测的根据就在女王的床帏之后，那里有一座刻着杰拉尔德·那索名号的金像，其面容上的痴恋仍旧栩栩如生，仿佛停留在滚烫的融进倾倒下来的那一刻。而在这座金像之后，无数座姿态各异的金像映入镜中。最后，关于我称这个故事‘近似爱情’的缘由是，杰拉尔德的名号下，刻有一行铭文——‘在爱意最炙热的时候离去吧，只有这样，你的爱才能见证永恒。’可究竟什么是永恒的呢，所谓‘其兴也勃焉，其亡也忽焉’，盛极一时的古伊吉文明也几乎没有在历史上留下痕迹。”"
+          ]
+        ]
+      }
+    ],
+    "lists": [
+      [
+        "英雄\n              \n                英雄\n                天赋",
+        "英雄",
+        "天赋",
+        "仓库\n              \n                仓库\n                传奇装备\n                异度棱镜\n                \n                契灵\n                \n                掉落来源\n                命运",
+        "仓库",
+        "传奇装备",
+        "异度棱镜",
+        "契灵",
+        "掉落来源",
+        "命运",
+        "技能\n              \n                主动技能\n                辅助技能\n                被动技能\n                \n                触媒技能\n                崇高辅助技能\n                华贵辅助技能\n                提示\n                Hyperlink",
+        "主动技能",
+        "辅助技能",
+        "被动技能",
+        "触媒技能",
+        "崇高辅助技能",
+        "华贵辅助技能",
+        "提示",
+        "Hyperlink",
+        "打造\n              \n                打造\n                \n                侵蚀\n                装备赋能\n                梦语\n                调香秘仪\n                高塔序列\n                缝合",
+        "打造",
+        "侵蚀",
+        "装备赋能",
+        "梦语",
+        "调香秘仪",
+        "高塔序列",
+        "缝合",
+        "成就\n              \n                \n                成长之路\n                \n                \n                \n                \n                帮助手册\n                情报",
+        "成长之路",
+        "",
+        "帮助手册",
+        "情报",
+        "异界\n              \n                异界\n                \n                混乱牌库\n                虚空星图\n                罗盘\n                赛季罗盘\n                \n                勇者之路",
+        "异界",
+        "混乱牌库",
+        "虚空星图",
+        "罗盘",
+        "赛季罗盘",
+        "",
+        "勇者之路",
+        "商城\n              \n    \n                时装\n                通货\n                恩赐",
+        "时装",
+        "通货",
+        "恩赐"
+      ],
+      [
+        "英雄",
+        "天赋"
+      ],
+      [
+        "仓库",
+        "传奇装备",
+        "异度棱镜",
+        "契灵",
+        "掉落来源",
+        "命运"
+      ],
+      [
+        "主动技能",
+        "辅助技能",
+        "被动技能",
+        "触媒技能",
+        "崇高辅助技能",
+        "华贵辅助技能",
+        "提示",
+        "Hyperlink"
+      ],
+      [
+        "打造",
+        "侵蚀",
+        "装备赋能",
+        "梦语",
+        "调香秘仪",
+        "高塔序列",
+        "缝合"
+      ],
+      [
+        "成长之路",
+        "",
+        "帮助手册",
+        "情报"
+      ],
+      [
+        "异界",
+        "混乱牌库",
+        "虚空星图",
+        "罗盘",
+        "赛季罗盘",
+        "",
+        "勇者之路"
+      ],
+      [
+        "时装",
+        "通货",
+        "恩赐"
+      ],
+      [
+        "EN English\n                TW 繁體中文\n                CN 简体中文\n                KO 한국어\n                JA Japanese\n                RU Русский",
+        "EN English",
+        "TW 繁體中文",
+        "CN 简体中文",
+        "KO 한국어",
+        "JA Japanese",
+        "RU Русский"
+      ],
+      [
+        "EN English",
+        "TW 繁體中文",
+        "CN 简体中文",
+        "KO 한국어",
+        "JA Japanese",
+        "RU Русский"
+      ],
+      [
+        "poedb.tw",
+        "tlidb.com",
+        "poe2db.tw",
+        "paldb.cc"
+      ],
+      [
+        "Privacy",
+        "About US"
+      ]
+    ],
+    "links": [
+      {
+        "href": "https://tlidb.com/cn/",
+        "text": "火炬编年史"
+      },
+      {
+        "href": "https://tlidb.com/cn/Pages#",
+        "text": "英雄"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hero",
+        "text": "英雄"
+      },
+      {
+        "href": "https://tlidb.com/cn/Talent",
+        "text": "天赋"
+      },
+      {
+        "href": "https://tlidb.com/cn/Pages#",
+        "text": "仓库"
+      },
+      {
+        "href": "https://tlidb.com/cn/Inventory",
+        "text": "仓库"
+      },
+      {
+        "href": "https://tlidb.com/cn/Legendary_Gear",
+        "text": "传奇装备"
+      },
+      {
+        "href": "https://tlidb.com/cn/Ethereal_Prism",
+        "text": "异度棱镜"
+      },
+      {
+        "href": "https://tlidb.com/cn/Pactspirit",
+        "text": "契灵"
+      },
+      {
+        "href": "https://tlidb.com/cn/Drop_Source",
+        "text": "掉落来源"
+      },
+      {
+        "href": "https://tlidb.com/cn/Destiny",
+        "text": "命运"
+      },
+      {
+        "href": "https://tlidb.com/cn/Pages#",
+        "text": "技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Active_Skill",
+        "text": "主动技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Support_Skill",
+        "text": "辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Passive_Skill",
+        "text": "被动技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Activation_Medium_Skill",
+        "text": "触媒技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Noble_Support_Skill",
+        "text": "崇高辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Magnificent_Support_Skill",
+        "text": "华贵辅助技能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Tip",
+        "text": "提示"
+      },
+      {
+        "href": "https://tlidb.com/cn/Hyperlink",
+        "text": "Hyperlink"
+      },
+      {
+        "href": "https://tlidb.com/cn/Pages#",
+        "text": "打造"
+      },
+      {
+        "href": "https://tlidb.com/cn/Craft",
+        "text": "打造"
+      },
+      {
+        "href": "https://tlidb.com/cn/Corrosion",
+        "text": "侵蚀"
+      },
+      {
+        "href": "https://tlidb.com/cn/Gear_Empowerment",
+        "text": "装备赋能"
+      },
+      {
+        "href": "https://tlidb.com/cn/Dream_Talking",
+        "text": "梦语"
+      },
+      {
+        "href": "https://tlidb.com/cn/Blending_Rituals",
+        "text": "调香秘仪"
+      },
+      {
+        "href": "https://tlidb.com/cn/TOWER_Sequence",
+        "text": "高塔序列"
+      },
+      {
+        "href": "https://tlidb.com/cn/Graft",
+        "text": "缝合"
+      },
+      {
+        "href": "https://tlidb.com/cn/Pages#",
+        "text": "成就"
+      },
+      {
+        "href": "https://tlidb.com/cn/Path_of_Progression",
+        "text": "成长之路"
+      },
+      {
+        "href": "https://tlidb.com/cn/Help",
+        "text": "帮助手册"
+      },
+      {
+        "href": "https://tlidb.com/cn/Codex",
+        "text": "情报"
+      },
+      {
+        "href": "https://tlidb.com/cn/Pages#",
+        "text": "异界"
+      },
+      {
+        "href": "https://tlidb.com/cn/Netherrealm",
+        "text": "异界"
+      },
+      {
+        "href": "https://tlidb.com/cn/Confusion_Card_Library",
+        "text": "混乱牌库"
+      },
+      {
+        "href": "https://tlidb.com/cn/Void_Chart",
+        "text": "虚空星图"
+      },
+      {
+        "href": "https://tlidb.com/cn/Compass",
+        "text": "罗盘"
+      },
+      {
+        "href": "https://tlidb.com/cn/Probe",
+        "text": "赛季罗盘"
+      },
+      {
+        "href": "https://tlidb.com/cn/Path_of_the_Brave",
+        "text": "勇者之路"
+      },
+      {
+        "href": "https://tlidb.com/cn/Pages#",
+        "text": "商城"
+      },
+      {
+        "href": "https://tlidb.com/cn/Outfit",
+        "text": "时装"
+      },
+      {
+        "href": "https://tlidb.com/cn/Commodity",
+        "text": "通货"
+      },
+      {
+        "href": "https://tlidb.com/cn/Boon",
+        "text": "恩赐"
+      },
+      {
+        "href": "https://tlidb.com/en/Pages",
+        "text": "EN English"
+      },
+      {
+        "href": "https://tlidb.com/tw/Pages",
+        "text": "TW 繁體中文"
+      },
+      {
+        "href": "https://tlidb.com/cn/Pages",
+        "text": "CN 简体中文"
+      },
+      {
+        "href": "https://tlidb.com/ko/Pages",
+        "text": "KO 한국어"
+      },
+      {
+        "href": "https://tlidb.com/ja/Pages",
+        "text": "JA Japanese"
+      },
+      {
+        "href": "https://tlidb.com/ru/Pages",
+        "text": "RU Русский"
+      },
+      {
+        "href": "https://poedb.tw/",
+        "text": "poedb.tw"
+      },
+      {
+        "href": "https://tlidb.com/",
+        "text": "tlidb.com"
+      },
+      {
+        "href": "https://poe2db.tw/",
+        "text": "poe2db.tw"
+      },
+      {
+        "href": "https://paldb.cc/",
+        "text": "paldb.cc"
+      },
+      {
+        "href": "https://tlidb.com/cn/privacy",
+        "text": "Privacy"
+      },
+      {
+        "href": "https://www.reddit.com/user/chuanhsing",
+        "text": "About US"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S13_LegendStitching_03.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/UI_S12_LengJing_White01.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S11ChipMatching0_Icon.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Coin/128/UI_Money_S10EquipEnchantMaterial_10_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S9Pet_FateStar_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S8Gameplay_Snow2_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_MysticTreeRespecPoint_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_S6Gameplay_Tile_bench.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/GamePlay/UI_Item_S5Gameplay_DreamTreasure_Almighty_C_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/S4/UI_S4Gameplay_talent01_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S3Gameplay_Beads_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_S2BossTicket3_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Item/128/UI_Item_yimozhihe_Icon_128.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://cdn.tlidb.com/image/torchlight/p3_20251226_cn.webp",
+        "alt": ""
+      }
+    ],
+    "meta": {
+      "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+      "color-scheme": "dark"
+    },
+    "structured_data": {}
+  }
+]

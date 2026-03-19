@@ -1,0 +1,2094 @@
+[
+  {
+    "id": "Anger",
+    "slug": "Anger",
+    "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Rehan/UI_Portrait_Rehan_01_128.webp",
+    "displayName": "狂人 雷恩|怒火",
+    "shortDesc": "攻击击中或受到伤害时，雷恩会产生怒气。怒气将提高雷恩的伤害。当怒气达到上限值，雷恩会自动进入暴气状态，大幅提高战斗属性。",
+    "traitTitle": "怒火",
+    "heroName": "狂人|雷恩",
+    "heroDescription": "攻击击中或受到伤害时，雷恩会产生怒气。怒气将提高雷恩的伤害。当怒气达到上限值，雷恩会自动进入暴气状态，大幅提高战斗属性。\n暴走巨刃",
+    "traits": [
+      {
+        "name": "怒火",
+        "requiredLevel": 1,
+        "effects": [
+          "未暴气时，使用近战攻击技能生成 10 点怒气",
+          "未暴气时，每引导一层近战攻击技能，生成 5 点怒气",
+          "每拥有 1 点怒气，额外 0.22% 伤害，0.1% 移动速度",
+          "怒气达到上限时，自动进入暴气状态",
+          "暴气状态下，每秒消耗 15 点怒气",
+          "暴气状态下，攻击击中时，触发一次爆裂，冷却时间为 0.3 秒",
+          "每 1 等级，额外 2.9% 爆裂伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rehan/YeManRen502.webp"
+      },
+      {
+        "name": "义愤填膺",
+        "requiredLevel": 45,
+        "effects": [
+          "暴气时，不再自然消耗怒气转而每秒生成 (18/23/28/33/40) 点怒气",
+          "触发爆裂时，消耗 (8/7/6/5/4) 点怒气"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rehan/YeManRen301.webp"
+      },
+      {
+        "name": "怒不可遏",
+        "requiredLevel": 45,
+        "effects": [
+          "每拥有 1 点怒气， (0.3/0.5/0.7/0.9/1.1)% 暴击值",
+          "爆裂暴击时，生成 3 点怒气，间隔 0.03 秒"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rehan/YeManRen302.webp"
+      },
+      {
+        "name": "顾此失彼",
+        "requiredLevel": 60,
+        "effects": [
+          "非爆裂技能额外 -80% 伤害",
+          "额外 (+66/+77/+88/+99/+110)% 爆裂伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rehan/YeManRen501.webp"
+      },
+      {
+        "name": "尽情挥发",
+        "requiredLevel": 75,
+        "effects": [
+          "对攻击速度的加成与额外加成的 (70/80/90/100/110)% 同样作用于爆裂冷却回复速度"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rehan/YeManRenRagePlus.webp"
+      },
+      {
+        "name": "暴怒原罪",
+        "requiredLevel": 75,
+        "effects": [
+          "额外 +200% 爆裂范围",
+          "每 +2% 技能范围， 额外 +1% 爆裂伤害，最多 (+40/+51/+63/+76/+90)%"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rehan/YeManRen602.webp"
+      }
+    ],
+    "sourceUrl": "https://tlidb.com/cn/Anger"
+  },
+  {
+    "id": "Seething_Silhouette",
+    "slug": "Seething_Silhouette",
+    "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Rehan/UI_Portrait_Rehan_02_128.webp",
+    "displayName": "狂人 雷恩|怒影",
+    "shortDesc": "雷恩受到远古祖灵的庇佑，将有几率召唤愠怒之灵协助自己作战。愠怒之灵会自动释放核心技能，帮助雷恩对抗强大的敌人。",
+    "traitTitle": "怒影",
+    "heroName": "狂人|雷恩",
+    "heroDescription": "雷恩受到远古祖灵的庇佑，将有几率召唤愠怒之灵协助自己作战。愠怒之灵会自动释放核心技能，帮助雷恩对抗强大的敌人。\n烈焰斩",
+    "traits": [
+      {
+        "name": "怒影",
+        "requiredLevel": 1,
+        "effects": [
+          "未暴气时，使用近战攻击技能生成 10 点怒气",
+          "每 5 点怒气提供 +1% 攻击速度",
+          "怒气达到上限时，自动进入暴气状态",
+          "暴气状态下， +20% 移动速度",
+          "暴气状态下，获得双倍最大怒气的收益",
+          "暴气状态下，每秒消耗 10 点怒气",
+          "暴气状态下，使用近战攻击技能不再生成怒气，转而消耗 10 点怒气，怒气耗尽时，结束暴气状态",
+          "暴气状态下， +45% 技能范围",
+          "暴气状态下，额外 +20% 伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rehan/YeManRen1.webp"
+      },
+      {
+        "name": "献身仪典",
+        "requiredLevel": 45,
+        "effects": [
+          "拥有愠怒之灵",
+          "暴气状态下，愠怒之灵一直存在，自动攻击",
+          "暴气状态下，你被缴械",
+          "额外 (+20/+25/+30/+35/+40)% 愠怒之灵伤害",
+          "暴气状态下，每 0.2 秒，受到相当于 1% 当前生命值的间接物理伤害，该伤害不受加成影响",
+          "-30% 移动速度"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rehan/YeManRen505.webp"
+      },
+      {
+        "name": "盛怒之下",
+        "requiredLevel": 45,
+        "effects": [
+          "拥有愠怒之灵",
+          "暴气状态下，使用近战核心技能时，愠怒之灵会出现并且自动攻击，持续 (1/1.5/2/2/2) 秒，再次使用近战核心技能时刷新愠怒之灵的持续时间",
+          "暴气状态下，不再自然消耗怒气，使用近战攻击技能消耗的怒气减半，额外 (+20/+27/+34/+41/+48)% 玩家自身造成的伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rehan/YeManRen605.webp"
+      },
+      {
+        "name": "歇斯底里",
+        "requiredLevel": 60,
+        "effects": [
+          "每受到相当于 3% 最大生命与最大护盾之和的伤害时，生成 1 点怒气",
+          "每消耗 3% 最大生命，生成 1 点怒气",
+          "每 1% 已损生命，额外 (0.3/0.4/0.5/0.6/0.7)% 攻击伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rehan/YeManRenHatred.webp"
+      },
+      {
+        "name": "孕育挥发",
+        "requiredLevel": 60,
+        "effects": [
+          "愠怒之灵使用技能时，你能够额外获得 (9/10/11/12/13) 点怒气，愠怒之灵造成双倍伤害时，获得的怒气翻倍，该效果有 0.03 秒间隔"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rehan/YeManRen504.webp"
+      },
+      {
+        "name": "分裂之形",
+        "requiredLevel": 75,
+        "effects": [
+          "生命返还不再需要击中",
+          "额外 (+5/+10/+15/+20/+25)% 最大生命",
+          "每 40 最大生命， (+1/+1/+2/+2/+2)% 怒气获取"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rehan/YeManRen503.webp"
+      },
+      {
+        "name": "斗气化形",
+        "requiredLevel": 75,
+        "effects": [
+          "最近每获得 25 点怒气，额外 +5% 伤害，最多叠加 (6/7/8/9/10) 次",
+          "维持暴气状态 5 秒后，不再被缴械， +40% 怒气获取",
+          "SITES",
+          "poedb.tw",
+          "tlidb.com",
+          "poe2db.tw",
+          "paldb.cc",
+          "ABOUT SITE",
+          "Privacy",
+          "About US",
+          "COMMUNITY",
+          "资料库内容为测试资料，正确资讯请以官方游戏内的内容为准。"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rehan/YeManRen506.webp"
+      }
+    ],
+    "sourceUrl": "https://tlidb.com/cn/Seething_Silhouette"
+  },
+  {
+    "id": "Ranger_of_Glory",
+    "slug": "Ranger_of_Glory",
+    "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Carino/UI_Portrait_Carino_01_128.webp",
+    "displayName": "圣枪 卡里诺|荣光游侠",
+    "shortDesc": "卡里诺以投射物的特殊弹药为战斗特色。当使用投射物类的技能时，卡里诺会通过不同的特殊弹药组合来辅助射击，战斗过程中会消耗弹药来强化本次技能。",
+    "traitTitle": "荣光游侠",
+    "heroName": "圣枪|卡里诺",
+    "heroDescription": "卡里诺以投射物的特殊弹药为战斗特色。当使用投射物类的技能时，卡里诺会通过不同的特殊弹药组合来辅助射击，战斗过程中会消耗弹药来强化本次技能。\n分裂射击",
+    "traits": [
+      {
+        "name": "荣光游侠",
+        "requiredLevel": 1,
+        "effects": [
+          "投射物技能会消耗弹药",
+          "消耗弹药时，额外+35% 投射物伤害",
+          "+6 初始弹匣容量",
+          "可以通过点击特性技能装填弹药，基础装填时间 0.6 秒",
+          "装填过程中无法使用投射物技能",
+          "对攻击速度或施法速度加成的最大值的 150% 同样作用于装填速度",
+          "装填过程中，+45% 移动速度",
+          "总是尝试自动装填，装填可以打断"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiangPistol.webp"
+      },
+      {
+        "name": "弹药专家",
+        "requiredLevel": 45,
+        "effects": [
+          "+2 特殊弹药槽位",
+          "+30% 几率装填特殊弹药",
+          "消耗特殊弹药时，额外 (+15/+23/+31/+39/+47)% 该次投射物技能伤害",
+          "消耗特殊弹药时， 50% 几率获得魔术射击，持续 4 秒，间隔 8 秒"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiangPistolPlus.webp"
+      },
+      {
+        "name": "倾泻",
+        "requiredLevel": 60,
+        "effects": [
+          "魔术射击期间，每次使用、触发投射物技能会消耗弹匣的所有弹药",
+          "每消耗一枚特殊弹药，额外 (+5/+8/+11/+14/+17)% 伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiang603.webp"
+      },
+      {
+        "name": "裂风扳机",
+        "requiredLevel": 60,
+        "effects": [
+          "对于攻击和施法速度增加或减少的 (15/19/23/27/31)% 同样作用于特殊弹药的装填几率",
+          "特殊弹药按照槽位顺序装填"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiang504.webp"
+      },
+      {
+        "name": "永不停歇",
+        "requiredLevel": 75,
+        "effects": [
+          "魔术射击期间，每消耗一枚特殊弹药，延长 (0.04/0.05/0.06/0.08/0.1) 秒魔术射击的持续时间"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiang503.webp"
+      },
+      {
+        "name": "有备无患",
+        "requiredLevel": 75,
+        "effects": [
+          "+1 特殊弹药槽位，该槽位允许安装投射物专属崇高辅助技能",
+          "消耗特殊弹药时，额外 (+15/+20/+25/+30/+35)% 该次投射物技能伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiang604.webp"
+      }
+    ],
+    "sourceUrl": "https://tlidb.com/cn/Ranger_of_Glory"
+  },
+  {
+    "id": "Lethal_Flash",
+    "slug": "Lethal_Flash",
+    "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Carino/UI_Portrait_Carino_02_128.webp",
+    "displayName": "圣枪 卡里诺|至暗掠影",
+    "shortDesc": "卡里诺以投射物的霰弹效应为战斗特色。卡里诺可以通过位移高效装填弹药，同时控制与敌人之间的距离，来提高击中收益。",
+    "traitTitle": "至暗掠影",
+    "heroName": "圣枪|卡里诺",
+    "heroDescription": "卡里诺以投射物的霰弹效应为战斗特色。卡里诺可以通过位移高效装填弹药，同时控制与敌人之间的距离，来提高击中收益。\n闪电射击",
+    "traits": [
+      {
+        "name": "至暗掠影",
+        "requiredLevel": 1,
+        "effects": [
+          "投射物技能会消耗弹药",
+          "+6 初始弹匣容量",
+          "总是尝试自动装填弹药，装填时间 0.6 秒，每次装填 2 枚弹药",
+          "装填过程中可以释放投射物技能，但会打断装填",
+          "+2 投射物数量",
+          "投射物技能能拥有霰弹效应"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiang301.webp"
+      },
+      {
+        "name": "掠影弹匣",
+        "requiredLevel": 45,
+        "effects": [
+          "(-0.2/-0.25/-0.3/-0.35/-0.4) 秒装填时间",
+          "投射物技能有 25% 几率不消耗弹药"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiangShotgun.webp"
+      },
+      {
+        "name": "突进射击",
+        "requiredLevel": 45,
+        "effects": [
+          "释放投射物技能时，每消耗 1 枚弹药，位移技能 -(20/20/25/25/30)% 当前冷却时间",
+          "使用位移技能后，额外 (+15/+20/+25/+30/+35)% 伤害，持续 4 秒"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiang302.webp"
+      },
+      {
+        "name": "衔尾恶蛇",
+        "requiredLevel": 60,
+        "effects": [
+          "投射物达到最大飞行距离后，会返回自身，并且可以再次击中路径上的敌人",
+          "-50% 投射物射程",
+          "返回的投射物额外 (-70/-64/-58/-52/-46)% 伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiang501.webp"
+      },
+      {
+        "name": "危险间距",
+        "requiredLevel": 60,
+        "effects": [
+          "最近每消耗 1 枚弹药，-3 度投射物间夹角",
+          "直射投射物无法穿透，且 (+1/+1/+2/+2/+3) 弹射次数",
+          "额外 (+10/+16/+22/+28/+34)% 投射物技能造成的伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiang602.webp"
+      },
+      {
+        "name": "恶意入膛",
+        "requiredLevel": 75,
+        "effects": [
+          "使用位移技能时，装填 所有弹药",
+          "最近每消耗 1 枚弹药，(0.6/+1/1.4/1.8/2.2)% 霰弹效应中后续投射物的基础伤害系数，最多叠加 10 层"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiang601.webp"
+      },
+      {
+        "name": "孤注一掷",
+        "requiredLevel": 75,
+        "effects": [
+          "你的投射物技能会消耗所有弹药",
+          "释放投射物技能时，每消耗 1 枚弹药，该次技能额外 (+9/+10/+11/+12/+13)% 伤害（最多 8 层）"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiang502.webp"
+      }
+    ],
+    "sourceUrl": "https://tlidb.com/cn/Lethal_Flash"
+  },
+  {
+    "id": "Zealot_of_War",
+    "slug": "Zealot_of_War",
+    "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Carino/UI_Portrait_Carino_03_128.webp",
+    "displayName": "圣枪 卡里诺|战火狂徒",
+    "shortDesc": "卡里诺以射击模式切换和温度控制作为战斗特色。卡里诺能够通过切换模式来应对不同的战斗需求。并且能通过消耗弹药来获得高额伤害加成，但也会因为枪口过热被迫强制装填。",
+    "traitTitle": "战火狂徒",
+    "heroName": "圣枪|卡里诺",
+    "heroDescription": "卡里诺以射击模式切换和温度控制作为战斗特色。卡里诺能够通过切换模式来应对不同的战斗需求。并且能通过消耗弹药来获得高额伤害加成，但也会因为枪口过热被迫强制装填。\n炽炎穿弹",
+    "traits": [
+      {
+        "name": "战火狂徒",
+        "requiredLevel": 1,
+        "effects": [
+          "投射物技能会消耗弹药",
+          "+6 初始弹匣容量",
+          "基础装填时间为 0.8 秒",
+          "+2 投射物数量",
+          "每有 +1 投射物数量或 +1 分裂数量，+3 弹匣容量（技能本身及与其连接的辅助技能提供的投射物数量和分裂次数不计入在内）",
+          "额外 +20% 伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiang605.webp"
+      },
+      {
+        "name": "焚尽荣光",
+        "requiredLevel": 45,
+        "effects": [
+          "允许空弹射击",
+          "拥有弹药期间，每消耗一枚弹药，获得一层升温",
+          "空弹射击期间，释放投射物技能时，获得过热",
+          "升温：每有一层升温，额外 (1.6/+2/2.3/2.6/+3)% 投射物技能造成的伤害， 0.1 投射物最大偏转角",
+          "若过热状态持续 10 秒，强制装填",
+          "装填结束时，失去所有升温层数和过热"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiangMachinegunPlus.webp"
+      },
+      {
+        "name": "止战之息",
+        "requiredLevel": 60,
+        "effects": [
+          "初始不再直接装填弹药，立即拥有满层升温",
+          "进入过热状态后，能够一直维持，不再强制装填",
+          "初始不再直接装填弹药，立即拥有满层升温",
+          "进入过热状态后，能够一直维持，不再强制装填",
+          "额外 +5% 伤害",
+          "初始不再直接装填弹药，立即拥有满层升温",
+          "进入过热状态后，能够一直维持，不再强制装填",
+          "额外 +10% 伤害",
+          "初始不再直接装填弹药，立即拥有满层升温",
+          "进入过热状态后，能够一直维持，不再强制装填",
+          "额外 +16% 伤害",
+          "初始不再直接装填弹药，立即拥有满层升温",
+          "进入过热状态后，能够一直维持，不再强制装填",
+          "额外 +21% 伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiangMachinegun.webp"
+      },
+      {
+        "name": "极端温差",
+        "requiredLevel": 60,
+        "effects": [
+          "升温满层后，不再过热，转而进入红温",
+          "红温结束时，立即装填",
+          "击败劲敌时，延长3秒红温持续时间，并回复 3% 最大生命和护盾",
+          "升温满层后，不再过热，转而进入红温",
+          "红温结束时，立即装填",
+          "击败劲敌时，延长4秒红温持续时间，并回复 3% 最大生命和护盾",
+          "额外 +5% 伤害",
+          "升温满层后，不再过热，转而进入红温",
+          "红温结束时，立即装填",
+          "击败劲敌时，延长5秒红温持续时间，并回复 3% 最大生命和护盾",
+          "额外 +5% 伤害",
+          "升温满层后，不再过热，转而进入红温",
+          "红温结束时，立即装填",
+          "击败劲敌时，延长5秒红温持续时间，并回复 3% 最大生命和护盾",
+          "额外 +10% 伤害",
+          "升温满层后，不再过热，转而进入红温",
+          "红温结束时，立即装填",
+          "击败劲敌时，延长5秒红温持续时间，并回复 3% 最大生命和护盾",
+          "额外 +16% 伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiang505.webp"
+      },
+      {
+        "name": "狂战无止",
+        "requiredLevel": 75,
+        "effects": [
+          "每有 +1% 击退距离，额外 (0.2/0.3/0.4/0.5/0.6)% 伤害，-0.1 投射物最大偏转角，最多叠加 100 次"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiang506.webp"
+      },
+      {
+        "name": "战火永燃",
+        "requiredLevel": 75,
+        "effects": [
+          "升温获得额外效果：每有一层升温，额外0.6%攻击和施法速度",
+          "升温获得额外效果：每有一层升温，额外0.6%攻击和施法速度",
+          "额外 +5% 伤害",
+          "升温获得额外效果：每有一层升温，额外0.6%攻击和施法速度",
+          "额外 +10% 伤害",
+          "升温获得额外效果：每有一层升温，额外0.6%攻击和施法速度",
+          "额外 +16% 伤害",
+          "升温获得额外效果：每有一层升温，额外0.6%攻击和施法速度",
+          "额外 +21% 伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Carino/NanHuoQiang306.webp"
+      }
+    ],
+    "sourceUrl": "https://tlidb.com/cn/Zealot_of_War"
+  },
+  {
+    "id": "Wind_Stalker",
+    "slug": "Wind_Stalker",
+    "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Erika/UI_Portrait_Erika_01_128.webp",
+    "displayName": "猫眼 艾瑞卡|疾风追猎",
+    "shortDesc": "在战斗中，艾瑞卡能够通过快速移动和灵活的走位规避伤害并释放危险一击。移动一定距离后，艾瑞卡会获得追猎，移动更加迅捷，并提升连续攻击几率和伤害。",
+    "traitTitle": "疾风追猎",
+    "heroName": "猫眼|艾瑞卡",
+    "heroDescription": "在战斗中，艾瑞卡能够通过快速移动和灵活的走位规避伤害并释放危险一击。移动一定距离后，艾瑞卡会获得追猎，移动更加迅捷，并提升连续攻击几率和伤害。\n雷影斩",
+    "traits": [
+      {
+        "name": "疾风追猎",
+        "requiredLevel": 1,
+        "effects": [
+          "+20% 移动速度",
+          "每移动 1 米，获得一层追猎",
+          "追猎持续期间，你的连续攻击计数不会中断"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv021.webp"
+      },
+      {
+        "name": "游兴",
+        "requiredLevel": 45,
+        "effects": [
+          "对于移动速度的增加或减少的 (20/24/28/32/36)% 同时作用于额外攻击伤害，最多额外 (+30/+36/+42/+48/+54)% 攻击伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv032.webp"
+      },
+      {
+        "name": "嬉戏",
+        "requiredLevel": 45,
+        "effects": [
+          "核心技能被 10 级的连续攻击辅助",
+          "额外 (+2/+6/+12/+18/+24)% 攻击速度"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv031.webp"
+      },
+      {
+        "name": "猫眼视界",
+        "requiredLevel": 60,
+        "effects": [
+          "达到最大连续攻击计数时，+1 追猎层数上限，最多 +3，直到失去追猎",
+          "额外 (-4/+2/+8/+14/+20)% 伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv062.webp"
+      },
+      {
+        "name": "猫爪无影",
+        "requiredLevel": 60,
+        "effects": [
+          "达到最大连续攻击计数后，在 4 秒内，(+27/+34/+41/+48/+55)% 连续攻击伤害额外递增"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv061.webp"
+      },
+      {
+        "name": "猫爪连弹",
+        "requiredLevel": 75,
+        "effects": [
+          "达到最大连续攻击计数时，获得一层追猎",
+          "每有 3 层追猎，+1 初始连续攻击计数",
+          "额外 -18% 伤害",
+          "达到最大连续攻击计数时，获得一层追猎",
+          "每有 3 层追猎，+1 初始连续攻击计数",
+          "额外 -12% 伤害",
+          "达到最大连续攻击计数时，获得一层追猎",
+          "每有 3 层追猎，+1 初始连续攻击计数",
+          "额外 -6% 伤害",
+          "达到最大连续攻击计数时，获得一层追猎",
+          "每有 3 层追猎，+1 初始连续攻击计数",
+          "达到最大连续攻击计数时，获得一层追猎",
+          "每有 3 层追猎，+1 初始连续攻击计数",
+          "额外 +6% 伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv041.webp"
+      },
+      {
+        "name": "猫猫俯冲",
+        "requiredLevel": 75,
+        "effects": [
+          "连续攻击时，每有 +1% 移动速度，(0.24/0.27/0.3/0.33/0.36)% 概率使该次攻击造成相当于最大连续攻击计数的伤害",
+          "SITES",
+          "poedb.tw",
+          "tlidb.com",
+          "poe2db.tw",
+          "paldb.cc",
+          "ABOUT SITE",
+          "Privacy",
+          "About US",
+          "COMMUNITY",
+          "资料库内容为测试资料，正确资讯请以官方游戏内的内容为准。"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv052.webp"
+      }
+    ],
+    "sourceUrl": "https://tlidb.com/cn/Wind_Stalker"
+  },
+  {
+    "id": "Lightning_Shadow",
+    "slug": "Lightning_Shadow",
+    "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Erika/UI_Portrait_Erika_02_128.webp",
+    "displayName": "猫眼 艾瑞卡|电光猫影",
+    "shortDesc": "利用闪电驱动灰烬科技，获得高额增益<br>通过触发猫猫灵影快速对范围内的敌人施加麻痹异常，有效提高伤害",
+    "traitTitle": "电光猫影",
+    "heroName": "猫眼|艾瑞卡",
+    "heroDescription": "利用闪电驱动灰烬科技，获得高额增益\n通过触发猫猫灵影快速对范围内的敌人施加麻痹异常，有效提高伤害\n雷光刺击",
+    "traits": [
+      {
+        "name": "电光猫影",
+        "requiredLevel": 1,
+        "effects": [
+          "开始移动或点击特性技能，在接下来 1 秒内每移动 3 米获得一层电光，上限 3 层，持续 10 秒，电光受技能效果持续时间影响",
+          "再次点击特性技能可以重置该效果",
+          "拥有电光时，对 10 米范围内最多 3 个敌人触发猫猫灵影，冷却 0.4 秒，对每个敌人仅触发一次",
+          "每有 1 层电光，猫猫灵影对范围内的敌人施加 1 层麻痹",
+          "额外 +18% 麻痹效果"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv033.webp"
+      },
+      {
+        "name": "电光闪闪",
+        "requiredLevel": 45,
+        "effects": [
+          "(+2/+2/+3/+3/+4) 电光层数上限",
+          "每有一层电光，(+3/+5/+5/+7/+7)% 移动速度"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv064.webp"
+      },
+      {
+        "name": "电镀狸纹",
+        "requiredLevel": 45,
+        "effects": [
+          "猫猫灵影 施加的麻痹持续时间翻倍",
+          "额外 (+20/+25/+30/+35/+40)% 麻痹效果"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv063.webp"
+      },
+      {
+        "name": "野性电光",
+        "requiredLevel": 60,
+        "effects": [
+          "每有 +1% 移动速度，额外 0.4% 麻痹效果，最多 (+80/+90/+100/+110/+120)%"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv022.webp"
+      },
+      {
+        "name": "猫驰电掣",
+        "requiredLevel": 75,
+        "effects": [
+          "每对敌人施加 4 层麻痹，+2% 移动速度，额外 (+1/1.5/+2/2.5/+3)% 伤害，(+3/+4/+5/+6/+7)% 猫猫灵影范围，最多叠加 10 层，持续 10 秒"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv042.webp"
+      },
+      {
+        "name": "蓄电方程",
+        "requiredLevel": 75,
+        "effects": [
+          "猫猫灵影转而在对敌人施加麻痹时触发，对每个敌人有 1 秒冷却",
+          "猫猫灵影施加麻痹时，敌人每有一层麻痹，艾瑞卡额外 (+3/3.5/+4/4.5/+5)% 麻痹效果，最多叠加 10 层，再次施放猫猫灵影时刷新"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv054.webp"
+      }
+    ],
+    "sourceUrl": "https://tlidb.com/cn/Lightning_Shadow"
+  },
+  {
+    "id": "Vendetta%27s_Sting",
+    "slug": "Vendetta%27s_Sting",
+    "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Erika/UI_Portrait_Erika_03_128.webp",
+    "displayName": "猫眼 艾瑞卡|寻仇之刺",
+    "shortDesc": "化身刺客的艾瑞卡，疾速穿梭于敌群之中，施展迅猛而凌厉的近身攻击。",
+    "traitTitle": "寻仇之刺",
+    "heroName": "猫眼|艾瑞卡",
+    "heroDescription": "化身刺客的艾瑞卡，疾速穿梭于敌群之中，施展迅猛而凌厉的近身攻击。\n双重突刺",
+    "traits": [
+      {
+        "name": "寻仇之刺",
+        "requiredLevel": 1,
+        "effects": [
+          "将第三个技能槽位的技能替换为寻仇",
+          "释放寻仇后，获得凌厉",
+          "对技能范围加成的 100% 同样作用于寻仇，上限 200%"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv301.webp"
+      },
+      {
+        "name": "双刃齐下",
+        "requiredLevel": 45,
+        "effects": [
+          "双持时，不再提供攻击速度额外加成，额外 (+25/+30/+35/+40/+45)% 攻击伤害",
+          "双持时，不再提供攻击格挡率加成，将 50% 的生命返还和护盾返还转换为持续回复"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv332.webp"
+      },
+      {
+        "name": "袖手悠游",
+        "requiredLevel": 60,
+        "effects": [
+          "核心技能无法被触媒辅助",
+          "拥有迅捷时，寻仇无冷却时间",
+          "凌厉持续期间，手动使用的核心技能额外 -80% 伤害",
+          "核心技能无法被触媒辅助",
+          "拥有迅捷时，寻仇无冷却时间，且寻仇额外 +5% 攻击速度",
+          "凌厉持续期间，手动使用的核心技能额外 -80% 伤害",
+          "核心技能无法被触媒辅助",
+          "拥有迅捷时，寻仇无冷却时间，且寻仇额外 +10% 攻击速度",
+          "凌厉持续期间，手动使用的核心技能额外 -80% 伤害",
+          "核心技能无法被触媒辅助",
+          "拥有迅捷时，寻仇无冷却时间，且寻仇额外 +15% 攻击速度",
+          "凌厉持续期间，手动使用的核心技能额外 -80% 伤害",
+          "核心技能无法被触媒辅助",
+          "拥有迅捷时，寻仇无冷却时间，且寻仇额外 +20% 攻击速度",
+          "凌厉持续期间，手动使用的核心技能额外 -80% 伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv321.webp"
+      },
+      {
+        "name": "疾影潜踪",
+        "requiredLevel": 60,
+        "effects": [
+          "将寻仇替换为无尽寻仇",
+          "无尽寻仇持续期间，对劲敌，寻仇触发的技能额外 (+30/+45/+60/+75/+90)% 伤害",
+          "额外 +333% 凌厉持续时间，+99% 凌厉效果"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv322.webp"
+      },
+      {
+        "name": "猫不可忍",
+        "requiredLevel": 75,
+        "effects": [
+          "双持相同类型武器时，+200 攻击暴击值",
+          "双持不同类型武器时，暴击额外 +20% 攻击伤害",
+          "每 (5/4/3/2.5/2)% 有效暴击率，寻仇有 1% 概率额外触发 1 次核心近战攻击技能",
+          "每 0.5% 溢出暴击率，寻仇有 1% 概率再额外触发 1 次核心近战攻击技能，上限 100%"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv331.webp"
+      },
+      {
+        "name": "命悬一线",
+        "requiredLevel": 75,
+        "effects": [
+          "凌厉获得额外基础效果：在 5 米内，距离敌人越近，受到的伤害越高，至多在 2 米处额外 +5% 受到的伤害",
+          "每有 1 层灵动祝福，+40% 凌厉效果，上限 (6/7/8/9/10) 层"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Erika/UI_MaoNv311.webp"
+      }
+    ],
+    "sourceUrl": "https://tlidb.com/cn/Vendetta%27s_Sting"
+  },
+  {
+    "id": "Blast_Nova",
+    "slug": "Blast_Nova",
+    "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Bing/UI_Portrait_Bing_01_128.webp",
+    "displayName": "逃脱者 宾|爆破新星",
+    "shortDesc": "宾可以将大量投射物封装进他精致而又危险的炸弹中，通过快速投掷多枚炸弹，在瞬间引爆，释放出巨大伤害。",
+    "traitTitle": "爆破新星",
+    "heroName": "逃脱者|宾",
+    "heroDescription": "宾可以将大量投射物封装进他精致而又危险的炸弹中，通过快速投掷多枚炸弹，在瞬间引爆，释放出巨大伤害。\n炽炎穿弹",
+    "traits": [
+      {
+        "name": "爆破新星",
+        "requiredLevel": 1,
+        "effects": [
+          "使用非引导类投射物技能时，转而投掷 1 枚炸弹",
+          "炸弹会在落地 1 秒后自动引爆，引爆时，投射物向四周发射",
+          "最多同时存在 10 枚炸弹，超出上限时引爆最早落地的炸弹",
+          "炸弹投掷速度为 1.5 次每秒",
+          "每有 +100% 攻击速度，使用攻击投射物技能时，+1 炸弹投掷数量",
+          "每有 +100% 施法速度，使用法术投射物技能时，+1 炸弹投掷数量",
+          "不足 +100% 的部分，在使用攻击或法术投射物技能时，有相应的几率 +1 炸弹投掷数量",
+          "每有额外 +1% 攻击速度，额外 +1% 攻击炸弹伤害",
+          "每有额外 +1% 施法速度，额外 +1% 法术炸弹伤害",
+          "额外 +30% 炸弹伤害",
+          "+2 投射物数量",
+          "法术迸发上限层数减少至1/2",
+          "额外 -40% 哨卫伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bing031.webp"
+      },
+      {
+        "name": "火力覆盖",
+        "requiredLevel": 45,
+        "effects": [
+          "(+2/+2/+3/+3/+4) 投射物数量",
+          "+50% 投射物尺寸",
+          "额外 (+10/+14/+18/+22/+26)% 炸弹伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bing021.webp"
+      },
+      {
+        "name": "危险逃亡",
+        "requiredLevel": 45,
+        "effects": [
+          "至少移动 (20/17/14/11/8) 米后，下次投掷炸弹时， +1 炸弹数量",
+          "最近每移动 4 米，+1% 移动速度，最多 +15%"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bing032.webp"
+      },
+      {
+        "name": "爆风弹袭",
+        "requiredLevel": 60,
+        "effects": [
+          "炸弹落地后立即爆炸",
+          "额外 +20% 投射物速度",
+          "周围没有敌人时，额外 (+22/+28/+34/+41/+48)% 炸弹伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bing041.webp"
+      },
+      {
+        "name": "虚实投递",
+        "requiredLevel": 60,
+        "effects": [
+          "炸弹投掷数量翻倍",
+          "炸弹有 (40/37/34/31/28)% 几率变成哑弹，使造成的伤害额外 (-95/-95/-95/-95/-90)%"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bing052.webp"
+      },
+      {
+        "name": "辐射效应",
+        "requiredLevel": 75,
+        "effects": [
+          "炸弹引爆时，每 +1% 投射物速度，对其近处的敌人额外 (0.35/0.42/0.48/0.53/0.6)% 伤害，最多额外 (+35/+42/+48/+53/+60)%"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bing061.webp"
+      },
+      {
+        "name": "狂暴猎犬",
+        "requiredLevel": 75,
+        "effects": [
+          "炸弹未达上限时，不再自动爆炸",
+          "可以点击特性技能手动引爆所有已落地的炸弹",
+          "炸弹引爆时，当前每存在 1 个炸弹，额外 (+4/4.8/5.5/6.3/+7)% 伤害，最多额外 (+48/57.6/+66/75.6/+84)%"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bing062.webp"
+      }
+    ],
+    "sourceUrl": "https://tlidb.com/cn/Blast_Nova"
+  },
+  {
+    "id": "Creative_Genius",
+    "slug": "Creative_Genius",
+    "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Bing/UI_Portrait_Bing_02_128.webp",
+    "displayName": "逃脱者 宾|创想鬼才",
+    "shortDesc": "宾携带两个灵感机，使用奇思素和妙想素为其充能，释放增加敌人受到法术伤害的奇思爆破，以及超强力法术迸发的妙想超载！",
+    "traitTitle": "创想鬼才",
+    "heroName": "逃脱者|宾",
+    "heroDescription": "宾携带两个灵感机，使用奇思素和妙想素为其充能，释放增加敌人受到法术伤害的奇思爆破，以及超强力法术迸发的妙想超载！\n爆炎术",
+    "traits": [
+      {
+        "name": "创想鬼才",
+        "requiredLevel": 1,
+        "effects": [
+          "法术迸发上限 +1",
+          "获得两个灵感机，可以分别使用奇思素和妙想素为其供能。奇思素和妙想素初始为 0，上限为 100。每秒回复 20 点奇思素",
+          "奇思素达到 100 时，对敌人造成法术伤害后，灵感机会使用奇思爆破并对受影响的敌人施加奇思讯号",
+          "妙想素达到 100 时，点击特性技能后，灵感机会使用妙想超载",
+          "宾的奇思妙想使他可以拥有更多特性点。除基础特性外，每个等级阶段可以额外多选择一个特性点"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bin201.webp"
+      },
+      {
+        "name": "灵感狂潮",
+        "requiredLevel": 45,
+        "effects": [
+          "消耗法术迸发充能时，立即回复 5 点奇思素，每消耗 3 层法术迸发充能，额外回复 6 点，间隔 1 秒",
+          "法术迸发释放的技能额外 (+10/+15/+20/+25/+30)% 击中伤害",
+          "进入关卡或复活后，立即回复 80 点妙想素"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bin211.webp"
+      },
+      {
+        "name": "思维领域",
+        "requiredLevel": 60,
+        "effects": [
+          "奇思爆破生成一片能量场，在能量场中每停留 0.5 秒，获得 1 层奇思，上限 (4/5/6/7/8) 层"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bin221.webp"
+      },
+      {
+        "name": "危机创造",
+        "requiredLevel": 60,
+        "effects": [
+          "奇思爆破击中自己时失去 (20/15/15/10/10)% 最大生命和护盾",
+          "奇思讯号效果提升为：额外 (+60/+60/+75/+75/+90)% 承受的法术伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bin222.webp"
+      },
+      {
+        "name": "思想风暴",
+        "requiredLevel": 75,
+        "effects": [
+          "奇思爆破在一秒延迟后额外造成一次能量爆炸，淘汰 12 米内生命值低于 (15/15/18/18/21)% 的敌人",
+          "每击败一名受奇思讯号影响的敌人，额外回复 (5/6/6/7/7) 点奇思素"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bin231.webp"
+      },
+      {
+        "name": "灵光跃迁",
+        "requiredLevel": 75,
+        "effects": [
+          "释放核心技能时有 (20/25/25/30/30)% 概率触发奇思爆破且不消耗奇思素，间隔 (3.5/3.5/3/3/2.5) 秒"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bin232.webp"
+      },
+      {
+        "name": "超音速协议",
+        "requiredLevel": 45,
+        "effects": [
+          "释放妙想超载时 (+80/+85/+90/+95/+100)% 移动速度，该加成在 4 秒内衰减至 0"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bin212.webp"
+      },
+      {
+        "name": "超防护模组",
+        "requiredLevel": 45,
+        "effects": [
+          "释放妙想超载时额外 -(60/62.5/65/67.5/70)% 受到的伤害，持续 1 秒"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bin213.webp"
+      },
+      {
+        "name": "妙手巧得定律",
+        "requiredLevel": 60,
+        "effects": [
+          "妙想超载有 (20/25/30/35/40)% 概率不消耗妙想素"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bin223.webp"
+      },
+      {
+        "name": "妙想熵增法则",
+        "requiredLevel": 60,
+        "effects": [
+          "每层法术迸发上限 (+4/+6/+8/+10/+12)% 妙想素回复量"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bin224.webp"
+      },
+      {
+        "name": "妙想自动程式",
+        "requiredLevel": 60,
+        "effects": [
+          "妙想素达到 100 时，触发妙想超载",
+          "-10% 奇思素回复速度",
+          "妙想素达到 100 时，触发妙想超载",
+          "-5% 奇思素回复速度",
+          "妙想素达到 100 时，触发妙想超载",
+          "妙想素达到 100 时，触发妙想超载",
+          "+5% 奇思素回复速度",
+          "妙想素达到 100 时，触发妙想超载",
+          "+10% 奇思素回复速度"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bin225.webp"
+      },
+      {
+        "name": "多元耦合方程",
+        "requiredLevel": 75,
+        "effects": [
+          "每受到 2 个激发或防护技能影响，+1 法术迸发上限，上限 1 层",
+          "每受到 2 个激发或防护技能影响，+1 法术迸发上限，上限 1 层",
+          "+15% 激发和防护技能效果持续时间",
+          "每受到 2 个激发或防护技能影响，+1 法术迸发上限，上限 2 层",
+          "+15% 激发和防护技能效果持续时间",
+          "每受到 2 个激发或防护技能影响，+1 法术迸发上限，上限 2 层",
+          "+30% 激发和防护技能效果持续时间",
+          "每受到 2 个激发或防护技能影响，+1 法术迸发上限，上限 3 层",
+          "+30% 激发和防护技能效果持续时间"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bin233.webp"
+      },
+      {
+        "name": "超载共鸣猜想",
+        "requiredLevel": 75,
+        "effects": [
+          "释放妙想超载时，获得增益效果：额外 (+15/+19/+23/+27/+31)% 法术迸发充能速度，持续 10 秒"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bin234.webp"
+      },
+      {
+        "name": "应急灵感投递",
+        "requiredLevel": 75,
+        "effects": [
+          "释放妙想超载时，召唤三个应急灵感机，其技能释放间隔为 (0.9/0.8/0.7/0.6/0.5) 秒",
+          "SITES",
+          "poedb.tw",
+          "tlidb.com",
+          "poe2db.tw",
+          "paldb.cc",
+          "ABOUT SITE",
+          "Privacy",
+          "About US",
+          "COMMUNITY",
+          "资料库内容为测试资料，正确资讯请以官方游戏内的内容为准。"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Bing/UI_Bin235.webp"
+      }
+    ],
+    "sourceUrl": "https://tlidb.com/cn/Creative_Genius"
+  },
+  {
+    "id": "Flame_of_Pleasure",
+    "slug": "Flame_of_Pleasure",
+    "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Gemma/UI_Portrait_Gemma_03_128.webp",
+    "displayName": "冰焰 吉玛|欢愉之焰",
+    "shortDesc": "能够释放炼狱，大幅削弱炼狱中的敌人，提高自己造成的伤害。",
+    "traitTitle": "欢愉之焰",
+    "heroName": "冰焰|吉玛",
+    "heroDescription": "能够释放炼狱，大幅削弱炼狱中的敌人，提高自己造成的伤害。\n灰烬之锤",
+    "traits": [
+      {
+        "name": "欢愉之焰",
+        "requiredLevel": 1,
+        "effects": [
+          "点击特性技能，释放炼狱",
+          "炼狱初始半径 8 米，持续 5 秒，冷却 8 秒",
+          "炼狱上限为1，炼狱持续期间跟随玩家",
+          "当你不在炼狱内且15米范围内存在敌人时，尝试自动使用炼狱，间隔1秒",
+          "炼狱范围内的敌人额外 +45% 受到的伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRenFire.webp"
+      },
+      {
+        "name": "绝望回声",
+        "requiredLevel": 45,
+        "effects": [
+          "+1 炼狱充能点数上限",
+          "(+1/1.25/1.5/1.75/+2) 秒炼狱持续时间",
+          "(+40/+55/+70/+85/+100)% 炼狱技能范围"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRen302.webp"
+      },
+      {
+        "name": "无尽极刑",
+        "requiredLevel": 60,
+        "effects": [
+          "淘汰炼狱范围内生命低于 (6/7/8/9/10)% 的敌人",
+          "击败炼狱范围内的敌人时，回复 (1/1.25/1.5/1.75/2)% 最大生命和护盾"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRen601.webp"
+      },
+      {
+        "name": "狱火沉沦",
+        "requiredLevel": 60,
+        "effects": [
+          "炼狱每持续一秒，额外(+6/+7/+8/+9/+10)% 伤害，直到失去炼狱或释放新炼狱"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRen301.webp"
+      },
+      {
+        "name": "极乐狂宴",
+        "requiredLevel": 75,
+        "effects": [
+          "周围 (4/3/2/1/1) 米内的敌人额外 -30% 受到的伤害",
+          "炼狱范围的敌人受到 (10/15/20/30/40) 级炽热诅咒影响",
+          "你可以施加 1 个额外诅咒"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRen501.webp"
+      },
+      {
+        "name": "裙下之臣",
+        "requiredLevel": 75,
+        "effects": [
+          "20% 受到的物理伤害转化为火焰伤害",
+          "炼狱范围内的敌人 100% 受到的物理伤害转化为火焰伤害",
+          "炼狱范围内的敌人额外 (+30/+35/+40/+45/+50)% 受到火焰伤害",
+          "炼狱范围内的敌人额外 +30% 火焰伤害",
+          "SITES",
+          "poedb.tw",
+          "tlidb.com",
+          "poe2db.tw",
+          "paldb.cc",
+          "ABOUT SITE",
+          "Privacy",
+          "About US",
+          "COMMUNITY",
+          "资料库内容为测试资料，正确资讯请以官方游戏内的内容为准。"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRen502.webp"
+      }
+    ],
+    "sourceUrl": "https://tlidb.com/cn/Flame_of_Pleasure"
+  },
+  {
+    "id": "Frostbitten_Heart",
+    "slug": "Frostbitten_Heart",
+    "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Gemma/UI_Portrait_Gemma_02_128.webp",
+    "displayName": "冰焰 吉玛|冰结之心",
+    "shortDesc": "使用冰冷技能时，吉玛会获得冰能量，冰能量能够增加冰冷伤害和冰结几率。冰能量达到上限时会释放冰霜脉冲，造成大量冰冷伤害。",
+    "traitTitle": "冰结之心",
+    "heroName": "冰焰|吉玛",
+    "heroDescription": "使用冰冷技能时，吉玛会获得冰能量，冰能量能够增加冰冷伤害和冰结几率。冰能量达到上限时会释放冰霜脉冲，造成大量冰冷伤害。\n冰锥术",
+    "traits": [
+      {
+        "name": "冰结之心",
+        "requiredLevel": 1,
+        "effects": [
+          "造成冰冷伤害时，释放冰霜脉冲，有 4 秒间隔",
+          "冰霜脉冲击中敌人时，施加冰结",
+          "冰霜脉冲击中敌人时，额外 +20% 冰冷伤害，持续 6 秒"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRenIce.webp"
+      },
+      {
+        "name": "雪上加霜",
+        "requiredLevel": 45,
+        "effects": [
+          "冰结值可以突破最大上限，最高(150/150/200/200/200) 点",
+          "(+65/+90/+110/+130/+150)% 冰结效果"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRen607.webp"
+      },
+      {
+        "name": "寒夜凝冰",
+        "requiredLevel": 60,
+        "effects": [
+          "敌人获得凝冰",
+          "敌人获得凝冰",
+          "+25% 凝冰效果",
+          "敌人获得凝冰",
+          "+50% 凝冰效果",
+          "敌人获得凝冰",
+          "+75% 凝冰效果",
+          "敌人获得凝冰",
+          "+100% 凝冰效果"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRen303.webp"
+      },
+      {
+        "name": "霜染舞步",
+        "requiredLevel": 60,
+        "effects": [
+          "-2 秒冰霜脉冲释放间隔",
+          "敌人最近每被冰霜脉冲击中 1 次，额外 (+8/+10/+12/+15/+18)% 受到的冰冷伤害，持续 8 秒，最多叠加 4 次"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRen304.webp"
+      },
+      {
+        "name": "苦寒浸染",
+        "requiredLevel": 75,
+        "effects": [
+          "敌人被冰霜脉冲击中时，(-20/-25/-35/-40/-45)% 冰冷抗性，持续 6 秒",
+          "额外 +100% 冰霜脉冲技能范围"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRen604.webp"
+      },
+      {
+        "name": "冰花盛放",
+        "requiredLevel": 75,
+        "effects": [
+          "造成冰结时，在被冰结的目标处额外释放一次冰霜脉冲，该效果对同一个目标有 2 秒间隔",
+          "(+35/+45/+55/+65/+75) 冰结值上限"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRen603.webp"
+      }
+    ],
+    "sourceUrl": "https://tlidb.com/cn/Frostbitten_Heart"
+  },
+  {
+    "id": "Ice-Fire_Fusion",
+    "slug": "Ice-Fire_Fusion",
+    "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Gemma/UI_Portrait_Gemma_01_128.webp",
+    "displayName": "冰焰 吉玛|冰火融合",
+    "shortDesc": "冰与火的力量在吉玛体内交融，相互增强彼此。使用冰冷和火焰技能时，吉玛将获得融合能量，当融合能量达到上限时，可以使用冰火暴走，提升伤害。",
+    "traitTitle": "冰火融合",
+    "heroName": "冰焰|吉玛",
+    "heroDescription": "冰与火的力量在吉玛体内交融，相互增强彼此。使用冰冷和火焰技能时，吉玛将获得融合能量，当融合能量达到上限时，可以使用冰火暴走，提升伤害。\n裂变火球",
+    "traits": [
+      {
+        "name": "冰火融合",
+        "requiredLevel": 1,
+        "effects": [
+          "累计释放 5 次火焰或冰冷技能，进入冰火暴走状态",
+          "冰火暴走时，额外 +20% 火焰与冰冷伤害",
+          "冰火暴走状态持续 5 秒，冷却 10 秒"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRen1.webp"
+      },
+      {
+        "name": "冰火相拥",
+        "requiredLevel": 45,
+        "effects": [
+          "如果最近造成过火焰伤害，额外 (+10/+13/+16/+19/+22)% 冰冷伤害",
+          "如果最近造成过冰冷伤害，额外 (+10/+13/+16/+19/+22)% 火焰伤害",
+          "+10% 火焰和冰冷抗性"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRenDual.webp"
+      },
+      {
+        "name": "躁动冰火",
+        "requiredLevel": 60,
+        "effects": [
+          "冰火暴走时，(+12/+15/+18/+21/+24)% 元素穿透，+20% 移动速度",
+          "(+20/+30/+40/+50/+60)% 冰火暴走冷却回复速度"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRen306.webp"
+      },
+      {
+        "name": "冰火辉映",
+        "requiredLevel": 60,
+        "effects": [
+          "-50% 冰火暴走持续时间",
+          "进入冰火暴走时，每秒自然回复 10% 生命和魔力，该效果在 3 秒内逐渐衰减至0",
+          "失去冰火暴走时，额外 (+60/+70/+80/+90/+100)% 火焰与冰冷伤害，该效果在 3 秒内逐渐衰减至0"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRenDualPlus.webp"
+      },
+      {
+        "name": "刺骨灼心",
+        "requiredLevel": 75,
+        "effects": [
+          "附加冰冷伤害 (30/36/42/48/54)% 的火焰伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRen505.webp"
+      },
+      {
+        "name": "焚冰继火",
+        "requiredLevel": 75,
+        "effects": [
+          "99% 冰冷伤害转化为火焰伤害",
+          "被冰结的敌人，火焰抗性固定为 (15/10/5/0/-5)%"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Gemma/BingHuoRen506.webp"
+      }
+    ],
+    "sourceUrl": "https://tlidb.com/cn/Ice-Fire_Fusion"
+  },
+  {
+    "id": "Wisdom_of_The_Gods",
+    "slug": "Wisdom_of_The_Gods",
+    "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Thea/UI_Portrait_Thea_01_128.webp",
+    "displayName": "神谕者 希雅|众神之伟智",
+    "shortDesc": "希雅能够自如地获取和使用坚韧，聚能和灵动三种祝福，消耗祝福会强化即将到来的神赐，为自身带来增益。",
+    "traitTitle": "众神之伟智",
+    "heroName": "神谕者|希雅",
+    "heroDescription": "希雅能够自如地获取和使用坚韧，聚能和灵动三种祝福，消耗祝福会强化即将到来的神赐，为自身带来增益。\n爆炎术",
+    "traits": [
+      {
+        "name": "众神之伟智",
+        "requiredLevel": 1,
+        "effects": [
+          "每两秒获得一个神之祝福，其顺序为：聚能祝福-灵动祝福-坚韧祝福",
+          "点击特性技能使用神赐",
+          "神赐：消耗所有聚能祝福，对自己降下神赐，冷却 15 秒",
+          "神赐每消耗一层聚能祝福，额外 +6% 伤害，持续 10 秒，最多叠加 8 层"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv011.webp"
+      },
+      {
+        "name": "丰收预言",
+        "requiredLevel": 45,
+        "effects": [
+          "聚能祝福处于层数上限时，尝试自动使用神赐",
+          "成功获得坚韧祝福、灵动祝福或聚能祝福时，有 (30/35/40/45/50)% 几率额外获得一层聚能祝福"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv021.webp"
+      },
+      {
+        "name": "终局预言",
+        "requiredLevel": 45,
+        "effects": [
+          "神赐每消耗一层祝福，0.8 米神赐半径",
+          "神赐范围内每有一个敌人，降下神赐后额外 (+3/3.7/4.4/5.1/+6)% 伤害，持续 10 秒，最多叠加 10 层"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv031.webp"
+      },
+      {
+        "name": "轮回预言",
+        "requiredLevel": 60,
+        "effects": [
+          "神赐每消耗一层聚能祝福，额外 (+3/+4/+5/+6/+7)% 神赐冷却回复速度",
+          "如果神赐消耗了满层的聚能祝福，额外 (+20/+24/+28/+32/+36)% 伤害，持续 10 秒"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv032.webp"
+      },
+      {
+        "name": "希望预言",
+        "requiredLevel": 60,
+        "effects": [
+          "神赐现在会消耗所有坚韧祝福和灵动祝福",
+          "神赐每消耗一层祝福，额外 (+2/2.3/2.6/2.9/3.2)% 所有伤害，持续 10 秒，最多叠加 20 层"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv041.webp"
+      },
+      {
+        "name": "告别预言",
+        "requiredLevel": 75,
+        "effects": [
+          "神赐每消耗一层聚能祝福，(+4/4.5/+5/5.5/+6)% 双倍伤害几率，持续 10 秒，最多叠加 10 次",
+          "每 1% 溢出的双倍伤害几率，有 1% 几率转而造成四倍伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv051.webp"
+      },
+      {
+        "name": "公正预言",
+        "requiredLevel": 75,
+        "effects": [
+          "对灵动祝福或坚韧祝福层数上限加成的最大值同样作用于对聚能祝福层数上限的加成",
+          "额外 (-25/-22.5/-20/-17.5/-15)% 冷却回复速度",
+          "SITES",
+          "poedb.tw",
+          "tlidb.com",
+          "poe2db.tw",
+          "paldb.cc",
+          "ABOUT SITE",
+          "Privacy",
+          "About US",
+          "COMMUNITY",
+          "资料库内容为测试资料，正确资讯请以官方游戏内的内容为准。"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv052.webp"
+      }
+    ],
+    "sourceUrl": "https://tlidb.com/cn/Wisdom_of_The_Gods"
+  },
+  {
+    "id": "Incarnation_of_the_Gods",
+    "slug": "Incarnation_of_the_Gods",
+    "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Thea/UI_Portrait_Thea_02_128.webp",
+    "displayName": "神谕者 希雅|众神之化身",
+    "shortDesc": "希雅运用祝福在地上国度展开神域。在神域外时，希雅可以运用灵动祝福与敌人周旋；而进入神域后希雅将利用坚韧祝福对抗强大的敌人。",
+    "traitTitle": "众神之化身",
+    "heroName": "神谕者|希雅",
+    "heroDescription": "希雅运用祝福在地上国度展开神域。在神域外时，希雅可以运用灵动祝福与敌人周旋；而进入神域后希雅将利用坚韧祝福对抗强大的敌人。\n暴走巨刃",
+    "traits": [
+      {
+        "name": "众神之化身",
+        "requiredLevel": 1,
+        "effects": [
+          "每两秒获得一个神之祝福，其顺序为：聚能祝福-灵动祝福-坚韧祝福",
+          "点击特性技能对最近的敌人使用神域，持续 8 秒，冷却 8 秒",
+          "每有一层灵动祝福，对生命健康的敌人额外 +7% 伤害，最多叠加 20 层",
+          "每有一层坚韧祝福，对生命濒危的敌人额外 +7% 伤害，最多叠加 20 层",
+          "若不在神域范围内，所有坚韧祝福全部转化为灵动祝福",
+          "若在神域范围内，所有灵动祝福全部转化为坚韧祝福"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv022.webp"
+      },
+      {
+        "name": "神权",
+        "requiredLevel": 45,
+        "effects": [
+          "每有一种祝福达到层数上限，额外 (+10/+12/+14/+16/+19)% 伤害（叠乘）",
+          "若不在神域范围内，对坚韧祝福的层数上限的增加或减少同样作用于灵动祝福",
+          "若在神域范围内，对灵动祝福的层数上限的增加或减少同样作用于坚韧祝福",
+          "获得一个技能槽位，可以安装辅助技能和触媒辅助技能，用以辅助特性技能神域"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv033.webp"
+      },
+      {
+        "name": "神力流转",
+        "requiredLevel": 60,
+        "effects": [
+          "若不在神域范围内，每拥有一层任意祝福，额外 0.75% 攻击和施法速度，最多额外 +15%",
+          "若不在神域范围内，每拥有一层任意祝福，额外 (0.5/0.8/1.1/1.4/1.7)% 伤害，最多额外 (+10/+16/+22/+28/+34)%",
+          "若在神域范围内，每拥有一层任意祝福，额外 (-1/-1.2/-1.4/-1.6/-1.8)% 受到的伤害，最多 (-20/-24/-28/-32/-38)%"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv054.webp"
+      },
+      {
+        "name": "神域威能",
+        "requiredLevel": 60,
+        "effects": [
+          "对神域内的敌人，额外 (+20/+26/+32/+38/+45)% 伤害",
+          "击败神域中的敌人时，+1% 移动速度，持续 30 秒，最多叠加 20 层",
+          "神域中不存在敌人时，刷新神域的冷却时间"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv064.webp"
+      },
+      {
+        "name": "化身降身",
+        "requiredLevel": 75,
+        "effects": [
+          "神域会跟随自身",
+          "对敌人首次造成伤害时，在 (1/1/2/2/2) 秒内视其处于生命濒危",
+          "释放神域时，每有 1 层祝福，额外 (+1/1.25/1.5/1.75/+2)% 在神域内造成的伤害，持续至失去神域"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv063.webp"
+      },
+      {
+        "name": "圣者神行",
+        "requiredLevel": 75,
+        "effects": [
+          "-70% 神域技能半径",
+          "若不在神域范围内，每 4% 已损生命，额外 (1.7/1.5/1.3/1.1/0.8)% 受到的伤害",
+          "若不在神域范围内，造成伤害时，将当前生命百分比超过你的敌人也视为生命健康"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv034.webp"
+      }
+    ],
+    "sourceUrl": "https://tlidb.com/cn/Incarnation_of_the_Gods"
+  },
+  {
+    "id": "Blasphemer",
+    "slug": "Blasphemer",
+    "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Thea/UI_Portrait_Thea_03_128.webp",
+    "displayName": "神谕者 希雅|渎神",
+    "shortDesc": "希雅将祝福转化为亵渎之力，既能够提升对单个敌人的腐蚀伤害，还能够造成大范围的腐蚀爆炸",
+    "traitTitle": "渎神",
+    "heroName": "神谕者|希雅",
+    "heroDescription": "希雅将祝福转化为亵渎之力，既能够提升对单个敌人的腐蚀伤害，还能够造成大范围的腐蚀爆炸\n恶煞缠身",
+    "traits": [
+      {
+        "name": "渎神",
+        "requiredLevel": 1,
+        "effects": [
+          "每两秒获得一个神之祝福，其顺序为：聚能祝福-灵动祝福-坚韧祝福",
+          "点击特性技能对 15 米内稀有度最高的敌人施加亵渎，冷却 5 秒，每次施加上限三分之一的层数（向上取整）",
+          "提高祝福层数上限的词缀效果变为降低祝福层数上限，同时提高亵渎层数上限，每种祝福最多提供 4 层亵渎层数上限",
+          "获得任意祝福时，触发特性技能并无视其冷却，间隔 0.3 秒"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv301.webp"
+      },
+      {
+        "name": "污秽洗礼",
+        "requiredLevel": 45,
+        "effects": [
+          "额外 (+5/+10/+15/+20/+25)% 腐蚀伤害",
+          "亵渎目标 6 米内的敌人被击败时 (10/20/20/30/30)% 几率爆炸，对半径 (3/4/4/5/5) 米内的敌人造成被击败的敌人最大生命 125% 的真实伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv311.webp"
+      },
+      {
+        "name": "玷辱孤臣",
+        "requiredLevel": 60,
+        "effects": [
+          "亵渎只能影响劲敌",
+          "亵渎目标 6 米内若不存在其他敌人，目标获得弃子",
+          "(+10/+15/+20/+25/+30)% 腐蚀抗性",
+          "(+3/+4/+4/+5/+5)% 腐蚀抗性上限"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv321.webp"
+      },
+      {
+        "name": "群贤蒙垢",
+        "requiredLevel": 60,
+        "effects": [
+          "亵渎目标 6 米内的劲敌也会受到亵渎，上限 2 个",
+          "击败亵渎目标时立即回复 (5/6/7/8/9)% 的最大生命、护盾和魔力",
+          "对亵渎目标造成伤害时攻击和施法速度 +(20/30/40/50/60)%，持续 5 秒，不可叠加"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv322.webp"
+      },
+      {
+        "name": "堕落之始",
+        "requiredLevel": 75,
+        "effects": [
+          "对劲敌首次施加亵渎时，对其造成 (3/6/9/12/15)% 最大生命的真实伤害，该数值附加亵渎层数上限的 (30/40/50/60/70)%，最高可对敌人造成 25% 最大生命的真实伤害",
+          "亵渎目标拥有控制类状态时，目标获得如山罪愆"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv331.webp"
+      },
+      {
+        "name": "亵渎已极",
+        "requiredLevel": 75,
+        "effects": [
+          "所有祝福层数上限均为 0 时，再次提高祝福层数上限时，其词缀效果将会变为提高亵渎层数上限，亵渎层数最多为 25 层",
+          "亵渎获得额外基础效果：目标每损失 5% 生命，额外 (0.2/0.25/0.3/0.35/0.4)% 受到的腐蚀伤害",
+          "SITES",
+          "poedb.tw",
+          "tlidb.com",
+          "poe2db.tw",
+          "paldb.cc",
+          "ABOUT SITE",
+          "Privacy",
+          "About US",
+          "COMMUNITY",
+          "资料库内容为测试资料，正确资讯请以官方游戏内的内容为准。"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Thea/UI_YueNv332.webp"
+      }
+    ],
+    "sourceUrl": "https://tlidb.com/cn/Blasphemer"
+  },
+  {
+    "id": "Spacetime_Illusion",
+    "slug": "Spacetime_Illusion",
+    "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Youga/UI_Portrait_Youga_01_128.webp",
+    "displayName": "时空见证者 尤加|时空幻象",
+    "shortDesc": "尤加能够以自身为坐标创造一片扭曲时空，身在其中能得到数种加成。此外，尤加能够在扭曲时空中召唤一个幻象，幻象将与本体协同作战，并且能够独立施法。",
+    "traitTitle": "时空幻象",
+    "heroName": "时空见证者|尤加",
+    "heroDescription": "尤加能够以自身为坐标创造一片扭曲时空，身在其中能得到数种加成。此外，尤加能够在扭曲时空中召唤一个幻象，幻象将与本体协同作战，并且能够独立施法。\n冰锥术",
+    "traits": [
+      {
+        "name": "时空幻象",
+        "requiredLevel": 1,
+        "effects": [
+          "拥有时空幻象",
+          "时空幻象每 1.5 秒使用一次你的核心技能，时空幻象的施法视为玩家自身的施法",
+          "存在时空幻象时，点击特性技能召回时空幻象"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Youga/UI_NanFaShi054.webp"
+      },
+      {
+        "name": "咱俩真棒",
+        "requiredLevel": 45,
+        "effects": [
+          "+60% 时空幻象的施法频率",
+          "每有 +5% 冷却回复速度或额外 2.5% 冷却回复速度，(+5/+7/+9/+11/+13)% 时空幻象的施法频率"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Youga/UI_NanFaShi034.webp"
+      },
+      {
+        "name": "搞快点搞快点",
+        "requiredLevel": 60,
+        "effects": [
+          "时空幻象不再有施法动作，只受施法频率限制",
+          "对于施法速度加成的 (50/55/60/65/70)% 同样作用于时空幻象的额外伤害，上限 300%"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Youga/UI_NanFaShi053.webp"
+      },
+      {
+        "name": "去码头整点蓝条",
+        "requiredLevel": 60,
+        "effects": [
+          "封印 25% 最大魔力，时空幻象不再有施法频率限制",
+          "每有 +4% 时空幻象的施法频率，额外 (+1/1.15/1.3/1.45/1.6)% 时空幻象伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Youga/UI_NanFaShi033.webp"
+      },
+      {
+        "name": "我成幻象了",
+        "requiredLevel": 75,
+        "effects": [
+          "无法释放核心技能",
+          "+1 时空幻象上限",
+          "额外 (-5/-1/+3/+7/+11)% 时空幻象伤害",
+          "-30% 移动速度"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Youga/UI_NanFaShi022.webp"
+      },
+      {
+        "name": "我没蓝了",
+        "requiredLevel": 75,
+        "effects": [
+          "时空幻象施法会消耗你的魔力，数值等于你核心技能的魔力消耗",
+          "最近时空幻象每次消耗魔力，额外 (+5/6.3/7.5/8.8/+10)% 你和时空幻象伤害，最多叠加 10 次"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Youga/UI_NanFaShi063.webp"
+      }
+    ],
+    "sourceUrl": "https://tlidb.com/cn/Spacetime_Illusion"
+  },
+  {
+    "id": "Spacetime_Elapse",
+    "slug": "Spacetime_Elapse",
+    "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Youga/UI_Portrait_Youga_02_128.webp",
+    "displayName": "时空见证者 尤加|时空流逝",
+    "shortDesc": "尤加通过对敌人施放扭曲时空，使敌人遭受持续伤害。移动扭曲时空后，尤加能够对身处其中的敌人施加时空乱流，加速敌人身上持续伤害的生效速度，并提高持续伤害。",
+    "traitTitle": "时空流逝",
+    "heroName": "时空见证者|尤加",
+    "heroDescription": "尤加通过对敌人施放扭曲时空，使敌人遭受持续伤害。移动扭曲时空后，尤加能够对身处其中的敌人施加时空乱流，加速敌人身上持续伤害的生效速度，并提高持续伤害。\n烈焰释放",
+    "traits": [
+      {
+        "name": "时空流逝",
+        "requiredLevel": 1,
+        "effects": [
+          "点击特性技能或对敌人造成持续伤害时，释放扭曲时空，间隔 2 秒，持续 6 秒",
+          "扭曲时空持续期间，再次施放会移动扭曲时空，并延长 2 秒技能持续时间",
+          "扭曲时空持续期间，记录 30% 对敌人造成的持续、收割和净化切割伤害",
+          "扭曲时空移动后，对扭曲时空中的敌人施加时空乱流，均摊扭曲时空所记录的伤害，并清空记录"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Youga/NanFaShiImagePlus.webp"
+      },
+      {
+        "name": "时空加速",
+        "requiredLevel": 45,
+        "effects": [
+          "击败时，减少 1 秒扭曲时空释放间隔",
+          "扭曲时空每存在 1 秒，(+5/6.5/+8/9.5/+11)% 扭曲时空记录的所有伤害，最多叠加 5 层"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Youga/NanFaShi502.webp"
+      },
+      {
+        "name": "时空剧变",
+        "requiredLevel": 45,
+        "effects": [
+          "扭曲时空持续期间，额外 (+30/+37/+44/+51/+58)% 持续伤害",
+          "扭曲时空只对范围内的劲敌施加时空乱流，范围内无劲敌时不清空记录"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Youga/NanFaShi301.webp"
+      },
+      {
+        "name": "时空切割",
+        "requiredLevel": 60,
+        "effects": [
+          "造成持续伤害时，获得一层折磨",
+          "扭曲时空持续期间，额外 (-10/-14/-18/-21/-24)% 受到的伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Youga/NanFaShiImage.webp"
+      },
+      {
+        "name": "时空停滞",
+        "requiredLevel": 75,
+        "effects": [
+          "额外 (-40/-43/-46/-49/-50)% 时空乱流的持续时间",
+          "(+60/+70/+80/+90/+100)% 扭曲时空记录的所有伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Youga/NanFaShi601.webp"
+      },
+      {
+        "name": "时空膨胀",
+        "requiredLevel": 75,
+        "effects": [
+          "额外 (+50/+62/+74/+86/+98)% 扭曲时空与时空乱流的持续时间",
+          "拥有时空乱流的敌人也视为在扭曲时空中"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Youga/NanFaShi302.webp"
+      }
+    ],
+    "sourceUrl": "https://tlidb.com/cn/Spacetime_Elapse"
+  },
+  {
+    "id": "Order_Calling",
+    "slug": "Order_Calling",
+    "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Moto/UI_Portrait_Moto_01_128.webp",
+    "displayName": "指挥官 莫托|号令征召",
+    "shortDesc": "莫托指挥智械同敌人作战。在战斗中，莫托会频繁为召唤物施加超载，提升它们的生命，速度和攻击力等能力，让这支钢铁大军为他冲锋陷阵。",
+    "traitTitle": "号令征召",
+    "heroName": "指挥官|莫托",
+    "heroDescription": "莫托指挥智械同敌人作战。在战斗中，莫托会频繁为召唤物施加超载，提升它们的生命，速度和攻击力等能力，让这支钢铁大军为他冲锋陷阵。\n召唤蜘蛛坦克",
+    "traits": [
+      {
+        "name": "号令征召",
+        "requiredLevel": 1,
+        "effects": [
+          "在你释放召唤技能后 4 秒内，你的所有召唤物都会获得超载，冷却时间 12 秒",
+          "超载提供：额外 +60% 伤害",
+          "当已有超载的召唤物获得超载时，刷新超载的效果和持续时间"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Moto/ZhiHuiGuan011.webp"
+      },
+      {
+        "name": "百战老兵",
+        "requiredLevel": 45,
+        "effects": [
+          "额外 (+80/+105/+130/+155/+180)% 超载持续时间",
+          "召唤物拥有超载时，+20% 攻击和施法速度"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Moto/ZhiHuiGuan031.webp"
+      },
+      {
+        "name": "一鼓作气",
+        "requiredLevel": 45,
+        "effects": [
+          "召唤物首次获得的超载额外 (+120/+155/+190/+225/+270)% 超载效果"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Moto/ZhiHuiGuan041.webp"
+      },
+      {
+        "name": "坚甲厉兵",
+        "requiredLevel": 60,
+        "effects": [
+          "每拥有 5 点统御值，(+9/+11/+13/+15/+18)% 超载效果",
+          "每拥有 5 点统御值时，拥有超载的召唤物每秒自然回复 1% 最大生命"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Moto/ZhiHuiGuan061.webp"
+      },
+      {
+        "name": "背水一战",
+        "requiredLevel": 60,
+        "effects": [
+          "召唤物拥有超载时，不会被击败",
+          "召唤物拥有超载时，-100% 生命回复速度",
+          "召唤物拥有超载时，根据已损失的生命获得额外伤害，至多额外 (+25/+32/+40/+50/+60)% 伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Moto/ZhiHuiGuan052.webp"
+      },
+      {
+        "name": "冲锋陷阵",
+        "requiredLevel": 75,
+        "effects": [
+          "召唤物每有 +5% 最大生命，+1% 体型，(+2/+3/+4/+5/+6)% 受到的超载效果"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Moto/ZhiHuiGuan062.webp"
+      },
+      {
+        "name": "破釜沉舟",
+        "requiredLevel": 75,
+        "effects": [
+          "智械召唤物最近 1 秒内每消耗 5% 生命，(+10/+11/+12/+14/+15)% 受到的超载效果，最多叠加 20 次"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Moto/ZhiHuiGuan021.webp"
+      }
+    ],
+    "sourceUrl": "https://tlidb.com/cn/Order_Calling"
+  },
+  {
+    "id": "Charge_Calling",
+    "slug": "Charge_Calling",
+    "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Moto/UI_Portrait_Moto_02_128.webp",
+    "displayName": "指挥官 莫托|冲锋征召",
+    "shortDesc": "莫托指挥智械冲向敌人并使其自爆，对敌人造成巨额伤害。在战斗中，莫托可以通过超载在短时间内快速召唤智械，提升爆炸效率，增强战斗属性。",
+    "traitTitle": "冲锋征召",
+    "heroName": "指挥官|莫托",
+    "heroDescription": "莫托指挥智械冲向敌人并使其自爆，对敌人造成巨额伤害。在战斗中，莫托可以通过超载在短时间内快速召唤智械，提升爆炸效率，增强战斗属性。\n召唤机械警卫",
+    "traits": [
+      {
+        "name": "冲锋征召",
+        "requiredLevel": 1,
+        "effects": [
+          "允许点击特性技能获得冲锋征召状态，持续 6 秒，冷却 6 秒",
+          "冲锋征召状态期间，+1 一次召唤的智械召唤物数量，所有智械召唤物启动自毁程序，在接下来 1 秒内向敌人发起冲锋，若碰撞敌人或被击败后自爆，对范围内的敌人造成攻击物理伤害",
+          "额外 +20% 由自毁程序引发的自爆伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Moto/UI_ZhiHuiGuan22.webp"
+      },
+      {
+        "name": "前仆后继",
+        "requiredLevel": 45,
+        "effects": [
+          "智械召唤物启动自毁程序时，+30% 几率掉落一个机械零件，机械零件持续 1 秒",
+          "玩家将会自动拾取周围的机械零件",
+          "最近每拾取一个机械零件，额外 (+3/3.5/+4/4.5/+5)% 召唤物伤害，最多叠加 10 次",
+          "获得一个技能槽位，可以安装辅助技能和触媒辅助技能，用以辅助特性技能冲锋征召"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Moto/UI_ZhiHuiGuan23.webp"
+      },
+      {
+        "name": "捐躯赴难",
+        "requiredLevel": 60,
+        "effects": [
+          "智械召唤物每有 (+70/+60/+50/+45/+40)最大生命或护盾，自毁程序引发的自爆额外 +1% 伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Moto/UI_ZhiHuiGuan24.webp"
+      },
+      {
+        "name": "游击战术",
+        "requiredLevel": 60,
+        "effects": [
+          "+50% 机械零件的拾取半径",
+          "最近每拾取一个机械零件，额外 +2% 自毁程序冲锋速度，额外 +3% 自毁程序伤害，最多叠加 (10/12/15/18/20) 次"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Moto/UI_ZhiHuiGuan26.webp"
+      },
+      {
+        "name": "以战养战",
+        "requiredLevel": 75,
+        "effects": [
+          "每隔 (0.2/0.18/0.15/0.12/0.1) 秒，对 20 米内最近的敌人触发核心召唤技能",
+          "-30% 移动速度"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Moto/UI_ZhiHuiGuan29.webp"
+      },
+      {
+        "name": "兵贵神速",
+        "requiredLevel": 75,
+        "effects": [
+          "对召唤物攻击速度的加成和额外加成的 (25/30/35/40/45)% 同样作用于对自毁程序伤害的加成和额外加成"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Moto/UI_ZhiHuiGuan28.webp"
+      }
+    ],
+    "sourceUrl": "https://tlidb.com/cn/Charge_Calling"
+  },
+  {
+    "id": "High_Court_Chariot",
+    "slug": "High_Court_Chariot",
+    "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Rosa/UI_Portrait_Rosa_01_128.webp",
+    "displayName": "光曜 罗莎|圣庭战车",
+    "shortDesc": "可以使用圣光领域将敌人强制聚拢，并在圣光领域中获得增益",
+    "traitTitle": "圣庭战车",
+    "heroName": "光曜|罗莎",
+    "heroDescription": "可以使用圣光领域将敌人强制聚拢，并在圣光领域中获得增益\n震撼大地",
+    "traits": [
+      {
+        "name": "圣庭战车",
+        "requiredLevel": 1,
+        "effects": [
+          "+30% 攻击与法术格挡率",
+          "每秒回复 4 点斗志",
+          "格挡时，回复 10 点斗志",
+          "至少拥有 15 点斗志时，可以释放特性技能，消耗 15 点斗志，以自身为中心留下圣光领域，将 8 米内敌人拉入其中",
+          "在圣光领域中时，额外 +20% 伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rosa/UI_Rosa022.webp"
+      },
+      {
+        "name": "以一敌百",
+        "requiredLevel": 45,
+        "effects": [
+          "圣光领域中每存在一个敌人，额外 (+7/+8/+9/9.5/+10)% 伤害，最多额外 +100% 伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rosa/UI_Rosa033.webp"
+      },
+      {
+        "name": "狂飙突进",
+        "requiredLevel": 45,
+        "effects": [
+          "处于或离开圣光领域后的 (4/5/6/8/8) 秒内，(+20/+30/+40/+40/+50)% 移动速度",
+          "击败圣光领域中的敌人时，回复 (4/5/6/7/8) 点斗志"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rosa/UI_Rosa034.webp"
+      },
+      {
+        "name": "刀枪不入",
+        "requiredLevel": 60,
+        "effects": [
+          "在圣光领域中时，(+7/+9/+11/+13/+15)% 格挡比例与格挡比例上限",
+          "每有 1% 格挡比例， (+1/+1/+2/+2/+2)% 斗志的回复量",
+          "获得一个技能槽位，可以安装辅助技能和触媒辅助技能，用以辅助特性技能圣光领域"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rosa/UI_Rosa042.webp"
+      },
+      {
+        "name": "天降神兵",
+        "requiredLevel": 60,
+        "effects": [
+          "当前每有 1 点斗志， 对圣光领域中的敌人额外 (0.3/0.37/0.44/0.51/0.58)% 伤害， +1% 斗志回复量",
+          "获得一个技能槽位，可以安装辅助技能和触媒辅助技能，用以辅助特性技能圣光领域"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rosa/UI_Rosa064.webp"
+      },
+      {
+        "name": "铤而走险",
+        "requiredLevel": 75,
+        "effects": [
+          "允许持续引导特性技能，此时圣光领域跟随玩家移动，并在持续引导期间不消耗斗志，引导层数最多 2 层",
+          "引导层数达到上限时，失去所有引导层数，重新释放一次圣光领域，对圣光领域内的所有单位施加卸甲，卸甲持续 8 秒",
+          "每有 1% 格挡比例，额外 (2.4/2.5/2.6/2.8/2.8)% 敌人受到的卸甲效果，额外 (-0.67/-0.8/-1/-1/-1.2)% 自身受到的卸甲效果",
+          "-30% 圣光领域半径"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rosa/UI_Rosa053.webp"
+      },
+      {
+        "name": "临机制变",
+        "requiredLevel": 75,
+        "effects": [
+          "在圣光领域中格挡时，额外 +20% 伤害，持续 10 秒，最多额外 (+40/+50/+60/+70/+80)%"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rosa/UI_Rosa054.webp"
+      }
+    ],
+    "sourceUrl": "https://tlidb.com/cn/High_Court_Chariot"
+  },
+  {
+    "id": "Unsullied_Blade",
+    "slug": "Unsullied_Blade",
+    "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Rosa/UI_Portrait_Rosa_02_128.webp",
+    "displayName": "光曜 罗莎|无垢之刃",
+    "shortDesc": "可以通过魔力相关的养成，对秘银净土内的敌人造成高额元素伤害",
+    "traitTitle": "无垢之刃",
+    "heroName": "光曜|罗莎",
+    "heroDescription": "可以通过魔力相关的养成，对秘银净土内的敌人造成高额元素伤害\n碎冰刺击",
+    "traits": [
+      {
+        "name": "无垢之刃",
+        "requiredLevel": 1,
+        "effects": [
+          "获得秘银姿态",
+          "秘银姿态存在期间，使用非引导攻击技能时获得秘银值",
+          "秘银值达到上限时，秘银姿态转化为秘银净土，秘银净土每秒消耗 30 点秘银值；秘银值为 0 时，秘银净土复原为秘银姿态",
+          "只能通过秘银姿态消耗魔力，同时只能通过秘银净土回复魔力",
+          "对于法术伤害的加成与额外加成同样作用于攻击伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rosa/UI_Rosa201.webp"
+      },
+      {
+        "name": "纯净施洗",
+        "requiredLevel": 45,
+        "effects": [
+          "额外 +20% 最大魔力",
+          "在秘银净土内，选择玩家造成过伤害的敌人中稀有度最高者，记录玩家最近对其造成的 (12/20/28/36/44)% 非引导攻击元素击中伤害，每隔 0.5 秒对净土内所有敌人进行一次秘银洗礼，并且获得 (5/5/6/6/7) 点秘银值",
+          "秘银洗礼会施加与所记录的最高伤害类型相同的渗透效果，当记录最高伤害类型为火焰，施加火焰渗透；为闪电，施加闪电渗透；为冰冷，施加冰冷渗透"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rosa/UI_Rosa232.webp"
+      },
+      {
+        "name": "涤瑕荡秽",
+        "requiredLevel": 60,
+        "effects": [
+          "秘银净土存在期间，25% 的伤害优先抵扣魔力",
+          "每拥有 1000 点最大魔力，额外 (+2/2.5/+3/3.5/+4)% 元素伤害，最多 (+40/+50/+60/+70/+80)%"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rosa/UI_Rosa221.webp"
+      },
+      {
+        "name": "无疆净土",
+        "requiredLevel": 60,
+        "effects": [
+          "每拥有 (150/130/110/100/90) 最大魔力，+10% 秘银净土的范围，最多 (+60/+70/+80/+90/+100)%",
+          "秘银净土中每存在一个敌人，额外 (+6/+7/+8/+9/+10)% 元素伤害，最多额外 (+60/+70/+80/+90/+100)%",
+          "击败秘银净土中的敌人时，获得 (3/3/4/4/4) 点秘银值"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rosa/UI_Rosa222.webp"
+      },
+      {
+        "name": "竭诚奉圣",
+        "requiredLevel": 75,
+        "effects": [
+          "可以通过秘银姿态以外的方式消耗魔力，每消耗 (3000/2900/2800/2700/2600) 点魔力固定获得 10% 秘银值",
+          "当前魔力低于 10% 时，消耗固定为 0",
+          "每拥有 1000 最大魔力，+10% 秘银值上限，最多 (+200/+250/+300/+350/+400)%",
+          "每点秘银值额外 (0.08/0.08/0.1/0.1/0.1)% 元素伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rosa/UI_Rosa231.webp"
+      },
+      {
+        "name": "无垢无我",
+        "requiredLevel": 75,
+        "effects": [
+          "额外 -30% 秘银净土的魔力回复",
+          "秘银姿态获得额外效果：额外 +25% 元素伤害",
+          "秘银姿态转化为秘银净土后仍然存在，保留 40% 效果",
+          "秘银姿态存在期间，额外 (+20/+27/+34/+41/+48)% 主手武器伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Rosa/UI_Rosa211.webp"
+      }
+    ],
+    "sourceUrl": "https://tlidb.com/cn/Unsullied_Blade"
+  },
+  {
+    "id": "Growing_Breeze",
+    "slug": "Growing_Breeze",
+    "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Iris/UI_Portrait_Iris_01_128.webp",
+    "displayName": "遗世魔灵 伊瑞斯|生长的微风",
+    "shortDesc": "与魔灵伙伴们一起作战，可以为魔灵们施加增益，加速魔灵的生长",
+    "traitTitle": "生长的微风",
+    "heroName": "遗世魔灵|伊瑞斯",
+    "heroDescription": "与魔灵伙伴们一起作战，可以为魔灵们施加增益，加速魔灵的生长\n召唤雷霆之灵",
+    "traits": [
+      {
+        "name": "生长的微风",
+        "requiredLevel": 1,
+        "effects": [
+          "允许在主动技能槽位装备魔灵技能",
+          "主动技能为魔灵技能时，释放主动技能也视为释放特性技能",
+          "使用特性技能时，对所有魔灵施加 4 层润物，冷却 5 秒",
+          "魔灵获得润物的 1 秒内，若周围 5 米不存在敌人，+70% 移动速度",
+          "魔灵释放技能时，+30% 几率失去一层润物",
+          "魔灵每有一层润物，使用技能时，+8% 几率失去一层润物",
+          "润物：使用技能时额外 +30% 该次技能伤害，持续 15 秒，上限 10 层。",
+          "对激发技能效果加成的100%同样作用于魔灵润物"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Iris/UI_Iris022.webp"
+      },
+      {
+        "name": "拥抱世界吧",
+        "requiredLevel": 45,
+        "effects": [
+          "每有 1% 火焰、冰冷、闪电抗性，对应的魔灵 +1% 强化技能使用几率，最多 (+28/+36/+44/+52/+60)%"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Iris/UI_Iris033.webp"
+      },
+      {
+        "name": "挣脱束缚吧",
+        "requiredLevel": 45,
+        "effects": [
+          "魔灵技能 +100% 魔力封印补偿",
+          "(+50/+65/+80/+95/+110)% 魔灵的技能的冷却回复速度"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Iris/UI_Iris034.webp"
+      },
+      {
+        "name": "很多的朋友",
+        "requiredLevel": 60,
+        "effects": [
+          "+1 魔灵最大数量上限",
+          "+1 魔灵技能召唤的数量上限",
+          "魔灵释放技能时，(+15/+12/+8/+4/+2)% 几率失去一层润物"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Iris/UI_Iris053.webp"
+      },
+      {
+        "name": "厉害的朋友",
+        "requiredLevel": 60,
+        "effects": [
+          "魔灵 -20% 强化技能使用几率",
+          "魔灵在累计获得 (40/35/30/24/18) 层润物后，获得怒放，持续 12 秒",
+          "怒放持续期间，魔灵释放终极技能时，每有一层润物，额外 (+10/+11/+12/+13/+14)% 终极技能冷却回复速度"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Iris/UI_Iris054.webp"
+      },
+      {
+        "name": "和风一起奔跑",
+        "requiredLevel": 75,
+        "effects": [
+          "基础特性转变为长按特性技能或魔灵技能使用乘风",
+          "乘风引导期间，可以移动",
+          "乘风引导期间，额外 (+30/+20/+15/+10/+5)% 受到的伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Iris/UI_Iris063.webp"
+      },
+      {
+        "name": "和它一起长大",
+        "requiredLevel": 75,
+        "effects": [
+          "总是尝试自动触发特性技能生长的微风",
+          "魔灵所对应的技能每有 +1 技能等级，魔灵释放技能时，-4% 几率失去一层润物，最多 (-20/-24/-28/-36/-40)%"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Iris/UI_Iris064.webp"
+      }
+    ],
+    "sourceUrl": "https://tlidb.com/cn/Growing_Breeze"
+  },
+  {
+    "id": "Vigilant_Breeze",
+    "slug": "Vigilant_Breeze",
+    "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Iris/UI_Portrait_Iris_02_128.webp",
+    "displayName": "遗世魔灵 伊瑞斯|守望的暖风",
+    "shortDesc": "伊瑞斯与魔灵融合，进入守望状态，使用魔灵技能进行战斗，并为魔灵施加暖风增强他们的伤害",
+    "traitTitle": "守望的暖风",
+    "heroName": "遗世魔灵|伊瑞斯",
+    "heroDescription": "伊瑞斯与魔灵融合，进入守望状态，使用魔灵技能进行战斗，并为魔灵施加暖风增强他们的伤害\n召唤磐石之灵",
+    "traits": [
+      {
+        "name": "守望的暖风",
+        "requiredLevel": 1,
+        "effects": [
+          "允许在主动技能槽位装备魔灵技能",
+          "主动技能为魔灵技能时，释放主动技能也视为释放特性技能",
+          "释放特性技能后与魔灵融合，进入守望状态，被融合的魔灵获得 5 层 暖风，再次释放特性技能时，解除守望状态",
+          "守望状态期间，被融合的魔灵在非重聚状态每秒消耗 20% 最大生命",
+          "守望状态期间，被融合的魔灵在非重聚状态下，每隔 1 秒获得一层暖风，上限 10 层",
+          "魔灵在重聚期间或非融合状态时，每隔 1 秒失去 2 层暖风"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Iris/UI_Iris212.webp"
+      },
+      {
+        "name": "同烈风共舞",
+        "requiredLevel": 45,
+        "effects": [
+          "被融合的魔灵的终极技能没有冷却时间",
+          "被融合的魔灵每次释放终极技能时，消耗 (15/14/13/12/11)% 最大生命，获得 (2/3/3/4/4) 层暖风",
+          "额外 -40% 魔灵技能伤害"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Iris/UI_Iris211.webp"
+      },
+      {
+        "name": "让清风吹拂",
+        "requiredLevel": 45,
+        "effects": [
+          "魔灵 +30% 强化技能使用几率",
+          "被融合的魔灵每次释放强化技能时，回复 (2.5/3/3.5/4/5)% 最大生命，+1 暖风层数上限，间隔 (0.9/0.5/0.2/0.1/0.03) 秒",
+          "最多 (+4/+5/+6/+7/+8) 暖风层数上限，持续至进入重聚状态"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Iris/UI_Iris201.webp"
+      },
+      {
+        "name": "最喜悦的重逢",
+        "requiredLevel": 60,
+        "effects": [
+          "+1 魔灵最大数量上限",
+          "守望状态期间，所有魔灵都视为被融合的魔灵",
+          "守望状态期间，每有一个魔灵，被融合的魔灵额外 (+1/+2/+3/+4/+5)% 伤害（叠乘），在非重聚状态 (+8/+7/+7/+6/+6)% 每秒消耗的最大生命"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Iris/UI_Iris221.webp"
+      },
+      {
+        "name": "最温暖的守望",
+        "requiredLevel": 60,
+        "effects": [
+          "被融合的魔灵每消耗 (5/4.5/4.1/3.8/3.5)% 最大生命， +1 暖风层数上限，最多 (+15/+17/+19/+21/+23)",
+          "被融合的魔灵击败敌人时，获得一层暖风"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Iris/UI_Iris222.webp"
+      },
+      {
+        "name": "汇入本源的河流",
+        "requiredLevel": 75,
+        "effects": [
+          "伊瑞斯不受魔灵之源效果影响，所有基础的魔灵之源效果转而作用于所有的魔灵",
+          "魔灵每有 2 点生长值，额外 (0.1/0.15/0.2/0.25/0.3)% 魔灵受到的魔灵之源效果"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Iris/UI_Iris231.webp"
+      },
+      {
+        "name": "化身万物的暖风",
+        "requiredLevel": 75,
+        "effects": [
+          "守望状态期间，伊瑞斯额外 (-20/-24/-28/-32/-36)% 受到的伤害",
+          "对生命自然回复速度与每秒自然恢复生命的加成或额外加成的 (50/60/70/80/100)% 同样作用于被融合的魔灵",
+          "对生命返还与护盾返还，生命返还间隔与护盾返还间隔的加成或额外加成的 (100/120/140/160/200)% 同样作用于被融合的魔灵"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Iris/UI_Iris232.webp"
+      }
+    ],
+    "sourceUrl": "https://tlidb.com/cn/Vigilant_Breeze"
+  },
+  {
+    "id": "Sing_with_the_Tide",
+    "slug": "Sing_with_the_Tide",
+    "portrait": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Portrait/Selena/UI_Portrait_Selena_01_128.webp",
+    "displayName": "汐语 赛琳娜|与海潮同歌",
+    "shortDesc": "在吟游形态时，可以在移动期间将技能裹入泡沫之中，当泡沫破裂时，在对应的位置使用一次对应技能，并铺设海潮。在高歌形态时，则能够站在海潮里造成更高额的伤害",
+    "traitTitle": "与海潮同歌",
+    "heroName": "汐语|赛琳娜",
+    "heroDescription": "在吟游形态时，可以在移动期间将技能裹入泡沫之中，当泡沫破裂时，在对应的位置使用一次对应技能，并铺设海潮。在高歌形态时，则能够站在海潮里造成更高额的伤害\n冰环术",
+    "traits": [
+      {
+        "name": "与海潮同歌",
+        "requiredLevel": 1,
+        "effects": [
+          "点击特性槽位切换吟游和高歌状态",
+          "吟游状态下，无法使用攻击引导和攻击位移技能",
+          "吟游状态下，使用法术引导技能时允许移动，额外 -20% 引导技能伤害",
+          "吟游状态下，移动时自动引导核心技能",
+          "吟游状态下，所有非瞬发且非位移类技能会转变为引导技能吟游之歌。吟游之歌引导至满层时失去所有引导层数，释放一个泡沫。泡沫碰到敌人时破裂，在破裂的位置使用一次对应技能。",
+          "泡沫会在破裂和碰撞到的敌人脚下留下海潮，持续 6 秒",
+          "高歌状态下，额外 -20% 攻击和施法速度，额外 -20% 移动速度，额外 +50% 海潮效果",
+          "接触海潮时，获得海潮效果：无视与敌人的体积碰撞，额外 +15% 伤害，持续 4 秒"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Selena/UI_Selena011.webp"
+      },
+      {
+        "name": "海面下的抒情曲",
+        "requiredLevel": 45,
+        "effects": [
+          "海潮的范围不再受技能范围影响",
+          "对技能范围增加或减少的 100% 作用于海潮效果，最多 (+90/+100/+110/+120/+130)%"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Selena/UI_Selena021.webp"
+      },
+      {
+        "name": "水波上的咏叹调",
+        "requiredLevel": 45,
+        "effects": [
+          "海潮提供额外效果：对海潮上的敌人额外 (+10/+13/+16/+19/+22)% 伤害",
+          "吟游状态下，泡沫不再留下海潮，你会对经过的路径和碰撞到的敌人脚下留下海潮，持续 4 秒"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Selena/UI_Selena022.webp"
+      },
+      {
+        "name": "海沫的夜曲",
+        "requiredLevel": 60,
+        "effects": [
+          "每有 +1 引导层数上限或下限，(+12/+14/+16/+18/+20)% 泡沫飞行速度，额外 (+16/+18/+20/+22/+24)% 海潮效果，最多叠加 5 次",
+          "引导层数下限对吟游之歌生效两次"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Selena/UI_Selena031.webp"
+      },
+      {
+        "name": "海潮的牧歌",
+        "requiredLevel": 60,
+        "effects": [
+          "海潮提供额外效果：每在海潮上移动 1 米，在海潮上时，额外 (+1/1.3/1.6/1.9/2.2)% 伤害，最多叠加 15 层，持续至失去所有海潮",
+          "失去所有海潮时，自动切换至吟游"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Selena/UI_Selena032.webp"
+      },
+      {
+        "name": "沉没一切的船歌",
+        "requiredLevel": 75,
+        "effects": [
+          "每在高歌状态持续 1 秒，(+25/+35/+45/+55/+65)% 海潮范围，(+25/+35/+45/+55/+65)% 海潮效果，最多叠加 2 次，持续至失去所有海潮或离开高歌状态"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Selena/UI_Selena041.webp"
+      },
+      {
+        "name": "流向远方的汐语",
+        "requiredLevel": 75,
+        "effects": [
+          "吟游状态下，(-50/-50/-50/-50/-40)% 海潮持续时间，额外 (+60/+70/+80/+90/+100)% 海潮效果"
+        ],
+        "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/HeroTraits/Selena/UI_Selena042.webp"
+      }
+    ],
+    "sourceUrl": "https://tlidb.com/cn/Sing_with_the_Tide"
+  }
+]
