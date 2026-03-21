@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "sync:active-skill-tags": "python ../run_data_tasks.py active-skill-tags"
   },
   "dependencies": {
     "vue": "^3.4.0",

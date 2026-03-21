@@ -68,6 +68,7 @@
 .app-main {
   flex: 1;
   background: #0f0f1a;
-  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 </style>

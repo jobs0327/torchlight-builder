@@ -1,0 +1,2127 @@
+{
+  "source": "https://tlidb.com/cn/Active_Skill",
+  "updatedAt": "2026-03-21T10:58:04.692264Z",
+  "count": 39,
+  "tags": [
+    "力量",
+    "敏捷",
+    "智慧",
+    "物理",
+    "火焰",
+    "冰冷",
+    "闪电",
+    "腐蚀",
+    "攻击",
+    "法术",
+    "位移",
+    "近战",
+    "破击",
+    "范围",
+    "投射物",
+    "远程",
+    "直射",
+    "战吼",
+    "持续",
+    "回复",
+    "引导",
+    "挥斩",
+    "防护",
+    "连锁",
+    "抛射",
+    "地面",
+    "坠落",
+    "激发",
+    "轰炸",
+    "影袭",
+    "哨卫",
+    "射线",
+    "召唤",
+    "智械",
+    "诅咒",
+    "基础技能",
+    "强化技能",
+    "终极技能",
+    "连携"
+  ],
+  "activeSkillCount": 153,
+  "activeSkills": [
+    {
+      "id": "Leap_Attack",
+      "name": "跃击",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_Leapslam_128.webp",
+      "tags": [
+        "位移",
+        "攻击",
+        "近战",
+        "物理",
+        "破击",
+        "范围",
+        "力量"
+      ],
+      "localIconUrl": "/assets/skills/active/Leap_Attack.webp"
+    },
+    {
+      "id": "Ice_Shot",
+      "name": "寒冰射击",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_Iceshot_128.webp",
+      "tags": [
+        "冰冷",
+        "投射物",
+        "攻击",
+        "远程",
+        "范围",
+        "直射",
+        "敏捷"
+      ],
+      "localIconUrl": "/assets/skills/active/Ice_Shot.webp"
+    },
+    {
+      "id": "Hammer_of_Ash",
+      "name": "灰烬之锤",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_Emberslam_128.webp",
+      "tags": [
+        "范围",
+        "火焰",
+        "攻击",
+        "投射物",
+        "近战",
+        "破击",
+        "直射",
+        "力量"
+      ],
+      "localIconUrl": "/assets/skills/active/Hammer_of_Ash.webp"
+    },
+    {
+      "id": "Chromatic_Shot",
+      "name": "五彩魔矢",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_Prismaticbolt_128.webp",
+      "tags": [
+        "法术",
+        "投射物",
+        "冰冷",
+        "腐蚀",
+        "火焰",
+        "闪电",
+        "物理",
+        "直射",
+        "力量",
+        "敏捷",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Chromatic_Shot.webp"
+    },
+    {
+      "id": "Resurrection_Warcry",
+      "name": "复苏战吼",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_Bang_128.webp",
+      "tags": [
+        "战吼",
+        "范围",
+        "持续",
+        "回复"
+      ],
+      "localIconUrl": "/assets/skills/active/Resurrection_Warcry.webp"
+    },
+    {
+      "id": "Whirlwind",
+      "name": "旋风斩",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_Cyclone_128.webp",
+      "tags": [
+        "攻击",
+        "近战",
+        "范围",
+        "引导",
+        "物理",
+        "挥斩",
+        "力量",
+        "敏捷"
+      ],
+      "localIconUrl": "/assets/skills/active/Whirlwind.webp"
+    },
+    {
+      "id": "Focused_Slash",
+      "name": "专注斩",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_FocusedStrike_128.webp",
+      "tags": [
+        "攻击",
+        "近战",
+        "范围",
+        "物理",
+        "挥斩",
+        "力量",
+        "敏捷"
+      ],
+      "localIconUrl": "/assets/skills/active/Focused_Slash.webp"
+    },
+    {
+      "id": "Stoneskin",
+      "name": "石肤术",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_StoneSkin_128.webp",
+      "tags": [
+        "持续",
+        "防护",
+        "法术"
+      ],
+      "localIconUrl": "/assets/skills/active/Stoneskin.webp"
+    },
+    {
+      "id": "Thundercloud",
+      "name": "雷云放射",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_Nimbus_128.webp",
+      "tags": [
+        "法术",
+        "持续",
+        "闪电",
+        "引导",
+        "范围",
+        "连锁",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Thundercloud.webp"
+    },
+    {
+      "id": "Blink",
+      "name": "闪现",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_Blink_Icon_128.webp",
+      "tags": [
+        "位移",
+        "法术"
+      ],
+      "localIconUrl": "/assets/skills/active/Blink.webp"
+    },
+    {
+      "id": "Bombard",
+      "name": "炮轰",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_Strafe_128.webp",
+      "tags": [
+        "攻击",
+        "投射物",
+        "范围",
+        "火焰",
+        "远程",
+        "抛射",
+        "力量"
+      ],
+      "localIconUrl": "/assets/skills/active/Bombard.webp"
+    },
+    {
+      "id": "Shadow_Shot",
+      "name": "暗影弹",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_Shadowbolt_128.webp",
+      "tags": [
+        "法术",
+        "腐蚀",
+        "范围",
+        "投射物",
+        "直射",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Shadow_Shot.webp"
+    },
+    {
+      "id": "Shadow_Swamp",
+      "name": "暗影之沼",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_Shadowswamp_128.webp",
+      "tags": [
+        "法术",
+        "腐蚀",
+        "范围",
+        "持续",
+        "地面",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Shadow_Swamp.webp"
+    },
+    {
+      "id": "Marked_Rain_of_Arrows",
+      "name": "标记箭雨",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_MarkerArrow_Icon_128.webp",
+      "tags": [
+        "攻击",
+        "火焰",
+        "范围",
+        "持续",
+        "远程",
+        "投射物",
+        "直射",
+        "坠落",
+        "敏捷"
+      ],
+      "localIconUrl": "/assets/skills/active/Marked_Rain_of_Arrows.webp"
+    },
+    {
+      "id": "Bull%27s_Rage",
+      "name": "公牛之怒",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_WildRage_128.webp",
+      "tags": [
+        "持续",
+        "法术",
+        "激发"
+      ],
+      "localIconUrl": "/assets/skills/active/Bull_27s_Rage.webp"
+    },
+    {
+      "id": "Shadow_Dash",
+      "name": "暗影冲刺",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_ShadowDash_Icon_128.webp",
+      "tags": [
+        "法术",
+        "位移",
+        "持续",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/active/Shadow_Dash.webp"
+    },
+    {
+      "id": "Frost_Shield",
+      "name": "寒冰盾",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_IceShield_128.webp",
+      "tags": [
+        "法术",
+        "持续",
+        "冰冷",
+        "防护"
+      ],
+      "localIconUrl": "/assets/skills/active/Frost_Shield.webp"
+    },
+    {
+      "id": "Rocket_Jump",
+      "name": "火箭跳",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_RocketJump_128.webp",
+      "tags": [
+        "位移",
+        "远程",
+        "攻击",
+        "范围",
+        "火焰",
+        "力量"
+      ],
+      "localIconUrl": "/assets/skills/active/Rocket_Jump.webp"
+    },
+    {
+      "id": "Split_Firebolt",
+      "name": "裂变火球",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_Fireball_128.webp",
+      "tags": [
+        "法术",
+        "投射物",
+        "火焰",
+        "范围",
+        "直射",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Split_Firebolt.webp"
+    },
+    {
+      "id": "Blizzard",
+      "name": "暴风雪",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_Blizzard_128.webp",
+      "tags": [
+        "法术",
+        "冰冷",
+        "范围",
+        "轰炸",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Blizzard.webp"
+    },
+    {
+      "id": "Obscure",
+      "name": "模糊",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_Blur_Icon_128.webp",
+      "tags": [
+        "持续",
+        "防护",
+        "法术"
+      ],
+      "localIconUrl": "/assets/skills/active/Obscure.webp"
+    },
+    {
+      "id": "Mana_Boil",
+      "name": "魔力沸腾",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_BoilingMana_128.webp",
+      "tags": [
+        "法术",
+        "激发"
+      ],
+      "localIconUrl": "/assets/skills/active/Mana_Boil.webp"
+    },
+    {
+      "id": "Frost_Impact",
+      "name": "寒霜破击",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_IceCrash_128.webp",
+      "tags": [
+        "攻击",
+        "近战",
+        "范围",
+        "冰冷",
+        "破击",
+        "力量",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Frost_Impact.webp"
+    },
+    {
+      "id": "Path_of_Flames",
+      "name": "烈焰之径",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_FlameRoad_128.webp",
+      "tags": [
+        "法术",
+        "火焰",
+        "引导",
+        "持续",
+        "范围",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Path_of_Flames.webp"
+    },
+    {
+      "id": "Berserking_Blade",
+      "name": "暴走巨刃",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_ViolentSweep_128.webp",
+      "tags": [
+        "攻击",
+        "近战",
+        "范围",
+        "物理",
+        "挥斩",
+        "持续",
+        "力量",
+        "敏捷"
+      ],
+      "localIconUrl": "/assets/skills/active/Berserking_Blade.webp"
+    },
+    {
+      "id": "Charged_Pummel",
+      "name": "充能猛击",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_ChargedSmash_128.webp",
+      "tags": [
+        "攻击",
+        "近战",
+        "范围",
+        "引导",
+        "闪电",
+        "破击",
+        "持续",
+        "力量"
+      ],
+      "localIconUrl": "/assets/skills/active/Charged_Pummel.webp"
+    },
+    {
+      "id": "Chain_Lightning",
+      "name": "闪电链",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_LightningChain_128.webp",
+      "tags": [
+        "法术",
+        "闪电",
+        "连锁",
+        "敏捷",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Chain_Lightning.webp"
+    },
+    {
+      "id": "Double_Thrusts",
+      "name": "双重突刺",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_DoubleStab_128.webp",
+      "tags": [
+        "攻击",
+        "近战",
+        "物理",
+        "影袭",
+        "范围",
+        "敏捷"
+      ],
+      "localIconUrl": "/assets/skills/active/Double_Thrusts.webp"
+    },
+    {
+      "id": "Mind_Control",
+      "name": "摄念夺识",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_LifeLeech_128.webp",
+      "tags": [
+        "法术",
+        "腐蚀",
+        "引导",
+        "持续",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Mind_Control.webp"
+    },
+    {
+      "id": "Ring_of_Ice",
+      "name": "冰环术",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_IceRing_128.webp",
+      "tags": [
+        "法术",
+        "冰冷",
+        "范围",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Ring_of_Ice.webp"
+    },
+    {
+      "id": "Split_Shot",
+      "name": "分裂射击",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_SplitArrow_128.webp",
+      "tags": [
+        "攻击",
+        "投射物",
+        "物理",
+        "远程",
+        "直射",
+        "敏捷"
+      ],
+      "localIconUrl": "/assets/skills/active/Split_Shot.webp"
+    },
+    {
+      "id": "Flame_Slash",
+      "name": "烈焰斩",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_FlameSlash_128.webp",
+      "tags": [
+        "攻击",
+        "近战",
+        "范围",
+        "火焰",
+        "挥斩",
+        "力量"
+      ],
+      "localIconUrl": "/assets/skills/active/Flame_Slash.webp"
+    },
+    {
+      "id": "Icy_Blade",
+      "name": "冰凌斩",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_FrostSlash_128.webp",
+      "tags": [
+        "攻击",
+        "近战",
+        "范围",
+        "冰冷",
+        "挥斩",
+        "力量",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Icy_Blade.webp"
+    },
+    {
+      "id": "Frost_Spike",
+      "name": "碎冰刺击",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_FrostStab_128.webp",
+      "tags": [
+        "攻击",
+        "近战",
+        "投射物",
+        "影袭",
+        "冰冷",
+        "范围",
+        "直射",
+        "敏捷",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Frost_Spike.webp"
+    },
+    {
+      "id": "Wilt_Spike",
+      "name": "凋零刺击",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_ViperStab_128.webp",
+      "tags": [
+        "攻击",
+        "近战",
+        "影袭",
+        "腐蚀",
+        "范围",
+        "持续",
+        "敏捷"
+      ],
+      "localIconUrl": "/assets/skills/active/Wilt_Spike.webp"
+    },
+    {
+      "id": "Lightning_Shot",
+      "name": "闪电射击",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_LightningShoot_Icon_128.webp",
+      "tags": [
+        "攻击",
+        "远程",
+        "投射物",
+        "闪电",
+        "连锁",
+        "直射",
+        "敏捷"
+      ],
+      "localIconUrl": "/assets/skills/active/Lightning_Shot.webp"
+    },
+    {
+      "id": "Corrosive_Shot",
+      "name": "侵蚀弹",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_PoisonBullet_128.webp",
+      "tags": [
+        "攻击",
+        "腐蚀",
+        "范围",
+        "持续",
+        "远程",
+        "投射物",
+        "抛射",
+        "地面",
+        "敏捷"
+      ],
+      "localIconUrl": "/assets/skills/active/Corrosive_Shot.webp"
+    },
+    {
+      "id": "Burning_Shot",
+      "name": "燃烧射击",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_FireShoot_Icon_128.webp",
+      "tags": [
+        "攻击",
+        "远程",
+        "范围",
+        "投射物",
+        "火焰",
+        "直射",
+        "敏捷"
+      ],
+      "localIconUrl": "/assets/skills/active/Burning_Shot.webp"
+    },
+    {
+      "id": "Electrifying_Shot",
+      "name": "电光弹",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_LightningBullet_128.webp",
+      "tags": [
+        "攻击",
+        "远程",
+        "投射物",
+        "闪电",
+        "直射",
+        "敏捷"
+      ],
+      "localIconUrl": "/assets/skills/active/Electrifying_Shot.webp"
+    },
+    {
+      "id": "Corrosive_Throw",
+      "name": "侵蚀投掷",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_VenomThrow_128.webp",
+      "tags": [
+        "攻击",
+        "远程",
+        "投射物",
+        "腐蚀",
+        "直射",
+        "敏捷"
+      ],
+      "localIconUrl": "/assets/skills/active/Corrosive_Throw.webp"
+    },
+    {
+      "id": "Inexhaustible_Barrage",
+      "name": "不竭弹雨",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_ChargedRainOfBullets_Icon_128.webp",
+      "tags": [
+        "攻击",
+        "投射物",
+        "物理",
+        "引导",
+        "范围",
+        "持续",
+        "坠落",
+        "远程",
+        "轰炸",
+        "敏捷"
+      ],
+      "localIconUrl": "/assets/skills/active/Inexhaustible_Barrage.webp"
+    },
+    {
+      "id": "Rain_of_Arrows",
+      "name": "箭雨",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_RainOfArrows_Icon_128.webp",
+      "tags": [
+        "攻击",
+        "远程",
+        "物理",
+        "范围",
+        "投射物",
+        "坠落",
+        "敏捷"
+      ],
+      "localIconUrl": "/assets/skills/active/Rain_of_Arrows.webp"
+    },
+    {
+      "id": "Savage_Charge",
+      "name": "野蛮冲锋",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_SavageCharge_128.webp",
+      "tags": [
+        "攻击",
+        "近战",
+        "物理",
+        "破击",
+        "引导",
+        "范围",
+        "力量",
+        "敏捷"
+      ],
+      "localIconUrl": "/assets/skills/active/Savage_Charge.webp"
+    },
+    {
+      "id": "Ice_Lances",
+      "name": "冰锥术",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_ConeOfCold_128.webp",
+      "tags": [
+        "法术",
+        "投射物",
+        "冰冷",
+        "直射",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Ice_Lances.webp"
+    },
+    {
+      "id": "Sparkle",
+      "name": "电火花",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_SparkBullet_128.webp",
+      "tags": [
+        "法术",
+        "投射物",
+        "闪电",
+        "范围",
+        "直射",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Sparkle.webp"
+    },
+    {
+      "id": "Ring_of_Blades",
+      "name": "环绕飞刃",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SKill_DiffusionBlade_Icon_128.webp",
+      "tags": [
+        "法术",
+        "引导",
+        "物理",
+        "范围",
+        "持续",
+        "投射物",
+        "直射",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Ring_of_Blades.webp"
+    },
+    {
+      "id": "Flame_Core",
+      "name": "聚焰之核",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_FirePile_Icon_128.webp",
+      "tags": [
+        "法术",
+        "范围",
+        "火焰",
+        "持续",
+        "哨卫",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Flame_Core.webp"
+    },
+    {
+      "id": "Lightning_Storm",
+      "name": "闪电风暴",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_ThunderStorm_128.webp",
+      "tags": [
+        "法术",
+        "闪电",
+        "范围",
+        "持续",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Lightning_Storm.webp"
+    },
+    {
+      "id": "Flame_Jet",
+      "name": "烈焰释放",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_FlameBlast_128.webp",
+      "tags": [
+        "法术",
+        "火焰",
+        "范围",
+        "持续",
+        "投射物",
+        "抛射",
+        "地面",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Flame_Jet.webp"
+    },
+    {
+      "id": "Frost_Terra",
+      "name": "寒霜地面",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_IceArea_128.webp",
+      "tags": [
+        "法术",
+        "冰冷",
+        "范围",
+        "持续",
+        "地面",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Frost_Terra.webp"
+    },
+    {
+      "id": "Scorching_Beam",
+      "name": "灼热射线",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_FireRay_Icon_128.webp",
+      "tags": [
+        "法术",
+        "火焰",
+        "引导",
+        "范围",
+        "射线",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Scorching_Beam.webp"
+    },
+    {
+      "id": "Wilting_Beam",
+      "name": "枯萎射线",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_ChaosRay_Icon_128.webp",
+      "tags": [
+        "法术",
+        "引导",
+        "腐蚀",
+        "持续",
+        "范围",
+        "射线",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Wilting_Beam.webp"
+    },
+    {
+      "id": "Frigid_Transmission",
+      "name": "寒冰传送",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_IceBlink_128.webp",
+      "tags": [
+        "法术",
+        "冰冷",
+        "范围",
+        "位移",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Frigid_Transmission.webp"
+    },
+    {
+      "id": "Forced_Start",
+      "name": "强制启动",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_ForceCharge_Icon_128.webp",
+      "tags": [
+        "法术",
+        "持续",
+        "防护"
+      ],
+      "localIconUrl": "/assets/skills/active/Forced_Start.webp"
+    },
+    {
+      "id": "Aegis_of_Fire",
+      "name": "烈火神盾",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_FireShield_Icon_128.webp",
+      "tags": [
+        "法术",
+        "持续",
+        "火焰",
+        "防护"
+      ],
+      "localIconUrl": "/assets/skills/active/Aegis_of_Fire.webp"
+    },
+    {
+      "id": "Delayed_Pain",
+      "name": "痛觉延迟",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_PainDelay_Icon_128.webp",
+      "tags": [
+        "法术",
+        "持续",
+        "防护"
+      ],
+      "localIconUrl": "/assets/skills/active/Delayed_Pain.webp"
+    },
+    {
+      "id": "Defensive_Buffer",
+      "name": "缓冲防御",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_BufferDefense_Icon_128.webp",
+      "tags": [
+        "法术",
+        "持续",
+        "防护"
+      ],
+      "localIconUrl": "/assets/skills/active/Defensive_Buffer.webp"
+    },
+    {
+      "id": "Brisk_Wind",
+      "name": "迅疾之风",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_SwiftWind_Icon_128.webp",
+      "tags": [
+        "法术",
+        "持续",
+        "防护"
+      ],
+      "localIconUrl": "/assets/skills/active/Brisk_Wind.webp"
+    },
+    {
+      "id": "Burst_of_Anger",
+      "name": "怒火狂飙",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_Bloodlust_Icon_128.webp",
+      "tags": [
+        "法术",
+        "持续",
+        "激发"
+      ],
+      "localIconUrl": "/assets/skills/active/Burst_of_Anger.webp"
+    },
+    {
+      "id": "Scorching_Pulse",
+      "name": "灼热波纹",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_BurningWave_Icon_128.webp",
+      "tags": [
+        "法术",
+        "范围",
+        "火焰",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Scorching_Pulse.webp"
+    },
+    {
+      "id": "Fixate",
+      "name": "聚焦",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_Concentrate_Icon_128.webp",
+      "tags": [
+        "法术",
+        "范围",
+        "持续",
+        "激发"
+      ],
+      "localIconUrl": "/assets/skills/active/Fixate.webp"
+    },
+    {
+      "id": "Secret_Origin_Unleash",
+      "name": "秘源释放",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_ArcaneSurge_Icon_128.webp",
+      "tags": [
+        "法术",
+        "持续",
+        "激发"
+      ],
+      "localIconUrl": "/assets/skills/active/Secret_Origin_Unleash.webp"
+    },
+    {
+      "id": "Aim",
+      "name": "瞄准",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_Aiming_Icon_128.webp",
+      "tags": [
+        "法术",
+        "持续",
+        "激发"
+      ],
+      "localIconUrl": "/assets/skills/active/Aim.webp"
+    },
+    {
+      "id": "Blurry_Steps",
+      "name": "迷踪步",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_PhasingWalk_Icon_128.webp",
+      "tags": [
+        "法术",
+        "持续",
+        "激发"
+      ],
+      "localIconUrl": "/assets/skills/active/Blurry_Steps.webp"
+    },
+    {
+      "id": "Groundshaker",
+      "name": "震撼大地",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_EarthShock_Icon_128.webp",
+      "tags": [
+        "攻击",
+        "近战",
+        "范围",
+        "物理",
+        "破击",
+        "力量"
+      ],
+      "localIconUrl": "/assets/skills/active/Groundshaker.webp"
+    },
+    {
+      "id": "Focused_Shot",
+      "name": "专注射击",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_FocusedShoot_Icon_128.webp",
+      "tags": [
+        "攻击",
+        "远程",
+        "物理",
+        "投射物",
+        "直射",
+        "敏捷"
+      ],
+      "localIconUrl": "/assets/skills/active/Focused_Shot.webp"
+    },
+    {
+      "id": "Fire_Burst",
+      "name": "爆炎术",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_FireBlast_Icon_128.webp",
+      "tags": [
+        "法术",
+        "范围",
+        "火焰",
+        "力量",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Fire_Burst.webp"
+    },
+    {
+      "id": "Thunderbolt_Overload",
+      "name": "超载雷球",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_OverloadLightningBall_Icon_128.webp",
+      "tags": [
+        "法术",
+        "范围",
+        "闪电",
+        "投射物",
+        "抛射",
+        "物理",
+        "敏捷",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Thunderbolt_Overload.webp"
+    },
+    {
+      "id": "Fearless_Warcry",
+      "name": "狂猛战吼",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_WildCry_128.webp",
+      "tags": [
+        "战吼",
+        "范围",
+        "持续"
+      ],
+      "localIconUrl": "/assets/skills/active/Fearless_Warcry.webp"
+    },
+    {
+      "id": "Raging_Warcry",
+      "name": "暴怒战吼",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_RageCry_128.webp",
+      "tags": [
+        "战吼",
+        "范围",
+        "持续"
+      ],
+      "localIconUrl": "/assets/skills/active/Raging_Warcry.webp"
+    },
+    {
+      "id": "Charging_Warcry",
+      "name": "冲锋战吼",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_AncestralCry_128.webp",
+      "tags": [
+        "战吼",
+        "范围",
+        "持续"
+      ],
+      "localIconUrl": "/assets/skills/active/Charging_Warcry.webp"
+    },
+    {
+      "id": "Black_Hole",
+      "name": "黑洞",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_BlackHole_128.webp",
+      "tags": [
+        "法术",
+        "范围",
+        "持续",
+        "腐蚀",
+        "激发"
+      ],
+      "localIconUrl": "/assets/skills/active/Black_Hole.webp"
+    },
+    {
+      "id": "Summon_Machine_Guard",
+      "name": "召唤机械警卫",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_SummonMechanicalGuard_Icon_128.webp",
+      "tags": [
+        "法术",
+        "召唤",
+        "持续",
+        "物理",
+        "智械",
+        "力量",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Summon_Machine_Guard.webp"
+    },
+    {
+      "id": "Summon_Spider_Tank",
+      "name": "召唤蜘蛛坦克",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_SummonIceSpiderTank_Icon_128.webp",
+      "tags": [
+        "法术",
+        "召唤",
+        "持续",
+        "物理",
+        "智械",
+        "敏捷",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Summon_Spider_Tank.webp"
+    },
+    {
+      "id": "Timid",
+      "name": "胆怯",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_ElementBreak_Icon_128.webp",
+      "tags": [
+        "法术",
+        "范围",
+        "持续",
+        "诅咒"
+      ],
+      "localIconUrl": "/assets/skills/active/Timid.webp"
+    },
+    {
+      "id": "Electrocute",
+      "name": "感电",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_Conductivity_Icon_128.webp",
+      "tags": [
+        "法术",
+        "范围",
+        "持续",
+        "闪电",
+        "诅咒"
+      ],
+      "localIconUrl": "/assets/skills/active/Electrocute.webp"
+    },
+    {
+      "id": "Vulnerability",
+      "name": "易伤",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_Vulnerable_Icon_128.webp",
+      "tags": [
+        "法术",
+        "范围",
+        "持续",
+        "物理",
+        "诅咒"
+      ],
+      "localIconUrl": "/assets/skills/active/Vulnerability.webp"
+    },
+    {
+      "id": "Scorch",
+      "name": "炽热",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_Blazing_Icon_128.webp",
+      "tags": [
+        "法术",
+        "范围",
+        "持续",
+        "火焰",
+        "诅咒"
+      ],
+      "localIconUrl": "/assets/skills/active/Scorch.webp"
+    },
+    {
+      "id": "Dazzled",
+      "name": "盲目",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_Blind_Icon_128.webp",
+      "tags": [
+        "法术",
+        "范围",
+        "持续",
+        "诅咒"
+      ],
+      "localIconUrl": "/assets/skills/active/Dazzled.webp"
+    },
+    {
+      "id": "Entangled_Pain",
+      "name": "苦痛纠缠",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_EntanglingPain_Icon_128.webp",
+      "tags": [
+        "法术",
+        "范围",
+        "持续",
+        "诅咒"
+      ],
+      "localIconUrl": "/assets/skills/active/Entangled_Pain.webp"
+    },
+    {
+      "id": "Biting_Cold",
+      "name": "蚀骨之寒",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_ErodingCold_Icon_128.webp",
+      "tags": [
+        "法术",
+        "范围",
+        "持续",
+        "冰冷",
+        "诅咒"
+      ],
+      "localIconUrl": "/assets/skills/active/Biting_Cold.webp"
+    },
+    {
+      "id": "Corruption",
+      "name": "邪恶侵蚀",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_ErodingEvil_Icon_128.webp",
+      "tags": [
+        "法术",
+        "范围",
+        "持续",
+        "腐蚀",
+        "诅咒"
+      ],
+      "localIconUrl": "/assets/skills/active/Corruption.webp"
+    },
+    {
+      "id": "Life_Source",
+      "name": "生命源泉",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_HealthFountain_Icon_128.webp",
+      "tags": [
+        "回复"
+      ],
+      "localIconUrl": "/assets/skills/active/Life_Source.webp"
+    },
+    {
+      "id": "Mana_Source",
+      "name": "魔力源泉",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_ManaFountain_Icon_128.webp",
+      "tags": [
+        "回复"
+      ],
+      "localIconUrl": "/assets/skills/active/Mana_Source.webp"
+    },
+    {
+      "id": "Elemental_Shock",
+      "name": "元素震荡",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_ElementShake_Icon_128.webp",
+      "tags": [
+        "法术",
+        "持续",
+        "召唤",
+        "激发"
+      ],
+      "localIconUrl": "/assets/skills/active/Elemental_Shock.webp"
+    },
+    {
+      "id": "Machine_Army",
+      "name": "机械行军",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_MarchOfMachines_Icon_128.webp",
+      "tags": [
+        "法术",
+        "持续",
+        "召唤",
+        "激发"
+      ],
+      "localIconUrl": "/assets/skills/active/Machine_Army.webp"
+    },
+    {
+      "id": "Prayer",
+      "name": "祈愿",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_Pray_Icon_128.webp",
+      "tags": [
+        "法术",
+        "持续",
+        "召唤",
+        "防护"
+      ],
+      "localIconUrl": "/assets/skills/active/Prayer.webp"
+    },
+    {
+      "id": "Dark_Gate",
+      "name": "黑暗之门",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_DarkPortal_Icon_128.webp",
+      "tags": [
+        "法术",
+        "持续",
+        "召唤",
+        "激发"
+      ],
+      "localIconUrl": "/assets/skills/active/Dark_Gate.webp"
+    },
+    {
+      "id": "Thunderlight_Bond",
+      "name": "雷光羁绊",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ThunderArea_Icon_128.webp",
+      "tags": [
+        "法术",
+        "持续",
+        "闪电",
+        "激发",
+        "范围",
+        "哨卫"
+      ],
+      "localIconUrl": "/assets/skills/active/Thunderlight_Bond.webp"
+    },
+    {
+      "id": "Arcane_Circle",
+      "name": "秘法阵",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SoulStealArea_Icon_128.webp",
+      "tags": [
+        "法术",
+        "持续",
+        "范围",
+        "激发"
+      ],
+      "localIconUrl": "/assets/skills/active/Arcane_Circle.webp"
+    },
+    {
+      "id": "Ice_Bond",
+      "name": "冰霜羁绊",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FrostTether_Icon_128.webp",
+      "tags": [
+        "法术",
+        "持续",
+        "冰冷",
+        "激发",
+        "哨卫",
+        "范围",
+        "射线"
+      ],
+      "localIconUrl": "/assets/skills/active/Ice_Bond.webp"
+    },
+    {
+      "id": "Drinking_Recovery",
+      "name": "渴饮疗愈",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_BornFromDeath_Icon_128.webp",
+      "tags": [
+        "回复"
+      ]
+    },
+    {
+      "id": "Reform",
+      "name": "重整阵势",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Regroup_Icon_128.webp",
+      "tags": [
+        "法术",
+        "持续",
+        "防护"
+      ],
+      "localIconUrl": "/assets/skills/active/Reform.webp"
+    },
+    {
+      "id": "Centralized_Loading",
+      "name": "集中上膛",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_QuickReload_Icon_128.webp",
+      "tags": [
+        "攻击",
+        "远程",
+        "位移",
+        "持续"
+      ],
+      "localIconUrl": "/assets/skills/active/Centralized_Loading.webp"
+    },
+    {
+      "id": "Blink_Arrow",
+      "name": "瞬闪弓",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FlashBow_Icon_128.webp",
+      "tags": [
+        "攻击",
+        "物理",
+        "远程",
+        "投射物",
+        "直射",
+        "位移",
+        "敏捷"
+      ],
+      "localIconUrl": "/assets/skills/active/Blink_Arrow.webp"
+    },
+    {
+      "id": "Swift_Shadow_Raid",
+      "name": "迅影奔袭",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_CutForward_Icon_128.webp",
+      "tags": [
+        "攻击",
+        "范围",
+        "物理",
+        "位移",
+        "敏捷"
+      ],
+      "localIconUrl": "/assets/skills/active/Swift_Shadow_Raid.webp"
+    },
+    {
+      "id": "Safeguard_Ring",
+      "name": "绝境阵",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_DesperateFormation_Icon_128.webp",
+      "tags": [
+        "法术",
+        "范围",
+        "持续",
+        "哨卫",
+        "防护"
+      ],
+      "localIconUrl": "/assets/skills/active/Safeguard_Ring.webp"
+    },
+    {
+      "id": "Icebound_Beam",
+      "name": "冰魄射线",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_IceRay_Icon_128.webp",
+      "tags": [
+        "法术",
+        "引导",
+        "冰冷",
+        "投射物",
+        "直射",
+        "射线",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Icebound_Beam.webp"
+    },
+    {
+      "id": "Spiral_Strike",
+      "name": "螺旋击",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_WhirlingBlade_Icon_128.webp",
+      "tags": [
+        "攻击",
+        "腐蚀",
+        "范围",
+        "近战",
+        "位移",
+        "敏捷"
+      ],
+      "localIconUrl": "/assets/skills/active/Spiral_Strike.webp"
+    },
+    {
+      "id": "Compound_Source",
+      "name": "复合源泉",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_CombinedPotion_Icon_128.webp",
+      "tags": [
+        "回复"
+      ],
+      "localIconUrl": "/assets/skills/active/Compound_Source.webp"
+    },
+    {
+      "id": "Moon_Strike",
+      "name": "月华斩",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ShadowSlash_Icon_128.webp",
+      "tags": [
+        "攻击",
+        "范围",
+        "物理",
+        "近战",
+        "挥斩",
+        "敏捷",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Moon_Strike.webp"
+    },
+    {
+      "id": "Howling_Gale",
+      "name": "呼啸烈风",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Tornado_Icon_128.webp",
+      "tags": [
+        "法术",
+        "引导",
+        "物理",
+        "范围",
+        "持续",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Howling_Gale.webp"
+    },
+    {
+      "id": "Blazing_Bullet",
+      "name": "炽炎穿弹",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SabotRounds_Icon_128.webp",
+      "tags": [
+        "攻击",
+        "火焰",
+        "范围",
+        "远程",
+        "投射物",
+        "直射",
+        "力量",
+        "敏捷"
+      ],
+      "localIconUrl": "/assets/skills/active/Blazing_Bullet.webp"
+    },
+    {
+      "id": "Thunder_Slash",
+      "name": "雷影斩",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ThunderSlash_Icon_128.webp",
+      "tags": [
+        "攻击",
+        "闪电",
+        "范围",
+        "近战",
+        "挥斩",
+        "敏捷"
+      ],
+      "localIconUrl": "/assets/skills/active/Thunder_Slash.webp"
+    },
+    {
+      "id": "Thunder_Spike",
+      "name": "雷光刺击",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_LightningStab_Icon_128.webp",
+      "tags": [
+        "攻击",
+        "闪电",
+        "范围",
+        "近战",
+        "影袭",
+        "敏捷"
+      ],
+      "localIconUrl": "/assets/skills/active/Thunder_Spike.webp"
+    },
+    {
+      "id": "Haunting_Abomination",
+      "name": "恶煞缠身",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Doom_Icon_128.webp",
+      "tags": [
+        "法术",
+        "腐蚀",
+        "范围",
+        "持续",
+        "地面",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Haunting_Abomination.webp"
+    },
+    {
+      "id": "Frost_Core",
+      "name": "寒霜之核",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FrostCore_Icon_128.webp",
+      "tags": [
+        "法术",
+        "冰冷",
+        "持续",
+        "投射物",
+        "直射",
+        "哨卫",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Frost_Core.webp"
+    },
+    {
+      "id": "Thunder_Core",
+      "name": "雷降之核",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ThunderCore_Icon_128.webp",
+      "tags": [
+        "法术",
+        "闪电",
+        "持续",
+        "哨卫",
+        "连锁",
+        "范围",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Thunder_Core.webp"
+    },
+    {
+      "id": "Ghost_Blade_Einherjar",
+      "name": "幽刃英灵",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_GhostBladeSpirit_Icon_128.webp",
+      "tags": [
+        "攻击",
+        "远程",
+        "腐蚀",
+        "持续",
+        "哨卫",
+        "投射物",
+        "直射",
+        "范围",
+        "敏捷"
+      ],
+      "localIconUrl": "/assets/skills/active/Ghost_Blade_Einherjar.webp"
+    },
+    {
+      "id": "Arrow_Einherjar",
+      "name": "飞箭英灵",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ArrowSpirit_Icon_128.webp",
+      "tags": [
+        "攻击",
+        "物理",
+        "持续",
+        "哨卫",
+        "投射物",
+        "坠落",
+        "远程",
+        "范围",
+        "敏捷"
+      ],
+      "localIconUrl": "/assets/skills/active/Arrow_Einherjar.webp"
+    },
+    {
+      "id": "Summon_Grim_Phantom",
+      "name": "召唤幽浮魅影",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonPhantom_Icon_128.webp",
+      "tags": [
+        "法术",
+        "持续",
+        "闪电",
+        "召唤",
+        "智械",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Summon_Grim_Phantom.webp"
+    },
+    {
+      "id": "Overpower",
+      "name": "压制重击",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_SummonMechanicalGuard_Icon_128.webp",
+      "tags": [
+        "攻击",
+        "物理",
+        "范围",
+        "近战",
+        "力量",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Overpower.webp"
+    },
+    {
+      "id": "Onslaught_Punch",
+      "name": "进击之拳",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_SummonMechanicalGuard_Icon_128.webp",
+      "tags": [
+        "攻击",
+        "物理",
+        "范围",
+        "近战",
+        "力量",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Onslaught_Punch.webp"
+    },
+    {
+      "id": "Aimed_Shot",
+      "name": "瞄准射击",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_SummonIceSpiderTank_Icon_128.webp",
+      "tags": [
+        "攻击",
+        "物理",
+        "投射物",
+        "远程",
+        "直射",
+        "敏捷",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Aimed_Shot.webp"
+    },
+    {
+      "id": "Blazing_Dance",
+      "name": "烈焰挥舞",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_SummonFireElement_Icon_128.webp",
+      "tags": [
+        "基础技能",
+        "法术",
+        "火焰",
+        "范围",
+        "力量",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Blazing_Dance.webp"
+    },
+    {
+      "id": "Blazing_Spin",
+      "name": "烈焰飞旋",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_SummonFireElement_Icon_128.webp",
+      "tags": [
+        "激发",
+        "法术",
+        "火焰",
+        "范围",
+        "持续",
+        "力量",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Blazing_Spin.webp"
+    },
+    {
+      "id": "Blazing_Incineration",
+      "name": "烈焰暴燃",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_SummonFireElement_Icon_128.webp",
+      "tags": [
+        "强化技能",
+        "法术",
+        "火焰",
+        "范围",
+        "力量",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Blazing_Incineration.webp"
+    },
+    {
+      "id": "Molten_Rising",
+      "name": "熔火升腾",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_SummonFireElement_Icon_128.webp",
+      "tags": [
+        "终极技能",
+        "法术",
+        "火焰",
+        "范围",
+        "力量",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Molten_Rising.webp"
+    },
+    {
+      "id": "Glacier_Ripples",
+      "name": "冰川涟漪",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_SummonIceIceElement_Icon_128.webp",
+      "tags": [
+        "基础技能",
+        "法术",
+        "冰冷",
+        "范围",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Glacier_Ripples.webp"
+    },
+    {
+      "id": "Frost_Release",
+      "name": "寒潮缓释",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_SummonIceIceElement_Icon_128.webp",
+      "tags": [
+        "激发",
+        "法术",
+        "冰冷",
+        "范围",
+        "持续",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Frost_Release.webp"
+    },
+    {
+      "id": "Permafrost_Cast",
+      "name": "冰浇雪铸",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_SummonIceIceElement_Icon_128.webp",
+      "tags": [
+        "强化技能",
+        "法术",
+        "冰冷",
+        "范围",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Permafrost_Cast.webp"
+    },
+    {
+      "id": "Ice_Earthshaker",
+      "name": "撼地冰暴",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_SummonIceIceElement_Icon_128.webp",
+      "tags": [
+        "终极技能",
+        "法术",
+        "冰冷",
+        "范围",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Ice_Earthshaker.webp"
+    },
+    {
+      "id": "Lightning_Star",
+      "name": "闪电流星",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_SummonThunderElement_Icon_128.webp",
+      "tags": [
+        "基础技能",
+        "攻击",
+        "闪电",
+        "投射物",
+        "远程",
+        "直射",
+        "敏捷",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Lightning_Star.webp"
+    },
+    {
+      "id": "Thunderlight_Arrow",
+      "name": "雷光飞矢",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_SummonThunderElement_Icon_128.webp",
+      "tags": [
+        "强化技能",
+        "攻击",
+        "闪电",
+        "投射物",
+        "远程",
+        "直射",
+        "敏捷",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Thunderlight_Arrow.webp"
+    },
+    {
+      "id": "Thundercloud_Surge",
+      "name": "雷云激荡",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_SummonThunderElement_Icon_128.webp",
+      "tags": [
+        "激发",
+        "攻击",
+        "闪电",
+        "持续",
+        "敏捷",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Thundercloud_Surge.webp"
+    },
+    {
+      "id": "Lightning_Surge",
+      "name": "雷驰电涌",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_SummonThunderElement_Icon_128.webp",
+      "tags": [
+        "终极技能",
+        "攻击",
+        "闪电",
+        "投射物",
+        "远程",
+        "连锁",
+        "直射",
+        "敏捷",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Lightning_Surge.webp"
+    },
+    {
+      "id": "High_Energy_Beam",
+      "name": "高能光束",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonPhantom_Icon_128.webp",
+      "tags": [
+        "法术",
+        "闪电",
+        "范围",
+        "射线",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/High_Energy_Beam.webp"
+    },
+    {
+      "id": "Destructive_Light_Cannon",
+      "name": "毁灭光炮",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonPhantom_Icon_128.webp",
+      "tags": [
+        "法术",
+        "闪电",
+        "范围",
+        "射线",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Destructive_Light_Cannon.webp"
+    },
+    {
+      "id": "Whirlwind_Blade",
+      "name": "刀锋回旋",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_BladeRoundabout_Icon_128.webp",
+      "tags": [
+        "法术",
+        "物理",
+        "持续",
+        "范围",
+        "投射物",
+        "直射",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Whirlwind_Blade.webp"
+    },
+    {
+      "id": "Lightning_Beam",
+      "name": "雷暴射线",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ThunderstormRay_Icon_128.webp",
+      "tags": [
+        "法术",
+        "闪电",
+        "范围",
+        "持续",
+        "射线",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Lightning_Beam.webp"
+    },
+    {
+      "id": "Speed_Phantom",
+      "name": "迅法幻身",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_QuicklyPhantom_Icon_128.webp",
+      "tags": [
+        "法术",
+        "物理",
+        "范围",
+        "持续",
+        "激发",
+        "位移"
+      ],
+      "localIconUrl": "/assets/skills/active/Speed_Phantom.webp"
+    },
+    {
+      "id": "Archery_Bond",
+      "name": "射术羁绊",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ShootFetters_Icon_128.webp",
+      "tags": [
+        "法术",
+        "范围",
+        "持续",
+        "哨卫",
+        "激发"
+      ],
+      "localIconUrl": "/assets/skills/active/Archery_Bond.webp"
+    },
+    {
+      "id": "Nourishment_of_Life",
+      "name": "生息滋养",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_LifeNourish_Icon_128.webp",
+      "tags": [
+        "法术",
+        "持续",
+        "范围",
+        "召唤",
+        "激发"
+      ],
+      "localIconUrl": "/assets/skills/active/Nourishment_of_Life.webp"
+    },
+    {
+      "id": "Dazzling_Bloom",
+      "name": "夺目绽放",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_DazzlingBloom_Icon_128.webp",
+      "tags": [
+        "法术",
+        "持续",
+        "召唤",
+        "激发"
+      ],
+      "localIconUrl": "/assets/skills/active/Dazzling_Bloom.webp"
+    },
+    {
+      "id": "Star_Stalker",
+      "name": "追猎星芒",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FollowStar_Icon_128.webp",
+      "tags": [
+        "法术",
+        "投射物",
+        "范围",
+        "持续",
+        "激发"
+      ],
+      "localIconUrl": "/assets/skills/active/Star_Stalker.webp"
+    },
+    {
+      "id": "Harmonious_Field",
+      "name": "调谐力场",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_TuningField_Icon_128.webp",
+      "tags": [
+        "法术",
+        "引导",
+        "范围",
+        "持续",
+        "激发"
+      ],
+      "localIconUrl": "/assets/skills/active/Harmonious_Field.webp"
+    },
+    {
+      "id": "Shackles_of_Malice",
+      "name": "恶意枷锁",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SKill_EvilChain_Icon_128.webp",
+      "tags": [
+        "法术",
+        "腐蚀",
+        "连锁",
+        "范围",
+        "敏捷",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Shackles_of_Malice.webp"
+    },
+    {
+      "id": "Shattered_Stone",
+      "name": "裂石打击",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonRockElement_Icon_128.webp",
+      "tags": [
+        "基础技能",
+        "攻击",
+        "近战",
+        "物理",
+        "范围",
+        "力量",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Shattered_Stone.webp"
+    },
+    {
+      "id": "Gold_Rush",
+      "name": "聚石碎金",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonRockElement_Icon_128.webp",
+      "tags": [
+        "激发",
+        "攻击",
+        "物理",
+        "范围",
+        "持续",
+        "力量",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Gold_Rush.webp"
+    },
+    {
+      "id": "Rock_Blast",
+      "name": "乱石横飞",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonRockElement_Icon_128.webp",
+      "tags": [
+        "强化技能",
+        "攻击",
+        "近战",
+        "物理",
+        "范围",
+        "力量",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Rock_Blast.webp"
+    },
+    {
+      "id": "Towering_Mountains",
+      "name": "群峰压顶",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonRockElement_Icon_128.webp",
+      "tags": [
+        "终极技能",
+        "攻击",
+        "近战",
+        "物理",
+        "范围",
+        "力量",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Towering_Mountains.webp"
+    },
+    {
+      "id": "Scattered_Mud",
+      "name": "零落成泥",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonRotElement_Icon_128.webp",
+      "tags": [
+        "基础技能",
+        "法术",
+        "腐蚀",
+        "范围",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Scattered_Mud.webp"
+    },
+    {
+      "id": "Withering_Payback",
+      "name": "凋敝奉还",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonRotElement_Icon_128.webp",
+      "tags": [
+        "激发",
+        "法术",
+        "腐蚀",
+        "范围",
+        "持续",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Withering_Payback.webp"
+    },
+    {
+      "id": "Bleak_Grass",
+      "name": "哀草丛生",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonRotElement_Icon_128.webp",
+      "tags": [
+        "强化技能",
+        "法术",
+        "腐蚀",
+        "范围",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/Bleak_Grass.webp"
+    },
+    {
+      "id": "World_of_Thorns",
+      "name": "荆天棘地",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonRotElement_Icon_128.webp",
+      "tags": [
+        "终极技能",
+        "法术",
+        "腐蚀",
+        "范围",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/active/World_of_Thorns.webp"
+    },
+    {
+      "id": "Rising_Edge",
+      "name": "新锐崛起",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_MinionRising_Icon_128.webp",
+      "tags": [
+        "法术",
+        "持续",
+        "召唤",
+        "激发"
+      ],
+      "localIconUrl": "/assets/skills/active/Rising_Edge.webp"
+    },
+    {
+      "id": "Crescent_Slash",
+      "name": "碎月弧光斩",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ArcSlash_Starter1_Icon_128.webp",
+      "tags": [
+        "攻击",
+        "近战",
+        "范围",
+        "物理",
+        "连携",
+        "敏捷",
+        "持续"
+      ],
+      "localIconUrl": "/assets/skills/active/Crescent_Slash.webp"
+    },
+    {
+      "id": "Serpent_Beam",
+      "name": "流焰炎蛇引",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FlameSerpent_Starter1_Icon_128.webp",
+      "tags": [
+        "法术",
+        "物理",
+        "火焰",
+        "射线",
+        "连携",
+        "力量",
+        "智慧",
+        "持续"
+      ],
+      "localIconUrl": "/assets/skills/active/Serpent_Beam.webp"
+    },
+    {
+      "id": "Gale_Slash",
+      "name": "疾风裂地斩",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_WindSlash_Starter1_Icon_128.webp",
+      "tags": [
+        "攻击",
+        "近战",
+        "范围",
+        "物理",
+        "连携",
+        "力量",
+        "敏捷",
+        "持续"
+      ],
+      "localIconUrl": "/assets/skills/active/Gale_Slash.webp"
+    },
+    {
+      "id": "Spectral_Slash",
+      "name": "分身灵爆斩",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_PhantomSlash_Starter1_Icon_128.webp",
+      "tags": [
+        "攻击",
+        "近战",
+        "范围",
+        "物理",
+        "连携",
+        "力量",
+        "持续"
+      ],
+      "localIconUrl": "/assets/skills/active/Spectral_Slash.webp"
+    },
+    {
+      "id": "Vendetta",
+      "name": "寻仇",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Revenge_Icon_128.webp",
+      "tags": [
+        "攻击",
+        "近战",
+        "范围"
+      ],
+      "localIconUrl": "/assets/skills/active/Vendetta.webp"
+    },
+    {
+      "id": "Shockwave_Warcry",
+      "name": "破势战吼",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ComboBattleCry_Icon_128.webp",
+      "tags": [
+        "战吼",
+        "范围",
+        "持续"
+      ],
+      "localIconUrl": "/assets/skills/active/Shockwave_Warcry.webp"
+    },
+    {
+      "id": "Endless_Vendetta",
+      "name": "无尽寻仇",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_EndlessRevenge_Icon_128.webp",
+      "tags": [
+        "攻击",
+        "近战",
+        "范围"
+      ],
+      "localIconUrl": "/assets/skills/active/Endless_Vendetta.webp"
+    }
+  ]
+}

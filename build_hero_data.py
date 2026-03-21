@@ -185,6 +185,14 @@ def main() -> None:
         detail = _parse_trait_page(h["slug"])
         h.update(detail)
 
+    # 头像与特性图标使用本地 public/assets/heroes（需配合 sync_hero_assets.py 拉取文件）
+    try:
+        from sync_hero_assets import apply_local_paths_to_heroes
+
+        apply_local_paths_to_heroes(heroes)
+    except ImportError:
+        pass
+
     with open(OUT_FILE, "w", encoding="utf-8") as f:
         json.dump(heroes, f, ensure_ascii=False, indent=2)
 

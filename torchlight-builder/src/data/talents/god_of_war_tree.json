@@ -28,7 +28,7 @@
         "y": 30
       },
       "connections": [],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_ningju_Icon_128.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_ningju_Icon_128.webp"
     },
     {
       "id": "core_1",
@@ -49,7 +49,7 @@
         "y": 30
       },
       "connections": [],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_dunqi_Icon_128.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_dunqi_Icon_128.webp"
     },
     {
       "id": "core_2",
@@ -69,7 +69,7 @@
         "y": 30
       },
       "connections": [],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_jianqiang_Icon_128.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_jianqiang_Icon_128.webp"
     },
     {
       "id": "core_3",
@@ -90,7 +90,7 @@
         "y": 30
       },
       "connections": [],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_yexin_Icon_128.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_yexin_Icon_128.webp"
     },
     {
       "id": "core_4",
@@ -111,7 +111,7 @@
         "y": 30
       },
       "connections": [],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_yinli_Icon_128.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_yinli_Icon_128.webp"
     },
     {
       "id": "core_5",
@@ -132,7 +132,7 @@
         "y": 30
       },
       "connections": [],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_liushi_Icon_128.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Skill/CoreTalentIcon/128/UI_CoreTalentIcon_liushi_Icon_128.webp"
     }
   ],
   "nodes": [
@@ -155,7 +155,7 @@
       "connections": [
         "node_10"
       ],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
     },
     {
       "id": "node_10",
@@ -176,7 +176,7 @@
       "connections": [
         "node_9"
       ],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
     },
     {
       "id": "node_5",
@@ -197,7 +197,7 @@
       "connections": [
         "node_6"
       ],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit04_64.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit04_64.webp"
     },
     {
       "id": "node_16",
@@ -219,7 +219,7 @@
       "connections": [
         "node_17"
       ],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Silhouette/Talent/64/Area_64.webp"
     },
     {
       "id": "node_6",
@@ -241,7 +241,7 @@
       "connections": [
         "node_5"
       ],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit02_64.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit02_64.webp"
     },
     {
       "id": "node_17",
@@ -263,7 +263,7 @@
       "connections": [
         "node_16"
       ],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Silhouette/Talent/64/Agi_64.webp"
     },
     {
       "id": "node_0",
@@ -284,7 +284,7 @@
       "connections": [
         "node_1"
       ],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/CastSpeed_64.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Silhouette/Talent/64/CastSpeed_64.webp"
     },
     {
       "id": "node_11",
@@ -306,7 +306,7 @@
       "connections": [
         "node_12"
       ],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Silhouette/Talent/64/Atk_64.webp"
     },
     {
       "id": "node_20",
@@ -328,7 +328,7 @@
       "connections": [
         "node_21"
       ],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Aura_64.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Silhouette/Talent/64/Aura_64.webp"
     },
     {
       "id": "node_1",
@@ -349,7 +349,7 @@
       "connections": [
         "node_0"
       ],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/CastSpeed_64.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Silhouette/Talent/64/CastSpeed_64.webp"
     },
     {
       "id": "node_12",
@@ -372,7 +372,7 @@
         "node_11",
         "node_13"
       ],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Block_64.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Silhouette/Talent/64/Block_64.webp"
     },
     {
       "id": "node_21",
@@ -394,7 +394,7 @@
       "connections": [
         "node_20"
       ],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Aura_64.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Silhouette/Talent/64/Aura_64.webp"
     },
     {
       "id": "node_7",
@@ -415,7 +415,7 @@
       "connections": [
         "node_8"
       ],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
     },
     {
       "id": "node_18",
@@ -436,7 +436,7 @@
       "connections": [
         "node_19"
       ],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Bleed_64.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Silhouette/Talent/64/Bleed_64.webp"
     },
     {
       "id": "node_13",
@@ -457,7 +457,7 @@
       "connections": [
         "node_12"
       ],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Flask02_64.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Silhouette/Talent/64/Flask02_64.webp"
     },
     {
       "id": "node_19",
@@ -479,7 +479,7 @@
       "connections": [
         "node_18"
       ],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
     },
     {
       "id": "node_8",
@@ -500,7 +500,7 @@
       "connections": [
         "node_7"
       ],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
     },
     {
       "id": "node_2",
@@ -521,7 +521,7 @@
       "connections": [
         "node_3"
       ],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
     },
     {
       "id": "node_3",
@@ -543,7 +543,7 @@
         "node_2",
         "node_4"
       ],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Aura_64.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Silhouette/Talent/64/Aura_64.webp"
     },
     {
       "id": "node_14",
@@ -565,7 +565,7 @@
       "connections": [
         "node_15"
       ],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Dual01_64.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Silhouette/Talent/64/Dual01_64.webp"
     },
     {
       "id": "node_22",
@@ -586,7 +586,7 @@
       "connections": [
         "node_23"
       ],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgExtra_64.webp"
     },
     {
       "id": "node_4",
@@ -607,7 +607,7 @@
       "connections": [
         "node_3"
       ],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Silhouette/Talent/64/DmgAll_64.webp"
     },
     {
       "id": "node_23",
@@ -628,7 +628,7 @@
       "connections": [
         "node_22"
       ],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit01_64.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Silhouette/Talent/64/Crit01_64.webp"
     },
     {
       "id": "node_15",
@@ -650,7 +650,7 @@
       "connections": [
         "node_14"
       ],
-      "icon": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Silhouette/Talent/64/Dual01_64.webp"
+      "icon": "/assets/talents/UI/Textures/Common/Icon/Silhouette/Talent/64/Dual01_64.webp"
     }
   ],
   "isGodRoot": true

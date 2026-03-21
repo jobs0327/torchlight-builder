@@ -19,6 +19,17 @@ FRONTEND_DATA_DIR = os.path.join(ROOT_DIR, "torchlight-builder", "src", "data", 
 PROFESSION_INDEX_FILE = os.path.join(DATA_DIR, "profession_index.json")
 ALL_TREES_OUTPUT = os.path.join(FRONTEND_DATA_DIR, "profession_trees.json")
 
+try:
+    from sync_talent_assets import apply_local_paths_to_talent_tree
+except ImportError:
+    apply_local_paths_to_talent_tree = None
+
+
+def _maybe_localize_talent_icons(tree: Dict) -> None:
+    """图标使用 /assets/talents/...；资源需配合 sync_talent_assets.py 拉取。"""
+    if apply_local_paths_to_talent_tree:
+        apply_local_paths_to_talent_tree(tree)
+
 
 def _load_profession_index() -> List[Dict]:
     with open(PROFESSION_INDEX_FILE, "r", encoding="utf-8") as f:
@@ -410,6 +421,8 @@ def main() -> None:
 
         tree["isGodRoot"] = entry.get("isGodRoot", False)
         all_trees.append(tree)
+
+        _maybe_localize_talent_icons(tree)
 
         # 同时输出单独的 *_tree.json，便于单职业调试
         out_path = os.path.join(FRONTEND_DATA_DIR, f"{entry["id"]}_tree.json")
