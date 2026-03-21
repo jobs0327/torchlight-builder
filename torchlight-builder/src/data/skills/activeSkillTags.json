@@ -58,7 +58,47 @@
         "范围",
         "力量"
       ],
-      "localIconUrl": "/assets/skills/active/Leap_Attack.webp"
+      "localIconUrl": "/assets/skills/active/Leap_Attack.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "2"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "228%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "130%",
+        "134%",
+        "139%",
+        "143%",
+        "148%",
+        "153%",
+        "158%",
+        "163%",
+        "168%",
+        "173%",
+        "178%",
+        "183%",
+        "189%",
+        "194%",
+        "199%",
+        "205%",
+        "211%",
+        "216%",
+        "222%",
+        "228%"
+      ]
     },
     {
       "id": "Ice_Shot",
@@ -73,7 +113,47 @@
         "直射",
         "敏捷"
       ],
-      "localIconUrl": "/assets/skills/active/Ice_Shot.webp"
+      "localIconUrl": "/assets/skills/active/Ice_Shot.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "313%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "214%",
+        "219%",
+        "224%",
+        "229%",
+        "234%",
+        "239%",
+        "244%",
+        "249%",
+        "254%",
+        "260%",
+        "265%",
+        "270%",
+        "275%",
+        "281%",
+        "286%",
+        "291%",
+        "297%",
+        "302%",
+        "308%",
+        "313%"
+      ]
     },
     {
       "id": "Hammer_of_Ash",
@@ -89,7 +169,47 @@
         "直射",
         "力量"
       ],
-      "localIconUrl": "/assets/skills/active/Hammer_of_Ash.webp"
+      "localIconUrl": "/assets/skills/active/Hammer_of_Ash.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.2 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "369%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "126%",
+        "135%",
+        "144%",
+        "154%",
+        "164%",
+        "174%",
+        "185%",
+        "197%",
+        "209%",
+        "221%",
+        "233%",
+        "246%",
+        "260%",
+        "274%",
+        "289%",
+        "304%",
+        "319%",
+        "335%",
+        "352%",
+        "369%"
+      ]
     },
     {
       "id": "Chromatic_Shot",
@@ -108,7 +228,69 @@
         "敏捷",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Chromatic_Shot.webp"
+      "localIconUrl": "/assets/skills/active/Chromatic_Shot.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量, 敏捷, 智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.65 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "112%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%"
+      ],
+      "skillBaseDamageByLevel": [
+        "1-2",
+        "1-2",
+        "2-3",
+        "3-4",
+        "3-5",
+        "4-7",
+        "4-7",
+        "6-9",
+        "7-12",
+        "9-15",
+        "11-19",
+        "13-22",
+        "16-27",
+        "19-31",
+        "22-37",
+        "31-52",
+        "37-62",
+        "51-85",
+        "76-127",
+        "91-152"
+      ]
     },
     {
       "id": "Resurrection_Warcry",
@@ -120,7 +302,21 @@
         "持续",
         "回复"
       ],
-      "localIconUrl": "/assets/skills/active/Resurrection_Warcry.webp"
+      "localIconUrl": "/assets/skills/active/Resurrection_Warcry.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "10"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "8 秒"
+        }
+      ]
     },
     {
       "id": "Whirlwind",
@@ -136,7 +332,47 @@
         "力量",
         "敏捷"
       ],
-      "localIconUrl": "/assets/skills/active/Whirlwind.webp"
+      "localIconUrl": "/assets/skills/active/Whirlwind.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量, 敏捷"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "83%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "47%",
+        "49%",
+        "50%",
+        "52%",
+        "54%",
+        "55%",
+        "57%",
+        "59%",
+        "61%",
+        "63%",
+        "65%",
+        "66%",
+        "68%",
+        "70%",
+        "72%",
+        "74%",
+        "76%",
+        "78%",
+        "80%",
+        "83%"
+      ]
     },
     {
       "id": "Focused_Slash",
@@ -151,7 +387,47 @@
         "力量",
         "敏捷"
       ],
-      "localIconUrl": "/assets/skills/active/Focused_Slash.webp"
+      "localIconUrl": "/assets/skills/active/Focused_Slash.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量, 敏捷"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "154%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "88%",
+        "91%",
+        "94%",
+        "97%",
+        "100%",
+        "103%",
+        "107%",
+        "110%",
+        "113%",
+        "117%",
+        "120%",
+        "124%",
+        "127%",
+        "131%",
+        "135%",
+        "138%",
+        "142%",
+        "146%",
+        "150%",
+        "154%"
+      ]
     },
     {
       "id": "Stoneskin",
@@ -162,7 +438,21 @@
         "防护",
         "法术"
       ],
-      "localIconUrl": "/assets/skills/active/Stoneskin.webp"
+      "localIconUrl": "/assets/skills/active/Stoneskin.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "6 秒"
+        }
+      ]
     },
     {
       "id": "Thundercloud",
@@ -177,7 +467,69 @@
         "连锁",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Thundercloud.webp"
+      "localIconUrl": "/assets/skills/active/Thundercloud.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.333 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "67%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "67%",
+        "67%",
+        "67%",
+        "67%",
+        "67%",
+        "67%",
+        "67%",
+        "67%",
+        "67%",
+        "67%",
+        "67%",
+        "67%",
+        "67%",
+        "67%",
+        "67%",
+        "67%",
+        "67%",
+        "67%",
+        "67%",
+        "67%"
+      ],
+      "skillBaseDamageByLevel": [
+        "1-9",
+        "1-10",
+        "1-14",
+        "1-19",
+        "2-24",
+        "2-29",
+        "2-34",
+        "3-42",
+        "3-55",
+        "4-66",
+        "5-85",
+        "6-100",
+        "7-121",
+        "8-142",
+        "9-168",
+        "13-236",
+        "15-278",
+        "21-383",
+        "31-572",
+        "36-682"
+      ]
     },
     {
       "id": "Blink",
@@ -187,7 +539,21 @@
         "位移",
         "法术"
       ],
-      "localIconUrl": "/assets/skills/active/Blink.webp"
+      "localIconUrl": "/assets/skills/active/Blink.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "3 秒"
+        }
+      ]
     },
     {
       "id": "Bombard",
@@ -202,7 +568,47 @@
         "抛射",
         "力量"
       ],
-      "localIconUrl": "/assets/skills/active/Bombard.webp"
+      "localIconUrl": "/assets/skills/active/Bombard.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "41%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "31%",
+        "31%",
+        "32%",
+        "32%",
+        "33%",
+        "33%",
+        "34%",
+        "35%",
+        "35%",
+        "36%",
+        "36%",
+        "37%",
+        "37%",
+        "38%",
+        "39%",
+        "39%",
+        "40%",
+        "40%",
+        "41%",
+        "41%"
+      ]
     },
     {
       "id": "Shadow_Shot",
@@ -216,7 +622,69 @@
         "直射",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Shadow_Shot.webp"
+      "localIconUrl": "/assets/skills/active/Shadow_Shot.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.65 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "131%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "120%",
+        "121%",
+        "122%",
+        "122%",
+        "123%",
+        "123%",
+        "124%",
+        "124%",
+        "125%",
+        "125%",
+        "126%",
+        "126%",
+        "127%",
+        "127%",
+        "128%",
+        "128%",
+        "129%",
+        "129%",
+        "130%",
+        "131%"
+      ],
+      "skillBaseDamageByLevel": [
+        "7-11",
+        "8-12",
+        "10-16",
+        "15-22",
+        "19-28",
+        "23-34",
+        "26-39",
+        "33-50",
+        "43-65",
+        "52-79",
+        "68-102",
+        "80-120",
+        "97-145",
+        "114-171",
+        "136-204",
+        "192-288",
+        "227-341",
+        "314-471",
+        "471-706",
+        "564-846"
+      ]
     },
     {
       "id": "Shadow_Swamp",
@@ -230,7 +698,73 @@
         "地面",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Shadow_Swamp.webp"
+      "localIconUrl": "/assets/skills/active/Shadow_Swamp.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.65 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "0.5 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "78%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "48%",
+        "50%",
+        "51%",
+        "53%",
+        "54%",
+        "56%",
+        "58%",
+        "59%",
+        "61%",
+        "62%",
+        "64%",
+        "65%",
+        "67%",
+        "68%",
+        "70%",
+        "72%",
+        "73%",
+        "75%",
+        "76%",
+        "78%"
+      ],
+      "skillBaseDamageByLevel": [
+        "4-4",
+        "4-4",
+        "6-6",
+        "8-8",
+        "10-10",
+        "13-13",
+        "15-15",
+        "20-20",
+        "26-26",
+        "33-33",
+        "43-43",
+        "52-52",
+        "64-64",
+        "77-77",
+        "93-93",
+        "134-134",
+        "161-161",
+        "226-226",
+        "345-345",
+        "420-420"
+      ]
     },
     {
       "id": "Marked_Rain_of_Arrows",
@@ -247,7 +781,47 @@
         "坠落",
         "敏捷"
       ],
-      "localIconUrl": "/assets/skills/active/Marked_Rain_of_Arrows.webp"
+      "localIconUrl": "/assets/skills/active/Marked_Rain_of_Arrows.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "35%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "35%",
+        "35%",
+        "35%",
+        "35%",
+        "35%",
+        "35%",
+        "35%",
+        "35%",
+        "35%",
+        "35%",
+        "35%",
+        "35%",
+        "35%",
+        "35%",
+        "35%",
+        "35%",
+        "35%",
+        "35%",
+        "35%",
+        "35%"
+      ]
     },
     {
       "id": "Bull%27s_Rage",
@@ -258,7 +832,43 @@
         "法术",
         "激发"
       ],
-      "localIconUrl": "/assets/skills/active/Bull_27s_Rage.webp"
+      "localIconUrl": "/assets/skills/active/Bull_27s_Rage.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15%"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "10 秒"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "释放该技能获得亢奋： 技能持续时，近战技能额外 17.5 % 伤害 持续 6 秒 该技能的魔力消耗被替代为生命消耗",
+        "释放该技能获得亢奋： 技能持续时，近战技能额外 +18 % 伤害 持续 6 秒 该技能的魔力消耗被替代为生命消耗",
+        "释放该技能获得亢奋： 技能持续时，近战技能额外 18.5 % 伤害 持续 6 秒 该技能的魔力消耗被替代为生命消耗",
+        "释放该技能获得亢奋： 技能持续时，近战技能额外 +19 % 伤害 持续 6 秒 该技能的魔力消耗被替代为生命消耗",
+        "释放该技能获得亢奋： 技能持续时，近战技能额外 19.5 % 伤害 持续 6 秒 该技能的魔力消耗被替代为生命消耗",
+        "释放该技能获得亢奋： 技能持续时，近战技能额外 +20 % 伤害 持续 6 秒 该技能的魔力消耗被替代为生命消耗",
+        "释放该技能获得亢奋： 技能持续时，近战技能额外 20.5 % 伤害 持续 6 秒 该技能的魔力消耗被替代为生命消耗",
+        "释放该技能获得亢奋： 技能持续时，近战技能额外 +21 % 伤害 持续 6 秒 该技能的魔力消耗被替代为生命消耗",
+        "释放该技能获得亢奋： 技能持续时，近战技能额外 21.5 % 伤害 持续 6 秒 该技能的魔力消耗被替代为生命消耗",
+        "释放该技能获得亢奋： 技能持续时，近战技能额外 +22 % 伤害 持续 6 秒 该技能的魔力消耗被替代为生命消耗",
+        "释放该技能获得亢奋： 技能持续时，近战技能额外 22.5 % 伤害 持续 6 秒 该技能的魔力消耗被替代为生命消耗",
+        "释放该技能获得亢奋： 技能持续时，近战技能额外 +23 % 伤害 持续 6 秒 该技能的魔力消耗被替代为生命消耗",
+        "释放该技能获得亢奋： 技能持续时，近战技能额外 23.5 % 伤害 持续 6 秒 该技能的魔力消耗被替代为生命消耗",
+        "释放该技能获得亢奋： 技能持续时，近战技能额外 +24 % 伤害 持续 6 秒 该技能的魔力消耗被替代为生命消耗",
+        "释放该技能获得亢奋： 技能持续时，近战技能额外 24.5 % 伤害 持续 6 秒 该技能的魔力消耗被替代为生命消耗",
+        "释放该技能获得亢奋： 技能持续时，近战技能额外 +25 % 伤害 持续 6 秒 该技能的魔力消耗被替代为生命消耗",
+        "释放该技能获得亢奋： 技能持续时，近战技能额外 25.5 % 伤害 持续 6 秒 该技能的魔力消耗被替代为生命消耗",
+        "释放该技能获得亢奋： 技能持续时，近战技能额外 +26 % 伤害 持续 6 秒 该技能的魔力消耗被替代为生命消耗",
+        "释放该技能获得亢奋： 技能持续时，近战技能额外 26.5 % 伤害 持续 6 秒 该技能的魔力消耗被替代为生命消耗",
+        "释放该技能获得亢奋： 技能持续时，近战技能额外 +27 % 伤害 持续 6 秒 该技能的魔力消耗被替代为生命消耗"
+      ]
     },
     {
       "id": "Shadow_Dash",
@@ -270,7 +880,21 @@
         "持续",
         "腐蚀"
       ],
-      "localIconUrl": "/assets/skills/active/Shadow_Dash.webp"
+      "localIconUrl": "/assets/skills/active/Shadow_Dash.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "3 秒"
+        }
+      ]
     },
     {
       "id": "Frost_Shield",
@@ -282,7 +906,69 @@
         "冰冷",
         "防护"
       ],
-      "localIconUrl": "/assets/skills/active/Frost_Shield.webp"
+      "localIconUrl": "/assets/skills/active/Frost_Shield.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "6 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "19%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "19%",
+        "19%",
+        "19%",
+        "19%",
+        "19%",
+        "19%",
+        "19%",
+        "19%",
+        "19%",
+        "19%",
+        "19%",
+        "19%",
+        "19%",
+        "19%",
+        "19%",
+        "19%",
+        "19%",
+        "19%",
+        "19%",
+        "19%"
+      ],
+      "skillBaseDamageByLevel": [
+        "1-2",
+        "1-2",
+        "2-2",
+        "2-3",
+        "3-4",
+        "3-5",
+        "4-6",
+        "5-7",
+        "6-10",
+        "8-12",
+        "10-15",
+        "12-18",
+        "14-21",
+        "17-25",
+        "20-30",
+        "28-42",
+        "33-49",
+        "45-68",
+        "67-101",
+        "80-121"
+      ]
     },
     {
       "id": "Rocket_Jump",
@@ -296,7 +982,47 @@
         "火焰",
         "力量"
       ],
-      "localIconUrl": "/assets/skills/active/Rocket_Jump.webp"
+      "localIconUrl": "/assets/skills/active/Rocket_Jump.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "2"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "221%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "164%",
+        "167%",
+        "170%",
+        "173%",
+        "176%",
+        "179%",
+        "182%",
+        "185%",
+        "188%",
+        "191%",
+        "194%",
+        "197%",
+        "200%",
+        "203%",
+        "206%",
+        "209%",
+        "212%",
+        "215%",
+        "218%",
+        "221%"
+      ]
     },
     {
       "id": "Split_Firebolt",
@@ -310,7 +1036,69 @@
         "直射",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Split_Firebolt.webp"
+      "localIconUrl": "/assets/skills/active/Split_Firebolt.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.65 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "11%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "10%",
+        "11%",
+        "11%",
+        "11%"
+      ],
+      "skillBaseDamageByLevel": [
+        "1-1",
+        "1-1",
+        "1-1",
+        "1-2",
+        "2-2",
+        "2-3",
+        "2-3",
+        "3-4",
+        "3-5",
+        "4-6",
+        "5-8",
+        "6-10",
+        "8-12",
+        "9-14",
+        "11-17",
+        "16-23",
+        "18-28",
+        "26-38",
+        "38-57",
+        "46-69"
+      ]
     },
     {
       "id": "Blizzard",
@@ -323,7 +1111,73 @@
         "轰炸",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Blizzard.webp"
+      "localIconUrl": "/assets/skills/active/Blizzard.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.9 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "2 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "47%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%"
+      ],
+      "skillBaseDamageByLevel": [
+        "3-4",
+        "4-5",
+        "5-6",
+        "6-8",
+        "8-11",
+        "9-13",
+        "10-15",
+        "13-19",
+        "17-24",
+        "20-29",
+        "26-38",
+        "30-44",
+        "36-54",
+        "43-63",
+        "50-75",
+        "71-105",
+        "83-124",
+        "114-170",
+        "170-254",
+        "203-303"
+      ]
     },
     {
       "id": "Obscure",
@@ -334,7 +1188,21 @@
         "防护",
         "法术"
       ],
-      "localIconUrl": "/assets/skills/active/Obscure.webp"
+      "localIconUrl": "/assets/skills/active/Obscure.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "6 秒"
+        }
+      ]
     },
     {
       "id": "Mana_Boil",
@@ -344,7 +1212,17 @@
         "法术",
         "激发"
       ],
-      "localIconUrl": "/assets/skills/active/Mana_Boil.webp"
+      "localIconUrl": "/assets/skills/active/Mana_Boil.webp",
+      "statRows": [
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "10 秒"
+        }
+      ]
     },
     {
       "id": "Frost_Impact",
@@ -359,7 +1237,47 @@
         "力量",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Frost_Impact.webp"
+      "localIconUrl": "/assets/skills/active/Frost_Impact.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量, 智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "202%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "115%",
+        "119%",
+        "123%",
+        "128%",
+        "132%",
+        "136%",
+        "140%",
+        "145%",
+        "149%",
+        "154%",
+        "158%",
+        "163%",
+        "168%",
+        "172%",
+        "177%",
+        "182%",
+        "187%",
+        "192%",
+        "197%",
+        "202%"
+      ]
     },
     {
       "id": "Path_of_Flames",
@@ -373,7 +1291,43 @@
         "范围",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Path_of_Flames.webp"
+      "localIconUrl": "/assets/skills/active/Path_of_Flames.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.333 秒"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "火焰路径： 每秒造成 10 持续火焰伤害 持续伤害持续 2 秒 每 +1 额外引导层数上限，该技能额外 21.5 % 伤害",
+        "火焰路径： 每秒造成 11 持续火焰伤害 持续伤害持续 2 秒 每 +1 额外引导层数上限，该技能额外 21.5 % 伤害",
+        "火焰路径： 每秒造成 14 持续火焰伤害 持续伤害持续 2 秒 每 +1 额外引导层数上限，该技能额外 21.5 % 伤害",
+        "火焰路径： 每秒造成 20 持续火焰伤害 持续伤害持续 2 秒 每 +1 额外引导层数上限，该技能额外 21.5 % 伤害",
+        "火焰路径： 每秒造成 26 持续火焰伤害 持续伤害持续 2 秒 每 +1 额外引导层数上限，该技能额外 21.5 % 伤害",
+        "火焰路径： 每秒造成 32 持续火焰伤害 持续伤害持续 2 秒 每 +1 额外引导层数上限，该技能额外 21.5 % 伤害",
+        "火焰路径： 每秒造成 38 持续火焰伤害 持续伤害持续 2 秒 每 +1 额外引导层数上限，该技能额外 21.5 % 伤害",
+        "火焰路径： 每秒造成 48 持续火焰伤害 持续伤害持续 2 秒 每 +1 额外引导层数上限，该技能额外 21.5 % 伤害",
+        "火焰路径： 每秒造成 63 持续火焰伤害 持续伤害持续 2 秒 每 +1 额外引导层数上限，该技能额外 21.5 % 伤害",
+        "火焰路径： 每秒造成 77 持续火焰伤害 持续伤害持续 2 秒 每 +1 额外引导层数上限，该技能额外 21.5 % 伤害",
+        "火焰路径： 每秒造成 101 持续火焰伤害 持续伤害持续 2 秒 每 +1 额外引导层数上限，该技能额外 21.5 % 伤害",
+        "火焰路径： 每秒造成 120 持续火焰伤害 持续伤害持续 2 秒 每 +1 额外引导层数上限，该技能额外 21.5 % 伤害",
+        "火焰路径： 每秒造成 147 持续火焰伤害 持续伤害持续 2 秒 每 +1 额外引导层数上限，该技能额外 21.5 % 伤害",
+        "火焰路径： 每秒造成 175 持续火焰伤害 持续伤害持续 2 秒 每 +1 额外引导层数上限，该技能额外 21.5 % 伤害",
+        "火焰路径： 每秒造成 210 持续火焰伤害 持续伤害持续 2 秒 每 +1 额外引导层数上限，该技能额外 21.5 % 伤害",
+        "火焰路径： 每秒造成 299 持续火焰伤害 持续伤害持续 2 秒 每 +1 额外引导层数上限，该技能额外 21.5 % 伤害",
+        "火焰路径： 每秒造成 357 持续火焰伤害 持续伤害持续 2 秒 每 +1 额外引导层数上限，该技能额外 21.5 % 伤害",
+        "火焰路径： 每秒造成 498 持续火焰伤害 持续伤害持续 2 秒 每 +1 额外引导层数上限，该技能额外 21.5 % 伤害",
+        "火焰路径： 每秒造成 753 持续火焰伤害 持续伤害持续 2 秒 每 +1 额外引导层数上限，该技能额外 21.5 % 伤害",
+        "火焰路径： 每秒造成 909 持续火焰伤害 持续伤害持续 2 秒 每 +1 额外引导层数上限，该技能额外 21.5 % 伤害"
+      ]
     },
     {
       "id": "Berserking_Blade",
@@ -389,7 +1343,47 @@
         "力量",
         "敏捷"
       ],
-      "localIconUrl": "/assets/skills/active/Berserking_Blade.webp"
+      "localIconUrl": "/assets/skills/active/Berserking_Blade.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量, 敏捷"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "210%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "142%",
+        "146%",
+        "150%",
+        "153%",
+        "157%",
+        "161%",
+        "164%",
+        "168%",
+        "172%",
+        "175%",
+        "179%",
+        "183%",
+        "186%",
+        "190%",
+        "193%",
+        "197%",
+        "200%",
+        "204%",
+        "207%",
+        "210%"
+      ]
     },
     {
       "id": "Charged_Pummel",
@@ -405,7 +1399,47 @@
         "持续",
         "力量"
       ],
-      "localIconUrl": "/assets/skills/active/Charged_Pummel.webp"
+      "localIconUrl": "/assets/skills/active/Charged_Pummel.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "438%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "150%",
+        "160%",
+        "171%",
+        "183%",
+        "195%",
+        "207%",
+        "220%",
+        "234%",
+        "248%",
+        "262%",
+        "277%",
+        "293%",
+        "309%",
+        "325%",
+        "343%",
+        "361%",
+        "379%",
+        "398%",
+        "417%",
+        "438%"
+      ]
     },
     {
       "id": "Chain_Lightning",
@@ -418,7 +1452,69 @@
         "敏捷",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Chain_Lightning.webp"
+      "localIconUrl": "/assets/skills/active/Chain_Lightning.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷, 智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.65 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "136%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "136%",
+        "136%",
+        "136%",
+        "136%",
+        "136%",
+        "136%",
+        "136%",
+        "136%",
+        "136%",
+        "136%",
+        "136%",
+        "136%",
+        "136%",
+        "136%",
+        "136%",
+        "136%",
+        "136%",
+        "136%",
+        "136%",
+        "136%"
+      ],
+      "skillBaseDamageByLevel": [
+        "1-19",
+        "1-21",
+        "1-28",
+        "2-39",
+        "3-49",
+        "3-60",
+        "4-69",
+        "5-86",
+        "6-111",
+        "7-135",
+        "9-174",
+        "11-204",
+        "13-246",
+        "15-289",
+        "18-343",
+        "25-482",
+        "30-568",
+        "41-782",
+        "61-1168",
+        "73-1393"
+      ]
     },
     {
       "id": "Double_Thrusts",
@@ -432,7 +1528,47 @@
         "范围",
         "敏捷"
       ],
-      "localIconUrl": "/assets/skills/active/Double_Thrusts.webp"
+      "localIconUrl": "/assets/skills/active/Double_Thrusts.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "186%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "138%",
+        "140%",
+        "143%",
+        "145%",
+        "148%",
+        "151%",
+        "153%",
+        "156%",
+        "158%",
+        "161%",
+        "163%",
+        "166%",
+        "168%",
+        "171%",
+        "173%",
+        "176%",
+        "179%",
+        "181%",
+        "184%",
+        "186%"
+      ]
     },
     {
       "id": "Mind_Control",
@@ -445,7 +1581,69 @@
         "持续",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Mind_Control.webp"
+      "localIconUrl": "/assets/skills/active/Mind_Control.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.333 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "125%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "96%",
+        "98%",
+        "99%",
+        "101%",
+        "102%",
+        "104%",
+        "105%",
+        "107%",
+        "108%",
+        "110%",
+        "111%",
+        "113%",
+        "114%",
+        "116%",
+        "117%",
+        "119%",
+        "120%",
+        "122%",
+        "123%",
+        "125%"
+      ],
+      "skillBaseDamageByLevel": [
+        "7",
+        "8",
+        "11",
+        "15",
+        "20",
+        "24",
+        "28",
+        "35",
+        "47",
+        "57",
+        "75",
+        "89",
+        "109",
+        "130",
+        "156",
+        "222",
+        "265",
+        "370",
+        "559",
+        "675"
+      ]
     },
     {
       "id": "Ring_of_Ice",
@@ -457,7 +1655,69 @@
         "范围",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Ring_of_Ice.webp"
+      "localIconUrl": "/assets/skills/active/Ring_of_Ice.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "142%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "142%",
+        "142%",
+        "142%",
+        "142%",
+        "142%",
+        "142%",
+        "142%",
+        "142%",
+        "142%",
+        "142%",
+        "142%",
+        "142%",
+        "142%",
+        "142%",
+        "142%",
+        "142%",
+        "142%",
+        "142%",
+        "142%",
+        "142%"
+      ],
+      "skillBaseDamageByLevel": [
+        "8-13",
+        "9-14",
+        "12-18",
+        "17-25",
+        "22-32",
+        "26-40",
+        "30-45",
+        "38-57",
+        "49-73",
+        "59-89",
+        "76-114",
+        "89-134",
+        "108-162",
+        "127-191",
+        "151-226",
+        "212-318",
+        "250-374",
+        "344-516",
+        "513-770",
+        "612-918"
+      ]
     },
     {
       "id": "Split_Shot",
@@ -471,7 +1731,47 @@
         "直射",
         "敏捷"
       ],
-      "localIconUrl": "/assets/skills/active/Split_Shot.webp"
+      "localIconUrl": "/assets/skills/active/Split_Shot.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "347%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "237%",
+        "243%",
+        "248%",
+        "254%",
+        "259%",
+        "265%",
+        "271%",
+        "276%",
+        "282%",
+        "288%",
+        "294%",
+        "299%",
+        "305%",
+        "311%",
+        "317%",
+        "323%",
+        "329%",
+        "335%",
+        "341%",
+        "347%"
+      ]
     },
     {
       "id": "Flame_Slash",
@@ -485,7 +1785,47 @@
         "挥斩",
         "力量"
       ],
-      "localIconUrl": "/assets/skills/active/Flame_Slash.webp"
+      "localIconUrl": "/assets/skills/active/Flame_Slash.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "346%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "120%",
+        "132%",
+        "144%",
+        "156%",
+        "168%",
+        "180%",
+        "191%",
+        "203%",
+        "215%",
+        "227%",
+        "239%",
+        "251%",
+        "263%",
+        "275%",
+        "287%",
+        "299%",
+        "311%",
+        "323%",
+        "334%",
+        "346%"
+      ]
     },
     {
       "id": "Icy_Blade",
@@ -500,7 +1840,47 @@
         "力量",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Icy_Blade.webp"
+      "localIconUrl": "/assets/skills/active/Icy_Blade.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量, 智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "142%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "81%",
+        "84%",
+        "87%",
+        "90%",
+        "93%",
+        "96%",
+        "99%",
+        "102%",
+        "105%",
+        "108%",
+        "111%",
+        "114%",
+        "118%",
+        "121%",
+        "125%",
+        "128%",
+        "131%",
+        "135%",
+        "139%",
+        "142%"
+      ]
     },
     {
       "id": "Frost_Spike",
@@ -517,7 +1897,47 @@
         "敏捷",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Frost_Spike.webp"
+      "localIconUrl": "/assets/skills/active/Frost_Spike.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷, 智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "201%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "149%",
+        "151%",
+        "154%",
+        "157%",
+        "159%",
+        "162%",
+        "165%",
+        "168%",
+        "170%",
+        "173%",
+        "176%",
+        "179%",
+        "181%",
+        "184%",
+        "187%",
+        "190%",
+        "192%",
+        "195%",
+        "198%",
+        "201%"
+      ]
     },
     {
       "id": "Wilt_Spike",
@@ -532,7 +1952,47 @@
         "持续",
         "敏捷"
       ],
-      "localIconUrl": "/assets/skills/active/Wilt_Spike.webp"
+      "localIconUrl": "/assets/skills/active/Wilt_Spike.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "201%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "149%",
+        "151%",
+        "154%",
+        "157%",
+        "160%",
+        "162%",
+        "165%",
+        "168%",
+        "171%",
+        "173%",
+        "176%",
+        "179%",
+        "182%",
+        "184%",
+        "187%",
+        "190%",
+        "193%",
+        "195%",
+        "198%",
+        "201%"
+      ]
     },
     {
       "id": "Lightning_Shot",
@@ -547,7 +2007,47 @@
         "直射",
         "敏捷"
       ],
-      "localIconUrl": "/assets/skills/active/Lightning_Shot.webp"
+      "localIconUrl": "/assets/skills/active/Lightning_Shot.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "334%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "228%",
+        "233%",
+        "239%",
+        "244%",
+        "249%",
+        "255%",
+        "260%",
+        "266%",
+        "271%",
+        "277%",
+        "282%",
+        "288%",
+        "293%",
+        "299%",
+        "305%",
+        "310%",
+        "316%",
+        "322%",
+        "328%",
+        "334%"
+      ]
     },
     {
       "id": "Corrosive_Shot",
@@ -564,7 +2064,47 @@
         "地面",
         "敏捷"
       ],
-      "localIconUrl": "/assets/skills/active/Corrosive_Shot.webp"
+      "localIconUrl": "/assets/skills/active/Corrosive_Shot.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "95%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "70%",
+        "72%",
+        "73%",
+        "74%",
+        "76%",
+        "77%",
+        "78%",
+        "80%",
+        "81%",
+        "82%",
+        "83%",
+        "85%",
+        "86%",
+        "87%",
+        "89%",
+        "90%",
+        "91%",
+        "93%",
+        "94%",
+        "95%"
+      ]
     },
     {
       "id": "Burning_Shot",
@@ -579,7 +2119,51 @@
         "直射",
         "敏捷"
       ],
-      "localIconUrl": "/assets/skills/active/Burning_Shot.webp"
+      "localIconUrl": "/assets/skills/active/Burning_Shot.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "256%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "175%",
+        "179%",
+        "183%",
+        "187%",
+        "191%",
+        "195%",
+        "199%",
+        "204%",
+        "208%",
+        "212%",
+        "216%",
+        "221%",
+        "225%",
+        "229%",
+        "234%",
+        "238%",
+        "242%",
+        "247%",
+        "251%",
+        "256%"
+      ]
     },
     {
       "id": "Electrifying_Shot",
@@ -593,7 +2177,47 @@
         "直射",
         "敏捷"
       ],
-      "localIconUrl": "/assets/skills/active/Electrifying_Shot.webp"
+      "localIconUrl": "/assets/skills/active/Electrifying_Shot.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "302%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "206%",
+        "211%",
+        "216%",
+        "221%",
+        "226%",
+        "230%",
+        "235%",
+        "240%",
+        "245%",
+        "250%",
+        "255%",
+        "260%",
+        "265%",
+        "271%",
+        "276%",
+        "281%",
+        "286%",
+        "291%",
+        "297%",
+        "302%"
+      ]
     },
     {
       "id": "Corrosive_Throw",
@@ -607,7 +2231,47 @@
         "直射",
         "敏捷"
       ],
-      "localIconUrl": "/assets/skills/active/Corrosive_Throw.webp"
+      "localIconUrl": "/assets/skills/active/Corrosive_Throw.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "383%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "262%",
+        "268%",
+        "274%",
+        "280%",
+        "286%",
+        "292%",
+        "298%",
+        "305%",
+        "311%",
+        "317%",
+        "324%",
+        "330%",
+        "336%",
+        "343%",
+        "350%",
+        "356%",
+        "363%",
+        "369%",
+        "376%",
+        "383%"
+      ]
     },
     {
       "id": "Inexhaustible_Barrage",
@@ -625,7 +2289,47 @@
         "轰炸",
         "敏捷"
       ],
-      "localIconUrl": "/assets/skills/active/Inexhaustible_Barrage.webp"
+      "localIconUrl": "/assets/skills/active/Inexhaustible_Barrage.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "185%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "137%",
+        "140%",
+        "142%",
+        "145%",
+        "147%",
+        "150%",
+        "152%",
+        "155%",
+        "157%",
+        "160%",
+        "163%",
+        "165%",
+        "168%",
+        "170%",
+        "173%",
+        "175%",
+        "178%",
+        "180%",
+        "183%",
+        "185%"
+      ]
     },
     {
       "id": "Rain_of_Arrows",
@@ -640,7 +2344,47 @@
         "坠落",
         "敏捷"
       ],
-      "localIconUrl": "/assets/skills/active/Rain_of_Arrows.webp"
+      "localIconUrl": "/assets/skills/active/Rain_of_Arrows.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "134%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "99%",
+        "101%",
+        "103%",
+        "105%",
+        "106%",
+        "108%",
+        "110%",
+        "112%",
+        "114%",
+        "115%",
+        "117%",
+        "119%",
+        "121%",
+        "123%",
+        "125%",
+        "126%",
+        "128%",
+        "130%",
+        "132%",
+        "134%"
+      ]
     },
     {
       "id": "Savage_Charge",
@@ -656,7 +2400,47 @@
         "力量",
         "敏捷"
       ],
-      "localIconUrl": "/assets/skills/active/Savage_Charge.webp"
+      "localIconUrl": "/assets/skills/active/Savage_Charge.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量, 敏捷"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "57%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "32%",
+        "34%",
+        "35%",
+        "36%",
+        "37%",
+        "38%",
+        "39%",
+        "41%",
+        "42%",
+        "43%",
+        "45%",
+        "46%",
+        "47%",
+        "49%",
+        "50%",
+        "51%",
+        "53%",
+        "54%",
+        "56%",
+        "57%"
+      ]
     },
     {
       "id": "Ice_Lances",
@@ -669,7 +2453,69 @@
         "直射",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Ice_Lances.webp"
+      "localIconUrl": "/assets/skills/active/Ice_Lances.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.65 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "177%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "136%",
+        "138%",
+        "140%",
+        "142%",
+        "144%",
+        "146%",
+        "149%",
+        "151%",
+        "153%",
+        "155%",
+        "157%",
+        "159%",
+        "161%",
+        "164%",
+        "166%",
+        "168%",
+        "170%",
+        "172%",
+        "174%",
+        "177%"
+      ],
+      "skillBaseDamageByLevel": [
+        "8-12",
+        "9-14",
+        "12-18",
+        "17-26",
+        "22-33",
+        "27-41",
+        "32-47",
+        "40-60",
+        "53-79",
+        "65-97",
+        "85-127",
+        "101-151",
+        "123-185",
+        "147-220",
+        "176-264",
+        "251-377",
+        "300-449",
+        "418-627",
+        "632-947",
+        "762-1144"
+      ]
     },
     {
       "id": "Sparkle",
@@ -683,7 +2529,25 @@
         "直射",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Sparkle.webp"
+      "localIconUrl": "/assets/skills/active/Sparkle.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.65 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "79%"
+        }
+      ]
     },
     {
       "id": "Ring_of_Blades",
@@ -699,7 +2563,73 @@
         "直射",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Ring_of_Blades.webp"
+      "localIconUrl": "/assets/skills/active/Ring_of_Blades.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.333 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "0.2 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "93%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "93%",
+        "93%",
+        "93%",
+        "93%",
+        "93%",
+        "93%",
+        "93%",
+        "93%",
+        "93%",
+        "93%",
+        "93%",
+        "93%",
+        "93%",
+        "93%",
+        "93%",
+        "93%",
+        "93%",
+        "93%",
+        "93%",
+        "93%"
+      ],
+      "skillBaseDamageByLevel": [
+        "5-9",
+        "6-10",
+        "8-13",
+        "10-17",
+        "13-22",
+        "16-27",
+        "19-31",
+        "23-39",
+        "30-50",
+        "37-61",
+        "47-79",
+        "55-92",
+        "67-112",
+        "79-131",
+        "93-155",
+        "131-218",
+        "154-257",
+        "213-354",
+        "317-529",
+        "379-631"
+      ]
     },
     {
       "id": "Flame_Core",
@@ -713,7 +2643,69 @@
         "哨卫",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Flame_Core.webp"
+      "localIconUrl": "/assets/skills/active/Flame_Core.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "132%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "89%",
+        "91%",
+        "94%",
+        "96%",
+        "98%",
+        "100%",
+        "103%",
+        "105%",
+        "107%",
+        "109%",
+        "112%",
+        "114%",
+        "116%",
+        "118%",
+        "121%",
+        "123%",
+        "125%",
+        "127%",
+        "130%",
+        "132%"
+      ],
+      "skillBaseDamageByLevel": [
+        "5-9",
+        "5-10",
+        "7-13",
+        "10-19",
+        "13-24",
+        "16-30",
+        "19-35",
+        "24-45",
+        "32-60",
+        "40-74",
+        "53-98",
+        "63-117",
+        "78-144",
+        "93-172",
+        "112-208",
+        "161-298",
+        "193-358",
+        "270-502",
+        "410-762",
+        "498-925"
+      ]
     },
     {
       "id": "Lightning_Storm",
@@ -726,7 +2718,29 @@
         "持续",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Lightning_Storm.webp"
+      "localIconUrl": "/assets/skills/active/Lightning_Storm.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "2 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "166%"
+        }
+      ]
     },
     {
       "id": "Flame_Jet",
@@ -742,7 +2756,25 @@
         "地面",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Flame_Jet.webp"
+      "localIconUrl": "/assets/skills/active/Flame_Jet.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "0.5 秒"
+        }
+      ]
     },
     {
       "id": "Frost_Terra",
@@ -756,7 +2788,47 @@
         "地面",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Frost_Terra.webp"
+      "localIconUrl": "/assets/skills/active/Frost_Terra.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.65 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "0.5 秒"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "寒霜地面： 寒霜地面持续 3 秒 伤害状态持续 2 秒，每秒造成 7 持续冰冷伤害 该技能造成伤害时，施加 冰结 冰结是冰冷伤害击中时有概率引发的异常状态，被冰结的敌人降低 10% 攻击速度、施法速度和移动速度，基础拥有 10 点冰结值；每有 1 点冰结值，额外 + 1%受到的冰冷伤害。冰结值超过 100 点时，敌人被冰封。 \">冰结 每消耗 1 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 ，该次技能额外 26% 伤害 该技能造成的持续伤害状态无法扩散（不含异常状态） 该技能的 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 层数上限为 1 该技能每 0.5 秒获得一层 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 该技能基础地面数量上限为 1",
+        "寒霜地面： 寒霜地面持续 3 秒 伤害状态持续 2 秒，每秒造成 8 持续冰冷伤害 该技能造成伤害时，施加 冰结 冰结是冰冷伤害击中时有概率引发的异常状态，被冰结的敌人降低 10% 攻击速度、施法速度和移动速度，基础拥有 10 点冰结值；每有 1 点冰结值，额外 + 1%受到的冰冷伤害。冰结值超过 100 点时，敌人被冰封。 \">冰结 每消耗 1 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 ，该次技能额外 26% 伤害 该技能造成的持续伤害状态无法扩散（不含异常状态） 该技能的 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 层数上限为 1 该技能每 0.5 秒获得一层 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 该技能基础地面数量上限为 1",
+        "寒霜地面： 寒霜地面持续 3 秒 伤害状态持续 2 秒，每秒造成 10 持续冰冷伤害 该技能造成伤害时，施加 冰结 冰结是冰冷伤害击中时有概率引发的异常状态，被冰结的敌人降低 10% 攻击速度、施法速度和移动速度，基础拥有 10 点冰结值；每有 1 点冰结值，额外 + 1%受到的冰冷伤害。冰结值超过 100 点时，敌人被冰封。 \">冰结 每消耗 1 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 ，该次技能额外 26% 伤害 该技能造成的持续伤害状态无法扩散（不含异常状态） 该技能的 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 层数上限为 1 该技能每 0.5 秒获得一层 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 该技能基础地面数量上限为 1",
+        "寒霜地面： 寒霜地面持续 3 秒 伤害状态持续 2 秒，每秒造成 14 持续冰冷伤害 该技能造成伤害时，施加 冰结 冰结是冰冷伤害击中时有概率引发的异常状态，被冰结的敌人降低 10% 攻击速度、施法速度和移动速度，基础拥有 10 点冰结值；每有 1 点冰结值，额外 + 1%受到的冰冷伤害。冰结值超过 100 点时，敌人被冰封。 \">冰结 每消耗 1 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 ，该次技能额外 26% 伤害 该技能造成的持续伤害状态无法扩散（不含异常状态） 该技能的 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 层数上限为 1 该技能每 0.5 秒获得一层 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 该技能基础地面数量上限为 1",
+        "寒霜地面： 寒霜地面持续 3 秒 伤害状态持续 2 秒，每秒造成 17 持续冰冷伤害 该技能造成伤害时，施加 冰结 冰结是冰冷伤害击中时有概率引发的异常状态，被冰结的敌人降低 10% 攻击速度、施法速度和移动速度，基础拥有 10 点冰结值；每有 1 点冰结值，额外 + 1%受到的冰冷伤害。冰结值超过 100 点时，敌人被冰封。 \">冰结 每消耗 1 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 ，该次技能额外 26% 伤害 该技能造成的持续伤害状态无法扩散（不含异常状态） 该技能的 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 层数上限为 1 该技能每 0.5 秒获得一层 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 该技能基础地面数量上限为 1",
+        "寒霜地面： 寒霜地面持续 3 秒 伤害状态持续 2 秒，每秒造成 21 持续冰冷伤害 该技能造成伤害时，施加 冰结 冰结是冰冷伤害击中时有概率引发的异常状态，被冰结的敌人降低 10% 攻击速度、施法速度和移动速度，基础拥有 10 点冰结值；每有 1 点冰结值，额外 + 1%受到的冰冷伤害。冰结值超过 100 点时，敌人被冰封。 \">冰结 每消耗 1 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 ，该次技能额外 26% 伤害 该技能造成的持续伤害状态无法扩散（不含异常状态） 该技能的 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 层数上限为 1 该技能每 0.5 秒获得一层 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 该技能基础地面数量上限为 1",
+        "寒霜地面： 寒霜地面持续 3 秒 伤害状态持续 2 秒，每秒造成 24 持续冰冷伤害 该技能造成伤害时，施加 冰结 冰结是冰冷伤害击中时有概率引发的异常状态，被冰结的敌人降低 10% 攻击速度、施法速度和移动速度，基础拥有 10 点冰结值；每有 1 点冰结值，额外 + 1%受到的冰冷伤害。冰结值超过 100 点时，敌人被冰封。 \">冰结 每消耗 1 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 ，该次技能额外 26% 伤害 该技能造成的持续伤害状态无法扩散（不含异常状态） 该技能的 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 层数上限为 1 该技能每 0.5 秒获得一层 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 该技能基础地面数量上限为 1",
+        "寒霜地面： 寒霜地面持续 3 秒 伤害状态持续 2 秒，每秒造成 30 持续冰冷伤害 该技能造成伤害时，施加 冰结 冰结是冰冷伤害击中时有概率引发的异常状态，被冰结的敌人降低 10% 攻击速度、施法速度和移动速度，基础拥有 10 点冰结值；每有 1 点冰结值，额外 + 1%受到的冰冷伤害。冰结值超过 100 点时，敌人被冰封。 \">冰结 每消耗 1 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 ，该次技能额外 26% 伤害 该技能造成的持续伤害状态无法扩散（不含异常状态） 该技能的 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 层数上限为 1 该技能每 0.5 秒获得一层 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 该技能基础地面数量上限为 1",
+        "寒霜地面： 寒霜地面持续 3 秒 伤害状态持续 2 秒，每秒造成 39 持续冰冷伤害 该技能造成伤害时，施加 冰结 冰结是冰冷伤害击中时有概率引发的异常状态，被冰结的敌人降低 10% 攻击速度、施法速度和移动速度，基础拥有 10 点冰结值；每有 1 点冰结值，额外 + 1%受到的冰冷伤害。冰结值超过 100 点时，敌人被冰封。 \">冰结 每消耗 1 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 ，该次技能额外 26% 伤害 该技能造成的持续伤害状态无法扩散（不含异常状态） 该技能的 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 层数上限为 1 该技能每 0.5 秒获得一层 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 该技能基础地面数量上限为 1",
+        "寒霜地面： 寒霜地面持续 3 秒 伤害状态持续 2 秒，每秒造成 48 持续冰冷伤害 该技能造成伤害时，施加 冰结 冰结是冰冷伤害击中时有概率引发的异常状态，被冰结的敌人降低 10% 攻击速度、施法速度和移动速度，基础拥有 10 点冰结值；每有 1 点冰结值，额外 + 1%受到的冰冷伤害。冰结值超过 100 点时，敌人被冰封。 \">冰结 每消耗 1 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 ，该次技能额外 26% 伤害 该技能造成的持续伤害状态无法扩散（不含异常状态） 该技能的 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 层数上限为 1 该技能每 0.5 秒获得一层 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 该技能基础地面数量上限为 1",
+        "寒霜地面： 寒霜地面持续 3 秒 伤害状态持续 2 秒，每秒造成 62 持续冰冷伤害 该技能造成伤害时，施加 冰结 冰结是冰冷伤害击中时有概率引发的异常状态，被冰结的敌人降低 10% 攻击速度、施法速度和移动速度，基础拥有 10 点冰结值；每有 1 点冰结值，额外 + 1%受到的冰冷伤害。冰结值超过 100 点时，敌人被冰封。 \">冰结 每消耗 1 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 ，该次技能额外 26% 伤害 该技能造成的持续伤害状态无法扩散（不含异常状态） 该技能的 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 层数上限为 1 该技能每 0.5 秒获得一层 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 该技能基础地面数量上限为 1",
+        "寒霜地面： 寒霜地面持续 3 秒 伤害状态持续 2 秒，每秒造成 72 持续冰冷伤害 该技能造成伤害时，施加 冰结 冰结是冰冷伤害击中时有概率引发的异常状态，被冰结的敌人降低 10% 攻击速度、施法速度和移动速度，基础拥有 10 点冰结值；每有 1 点冰结值，额外 + 1%受到的冰冷伤害。冰结值超过 100 点时，敌人被冰封。 \">冰结 每消耗 1 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 ，该次技能额外 26% 伤害 该技能造成的持续伤害状态无法扩散（不含异常状态） 该技能的 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 层数上限为 1 该技能每 0.5 秒获得一层 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 该技能基础地面数量上限为 1",
+        "寒霜地面： 寒霜地面持续 3 秒 伤害状态持续 2 秒，每秒造成 87 持续冰冷伤害 该技能造成伤害时，施加 冰结 冰结是冰冷伤害击中时有概率引发的异常状态，被冰结的敌人降低 10% 攻击速度、施法速度和移动速度，基础拥有 10 点冰结值；每有 1 点冰结值，额外 + 1%受到的冰冷伤害。冰结值超过 100 点时，敌人被冰封。 \">冰结 每消耗 1 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 ，该次技能额外 26% 伤害 该技能造成的持续伤害状态无法扩散（不含异常状态） 该技能的 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 层数上限为 1 该技能每 0.5 秒获得一层 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 该技能基础地面数量上限为 1",
+        "寒霜地面： 寒霜地面持续 3 秒 伤害状态持续 2 秒，每秒造成 103 持续冰冷伤害 该技能造成伤害时，施加 冰结 冰结是冰冷伤害击中时有概率引发的异常状态，被冰结的敌人降低 10% 攻击速度、施法速度和移动速度，基础拥有 10 点冰结值；每有 1 点冰结值，额外 + 1%受到的冰冷伤害。冰结值超过 100 点时，敌人被冰封。 \">冰结 每消耗 1 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 ，该次技能额外 26% 伤害 该技能造成的持续伤害状态无法扩散（不含异常状态） 该技能的 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 层数上限为 1 该技能每 0.5 秒获得一层 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 该技能基础地面数量上限为 1",
+        "寒霜地面： 寒霜地面持续 3 秒 伤害状态持续 2 秒，每秒造成 122 持续冰冷伤害 该技能造成伤害时，施加 冰结 冰结是冰冷伤害击中时有概率引发的异常状态，被冰结的敌人降低 10% 攻击速度、施法速度和移动速度，基础拥有 10 点冰结值；每有 1 点冰结值，额外 + 1%受到的冰冷伤害。冰结值超过 100 点时，敌人被冰封。 \">冰结 每消耗 1 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 ，该次技能额外 26% 伤害 该技能造成的持续伤害状态无法扩散（不含异常状态） 该技能的 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 层数上限为 1 该技能每 0.5 秒获得一层 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 该技能基础地面数量上限为 1",
+        "寒霜地面： 寒霜地面持续 3 秒 伤害状态持续 2 秒，每秒造成 171 持续冰冷伤害 该技能造成伤害时，施加 冰结 冰结是冰冷伤害击中时有概率引发的异常状态，被冰结的敌人降低 10% 攻击速度、施法速度和移动速度，基础拥有 10 点冰结值；每有 1 点冰结值，额外 + 1%受到的冰冷伤害。冰结值超过 100 点时，敌人被冰封。 \">冰结 每消耗 1 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 ，该次技能额外 26% 伤害 该技能造成的持续伤害状态无法扩散（不含异常状态） 该技能的 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 层数上限为 1 该技能每 0.5 秒获得一层 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 该技能基础地面数量上限为 1",
+        "寒霜地面： 寒霜地面持续 3 秒 伤害状态持续 2 秒，每秒造成 201 持续冰冷伤害 该技能造成伤害时，施加 冰结 冰结是冰冷伤害击中时有概率引发的异常状态，被冰结的敌人降低 10% 攻击速度、施法速度和移动速度，基础拥有 10 点冰结值；每有 1 点冰结值，额外 + 1%受到的冰冷伤害。冰结值超过 100 点时，敌人被冰封。 \">冰结 每消耗 1 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 ，该次技能额外 26% 伤害 该技能造成的持续伤害状态无法扩散（不含异常状态） 该技能的 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 层数上限为 1 该技能每 0.5 秒获得一层 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 该技能基础地面数量上限为 1",
+        "寒霜地面： 寒霜地面持续 3 秒 伤害状态持续 2 秒，每秒造成 277 持续冰冷伤害 该技能造成伤害时，施加 冰结 冰结是冰冷伤害击中时有概率引发的异常状态，被冰结的敌人降低 10% 攻击速度、施法速度和移动速度，基础拥有 10 点冰结值；每有 1 点冰结值，额外 + 1%受到的冰冷伤害。冰结值超过 100 点时，敌人被冰封。 \">冰结 每消耗 1 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 ，该次技能额外 26% 伤害 该技能造成的持续伤害状态无法扩散（不含异常状态） 该技能的 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 层数上限为 1 该技能每 0.5 秒获得一层 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 该技能基础地面数量上限为 1",
+        "寒霜地面： 寒霜地面持续 3 秒 伤害状态持续 2 秒，每秒造成 414 持续冰冷伤害 该技能造成伤害时，施加 冰结 冰结是冰冷伤害击中时有概率引发的异常状态，被冰结的敌人降低 10% 攻击速度、施法速度和移动速度，基础拥有 10 点冰结值；每有 1 点冰结值，额外 + 1%受到的冰冷伤害。冰结值超过 100 点时，敌人被冰封。 \">冰结 每消耗 1 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 ，该次技能额外 26% 伤害 该技能造成的持续伤害状态无法扩散（不含异常状态） 该技能的 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 层数上限为 1 该技能每 0.5 秒获得一层 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 该技能基础地面数量上限为 1",
+        "寒霜地面： 寒霜地面持续 3 秒 伤害状态持续 2 秒，每秒造成 494 持续冰冷伤害 该技能造成伤害时，施加 冰结 冰结是冰冷伤害击中时有概率引发的异常状态，被冰结的敌人降低 10% 攻击速度、施法速度和移动速度，基础拥有 10 点冰结值；每有 1 点冰结值，额外 + 1%受到的冰冷伤害。冰结值超过 100 点时，敌人被冰封。 \">冰结 每消耗 1 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 ，该次技能额外 26% 伤害 该技能造成的持续伤害状态无法扩散（不含异常状态） 该技能的 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 层数上限为 1 该技能每 0.5 秒获得一层 地面蓄能 地面技能每隔固定时间获得1层地面蓄能 使用地面技能时会消耗该技能的所有蓄能，每层消耗的蓄能都会使该次技能获得增强 \">地面蓄能 该技能基础地面数量上限为 1"
+      ]
     },
     {
       "id": "Scorching_Beam",
@@ -770,7 +2842,25 @@
         "射线",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Scorching_Beam.webp"
+      "localIconUrl": "/assets/skills/active/Scorching_Beam.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.333 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "32%"
+        }
+      ]
     },
     {
       "id": "Wilting_Beam",
@@ -785,7 +2875,21 @@
         "射线",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Wilting_Beam.webp"
+      "localIconUrl": "/assets/skills/active/Wilting_Beam.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.333 秒"
+        }
+      ]
     },
     {
       "id": "Frigid_Transmission",
@@ -798,7 +2902,73 @@
         "位移",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Frigid_Transmission.webp"
+      "localIconUrl": "/assets/skills/active/Frigid_Transmission.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "4 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "160%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "160%",
+        "160%",
+        "160%",
+        "160%",
+        "160%",
+        "160%",
+        "160%",
+        "160%",
+        "160%",
+        "160%",
+        "160%",
+        "160%",
+        "160%",
+        "160%",
+        "160%",
+        "160%",
+        "160%",
+        "160%",
+        "160%",
+        "160%"
+      ],
+      "skillBaseDamageByLevel": [
+        "10-14",
+        "11-16",
+        "14-21",
+        "19-29",
+        "25-37",
+        "30-45",
+        "34-51",
+        "43-64",
+        "55-83",
+        "67-101",
+        "86-130",
+        "101-152",
+        "123-184",
+        "144-216",
+        "171-256",
+        "240-360",
+        "283-424",
+        "389-584",
+        "581-872",
+        "693-1040"
+      ]
     },
     {
       "id": "Forced_Start",
@@ -809,7 +2979,21 @@
         "持续",
         "防护"
       ],
-      "localIconUrl": "/assets/skills/active/Forced_Start.webp"
+      "localIconUrl": "/assets/skills/active/Forced_Start.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "6 秒"
+        }
+      ]
     },
     {
       "id": "Aegis_of_Fire",
@@ -821,7 +3005,69 @@
         "火焰",
         "防护"
       ],
-      "localIconUrl": "/assets/skills/active/Aegis_of_Fire.webp"
+      "localIconUrl": "/assets/skills/active/Aegis_of_Fire.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "6 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "100%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%"
+      ],
+      "skillBaseDamageByLevel": [
+        "20-30",
+        "20-35",
+        "20-40",
+        "20-45",
+        "20-50",
+        "20-55",
+        "20-60",
+        "20-65",
+        "20-70",
+        "20-75",
+        "20-80",
+        "20-85",
+        "20-90",
+        "20-95",
+        "20-100",
+        "20-105",
+        "20-110",
+        "20-115",
+        "20-120",
+        "20-125"
+      ]
     },
     {
       "id": "Delayed_Pain",
@@ -832,7 +3078,43 @@
         "持续",
         "防护"
       ],
-      "localIconUrl": "/assets/skills/active/Delayed_Pain.webp"
+      "localIconUrl": "/assets/skills/active/Delayed_Pain.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "6 秒"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "释放该技能获得防护： 技能持续时， 15.3 % 受伤缓冲 受到的击中伤害的一部分在接下来的 4 秒内缓慢结算 \">受伤缓冲 持续 5 秒",
+        "释放该技能获得防护： 技能持续时， 15.6 % 受伤缓冲 受到的击中伤害的一部分在接下来的 4 秒内缓慢结算 \">受伤缓冲 持续 5 秒",
+        "释放该技能获得防护： 技能持续时， 15.9 % 受伤缓冲 受到的击中伤害的一部分在接下来的 4 秒内缓慢结算 \">受伤缓冲 持续 5 秒",
+        "释放该技能获得防护： 技能持续时， 16.2 % 受伤缓冲 受到的击中伤害的一部分在接下来的 4 秒内缓慢结算 \">受伤缓冲 持续 5 秒",
+        "释放该技能获得防护： 技能持续时， 16.5 % 受伤缓冲 受到的击中伤害的一部分在接下来的 4 秒内缓慢结算 \">受伤缓冲 持续 5 秒",
+        "释放该技能获得防护： 技能持续时， 16.8 % 受伤缓冲 受到的击中伤害的一部分在接下来的 4 秒内缓慢结算 \">受伤缓冲 持续 5 秒",
+        "释放该技能获得防护： 技能持续时， 17.1 % 受伤缓冲 受到的击中伤害的一部分在接下来的 4 秒内缓慢结算 \">受伤缓冲 持续 5 秒",
+        "释放该技能获得防护： 技能持续时， 17.4 % 受伤缓冲 受到的击中伤害的一部分在接下来的 4 秒内缓慢结算 \">受伤缓冲 持续 5 秒",
+        "释放该技能获得防护： 技能持续时， 17.7 % 受伤缓冲 受到的击中伤害的一部分在接下来的 4 秒内缓慢结算 \">受伤缓冲 持续 5 秒",
+        "释放该技能获得防护： 技能持续时， +18 % 受伤缓冲 受到的击中伤害的一部分在接下来的 4 秒内缓慢结算 \">受伤缓冲 持续 5 秒",
+        "释放该技能获得防护： 技能持续时， 18.3 % 受伤缓冲 受到的击中伤害的一部分在接下来的 4 秒内缓慢结算 \">受伤缓冲 持续 5 秒",
+        "释放该技能获得防护： 技能持续时， 18.6 % 受伤缓冲 受到的击中伤害的一部分在接下来的 4 秒内缓慢结算 \">受伤缓冲 持续 5 秒",
+        "释放该技能获得防护： 技能持续时， 18.9 % 受伤缓冲 受到的击中伤害的一部分在接下来的 4 秒内缓慢结算 \">受伤缓冲 持续 5 秒",
+        "释放该技能获得防护： 技能持续时， 19.2 % 受伤缓冲 受到的击中伤害的一部分在接下来的 4 秒内缓慢结算 \">受伤缓冲 持续 5 秒",
+        "释放该技能获得防护： 技能持续时， 19.5 % 受伤缓冲 受到的击中伤害的一部分在接下来的 4 秒内缓慢结算 \">受伤缓冲 持续 5 秒",
+        "释放该技能获得防护： 技能持续时， 19.8 % 受伤缓冲 受到的击中伤害的一部分在接下来的 4 秒内缓慢结算 \">受伤缓冲 持续 5 秒",
+        "释放该技能获得防护： 技能持续时， 20.1 % 受伤缓冲 受到的击中伤害的一部分在接下来的 4 秒内缓慢结算 \">受伤缓冲 持续 5 秒",
+        "释放该技能获得防护： 技能持续时， 20.4 % 受伤缓冲 受到的击中伤害的一部分在接下来的 4 秒内缓慢结算 \">受伤缓冲 持续 5 秒",
+        "释放该技能获得防护： 技能持续时， 20.7 % 受伤缓冲 受到的击中伤害的一部分在接下来的 4 秒内缓慢结算 \">受伤缓冲 持续 5 秒",
+        "释放该技能获得防护： 技能持续时， +21 % 受伤缓冲 受到的击中伤害的一部分在接下来的 4 秒内缓慢结算 \">受伤缓冲 持续 5 秒"
+      ]
     },
     {
       "id": "Defensive_Buffer",
@@ -843,7 +3125,43 @@
         "持续",
         "防护"
       ],
-      "localIconUrl": "/assets/skills/active/Defensive_Buffer.webp"
+      "localIconUrl": "/assets/skills/active/Defensive_Buffer.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "6 秒"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "释放该技能获得防护： 技能持续时，额外 -12 % 受到的物理伤害 技能持续时，额外 -12 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害 持续 5 秒 该技能释放时，如果拥有至少 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，则失去 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，获得额外防护: 技能持续时，额外 -1 % 受到的物理伤害 技能持续时，额外 -1 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害",
+        "释放该技能获得防护： 技能持续时，额外 -12 % 受到的物理伤害 技能持续时，额外 -12 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害 持续 5 秒 该技能释放时，如果拥有至少 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，则失去 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，获得额外防护: 技能持续时，额外 -1.5 % 受到的物理伤害 技能持续时，额外 -1.5 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害",
+        "释放该技能获得防护： 技能持续时，额外 -12 % 受到的物理伤害 技能持续时，额外 -12 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害 持续 5 秒 该技能释放时，如果拥有至少 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，则失去 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，获得额外防护: 技能持续时，额外 -2 % 受到的物理伤害 技能持续时，额外 -2 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害",
+        "释放该技能获得防护： 技能持续时，额外 -12 % 受到的物理伤害 技能持续时，额外 -12 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害 持续 5 秒 该技能释放时，如果拥有至少 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，则失去 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，获得额外防护: 技能持续时，额外 -2.5 % 受到的物理伤害 技能持续时，额外 -2.5 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害",
+        "释放该技能获得防护： 技能持续时，额外 -12 % 受到的物理伤害 技能持续时，额外 -12 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害 持续 5 秒 该技能释放时，如果拥有至少 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，则失去 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，获得额外防护: 技能持续时，额外 -3 % 受到的物理伤害 技能持续时，额外 -3 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害",
+        "释放该技能获得防护： 技能持续时，额外 -12 % 受到的物理伤害 技能持续时，额外 -12 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害 持续 5 秒 该技能释放时，如果拥有至少 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，则失去 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，获得额外防护: 技能持续时，额外 -3.5 % 受到的物理伤害 技能持续时，额外 -3.5 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害",
+        "释放该技能获得防护： 技能持续时，额外 -12 % 受到的物理伤害 技能持续时，额外 -12 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害 持续 5 秒 该技能释放时，如果拥有至少 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，则失去 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，获得额外防护: 技能持续时，额外 -4 % 受到的物理伤害 技能持续时，额外 -4 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害",
+        "释放该技能获得防护： 技能持续时，额外 -12 % 受到的物理伤害 技能持续时，额外 -12 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害 持续 5 秒 该技能释放时，如果拥有至少 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，则失去 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，获得额外防护: 技能持续时，额外 -4.5 % 受到的物理伤害 技能持续时，额外 -4.5 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害",
+        "释放该技能获得防护： 技能持续时，额外 -12 % 受到的物理伤害 技能持续时，额外 -12 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害 持续 5 秒 该技能释放时，如果拥有至少 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，则失去 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，获得额外防护: 技能持续时，额外 -5 % 受到的物理伤害 技能持续时，额外 -5 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害",
+        "释放该技能获得防护： 技能持续时，额外 -12 % 受到的物理伤害 技能持续时，额外 -12 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害 持续 5 秒 该技能释放时，如果拥有至少 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，则失去 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，获得额外防护: 技能持续时，额外 -5.5 % 受到的物理伤害 技能持续时，额外 -5.5 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害",
+        "释放该技能获得防护： 技能持续时，额外 -12 % 受到的物理伤害 技能持续时，额外 -12 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害 持续 5 秒 该技能释放时，如果拥有至少 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，则失去 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，获得额外防护: 技能持续时，额外 -6 % 受到的物理伤害 技能持续时，额外 -6 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害",
+        "释放该技能获得防护： 技能持续时，额外 -12 % 受到的物理伤害 技能持续时，额外 -12 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害 持续 5 秒 该技能释放时，如果拥有至少 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，则失去 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，获得额外防护: 技能持续时，额外 -6.5 % 受到的物理伤害 技能持续时，额外 -6.5 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害",
+        "释放该技能获得防护： 技能持续时，额外 -12 % 受到的物理伤害 技能持续时，额外 -12 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害 持续 5 秒 该技能释放时，如果拥有至少 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，则失去 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，获得额外防护: 技能持续时，额外 -7 % 受到的物理伤害 技能持续时，额外 -7 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害",
+        "释放该技能获得防护： 技能持续时，额外 -12 % 受到的物理伤害 技能持续时，额外 -12 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害 持续 5 秒 该技能释放时，如果拥有至少 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，则失去 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，获得额外防护: 技能持续时，额外 -7.5 % 受到的物理伤害 技能持续时，额外 -7.5 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害",
+        "释放该技能获得防护： 技能持续时，额外 -12 % 受到的物理伤害 技能持续时，额外 -12 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害 持续 5 秒 该技能释放时，如果拥有至少 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，则失去 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，获得额外防护: 技能持续时，额外 -8 % 受到的物理伤害 技能持续时，额外 -8 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害",
+        "释放该技能获得防护： 技能持续时，额外 -12 % 受到的物理伤害 技能持续时，额外 -12 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害 持续 5 秒 该技能释放时，如果拥有至少 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，则失去 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，获得额外防护: 技能持续时，额外 -8.5 % 受到的物理伤害 技能持续时，额外 -8.5 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害",
+        "释放该技能获得防护： 技能持续时，额外 -12 % 受到的物理伤害 技能持续时，额外 -12 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害 持续 5 秒 该技能释放时，如果拥有至少 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，则失去 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，获得额外防护: 技能持续时，额外 -9 % 受到的物理伤害 技能持续时，额外 -9 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害",
+        "释放该技能获得防护： 技能持续时，额外 -12 % 受到的物理伤害 技能持续时，额外 -12 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害 持续 5 秒 该技能释放时，如果拥有至少 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，则失去 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，获得额外防护: 技能持续时，额外 -9.5 % 受到的物理伤害 技能持续时，额外 -9.5 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害",
+        "释放该技能获得防护： 技能持续时，额外 -12 % 受到的物理伤害 技能持续时，额外 -12 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害 持续 5 秒 该技能释放时，如果拥有至少 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，则失去 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，获得额外防护: 技能持续时，额外 -10 % 受到的物理伤害 技能持续时，额外 -10 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害",
+        "释放该技能获得防护： 技能持续时，额外 -12 % 受到的物理伤害 技能持续时，额外 -12 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害 持续 5 秒 该技能释放时，如果拥有至少 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，则失去 4 层 坚韧祝福 每层坚韧祝福额外 -4% 受到的伤害（叠乘）。初始上限为 4 层。 \">坚韧祝福 ，获得额外防护: 技能持续时，额外 -10.5 % 受到的物理伤害 技能持续时，额外 -10.5 % 受到的 元素 包括火焰、冰冷和闪电 \">元素 伤害"
+      ]
     },
     {
       "id": "Brisk_Wind",
@@ -854,7 +3172,21 @@
         "持续",
         "防护"
       ],
-      "localIconUrl": "/assets/skills/active/Brisk_Wind.webp"
+      "localIconUrl": "/assets/skills/active/Brisk_Wind.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "6 秒"
+        }
+      ]
     },
     {
       "id": "Burst_of_Anger",
@@ -865,7 +3197,43 @@
         "持续",
         "激发"
       ],
-      "localIconUrl": "/assets/skills/active/Burst_of_Anger.webp"
+      "localIconUrl": "/assets/skills/active/Burst_of_Anger.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "10 秒"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "释放该技能获得亢奋： 技能持续时， 获得 攻击激进 攻击速度和攻击伤害额外提高5%，移动速度提高10% \">攻击激进 技能持续时， +10 % 体型 技能持续时，额外 7.1 % 攻击伤害 技能持续时，击败敌人时 +100 % 几率刷新该技能持续时间 技能持续时，击中 劲敌 劲敌包括稀有怪物和首领 \">劲敌 时 +10 % 几率刷新该技能持续时间 持续 6 秒 技能持续时，每秒失去 2 % 最大生命和最大护盾",
+        "释放该技能获得亢奋： 技能持续时， 获得 攻击激进 攻击速度和攻击伤害额外提高5%，移动速度提高10% \">攻击激进 技能持续时， +10 % 体型 技能持续时，额外 7.2 % 攻击伤害 技能持续时，击败敌人时 +100 % 几率刷新该技能持续时间 技能持续时，击中 劲敌 劲敌包括稀有怪物和首领 \">劲敌 时 +10 % 几率刷新该技能持续时间 持续 6 秒 技能持续时，每秒失去 2 % 最大生命和最大护盾",
+        "释放该技能获得亢奋： 技能持续时， 获得 攻击激进 攻击速度和攻击伤害额外提高5%，移动速度提高10% \">攻击激进 技能持续时， +10 % 体型 技能持续时，额外 7.3 % 攻击伤害 技能持续时，击败敌人时 +100 % 几率刷新该技能持续时间 技能持续时，击中 劲敌 劲敌包括稀有怪物和首领 \">劲敌 时 +10 % 几率刷新该技能持续时间 持续 6 秒 技能持续时，每秒失去 2 % 最大生命和最大护盾",
+        "释放该技能获得亢奋： 技能持续时， 获得 攻击激进 攻击速度和攻击伤害额外提高5%，移动速度提高10% \">攻击激进 技能持续时， +10 % 体型 技能持续时，额外 7.4 % 攻击伤害 技能持续时，击败敌人时 +100 % 几率刷新该技能持续时间 技能持续时，击中 劲敌 劲敌包括稀有怪物和首领 \">劲敌 时 +10 % 几率刷新该技能持续时间 持续 6 秒 技能持续时，每秒失去 2 % 最大生命和最大护盾",
+        "释放该技能获得亢奋： 技能持续时， 获得 攻击激进 攻击速度和攻击伤害额外提高5%，移动速度提高10% \">攻击激进 技能持续时， +10 % 体型 技能持续时，额外 7.5 % 攻击伤害 技能持续时，击败敌人时 +100 % 几率刷新该技能持续时间 技能持续时，击中 劲敌 劲敌包括稀有怪物和首领 \">劲敌 时 +10 % 几率刷新该技能持续时间 持续 6 秒 技能持续时，每秒失去 2 % 最大生命和最大护盾",
+        "释放该技能获得亢奋： 技能持续时， 获得 攻击激进 攻击速度和攻击伤害额外提高5%，移动速度提高10% \">攻击激进 技能持续时， +10 % 体型 技能持续时，额外 7.6 % 攻击伤害 技能持续时，击败敌人时 +100 % 几率刷新该技能持续时间 技能持续时，击中 劲敌 劲敌包括稀有怪物和首领 \">劲敌 时 +10 % 几率刷新该技能持续时间 持续 6 秒 技能持续时，每秒失去 2 % 最大生命和最大护盾",
+        "释放该技能获得亢奋： 技能持续时， 获得 攻击激进 攻击速度和攻击伤害额外提高5%，移动速度提高10% \">攻击激进 技能持续时， +10 % 体型 技能持续时，额外 7.7 % 攻击伤害 技能持续时，击败敌人时 +100 % 几率刷新该技能持续时间 技能持续时，击中 劲敌 劲敌包括稀有怪物和首领 \">劲敌 时 +10 % 几率刷新该技能持续时间 持续 6 秒 技能持续时，每秒失去 2 % 最大生命和最大护盾",
+        "释放该技能获得亢奋： 技能持续时， 获得 攻击激进 攻击速度和攻击伤害额外提高5%，移动速度提高10% \">攻击激进 技能持续时， +10 % 体型 技能持续时，额外 7.8 % 攻击伤害 技能持续时，击败敌人时 +100 % 几率刷新该技能持续时间 技能持续时，击中 劲敌 劲敌包括稀有怪物和首领 \">劲敌 时 +10 % 几率刷新该技能持续时间 持续 6 秒 技能持续时，每秒失去 2 % 最大生命和最大护盾",
+        "释放该技能获得亢奋： 技能持续时， 获得 攻击激进 攻击速度和攻击伤害额外提高5%，移动速度提高10% \">攻击激进 技能持续时， +10 % 体型 技能持续时，额外 7.9 % 攻击伤害 技能持续时，击败敌人时 +100 % 几率刷新该技能持续时间 技能持续时，击中 劲敌 劲敌包括稀有怪物和首领 \">劲敌 时 +10 % 几率刷新该技能持续时间 持续 6 秒 技能持续时，每秒失去 2 % 最大生命和最大护盾",
+        "释放该技能获得亢奋： 技能持续时， 获得 攻击激进 攻击速度和攻击伤害额外提高5%，移动速度提高10% \">攻击激进 技能持续时， +10 % 体型 技能持续时，额外 +8 % 攻击伤害 技能持续时，击败敌人时 +100 % 几率刷新该技能持续时间 技能持续时，击中 劲敌 劲敌包括稀有怪物和首领 \">劲敌 时 +10 % 几率刷新该技能持续时间 持续 6 秒 技能持续时，每秒失去 2 % 最大生命和最大护盾",
+        "释放该技能获得亢奋： 技能持续时， 获得 攻击激进 攻击速度和攻击伤害额外提高5%，移动速度提高10% \">攻击激进 技能持续时， +10 % 体型 技能持续时，额外 8.1 % 攻击伤害 技能持续时，击败敌人时 +100 % 几率刷新该技能持续时间 技能持续时，击中 劲敌 劲敌包括稀有怪物和首领 \">劲敌 时 +10 % 几率刷新该技能持续时间 持续 6 秒 技能持续时，每秒失去 2 % 最大生命和最大护盾",
+        "释放该技能获得亢奋： 技能持续时， 获得 攻击激进 攻击速度和攻击伤害额外提高5%，移动速度提高10% \">攻击激进 技能持续时， +10 % 体型 技能持续时，额外 8.2 % 攻击伤害 技能持续时，击败敌人时 +100 % 几率刷新该技能持续时间 技能持续时，击中 劲敌 劲敌包括稀有怪物和首领 \">劲敌 时 +10 % 几率刷新该技能持续时间 持续 6 秒 技能持续时，每秒失去 2 % 最大生命和最大护盾",
+        "释放该技能获得亢奋： 技能持续时， 获得 攻击激进 攻击速度和攻击伤害额外提高5%，移动速度提高10% \">攻击激进 技能持续时， +10 % 体型 技能持续时，额外 8.3 % 攻击伤害 技能持续时，击败敌人时 +100 % 几率刷新该技能持续时间 技能持续时，击中 劲敌 劲敌包括稀有怪物和首领 \">劲敌 时 +10 % 几率刷新该技能持续时间 持续 6 秒 技能持续时，每秒失去 2 % 最大生命和最大护盾",
+        "释放该技能获得亢奋： 技能持续时， 获得 攻击激进 攻击速度和攻击伤害额外提高5%，移动速度提高10% \">攻击激进 技能持续时， +10 % 体型 技能持续时，额外 8.4 % 攻击伤害 技能持续时，击败敌人时 +100 % 几率刷新该技能持续时间 技能持续时，击中 劲敌 劲敌包括稀有怪物和首领 \">劲敌 时 +10 % 几率刷新该技能持续时间 持续 6 秒 技能持续时，每秒失去 2 % 最大生命和最大护盾",
+        "释放该技能获得亢奋： 技能持续时， 获得 攻击激进 攻击速度和攻击伤害额外提高5%，移动速度提高10% \">攻击激进 技能持续时， +10 % 体型 技能持续时，额外 8.5 % 攻击伤害 技能持续时，击败敌人时 +100 % 几率刷新该技能持续时间 技能持续时，击中 劲敌 劲敌包括稀有怪物和首领 \">劲敌 时 +10 % 几率刷新该技能持续时间 持续 6 秒 技能持续时，每秒失去 2 % 最大生命和最大护盾",
+        "释放该技能获得亢奋： 技能持续时， 获得 攻击激进 攻击速度和攻击伤害额外提高5%，移动速度提高10% \">攻击激进 技能持续时， +10 % 体型 技能持续时，额外 8.6 % 攻击伤害 技能持续时，击败敌人时 +100 % 几率刷新该技能持续时间 技能持续时，击中 劲敌 劲敌包括稀有怪物和首领 \">劲敌 时 +10 % 几率刷新该技能持续时间 持续 6 秒 技能持续时，每秒失去 2 % 最大生命和最大护盾",
+        "释放该技能获得亢奋： 技能持续时， 获得 攻击激进 攻击速度和攻击伤害额外提高5%，移动速度提高10% \">攻击激进 技能持续时， +10 % 体型 技能持续时，额外 8.7 % 攻击伤害 技能持续时，击败敌人时 +100 % 几率刷新该技能持续时间 技能持续时，击中 劲敌 劲敌包括稀有怪物和首领 \">劲敌 时 +10 % 几率刷新该技能持续时间 持续 6 秒 技能持续时，每秒失去 2 % 最大生命和最大护盾",
+        "释放该技能获得亢奋： 技能持续时， 获得 攻击激进 攻击速度和攻击伤害额外提高5%，移动速度提高10% \">攻击激进 技能持续时， +10 % 体型 技能持续时，额外 8.8 % 攻击伤害 技能持续时，击败敌人时 +100 % 几率刷新该技能持续时间 技能持续时，击中 劲敌 劲敌包括稀有怪物和首领 \">劲敌 时 +10 % 几率刷新该技能持续时间 持续 6 秒 技能持续时，每秒失去 2 % 最大生命和最大护盾",
+        "释放该技能获得亢奋： 技能持续时， 获得 攻击激进 攻击速度和攻击伤害额外提高5%，移动速度提高10% \">攻击激进 技能持续时， +10 % 体型 技能持续时，额外 8.9 % 攻击伤害 技能持续时，击败敌人时 +100 % 几率刷新该技能持续时间 技能持续时，击中 劲敌 劲敌包括稀有怪物和首领 \">劲敌 时 +10 % 几率刷新该技能持续时间 持续 6 秒 技能持续时，每秒失去 2 % 最大生命和最大护盾",
+        "释放该技能获得亢奋： 技能持续时， 获得 攻击激进 攻击速度和攻击伤害额外提高5%，移动速度提高10% \">攻击激进 技能持续时， +10 % 体型 技能持续时，额外 +9 % 攻击伤害 技能持续时，击败敌人时 +100 % 几率刷新该技能持续时间 技能持续时，击中 劲敌 劲敌包括稀有怪物和首领 \">劲敌 时 +10 % 几率刷新该技能持续时间 持续 6 秒 技能持续时，每秒失去 2 % 最大生命和最大护盾"
+      ]
     },
     {
       "id": "Scorching_Pulse",
@@ -877,7 +3245,73 @@
         "火焰",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Scorching_Pulse.webp"
+      "localIconUrl": "/assets/skills/active/Scorching_Pulse.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.65 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "5 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "277%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "277%",
+        "277%",
+        "277%",
+        "277%",
+        "277%",
+        "277%",
+        "277%",
+        "277%",
+        "277%",
+        "277%",
+        "277%",
+        "277%",
+        "277%",
+        "277%",
+        "277%",
+        "277%",
+        "277%",
+        "277%",
+        "277%",
+        "277%"
+      ],
+      "skillBaseDamageByLevel": [
+        "15-27",
+        "16-30",
+        "21-39",
+        "29-54",
+        "37-69",
+        "45-84",
+        "52-96",
+        "64-120",
+        "84-156",
+        "102-189",
+        "131-242",
+        "153-284",
+        "185-344",
+        "218-404",
+        "258-479",
+        "363-673",
+        "427-793",
+        "588-1092",
+        "878-1631",
+        "1047-1945"
+      ]
     },
     {
       "id": "Fixate",
@@ -889,7 +3323,43 @@
         "持续",
         "激发"
       ],
-      "localIconUrl": "/assets/skills/active/Fixate.webp"
+      "localIconUrl": "/assets/skills/active/Fixate.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "10 秒"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "释放该技能时， 标记 目标被锁定，闪避值 -20%，受到的暴击伤害额外 +10% \">标记 自身十米范围内的敌人 释放该技能获得亢奋： 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 1.1 % 伤害，上限 10 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ， 6.1 % 标记效果，上限 10 层 持续 6 秒",
+        "释放该技能时， 标记 目标被锁定，闪避值 -20%，受到的暴击伤害额外 +10% \">标记 自身十米范围内的敌人 释放该技能获得亢奋： 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 1.2 % 伤害，上限 10 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ， 6.2 % 标记效果，上限 10 层 持续 6 秒",
+        "释放该技能时， 标记 目标被锁定，闪避值 -20%，受到的暴击伤害额外 +10% \">标记 自身十米范围内的敌人 释放该技能获得亢奋： 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 1.3 % 伤害，上限 10 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ， 6.3 % 标记效果，上限 10 层 持续 6 秒",
+        "释放该技能时， 标记 目标被锁定，闪避值 -20%，受到的暴击伤害额外 +10% \">标记 自身十米范围内的敌人 释放该技能获得亢奋： 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 1.4 % 伤害，上限 10 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ， 6.4 % 标记效果，上限 10 层 持续 6 秒",
+        "释放该技能时， 标记 目标被锁定，闪避值 -20%，受到的暴击伤害额外 +10% \">标记 自身十米范围内的敌人 释放该技能获得亢奋： 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 1.5 % 伤害，上限 10 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ， 6.5 % 标记效果，上限 10 层 持续 6 秒",
+        "释放该技能时， 标记 目标被锁定，闪避值 -20%，受到的暴击伤害额外 +10% \">标记 自身十米范围内的敌人 释放该技能获得亢奋： 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 1.6 % 伤害，上限 10 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ， 6.6 % 标记效果，上限 10 层 持续 6 秒",
+        "释放该技能时， 标记 目标被锁定，闪避值 -20%，受到的暴击伤害额外 +10% \">标记 自身十米范围内的敌人 释放该技能获得亢奋： 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 1.7 % 伤害，上限 10 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ， 6.7 % 标记效果，上限 10 层 持续 6 秒",
+        "释放该技能时， 标记 目标被锁定，闪避值 -20%，受到的暴击伤害额外 +10% \">标记 自身十米范围内的敌人 释放该技能获得亢奋： 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 1.8 % 伤害，上限 10 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ， 6.8 % 标记效果，上限 10 层 持续 6 秒",
+        "释放该技能时， 标记 目标被锁定，闪避值 -20%，受到的暴击伤害额外 +10% \">标记 自身十米范围内的敌人 释放该技能获得亢奋： 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 1.9 % 伤害，上限 10 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ， 6.9 % 标记效果，上限 10 层 持续 6 秒",
+        "释放该技能时， 标记 目标被锁定，闪避值 -20%，受到的暴击伤害额外 +10% \">标记 自身十米范围内的敌人 释放该技能获得亢奋： 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 +2 % 伤害，上限 10 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ， +7 % 标记效果，上限 10 层 持续 6 秒",
+        "释放该技能时， 标记 目标被锁定，闪避值 -20%，受到的暴击伤害额外 +10% \">标记 自身十米范围内的敌人 释放该技能获得亢奋： 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 2.1 % 伤害，上限 10 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ， 7.1 % 标记效果，上限 10 层 持续 6 秒",
+        "释放该技能时， 标记 目标被锁定，闪避值 -20%，受到的暴击伤害额外 +10% \">标记 自身十米范围内的敌人 释放该技能获得亢奋： 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 2.2 % 伤害，上限 10 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ， 7.2 % 标记效果，上限 10 层 持续 6 秒",
+        "释放该技能时， 标记 目标被锁定，闪避值 -20%，受到的暴击伤害额外 +10% \">标记 自身十米范围内的敌人 释放该技能获得亢奋： 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 2.3 % 伤害，上限 10 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ， 7.3 % 标记效果，上限 10 层 持续 6 秒",
+        "释放该技能时， 标记 目标被锁定，闪避值 -20%，受到的暴击伤害额外 +10% \">标记 自身十米范围内的敌人 释放该技能获得亢奋： 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 2.4 % 伤害，上限 10 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ， 7.4 % 标记效果，上限 10 层 持续 6 秒",
+        "释放该技能时， 标记 目标被锁定，闪避值 -20%，受到的暴击伤害额外 +10% \">标记 自身十米范围内的敌人 释放该技能获得亢奋： 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 2.5 % 伤害，上限 10 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ， 7.5 % 标记效果，上限 10 层 持续 6 秒",
+        "释放该技能时， 标记 目标被锁定，闪避值 -20%，受到的暴击伤害额外 +10% \">标记 自身十米范围内的敌人 释放该技能获得亢奋： 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 2.6 % 伤害，上限 10 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ， 7.6 % 标记效果，上限 10 层 持续 6 秒",
+        "释放该技能时， 标记 目标被锁定，闪避值 -20%，受到的暴击伤害额外 +10% \">标记 自身十米范围内的敌人 释放该技能获得亢奋： 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 2.7 % 伤害，上限 10 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ， 7.7 % 标记效果，上限 10 层 持续 6 秒",
+        "释放该技能时， 标记 目标被锁定，闪避值 -20%，受到的暴击伤害额外 +10% \">标记 自身十米范围内的敌人 释放该技能获得亢奋： 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 2.8 % 伤害，上限 10 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ， 7.8 % 标记效果，上限 10 层 持续 6 秒",
+        "释放该技能时， 标记 目标被锁定，闪避值 -20%，受到的暴击伤害额外 +10% \">标记 自身十米范围内的敌人 释放该技能获得亢奋： 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 2.9 % 伤害，上限 10 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ， 7.9 % 标记效果，上限 10 层 持续 6 秒",
+        "释放该技能时， 标记 目标被锁定，闪避值 -20%，受到的暴击伤害额外 +10% \">标记 自身十米范围内的敌人 释放该技能获得亢奋： 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 +3 % 伤害，上限 10 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ， +8 % 标记效果，上限 10 层 持续 6 秒"
+      ]
     },
     {
       "id": "Secret_Origin_Unleash",
@@ -900,7 +3370,21 @@
         "持续",
         "激发"
       ],
-      "localIconUrl": "/assets/skills/active/Secret_Origin_Unleash.webp"
+      "localIconUrl": "/assets/skills/active/Secret_Origin_Unleash.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "10 秒"
+        }
+      ]
     },
     {
       "id": "Aim",
@@ -911,7 +3395,21 @@
         "持续",
         "激发"
       ],
-      "localIconUrl": "/assets/skills/active/Aim.webp"
+      "localIconUrl": "/assets/skills/active/Aim.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "10 秒"
+        }
+      ]
     },
     {
       "id": "Blurry_Steps",
@@ -922,7 +3420,43 @@
         "持续",
         "激发"
       ],
-      "localIconUrl": "/assets/skills/active/Blurry_Steps.webp"
+      "localIconUrl": "/assets/skills/active/Blurry_Steps.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "5 秒"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "释放该技能获得亢奋： 技能持续时， 25.5 % 移动速度 持续 3 秒",
+        "释放该技能获得亢奋： 技能持续时， +26 % 移动速度 持续 3 秒",
+        "释放该技能获得亢奋： 技能持续时， 26.5 % 移动速度 持续 3 秒",
+        "释放该技能获得亢奋： 技能持续时， +27 % 移动速度 持续 3 秒",
+        "释放该技能获得亢奋： 技能持续时， 27.5 % 移动速度 持续 3 秒",
+        "释放该技能获得亢奋： 技能持续时， +28 % 移动速度 持续 3 秒",
+        "释放该技能获得亢奋： 技能持续时， 28.5 % 移动速度 持续 3 秒",
+        "释放该技能获得亢奋： 技能持续时， +29 % 移动速度 持续 3 秒",
+        "释放该技能获得亢奋： 技能持续时， 29.5 % 移动速度 持续 3 秒",
+        "释放该技能获得亢奋： 技能持续时， +30 % 移动速度 持续 3 秒",
+        "释放该技能获得亢奋： 技能持续时， 30.5 % 移动速度 持续 3 秒",
+        "释放该技能获得亢奋： 技能持续时， +31 % 移动速度 持续 3 秒",
+        "释放该技能获得亢奋： 技能持续时， 31.5 % 移动速度 持续 3 秒",
+        "释放该技能获得亢奋： 技能持续时， +32 % 移动速度 持续 3 秒",
+        "释放该技能获得亢奋： 技能持续时， 32.5 % 移动速度 持续 3 秒",
+        "释放该技能获得亢奋： 技能持续时， +33 % 移动速度 持续 3 秒",
+        "释放该技能获得亢奋： 技能持续时， 33.5 % 移动速度 持续 3 秒",
+        "释放该技能获得亢奋： 技能持续时， +34 % 移动速度 持续 3 秒",
+        "释放该技能获得亢奋： 技能持续时， 34.5 % 移动速度 持续 3 秒",
+        "释放该技能获得亢奋： 技能持续时， +35 % 移动速度 持续 3 秒"
+      ]
     },
     {
       "id": "Groundshaker",
@@ -936,7 +3470,47 @@
         "破击",
         "力量"
       ],
-      "localIconUrl": "/assets/skills/active/Groundshaker.webp"
+      "localIconUrl": "/assets/skills/active/Groundshaker.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "227%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "99%",
+        "103%",
+        "108%",
+        "113%",
+        "118%",
+        "123%",
+        "128%",
+        "134%",
+        "140%",
+        "146%",
+        "153%",
+        "159%",
+        "166%",
+        "174%",
+        "182%",
+        "190%",
+        "198%",
+        "207%",
+        "217%",
+        "227%"
+      ]
     },
     {
       "id": "Focused_Shot",
@@ -950,7 +3524,47 @@
         "直射",
         "敏捷"
       ],
-      "localIconUrl": "/assets/skills/active/Focused_Shot.webp"
+      "localIconUrl": "/assets/skills/active/Focused_Shot.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "315%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "216%",
+        "221%",
+        "226%",
+        "231%",
+        "236%",
+        "241%",
+        "246%",
+        "251%",
+        "256%",
+        "261%",
+        "267%",
+        "272%",
+        "277%",
+        "283%",
+        "288%",
+        "293%",
+        "299%",
+        "304%",
+        "310%",
+        "315%"
+      ]
     },
     {
       "id": "Fire_Burst",
@@ -963,7 +3577,69 @@
         "力量",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Fire_Burst.webp"
+      "localIconUrl": "/assets/skills/active/Fire_Burst.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量, 智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "161%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "148%",
+        "149%",
+        "150%",
+        "150%",
+        "151%",
+        "152%",
+        "152%",
+        "153%",
+        "153%",
+        "154%",
+        "155%",
+        "155%",
+        "156%",
+        "157%",
+        "157%",
+        "158%",
+        "159%",
+        "159%",
+        "160%",
+        "161%"
+      ],
+      "skillBaseDamageByLevel": [
+        "8-14",
+        "9-16",
+        "11-21",
+        "16-29",
+        "20-37",
+        "25-46",
+        "28-53",
+        "36-66",
+        "46-86",
+        "56-105",
+        "73-135",
+        "86-159",
+        "104-194",
+        "123-229",
+        "146-272",
+        "207-384",
+        "245-454",
+        "338-628",
+        "507-942",
+        "607-1128"
+      ]
     },
     {
       "id": "Thunderbolt_Overload",
@@ -979,7 +3655,69 @@
         "敏捷",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Thunderbolt_Overload.webp"
+      "localIconUrl": "/assets/skills/active/Thunderbolt_Overload.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷, 智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.65 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "31%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "31%",
+        "31%",
+        "31%",
+        "31%",
+        "31%",
+        "31%",
+        "31%",
+        "31%",
+        "31%",
+        "31%",
+        "31%",
+        "31%",
+        "31%",
+        "31%",
+        "31%",
+        "31%",
+        "31%",
+        "31%",
+        "31%",
+        "31%"
+      ],
+      "skillBaseDamageByLevel": [
+        "2-3",
+        "2-3",
+        "2-4",
+        "3-6",
+        "4-7",
+        "5-9",
+        "6-10",
+        "8-13",
+        "10-17",
+        "12-20",
+        "15-26",
+        "18-30",
+        "22-37",
+        "26-43",
+        "31-51",
+        "43-72",
+        "51-84",
+        "70-116",
+        "104-174",
+        "124-207"
+      ]
     },
     {
       "id": "Fearless_Warcry",
@@ -990,7 +3728,43 @@
         "范围",
         "持续"
       ],
-      "localIconUrl": "/assets/skills/active/Fearless_Warcry.webp"
+      "localIconUrl": "/assets/skills/active/Fearless_Warcry.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "8 秒"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "释放该技能发出战吼： 嘲讽 周围 6米内 \">周围 敌人 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 +4 % 挥斩技能伤害，上限 8 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 +4 % 挥斩技能造成的 异常伤害 包括创伤、点燃、凋零 \">异常伤害 ，上限 8 层 持续 3 秒",
+        "释放该技能发出战吼： 嘲讽 周围 6米内 \">周围 敌人 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 4.1 % 挥斩技能伤害，上限 8 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 4.1 % 挥斩技能造成的 异常伤害 包括创伤、点燃、凋零 \">异常伤害 ，上限 8 层 持续 3 秒",
+        "释放该技能发出战吼： 嘲讽 周围 6米内 \">周围 敌人 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 4.2 % 挥斩技能伤害，上限 8 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 4.2 % 挥斩技能造成的 异常伤害 包括创伤、点燃、凋零 \">异常伤害 ，上限 8 层 持续 3 秒",
+        "释放该技能发出战吼： 嘲讽 周围 6米内 \">周围 敌人 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 4.3 % 挥斩技能伤害，上限 8 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 4.3 % 挥斩技能造成的 异常伤害 包括创伤、点燃、凋零 \">异常伤害 ，上限 8 层 持续 3 秒",
+        "释放该技能发出战吼： 嘲讽 周围 6米内 \">周围 敌人 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 4.4 % 挥斩技能伤害，上限 8 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 4.4 % 挥斩技能造成的 异常伤害 包括创伤、点燃、凋零 \">异常伤害 ，上限 8 层 持续 3 秒",
+        "释放该技能发出战吼： 嘲讽 周围 6米内 \">周围 敌人 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 4.5 % 挥斩技能伤害，上限 8 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 4.5 % 挥斩技能造成的 异常伤害 包括创伤、点燃、凋零 \">异常伤害 ，上限 8 层 持续 3 秒",
+        "释放该技能发出战吼： 嘲讽 周围 6米内 \">周围 敌人 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 4.6 % 挥斩技能伤害，上限 8 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 4.6 % 挥斩技能造成的 异常伤害 包括创伤、点燃、凋零 \">异常伤害 ，上限 8 层 持续 3 秒",
+        "释放该技能发出战吼： 嘲讽 周围 6米内 \">周围 敌人 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 4.7 % 挥斩技能伤害，上限 8 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 4.7 % 挥斩技能造成的 异常伤害 包括创伤、点燃、凋零 \">异常伤害 ，上限 8 层 持续 3 秒",
+        "释放该技能发出战吼： 嘲讽 周围 6米内 \">周围 敌人 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 4.8 % 挥斩技能伤害，上限 8 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 4.8 % 挥斩技能造成的 异常伤害 包括创伤、点燃、凋零 \">异常伤害 ，上限 8 层 持续 3 秒",
+        "释放该技能发出战吼： 嘲讽 周围 6米内 \">周围 敌人 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 4.9 % 挥斩技能伤害，上限 8 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 4.9 % 挥斩技能造成的 异常伤害 包括创伤、点燃、凋零 \">异常伤害 ，上限 8 层 持续 3 秒",
+        "释放该技能发出战吼： 嘲讽 周围 6米内 \">周围 敌人 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 +5 % 挥斩技能伤害，上限 8 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 +5 % 挥斩技能造成的 异常伤害 包括创伤、点燃、凋零 \">异常伤害 ，上限 8 层 持续 3 秒",
+        "释放该技能发出战吼： 嘲讽 周围 6米内 \">周围 敌人 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 5.1 % 挥斩技能伤害，上限 8 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 5.1 % 挥斩技能造成的 异常伤害 包括创伤、点燃、凋零 \">异常伤害 ，上限 8 层 持续 3 秒",
+        "释放该技能发出战吼： 嘲讽 周围 6米内 \">周围 敌人 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 5.2 % 挥斩技能伤害，上限 8 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 5.2 % 挥斩技能造成的 异常伤害 包括创伤、点燃、凋零 \">异常伤害 ，上限 8 层 持续 3 秒",
+        "释放该技能发出战吼： 嘲讽 周围 6米内 \">周围 敌人 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 5.3 % 挥斩技能伤害，上限 8 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 5.3 % 挥斩技能造成的 异常伤害 包括创伤、点燃、凋零 \">异常伤害 ，上限 8 层 持续 3 秒",
+        "释放该技能发出战吼： 嘲讽 周围 6米内 \">周围 敌人 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 5.4 % 挥斩技能伤害，上限 8 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 5.4 % 挥斩技能造成的 异常伤害 包括创伤、点燃、凋零 \">异常伤害 ，上限 8 层 持续 3 秒",
+        "释放该技能发出战吼： 嘲讽 周围 6米内 \">周围 敌人 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 5.5 % 挥斩技能伤害，上限 8 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 5.5 % 挥斩技能造成的 异常伤害 包括创伤、点燃、凋零 \">异常伤害 ，上限 8 层 持续 3 秒",
+        "释放该技能发出战吼： 嘲讽 周围 6米内 \">周围 敌人 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 5.6 % 挥斩技能伤害，上限 8 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 5.6 % 挥斩技能造成的 异常伤害 包括创伤、点燃、凋零 \">异常伤害 ，上限 8 层 持续 3 秒",
+        "释放该技能发出战吼： 嘲讽 周围 6米内 \">周围 敌人 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 5.7 % 挥斩技能伤害，上限 8 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 5.7 % 挥斩技能造成的 异常伤害 包括创伤、点燃、凋零 \">异常伤害 ，上限 8 层 持续 3 秒",
+        "释放该技能发出战吼： 嘲讽 周围 6米内 \">周围 敌人 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 5.8 % 挥斩技能伤害，上限 8 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 5.8 % 挥斩技能造成的 异常伤害 包括创伤、点燃、凋零 \">异常伤害 ，上限 8 层 持续 3 秒",
+        "释放该技能发出战吼： 嘲讽 周围 6米内 \">周围 敌人 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 5.9 % 挥斩技能伤害，上限 8 层 每影响 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，额外 5.9 % 挥斩技能造成的 异常伤害 包括创伤、点燃、凋零 \">异常伤害 ，上限 8 层 持续 3 秒"
+      ]
     },
     {
       "id": "Raging_Warcry",
@@ -1001,7 +3775,21 @@
         "范围",
         "持续"
       ],
-      "localIconUrl": "/assets/skills/active/Raging_Warcry.webp"
+      "localIconUrl": "/assets/skills/active/Raging_Warcry.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "8 秒"
+        }
+      ]
     },
     {
       "id": "Charging_Warcry",
@@ -1012,7 +3800,21 @@
         "范围",
         "持续"
       ],
-      "localIconUrl": "/assets/skills/active/Charging_Warcry.webp"
+      "localIconUrl": "/assets/skills/active/Charging_Warcry.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "8 秒"
+        }
+      ]
     },
     {
       "id": "Black_Hole",
@@ -1025,7 +3827,69 @@
         "腐蚀",
         "激发"
       ],
-      "localIconUrl": "/assets/skills/active/Black_Hole.webp"
+      "localIconUrl": "/assets/skills/active/Black_Hole.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "10 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "46%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%"
+      ],
+      "skillBaseDamageByLevel": [
+        "3",
+        "4",
+        "5",
+        "7",
+        "9",
+        "11",
+        "12",
+        "15",
+        "20",
+        "24",
+        "31",
+        "36",
+        "44",
+        "52",
+        "61",
+        "86",
+        "102",
+        "140",
+        "209",
+        "249"
+      ]
     },
     {
       "id": "Summon_Machine_Guard",
@@ -1040,7 +3904,21 @@
         "力量",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Summon_Machine_Guard.webp"
+      "localIconUrl": "/assets/skills/active/Summon_Machine_Guard.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量, 智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        }
+      ]
     },
     {
       "id": "Summon_Spider_Tank",
@@ -1055,7 +3933,21 @@
         "敏捷",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Summon_Spider_Tank.webp"
+      "localIconUrl": "/assets/skills/active/Summon_Spider_Tank.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷, 智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        }
+      ]
     },
     {
       "id": "Timid",
@@ -1067,7 +3959,21 @@
         "持续",
         "诅咒"
       ],
-      "localIconUrl": "/assets/skills/active/Timid.webp"
+      "localIconUrl": "/assets/skills/active/Timid.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "8 秒"
+        }
+      ]
     },
     {
       "id": "Electrocute",
@@ -1080,7 +3986,21 @@
         "闪电",
         "诅咒"
       ],
-      "localIconUrl": "/assets/skills/active/Electrocute.webp"
+      "localIconUrl": "/assets/skills/active/Electrocute.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "8 秒"
+        }
+      ]
     },
     {
       "id": "Vulnerability",
@@ -1093,7 +4013,43 @@
         "物理",
         "诅咒"
       ],
-      "localIconUrl": "/assets/skills/active/Vulnerability.webp"
+      "localIconUrl": "/assets/skills/active/Vulnerability.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "8 秒"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +20 % 受到的物理伤害 被诅咒的敌人被击中时， +10 % 几率 创伤 击中时有概率引发的异常状态，根据基础创伤伤害每秒造成物理伤害，持续 4 秒，无法叠加 基础创伤伤害为 0 时，无法造成创伤 \">创伤 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +21 % 受到的物理伤害 被诅咒的敌人被击中时， +10 % 几率 创伤 击中时有概率引发的异常状态，根据基础创伤伤害每秒造成物理伤害，持续 4 秒，无法叠加 基础创伤伤害为 0 时，无法造成创伤 \">创伤 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +22 % 受到的物理伤害 被诅咒的敌人被击中时， +10 % 几率 创伤 击中时有概率引发的异常状态，根据基础创伤伤害每秒造成物理伤害，持续 4 秒，无法叠加 基础创伤伤害为 0 时，无法造成创伤 \">创伤 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +23 % 受到的物理伤害 被诅咒的敌人被击中时， +10 % 几率 创伤 击中时有概率引发的异常状态，根据基础创伤伤害每秒造成物理伤害，持续 4 秒，无法叠加 基础创伤伤害为 0 时，无法造成创伤 \">创伤 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +24 % 受到的物理伤害 被诅咒的敌人被击中时， +10 % 几率 创伤 击中时有概率引发的异常状态，根据基础创伤伤害每秒造成物理伤害，持续 4 秒，无法叠加 基础创伤伤害为 0 时，无法造成创伤 \">创伤 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +25 % 受到的物理伤害 被诅咒的敌人被击中时， +10 % 几率 创伤 击中时有概率引发的异常状态，根据基础创伤伤害每秒造成物理伤害，持续 4 秒，无法叠加 基础创伤伤害为 0 时，无法造成创伤 \">创伤 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +26 % 受到的物理伤害 被诅咒的敌人被击中时， +10 % 几率 创伤 击中时有概率引发的异常状态，根据基础创伤伤害每秒造成物理伤害，持续 4 秒，无法叠加 基础创伤伤害为 0 时，无法造成创伤 \">创伤 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +27 % 受到的物理伤害 被诅咒的敌人被击中时， +10 % 几率 创伤 击中时有概率引发的异常状态，根据基础创伤伤害每秒造成物理伤害，持续 4 秒，无法叠加 基础创伤伤害为 0 时，无法造成创伤 \">创伤 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +28 % 受到的物理伤害 被诅咒的敌人被击中时， +10 % 几率 创伤 击中时有概率引发的异常状态，根据基础创伤伤害每秒造成物理伤害，持续 4 秒，无法叠加 基础创伤伤害为 0 时，无法造成创伤 \">创伤 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +29 % 受到的物理伤害 被诅咒的敌人被击中时， +10 % 几率 创伤 击中时有概率引发的异常状态，根据基础创伤伤害每秒造成物理伤害，持续 4 秒，无法叠加 基础创伤伤害为 0 时，无法造成创伤 \">创伤 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +30 % 受到的物理伤害 被诅咒的敌人被击中时， +10 % 几率 创伤 击中时有概率引发的异常状态，根据基础创伤伤害每秒造成物理伤害，持续 4 秒，无法叠加 基础创伤伤害为 0 时，无法造成创伤 \">创伤 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +31 % 受到的物理伤害 被诅咒的敌人被击中时， +10 % 几率 创伤 击中时有概率引发的异常状态，根据基础创伤伤害每秒造成物理伤害，持续 4 秒，无法叠加 基础创伤伤害为 0 时，无法造成创伤 \">创伤 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +32 % 受到的物理伤害 被诅咒的敌人被击中时， +10 % 几率 创伤 击中时有概率引发的异常状态，根据基础创伤伤害每秒造成物理伤害，持续 4 秒，无法叠加 基础创伤伤害为 0 时，无法造成创伤 \">创伤 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +33 % 受到的物理伤害 被诅咒的敌人被击中时， +10 % 几率 创伤 击中时有概率引发的异常状态，根据基础创伤伤害每秒造成物理伤害，持续 4 秒，无法叠加 基础创伤伤害为 0 时，无法造成创伤 \">创伤 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +34 % 受到的物理伤害 被诅咒的敌人被击中时， +10 % 几率 创伤 击中时有概率引发的异常状态，根据基础创伤伤害每秒造成物理伤害，持续 4 秒，无法叠加 基础创伤伤害为 0 时，无法造成创伤 \">创伤 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +35 % 受到的物理伤害 被诅咒的敌人被击中时， +10 % 几率 创伤 击中时有概率引发的异常状态，根据基础创伤伤害每秒造成物理伤害，持续 4 秒，无法叠加 基础创伤伤害为 0 时，无法造成创伤 \">创伤 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +36 % 受到的物理伤害 被诅咒的敌人被击中时， +10 % 几率 创伤 击中时有概率引发的异常状态，根据基础创伤伤害每秒造成物理伤害，持续 4 秒，无法叠加 基础创伤伤害为 0 时，无法造成创伤 \">创伤 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +37 % 受到的物理伤害 被诅咒的敌人被击中时， +10 % 几率 创伤 击中时有概率引发的异常状态，根据基础创伤伤害每秒造成物理伤害，持续 4 秒，无法叠加 基础创伤伤害为 0 时，无法造成创伤 \">创伤 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +38 % 受到的物理伤害 被诅咒的敌人被击中时， +10 % 几率 创伤 击中时有概率引发的异常状态，根据基础创伤伤害每秒造成物理伤害，持续 4 秒，无法叠加 基础创伤伤害为 0 时，无法造成创伤 \">创伤 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +39 % 受到的物理伤害 被诅咒的敌人被击中时， +10 % 几率 创伤 击中时有概率引发的异常状态，根据基础创伤伤害每秒造成物理伤害，持续 4 秒，无法叠加 基础创伤伤害为 0 时，无法造成创伤 \">创伤 持续 5 秒"
+      ]
     },
     {
       "id": "Scorch",
@@ -1106,7 +4062,21 @@
         "火焰",
         "诅咒"
       ],
-      "localIconUrl": "/assets/skills/active/Scorch.webp"
+      "localIconUrl": "/assets/skills/active/Scorch.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "8 秒"
+        }
+      ]
     },
     {
       "id": "Dazzled",
@@ -1118,7 +4088,21 @@
         "持续",
         "诅咒"
       ],
-      "localIconUrl": "/assets/skills/active/Dazzled.webp"
+      "localIconUrl": "/assets/skills/active/Dazzled.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "8 秒"
+        }
+      ]
     },
     {
       "id": "Entangled_Pain",
@@ -1130,7 +4114,21 @@
         "持续",
         "诅咒"
       ],
-      "localIconUrl": "/assets/skills/active/Entangled_Pain.webp"
+      "localIconUrl": "/assets/skills/active/Entangled_Pain.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "8 秒"
+        }
+      ]
     },
     {
       "id": "Biting_Cold",
@@ -1143,7 +4141,43 @@
         "冰冷",
         "诅咒"
       ],
-      "localIconUrl": "/assets/skills/active/Biting_Cold.webp"
+      "localIconUrl": "/assets/skills/active/Biting_Cold.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "8 秒"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +20 % 受到的冰冷伤害 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +21 % 受到的冰冷伤害 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +22 % 受到的冰冷伤害 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +23 % 受到的冰冷伤害 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +24 % 受到的冰冷伤害 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +25 % 受到的冰冷伤害 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +26 % 受到的冰冷伤害 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +27 % 受到的冰冷伤害 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +28 % 受到的冰冷伤害 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +29 % 受到的冰冷伤害 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +30 % 受到的冰冷伤害 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +31 % 受到的冰冷伤害 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +32 % 受到的冰冷伤害 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +33 % 受到的冰冷伤害 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +34 % 受到的冰冷伤害 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +35 % 受到的冰冷伤害 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +36 % 受到的冰冷伤害 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +37 % 受到的冰冷伤害 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +38 % 受到的冰冷伤害 持续 5 秒",
+        "释放该技能诅咒指定范围内的敌人 被诅咒的敌人额外 +39 % 受到的冰冷伤害 持续 5 秒"
+      ]
     },
     {
       "id": "Corruption",
@@ -1156,7 +4190,21 @@
         "腐蚀",
         "诅咒"
       ],
-      "localIconUrl": "/assets/skills/active/Corruption.webp"
+      "localIconUrl": "/assets/skills/active/Corruption.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "8 秒"
+        }
+      ]
     },
     {
       "id": "Life_Source",
@@ -1165,7 +4213,17 @@
       "tags": [
         "回复"
       ],
-      "localIconUrl": "/assets/skills/active/Life_Source.webp"
+      "localIconUrl": "/assets/skills/active/Life_Source.webp",
+      "statRows": [
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "0.5 秒"
+        }
+      ]
     },
     {
       "id": "Mana_Source",
@@ -1174,7 +4232,17 @@
       "tags": [
         "回复"
       ],
-      "localIconUrl": "/assets/skills/active/Mana_Source.webp"
+      "localIconUrl": "/assets/skills/active/Mana_Source.webp",
+      "statRows": [
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "0.5 秒"
+        }
+      ]
     },
     {
       "id": "Elemental_Shock",
@@ -1186,7 +4254,21 @@
         "召唤",
         "激发"
       ],
-      "localIconUrl": "/assets/skills/active/Elemental_Shock.webp"
+      "localIconUrl": "/assets/skills/active/Elemental_Shock.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "10 秒"
+        }
+      ]
     },
     {
       "id": "Machine_Army",
@@ -1198,7 +4280,21 @@
         "召唤",
         "激发"
       ],
-      "localIconUrl": "/assets/skills/active/Machine_Army.webp"
+      "localIconUrl": "/assets/skills/active/Machine_Army.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "10 秒"
+        }
+      ]
     },
     {
       "id": "Prayer",
@@ -1210,7 +4306,43 @@
         "召唤",
         "防护"
       ],
-      "localIconUrl": "/assets/skills/active/Prayer.webp"
+      "localIconUrl": "/assets/skills/active/Prayer.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "6 秒"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "释放该技能获得防护： 技能持续时，智械召唤物每秒回复 +7 % 最大生命 持续 6 秒",
+        "释放该技能获得防护： 技能持续时，智械召唤物每秒回复 7.25 % 最大生命 持续 6 秒",
+        "释放该技能获得防护： 技能持续时，智械召唤物每秒回复 7.5 % 最大生命 持续 6 秒",
+        "释放该技能获得防护： 技能持续时，智械召唤物每秒回复 7.75 % 最大生命 持续 6 秒",
+        "释放该技能获得防护： 技能持续时，智械召唤物每秒回复 +8 % 最大生命 持续 6 秒",
+        "释放该技能获得防护： 技能持续时，智械召唤物每秒回复 8.25 % 最大生命 持续 6 秒",
+        "释放该技能获得防护： 技能持续时，智械召唤物每秒回复 8.5 % 最大生命 持续 6 秒",
+        "释放该技能获得防护： 技能持续时，智械召唤物每秒回复 8.75 % 最大生命 持续 6 秒",
+        "释放该技能获得防护： 技能持续时，智械召唤物每秒回复 +9 % 最大生命 持续 6 秒",
+        "释放该技能获得防护： 技能持续时，智械召唤物每秒回复 9.25 % 最大生命 持续 6 秒",
+        "释放该技能获得防护： 技能持续时，智械召唤物每秒回复 9.5 % 最大生命 持续 6 秒",
+        "释放该技能获得防护： 技能持续时，智械召唤物每秒回复 9.75 % 最大生命 持续 6 秒",
+        "释放该技能获得防护： 技能持续时，智械召唤物每秒回复 +10 % 最大生命 持续 6 秒",
+        "释放该技能获得防护： 技能持续时，智械召唤物每秒回复 10.25 % 最大生命 持续 6 秒",
+        "释放该技能获得防护： 技能持续时，智械召唤物每秒回复 10.5 % 最大生命 持续 6 秒",
+        "释放该技能获得防护： 技能持续时，智械召唤物每秒回复 10.75 % 最大生命 持续 6 秒",
+        "释放该技能获得防护： 技能持续时，智械召唤物每秒回复 +11 % 最大生命 持续 6 秒",
+        "释放该技能获得防护： 技能持续时，智械召唤物每秒回复 11.25 % 最大生命 持续 6 秒",
+        "释放该技能获得防护： 技能持续时，智械召唤物每秒回复 11.5 % 最大生命 持续 6 秒",
+        "释放该技能获得防护： 技能持续时，智械召唤物每秒回复 11.75 % 最大生命 持续 6 秒"
+      ]
     },
     {
       "id": "Dark_Gate",
@@ -1222,7 +4354,21 @@
         "召唤",
         "激发"
       ],
-      "localIconUrl": "/assets/skills/active/Dark_Gate.webp"
+      "localIconUrl": "/assets/skills/active/Dark_Gate.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "5 秒"
+        }
+      ]
     },
     {
       "id": "Thunderlight_Bond",
@@ -1236,7 +4382,43 @@
         "范围",
         "哨卫"
       ],
-      "localIconUrl": "/assets/skills/active/Thunderlight_Bond.webp"
+      "localIconUrl": "/assets/skills/active/Thunderlight_Bond.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.6 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "5 秒"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "雷光哨卫： 哨卫持续 5 秒 该技能基础哨卫数量上限为 1 雷光哨卫使友军获得亢奋： 增益持续时， 10.5 % 麻痹 闪电伤害击中时有概率引发的元素异常状态 对具有麻痹的敌人，击中闪电伤害每造成其最大护盾与生命之和的 10% 的伤害，施加一层麻痹，该阈值可被降低或提高，但最小值为 1% 麻痹默认持续时间为 2 秒，每层独立计算 麻痹上限为 10 层，每层麻痹使受到的闪电伤害额外 +5% \">麻痹 效果 增益持续时，伤害 幸运 进行两次随机判定或取随机值，取其中有利的结果 \">幸运",
+        "雷光哨卫： 哨卫持续 5 秒 该技能基础哨卫数量上限为 1 雷光哨卫使友军获得亢奋： 增益持续时， +11 % 麻痹 闪电伤害击中时有概率引发的元素异常状态 对具有麻痹的敌人，击中闪电伤害每造成其最大护盾与生命之和的 10% 的伤害，施加一层麻痹，该阈值可被降低或提高，但最小值为 1% 麻痹默认持续时间为 2 秒，每层独立计算 麻痹上限为 10 层，每层麻痹使受到的闪电伤害额外 +5% \">麻痹 效果 增益持续时，伤害 幸运 进行两次随机判定或取随机值，取其中有利的结果 \">幸运",
+        "雷光哨卫： 哨卫持续 5 秒 该技能基础哨卫数量上限为 1 雷光哨卫使友军获得亢奋： 增益持续时， 11.5 % 麻痹 闪电伤害击中时有概率引发的元素异常状态 对具有麻痹的敌人，击中闪电伤害每造成其最大护盾与生命之和的 10% 的伤害，施加一层麻痹，该阈值可被降低或提高，但最小值为 1% 麻痹默认持续时间为 2 秒，每层独立计算 麻痹上限为 10 层，每层麻痹使受到的闪电伤害额外 +5% \">麻痹 效果 增益持续时，伤害 幸运 进行两次随机判定或取随机值，取其中有利的结果 \">幸运",
+        "雷光哨卫： 哨卫持续 5 秒 该技能基础哨卫数量上限为 1 雷光哨卫使友军获得亢奋： 增益持续时， +12 % 麻痹 闪电伤害击中时有概率引发的元素异常状态 对具有麻痹的敌人，击中闪电伤害每造成其最大护盾与生命之和的 10% 的伤害，施加一层麻痹，该阈值可被降低或提高，但最小值为 1% 麻痹默认持续时间为 2 秒，每层独立计算 麻痹上限为 10 层，每层麻痹使受到的闪电伤害额外 +5% \">麻痹 效果 增益持续时，伤害 幸运 进行两次随机判定或取随机值，取其中有利的结果 \">幸运",
+        "雷光哨卫： 哨卫持续 5 秒 该技能基础哨卫数量上限为 1 雷光哨卫使友军获得亢奋： 增益持续时， 12.5 % 麻痹 闪电伤害击中时有概率引发的元素异常状态 对具有麻痹的敌人，击中闪电伤害每造成其最大护盾与生命之和的 10% 的伤害，施加一层麻痹，该阈值可被降低或提高，但最小值为 1% 麻痹默认持续时间为 2 秒，每层独立计算 麻痹上限为 10 层，每层麻痹使受到的闪电伤害额外 +5% \">麻痹 效果 增益持续时，伤害 幸运 进行两次随机判定或取随机值，取其中有利的结果 \">幸运",
+        "雷光哨卫： 哨卫持续 5 秒 该技能基础哨卫数量上限为 1 雷光哨卫使友军获得亢奋： 增益持续时， +13 % 麻痹 闪电伤害击中时有概率引发的元素异常状态 对具有麻痹的敌人，击中闪电伤害每造成其最大护盾与生命之和的 10% 的伤害，施加一层麻痹，该阈值可被降低或提高，但最小值为 1% 麻痹默认持续时间为 2 秒，每层独立计算 麻痹上限为 10 层，每层麻痹使受到的闪电伤害额外 +5% \">麻痹 效果 增益持续时，伤害 幸运 进行两次随机判定或取随机值，取其中有利的结果 \">幸运",
+        "雷光哨卫： 哨卫持续 5 秒 该技能基础哨卫数量上限为 1 雷光哨卫使友军获得亢奋： 增益持续时， 13.5 % 麻痹 闪电伤害击中时有概率引发的元素异常状态 对具有麻痹的敌人，击中闪电伤害每造成其最大护盾与生命之和的 10% 的伤害，施加一层麻痹，该阈值可被降低或提高，但最小值为 1% 麻痹默认持续时间为 2 秒，每层独立计算 麻痹上限为 10 层，每层麻痹使受到的闪电伤害额外 +5% \">麻痹 效果 增益持续时，伤害 幸运 进行两次随机判定或取随机值，取其中有利的结果 \">幸运",
+        "雷光哨卫： 哨卫持续 5 秒 该技能基础哨卫数量上限为 1 雷光哨卫使友军获得亢奋： 增益持续时， +14 % 麻痹 闪电伤害击中时有概率引发的元素异常状态 对具有麻痹的敌人，击中闪电伤害每造成其最大护盾与生命之和的 10% 的伤害，施加一层麻痹，该阈值可被降低或提高，但最小值为 1% 麻痹默认持续时间为 2 秒，每层独立计算 麻痹上限为 10 层，每层麻痹使受到的闪电伤害额外 +5% \">麻痹 效果 增益持续时，伤害 幸运 进行两次随机判定或取随机值，取其中有利的结果 \">幸运",
+        "雷光哨卫： 哨卫持续 5 秒 该技能基础哨卫数量上限为 1 雷光哨卫使友军获得亢奋： 增益持续时， 14.5 % 麻痹 闪电伤害击中时有概率引发的元素异常状态 对具有麻痹的敌人，击中闪电伤害每造成其最大护盾与生命之和的 10% 的伤害，施加一层麻痹，该阈值可被降低或提高，但最小值为 1% 麻痹默认持续时间为 2 秒，每层独立计算 麻痹上限为 10 层，每层麻痹使受到的闪电伤害额外 +5% \">麻痹 效果 增益持续时，伤害 幸运 进行两次随机判定或取随机值，取其中有利的结果 \">幸运",
+        "雷光哨卫： 哨卫持续 5 秒 该技能基础哨卫数量上限为 1 雷光哨卫使友军获得亢奋： 增益持续时， +15 % 麻痹 闪电伤害击中时有概率引发的元素异常状态 对具有麻痹的敌人，击中闪电伤害每造成其最大护盾与生命之和的 10% 的伤害，施加一层麻痹，该阈值可被降低或提高，但最小值为 1% 麻痹默认持续时间为 2 秒，每层独立计算 麻痹上限为 10 层，每层麻痹使受到的闪电伤害额外 +5% \">麻痹 效果 增益持续时，伤害 幸运 进行两次随机判定或取随机值，取其中有利的结果 \">幸运",
+        "雷光哨卫： 哨卫持续 5 秒 该技能基础哨卫数量上限为 1 雷光哨卫使友军获得亢奋： 增益持续时， 15.5 % 麻痹 闪电伤害击中时有概率引发的元素异常状态 对具有麻痹的敌人，击中闪电伤害每造成其最大护盾与生命之和的 10% 的伤害，施加一层麻痹，该阈值可被降低或提高，但最小值为 1% 麻痹默认持续时间为 2 秒，每层独立计算 麻痹上限为 10 层，每层麻痹使受到的闪电伤害额外 +5% \">麻痹 效果 增益持续时，伤害 幸运 进行两次随机判定或取随机值，取其中有利的结果 \">幸运",
+        "雷光哨卫： 哨卫持续 5 秒 该技能基础哨卫数量上限为 1 雷光哨卫使友军获得亢奋： 增益持续时， +16 % 麻痹 闪电伤害击中时有概率引发的元素异常状态 对具有麻痹的敌人，击中闪电伤害每造成其最大护盾与生命之和的 10% 的伤害，施加一层麻痹，该阈值可被降低或提高，但最小值为 1% 麻痹默认持续时间为 2 秒，每层独立计算 麻痹上限为 10 层，每层麻痹使受到的闪电伤害额外 +5% \">麻痹 效果 增益持续时，伤害 幸运 进行两次随机判定或取随机值，取其中有利的结果 \">幸运",
+        "雷光哨卫： 哨卫持续 5 秒 该技能基础哨卫数量上限为 1 雷光哨卫使友军获得亢奋： 增益持续时， 16.5 % 麻痹 闪电伤害击中时有概率引发的元素异常状态 对具有麻痹的敌人，击中闪电伤害每造成其最大护盾与生命之和的 10% 的伤害，施加一层麻痹，该阈值可被降低或提高，但最小值为 1% 麻痹默认持续时间为 2 秒，每层独立计算 麻痹上限为 10 层，每层麻痹使受到的闪电伤害额外 +5% \">麻痹 效果 增益持续时，伤害 幸运 进行两次随机判定或取随机值，取其中有利的结果 \">幸运",
+        "雷光哨卫： 哨卫持续 5 秒 该技能基础哨卫数量上限为 1 雷光哨卫使友军获得亢奋： 增益持续时， +17 % 麻痹 闪电伤害击中时有概率引发的元素异常状态 对具有麻痹的敌人，击中闪电伤害每造成其最大护盾与生命之和的 10% 的伤害，施加一层麻痹，该阈值可被降低或提高，但最小值为 1% 麻痹默认持续时间为 2 秒，每层独立计算 麻痹上限为 10 层，每层麻痹使受到的闪电伤害额外 +5% \">麻痹 效果 增益持续时，伤害 幸运 进行两次随机判定或取随机值，取其中有利的结果 \">幸运",
+        "雷光哨卫： 哨卫持续 5 秒 该技能基础哨卫数量上限为 1 雷光哨卫使友军获得亢奋： 增益持续时， 17.5 % 麻痹 闪电伤害击中时有概率引发的元素异常状态 对具有麻痹的敌人，击中闪电伤害每造成其最大护盾与生命之和的 10% 的伤害，施加一层麻痹，该阈值可被降低或提高，但最小值为 1% 麻痹默认持续时间为 2 秒，每层独立计算 麻痹上限为 10 层，每层麻痹使受到的闪电伤害额外 +5% \">麻痹 效果 增益持续时，伤害 幸运 进行两次随机判定或取随机值，取其中有利的结果 \">幸运",
+        "雷光哨卫： 哨卫持续 5 秒 该技能基础哨卫数量上限为 1 雷光哨卫使友军获得亢奋： 增益持续时， +18 % 麻痹 闪电伤害击中时有概率引发的元素异常状态 对具有麻痹的敌人，击中闪电伤害每造成其最大护盾与生命之和的 10% 的伤害，施加一层麻痹，该阈值可被降低或提高，但最小值为 1% 麻痹默认持续时间为 2 秒，每层独立计算 麻痹上限为 10 层，每层麻痹使受到的闪电伤害额外 +5% \">麻痹 效果 增益持续时，伤害 幸运 进行两次随机判定或取随机值，取其中有利的结果 \">幸运",
+        "雷光哨卫： 哨卫持续 5 秒 该技能基础哨卫数量上限为 1 雷光哨卫使友军获得亢奋： 增益持续时， 18.5 % 麻痹 闪电伤害击中时有概率引发的元素异常状态 对具有麻痹的敌人，击中闪电伤害每造成其最大护盾与生命之和的 10% 的伤害，施加一层麻痹，该阈值可被降低或提高，但最小值为 1% 麻痹默认持续时间为 2 秒，每层独立计算 麻痹上限为 10 层，每层麻痹使受到的闪电伤害额外 +5% \">麻痹 效果 增益持续时，伤害 幸运 进行两次随机判定或取随机值，取其中有利的结果 \">幸运",
+        "雷光哨卫： 哨卫持续 5 秒 该技能基础哨卫数量上限为 1 雷光哨卫使友军获得亢奋： 增益持续时， +19 % 麻痹 闪电伤害击中时有概率引发的元素异常状态 对具有麻痹的敌人，击中闪电伤害每造成其最大护盾与生命之和的 10% 的伤害，施加一层麻痹，该阈值可被降低或提高，但最小值为 1% 麻痹默认持续时间为 2 秒，每层独立计算 麻痹上限为 10 层，每层麻痹使受到的闪电伤害额外 +5% \">麻痹 效果 增益持续时，伤害 幸运 进行两次随机判定或取随机值，取其中有利的结果 \">幸运",
+        "雷光哨卫： 哨卫持续 5 秒 该技能基础哨卫数量上限为 1 雷光哨卫使友军获得亢奋： 增益持续时， 19.5 % 麻痹 闪电伤害击中时有概率引发的元素异常状态 对具有麻痹的敌人，击中闪电伤害每造成其最大护盾与生命之和的 10% 的伤害，施加一层麻痹，该阈值可被降低或提高，但最小值为 1% 麻痹默认持续时间为 2 秒，每层独立计算 麻痹上限为 10 层，每层麻痹使受到的闪电伤害额外 +5% \">麻痹 效果 增益持续时，伤害 幸运 进行两次随机判定或取随机值，取其中有利的结果 \">幸运",
+        "雷光哨卫： 哨卫持续 5 秒 该技能基础哨卫数量上限为 1 雷光哨卫使友军获得亢奋： 增益持续时， +20 % 麻痹 闪电伤害击中时有概率引发的元素异常状态 对具有麻痹的敌人，击中闪电伤害每造成其最大护盾与生命之和的 10% 的伤害，施加一层麻痹，该阈值可被降低或提高，但最小值为 1% 麻痹默认持续时间为 2 秒，每层独立计算 麻痹上限为 10 层，每层麻痹使受到的闪电伤害额外 +5% \">麻痹 效果 增益持续时，伤害 幸运 进行两次随机判定或取随机值，取其中有利的结果 \">幸运"
+      ]
     },
     {
       "id": "Arcane_Circle",
@@ -1248,7 +4430,43 @@
         "范围",
         "激发"
       ],
-      "localIconUrl": "/assets/skills/active/Arcane_Circle.webp"
+      "localIconUrl": "/assets/skills/active/Arcane_Circle.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "10 秒"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "秘法阵： 持续 6 秒 敌人首次进入秘法阵内使自身获得亢奋： 每层增益额外 1.4 % 法术伤害；最多叠加15层",
+        "秘法阵： 持续 6 秒 敌人首次进入秘法阵内使自身获得亢奋： 每层增益额外 1.45 % 法术伤害；最多叠加15层",
+        "秘法阵： 持续 6 秒 敌人首次进入秘法阵内使自身获得亢奋： 每层增益额外 1.5 % 法术伤害；最多叠加15层",
+        "秘法阵： 持续 6 秒 敌人首次进入秘法阵内使自身获得亢奋： 每层增益额外 1.55 % 法术伤害；最多叠加15层",
+        "秘法阵： 持续 6 秒 敌人首次进入秘法阵内使自身获得亢奋： 每层增益额外 1.6 % 法术伤害；最多叠加15层",
+        "秘法阵： 持续 6 秒 敌人首次进入秘法阵内使自身获得亢奋： 每层增益额外 1.65 % 法术伤害；最多叠加15层",
+        "秘法阵： 持续 6 秒 敌人首次进入秘法阵内使自身获得亢奋： 每层增益额外 1.7 % 法术伤害；最多叠加15层",
+        "秘法阵： 持续 6 秒 敌人首次进入秘法阵内使自身获得亢奋： 每层增益额外 1.75 % 法术伤害；最多叠加15层",
+        "秘法阵： 持续 6 秒 敌人首次进入秘法阵内使自身获得亢奋： 每层增益额外 1.8 % 法术伤害；最多叠加15层",
+        "秘法阵： 持续 6 秒 敌人首次进入秘法阵内使自身获得亢奋： 每层增益额外 1.85 % 法术伤害；最多叠加15层",
+        "秘法阵： 持续 6 秒 敌人首次进入秘法阵内使自身获得亢奋： 每层增益额外 1.9 % 法术伤害；最多叠加15层",
+        "秘法阵： 持续 6 秒 敌人首次进入秘法阵内使自身获得亢奋： 每层增益额外 1.95 % 法术伤害；最多叠加15层",
+        "秘法阵： 持续 6 秒 敌人首次进入秘法阵内使自身获得亢奋： 每层增益额外 +2 % 法术伤害；最多叠加15层",
+        "秘法阵： 持续 6 秒 敌人首次进入秘法阵内使自身获得亢奋： 每层增益额外 2.05 % 法术伤害；最多叠加15层",
+        "秘法阵： 持续 6 秒 敌人首次进入秘法阵内使自身获得亢奋： 每层增益额外 2.1 % 法术伤害；最多叠加15层",
+        "秘法阵： 持续 6 秒 敌人首次进入秘法阵内使自身获得亢奋： 每层增益额外 2.15 % 法术伤害；最多叠加15层",
+        "秘法阵： 持续 6 秒 敌人首次进入秘法阵内使自身获得亢奋： 每层增益额外 2.2 % 法术伤害；最多叠加15层",
+        "秘法阵： 持续 6 秒 敌人首次进入秘法阵内使自身获得亢奋： 每层增益额外 2.25 % 法术伤害；最多叠加15层",
+        "秘法阵： 持续 6 秒 敌人首次进入秘法阵内使自身获得亢奋： 每层增益额外 2.3 % 法术伤害；最多叠加15层",
+        "秘法阵： 持续 6 秒 敌人首次进入秘法阵内使自身获得亢奋： 每层增益额外 2.35 % 法术伤害；最多叠加15层"
+      ]
     },
     {
       "id": "Ice_Bond",
@@ -1263,7 +4481,69 @@
         "范围",
         "射线"
       ],
-      "localIconUrl": "/assets/skills/active/Ice_Bond.webp"
+      "localIconUrl": "/assets/skills/active/Ice_Bond.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "36%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "36%",
+        "36%",
+        "36%",
+        "36%",
+        "36%",
+        "36%",
+        "36%",
+        "36%",
+        "36%",
+        "36%",
+        "36%",
+        "36%",
+        "36%",
+        "36%",
+        "36%",
+        "36%",
+        "36%",
+        "36%",
+        "36%",
+        "36%"
+      ],
+      "skillBaseDamageByLevel": [
+        "2-3",
+        "2-4",
+        "3-5",
+        "4-6",
+        "5-8",
+        "7-10",
+        "8-11",
+        "9-14",
+        "12-19",
+        "15-22",
+        "19-29",
+        "23-34",
+        "27-41",
+        "32-48",
+        "38-57",
+        "53-80",
+        "63-94",
+        "87-130",
+        "129-194",
+        "154-231"
+      ]
     },
     {
       "id": "Drinking_Recovery",
@@ -1271,6 +4551,16 @@
       "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_BornFromDeath_Icon_128.webp",
       "tags": [
         "回复"
+      ],
+      "statRows": [
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "0.5 秒"
+        }
       ]
     },
     {
@@ -1282,7 +4572,21 @@
         "持续",
         "防护"
       ],
-      "localIconUrl": "/assets/skills/active/Reform.webp"
+      "localIconUrl": "/assets/skills/active/Reform.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "6 秒"
+        }
+      ]
     },
     {
       "id": "Centralized_Loading",
@@ -1294,7 +4598,43 @@
         "位移",
         "持续"
       ],
-      "localIconUrl": "/assets/skills/active/Centralized_Loading.webp"
+      "localIconUrl": "/assets/skills/active/Centralized_Loading.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "2"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "1 秒"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "增益： +16 % 投射物伤害 释放直射投射物技能时， +30 % 几率使该次技能 +2 投射物数量 持续 1 秒",
+        "增益： +17 % 投射物伤害 释放直射投射物技能时， +30 % 几率使该次技能 +2 投射物数量 持续 1 秒",
+        "增益： +18 % 投射物伤害 释放直射投射物技能时， +30 % 几率使该次技能 +2 投射物数量 持续 1 秒",
+        "增益： +19 % 投射物伤害 释放直射投射物技能时， +30 % 几率使该次技能 +2 投射物数量 持续 1 秒",
+        "增益： +20 % 投射物伤害 释放直射投射物技能时， +30 % 几率使该次技能 +2 投射物数量 持续 1 秒",
+        "增益： +21 % 投射物伤害 释放直射投射物技能时， +30 % 几率使该次技能 +2 投射物数量 持续 1 秒",
+        "增益： +22 % 投射物伤害 释放直射投射物技能时， +30 % 几率使该次技能 +2 投射物数量 持续 1 秒",
+        "增益： +23 % 投射物伤害 释放直射投射物技能时， +30 % 几率使该次技能 +2 投射物数量 持续 1 秒",
+        "增益： +24 % 投射物伤害 释放直射投射物技能时， +30 % 几率使该次技能 +2 投射物数量 持续 1 秒",
+        "增益： +25 % 投射物伤害 释放直射投射物技能时， +30 % 几率使该次技能 +2 投射物数量 持续 1 秒",
+        "增益： +26 % 投射物伤害 释放直射投射物技能时， +30 % 几率使该次技能 +2 投射物数量 持续 1 秒",
+        "增益： +27 % 投射物伤害 释放直射投射物技能时， +30 % 几率使该次技能 +2 投射物数量 持续 1 秒",
+        "增益： +28 % 投射物伤害 释放直射投射物技能时， +30 % 几率使该次技能 +2 投射物数量 持续 1 秒",
+        "增益： +29 % 投射物伤害 释放直射投射物技能时， +30 % 几率使该次技能 +2 投射物数量 持续 1 秒",
+        "增益： +30 % 投射物伤害 释放直射投射物技能时， +30 % 几率使该次技能 +2 投射物数量 持续 1 秒",
+        "增益： +31 % 投射物伤害 释放直射投射物技能时， +30 % 几率使该次技能 +2 投射物数量 持续 1 秒",
+        "增益： +32 % 投射物伤害 释放直射投射物技能时， +30 % 几率使该次技能 +2 投射物数量 持续 1 秒",
+        "增益： +33 % 投射物伤害 释放直射投射物技能时， +30 % 几率使该次技能 +2 投射物数量 持续 1 秒",
+        "增益： +34 % 投射物伤害 释放直射投射物技能时， +30 % 几率使该次技能 +2 投射物数量 持续 1 秒",
+        "增益： +35 % 投射物伤害 释放直射投射物技能时， +30 % 几率使该次技能 +2 投射物数量 持续 1 秒"
+      ]
     },
     {
       "id": "Blink_Arrow",
@@ -1309,7 +4649,51 @@
         "位移",
         "敏捷"
       ],
-      "localIconUrl": "/assets/skills/active/Blink_Arrow.webp"
+      "localIconUrl": "/assets/skills/active/Blink_Arrow.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "2"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "248%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "184%",
+        "187%",
+        "191%",
+        "194%",
+        "198%",
+        "201%",
+        "204%",
+        "208%",
+        "211%",
+        "214%",
+        "218%",
+        "221%",
+        "225%",
+        "228%",
+        "231%",
+        "235%",
+        "238%",
+        "242%",
+        "245%",
+        "248%"
+      ]
     },
     {
       "id": "Swift_Shadow_Raid",
@@ -1322,7 +4706,47 @@
         "位移",
         "敏捷"
       ],
-      "localIconUrl": "/assets/skills/active/Swift_Shadow_Raid.webp"
+      "localIconUrl": "/assets/skills/active/Swift_Shadow_Raid.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "2"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.25 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "271%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "154%",
+        "160%",
+        "165%",
+        "170%",
+        "176%",
+        "182%",
+        "188%",
+        "193%",
+        "199%",
+        "205%",
+        "212%",
+        "218%",
+        "224%",
+        "230%",
+        "237%",
+        "244%",
+        "250%",
+        "257%",
+        "264%",
+        "271%"
+      ]
     },
     {
       "id": "Safeguard_Ring",
@@ -1335,7 +4759,43 @@
         "哨卫",
         "防护"
       ],
-      "localIconUrl": "/assets/skills/active/Safeguard_Ring.webp"
+      "localIconUrl": "/assets/skills/active/Safeguard_Ring.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "6 秒"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "绝境哨卫： 每 2 秒 击退 强制后退 \">击退 范围内的敌人 哨卫持续 6.1 秒 该技能基础哨卫数量上限为 1 该技能最多只能放置 1 个哨卫 绝境哨卫使友方单位获得防护： 增益持续时，额外 -8 % 受到的伤害 增益持续时，额外 -10.5 % 受到的阵外敌人的伤害",
+        "绝境哨卫： 每 2 秒 击退 强制后退 \">击退 范围内的敌人 哨卫持续 6.1 秒 该技能基础哨卫数量上限为 1 该技能最多只能放置 1 个哨卫 绝境哨卫使友方单位获得防护： 增益持续时，额外 -8 % 受到的伤害 增益持续时，额外 -11 % 受到的阵外敌人的伤害",
+        "绝境哨卫： 每 2 秒 击退 强制后退 \">击退 范围内的敌人 哨卫持续 6.1 秒 该技能基础哨卫数量上限为 1 该技能最多只能放置 1 个哨卫 绝境哨卫使友方单位获得防护： 增益持续时，额外 -8 % 受到的伤害 增益持续时，额外 -11.5 % 受到的阵外敌人的伤害",
+        "绝境哨卫： 每 2 秒 击退 强制后退 \">击退 范围内的敌人 哨卫持续 6.1 秒 该技能基础哨卫数量上限为 1 该技能最多只能放置 1 个哨卫 绝境哨卫使友方单位获得防护： 增益持续时，额外 -8 % 受到的伤害 增益持续时，额外 -12 % 受到的阵外敌人的伤害",
+        "绝境哨卫： 每 2 秒 击退 强制后退 \">击退 范围内的敌人 哨卫持续 6.1 秒 该技能基础哨卫数量上限为 1 该技能最多只能放置 1 个哨卫 绝境哨卫使友方单位获得防护： 增益持续时，额外 -8 % 受到的伤害 增益持续时，额外 -12.5 % 受到的阵外敌人的伤害",
+        "绝境哨卫： 每 2 秒 击退 强制后退 \">击退 范围内的敌人 哨卫持续 6.1 秒 该技能基础哨卫数量上限为 1 该技能最多只能放置 1 个哨卫 绝境哨卫使友方单位获得防护： 增益持续时，额外 -8 % 受到的伤害 增益持续时，额外 -13 % 受到的阵外敌人的伤害",
+        "绝境哨卫： 每 2 秒 击退 强制后退 \">击退 范围内的敌人 哨卫持续 6.1 秒 该技能基础哨卫数量上限为 1 该技能最多只能放置 1 个哨卫 绝境哨卫使友方单位获得防护： 增益持续时，额外 -8 % 受到的伤害 增益持续时，额外 -13.5 % 受到的阵外敌人的伤害",
+        "绝境哨卫： 每 2 秒 击退 强制后退 \">击退 范围内的敌人 哨卫持续 6.1 秒 该技能基础哨卫数量上限为 1 该技能最多只能放置 1 个哨卫 绝境哨卫使友方单位获得防护： 增益持续时，额外 -8 % 受到的伤害 增益持续时，额外 -14 % 受到的阵外敌人的伤害",
+        "绝境哨卫： 每 2 秒 击退 强制后退 \">击退 范围内的敌人 哨卫持续 6.1 秒 该技能基础哨卫数量上限为 1 该技能最多只能放置 1 个哨卫 绝境哨卫使友方单位获得防护： 增益持续时，额外 -8 % 受到的伤害 增益持续时，额外 -14.5 % 受到的阵外敌人的伤害",
+        "绝境哨卫： 每 2 秒 击退 强制后退 \">击退 范围内的敌人 哨卫持续 6.1 秒 该技能基础哨卫数量上限为 1 该技能最多只能放置 1 个哨卫 绝境哨卫使友方单位获得防护： 增益持续时，额外 -8 % 受到的伤害 增益持续时，额外 -15 % 受到的阵外敌人的伤害",
+        "绝境哨卫： 每 2 秒 击退 强制后退 \">击退 范围内的敌人 哨卫持续 6.1 秒 该技能基础哨卫数量上限为 1 该技能最多只能放置 1 个哨卫 绝境哨卫使友方单位获得防护： 增益持续时，额外 -8 % 受到的伤害 增益持续时，额外 -15.5 % 受到的阵外敌人的伤害",
+        "绝境哨卫： 每 2 秒 击退 强制后退 \">击退 范围内的敌人 哨卫持续 6.1 秒 该技能基础哨卫数量上限为 1 该技能最多只能放置 1 个哨卫 绝境哨卫使友方单位获得防护： 增益持续时，额外 -8 % 受到的伤害 增益持续时，额外 -16 % 受到的阵外敌人的伤害",
+        "绝境哨卫： 每 2 秒 击退 强制后退 \">击退 范围内的敌人 哨卫持续 6.1 秒 该技能基础哨卫数量上限为 1 该技能最多只能放置 1 个哨卫 绝境哨卫使友方单位获得防护： 增益持续时，额外 -8 % 受到的伤害 增益持续时，额外 -16.5 % 受到的阵外敌人的伤害",
+        "绝境哨卫： 每 2 秒 击退 强制后退 \">击退 范围内的敌人 哨卫持续 6.1 秒 该技能基础哨卫数量上限为 1 该技能最多只能放置 1 个哨卫 绝境哨卫使友方单位获得防护： 增益持续时，额外 -8 % 受到的伤害 增益持续时，额外 -17 % 受到的阵外敌人的伤害",
+        "绝境哨卫： 每 2 秒 击退 强制后退 \">击退 范围内的敌人 哨卫持续 6.1 秒 该技能基础哨卫数量上限为 1 该技能最多只能放置 1 个哨卫 绝境哨卫使友方单位获得防护： 增益持续时，额外 -8 % 受到的伤害 增益持续时，额外 -17.5 % 受到的阵外敌人的伤害",
+        "绝境哨卫： 每 2 秒 击退 强制后退 \">击退 范围内的敌人 哨卫持续 6.1 秒 该技能基础哨卫数量上限为 1 该技能最多只能放置 1 个哨卫 绝境哨卫使友方单位获得防护： 增益持续时，额外 -8 % 受到的伤害 增益持续时，额外 -18 % 受到的阵外敌人的伤害",
+        "绝境哨卫： 每 2 秒 击退 强制后退 \">击退 范围内的敌人 哨卫持续 6.1 秒 该技能基础哨卫数量上限为 1 该技能最多只能放置 1 个哨卫 绝境哨卫使友方单位获得防护： 增益持续时，额外 -8 % 受到的伤害 增益持续时，额外 -18.5 % 受到的阵外敌人的伤害",
+        "绝境哨卫： 每 2 秒 击退 强制后退 \">击退 范围内的敌人 哨卫持续 6.1 秒 该技能基础哨卫数量上限为 1 该技能最多只能放置 1 个哨卫 绝境哨卫使友方单位获得防护： 增益持续时，额外 -8 % 受到的伤害 增益持续时，额外 -19 % 受到的阵外敌人的伤害",
+        "绝境哨卫： 每 2 秒 击退 强制后退 \">击退 范围内的敌人 哨卫持续 6.1 秒 该技能基础哨卫数量上限为 1 该技能最多只能放置 1 个哨卫 绝境哨卫使友方单位获得防护： 增益持续时，额外 -8 % 受到的伤害 增益持续时，额外 -19.5 % 受到的阵外敌人的伤害",
+        "绝境哨卫： 每 2 秒 击退 强制后退 \">击退 范围内的敌人 哨卫持续 6.1 秒 该技能基础哨卫数量上限为 1 该技能最多只能放置 1 个哨卫 绝境哨卫使友方单位获得防护： 增益持续时，额外 -8 % 受到的伤害 增益持续时，额外 -20 % 受到的阵外敌人的伤害"
+      ]
     },
     {
       "id": "Icebound_Beam",
@@ -1350,7 +4810,69 @@
         "射线",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Icebound_Beam.webp"
+      "localIconUrl": "/assets/skills/active/Icebound_Beam.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.333 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "40%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "40%",
+        "40%",
+        "40%",
+        "40%",
+        "40%",
+        "40%",
+        "40%",
+        "40%",
+        "40%",
+        "40%",
+        "40%",
+        "40%",
+        "40%",
+        "40%",
+        "40%",
+        "40%",
+        "40%",
+        "40%",
+        "40%",
+        "40%"
+      ],
+      "skillBaseDamageByLevel": [
+        "2-4",
+        "3-4",
+        "3-5",
+        "5-7",
+        "6-9",
+        "7-11",
+        "8-13",
+        "11-16",
+        "14-21",
+        "17-25",
+        "21-32",
+        "25-38",
+        "30-45",
+        "36-53",
+        "42-63",
+        "59-89",
+        "70-105",
+        "96-144",
+        "143-215",
+        "171-257"
+      ]
     },
     {
       "id": "Spiral_Strike",
@@ -1364,7 +4886,47 @@
         "位移",
         "敏捷"
       ],
-      "localIconUrl": "/assets/skills/active/Spiral_Strike.webp"
+      "localIconUrl": "/assets/skills/active/Spiral_Strike.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "2"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "87%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "64%",
+        "65%",
+        "67%",
+        "68%",
+        "69%",
+        "70%",
+        "71%",
+        "73%",
+        "74%",
+        "75%",
+        "76%",
+        "77%",
+        "78%",
+        "80%",
+        "81%",
+        "82%",
+        "83%",
+        "84%",
+        "86%",
+        "87%"
+      ]
     },
     {
       "id": "Compound_Source",
@@ -1373,7 +4935,17 @@
       "tags": [
         "回复"
       ],
-      "localIconUrl": "/assets/skills/active/Compound_Source.webp"
+      "localIconUrl": "/assets/skills/active/Compound_Source.webp",
+      "statRows": [
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "0.5 秒"
+        }
+      ]
     },
     {
       "id": "Moon_Strike",
@@ -1388,7 +4960,47 @@
         "敏捷",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Moon_Strike.webp"
+      "localIconUrl": "/assets/skills/active/Moon_Strike.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷, 智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "1%"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "185%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "105%",
+        "109%",
+        "113%",
+        "117%",
+        "120%",
+        "124%",
+        "128%",
+        "132%",
+        "136%",
+        "140%",
+        "145%",
+        "149%",
+        "153%",
+        "158%",
+        "162%",
+        "166%",
+        "171%",
+        "176%",
+        "180%",
+        "185%"
+      ]
     },
     {
       "id": "Howling_Gale",
@@ -1402,7 +5014,69 @@
         "持续",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Howling_Gale.webp"
+      "localIconUrl": "/assets/skills/active/Howling_Gale.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.333 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "135%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "125%",
+        "125%",
+        "126%",
+        "127%",
+        "127%",
+        "128%",
+        "128%",
+        "129%",
+        "129%",
+        "130%",
+        "130%",
+        "131%",
+        "131%",
+        "132%",
+        "133%",
+        "133%",
+        "134%",
+        "134%",
+        "135%",
+        "135%"
+      ],
+      "skillBaseDamageByLevel": [
+        "8-12",
+        "8-13",
+        "11-17",
+        "15-24",
+        "19-30",
+        "23-37",
+        "26-43",
+        "33-53",
+        "42-70",
+        "51-85",
+        "66-110",
+        "78-129",
+        "95-157",
+        "112-185",
+        "133-220",
+        "187-311",
+        "221-368",
+        "306-509",
+        "458-763",
+        "548-913"
+      ]
     },
     {
       "id": "Blazing_Bullet",
@@ -1418,7 +5092,47 @@
         "力量",
         "敏捷"
       ],
-      "localIconUrl": "/assets/skills/active/Blazing_Bullet.webp"
+      "localIconUrl": "/assets/skills/active/Blazing_Bullet.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量, 敏捷"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "121%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "82%",
+        "84%",
+        "86%",
+        "88%",
+        "90%",
+        "92%",
+        "94%",
+        "96%",
+        "98%",
+        "100%",
+        "102%",
+        "104%",
+        "106%",
+        "108%",
+        "110%",
+        "112%",
+        "114%",
+        "116%",
+        "118%",
+        "121%"
+      ]
     },
     {
       "id": "Thunder_Slash",
@@ -1432,7 +5146,47 @@
         "挥斩",
         "敏捷"
       ],
-      "localIconUrl": "/assets/skills/active/Thunder_Slash.webp"
+      "localIconUrl": "/assets/skills/active/Thunder_Slash.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "210%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "120%",
+        "124%",
+        "128%",
+        "133%",
+        "137%",
+        "141%",
+        "146%",
+        "150%",
+        "155%",
+        "160%",
+        "164%",
+        "169%",
+        "174%",
+        "179%",
+        "184%",
+        "189%",
+        "194%",
+        "200%",
+        "205%",
+        "210%"
+      ]
     },
     {
       "id": "Thunder_Spike",
@@ -1446,7 +5200,47 @@
         "影袭",
         "敏捷"
       ],
-      "localIconUrl": "/assets/skills/active/Thunder_Spike.webp"
+      "localIconUrl": "/assets/skills/active/Thunder_Spike.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "277%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "205%",
+        "209%",
+        "213%",
+        "216%",
+        "220%",
+        "224%",
+        "228%",
+        "231%",
+        "235%",
+        "239%",
+        "243%",
+        "247%",
+        "250%",
+        "254%",
+        "258%",
+        "262%",
+        "265%",
+        "269%",
+        "273%",
+        "277%"
+      ]
     },
     {
       "id": "Haunting_Abomination",
@@ -1460,7 +5254,73 @@
         "地面",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Haunting_Abomination.webp"
+      "localIconUrl": "/assets/skills/active/Haunting_Abomination.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "0.5 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "75%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "75%",
+        "75%",
+        "75%",
+        "75%",
+        "75%",
+        "75%",
+        "75%",
+        "75%",
+        "75%",
+        "75%",
+        "75%",
+        "75%",
+        "75%",
+        "75%",
+        "75%",
+        "75%",
+        "75%",
+        "75%",
+        "75%",
+        "75%"
+      ],
+      "skillBaseDamageByLevel": [
+        "5-5",
+        "6-6",
+        "8-8",
+        "11-11",
+        "14-14",
+        "17-17",
+        "20-20",
+        "25-25",
+        "32-32",
+        "39-39",
+        "50-50",
+        "59-59",
+        "72-72",
+        "84-84",
+        "100-100",
+        "140-140",
+        "165-165",
+        "227-227",
+        "340-340",
+        "405-405"
+      ]
     },
     {
       "id": "Frost_Core",
@@ -1475,7 +5335,69 @@
         "哨卫",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Frost_Core.webp"
+      "localIconUrl": "/assets/skills/active/Frost_Core.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "130%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "130%",
+        "130%",
+        "130%",
+        "130%",
+        "130%",
+        "130%",
+        "130%",
+        "130%",
+        "130%",
+        "130%",
+        "130%",
+        "130%",
+        "130%",
+        "130%",
+        "130%",
+        "130%",
+        "130%",
+        "130%",
+        "130%",
+        "130%"
+      ],
+      "skillBaseDamageByLevel": [
+        "8-12",
+        "9-13",
+        "11-17",
+        "15-23",
+        "20-30",
+        "24-36",
+        "28-41",
+        "34-52",
+        "45-67",
+        "54-81",
+        "70-105",
+        "82-123",
+        "99-148",
+        "116-174",
+        "138-207",
+        "194-291",
+        "228-342",
+        "314-471",
+        "469-704",
+        "560-839"
+      ]
     },
     {
       "id": "Thunder_Core",
@@ -1490,7 +5412,69 @@
         "范围",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Thunder_Core.webp"
+      "localIconUrl": "/assets/skills/active/Thunder_Core.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "112%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%",
+        "112%"
+      ],
+      "skillBaseDamageByLevel": [
+        "1-16",
+        "1-18",
+        "1-23",
+        "2-32",
+        "2-41",
+        "3-50",
+        "3-57",
+        "4-71",
+        "5-92",
+        "6-111",
+        "8-143",
+        "9-168",
+        "11-203",
+        "13-239",
+        "15-283",
+        "21-398",
+        "25-469",
+        "34-646",
+        "51-964",
+        "61-1150"
+      ]
     },
     {
       "id": "Ghost_Blade_Einherjar",
@@ -1507,7 +5491,47 @@
         "范围",
         "敏捷"
       ],
-      "localIconUrl": "/assets/skills/active/Ghost_Blade_Einherjar.webp"
+      "localIconUrl": "/assets/skills/active/Ghost_Blade_Einherjar.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "144%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "107%",
+        "109%",
+        "111%",
+        "113%",
+        "114%",
+        "116%",
+        "118%",
+        "120%",
+        "122%",
+        "124%",
+        "126%",
+        "128%",
+        "130%",
+        "132%",
+        "134%",
+        "136%",
+        "138%",
+        "140%",
+        "142%",
+        "144%"
+      ]
     },
     {
       "id": "Arrow_Einherjar",
@@ -1524,7 +5548,47 @@
         "范围",
         "敏捷"
       ],
-      "localIconUrl": "/assets/skills/active/Arrow_Einherjar.webp"
+      "localIconUrl": "/assets/skills/active/Arrow_Einherjar.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "135%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "77%",
+        "79%",
+        "81%",
+        "83%",
+        "85%",
+        "87%",
+        "90%",
+        "92%",
+        "95%",
+        "97%",
+        "100%",
+        "103%",
+        "106%",
+        "109%",
+        "113%",
+        "117%",
+        "121%",
+        "125%",
+        "130%",
+        "135%"
+      ]
     },
     {
       "id": "Summon_Grim_Phantom",
@@ -1538,7 +5602,25 @@
         "智械",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Summon_Grim_Phantom.webp"
+      "localIconUrl": "/assets/skills/active/Summon_Grim_Phantom.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "5 秒"
+        }
+      ]
     },
     {
       "id": "Overpower",
@@ -1552,7 +5634,21 @@
         "力量",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Overpower.webp"
+      "localIconUrl": "/assets/skills/active/Overpower.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量, 智慧"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.7 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "49%"
+        }
+      ]
     },
     {
       "id": "Onslaught_Punch",
@@ -1566,7 +5662,25 @@
         "力量",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Onslaught_Punch.webp"
+      "localIconUrl": "/assets/skills/active/Onslaught_Punch.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量, 智慧"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "0.1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "75%"
+        }
+      ]
     },
     {
       "id": "Aimed_Shot",
@@ -1581,7 +5695,43 @@
         "敏捷",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Aimed_Shot.webp"
+      "localIconUrl": "/assets/skills/active/Aimed_Shot.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷, 智慧"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.7 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "61%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "61%",
+        "61%",
+        "61%",
+        "61%",
+        "61%",
+        "61%",
+        "61%",
+        "61%",
+        "61%",
+        "61%",
+        "61%",
+        "61%",
+        "61%",
+        "61%",
+        "61%",
+        "61%",
+        "61%",
+        "61%",
+        "61%",
+        "61%"
+      ]
     },
     {
       "id": "Blazing_Dance",
@@ -1595,7 +5745,43 @@
         "力量",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Blazing_Dance.webp"
+      "localIconUrl": "/assets/skills/active/Blazing_Dance.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量, 智慧"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "110%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "73%",
+        "75%",
+        "77%",
+        "79%",
+        "81%",
+        "83%",
+        "86%",
+        "88%",
+        "90%",
+        "92%",
+        "94%",
+        "96%",
+        "98%",
+        "100%",
+        "102%",
+        "104%",
+        "106%",
+        "108%",
+        "111%",
+        "110%"
+      ]
     },
     {
       "id": "Blazing_Spin",
@@ -1610,7 +5796,43 @@
         "力量",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Blazing_Spin.webp"
+      "localIconUrl": "/assets/skills/active/Blazing_Spin.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量, 智慧"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.6 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "10 秒"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "释放该技能获得亢奋： 技能持续时， +435 % 暴击值 持续 6 秒 至少为 4 阶时，技能持续时，击中被该技能影响的敌人时获得 1 层增益，间隔 0.01 秒 每层增益 +14 % 暴击伤害，持续 2 秒，最多叠加 15 层 烈焰飞旋： 每秒造成 90% 基础伤害的持续火焰伤害",
+        "释放该技能获得亢奋： 技能持续时， +435 % 暴击值 持续 6 秒 至少为 4 阶时，技能持续时，击中被该技能影响的敌人时获得 1 层增益，间隔 0.01 秒 每层增益 +14 % 暴击伤害，持续 2 秒，最多叠加 15 层 烈焰飞旋： 每秒造成 93% 基础伤害的持续火焰伤害",
+        "释放该技能获得亢奋： 技能持续时， +435 % 暴击值 持续 6 秒 至少为 4 阶时，技能持续时，击中被该技能影响的敌人时获得 1 层增益，间隔 0.01 秒 每层增益 +14 % 暴击伤害，持续 2 秒，最多叠加 15 层 烈焰飞旋： 每秒造成 96% 基础伤害的持续火焰伤害",
+        "释放该技能获得亢奋： 技能持续时， +435 % 暴击值 持续 6 秒 至少为 4 阶时，技能持续时，击中被该技能影响的敌人时获得 1 层增益，间隔 0.01 秒 每层增益 +14 % 暴击伤害，持续 2 秒，最多叠加 15 层 烈焰飞旋： 每秒造成 98% 基础伤害的持续火焰伤害",
+        "释放该技能获得亢奋： 技能持续时， +435 % 暴击值 持续 6 秒 至少为 4 阶时，技能持续时，击中被该技能影响的敌人时获得 1 层增益，间隔 0.01 秒 每层增益 +14 % 暴击伤害，持续 2 秒，最多叠加 15 层 烈焰飞旋： 每秒造成 101% 基础伤害的持续火焰伤害",
+        "释放该技能获得亢奋： 技能持续时， +435 % 暴击值 持续 6 秒 至少为 4 阶时，技能持续时，击中被该技能影响的敌人时获得 1 层增益，间隔 0.01 秒 每层增益 +14 % 暴击伤害，持续 2 秒，最多叠加 15 层 烈焰飞旋： 每秒造成 103% 基础伤害的持续火焰伤害",
+        "释放该技能获得亢奋： 技能持续时， +435 % 暴击值 持续 6 秒 至少为 4 阶时，技能持续时，击中被该技能影响的敌人时获得 1 层增益，间隔 0.01 秒 每层增益 +14 % 暴击伤害，持续 2 秒，最多叠加 15 层 烈焰飞旋： 每秒造成 106% 基础伤害的持续火焰伤害",
+        "释放该技能获得亢奋： 技能持续时， +435 % 暴击值 持续 6 秒 至少为 4 阶时，技能持续时，击中被该技能影响的敌人时获得 1 层增益，间隔 0.01 秒 每层增益 +14 % 暴击伤害，持续 2 秒，最多叠加 15 层 烈焰飞旋： 每秒造成 109% 基础伤害的持续火焰伤害",
+        "释放该技能获得亢奋： 技能持续时， +435 % 暴击值 持续 6 秒 至少为 4 阶时，技能持续时，击中被该技能影响的敌人时获得 1 层增益，间隔 0.01 秒 每层增益 +14 % 暴击伤害，持续 2 秒，最多叠加 15 层 烈焰飞旋： 每秒造成 111% 基础伤害的持续火焰伤害",
+        "释放该技能获得亢奋： 技能持续时， +435 % 暴击值 持续 6 秒 至少为 4 阶时，技能持续时，击中被该技能影响的敌人时获得 1 层增益，间隔 0.01 秒 每层增益 +14 % 暴击伤害，持续 2 秒，最多叠加 15 层 烈焰飞旋： 每秒造成 114% 基础伤害的持续火焰伤害",
+        "释放该技能获得亢奋： 技能持续时， +435 % 暴击值 持续 6 秒 至少为 4 阶时，技能持续时，击中被该技能影响的敌人时获得 1 层增益，间隔 0.01 秒 每层增益 +14 % 暴击伤害，持续 2 秒，最多叠加 15 层 烈焰飞旋： 每秒造成 116% 基础伤害的持续火焰伤害",
+        "释放该技能获得亢奋： 技能持续时， +435 % 暴击值 持续 6 秒 至少为 4 阶时，技能持续时，击中被该技能影响的敌人时获得 1 层增益，间隔 0.01 秒 每层增益 +14 % 暴击伤害，持续 2 秒，最多叠加 15 层 烈焰飞旋： 每秒造成 119% 基础伤害的持续火焰伤害",
+        "释放该技能获得亢奋： 技能持续时， +435 % 暴击值 持续 6 秒 至少为 4 阶时，技能持续时，击中被该技能影响的敌人时获得 1 层增益，间隔 0.01 秒 每层增益 +14 % 暴击伤害，持续 2 秒，最多叠加 15 层 烈焰飞旋： 每秒造成 121% 基础伤害的持续火焰伤害",
+        "释放该技能获得亢奋： 技能持续时， +435 % 暴击值 持续 6 秒 至少为 4 阶时，技能持续时，击中被该技能影响的敌人时获得 1 层增益，间隔 0.01 秒 每层增益 +14 % 暴击伤害，持续 2 秒，最多叠加 15 层 烈焰飞旋： 每秒造成 124% 基础伤害的持续火焰伤害",
+        "释放该技能获得亢奋： 技能持续时， +435 % 暴击值 持续 6 秒 至少为 4 阶时，技能持续时，击中被该技能影响的敌人时获得 1 层增益，间隔 0.01 秒 每层增益 +14 % 暴击伤害，持续 2 秒，最多叠加 15 层 烈焰飞旋： 每秒造成 127% 基础伤害的持续火焰伤害",
+        "释放该技能获得亢奋： 技能持续时， +435 % 暴击值 持续 6 秒 至少为 4 阶时，技能持续时，击中被该技能影响的敌人时获得 1 层增益，间隔 0.01 秒 每层增益 +14 % 暴击伤害，持续 2 秒，最多叠加 15 层 烈焰飞旋： 每秒造成 129% 基础伤害的持续火焰伤害",
+        "释放该技能获得亢奋： 技能持续时， +435 % 暴击值 持续 6 秒 至少为 4 阶时，技能持续时，击中被该技能影响的敌人时获得 1 层增益，间隔 0.01 秒 每层增益 +14 % 暴击伤害，持续 2 秒，最多叠加 15 层 烈焰飞旋： 每秒造成 132% 基础伤害的持续火焰伤害",
+        "释放该技能获得亢奋： 技能持续时， +435 % 暴击值 持续 6 秒 至少为 4 阶时，技能持续时，击中被该技能影响的敌人时获得 1 层增益，间隔 0.01 秒 每层增益 +14 % 暴击伤害，持续 2 秒，最多叠加 15 层 烈焰飞旋： 每秒造成 134% 基础伤害的持续火焰伤害",
+        "释放该技能获得亢奋： 技能持续时， +435 % 暴击值 持续 6 秒 至少为 4 阶时，技能持续时，击中被该技能影响的敌人时获得 1 层增益，间隔 0.01 秒 每层增益 +14 % 暴击伤害，持续 2 秒，最多叠加 15 层 烈焰飞旋： 每秒造成 137% 基础伤害的持续火焰伤害",
+        "释放该技能获得亢奋： 技能持续时， +435 % 暴击值 持续 6 秒 至少为 4 阶时，技能持续时，击中被该技能影响的敌人时获得 1 层增益，间隔 0.01 秒 每层增益 +14 % 暴击伤害，持续 2 秒，最多叠加 15 层 烈焰飞旋： 每秒造成 136% 基础伤害的持续火焰伤害"
+      ]
     },
     {
       "id": "Blazing_Incineration",
@@ -1624,7 +5846,39 @@
         "力量",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Blazing_Incineration.webp"
+      "localIconUrl": "/assets/skills/active/Blazing_Incineration.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量, 智慧"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "烈焰暴燃： 造成 185% 基础伤害的法术火焰伤害 #skillstone, 1894, affix#",
+        "烈焰暴燃： 造成 190% 基础伤害的法术火焰伤害 #skillstone, 1894, affix#",
+        "烈焰暴燃： 造成 194% 基础伤害的法术火焰伤害 #skillstone, 1894, affix#",
+        "烈焰暴燃： 造成 199% 基础伤害的法术火焰伤害 #skillstone, 1894, affix#",
+        "烈焰暴燃： 造成 203% 基础伤害的法术火焰伤害 #skillstone, 1894, affix#",
+        "烈焰暴燃： 造成 208% 基础伤害的法术火焰伤害 #skillstone, 1894, affix#",
+        "烈焰暴燃： 造成 212% 基础伤害的法术火焰伤害 #skillstone, 1894, affix#",
+        "烈焰暴燃： 造成 216% 基础伤害的法术火焰伤害 #skillstone, 1894, affix#",
+        "烈焰暴燃： 造成 221% 基础伤害的法术火焰伤害 #skillstone, 1894, affix#",
+        "烈焰暴燃： 造成 225% 基础伤害的法术火焰伤害 #skillstone, 1894, affix#",
+        "烈焰暴燃： 造成 230% 基础伤害的法术火焰伤害 #skillstone, 1894, affix#",
+        "烈焰暴燃： 造成 236% 基础伤害的法术火焰伤害 #skillstone, 1894, affix#",
+        "烈焰暴燃： 造成 241% 基础伤害的法术火焰伤害 #skillstone, 1894, affix#",
+        "烈焰暴燃： 造成 246% 基础伤害的法术火焰伤害 #skillstone, 1894, affix#",
+        "烈焰暴燃： 造成 252% 基础伤害的法术火焰伤害 #skillstone, 1894, affix#",
+        "烈焰暴燃： 造成 257% 基础伤害的法术火焰伤害 #skillstone, 1894, affix#",
+        "烈焰暴燃： 造成 262% 基础伤害的法术火焰伤害 #skillstone, 1894, affix#",
+        "烈焰暴燃： 造成 268% 基础伤害的法术火焰伤害 #skillstone, 1894, affix#",
+        "烈焰暴燃： 造成 274% 基础伤害的法术火焰伤害 #skillstone, 1894, affix#",
+        "烈焰暴燃： 造成 278% 基础伤害的法术火焰伤害 #skillstone, 1894, affix#"
+      ]
     },
     {
       "id": "Molten_Rising",
@@ -1638,7 +5892,25 @@
         "力量",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Molten_Rising.webp"
+      "localIconUrl": "/assets/skills/active/Molten_Rising.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量, 智慧"
+        },
+        {
+          "label": "施法速度",
+          "value": "1.5 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "8 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "637%"
+        }
+      ]
     },
     {
       "id": "Glacier_Ripples",
@@ -1651,7 +5923,21 @@
         "范围",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Glacier_Ripples.webp"
+      "localIconUrl": "/assets/skills/active/Glacier_Ripples.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "110%"
+        }
+      ]
     },
     {
       "id": "Frost_Release",
@@ -1665,7 +5951,47 @@
         "持续",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Frost_Release.webp"
+      "localIconUrl": "/assets/skills/active/Frost_Release.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.6 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "10 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "72%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "48%",
+        "49%",
+        "51%",
+        "52%",
+        "53%",
+        "55%",
+        "56%",
+        "57%",
+        "59%",
+        "60%",
+        "61%",
+        "63%",
+        "64%",
+        "66%",
+        "67%",
+        "68%",
+        "70%",
+        "71%",
+        "72%",
+        "72%"
+      ]
     },
     {
       "id": "Permafrost_Cast",
@@ -1678,7 +6004,43 @@
         "范围",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Permafrost_Cast.webp"
+      "localIconUrl": "/assets/skills/active/Permafrost_Cast.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "300%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "200%",
+        "205%",
+        "210%",
+        "215%",
+        "219%",
+        "224%",
+        "229%",
+        "234%",
+        "238%",
+        "243%",
+        "249%",
+        "255%",
+        "260%",
+        "266%",
+        "272%",
+        "278%",
+        "283%",
+        "289%",
+        "296%",
+        "300%"
+      ]
     },
     {
       "id": "Ice_Earthshaker",
@@ -1691,7 +6053,47 @@
         "范围",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Ice_Earthshaker.webp"
+      "localIconUrl": "/assets/skills/active/Ice_Earthshaker.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "施法速度",
+          "value": "1.5 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "8 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "2064%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "550%",
+        "632%",
+        "718%",
+        "806%",
+        "899%",
+        "994%",
+        "1094%",
+        "1197%",
+        "1304%",
+        "1416%",
+        "1532%",
+        "1652%",
+        "1776%",
+        "1814%",
+        "1853%",
+        "1893%",
+        "1934%",
+        "1976%",
+        "2018%",
+        "2064%"
+      ]
     },
     {
       "id": "Lightning_Star",
@@ -1707,7 +6109,21 @@
         "敏捷",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Lightning_Star.webp"
+      "localIconUrl": "/assets/skills/active/Lightning_Star.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷, 智慧"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "232%"
+        }
+      ]
     },
     {
       "id": "Thunderlight_Arrow",
@@ -1723,7 +6139,43 @@
         "敏捷",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Thunderlight_Arrow.webp"
+      "localIconUrl": "/assets/skills/active/Thunderlight_Arrow.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷, 智慧"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "189%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "126%",
+        "129%",
+        "132%",
+        "135%",
+        "138%",
+        "141%",
+        "144%",
+        "147%",
+        "150%",
+        "153%",
+        "156%",
+        "160%",
+        "163%",
+        "167%",
+        "171%",
+        "174%",
+        "178%",
+        "181%",
+        "186%",
+        "189%"
+      ]
     },
     {
       "id": "Thundercloud_Surge",
@@ -1737,7 +6189,21 @@
         "敏捷",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Thundercloud_Surge.webp"
+      "localIconUrl": "/assets/skills/active/Thundercloud_Surge.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷, 智慧"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.6 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "10 秒"
+        }
+      ]
     },
     {
       "id": "Lightning_Surge",
@@ -1754,7 +6220,47 @@
         "敏捷",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Lightning_Surge.webp"
+      "localIconUrl": "/assets/skills/active/Lightning_Surge.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷, 智慧"
+        },
+        {
+          "label": "施法速度",
+          "value": "1.5 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "8 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "301%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "80%",
+        "92%",
+        "105%",
+        "118%",
+        "131%",
+        "145%",
+        "159%",
+        "175%",
+        "190%",
+        "206%",
+        "223%",
+        "241%",
+        "259%",
+        "264%",
+        "270%",
+        "276%",
+        "282%",
+        "288%",
+        "294%",
+        "301%"
+      ]
     },
     {
       "id": "High_Energy_Beam",
@@ -1767,7 +6273,43 @@
         "射线",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/High_Energy_Beam.webp"
+      "localIconUrl": "/assets/skills/active/High_Energy_Beam.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "46%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%",
+        "46%"
+      ]
     },
     {
       "id": "Destructive_Light_Cannon",
@@ -1780,7 +6322,43 @@
         "射线",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Destructive_Light_Cannon.webp"
+      "localIconUrl": "/assets/skills/active/Destructive_Light_Cannon.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "207%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "207%",
+        "207%",
+        "207%",
+        "207%",
+        "207%",
+        "207%",
+        "207%",
+        "207%",
+        "207%",
+        "207%",
+        "207%",
+        "207%",
+        "207%",
+        "207%",
+        "207%",
+        "207%",
+        "207%",
+        "207%",
+        "207%",
+        "207%"
+      ]
     },
     {
       "id": "Whirlwind_Blade",
@@ -1795,7 +6373,73 @@
         "直射",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Whirlwind_Blade.webp"
+      "localIconUrl": "/assets/skills/active/Whirlwind_Blade.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "0.1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "76%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "76%",
+        "76%",
+        "76%",
+        "76%",
+        "76%",
+        "76%",
+        "76%",
+        "76%",
+        "76%",
+        "76%",
+        "76%",
+        "76%",
+        "76%",
+        "76%",
+        "76%",
+        "76%",
+        "76%",
+        "76%",
+        "76%",
+        "76%"
+      ],
+      "skillBaseDamageByLevel": [
+        "4-7",
+        "5-8",
+        "6-10",
+        "9-14",
+        "11-18",
+        "13-22",
+        "15-25",
+        "19-32",
+        "25-41",
+        "30-50",
+        "38-64",
+        "45-75",
+        "54-91",
+        "64-107",
+        "76-126",
+        "107-178",
+        "125-209",
+        "173-288",
+        "258-430",
+        "308-513"
+      ]
     },
     {
       "id": "Lightning_Beam",
@@ -1809,7 +6453,69 @@
         "射线",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Lightning_Beam.webp"
+      "localIconUrl": "/assets/skills/active/Lightning_Beam.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.65 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "47%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%",
+        "47%"
+      ],
+      "skillBaseDamageByLevel": [
+        "0-7",
+        "0-7",
+        "1-10",
+        "1-13",
+        "1-17",
+        "1-21",
+        "1-24",
+        "2-30",
+        "2-38",
+        "2-47",
+        "3-60",
+        "4-70",
+        "4-85",
+        "5-100",
+        "6-118",
+        "9-166",
+        "10-196",
+        "14-269",
+        "21-402",
+        "25-480"
+      ]
     },
     {
       "id": "Speed_Phantom",
@@ -1823,7 +6529,43 @@
         "激发",
         "位移"
       ],
-      "localIconUrl": "/assets/skills/active/Speed_Phantom.webp"
+      "localIconUrl": "/assets/skills/active/Speed_Phantom.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "3 秒"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "残影： 残影持续 0.65 秒 最多拥有 2 个残影 残影爆炸命中敌人时，造成 8-13 法术物理伤害 残影爆炸每命中 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，角色自身获得 1 层亢奋 亢奋： 每拥有 1 层该亢奋，额外 0.6 % 法术伤害，最多 8 层，持续 1.2 秒",
+        "残影： 残影持续 0.65 秒 最多拥有 2 个残影 残影爆炸命中敌人时，造成 8-14 法术物理伤害 残影爆炸每命中 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，角色自身获得 1 层亢奋 亢奋： 每拥有 1 层该亢奋，额外 0.7 % 法术伤害，最多 8 层，持续 1.2 秒",
+        "残影： 残影持续 0.65 秒 最多拥有 2 个残影 残影爆炸命中敌人时，造成 11-18 法术物理伤害 残影爆炸每命中 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，角色自身获得 1 层亢奋 亢奋： 每拥有 1 层该亢奋，额外 0.8 % 法术伤害，最多 8 层，持续 1.2 秒",
+        "残影： 残影持续 0.65 秒 最多拥有 2 个残影 残影爆炸命中敌人时，造成 15-25 法术物理伤害 残影爆炸每命中 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，角色自身获得 1 层亢奋 亢奋： 每拥有 1 层该亢奋，额外 0.9 % 法术伤害，最多 8 层，持续 1.2 秒",
+        "残影： 残影持续 0.65 秒 最多拥有 2 个残影 残影爆炸命中敌人时，造成 19-32 法术物理伤害 残影爆炸每命中 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，角色自身获得 1 层亢奋 亢奋： 每拥有 1 层该亢奋，额外 +1 % 法术伤害，最多 8 层，持续 1.2 秒",
+        "残影： 残影持续 0.65 秒 最多拥有 2 个残影 残影爆炸命中敌人时，造成 23-39 法术物理伤害 残影爆炸每命中 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，角色自身获得 1 层亢奋 亢奋： 每拥有 1 层该亢奋，额外 1.1 % 法术伤害，最多 8 层，持续 1.2 秒",
+        "残影： 残影持续 0.65 秒 最多拥有 2 个残影 残影爆炸命中敌人时，造成 27-44 法术物理伤害 残影爆炸每命中 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，角色自身获得 1 层亢奋 亢奋： 每拥有 1 层该亢奋，额外 1.2 % 法术伤害，最多 8 层，持续 1.2 秒",
+        "残影： 残影持续 0.65 秒 最多拥有 2 个残影 残影爆炸命中敌人时，造成 33-56 法术物理伤害 残影爆炸每命中 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，角色自身获得 1 层亢奋 亢奋： 每拥有 1 层该亢奋，额外 1.3 % 法术伤害，最多 8 层，持续 1.2 秒",
+        "残影： 残影持续 0.65 秒 最多拥有 2 个残影 残影爆炸命中敌人时，造成 43-72 法术物理伤害 残影爆炸每命中 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，角色自身获得 1 层亢奋 亢奋： 每拥有 1 层该亢奋，额外 1.4 % 法术伤害，最多 8 层，持续 1.2 秒",
+        "残影： 残影持续 0.65 秒 最多拥有 2 个残影 残影爆炸命中敌人时，造成 53-88 法术物理伤害 残影爆炸每命中 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，角色自身获得 1 层亢奋 亢奋： 每拥有 1 层该亢奋，额外 1.5 % 法术伤害，最多 8 层，持续 1.2 秒",
+        "残影： 残影持续 0.65 秒 最多拥有 2 个残影 残影爆炸命中敌人时，造成 68-113 法术物理伤害 残影爆炸每命中 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，角色自身获得 1 层亢奋 亢奋： 每拥有 1 层该亢奋，额外 1.6 % 法术伤害，最多 8 层，持续 1.2 秒",
+        "残影： 残影持续 0.65 秒 最多拥有 2 个残影 残影爆炸命中敌人时，造成 79-132 法术物理伤害 残影爆炸每命中 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，角色自身获得 1 层亢奋 亢奋： 每拥有 1 层该亢奋，额外 1.7 % 法术伤害，最多 8 层，持续 1.2 秒",
+        "残影： 残影持续 0.65 秒 最多拥有 2 个残影 残影爆炸命中敌人时，造成 96-160 法术物理伤害 残影爆炸每命中 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，角色自身获得 1 层亢奋 亢奋： 每拥有 1 层该亢奋，额外 1.8 % 法术伤害，最多 8 层，持续 1.2 秒",
+        "残影： 残影持续 0.65 秒 最多拥有 2 个残影 残影爆炸命中敌人时，造成 113-188 法术物理伤害 残影爆炸每命中 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，角色自身获得 1 层亢奋 亢奋： 每拥有 1 层该亢奋，额外 1.9 % 法术伤害，最多 8 层，持续 1.2 秒",
+        "残影： 残影持续 0.65 秒 最多拥有 2 个残影 残影爆炸命中敌人时，造成 133-222 法术物理伤害 残影爆炸每命中 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，角色自身获得 1 层亢奋 亢奋： 每拥有 1 层该亢奋，额外 +2 % 法术伤害，最多 8 层，持续 1.2 秒",
+        "残影： 残影持续 0.65 秒 最多拥有 2 个残影 残影爆炸命中敌人时，造成 188-313 法术物理伤害 残影爆炸每命中 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，角色自身获得 1 层亢奋 亢奋： 每拥有 1 层该亢奋，额外 2.1 % 法术伤害，最多 8 层，持续 1.2 秒",
+        "残影： 残影持续 0.65 秒 最多拥有 2 个残影 残影爆炸命中敌人时，造成 221-368 法术物理伤害 残影爆炸每命中 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，角色自身获得 1 层亢奋 亢奋： 每拥有 1 层该亢奋，额外 2.2 % 法术伤害，最多 8 层，持续 1.2 秒",
+        "残影： 残影持续 0.65 秒 最多拥有 2 个残影 残影爆炸命中敌人时，造成 305-508 法术物理伤害 残影爆炸每命中 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，角色自身获得 1 层亢奋 亢奋： 每拥有 1 层该亢奋，额外 2.3 % 法术伤害，最多 8 层，持续 1.2 秒",
+        "残影： 残影持续 0.65 秒 最多拥有 2 个残影 残影爆炸命中敌人时，造成 455-758 法术物理伤害 残影爆炸每命中 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，角色自身获得 1 层亢奋 亢奋： 每拥有 1 层该亢奋，额外 2.4 % 法术伤害，最多 8 层，持续 1.2 秒",
+        "残影： 残影持续 0.65 秒 最多拥有 2 个残影 残影爆炸命中敌人时，造成 542-904 法术物理伤害 残影爆炸每命中 一个敌人 普通和魔法怪物算作1个 稀有怪物算作2个 首领算作5个 \">一个敌人 ，角色自身获得 1 层亢奋 亢奋： 每拥有 1 层该亢奋，额外 2.5 % 法术伤害，最多 8 层，持续 1.2 秒"
+      ]
     },
     {
       "id": "Archery_Bond",
@@ -1836,7 +6578,43 @@
         "哨卫",
         "激发"
       ],
-      "localIconUrl": "/assets/skills/active/Archery_Bond.webp"
+      "localIconUrl": "/assets/skills/active/Archery_Bond.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "6 秒"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "射术羁绊： 哨卫持续 6 秒 该技能基础哨卫数量上限为 1 哨卫周围 4 米的友方获得亢奋： 投射物数量固定为 1 额外 20.5 % 投射物伤害 10.5 % 攻击投射物技能的攻击速度 10.5 % 法术投射物技能的施法速度",
+        "射术羁绊： 哨卫持续 6 秒 该技能基础哨卫数量上限为 1 哨卫周围 4 米的友方获得亢奋： 投射物数量固定为 1 额外 +21 % 投射物伤害 +11 % 攻击投射物技能的攻击速度 +11 % 法术投射物技能的施法速度",
+        "射术羁绊： 哨卫持续 6 秒 该技能基础哨卫数量上限为 1 哨卫周围 4 米的友方获得亢奋： 投射物数量固定为 1 额外 21.5 % 投射物伤害 11.5 % 攻击投射物技能的攻击速度 11.5 % 法术投射物技能的施法速度",
+        "射术羁绊： 哨卫持续 6 秒 该技能基础哨卫数量上限为 1 哨卫周围 4 米的友方获得亢奋： 投射物数量固定为 1 额外 +22 % 投射物伤害 +12 % 攻击投射物技能的攻击速度 +12 % 法术投射物技能的施法速度",
+        "射术羁绊： 哨卫持续 6 秒 该技能基础哨卫数量上限为 1 哨卫周围 4 米的友方获得亢奋： 投射物数量固定为 1 额外 22.5 % 投射物伤害 12.5 % 攻击投射物技能的攻击速度 12.5 % 法术投射物技能的施法速度",
+        "射术羁绊： 哨卫持续 6 秒 该技能基础哨卫数量上限为 1 哨卫周围 4 米的友方获得亢奋： 投射物数量固定为 1 额外 +23 % 投射物伤害 +13 % 攻击投射物技能的攻击速度 +13 % 法术投射物技能的施法速度",
+        "射术羁绊： 哨卫持续 6 秒 该技能基础哨卫数量上限为 1 哨卫周围 4 米的友方获得亢奋： 投射物数量固定为 1 额外 23.5 % 投射物伤害 13.5 % 攻击投射物技能的攻击速度 13.5 % 法术投射物技能的施法速度",
+        "射术羁绊： 哨卫持续 6 秒 该技能基础哨卫数量上限为 1 哨卫周围 4 米的友方获得亢奋： 投射物数量固定为 1 额外 +24 % 投射物伤害 +14 % 攻击投射物技能的攻击速度 +14 % 法术投射物技能的施法速度",
+        "射术羁绊： 哨卫持续 6 秒 该技能基础哨卫数量上限为 1 哨卫周围 4 米的友方获得亢奋： 投射物数量固定为 1 额外 24.5 % 投射物伤害 14.5 % 攻击投射物技能的攻击速度 14.5 % 法术投射物技能的施法速度",
+        "射术羁绊： 哨卫持续 6 秒 该技能基础哨卫数量上限为 1 哨卫周围 4 米的友方获得亢奋： 投射物数量固定为 1 额外 +25 % 投射物伤害 +15 % 攻击投射物技能的攻击速度 +15 % 法术投射物技能的施法速度",
+        "射术羁绊： 哨卫持续 6 秒 该技能基础哨卫数量上限为 1 哨卫周围 4 米的友方获得亢奋： 投射物数量固定为 1 额外 25.5 % 投射物伤害 15.5 % 攻击投射物技能的攻击速度 15.5 % 法术投射物技能的施法速度",
+        "射术羁绊： 哨卫持续 6 秒 该技能基础哨卫数量上限为 1 哨卫周围 4 米的友方获得亢奋： 投射物数量固定为 1 额外 +26 % 投射物伤害 +16 % 攻击投射物技能的攻击速度 +16 % 法术投射物技能的施法速度",
+        "射术羁绊： 哨卫持续 6 秒 该技能基础哨卫数量上限为 1 哨卫周围 4 米的友方获得亢奋： 投射物数量固定为 1 额外 26.5 % 投射物伤害 16.5 % 攻击投射物技能的攻击速度 16.5 % 法术投射物技能的施法速度",
+        "射术羁绊： 哨卫持续 6 秒 该技能基础哨卫数量上限为 1 哨卫周围 4 米的友方获得亢奋： 投射物数量固定为 1 额外 +27 % 投射物伤害 +17 % 攻击投射物技能的攻击速度 +17 % 法术投射物技能的施法速度",
+        "射术羁绊： 哨卫持续 6 秒 该技能基础哨卫数量上限为 1 哨卫周围 4 米的友方获得亢奋： 投射物数量固定为 1 额外 27.5 % 投射物伤害 17.5 % 攻击投射物技能的攻击速度 17.5 % 法术投射物技能的施法速度",
+        "射术羁绊： 哨卫持续 6 秒 该技能基础哨卫数量上限为 1 哨卫周围 4 米的友方获得亢奋： 投射物数量固定为 1 额外 +28 % 投射物伤害 +18 % 攻击投射物技能的攻击速度 +18 % 法术投射物技能的施法速度",
+        "射术羁绊： 哨卫持续 6 秒 该技能基础哨卫数量上限为 1 哨卫周围 4 米的友方获得亢奋： 投射物数量固定为 1 额外 28.5 % 投射物伤害 18.5 % 攻击投射物技能的攻击速度 18.5 % 法术投射物技能的施法速度",
+        "射术羁绊： 哨卫持续 6 秒 该技能基础哨卫数量上限为 1 哨卫周围 4 米的友方获得亢奋： 投射物数量固定为 1 额外 +29 % 投射物伤害 +19 % 攻击投射物技能的攻击速度 +19 % 法术投射物技能的施法速度",
+        "射术羁绊： 哨卫持续 6 秒 该技能基础哨卫数量上限为 1 哨卫周围 4 米的友方获得亢奋： 投射物数量固定为 1 额外 29.5 % 投射物伤害 19.5 % 攻击投射物技能的攻击速度 19.5 % 法术投射物技能的施法速度",
+        "射术羁绊： 哨卫持续 6 秒 该技能基础哨卫数量上限为 1 哨卫周围 4 米的友方获得亢奋： 投射物数量固定为 1 额外 +30 % 投射物伤害 +20 % 攻击投射物技能的攻击速度 +20 % 法术投射物技能的施法速度"
+      ]
     },
     {
       "id": "Nourishment_of_Life",
@@ -1849,7 +6627,21 @@
         "召唤",
         "激发"
       ],
-      "localIconUrl": "/assets/skills/active/Nourishment_of_Life.webp"
+      "localIconUrl": "/assets/skills/active/Nourishment_of_Life.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "10 秒"
+        }
+      ]
     },
     {
       "id": "Dazzling_Bloom",
@@ -1861,7 +6653,21 @@
         "召唤",
         "激发"
       ],
-      "localIconUrl": "/assets/skills/active/Dazzling_Bloom.webp"
+      "localIconUrl": "/assets/skills/active/Dazzling_Bloom.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "5 秒"
+        }
+      ]
     },
     {
       "id": "Star_Stalker",
@@ -1874,7 +6680,21 @@
         "持续",
         "激发"
       ],
-      "localIconUrl": "/assets/skills/active/Star_Stalker.webp"
+      "localIconUrl": "/assets/skills/active/Star_Stalker.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.65 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "10 秒"
+        }
+      ]
     },
     {
       "id": "Harmonious_Field",
@@ -1887,7 +6707,43 @@
         "持续",
         "激发"
       ],
-      "localIconUrl": "/assets/skills/active/Harmonious_Field.webp"
+      "localIconUrl": "/assets/skills/active/Harmonious_Field.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.333 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "0.5 秒"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "该技能引导结束时生成一个跟随自身的区域，区域内的哨卫获得亢奋： 技能持续时，范围内的哨卫额外 8.2 % 伤害 持续 6 秒 每 1 引导层数使该技能额外 +33% 激发效果 该技能引导结束时，如果引导层数达到上限，区域内的哨卫立即 +3 秒持续时间 引导该技能时可以移动",
+        "该技能引导结束时生成一个跟随自身的区域，区域内的哨卫获得亢奋： 技能持续时，范围内的哨卫额外 8.4 % 伤害 持续 6 秒 每 1 引导层数使该技能额外 +33% 激发效果 该技能引导结束时，如果引导层数达到上限，区域内的哨卫立即 +3 秒持续时间 引导该技能时可以移动",
+        "该技能引导结束时生成一个跟随自身的区域，区域内的哨卫获得亢奋： 技能持续时，范围内的哨卫额外 8.6 % 伤害 持续 6 秒 每 1 引导层数使该技能额外 +33% 激发效果 该技能引导结束时，如果引导层数达到上限，区域内的哨卫立即 +3 秒持续时间 引导该技能时可以移动",
+        "该技能引导结束时生成一个跟随自身的区域，区域内的哨卫获得亢奋： 技能持续时，范围内的哨卫额外 8.8 % 伤害 持续 6 秒 每 1 引导层数使该技能额外 +33% 激发效果 该技能引导结束时，如果引导层数达到上限，区域内的哨卫立即 +3 秒持续时间 引导该技能时可以移动",
+        "该技能引导结束时生成一个跟随自身的区域，区域内的哨卫获得亢奋： 技能持续时，范围内的哨卫额外 +9 % 伤害 持续 6 秒 每 1 引导层数使该技能额外 +33% 激发效果 该技能引导结束时，如果引导层数达到上限，区域内的哨卫立即 +3 秒持续时间 引导该技能时可以移动",
+        "该技能引导结束时生成一个跟随自身的区域，区域内的哨卫获得亢奋： 技能持续时，范围内的哨卫额外 9.2 % 伤害 持续 6 秒 每 1 引导层数使该技能额外 +33% 激发效果 该技能引导结束时，如果引导层数达到上限，区域内的哨卫立即 +3 秒持续时间 引导该技能时可以移动",
+        "该技能引导结束时生成一个跟随自身的区域，区域内的哨卫获得亢奋： 技能持续时，范围内的哨卫额外 9.4 % 伤害 持续 6 秒 每 1 引导层数使该技能额外 +33% 激发效果 该技能引导结束时，如果引导层数达到上限，区域内的哨卫立即 +3 秒持续时间 引导该技能时可以移动",
+        "该技能引导结束时生成一个跟随自身的区域，区域内的哨卫获得亢奋： 技能持续时，范围内的哨卫额外 9.6 % 伤害 持续 6 秒 每 1 引导层数使该技能额外 +33% 激发效果 该技能引导结束时，如果引导层数达到上限，区域内的哨卫立即 +3 秒持续时间 引导该技能时可以移动",
+        "该技能引导结束时生成一个跟随自身的区域，区域内的哨卫获得亢奋： 技能持续时，范围内的哨卫额外 9.8 % 伤害 持续 6 秒 每 1 引导层数使该技能额外 +33% 激发效果 该技能引导结束时，如果引导层数达到上限，区域内的哨卫立即 +3 秒持续时间 引导该技能时可以移动",
+        "该技能引导结束时生成一个跟随自身的区域，区域内的哨卫获得亢奋： 技能持续时，范围内的哨卫额外 +10 % 伤害 持续 6 秒 每 1 引导层数使该技能额外 +33% 激发效果 该技能引导结束时，如果引导层数达到上限，区域内的哨卫立即 +3 秒持续时间 引导该技能时可以移动",
+        "该技能引导结束时生成一个跟随自身的区域，区域内的哨卫获得亢奋： 技能持续时，范围内的哨卫额外 10.2 % 伤害 持续 6 秒 每 1 引导层数使该技能额外 +33% 激发效果 该技能引导结束时，如果引导层数达到上限，区域内的哨卫立即 +3 秒持续时间 引导该技能时可以移动",
+        "该技能引导结束时生成一个跟随自身的区域，区域内的哨卫获得亢奋： 技能持续时，范围内的哨卫额外 10.4 % 伤害 持续 6 秒 每 1 引导层数使该技能额外 +33% 激发效果 该技能引导结束时，如果引导层数达到上限，区域内的哨卫立即 +3 秒持续时间 引导该技能时可以移动",
+        "该技能引导结束时生成一个跟随自身的区域，区域内的哨卫获得亢奋： 技能持续时，范围内的哨卫额外 10.6 % 伤害 持续 6 秒 每 1 引导层数使该技能额外 +33% 激发效果 该技能引导结束时，如果引导层数达到上限，区域内的哨卫立即 +3 秒持续时间 引导该技能时可以移动",
+        "该技能引导结束时生成一个跟随自身的区域，区域内的哨卫获得亢奋： 技能持续时，范围内的哨卫额外 10.8 % 伤害 持续 6 秒 每 1 引导层数使该技能额外 +33% 激发效果 该技能引导结束时，如果引导层数达到上限，区域内的哨卫立即 +3 秒持续时间 引导该技能时可以移动",
+        "该技能引导结束时生成一个跟随自身的区域，区域内的哨卫获得亢奋： 技能持续时，范围内的哨卫额外 +11 % 伤害 持续 6 秒 每 1 引导层数使该技能额外 +33% 激发效果 该技能引导结束时，如果引导层数达到上限，区域内的哨卫立即 +3 秒持续时间 引导该技能时可以移动",
+        "该技能引导结束时生成一个跟随自身的区域，区域内的哨卫获得亢奋： 技能持续时，范围内的哨卫额外 11.2 % 伤害 持续 6 秒 每 1 引导层数使该技能额外 +33% 激发效果 该技能引导结束时，如果引导层数达到上限，区域内的哨卫立即 +3 秒持续时间 引导该技能时可以移动",
+        "该技能引导结束时生成一个跟随自身的区域，区域内的哨卫获得亢奋： 技能持续时，范围内的哨卫额外 11.4 % 伤害 持续 6 秒 每 1 引导层数使该技能额外 +33% 激发效果 该技能引导结束时，如果引导层数达到上限，区域内的哨卫立即 +3 秒持续时间 引导该技能时可以移动",
+        "该技能引导结束时生成一个跟随自身的区域，区域内的哨卫获得亢奋： 技能持续时，范围内的哨卫额外 11.6 % 伤害 持续 6 秒 每 1 引导层数使该技能额外 +33% 激发效果 该技能引导结束时，如果引导层数达到上限，区域内的哨卫立即 +3 秒持续时间 引导该技能时可以移动",
+        "该技能引导结束时生成一个跟随自身的区域，区域内的哨卫获得亢奋： 技能持续时，范围内的哨卫额外 11.8 % 伤害 持续 6 秒 每 1 引导层数使该技能额外 +33% 激发效果 该技能引导结束时，如果引导层数达到上限，区域内的哨卫立即 +3 秒持续时间 引导该技能时可以移动",
+        "该技能引导结束时生成一个跟随自身的区域，区域内的哨卫获得亢奋： 技能持续时，范围内的哨卫额外 +12 % 伤害 持续 6 秒 每 1 引导层数使该技能额外 +33% 激发效果 该技能引导结束时，如果引导层数达到上限，区域内的哨卫立即 +3 秒持续时间 引导该技能时可以移动"
+      ]
     },
     {
       "id": "Shackles_of_Malice",
@@ -1901,7 +6757,69 @@
         "敏捷",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Shackles_of_Malice.webp"
+      "localIconUrl": "/assets/skills/active/Shackles_of_Malice.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷, 智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "124%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "124%",
+        "124%",
+        "124%",
+        "124%",
+        "124%",
+        "124%",
+        "124%",
+        "124%",
+        "124%",
+        "124%",
+        "124%",
+        "124%",
+        "124%",
+        "124%",
+        "124%",
+        "124%",
+        "124%",
+        "124%",
+        "124%",
+        "124%"
+      ],
+      "skillBaseDamageByLevel": [
+        "9-9",
+        "10-10",
+        "13-13",
+        "18-18",
+        "24-24",
+        "29-29",
+        "33-33",
+        "41-41",
+        "53-53",
+        "65-65",
+        "83-83",
+        "98-98",
+        "118-118",
+        "139-139",
+        "164-164",
+        "231-231",
+        "272-272",
+        "375-375",
+        "559-559",
+        "667-667"
+      ]
     },
     {
       "id": "Shattered_Stone",
@@ -1916,7 +6834,21 @@
         "力量",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Shattered_Stone.webp"
+      "localIconUrl": "/assets/skills/active/Shattered_Stone.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量, 智慧"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "107%"
+        }
+      ]
     },
     {
       "id": "Gold_Rush",
@@ -1931,7 +6863,21 @@
         "力量",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Gold_Rush.webp"
+      "localIconUrl": "/assets/skills/active/Gold_Rush.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量, 智慧"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.6 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "10 秒"
+        }
+      ]
     },
     {
       "id": "Rock_Blast",
@@ -1946,7 +6892,43 @@
         "力量",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Rock_Blast.webp"
+      "localIconUrl": "/assets/skills/active/Rock_Blast.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量, 智慧"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.4 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "47%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "31%",
+        "32%",
+        "33%",
+        "34%",
+        "34%",
+        "35%",
+        "36%",
+        "37%",
+        "37%",
+        "38%",
+        "39%",
+        "40%",
+        "41%",
+        "42%",
+        "43%",
+        "44%",
+        "44%",
+        "45%",
+        "46%",
+        "47%"
+      ]
     },
     {
       "id": "Towering_Mountains",
@@ -1961,7 +6943,47 @@
         "力量",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Towering_Mountains.webp"
+      "localIconUrl": "/assets/skills/active/Towering_Mountains.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量, 智慧"
+        },
+        {
+          "label": "施法速度",
+          "value": "1.5 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "8 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "1138%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "303%",
+        "349%",
+        "396%",
+        "445%",
+        "495%",
+        "548%",
+        "603%",
+        "660%",
+        "719%",
+        "781%",
+        "844%",
+        "911%",
+        "979%",
+        "1000%",
+        "1022%",
+        "1044%",
+        "1066%",
+        "1089%",
+        "1113%",
+        "1138%"
+      ]
     },
     {
       "id": "Scattered_Mud",
@@ -1974,7 +6996,43 @@
         "范围",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Scattered_Mud.webp"
+      "localIconUrl": "/assets/skills/active/Scattered_Mud.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "100%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "67%",
+        "69%",
+        "71%",
+        "72%",
+        "74%",
+        "76%",
+        "78%",
+        "80%",
+        "82%",
+        "84%",
+        "86%",
+        "88%",
+        "90%",
+        "92%",
+        "93%",
+        "95%",
+        "97%",
+        "99%",
+        "101%",
+        "100%"
+      ]
     },
     {
       "id": "Withering_Payback",
@@ -1988,7 +7046,21 @@
         "持续",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Withering_Payback.webp"
+      "localIconUrl": "/assets/skills/active/Withering_Payback.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.6 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "10 秒"
+        }
+      ]
     },
     {
       "id": "Bleak_Grass",
@@ -2001,7 +7073,43 @@
         "范围",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/Bleak_Grass.webp"
+      "localIconUrl": "/assets/skills/active/Bleak_Grass.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "162%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "108%",
+        "111%",
+        "113%",
+        "116%",
+        "118%",
+        "121%",
+        "124%",
+        "126%",
+        "129%",
+        "131%",
+        "134%",
+        "138%",
+        "141%",
+        "144%",
+        "147%",
+        "150%",
+        "153%",
+        "156%",
+        "160%",
+        "162%"
+      ]
     },
     {
       "id": "World_of_Thorns",
@@ -2014,7 +7122,25 @@
         "范围",
         "智慧"
       ],
-      "localIconUrl": "/assets/skills/active/World_of_Thorns.webp"
+      "localIconUrl": "/assets/skills/active/World_of_Thorns.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "智慧"
+        },
+        {
+          "label": "施法速度",
+          "value": "1.5 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "8 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "2298%"
+        }
+      ]
     },
     {
       "id": "Rising_Edge",
@@ -2026,7 +7152,43 @@
         "召唤",
         "激发"
       ],
-      "localIconUrl": "/assets/skills/active/Rising_Edge.webp"
+      "localIconUrl": "/assets/skills/active/Rising_Edge.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "10 秒"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "释放该技能获得亢奋： 每释放一次召唤技能，额外 3.1 % 召唤物伤害，最多叠加 5 层 持续 6 秒",
+        "释放该技能获得亢奋： 每释放一次召唤技能，额外 3.2 % 召唤物伤害，最多叠加 5 层 持续 6 秒",
+        "释放该技能获得亢奋： 每释放一次召唤技能，额外 3.3 % 召唤物伤害，最多叠加 5 层 持续 6 秒",
+        "释放该技能获得亢奋： 每释放一次召唤技能，额外 3.4 % 召唤物伤害，最多叠加 5 层 持续 6 秒",
+        "释放该技能获得亢奋： 每释放一次召唤技能，额外 3.5 % 召唤物伤害，最多叠加 5 层 持续 6 秒",
+        "释放该技能获得亢奋： 每释放一次召唤技能，额外 3.6 % 召唤物伤害，最多叠加 5 层 持续 6 秒",
+        "释放该技能获得亢奋： 每释放一次召唤技能，额外 3.7 % 召唤物伤害，最多叠加 5 层 持续 6 秒",
+        "释放该技能获得亢奋： 每释放一次召唤技能，额外 3.8 % 召唤物伤害，最多叠加 5 层 持续 6 秒",
+        "释放该技能获得亢奋： 每释放一次召唤技能，额外 3.9 % 召唤物伤害，最多叠加 5 层 持续 6 秒",
+        "释放该技能获得亢奋： 每释放一次召唤技能，额外 +4 % 召唤物伤害，最多叠加 5 层 持续 6 秒",
+        "释放该技能获得亢奋： 每释放一次召唤技能，额外 4.1 % 召唤物伤害，最多叠加 5 层 持续 6 秒",
+        "释放该技能获得亢奋： 每释放一次召唤技能，额外 4.2 % 召唤物伤害，最多叠加 5 层 持续 6 秒",
+        "释放该技能获得亢奋： 每释放一次召唤技能，额外 4.3 % 召唤物伤害，最多叠加 5 层 持续 6 秒",
+        "释放该技能获得亢奋： 每释放一次召唤技能，额外 4.4 % 召唤物伤害，最多叠加 5 层 持续 6 秒",
+        "释放该技能获得亢奋： 每释放一次召唤技能，额外 4.5 % 召唤物伤害，最多叠加 5 层 持续 6 秒",
+        "释放该技能获得亢奋： 每释放一次召唤技能，额外 4.6 % 召唤物伤害，最多叠加 5 层 持续 6 秒",
+        "释放该技能获得亢奋： 每释放一次召唤技能，额外 4.7 % 召唤物伤害，最多叠加 5 层 持续 6 秒",
+        "释放该技能获得亢奋： 每释放一次召唤技能，额外 4.8 % 召唤物伤害，最多叠加 5 层 持续 6 秒",
+        "释放该技能获得亢奋： 每释放一次召唤技能，额外 4.9 % 召唤物伤害，最多叠加 5 层 持续 6 秒",
+        "释放该技能获得亢奋： 每释放一次召唤技能，额外 +5 % 召唤物伤害，最多叠加 5 层 持续 6 秒"
+      ]
     },
     {
       "id": "Crescent_Slash",
@@ -2041,7 +7203,47 @@
         "敏捷",
         "持续"
       ],
-      "localIconUrl": "/assets/skills/active/Crescent_Slash.webp"
+      "localIconUrl": "/assets/skills/active/Crescent_Slash.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "敏捷"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "502%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "286%",
+        "296%",
+        "306%",
+        "316%",
+        "326%",
+        "337%",
+        "348%",
+        "358%",
+        "369%",
+        "381%",
+        "392%",
+        "404%",
+        "415%",
+        "427%",
+        "439%",
+        "451%",
+        "464%",
+        "476%",
+        "489%",
+        "502%"
+      ]
     },
     {
       "id": "Serpent_Beam",
@@ -2057,7 +7259,69 @@
         "智慧",
         "持续"
       ],
-      "localIconUrl": "/assets/skills/active/Serpent_Beam.webp"
+      "localIconUrl": "/assets/skills/active/Serpent_Beam.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量, 智慧"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "8"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.65 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "100%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%",
+        "100%"
+      ],
+      "skillBaseDamageByLevel": [
+        "6-9",
+        "6-10",
+        "8-13",
+        "11-19",
+        "14-24",
+        "17-29",
+        "20-33",
+        "25-41",
+        "32-54",
+        "39-65",
+        "50-84",
+        "59-98",
+        "71-119",
+        "84-140",
+        "99-165",
+        "140-233",
+        "164-274",
+        "226-377",
+        "338-563",
+        "403-672"
+      ]
     },
     {
       "id": "Gale_Slash",
@@ -2073,7 +7337,47 @@
         "敏捷",
         "持续"
       ],
-      "localIconUrl": "/assets/skills/active/Gale_Slash.webp"
+      "localIconUrl": "/assets/skills/active/Gale_Slash.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量, 敏捷"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "392%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "223%",
+        "231%",
+        "239%",
+        "247%",
+        "255%",
+        "263%",
+        "271%",
+        "280%",
+        "288%",
+        "297%",
+        "306%",
+        "315%",
+        "324%",
+        "333%",
+        "343%",
+        "352%",
+        "362%",
+        "372%",
+        "382%",
+        "392%"
+      ]
     },
     {
       "id": "Spectral_Slash",
@@ -2088,7 +7392,47 @@
         "力量",
         "持续"
       ],
-      "localIconUrl": "/assets/skills/active/Spectral_Slash.webp"
+      "localIconUrl": "/assets/skills/active/Spectral_Slash.webp",
+      "statRows": [
+        {
+          "label": "主属性",
+          "value": "力量"
+        },
+        {
+          "label": "魔力消耗",
+          "value": "5"
+        },
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "伤害倍率",
+          "value": "448%"
+        }
+      ],
+      "damageMultiplierByLevel": [
+        "255%",
+        "264%",
+        "273%",
+        "282%",
+        "291%",
+        "300%",
+        "310%",
+        "320%",
+        "330%",
+        "340%",
+        "350%",
+        "360%",
+        "370%",
+        "381%",
+        "392%",
+        "403%",
+        "414%",
+        "425%",
+        "436%",
+        "448%"
+      ]
     },
     {
       "id": "Vendetta",
@@ -2099,7 +7443,17 @@
         "近战",
         "范围"
       ],
-      "localIconUrl": "/assets/skills/active/Vendetta.webp"
+      "localIconUrl": "/assets/skills/active/Vendetta.webp",
+      "statRows": [
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "3 秒"
+        }
+      ]
     },
     {
       "id": "Shockwave_Warcry",
@@ -2110,7 +7464,21 @@
         "范围",
         "持续"
       ],
-      "localIconUrl": "/assets/skills/active/Shockwave_Warcry.webp"
+      "localIconUrl": "/assets/skills/active/Shockwave_Warcry.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗",
+          "value": "15"
+        },
+        {
+          "label": "施法速度",
+          "value": "0.8 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "8 秒"
+        }
+      ]
     },
     {
       "id": "Endless_Vendetta",
@@ -2121,7 +7489,17 @@
         "近战",
         "范围"
       ],
-      "localIconUrl": "/assets/skills/active/Endless_Vendetta.webp"
+      "localIconUrl": "/assets/skills/active/Endless_Vendetta.webp",
+      "statRows": [
+        {
+          "label": "施法速度",
+          "value": "1 秒"
+        },
+        {
+          "label": "冷却时间",
+          "value": "10 秒"
+        }
+      ]
     }
   ]
 }

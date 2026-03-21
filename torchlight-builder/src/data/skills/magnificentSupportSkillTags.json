@@ -1,0 +1,2766 @@
+{
+  "source": "https://tlidb.com/cn/Magnificent_Support_Skill",
+  "updatedAt": "2026-03-21T17:10:21.858385Z",
+  "count": 6,
+  "tags": [
+    "物理",
+    "火焰",
+    "冰冷",
+    "闪电",
+    "腐蚀",
+    "辅助"
+  ],
+  "supportSkillCount": 131,
+  "supportSkills": [
+    {
+      "id": "Focused_Shot%3A_Aspire_%28Magnificent%29",
+      "name": "专注射击：奋起（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FocusedShoot_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Focused_Shot_3A_Aspire__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(8.5-9.5)",
+        "+(7.5-8.0)",
+        "+(6.5-7.0)"
+      ]
+    },
+    {
+      "id": "Focused_Shot%3A_Long_Shot_%28Magnificent%29",
+      "name": "专注射击：远射（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FocusedShoot_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Focused_Shot_3A_Long_Shot__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(70-75)",
+        "+(60-65)",
+        "+(50-55)"
+      ]
+    },
+    {
+      "id": "Burning_Shot%3A_Fiery_Blast_%28Magnificent%29",
+      "name": "燃烧射击：炎爆（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FireShoot_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Burning_Shot_3A_Fiery_Blast__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(26-30)",
+        "+(23-25)",
+        "+(19-21)"
+      ]
+    },
+    {
+      "id": "Burning_Shot%3A_Combustion_%28Magnificent%29",
+      "name": "燃烧射击：助燃（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FireShoot_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Burning_Shot_3A_Combustion__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(19-23)",
+        "+(16-18)",
+        "+(12-14)"
+      ]
+    },
+    {
+      "id": "Chain_Lightning%3A_Web_of_Lightning_%28Magnificent%29",
+      "name": "闪电链：电网（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_LightningChain_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Chain_Lightning_3A_Web_of_Lightning__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(20-24)",
+        "+(16-18)",
+        "+(13-15)"
+      ]
+    },
+    {
+      "id": "Chain_Lightning%3A_Augmentation_%28Magnificent%29",
+      "name": "闪电链：增幅（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_LightningChain_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Chain_Lightning_3A_Augmentation__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(6.2-6.9)",
+        "+(5.5-5.9)",
+        "+(4.9-5.2)"
+      ]
+    },
+    {
+      "id": "Focused_Slash%3A_Tranquility_%28Magnificent%29",
+      "name": "专注斩：静息（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FocusedStrike_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Focused_Slash_3A_Tranquility__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(13.5-15.0)",
+        "+(12.0-13.0)",
+        "+(11.0-11.5)"
+      ]
+    },
+    {
+      "id": "Focused_Slash%3A_Duel_%28Magnificent%29",
+      "name": "专注斩：决斗（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FocusedStrike_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Focused_Slash_3A_Duel__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(75-85)",
+        "+(65-70)",
+        "+(55-60)"
+      ]
+    },
+    {
+      "id": "Icy_Blade%3A_Quick_Freeze_%28Magnificent%29",
+      "name": "冰凌斩：速冻（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FrostSlash_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Icy_Blade_3A_Quick_Freeze__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(54-60)",
+        "+(46-50)",
+        "+(40-44)"
+      ]
+    },
+    {
+      "id": "Flame_Slash%3A_Immediate_Threat_%28Magnificent%29",
+      "name": "烈焰斩：近患（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FlameSlash_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Flame_Slash_3A_Immediate_Threat__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(43-47)",
+        "+(38-40)",
+        "+(34-36)"
+      ]
+    },
+    {
+      "id": "Corrosive_Throw%3A_Augmentation_%28Magnificent%29",
+      "name": "侵蚀投掷：增幅（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_VenomThrow_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Corrosive_Throw_3A_Augmentation__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(0.5-1.5)",
+        "(-5--3)",
+        "(-8--6)"
+      ]
+    },
+    {
+      "id": "Blazing_Bullet%3A_Fiery_Blast_%28Magnificent%29",
+      "name": "炽炎穿弹：炎爆（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SabotRounds_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Blazing_Bullet_3A_Fiery_Blast__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(11.5-12.5)",
+        "+(10.5-11.0)",
+        "+(9.5-10.0)"
+      ]
+    },
+    {
+      "id": "Wilt_Spike%3A_Wither_%28Magnificent%29",
+      "name": "凋零刺击：凋残（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ViperStab_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Wilt_Spike_3A_Wither__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(6.4-7.2)",
+        "+(5.6-6.0)",
+        "+(4.8-5.2)"
+      ]
+    },
+    {
+      "id": "Wilt_Spike%3A_Languish_%28Magnificent%29",
+      "name": "凋零刺击：颓靡（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ViperStab_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Wilt_Spike_3A_Languish__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(6.4-7.2)",
+        "+(5.6-6.0)",
+        "+(4.8-5.2)"
+      ]
+    },
+    {
+      "id": "Hammer_of_Ash%3A_Upheaval_%28Magnificent%29",
+      "name": "灰烬之锤：激荡（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Emberslam_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Hammer_of_Ash_3A_Upheaval__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(42-48)",
+        "+(35-38)",
+        "+(30-33)"
+      ]
+    },
+    {
+      "id": "Hammer_of_Ash%3A_Rekindle_%28Magnificent%29",
+      "name": "灰烬之锤：复燃（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Emberslam_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Hammer_of_Ash_3A_Rekindle__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(546-676)",
+        "(429-494)",
+        "(325-390)"
+      ]
+    },
+    {
+      "id": "Frost_Impact%3A_Ice_Cluster_%28Magnificent%29",
+      "name": "寒霜破击：冰丛（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_IceCrash_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Frost_Impact_3A_Ice_Cluster__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(40-45)",
+        "+(35-37)",
+        "+(31-33)"
+      ]
+    },
+    {
+      "id": "Frost_Impact%3A_Frozen_Trajectory_%28Magnificent%29",
+      "name": "寒霜破击：凝冻（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_IceCrash_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Frost_Impact_3A_Frozen_Trajectory__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(20-24)",
+        "+(17-19)",
+        "+(13-15)"
+      ]
+    },
+    {
+      "id": "Whirlwind%3A_Endless_Wind_%28Magnificent%29",
+      "name": "旋风斩：长风（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Cyclone_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Whirlwind_3A_Endless_Wind__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(32-36)",
+        "+(28-30)",
+        "+(24-26)"
+      ]
+    },
+    {
+      "id": "Whirlwind%3A_Wind_Barrier_%28Magnificent%29",
+      "name": "旋风斩：风障（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Cyclone_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Whirlwind_3A_Wind_Barrier__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(2.0-2.4)",
+        "+(1.5-1.9)",
+        "+(1.0-1.4)"
+      ]
+    },
+    {
+      "id": "Lightning_Shot%3A_Offshoot_%28Magnificent%29",
+      "name": "闪电射击：衍生（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_LightningShoot_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Lightning_Shot_3A_Offshoot__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(16-19)",
+        "+(12-14)",
+        "+(9-11)"
+      ]
+    },
+    {
+      "id": "Split_Shot%3A_Volley_%28Magnificent%29",
+      "name": "分裂射击：齐射（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SplitArrow_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Split_Shot_3A_Volley__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-37.0--35.0)",
+        "(-39.0--38.0)",
+        "(-41.0--40.0)"
+      ]
+    },
+    {
+      "id": "Split_Shot%3A_Diversion_%28Magnificent%29",
+      "name": "分裂射击：分流（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SplitArrow_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Split_Shot_3A_Diversion__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(15-18)",
+        "+(11-13)",
+        "+(8-10)"
+      ]
+    },
+    {
+      "id": "Ice_Shot%3A_Ice_Blast_%28Magnificent%29",
+      "name": "寒冰射击：冰爆（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Iceshot_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Ice_Shot_3A_Ice_Blast__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(1.00-1.20)",
+        "(0.90-0.95)",
+        "(0.80-0.85)"
+      ]
+    },
+    {
+      "id": "Bombard%3A_Cannon_%28Magnificent%29",
+      "name": "炮轰：重炮（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Strafe_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Bombard_3A_Cannon__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(2540-2620)",
+        "+(2460-2500)",
+        "+(2380-2420)"
+      ]
+    },
+    {
+      "id": "Bombard%3A_Guided_%28Magnificent%29",
+      "name": "炮轰：制导（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Strafe_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Bombard_3A_Guided__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(6-10)",
+        "+(3-4)",
+        "+(1-2)"
+      ]
+    },
+    {
+      "id": "Berserking_Blade%3A_Desperation_%28Magnificent%29",
+      "name": "暴走巨刃：亡命（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ViolentSweep_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Berserking_Blade_3A_Desperation__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "45",
+        "38",
+        "33"
+      ]
+    },
+    {
+      "id": "Berserking_Blade%3A_Sweep_%28Magnificent%29",
+      "name": "暴走巨刃：扫荡（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ViolentSweep_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Berserking_Blade_3A_Sweep__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(0.50-0.60)",
+        "(0.40-0.45)",
+        "(0.31-0.35)"
+      ]
+    },
+    {
+      "id": "Charged_Pummel%3A_Drastic_Shift_%28Magnificent%29",
+      "name": "充能猛击：剧变（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ChargedSmash_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Charged_Pummel_3A_Drastic_Shift__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(245-255)",
+        "+(230-235)",
+        "+(220-225)"
+      ]
+    },
+    {
+      "id": "Charged_Pummel%3A_Connected_%28Magnificent%29",
+      "name": "充能猛击：贯通（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ChargedSmash_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Charged_Pummel_3A_Connected__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(10-14)",
+        "+(6-8)",
+        "+(4-5)"
+      ]
+    },
+    {
+      "id": "Moon_Strike%3A_Rainbow_%28Magnificent%29",
+      "name": "月华斩：长虹（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ShadowSlash_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Moon_Strike_3A_Rainbow__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(48-56)",
+        "+(41-44)",
+        "+(35-38)"
+      ]
+    },
+    {
+      "id": "Moon_Strike%3A_Lunar_Ring_%28Magnificent%29",
+      "name": "月华斩：月环（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ShadowSlash_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Moon_Strike_3A_Lunar_Ring__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(32-36)",
+        "+(16-18)",
+        "+(8-9)"
+      ]
+    },
+    {
+      "id": "Savage_Charge%3A_Infuriate_%28Magnificent%29",
+      "name": "野蛮冲锋：触怒（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SavageCharge_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Savage_Charge_3A_Infuriate__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(32-36)",
+        "+(28-30)",
+        "+(24-26)"
+      ]
+    },
+    {
+      "id": "Savage_Charge%3A_Bulldoze_%28Magnificent%29",
+      "name": "野蛮冲锋：猛进（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SavageCharge_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Savage_Charge_3A_Bulldoze__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(55-65)",
+        "(40-50)",
+        "(20-30)"
+      ]
+    },
+    {
+      "id": "Marked_Rain_of_Arrows%3A_Heartpiercer_%28Magnificent%29",
+      "name": "标记箭雨：穿心（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_MarkerArrow_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Marked_Rain_of_Arrows_3A_Heartpiercer__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(45-50)",
+        "+(40-43)",
+        "+(34-37)"
+      ]
+    },
+    {
+      "id": "Marked_Rain_of_Arrows%3A_Chain_Reaction_%28Magnificent%29",
+      "name": "标记箭雨：株连（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_MarkerArrow_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Marked_Rain_of_Arrows_3A_Chain_Reaction__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(15-19)",
+        "+(12-13)",
+        "+(9-10)"
+      ]
+    },
+    {
+      "id": "Corrosive_Shot%3A_Swift_Action_%28Magnificent%29",
+      "name": "侵蚀弹：迅发（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_PoisonBullet_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Corrosive_Shot_3A_Swift_Action__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(32-36)",
+        "+(28-30)",
+        "+(24-26)"
+      ]
+    },
+    {
+      "id": "Inexhaustible_Barrage%3A_Bombard_%28Magnificent%29",
+      "name": "不竭弹雨：狂轰（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ChargedRainOfBullets_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Inexhaustible_Barrage_3A_Bombard__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(1.0-5.0)",
+        "(-2.0--1.0)",
+        "(-4.0--3.0)"
+      ]
+    },
+    {
+      "id": "Thunder_Spike%3A_Numb_%28Magnificent%29",
+      "name": "雷光刺击：麻木（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_LightningStab_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Thunder_Spike_3A_Numb__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(5-10)",
+        "+(3-4)",
+        "+(1-2)"
+      ]
+    },
+    {
+      "id": "Thunder_Slash%3A_Keen_Edge_%28Magnificent%29",
+      "name": "雷影斩：疾锋（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ThunderSlash_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Thunder_Slash_3A_Keen_Edge__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(8-11)",
+        "+(6-7)",
+        "+(4-5)"
+      ]
+    },
+    {
+      "id": "Thunder_Slash%3A_Blade_Cluster_%28Magnificent%29",
+      "name": "雷影斩：刀丛（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ThunderSlash_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Thunder_Slash_3A_Blade_Cluster__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(5.0-9.0)",
+        "+(3.0-4.0)",
+        "+(1.0-2.0)"
+      ]
+    },
+    {
+      "id": "Ring_of_Blades%3A_Blade_Formation_%28Magnificent%29",
+      "name": "环绕飞刃：刀阵（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_DiffusionBlade_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Ring_of_Blades_3A_Blade_Formation__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(32-36)",
+        "+(28-30)",
+        "+(24-26)"
+      ]
+    },
+    {
+      "id": "Frost_Spike%3A_Offshoot_%28Magnificent%29",
+      "name": "碎冰刺击：衍生（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FrostStab_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Frost_Spike_3A_Offshoot__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(18-22)",
+        "+(14-16)",
+        "+(11-13)"
+      ]
+    },
+    {
+      "id": "Rain_of_Arrows%3A_Swift_Flight_%28Magnificent%29",
+      "name": "箭雨：疾驰（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_RainOfArrows_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Rain_of_Arrows_3A_Swift_Flight__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "55",
+        "45",
+        "35"
+      ]
+    },
+    {
+      "id": "Arrow_Einherjar%3A_Arrowstorm_%28Magnificent%29",
+      "name": "飞箭英灵：万箭（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ArrowSpirit_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Arrow_Einherjar_3A_Arrowstorm__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(24-28)",
+        "+(20-22)",
+        "+(17-19)"
+      ]
+    },
+    {
+      "id": "Shadow_Shot%3A_Eradicate_%28Magnificent%29",
+      "name": "暗影弹：围剿（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Shadowbolt_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Shadow_Shot_3A_Eradicate__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(160-200)",
+        "+(120-140)",
+        "+(80-100)"
+      ]
+    },
+    {
+      "id": "Split_Firebolt%3A_Split_%28Magnificent%29",
+      "name": "裂变火球：分裂（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Fireball_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Split_Firebolt_3A_Split__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(20-24)",
+        "+(16-19)",
+        "+(12-15)"
+      ]
+    },
+    {
+      "id": "Ice_Lances%3A_Rebound_%28Magnificent%29",
+      "name": "冰锥术：回弹（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ConeOfCold_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Ice_Lances_3A_Rebound__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(18-22)",
+        "+(14-16)",
+        "+(11-13)"
+      ]
+    },
+    {
+      "id": "Ice_Lances%3A_Ice_Corrosion_%28Magnificent%29",
+      "name": "冰锥术：冰蚀（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ConeOfCold_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Ice_Lances_3A_Ice_Corrosion__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(52-56)",
+        "+(47-50)",
+        "+(43-45)"
+      ]
+    },
+    {
+      "id": "Sparkle%3A_Magnetic_Field_%28Magnificent%29",
+      "name": "电火花：磁场（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SparkBullet_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Sparkle_3A_Magnetic_Field__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(32-36)",
+        "+(28-30)",
+        "+(24-26)"
+      ]
+    },
+    {
+      "id": "Whirlwind_Blade%3A_Unsheath_%28Magnificent%29",
+      "name": "刀锋回旋：出鞘（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_BladeRoundabout_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Whirlwind_Blade_3A_Unsheath__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(43-47)",
+        "+(38-40)",
+        "+(34-36)"
+      ]
+    },
+    {
+      "id": "Whirlwind_Blade%3A_Swift_Slash_%28Magnificent%29",
+      "name": "刀锋回旋：快刀（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_BladeRoundabout_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Whirlwind_Blade_3A_Swift_Slash__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(30-34)",
+        "+(26-28)",
+        "+(22-24)"
+      ]
+    },
+    {
+      "id": "Ring_of_Ice%3A_Ice_Seal_%28Magnificent%29",
+      "name": "冰环术：封冻（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_IceRing_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Ring_of_Ice_3A_Ice_Seal__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(14-17)",
+        "+(10-12)",
+        "+(7-9)"
+      ]
+    },
+    {
+      "id": "Blizzard%3A_Freezing_Point_%28Magnificent%29",
+      "name": "暴风雪：冰点（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Blizzard_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Blizzard_3A_Freezing_Point__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(210-250)",
+        "+(170-190)",
+        "+(130-150)"
+      ]
+    },
+    {
+      "id": "Blizzard%3A_Hail_%28Magnificent%29",
+      "name": "暴风雪：冰雹（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Blizzard_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Blizzard_3A_Hail__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(1-5)",
+        "(-3--2)",
+        "(-5--4)"
+      ]
+    },
+    {
+      "id": "Lightning_Storm%3A_Surging_Thunder_%28Magnificent%29",
+      "name": "闪电风暴：雷潮（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ThunderStorm_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Lightning_Storm_3A_Surging_Thunder__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(10-14)",
+        "+(7-9)",
+        "+(4-6)"
+      ]
+    },
+    {
+      "id": "Flame_Core%3A_Lone_Vanguard_%28Magnificent%29",
+      "name": "聚焰之核：孤军（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FirePile_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Flame_Core_3A_Lone_Vanguard__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(40-44)",
+        "+(36-38)",
+        "+(32-34)"
+      ]
+    },
+    {
+      "id": "Flame_Jet%3A_Burst_%28Magnificent%29",
+      "name": "烈焰释放：爆裂（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FlameBlast_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Flame_Jet_3A_Burst__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-4--1)",
+        "(-6--5)",
+        "(-9--8)"
+      ]
+    },
+    {
+      "id": "Flame_Jet%3A_Scorched_Earth_%28Magnificent%29",
+      "name": "烈焰释放：焦土（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FlameBlast_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Flame_Jet_3A_Scorched_Earth__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-38--35)",
+        "(-40--39)",
+        "(-42--41)"
+      ]
+    },
+    {
+      "id": "Frost_Terra%3A_Rime_%28Magnificent%29",
+      "name": "寒霜地面：霜冻（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_IceArea_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Frost_Terra_3A_Rime__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(37-42)",
+        "+(33-35)",
+        "+(28-30)"
+      ]
+    },
+    {
+      "id": "Frost_Terra%3A_Snow_Shell_%28Magnificent%29",
+      "name": "寒霜地面：雪壳（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_IceArea_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Frost_Terra_3A_Snow_Shell__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(13.0-14.0)",
+        "(12.0-12.5)",
+        "(11.0-11.5)"
+      ]
+    },
+    {
+      "id": "Shadow_Swamp%3A_Gushing_Spring_%28Magnificent%29",
+      "name": "暗影之沼：涌泉（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Shadowswamp_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Shadow_Swamp_3A_Gushing_Spring__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(18-20)",
+        "+(16-17)",
+        "+(14-15)"
+      ]
+    },
+    {
+      "id": "Shadow_Swamp%3A_Splatter_%28Magnificent%29",
+      "name": "暗影之沼：溅污（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Shadowswamp_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Shadow_Swamp_3A_Splatter__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(15-20)",
+        "+(11-13)",
+        "+(8-10)"
+      ]
+    },
+    {
+      "id": "Thunderbolt_Overload%3A_Leap_%28Magnificent%29",
+      "name": "超载雷球：飞跃（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_OverloadLightningBall_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Thunderbolt_Overload_3A_Leap__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-12.0--9.0)",
+        "(-15.0--13.0)",
+        "(-18.0--16.0)"
+      ]
+    },
+    {
+      "id": "Thunderbolt_Overload%3A_Retribution_%28Magnificent%29",
+      "name": "超载雷球：惩恶（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_OverloadLightningBall_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Thunderbolt_Overload_3A_Retribution__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-39.0--37.0)",
+        "(-41.0--40.0)",
+        "(-43.0--42.0)"
+      ]
+    },
+    {
+      "id": "Frost_Core%3A_Chase_%28Magnificent%29",
+      "name": "寒霜之核：追击（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FrostCore_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Frost_Core_3A_Chase__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(1-5)",
+        "(-4--1)",
+        "(-8--5)"
+      ]
+    },
+    {
+      "id": "Summon_Thunder_Magus%3A_Lightning_Ward_%28Magnificent%29",
+      "name": "召唤雷霆之灵：辟雷（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonThunderElement_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Summon_Thunder_Magus_3A_Lightning_Ward__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "-50",
+        "-50",
+        "-50"
+      ]
+    },
+    {
+      "id": "Summon_Thunder_Magus%3A_Continuation_%28Magnificent%29",
+      "name": "召唤雷霆之灵：延袭（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonThunderElement_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Summon_Thunder_Magus_3A_Continuation__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-14.5--11.5)",
+        "(-17.0--15.5)",
+        "(-19.0--17.5)"
+      ]
+    },
+    {
+      "id": "Summon_Frost_Magus%3A_Cold_Ward_%28Magnificent%29",
+      "name": "召唤寒冰之灵：辟寒（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonIceIceElement_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Summon_Frost_Magus_3A_Cold_Ward__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "-50",
+        "-50",
+        "-50"
+      ]
+    },
+    {
+      "id": "Summon_Frost_Magus%3A_Piercing_Cold_%28Magnificent%29",
+      "name": "召唤寒冰之灵：冷冽（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonIceIceElement_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Summon_Frost_Magus_3A_Piercing_Cold__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(50-60)",
+        "+(45-49)",
+        "+(40-44)"
+      ]
+    },
+    {
+      "id": "Summon_Frost_Magus%3A_Ice_Crusher_%28Magnificent%29",
+      "name": "召唤寒冰之灵：破冰（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonIceIceElement_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Summon_Frost_Magus_3A_Ice_Crusher__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-57.5--56.5)",
+        "(-59--58)",
+        "(-60--59.5)"
+      ]
+    },
+    {
+      "id": "Summon_Fire_Magus%3A_Fire_Ward_%28Magnificent%29",
+      "name": "召唤火焰之灵：辟火（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonFireElement_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Summon_Fire_Magus_3A_Fire_Ward__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "-50",
+        "-50",
+        "-50"
+      ]
+    },
+    {
+      "id": "Summon_Fire_Magus%3A_Aflame_%28Magnificent%29",
+      "name": "召唤火焰之灵：炽烈（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonFireElement_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Summon_Fire_Magus_3A_Aflame__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-15.0--12.0)",
+        "(-18.0--16.0)",
+        "(-21.0--19.0)"
+      ]
+    },
+    {
+      "id": "Summon_Fire_Magus%3A_Flowing_Flames_%28Magnificent%29",
+      "name": "召唤火焰之灵：浴火（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonFireElement_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Summon_Fire_Magus_3A_Flowing_Flames__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(60-70)",
+        "+(50-55)",
+        "+(40-45)"
+      ]
+    },
+    {
+      "id": "Synthetic_Troop%3A_Force_Field_%28Magnificent%29",
+      "name": "智械：力场（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_AIMachine_Field_Icon_128.webp",
+      "tags": [
+        "辅助"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Synthetic_Troop_3A_Force_Field__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(86-100)",
+        "+(75-80)",
+        "+(65-70)"
+      ]
+    },
+    {
+      "id": "Summon_Machine_Guard%3A_Iron_Fist_%28Magnificent%29",
+      "name": "召唤机械警卫：铁拳（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonMechanicalGuard_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Summon_Machine_Guard_3A_Iron_Fist__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(47-53)",
+        "+(42-45)",
+        "+(37-40)"
+      ]
+    },
+    {
+      "id": "Summon_Machine_Guard%3A_Pummel_%28Magnificent%29",
+      "name": "召唤机械警卫：连击（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonMechanicalGuard_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Summon_Machine_Guard_3A_Pummel__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+30",
+        "+30",
+        "+30"
+      ]
+    },
+    {
+      "id": "Summon_Grim_Phantom%3A_Glare_%28Magnificent%29",
+      "name": "召唤幽浮魅影：炫光（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonPhantom_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Summon_Grim_Phantom_3A_Glare__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(2.6-3.0)",
+        "+(2.3-2.5)",
+        "+(2.0-2.2)"
+      ]
+    },
+    {
+      "id": "Summon_Grim_Phantom%3A_Spur_%28Magnificent%29",
+      "name": "召唤幽浮魅影：驱策（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonPhantom_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Summon_Grim_Phantom_3A_Spur__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(80-95)",
+        "+(72-78)",
+        "+(62-68)"
+      ]
+    },
+    {
+      "id": "Summon_Spider_Tank%3A_Steamroll_%28Magnificent%29",
+      "name": "召唤蜘蛛坦克：碾压（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonIceSpiderTank_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Summon_Spider_Tank_3A_Steamroll__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(13.0-16.0)",
+        "+(9.0-11.0)",
+        "+(6.0-8.0)"
+      ]
+    },
+    {
+      "id": "Ghost_Blade_Einherjar%3A_Prestige_%28Magnificent%29",
+      "name": "幽刃英灵：积威（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_GhostBladeSpirit_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Ghost_Blade_Einherjar_3A_Prestige__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(0.33-0.37)",
+        "(0.28-0.30)",
+        "(0.24-0.26)"
+      ]
+    },
+    {
+      "id": "Ghost_Blade_Einherjar%3A_Unbroken_%28Magnificent%29",
+      "name": "幽刃英灵：无间（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_GhostBladeSpirit_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Ghost_Blade_Einherjar_3A_Unbroken__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(43-48)",
+        "+(39-41)",
+        "+(34-36)"
+      ]
+    },
+    {
+      "id": "Groundshaker%3A_Frequent_Quake_%28Magnificent%29",
+      "name": "震撼大地：频发（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_EarthShock_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Groundshaker_3A_Frequent_Quake__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(75-80)",
+        "+(70-72)",
+        "+(66-68)"
+      ]
+    },
+    {
+      "id": "Groundshaker%3A_Epicenter_%28Magnificent%29",
+      "name": "震撼大地：震源（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_EarthShock_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Groundshaker_3A_Epicenter__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(35-39)",
+        "+(31-33)",
+        "+(27-29)"
+      ]
+    },
+    {
+      "id": "Howling_Gale%3A_Rapid_Sweep_%28Magnificent%29",
+      "name": "呼啸烈风：疾掠（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Tornado_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Howling_Gale_3A_Rapid_Sweep__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(3.9-4.3)",
+        "+(3.4-3.7)",
+        "+(3.0-3.2)"
+      ]
+    },
+    {
+      "id": "Howling_Gale%3A_Headwind_%28Magnificent%29",
+      "name": "呼啸烈风：逆风（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Tornado_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Howling_Gale_3A_Headwind__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(26-29)",
+        "+(22-24)",
+        "+(18-20)"
+      ]
+    },
+    {
+      "id": "Shackles_of_Malice%3A_Defile_%28Magnificent%29",
+      "name": "恶意枷锁：玷污（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_EvilChain_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Shackles_of_Malice_3A_Defile__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(45-50)",
+        "+(40-43)",
+        "+(35-38)"
+      ]
+    },
+    {
+      "id": "Shackles_of_Malice%3A_Vendetta_%28Magnificent%29",
+      "name": "恶意枷锁：怀恨（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_EvilChain_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Shackles_of_Malice_3A_Vendetta__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(10-14)",
+        "+(6-8)",
+        "+(4-5)"
+      ]
+    },
+    {
+      "id": "Mind_Control%3A_Concentrate_%28Magnificent%29",
+      "name": "摄念夺识：凝神（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_LifeLeech_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Mind_Control_3A_Concentrate__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(7.0-8.0)",
+        "+(6.1-6.6)",
+        "+(5.2-5.7)"
+      ]
+    },
+    {
+      "id": "Mind_Control%3A_Befuddle_%28Magnificent%29",
+      "name": "摄念夺识：惑乱（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_LifeLeech_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Mind_Control_3A_Befuddle__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(36-40)",
+        "+(32-34)",
+        "+(28-30)"
+      ]
+    },
+    {
+      "id": "Fire_Burst%3A_Heart_of_Flame_%28Magnificent%29",
+      "name": "爆炎术：焰心（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FireBlast_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Fire_Burst_3A_Heart_of_Flame__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(11.5-13.0)",
+        "+(10.0-11.0)",
+        "+(8.5-9.5)"
+      ]
+    },
+    {
+      "id": "Fire_Burst%3A_Violent_Blast_%28Magnificent%29",
+      "name": "爆炎术：暴烈（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FireBlast_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Fire_Burst_3A_Violent_Blast__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-22.5--20.0)",
+        "(-25.0--24.0)",
+        "(-27.0--26.0)"
+      ]
+    },
+    {
+      "id": "Icebound_Beam%3A_Frostbitten_%28Magnificent%29",
+      "name": "冰魄射线：冻伤（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_IceRay_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Icebound_Beam_3A_Frostbitten__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(4.5-5.0)",
+        "+(4.0-4.3)",
+        "+(3.5-3.7)"
+      ]
+    },
+    {
+      "id": "Scorching_Beam%3A_Supercharge_%28Magnificent%29",
+      "name": "灼热射线：增压（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FireRay_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Scorching_Beam_3A_Supercharge__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(6.8-7.6)",
+        "+(6.0-6.4)",
+        "+(5.2-5.6)"
+      ]
+    },
+    {
+      "id": "Scorching_Beam%3A_Shockwave_%28Magnificent%29",
+      "name": "灼热射线：震波（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FireRay_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Scorching_Beam_3A_Shockwave__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(1.4-1.6)",
+        "+(1.2-1.3)",
+        "+(1.0-1.1)"
+      ]
+    },
+    {
+      "id": "Thunder_Core%3A_Electric_Field_%28Magnificent%29",
+      "name": "雷降之核：电场（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ThunderCore_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Thunder_Core_3A_Electric_Field__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(6.5-7)",
+        "+(5.5-6)",
+        "+(4.5-5)"
+      ]
+    },
+    {
+      "id": "Thunder_Core%3A_Lone_Vanguard_%28Magnificent%29",
+      "name": "雷降之核：孤军（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ThunderCore_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Thunder_Core_3A_Lone_Vanguard__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(75-80)",
+        "+(68-72)",
+        "+(60-65)"
+      ]
+    },
+    {
+      "id": "Path_of_Flames%3A_Spontaneous_Combustion_%28Magnificent%29",
+      "name": "烈焰之径：自燃（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FlameRoad_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Path_of_Flames_3A_Spontaneous_Combustion__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(22-25)",
+        "+(20-21)",
+        "+(18-19)"
+      ]
+    },
+    {
+      "id": "Thundercloud%3A_Billowing_Cloud_%28Magnificent%29",
+      "name": "雷云放射：云涌（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Nimbus_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Thundercloud_3A_Billowing_Cloud__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(10-14)",
+        "+(6-8)",
+        "+(4-5)"
+      ]
+    },
+    {
+      "id": "Thundercloud%3A_Alarmed_Awakening_%28Magnificent%29",
+      "name": "雷云放射：惊蛰（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Nimbus_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Thundercloud_3A_Alarmed_Awakening__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(45-50)",
+        "(41-43)",
+        "(37-39)"
+      ]
+    },
+    {
+      "id": "Summon_Rock_Magus%3A_Unyielding_%28Magnificent%29",
+      "name": "召唤磐石之灵：强硬（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonRockElement_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Summon_Rock_Magus_3A_Unyielding__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "-50",
+        "-50",
+        "-50"
+      ]
+    },
+    {
+      "id": "Summon_Rock_Magus%3A_Forging_%28Magnificent%29",
+      "name": "召唤磐石之灵：锻压（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonRockElement_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Summon_Rock_Magus_3A_Forging__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(14.0-16.0)",
+        "+(12.0-13.0)",
+        "+(10.0-11.0)"
+      ]
+    },
+    {
+      "id": "Summon_Rock_Magus%3A_Clustering_Sand_%28Magnificent%29",
+      "name": "召唤磐石之灵：聚砂（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonRockElement_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Summon_Rock_Magus_3A_Clustering_Sand__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(55-60)",
+        "+(47-50)",
+        "+(40-43)"
+      ]
+    },
+    {
+      "id": "Summon_Erosion_Magus%3A_Plague_Source_%28Magnificent%29",
+      "name": "召唤腐化之灵：疫源（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonRotElement_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Summon_Erosion_Magus_3A_Plague_Source__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "-50",
+        "-50",
+        "-50"
+      ]
+    },
+    {
+      "id": "Summon_Erosion_Magus%3A_Wicked_%28Magnificent%29",
+      "name": "召唤腐化之灵：坏种（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonRotElement_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Summon_Erosion_Magus_3A_Wicked__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(3.0-3.5)",
+        "+(2.0-2.5)",
+        "+(1.0-1.5)"
+      ]
+    },
+    {
+      "id": "Summon_Erosion_Magus%3A_Frequent_Quake_%28Magnificent%29",
+      "name": "召唤腐化之灵：频发（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonRotElement_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Summon_Erosion_Magus_3A_Frequent_Quake__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-15--8)",
+        "(-25--20)",
+        "(-35--30)"
+      ]
+    },
+    {
+      "id": "Double_Thrusts%3A_Restless_%28Magnificent%29",
+      "name": "双重突刺：躁动（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_DoubleStab_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Double_Thrusts_3A_Restless__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+36",
+        "+30",
+        "+26"
+      ]
+    },
+    {
+      "id": "Lightning_Beam%3A_Aftershock_%28Magnificent%29",
+      "name": "雷暴射线：次生（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ThunderstormRay_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Lightning_Beam_3A_Aftershock__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(32-36)",
+        "+(28-30)",
+        "+(24-26)"
+      ]
+    },
+    {
+      "id": "Lightning_Beam%3A_Relentless_%28Magnificent%29",
+      "name": "雷暴射线：凌厉（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ThunderstormRay_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Lightning_Beam_3A_Relentless__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(3.4-3.8)",
+        "+(3.0-3.2)",
+        "+(2.6-2.8)"
+      ]
+    },
+    {
+      "id": "Wilting_Beam%3A_Dispirit_%28Magnificent%29",
+      "name": "枯萎射线：萎靡（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ChaosRay_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Wilting_Beam_3A_Dispirit__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(20-24)",
+        "+(17-19)",
+        "+(13-15)"
+      ]
+    },
+    {
+      "id": "Wilting_Beam%3A_Reflection_%28Magnificent%29",
+      "name": "枯萎射线：反射（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ChaosRay_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Wilting_Beam_3A_Reflection__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(32-36)",
+        "+(28-30)",
+        "+(24-26)"
+      ]
+    },
+    {
+      "id": "Electrifying_Shot%3A_Close-Range_%28Magnificent%29",
+      "name": "电光弹：短程（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_LightningBullet_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Electrifying_Shot_3A_Close-Range__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-20--18)",
+        "(-23--21)",
+        "(-26--24)"
+      ]
+    },
+    {
+      "id": "Haunting_Abomination%3A_Misdeeds_%28Magnificent%29",
+      "name": "恶煞缠身：劣迹（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Doom_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Haunting_Abomination_3A_Misdeeds__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(16-18)",
+        "+(14-15)",
+        "+(12-13)"
+      ]
+    },
+    {
+      "id": "Haunting_Abomination%3A_Feud_%28Magnificent%29",
+      "name": "恶煞缠身：宿怨（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Doom_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Haunting_Abomination_3A_Feud__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+5",
+        "+5",
+        "+5"
+      ]
+    },
+    {
+      "id": "Thunder_Focus%3A_Haste_%28Magnificent%29",
+      "name": "雷霆贯注：从速（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ThunderBless_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Thunder_Focus_3A_Haste__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "20",
+        "20",
+        "20"
+      ]
+    },
+    {
+      "id": "Thunder_Focus%3A_Quickstep_%28Magnificent%29",
+      "name": "雷霆贯注：捷足（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ThunderBless_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Thunder_Focus_3A_Quickstep__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(6.0-6.8)",
+        "+(5.5-5.9)",
+        "+(5.0-5.4)"
+      ]
+    },
+    {
+      "id": "Flame_Focus%3A_Kindling_%28Magnificent%29",
+      "name": "熔火贯注：传火（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FireBless_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Flame_Focus_3A_Kindling__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "20",
+        "20",
+        "20"
+      ]
+    },
+    {
+      "id": "Flame_Focus%3A_Flint_%28Magnificent%29",
+      "name": "熔火贯注：火石（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FireBless_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Flame_Focus_3A_Flint__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(32-36)",
+        "+(28-30)",
+        "+(24-26)"
+      ]
+    },
+    {
+      "id": "Corrosion_Focus%3A_Clustering_%28Magnificent%29",
+      "name": "侵蚀贯注：类聚（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ChaosBless_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Corrosion_Focus_3A_Clustering__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(45-50)",
+        "+(41-43)",
+        "+(36-38)"
+      ]
+    },
+    {
+      "id": "Corrosion_Focus%3A_Infection_%28Magnificent%29",
+      "name": "侵蚀贯注：侵染（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ChaosBless_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Corrosion_Focus_3A_Infection__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-14--10)",
+        "(-9--8)",
+        "(-7--6)"
+      ]
+    },
+    {
+      "id": "Ice_Focus%3A_Shattered_Ice_%28Magnificent%29",
+      "name": "寒冰贯注：碎冰（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_IceBless_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Ice_Focus_3A_Shattered_Ice__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(80-100)",
+        "+(60-75)",
+        "+(40-50)"
+      ]
+    },
+    {
+      "id": "Ice_Focus%3A_Permafrost_%28Magnificent%29",
+      "name": "寒冰贯注：久冻（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_IceBless_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Ice_Focus_3A_Permafrost__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "150",
+        "120",
+        "100"
+      ]
+    },
+    {
+      "id": "Acuteness_Focus%3A_Piercing_Agony_%28Magnificent%29",
+      "name": "锐利贯注：锐痛（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_PhysicalBless_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Acuteness_Focus_3A_Piercing_Agony__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(4.5-5.0)",
+        "+(4.0-4.2)",
+        "+(3.5-3.8)"
+      ]
+    },
+    {
+      "id": "Acuteness_Focus%3A_Sharpening_%28Magnificent%29",
+      "name": "锐利贯注：砥砺（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_PhysicalBless_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Acuteness_Focus_3A_Sharpening__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(32-36)",
+        "+(28-30)",
+        "+(24-26)"
+      ]
+    },
+    {
+      "id": "Crescent_Slash%3A_Raid_%28Magnificent%29",
+      "name": "碎月弧光斩：强袭（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ArcSlash_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Crescent_Slash_3A_Raid__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(48-52)",
+        "+(42-45)",
+        "+(36-39)"
+      ]
+    },
+    {
+      "id": "Crescent_Slash%3A_Vile_%28Magnificent%29",
+      "name": "碎月弧光斩：恶刃（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ArcSlash_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Crescent_Slash_3A_Vile__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(32-36)",
+        "+(28-30)",
+        "+(24-26)"
+      ]
+    },
+    {
+      "id": "Serpent_Beam%3A_Barrage_%28Magnificent%29",
+      "name": "流焰炎蛇引：火线（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FlameSerpent_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Serpent_Beam_3A_Barrage__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(41.0-43.0)",
+        "+(39.0-40.0)",
+        "+(37.0-38.0)"
+      ]
+    },
+    {
+      "id": "Serpent_Beam%3A_Inferno_%28Magnificent%29",
+      "name": "流焰炎蛇引：火海（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FlameSerpent_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Serpent_Beam_3A_Inferno__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(5.4-6.2)",
+        "+(4.6-5.0)",
+        "+(3.8-4.2)"
+      ]
+    },
+    {
+      "id": "Gale_Slash%3A_Onslaught_%28Magnificent%29",
+      "name": "疾风裂地斩：突进（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_WindSlash_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Gale_Slash_3A_Onslaught__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(8.1-8.8)",
+        "+(7.5-7.8)",
+        "+(6.9-7.2)"
+      ]
+    },
+    {
+      "id": "Gale_Slash%3A_Dominance_%28Magnificent%29",
+      "name": "疾风裂地斩：强横（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_WindSlash_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Gale_Slash_3A_Dominance__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(26-30)",
+        "+(22-24)",
+        "+(19-21)"
+      ]
+    },
+    {
+      "id": "Spectral_Slash%3A_Detonation_%28Magnificent%29",
+      "name": "分身灵爆斩：引爆（华贵）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_PhantomSlash_support01_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/magnificent/Spectral_Slash_3A_Detonation__28Magnificent_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(25-29)",
+        "+(22-24)",
+        "+(18-20)"
+      ]
+    }
+  ]
+}

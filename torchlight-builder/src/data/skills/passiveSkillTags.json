@@ -1,0 +1,657 @@
+{
+  "source": "https://tlidb.com/cn/Passive_Skill",
+  "updatedAt": "2026-03-21T16:39:03.282895Z",
+  "count": 18,
+  "tags": [
+    "力量",
+    "敏捷",
+    "智慧",
+    "物理",
+    "火焰",
+    "冰冷",
+    "闪电",
+    "腐蚀",
+    "攻击",
+    "法术",
+    "光环",
+    "范围",
+    "近战",
+    "投射物",
+    "召唤",
+    "魔灵",
+    "贯注",
+    "持续"
+  ],
+  "passiveSkillCount": 55,
+  "passiveSkills": [
+    {
+      "id": "Fearless",
+      "name": "狂猛",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_Rabid_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围",
+        "近战"
+      ],
+      "localIconUrl": "/assets/skills/passive/Fearless.webp"
+    },
+    {
+      "id": "Weapon_Amplification",
+      "name": "武器增幅",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_Weapon_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/passive/Weapon_Amplification.webp"
+    },
+    {
+      "id": "Rejuvenation",
+      "name": "再生",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_Regen_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围"
+      ],
+      "localIconUrl": "/assets/skills/passive/Rejuvenation.webp"
+    },
+    {
+      "id": "Electric_Conversion",
+      "name": "电能转化",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_LightingAura_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/passive/Electric_Conversion.webp"
+    },
+    {
+      "id": "Frigid_Domain",
+      "name": "冰寒领域",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_IceAura_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/passive/Frigid_Domain.webp"
+    },
+    {
+      "id": "Nimbleness",
+      "name": "灵敏",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_Agility_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围"
+      ],
+      "localIconUrl": "/assets/skills/passive/Nimbleness.webp"
+    },
+    {
+      "id": "Spell_Amplification",
+      "name": "法术增幅",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_ElementalEnhance_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围",
+        "法术"
+      ],
+      "localIconUrl": "/assets/skills/passive/Spell_Amplification.webp"
+    },
+    {
+      "id": "Energy_Fortress",
+      "name": "能量壁垒",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_EnergyFort_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围"
+      ],
+      "localIconUrl": "/assets/skills/passive/Energy_Fortress.webp"
+    },
+    {
+      "id": "Magical_Source",
+      "name": "魔源",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_SourceOfMana_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围"
+      ],
+      "localIconUrl": "/assets/skills/passive/Magical_Source.webp"
+    },
+    {
+      "id": "Precise_Projectiles",
+      "name": "精准投射",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_PreciseProjectile_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围",
+        "投射物"
+      ],
+      "localIconUrl": "/assets/skills/passive/Precise_Projectiles.webp"
+    },
+    {
+      "id": "Elemental_Resistance",
+      "name": "元素抵抗",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_ElementalResistance_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围",
+        "火焰",
+        "冰冷",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/passive/Elemental_Resistance.webp"
+    },
+    {
+      "id": "Swiftness",
+      "name": "疾速",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_Haste_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围"
+      ],
+      "localIconUrl": "/assets/skills/passive/Swiftness.webp"
+    },
+    {
+      "id": "Deep_Pain",
+      "name": "深层苦痛",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_DeepPain_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围"
+      ],
+      "localIconUrl": "/assets/skills/passive/Deep_Pain.webp"
+    },
+    {
+      "id": "Erosion_Amplification",
+      "name": "腐蚀增幅",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_ChaosEnhance_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/passive/Erosion_Amplification.webp"
+    },
+    {
+      "id": "Charged_Flames",
+      "name": "烈焰充能",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_FireAura_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/passive/Charged_Flames.webp"
+    },
+    {
+      "id": "Steadfast",
+      "name": "坚固",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_Solid_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围"
+      ],
+      "localIconUrl": "/assets/skills/passive/Steadfast.webp"
+    },
+    {
+      "id": "Summon_Fire_Magus",
+      "name": "召唤火焰之灵",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_SummonFireElement_Icon_128.webp",
+      "tags": [
+        "法术",
+        "召唤",
+        "火焰",
+        "魔灵",
+        "力量",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/passive/Summon_Fire_Magus.webp"
+    },
+    {
+      "id": "Summon_Frost_Magus",
+      "name": "召唤寒冰之灵",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_SummonIceIceElement_Icon_128.webp",
+      "tags": [
+        "法术",
+        "召唤",
+        "冰冷",
+        "魔灵",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/passive/Summon_Frost_Magus.webp"
+    },
+    {
+      "id": "Summon_Thunder_Magus",
+      "name": "召唤雷霆之灵",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_SummonThunderElement_Icon_128.webp",
+      "tags": [
+        "法术",
+        "召唤",
+        "闪电",
+        "魔灵",
+        "敏捷",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/passive/Summon_Thunder_Magus.webp"
+    },
+    {
+      "id": "Acuteness_Focus",
+      "name": "锐利贯注",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_PhysicalBless_128.webp",
+      "tags": [
+        "范围",
+        "贯注",
+        "物理",
+        "攻击",
+        "力量"
+      ]
+    },
+    {
+      "id": "Corrosion_Focus",
+      "name": "侵蚀贯注",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_ChaosBless_128.webp",
+      "tags": [
+        "范围",
+        "贯注",
+        "腐蚀",
+        "持续",
+        "法术",
+        "投射物",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/passive/Corrosion_Focus.webp"
+    },
+    {
+      "id": "Ice_Focus",
+      "name": "寒冰贯注",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_IceBless_128.webp",
+      "tags": [
+        "范围",
+        "法术",
+        "贯注",
+        "冰冷",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/passive/Ice_Focus.webp"
+    },
+    {
+      "id": "Thunder_Focus",
+      "name": "雷霆贯注",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_ThunderBless_128.webp",
+      "tags": [
+        "范围",
+        "贯注",
+        "闪电",
+        "攻击",
+        "敏捷"
+      ],
+      "localIconUrl": "/assets/skills/passive/Thunder_Focus.webp"
+    },
+    {
+      "id": "Flame_Focus",
+      "name": "熔火贯注",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_FireBless_128.webp",
+      "tags": [
+        "范围",
+        "贯注",
+        "火焰",
+        "法术",
+        "力量",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/passive/Flame_Focus.webp"
+    },
+    {
+      "id": "Summon_Rock_Magus",
+      "name": "召唤磐石之灵",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonRockElement_Icon_128.webp",
+      "tags": [
+        "法术",
+        "召唤",
+        "物理",
+        "魔灵",
+        "力量",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/passive/Summon_Rock_Magus.webp"
+    },
+    {
+      "id": "Summon_Erosion_Magus",
+      "name": "召唤腐化之灵",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonRotElement_Icon_128.webp",
+      "tags": [
+        "法术",
+        "召唤",
+        "腐蚀",
+        "魔灵",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/passive/Summon_Erosion_Magus.webp"
+    },
+    {
+      "id": "Radical_Order",
+      "name": "激进号令",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_MinionEnhance_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围",
+        "召唤"
+      ],
+      "localIconUrl": "/assets/skills/passive/Radical_Order.webp"
+    },
+    {
+      "id": "Cruelty",
+      "name": "暴虐",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_AttackEnhance_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围",
+        "攻击"
+      ],
+      "localIconUrl": "/assets/skills/passive/Cruelty.webp"
+    },
+    {
+      "id": "Domain_Expansion",
+      "name": "领域扩张",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_AreaEnhance_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围"
+      ],
+      "localIconUrl": "/assets/skills/passive/Domain_Expansion.webp"
+    },
+    {
+      "id": "Ailment_Amplification",
+      "name": "异常增幅",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_AilmentEnhance_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围"
+      ],
+      "localIconUrl": "/assets/skills/passive/Ailment_Amplification.webp"
+    },
+    {
+      "id": "Precise%3A_Fearless",
+      "name": "精密 狂猛",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_RabidSpecial_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围",
+        "近战"
+      ],
+      "localIconUrl": "/assets/skills/passive/Precise_3A_Fearless.webp"
+    },
+    {
+      "id": "Precise%3A_Weapon_Amplification",
+      "name": "精密 武器增幅",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_WeaponSpecial_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/passive/Precise_3A_Weapon_Amplification.webp"
+    },
+    {
+      "id": "Precise%3A_Rejuvenation",
+      "name": "精密 再生",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_RegenSpecial_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围"
+      ],
+      "localIconUrl": "/assets/skills/passive/Precise_3A_Rejuvenation.webp"
+    },
+    {
+      "id": "Precise%3A_Electric_Conversion",
+      "name": "精密 电能转化",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_LightingAuraSpecial_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/passive/Precise_3A_Electric_Conversion.webp"
+    },
+    {
+      "id": "Precise%3A_Frigid_Domain",
+      "name": "精密 冰寒领域",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_IceAuraSpecial_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/passive/Precise_3A_Frigid_Domain.webp"
+    },
+    {
+      "id": "Precise%3A_Nimbleness",
+      "name": "精密 灵敏",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_AgilitySpecial_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围"
+      ],
+      "localIconUrl": "/assets/skills/passive/Precise_3A_Nimbleness.webp"
+    },
+    {
+      "id": "Precise%3A_Spell_Amplification",
+      "name": "精密 法术增幅",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_ElementalEnhanceSpecial_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围",
+        "法术"
+      ],
+      "localIconUrl": "/assets/skills/passive/Precise_3A_Spell_Amplification.webp"
+    },
+    {
+      "id": "Precise%3A_Energy_Fortress",
+      "name": "精密 能量壁垒",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_EnergyFortSpecial_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围"
+      ],
+      "localIconUrl": "/assets/skills/passive/Precise_3A_Energy_Fortress.webp"
+    },
+    {
+      "id": "Precise%3A_Magical_Source",
+      "name": "精密 魔源",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_SourceOfManaSpecial_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围"
+      ],
+      "localIconUrl": "/assets/skills/passive/Precise_3A_Magical_Source.webp"
+    },
+    {
+      "id": "Precise%3A_Precise_Projectiles",
+      "name": "精密 精准投射",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_PreciseProjectileSpecial_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围",
+        "投射物"
+      ],
+      "localIconUrl": "/assets/skills/passive/Precise_3A_Precise_Projectiles.webp"
+    },
+    {
+      "id": "Precise%3A_Elemental_Resistance",
+      "name": "精密 元素抵抗",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_ElementalResistanceSpecial_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围",
+        "火焰",
+        "冰冷",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/passive/Precise_3A_Elemental_Resistance.webp"
+    },
+    {
+      "id": "Precise%3A_Swiftness",
+      "name": "精密 疾速",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_HasteSpecial_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围"
+      ],
+      "localIconUrl": "/assets/skills/passive/Precise_3A_Swiftness.webp"
+    },
+    {
+      "id": "Precise%3A_Deep_Pain",
+      "name": "精密 深层苦痛",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_DeepPainSpecial_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围"
+      ],
+      "localIconUrl": "/assets/skills/passive/Precise_3A_Deep_Pain.webp"
+    },
+    {
+      "id": "Precise%3A_Erosion_Amplification",
+      "name": "精密 腐蚀增幅",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_ChaosEnhanceSpecial_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/passive/Precise_3A_Erosion_Amplification.webp"
+    },
+    {
+      "id": "Precise%3A_Charged_Flames",
+      "name": "精密 烈焰充能",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_FireAuraSpecial_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/passive/Precise_3A_Charged_Flames.webp"
+    },
+    {
+      "id": "Precise%3A_Steadfast",
+      "name": "精密 坚固",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_SkillIcon_Skill_SolidSpecial_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围"
+      ],
+      "localIconUrl": "/assets/skills/passive/Precise_3A_Steadfast.webp"
+    },
+    {
+      "id": "Precise%3A_Acuteness_Focus",
+      "name": "精密 锐利贯注",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_PhysicalBlessSpecial_128.webp",
+      "tags": [
+        "范围",
+        "贯注",
+        "物理",
+        "攻击",
+        "力量"
+      ],
+      "localIconUrl": "/assets/skills/passive/Precise_3A_Acuteness_Focus.webp"
+    },
+    {
+      "id": "Precise%3A_Corrosion_Focus",
+      "name": "精密 侵蚀贯注",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_ChaosBlessSpecial_128.webp",
+      "tags": [
+        "范围",
+        "贯注",
+        "腐蚀",
+        "持续",
+        "法术",
+        "投射物",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/passive/Precise_3A_Corrosion_Focus.webp"
+    },
+    {
+      "id": "Precise%3A_Ice_Focus",
+      "name": "精密 寒冰贯注",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_IceBlessSpecial_128.webp",
+      "tags": [
+        "范围",
+        "法术",
+        "贯注",
+        "冰冷",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/passive/Precise_3A_Ice_Focus.webp"
+    },
+    {
+      "id": "Precise%3A_Thunder_Focus",
+      "name": "精密 雷霆贯注",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_ThunderBlessSpecial_128.webp",
+      "tags": [
+        "范围",
+        "贯注",
+        "闪电",
+        "攻击",
+        "敏捷"
+      ],
+      "localIconUrl": "/assets/skills/passive/Precise_3A_Thunder_Focus.webp"
+    },
+    {
+      "id": "Precise%3A_Flame_Focus",
+      "name": "精密 熔火贯注",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/Icon_Skill_FireBlessSpecial_128.webp",
+      "tags": [
+        "范围",
+        "贯注",
+        "火焰",
+        "法术",
+        "力量",
+        "智慧"
+      ],
+      "localIconUrl": "/assets/skills/passive/Precise_3A_Flame_Focus.webp"
+    },
+    {
+      "id": "Precise%3A_Radical_Order",
+      "name": "精密 激进号令",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_MinionEnhanceSpecial_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围",
+        "召唤"
+      ],
+      "localIconUrl": "/assets/skills/passive/Precise_3A_Radical_Order.webp"
+    },
+    {
+      "id": "Precise%3A_Cruelty",
+      "name": "精密 暴虐",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_AttackEnhanceSpecial_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围",
+        "攻击"
+      ],
+      "localIconUrl": "/assets/skills/passive/Precise_3A_Cruelty.webp"
+    },
+    {
+      "id": "Precise%3A_Domain_Expansion",
+      "name": "精密 领域扩张",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_AreaEnhanceSpecial_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围"
+      ],
+      "localIconUrl": "/assets/skills/passive/Precise_3A_Domain_Expansion.webp"
+    },
+    {
+      "id": "Precise%3A_Ailment_Amplification",
+      "name": "精密 异常增幅",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_AilmentEnhanceSpecial_Icon_128.webp",
+      "tags": [
+        "光环",
+        "范围"
+      ],
+      "localIconUrl": "/assets/skills/passive/Precise_3A_Ailment_Amplification.webp"
+    }
+  ]
+}

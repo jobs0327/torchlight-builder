@@ -1,1 +1,0 @@
-import{_ as o,o as t,c,a as s}from"./index-Bo0N4uTp.js";const n={},a={class:"equipment-page"};function r(_,e){return t(),c("div",a,[...e[0]||(e[0]=[s("h1",null,"装备系统",-1),s("p",{class:"coming-soon"},"功能开发中...",-1)])])}const p=o(n,[["render",r],["__scopeId","data-v-0eefd51c"]]);export{p as default};

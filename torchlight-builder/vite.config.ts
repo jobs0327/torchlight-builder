@@ -11,7 +11,10 @@ export default defineConfig({
   },
   server: {
     port: 3000,
-    strictPort: true,
+    /** 3000 被占用时自动换端口，避免启动失败 */
+    strictPort: false,
+    /** 监听 0.0.0.0，本机 localhost / 局域网 / 部分环境才可访问 */
+    host: true,
     open: false
   }
 })

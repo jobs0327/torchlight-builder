@@ -1,0 +1,2956 @@
+{
+  "source": "https://tlidb.com/cn/Noble_Support_Skill",
+  "updatedAt": "2026-03-21T17:06:36.574362Z",
+  "count": 6,
+  "tags": [
+    "物理",
+    "火焰",
+    "冰冷",
+    "闪电",
+    "腐蚀",
+    "辅助"
+  ],
+  "supportSkillCount": 140,
+  "supportSkills": [
+    {
+      "id": "Focused_Shot%3A_Building_Momentum_%28Noble%29",
+      "name": "专注射击：蓄锐（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FocusedShoot_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Focused_Shot_3A_Building_Momentum__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(5.2-6.0)",
+        "+(4.5-5.0)",
+        "+(4.0-4.4)"
+      ]
+    },
+    {
+      "id": "Focused_Shot%3A_Power_Bow_%28Noble%29",
+      "name": "专注射击：强弓（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FocusedShoot_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Focused_Shot_3A_Power_Bow__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(9.5-10.5)",
+        "+(8.5-9.0)",
+        "+(7.5-8.0)"
+      ]
+    },
+    {
+      "id": "Focused_Shot%3A_Snipe_%28Noble%29",
+      "name": "专注射击：狙击（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FocusedShoot_support05_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Focused_Shot_3A_Snipe__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(410-450)",
+        "+(370-390)",
+        "+(330-350)"
+      ]
+    },
+    {
+      "id": "Burning_Shot%3A_Ignition_%28Noble%29",
+      "name": "燃烧射击：纵火（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FireShoot_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Burning_Shot_3A_Ignition__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(37-41)",
+        "+(33-35)",
+        "+(29-31)"
+      ]
+    },
+    {
+      "id": "Burning_Shot%3A_Through_Fire_%28Noble%29",
+      "name": "燃烧射击：蹈火（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FireShoot_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Burning_Shot_3A_Through_Fire__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(16-20)",
+        "+(12-14)",
+        "+(10-11)"
+      ]
+    },
+    {
+      "id": "Chain_Lightning%3A_Lucky_%28Noble%29",
+      "name": "闪电链：幸运（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_LightningChain_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Chain_Lightning_3A_Lucky__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-4--1)",
+        "(-7--5)",
+        "(-10--8)"
+      ]
+    },
+    {
+      "id": "Chain_Lightning%3A_Merge_%28Noble%29",
+      "name": "闪电链：合流（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_LightningChain_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Chain_Lightning_3A_Merge__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-10.0--8.0)",
+        "(-14.0--12.0)",
+        "(-16.0--15.0)"
+      ]
+    },
+    {
+      "id": "Focused_Slash%3A_Fervor_%28Noble%29",
+      "name": "专注斩：战意（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FocusedStrike_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Focused_Slash_3A_Fervor__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(68-75)",
+        "+(62-65)",
+        "+(55-58)"
+      ]
+    },
+    {
+      "id": "Focused_Slash%3A_Behead_%28Noble%29",
+      "name": "专注斩：斩首（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FocusedStrike_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Focused_Slash_3A_Behead__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(10-15)",
+        "+(6-8)",
+        "+(2-4)"
+      ]
+    },
+    {
+      "id": "Icy_Blade%3A_Hidden_Edge_%28Noble%29",
+      "name": "冰凌斩：藏锋（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FrostSlash_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Icy_Blade_3A_Hidden_Edge__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(1.30-1.50)",
+        "+(1.20-1.25)",
+        "+(1.10-1.15)"
+      ]
+    },
+    {
+      "id": "Flame_Slash%3A_Inverted_Blaze_%28Noble%29",
+      "name": "烈焰斩：逆焚（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FlameSlash_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Flame_Slash_3A_Inverted_Blaze__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-31.5--29.5)",
+        "(-33.5--32.5)",
+        "(-35.5--34.5)"
+      ]
+    },
+    {
+      "id": "Double_Thrusts%3A_Cutthroat_%28Noble%29",
+      "name": "双重突刺：封喉（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_DoubleStab_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Double_Thrusts_3A_Cutthroat__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(0.063-0.067)",
+        "(0.060-0.062)",
+        "(0.056-0.058)"
+      ]
+    },
+    {
+      "id": "Corrosive_Throw%3A_Swift_Strike_%28Noble%29",
+      "name": "侵蚀投掷：迅击（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_VenomThrow_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Corrosive_Throw_3A_Swift_Strike__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(7.0-8.0)",
+        "+(5.5-6.0)",
+        "+(4.0-4.5)"
+      ]
+    },
+    {
+      "id": "Corrosive_Throw%3A_Blitz_Strike_%28Noble%29",
+      "name": "侵蚀投掷：闪击（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_VenomThrow_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Corrosive_Throw_3A_Blitz_Strike__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(1-5)",
+        "(-2--1)",
+        "(-4--3)"
+      ]
+    },
+    {
+      "id": "Blazing_Bullet%3A_Ignition_Point_%28Noble%29",
+      "name": "炽炎穿弹：燃点（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SabotRounds_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Blazing_Bullet_3A_Ignition_Point__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(47-52)",
+        "+(43-45)",
+        "+(38-40)"
+      ]
+    },
+    {
+      "id": "Blazing_Bullet%3A_Dual_Resonance_%28Noble%29",
+      "name": "炽炎穿弹：双响（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SabotRounds_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Blazing_Bullet_3A_Dual_Resonance__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "50",
+        "50",
+        "50"
+      ]
+    },
+    {
+      "id": "Wilt_Spike%3A_Mirage_%28Noble%29",
+      "name": "凋零刺击：群影（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ViperStab_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Wilt_Spike_3A_Mirage__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(10-13)",
+        "+(7-8)",
+        "+(4-5)"
+      ]
+    },
+    {
+      "id": "Wilt_Spike%3A_Evanescence_%28Noble%29",
+      "name": "凋零刺击：幻灭（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ViperStab_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Wilt_Spike_3A_Evanescence__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "-0.2",
+        "-0.2",
+        "-0.2"
+      ]
+    },
+    {
+      "id": "Hammer_of_Ash%3A_Quickfire_%28Noble%29",
+      "name": "灰烬之锤：急火（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Emberslam_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Hammer_of_Ash_3A_Quickfire__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(48-50)",
+        "(45-47)",
+        "(43-44)"
+      ]
+    },
+    {
+      "id": "Hammer_of_Ash%3A_Blast_Quake_%28Noble%29",
+      "name": "灰烬之锤：震爆（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Emberslam_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Hammer_of_Ash_3A_Blast_Quake__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-15.5--13.5)",
+        "(-18.0--17.0)",
+        "(-20.5--19.5)"
+      ]
+    },
+    {
+      "id": "Frost_Impact%3A_Chilling_Surge_%28Noble%29",
+      "name": "寒霜破击：骤寒（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_IceCrash_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Frost_Impact_3A_Chilling_Surge__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(44-48)",
+        "+(40-42)",
+        "+(36-38)"
+      ]
+    },
+    {
+      "id": "Frost_Impact%3A_Chilling_Buildup_%28Noble%29",
+      "name": "寒霜破击：积寒（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_IceCrash_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Frost_Impact_3A_Chilling_Buildup__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(44-50)",
+        "+(40-42)",
+        "+(36-38)"
+      ]
+    },
+    {
+      "id": "Whirlwind%3A_Whirling_Blade_%28Noble%29",
+      "name": "旋风斩：飞刃（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Cyclone_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Whirlwind_3A_Whirling_Blade__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(37-41)",
+        "+(33-35)",
+        "+(29-31)"
+      ]
+    },
+    {
+      "id": "Lightning_Shot%3A_Crossed_Lightning_%28Noble%29",
+      "name": "闪电射击：交织（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_LightningShoot_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Lightning_Shot_3A_Crossed_Lightning__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(46-50)",
+        "+(42-44)",
+        "+(38-40)"
+      ]
+    },
+    {
+      "id": "Split_Shot%3A_Collaboration_%28Noble%29",
+      "name": "分裂射击：协力（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SplitArrow_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Split_Shot_3A_Collaboration__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(4.7-5.2)",
+        "+(4.2-4.4)",
+        "+(3.7-3.9)"
+      ]
+    },
+    {
+      "id": "Split_Shot%3A_Rapid_Advance_%28Noble%29",
+      "name": "分裂射击：长驱（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SplitArrow_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Split_Shot_3A_Rapid_Advance__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(24.0-25.0)",
+        "+(22.0-23.0)",
+        "+(20.0-21.0)"
+      ]
+    },
+    {
+      "id": "Ice_Shot%3A_Batter_%28Noble%29",
+      "name": "寒冰射击：冲击（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Iceshot_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Ice_Shot_3A_Batter__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-29.0--27.0)",
+        "(-31.0--30.0)",
+        "(-33.0--32.0)"
+      ]
+    },
+    {
+      "id": "Bombard%3A_Fission_%28Noble%29",
+      "name": "炮轰：裂变（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Strafe_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Bombard_3A_Fission__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-17.0--14.0)",
+        "(-19.0--18.0)",
+        "(-21.0--20.0)"
+      ]
+    },
+    {
+      "id": "Bombard%3A_Grenade_%28Noble%29",
+      "name": "炮轰：榴弹（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Strafe_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Bombard_3A_Grenade__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(18.5-19.5)",
+        "+(17.2-18.0)",
+        "+(16.0-16.8)"
+      ]
+    },
+    {
+      "id": "Bombard%3A_Smokescreen_%28Noble%29",
+      "name": "炮轰：烟幕（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Strafe_support05_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Bombard_3A_Smokescreen__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(37-41)",
+        "+(33-35)",
+        "+(29-31)"
+      ]
+    },
+    {
+      "id": "Berserking_Blade%3A_Decimate_%28Noble%29",
+      "name": "暴走巨刃：残敌（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ViolentSweep_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Berserking_Blade_3A_Decimate__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(60-63)",
+        "(57-59)",
+        "(55-56)"
+      ]
+    },
+    {
+      "id": "Berserking_Blade%3A_Rampage_%28Noble%29",
+      "name": "暴走巨刃：横行（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ViolentSweep_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Berserking_Blade_3A_Rampage__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(28-31)",
+        "(25-27)",
+        "(22-24)"
+      ]
+    },
+    {
+      "id": "Charged_Pummel%3A_Charge_Reduction_%28Noble%29",
+      "name": "充能猛击：降耗（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ChargedSmash_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Charged_Pummel_3A_Charge_Reduction__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(19-25)",
+        "+(16-18)",
+        "+(12-14)"
+      ]
+    },
+    {
+      "id": "Charged_Pummel%3A_Electric_Charge_%28Noble%29",
+      "name": "充能猛击：蓄电（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ChargedSmash_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Charged_Pummel_3A_Electric_Charge__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-47.0--46.0)",
+        "(-49.0--48.0)",
+        "(-51.0--50.0)"
+      ]
+    },
+    {
+      "id": "Moon_Strike%3A_Lunar_Eclipse_%28Noble%29",
+      "name": "月华斩：月蚀（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ShadowSlash_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Moon_Strike_3A_Lunar_Eclipse__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(62-67)",
+        "+(57-60)",
+        "+(53-55)"
+      ]
+    },
+    {
+      "id": "Moon_Strike%3A_Wax_and_Wane_%28Noble%29",
+      "name": "月华斩：盈亏（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ShadowSlash_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Moon_Strike_3A_Wax_and_Wane__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(24-28)",
+        "+(20-22)",
+        "+(18-19)"
+      ]
+    },
+    {
+      "id": "Savage_Charge%3A_Raid_%28Noble%29",
+      "name": "野蛮冲锋：突击（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SavageCharge_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Savage_Charge_3A_Raid__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(25-29)",
+        "+(21-23)",
+        "+(17-19)"
+      ]
+    },
+    {
+      "id": "Marked_Rain_of_Arrows%3A_Hyper_Blast_%28Noble%29",
+      "name": "标记箭雨：高爆（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_MarkerArrow_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Marked_Rain_of_Arrows_3A_Hyper_Blast__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-8.0--5.0)",
+        "(-10.0--9.0)",
+        "(-13.0--12.0)"
+      ]
+    },
+    {
+      "id": "Marked_Rain_of_Arrows%3A_Threads_of_Arrows_%28Noble%29",
+      "name": "标记箭雨：密缕（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_MarkerArrow_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Marked_Rain_of_Arrows_3A_Threads_of_Arrows__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(6-10)",
+        "+(3-4)",
+        "+(1-2)"
+      ]
+    },
+    {
+      "id": "Corrosive_Shot%3A_Degeneration_%28Noble%29",
+      "name": "侵蚀弹：沦陷（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_PoisonBullet_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Corrosive_Shot_3A_Degeneration__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-16.0--14.0)",
+        "(-19.0--18.0)",
+        "(-21.0--20.0)"
+      ]
+    },
+    {
+      "id": "Corrosive_Shot%3A_Burst_of_Agony_%28Noble%29",
+      "name": "侵蚀弹：阵痛（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_PoisonBullet_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Corrosive_Shot_3A_Burst_of_Agony__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(28-30)",
+        "+(24-26)",
+        "+(20-22)"
+      ]
+    },
+    {
+      "id": "Inexhaustible_Barrage%3A_Fatal_Pursuit_%28Noble%29",
+      "name": "不竭弹雨：追歼（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ChargedRainOfBullets_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Inexhaustible_Barrage_3A_Fatal_Pursuit__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(31-35)",
+        "+(27-29)",
+        "+(23-25)"
+      ]
+    },
+    {
+      "id": "Inexhaustible_Barrage%3A_Landslide_%28Noble%29",
+      "name": "不竭弹雨：倾泻（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ChargedRainOfBullets_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Inexhaustible_Barrage_3A_Landslide__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-3-1)",
+        "(-5--4)",
+        "(-8--7)"
+      ]
+    },
+    {
+      "id": "Thunder_Spike%3A_Tremble_%28Noble%29",
+      "name": "雷光刺击：震颤（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_LightningStab_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Thunder_Spike_3A_Tremble__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(72-83)",
+        "+(66-71)",
+        "+(58-65)"
+      ]
+    },
+    {
+      "id": "Thunder_Spike%3A_Rumbling_Thunder_%28Noble%29",
+      "name": "雷光刺击：奔雷（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_LightningStab_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Thunder_Spike_3A_Rumbling_Thunder__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(50-54)",
+        "+(45-48)",
+        "+(40-43)"
+      ]
+    },
+    {
+      "id": "Thunder_Slash%3A_Flurry_%28Noble%29",
+      "name": "雷影斩：连斩（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ThunderSlash_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Thunder_Slash_3A_Flurry__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-20--16)",
+        "(-22--21)",
+        "(-24--23)"
+      ]
+    },
+    {
+      "id": "Thunder_Slash%3A_Big_Stride_%28Noble%29",
+      "name": "雷影斩：阔步（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ThunderSlash_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Thunder_Slash_3A_Big_Stride__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(9-13)",
+        "+(6-8)",
+        "+(3-5)"
+      ]
+    },
+    {
+      "id": "Ring_of_Blades%3A_Razor_Edge_%28Noble%29",
+      "name": "环绕飞刃：锋锐（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_DiffusionBlade_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Ring_of_Blades_3A_Razor_Edge__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(5.0-5.6)",
+        "+(4.6-4.8)",
+        "+(4.2-4.4)"
+      ]
+    },
+    {
+      "id": "Ring_of_Blades%3A_Strength_in_Numbers_%28Noble%29",
+      "name": "环绕飞刃：众武（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_DiffusionBlade_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Ring_of_Blades_3A_Strength_in_Numbers__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-32--30)",
+        "(-34--33)",
+        "(-36--35)"
+      ]
+    },
+    {
+      "id": "Frost_Spike%3A_Ice_Fission_%28Noble%29",
+      "name": "碎冰刺击：冰裂（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FrostStab_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Frost_Spike_3A_Ice_Fission__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(37-41)",
+        "+(33-35)",
+        "+(29-31)"
+      ]
+    },
+    {
+      "id": "Frost_Spike%3A_Glaciate_%28Noble%29",
+      "name": "碎冰刺击：雪藏（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FrostStab_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Frost_Spike_3A_Glaciate__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-59.0--58.0)",
+        "(-60.5--60.0)",
+        "(-61.5--61.0)"
+      ]
+    },
+    {
+      "id": "Rain_of_Arrows%3A_Payback_%28Noble%29",
+      "name": "箭雨：奉还（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_RainOfArrows_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Rain_of_Arrows_3A_Payback__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-31.5--29.5)",
+        "(-33.5--32.5)",
+        "(-35.5--34.5)"
+      ]
+    },
+    {
+      "id": "Rain_of_Arrows%3A_Tracking_%28Noble%29",
+      "name": "箭雨：寻踪（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_RainOfArrows_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Rain_of_Arrows_3A_Tracking__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(10-15)",
+        "+(7-9)",
+        "+(3-5)"
+      ]
+    },
+    {
+      "id": "Arrow_Einherjar%3A_Advancement_%28Noble%29",
+      "name": "飞箭英灵：进阶（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ArrowSpirit_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Arrow_Einherjar_3A_Advancement__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(3-6)",
+        "+(1-2)",
+        "(-2--1)"
+      ]
+    },
+    {
+      "id": "Arrow_Einherjar%3A_Fellowship_%28Noble%29",
+      "name": "飞箭英灵：随行（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ArrowSpirit_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Arrow_Einherjar_3A_Fellowship__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(13-16)",
+        "+(10-11)",
+        "+(7-8)"
+      ]
+    },
+    {
+      "id": "Split_Firebolt%3A_Focal_Point_%28Noble%29",
+      "name": "裂变火球：焦点（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Fireball_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Split_Firebolt_3A_Focal_Point__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-11--8)",
+        "(-14--12)",
+        "(-17--15)"
+      ]
+    },
+    {
+      "id": "Ice_Lances%3A_Bounce_%28Noble%29",
+      "name": "冰锥术：跳弹（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ConeOfCold_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Ice_Lances_3A_Bounce__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(26-30)",
+        "+(22-24)",
+        "+(19-21)"
+      ]
+    },
+    {
+      "id": "Ice_Lances%3A_Permafrost_%28Noble%29",
+      "name": "冰锥术：冻土（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ConeOfCold_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Ice_Lances_3A_Permafrost__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(6-10)",
+        "+(3.0-4.5)",
+        "+(1.0-2.5)"
+      ]
+    },
+    {
+      "id": "Sparkle%3A_Strobe_%28Noble%29",
+      "name": "电火花：频闪（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SparkBullet_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Sparkle_3A_Strobe__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(10-14)",
+        "+(6-8)",
+        "+(3-5)"
+      ]
+    },
+    {
+      "id": "Sparkle%3A_Static_Electricity_%28Noble%29",
+      "name": "电火花：静电（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SparkBullet_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Sparkle_3A_Static_Electricity__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(39-43)",
+        "+(35-37)",
+        "+(31-33)"
+      ]
+    },
+    {
+      "id": "Whirlwind_Blade%3A_Sharpen_%28Noble%29",
+      "name": "刀锋回旋：磨利（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_BladeRoundabout_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Whirlwind_Blade_3A_Sharpen__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(3.6-4.0)",
+        "+(3.3-3.5)",
+        "+(3.0-3.2)"
+      ]
+    },
+    {
+      "id": "Whirlwind_Blade%3A_Circling_%28Noble%29",
+      "name": "刀锋回旋：盘旋（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_BladeRoundabout_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Whirlwind_Blade_3A_Circling__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(48-52)",
+        "+(44-46)",
+        "+(40-42)"
+      ]
+    },
+    {
+      "id": "Ring_of_Ice%3A_Cascade_%28Noble%29",
+      "name": "冰环术：连环（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_IceRing_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Ring_of_Ice_3A_Cascade__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-27.0--25.0)",
+        "(-29.0--28.0)",
+        "(-31.0--30.0)"
+      ]
+    },
+    {
+      "id": "Blizzard%3A_Avalanche_%28Noble%29",
+      "name": "暴风雪：雪崩（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Blizzard_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Blizzard_3A_Avalanche__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(11-15)",
+        "+(8-10)",
+        "+(5-7)"
+      ]
+    },
+    {
+      "id": "Blizzard%3A_Numbing_Cold_%28Noble%29",
+      "name": "暴风雪：刺骨（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Blizzard_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Blizzard_3A_Numbing_Cold__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(20.0-23.0)",
+        "+(16.0-18.0)",
+        "+(12.0-14.0)"
+      ]
+    },
+    {
+      "id": "Lightning_Storm%3A_Boundless_%28Noble%29",
+      "name": "闪电风暴：无尽（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ThunderStorm_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Lightning_Storm_3A_Boundless__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(44-48)",
+        "+(41-43)",
+        "+(38-40)"
+      ]
+    },
+    {
+      "id": "Lightning_Storm%3A_Raging_Storm_%28Noble%29",
+      "name": "闪电风暴：澎湃（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ThunderStorm_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Lightning_Storm_3A_Raging_Storm__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-51.5--50.0)",
+        "(-53.0--52.5)",
+        "(-54.0--53.5)"
+      ]
+    },
+    {
+      "id": "Flame_Core%3A_Engage_%28Noble%29",
+      "name": "聚焰之核：迎敌（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FirePile_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Flame_Core_3A_Engage__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(37-41)",
+        "+(33-35)",
+        "+(29-31)"
+      ]
+    },
+    {
+      "id": "Flame_Jet%3A_Offshoot_%28Noble%29",
+      "name": "烈焰释放：衍生（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FlameBlast_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Flame_Jet_3A_Offshoot__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "40",
+        "40",
+        "40"
+      ]
+    },
+    {
+      "id": "Flame_Jet%3A_Furnace_%28Noble%29",
+      "name": "烈焰释放：熔炉（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FlameBlast_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Flame_Jet_3A_Furnace__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(23-27)",
+        "+(20-21)",
+        "+(16-18)"
+      ]
+    },
+    {
+      "id": "Frost_Terra%3A_Cohesion_%28Noble%29",
+      "name": "寒霜地面：凝聚（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_IceArea_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Frost_Terra_3A_Cohesion__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "-20",
+        "-20",
+        "-20"
+      ]
+    },
+    {
+      "id": "Frost_Terra%3A_Winter%27s_Bite_%28Noble%29",
+      "name": "寒霜地面：凛冽（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_IceArea_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Frost_Terra_3A_Winter_27s_Bite__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(90-100)",
+        "+(80-85)",
+        "+(70-75)"
+      ]
+    },
+    {
+      "id": "Shadow_Swamp%3A_Overlapping_Waves_%28Noble%29",
+      "name": "暗影之沼：叠浪（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Shadowswamp_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Shadow_Swamp_3A_Overlapping_Waves__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(2.3-2.5)",
+        "+(2.1-2.2)",
+        "+(1.9-2.0)"
+      ]
+    },
+    {
+      "id": "Shadow_Swamp%3A_Still_Water_%28Noble%29",
+      "name": "暗影之沼：止水（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Shadowswamp_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Shadow_Swamp_3A_Still_Water__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(8-12)",
+        "+(6-7)",
+        "+(4-5)"
+      ]
+    },
+    {
+      "id": "Thunderbolt_Overload%3A_Augmentation_%28Noble%29",
+      "name": "超载雷球：增幅（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_OverloadLightningBall_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Thunderbolt_Overload_3A_Augmentation__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(33-38)",
+        "+(29-31)",
+        "+(25-27)"
+      ]
+    },
+    {
+      "id": "Frost_Core%3A_Puncture_%28Noble%29",
+      "name": "寒霜之核：穿刺（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FrostCore_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Frost_Core_3A_Puncture__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(8.0-10.0)",
+        "+(6.0-7.0)",
+        "+(4.0-5.0)"
+      ]
+    },
+    {
+      "id": "Summon_Thunder_Magus%3A_Heavy_Arrow_%28Noble%29",
+      "name": "召唤雷霆之灵：重矢（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonThunderElement_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Summon_Thunder_Magus_3A_Heavy_Arrow__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(18-22)",
+        "+(15-17)",
+        "+(11-13)"
+      ]
+    },
+    {
+      "id": "Summon_Thunder_Magus%3A_Agility_%28Noble%29",
+      "name": "召唤雷霆之灵：矫捷（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonThunderElement_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Summon_Thunder_Magus_3A_Agility__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-15.5--13.0)",
+        "(-18.0--16.5)",
+        "(-20.5--19.0)"
+      ]
+    },
+    {
+      "id": "Summon_Frost_Magus%3A_Vengeance_%28Noble%29",
+      "name": "召唤寒冰之灵：雪恨（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonIceIceElement_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Summon_Frost_Magus_3A_Vengeance__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(3-3.5)",
+        "(4-4.5)",
+        "(5-5.5)"
+      ]
+    },
+    {
+      "id": "Summon_Fire_Magus%3A_Wicked_Spirit_%28Noble%29",
+      "name": "召唤火焰之灵：凶灵（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonFireElement_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Summon_Fire_Magus_3A_Wicked_Spirit__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(23-33)",
+        "+(15-20)",
+        "+(5-10)"
+      ]
+    },
+    {
+      "id": "Summon_Fire_Magus%3A_Engulfing_Flames_%28Noble%29",
+      "name": "召唤火焰之灵：焰噬（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonFireElement_support05_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Summon_Fire_Magus_3A_Engulfing_Flames__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "30",
+        "30",
+        "30"
+      ]
+    },
+    {
+      "id": "Summon_Machine_Guard%3A_Crushing_Blow_%28Noble%29",
+      "name": "召唤机械警卫：痛击（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonMechanicalGuard_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Summon_Machine_Guard_3A_Crushing_Blow__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(180-200)",
+        "+(165-175)",
+        "+(150-160)"
+      ]
+    },
+    {
+      "id": "Summon_Machine_Guard%3A_Discipline_%28Noble%29",
+      "name": "召唤机械警卫：规训（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonMechanicalGuard_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Summon_Machine_Guard_3A_Discipline__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(0.94-1.0)",
+        "(0.84-0.88)",
+        "(0.74-0.78)"
+      ]
+    },
+    {
+      "id": "Summon_Machine_Guard%3A_Dead_Silence_%28Noble%29",
+      "name": "召唤机械警卫：默殁（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonMechanicalGuard_support05_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Summon_Machine_Guard_3A_Dead_Silence__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(46-50)",
+        "+(41-43)",
+        "+(37-39)"
+      ]
+    },
+    {
+      "id": "Summon_Grim_Phantom%3A_Shriek_%28Noble%29",
+      "name": "召唤幽浮魅影：齐鸣（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonPhantom_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Summon_Grim_Phantom_3A_Shriek__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(25-31)",
+        "+(20-23)",
+        "+(14-17)"
+      ]
+    },
+    {
+      "id": "Summon_Grim_Phantom%3A_Undercurrent_%28Noble%29",
+      "name": "召唤幽浮魅影：暗涌（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonPhantom_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Summon_Grim_Phantom_3A_Undercurrent__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-34.0--32.0)",
+        "(-36.0--35.0)",
+        "(-38.0--37.0)"
+      ]
+    },
+    {
+      "id": "Summon_Grim_Phantom%3A_Flicker_%28Noble%29",
+      "name": "召唤幽浮魅影：乍现（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonPhantom_support05_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Summon_Grim_Phantom_3A_Flicker__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(2.50-2.80)",
+        "+(2.20-2.30)",
+        "+(2.00-2.10)"
+      ]
+    },
+    {
+      "id": "Summon_Spider_Tank%3A_Focus_Fire_%28Noble%29",
+      "name": "召唤蜘蛛坦克：集火（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonIceSpiderTank_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Summon_Spider_Tank_3A_Focus_Fire__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(0.85-1.00)",
+        "(0.75-0.80)",
+        "(0.65-0.70)"
+      ]
+    },
+    {
+      "id": "Summon_Spider_Tank%3A_Spider_Egg_%28Noble%29",
+      "name": "召唤蜘蛛坦克：蛛卵（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonIceSpiderTank_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Summon_Spider_Tank_3A_Spider_Egg__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-43.0--42.0)",
+        "(-45.0--44.0)",
+        "(-47.0--46.0)"
+      ]
+    },
+    {
+      "id": "Ghost_Blade_Einherjar%3A_Eruption_%28Noble%29",
+      "name": "幽刃英灵：瞬爆（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_GhostBladeSpirit_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Ghost_Blade_Einherjar_3A_Eruption__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(23.0-25.0)",
+        "+(21.0-22.0)",
+        "+(18.0-19.0)"
+      ]
+    },
+    {
+      "id": "Ghost_Blade_Einherjar%3A_Heroes_%28Noble%29",
+      "name": "幽刃英灵：群雄（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_GhostBladeSpirit_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Ghost_Blade_Einherjar_3A_Heroes__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(13.5-15.0)",
+        "+(12.0-13.0)",
+        "+(10.5-11.5)"
+      ]
+    },
+    {
+      "id": "Groundshaker%3A_Collapse_%28Noble%29",
+      "name": "震撼大地：陷落（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_EarthShock_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Groundshaker_3A_Collapse__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(60-70)",
+        "+(40-50)",
+        "+(20-30)"
+      ]
+    },
+    {
+      "id": "Groundshaker%3A_Cripple_%28Noble%29",
+      "name": "震撼大地：致残（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_EarthShock_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Groundshaker_3A_Cripple__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(48-53)",
+        "+(44-46)",
+        "+(40-42)"
+      ]
+    },
+    {
+      "id": "Groundshaker%3A_Wrathful_Vault_%28Noble%29",
+      "name": "震撼大地：暴跳（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_EarthShock_support05_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Groundshaker_3A_Wrathful_Vault__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(26-28)",
+        "+(20-22)",
+        "+(16-18)"
+      ]
+    },
+    {
+      "id": "Howling_Gale%3A_Furious_Sweep_%28Noble%29",
+      "name": "呼啸烈风：怒卷（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Tornado_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Howling_Gale_3A_Furious_Sweep__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(8-8.4)",
+        "+(7.2-7.6)",
+        "+(6.5-6.8)"
+      ]
+    },
+    {
+      "id": "Howling_Gale%3A_Eye_of_the_Gale_%28Noble%29",
+      "name": "呼啸烈风：风眼（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Tornado_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Howling_Gale_3A_Eye_of_the_Gale__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+20",
+        "+20",
+        "+20"
+      ]
+    },
+    {
+      "id": "Shackles_of_Malice%3A_Mutual_Destruction_%28Noble%29",
+      "name": "恶意枷锁：俱损（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_EvilChain_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Shackles_of_Malice_3A_Mutual_Destruction__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(23-26)",
+        "(21-22)",
+        "(19-20)"
+      ]
+    },
+    {
+      "id": "Shackles_of_Malice%3A_Spite_%28Noble%29",
+      "name": "恶意枷锁：咒怨（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_EvilChain_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Shackles_of_Malice_3A_Spite__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(10.0-12.0)",
+        "+(9.0-9.5)",
+        "+(8.0-8.5)"
+      ]
+    },
+    {
+      "id": "Mind_Control%3A_Enthrall_%28Noble%29",
+      "name": "摄念夺识：勾魂（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_LifeLeech_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Mind_Control_3A_Enthrall__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(15-17)",
+        "+(13-14)",
+        "+(11-12)"
+      ]
+    },
+    {
+      "id": "Mind_Control%3A_Entice_%28Noble%29",
+      "name": "摄念夺识：诱导（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_LifeLeech_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Mind_Control_3A_Entice__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(37-41)",
+        "+(33-35)",
+        "+(29-31)"
+      ]
+    },
+    {
+      "id": "Fire_Burst%3A_Prairie_Fire_%28Noble%29",
+      "name": "爆炎术：燎原（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FireBlast_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Fire_Burst_3A_Prairie_Fire__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(20.0-22.0)",
+        "+(17.5-18.5)",
+        "+(15.0-16.0)"
+      ]
+    },
+    {
+      "id": "Fire_Burst%3A_Converge_%28Noble%29",
+      "name": "爆炎术：聚顶（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FireBlast_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Fire_Burst_3A_Converge__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-25.0--23.0)",
+        "(-27.0--26.0)",
+        "(-29.0--28.0)"
+      ]
+    },
+    {
+      "id": "Icebound_Beam%3A_Chilling_Spike_%28Noble%29",
+      "name": "冰魄射线：凌刺（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_IceRay_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Icebound_Beam_3A_Chilling_Spike__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(1-4)",
+        "(-2--1)",
+        "(-5--3)"
+      ]
+    },
+    {
+      "id": "Icebound_Beam%3A_Ring_Blade_%28Noble%29",
+      "name": "冰魄射线：环刃（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_IceRay_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Icebound_Beam_3A_Ring_Blade__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(12-15)",
+        "+(8-10)",
+        "+(6-7)"
+      ]
+    },
+    {
+      "id": "Scorching_Beam%3A_Disintegrate_%28Noble%29",
+      "name": "灼热射线：寸断（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FireRay_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Scorching_Beam_3A_Disintegrate__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(24-26)",
+        "+(21-22)",
+        "+(19-20)"
+      ]
+    },
+    {
+      "id": "Scorching_Beam%3A_Immolate_%28Noble%29",
+      "name": "灼热射线：焚身（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FireRay_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Scorching_Beam_3A_Immolate__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(10-16)",
+        "+(5-7)",
+        "+(1-3)"
+      ]
+    },
+    {
+      "id": "Thunder_Core%3A_Lightning_Lasso_%28Noble%29",
+      "name": "雷降之核：电索（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ThunderCore_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Thunder_Core_3A_Lightning_Lasso__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(5-6)",
+        "(3-4)",
+        "(1-2)"
+      ]
+    },
+    {
+      "id": "Thunder_Core%3A_Augmentation_%28Noble%29",
+      "name": "雷降之核：增幅（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ThunderCore_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Thunder_Core_3A_Augmentation__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(8.5-9)",
+        "+(7.5-8)",
+        "+(6.5-7)"
+      ]
+    },
+    {
+      "id": "Path_of_Flames%3A_Heat_Wave_%28Noble%29",
+      "name": "烈焰之径：热浪（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FlameRoad_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Path_of_Flames_3A_Heat_Wave__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(69-88)",
+        "(59-66)",
+        "(49-55)"
+      ]
+    },
+    {
+      "id": "Path_of_Flames%3A_Raging_Boil_%28Noble%29",
+      "name": "烈焰之径：沸腾（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FlameRoad_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Path_of_Flames_3A_Raging_Boil__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(9.0-10.0)",
+        "+(8.0-8.5)",
+        "+(7.0-7.5)"
+      ]
+    },
+    {
+      "id": "Thundercloud%3A_Heavy_Cloud_%28Noble%29",
+      "name": "雷云放射：重云（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Nimbus_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Thundercloud_3A_Heavy_Cloud__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-32--28)",
+        "(-34--33)",
+        "(-36--35)"
+      ]
+    },
+    {
+      "id": "Thundercloud%3A_Thunderous_Blow_%28Noble%29",
+      "name": "雷云放射：轰顶（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Nimbus_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Thundercloud_3A_Thunderous_Blow__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(37-41)",
+        "+(33-35)",
+        "+(29-31)"
+      ]
+    },
+    {
+      "id": "Summon_Rock_Magus%3A_Stone_Refinement_%28Noble%29",
+      "name": "召唤磐石之灵：炼石（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonRockElement_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Summon_Rock_Magus_3A_Stone_Refinement__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "75",
+        "75",
+        "75"
+      ]
+    },
+    {
+      "id": "Summon_Erosion_Magus%3A_Malignant_%28Noble%29",
+      "name": "召唤腐化之灵：恶变（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonRotElement_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Summon_Erosion_Magus_3A_Malignant__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-20.0--18.0)",
+        "(-23.0--21.0)",
+        "(-26.0--24.0)"
+      ]
+    },
+    {
+      "id": "Summon_Erosion_Magus%3A_Malady_%28Noble%29",
+      "name": "召唤腐化之灵：疾患（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_SummonRotElement_support05_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Summon_Erosion_Magus_3A_Malady__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(24-30)",
+        "+(20-22)",
+        "+(17-19)"
+      ]
+    },
+    {
+      "id": "Double_Thrusts%3A_Recourse_%28Noble%29",
+      "name": "双重突刺：追偿（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_DoubleStab_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Double_Thrusts_3A_Recourse__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(680-750)",
+        "+(620-660)",
+        "+(560-600)"
+      ]
+    },
+    {
+      "id": "Lightning_Beam%3A_Reverberation_%28Noble%29",
+      "name": "雷暴射线：回响（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ThunderstormRay_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Lightning_Beam_3A_Reverberation__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-12.0--9.0)",
+        "(-15.0--13.0)",
+        "(-17.0--16.0)"
+      ]
+    },
+    {
+      "id": "Lightning_Beam%3A_Salvo_%28Noble%29",
+      "name": "雷暴射线：排射（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ThunderstormRay_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Lightning_Beam_3A_Salvo__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(58-62)",
+        "+(53-55)",
+        "+(48-50)"
+      ]
+    },
+    {
+      "id": "Wilting_Beam%3A_Set_Course_%28Noble%29",
+      "name": "枯萎射线：定轨（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ChaosRay_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Wilting_Beam_3A_Set_Course__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(75-80)",
+        "+(70-73)",
+        "+(65-68)"
+      ]
+    },
+    {
+      "id": "Wilting_Beam%3A_Rapid_Completion_%28Noble%29",
+      "name": "枯萎射线：速成（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ChaosRay_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Wilting_Beam_3A_Rapid_Completion__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(27.0-28.0)",
+        "+(25.5-26.0)",
+        "+(24.5-25.0)"
+      ]
+    },
+    {
+      "id": "Electrifying_Shot%3A_Multishot_%28Noble%29",
+      "name": "电光弹：散射（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_LightningBullet_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Electrifying_Shot_3A_Multishot__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-12--10)",
+        "(-15--13)",
+        "(-18--16)"
+      ]
+    },
+    {
+      "id": "Marked_Rain_of_Arrows%3A_Rainfall_%28Noble%29",
+      "name": "标记箭雨：沐雨（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_MarkerArrow_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Marked_Rain_of_Arrows_3A_Rainfall__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(120-128)",
+        "+(113-116)",
+        "+(107-110)"
+      ]
+    },
+    {
+      "id": "Haunting_Abomination%3A_Hail_Mary_%28Noble%29",
+      "name": "恶煞缠身：孤注（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Doom_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Haunting_Abomination_3A_Hail_Mary__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(50-55)",
+        "+(46-48)",
+        "+(42-44)"
+      ]
+    },
+    {
+      "id": "Haunting_Abomination%3A_Depravity_%28Noble%29",
+      "name": "恶煞缠身：万恶（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_Doom_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Haunting_Abomination_3A_Depravity__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(37-41)",
+        "+(33-35)",
+        "+(29-31)"
+      ]
+    },
+    {
+      "id": "Thunder_Focus%3A_Tremor_%28Noble%29",
+      "name": "雷霆贯注：惊颤（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ThunderBless_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Thunder_Focus_3A_Tremor__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-9--5)",
+        "(-12--10)",
+        "(-15--13)"
+      ]
+    },
+    {
+      "id": "Thunder_Focus%3A_Overflow_%28Noble%29",
+      "name": "雷霆贯注：充溢（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ThunderBless_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "闪电"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Thunder_Focus_3A_Overflow__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(4.0-7.0)",
+        "+(1.0-3.0)",
+        "(-3.0--1.0)"
+      ]
+    },
+    {
+      "id": "Flame_Focus%3A_Blast_%28Noble%29",
+      "name": "熔火贯注：轰燃（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FireBless_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Flame_Focus_3A_Blast__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(37-41)",
+        "+(33-35)",
+        "+(29-31)"
+      ]
+    },
+    {
+      "id": "Corrosion_Focus%3A_Splash_%28Noble%29",
+      "name": "侵蚀贯注：溅射（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ChaosBless_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "腐蚀"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Corrosion_Focus_3A_Splash__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(2-10)",
+        "(-5--2)",
+        "(-11--8)"
+      ]
+    },
+    {
+      "id": "Ice_Focus%3A_Frigid_Wind_%28Noble%29",
+      "name": "寒冰贯注：寒风（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_IceBless_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Ice_Focus_3A_Frigid_Wind__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-40--30)",
+        "(-50--41)",
+        "(-60--51)"
+      ]
+    },
+    {
+      "id": "Ice_Focus%3A_Solemn_Chill_%28Noble%29",
+      "name": "寒冰贯注：肃凛（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_IceBless_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "冰冷"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Ice_Focus_3A_Solemn_Chill__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(29-40)",
+        "+(21-28)",
+        "+(17-20)"
+      ]
+    },
+    {
+      "id": "Acuteness_Focus%3A_Dull_Pain_%28Noble%29",
+      "name": "锐利贯注：钝痛（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_PhysicalBless_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Acuteness_Focus_3A_Dull_Pain__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(46-50)",
+        "+(42-44)",
+        "+(37-39)"
+      ]
+    },
+    {
+      "id": "Acuteness_Focus%3A_Remaining_Strength_%28Noble%29",
+      "name": "锐利贯注：余力（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_PhysicalBless_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Acuteness_Focus_3A_Remaining_Strength__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(3.6-4.0)",
+        "(3.2-3.4)",
+        "(2.8-3.0)"
+      ]
+    },
+    {
+      "id": "Crescent_Slash%3A_Flash_%28Noble%29",
+      "name": "碎月弧光斩：神速（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ArcSlash_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Crescent_Slash_3A_Flash__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-9--5)",
+        "(-11--10)",
+        "(-13--12)"
+      ]
+    },
+    {
+      "id": "Crescent_Slash%3A_Rising_%28Noble%29",
+      "name": "碎月弧光斩：提刀（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_ArcSlash_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Crescent_Slash_3A_Rising__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-37.5--35.5)",
+        "(-39.5--38.5)",
+        "(-41.5--40.5)"
+      ]
+    },
+    {
+      "id": "Serpent_Beam%3A_Torrent_%28Noble%29",
+      "name": "流焰炎蛇引：涌流（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FlameSerpent_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Serpent_Beam_3A_Torrent__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-24.0--20.0)",
+        "(-27.0--25.0)",
+        "(-30.0--28.0)"
+      ]
+    },
+    {
+      "id": "Serpent_Beam%3A_Twin_Blaze_%28Noble%29",
+      "name": "流焰炎蛇引：双杰（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_FlameSerpent_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "火焰"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Serpent_Beam_3A_Twin_Blaze__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-15--13)",
+        "(-18--17)",
+        "(-20--19)"
+      ]
+    },
+    {
+      "id": "Gale_Slash%3A_Soaring_%28Noble%29",
+      "name": "疾风裂地斩：腾跃（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_WindSlash_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Gale_Slash_3A_Soaring__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "(-13.0--10.0)",
+        "(-15.0--14.0)",
+        "(-17.0--16.0)"
+      ]
+    },
+    {
+      "id": "Gale_Slash%3A_Brutality_%28Noble%29",
+      "name": "疾风裂地斩：凶暴（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_WindSlash_support04_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Gale_Slash_3A_Brutality__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(8.4-9.0)",
+        "+(7.7-8.0)",
+        "+(7.0-7.3)"
+      ]
+    },
+    {
+      "id": "Spectral_Slash%3A_Legion_%28Noble%29",
+      "name": "分身灵爆斩：群英（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_PhantomSlash_support02_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Spectral_Slash_3A_Legion__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(13-17)",
+        "+(10-12)",
+        "+(7-9)"
+      ]
+    },
+    {
+      "id": "Spectral_Slash%3A_Synchrony_%28Noble%29",
+      "name": "分身灵爆斩：齐同（崇高）",
+      "iconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/Skill/CommonSkill/128/UI_Skill_PhantomSlash_support03_Icon_128.webp",
+      "tags": [
+        "辅助",
+        "物理"
+      ],
+      "localIconUrl": "/assets/skills/support/noble/Spectral_Slash_3A_Synchrony__28Noble_29.webp",
+      "statRows": [
+        {
+          "label": "魔力消耗倍率",
+          "value": "110.0%"
+        }
+      ],
+      "supportDamageBonusByTier": [
+        "+(33-37)",
+        "+(30-32)",
+        "+(26-28)"
+      ]
+    }
+  ]
+}

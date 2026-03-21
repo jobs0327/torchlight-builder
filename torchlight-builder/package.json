@@ -7,7 +7,13 @@
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
-    "sync:active-skill-tags": "python ../run_data_tasks.py active-skill-tags"
+    "sync:active-skill-tags": "python ../run_data_tasks.py active-skill-tags",
+    "sync:support-skill-tags": "python ../run_data_tasks.py support-skill-tags",
+    "sync:noble-support-skill-tags": "python ../run_data_tasks.py noble-support-skill-tags",
+    "sync:magnificent-support-skill-tags": "python ../run_data_tasks.py magnificent-support-skill-tags",
+    "sync:passive-skill-tags": "python ../run_data_tasks.py passive-skill-tags",
+    "sync:skill-page-stats": "python ../run_data_tasks.py skill-page-stats",
+    "sync:exclusive-support-stats": "python ../run_data_tasks.py exclusive-support-stats"
   },
   "dependencies": {
     "vue": "^3.4.0",
