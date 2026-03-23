@@ -1,0 +1,190 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "Two-Handed_Hammer",
+  "categoryLabel": "Two-Handed Hammer",
+  "sourceUrl": "https://tlidb.com/cn/Two-Handed_Hammer",
+  "fetchedAt": "2026-03-22T11:45:14Z",
+  "baseCount": 20,
+  "bases": [
+    {
+      "id": "Crude_Iron_Maul",
+      "name": "粗铁重锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Crude_Iron_Maul.webp",
+      "iconAlt": "IconEquipWeapon2HMaceNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HMace_Norm_001_128.webp"
+    },
+    {
+      "id": "Hardrock_Mallet",
+      "name": "坚岩巨锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Hardrock_Mallet.webp",
+      "iconAlt": "IconEquipWeapon2HMaceNorm002128",
+      "requiredLevel": 2,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HMace_Norm_002_128.webp"
+    },
+    {
+      "id": "Iron_Maul",
+      "name": "精铁重锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Iron_Maul.webp",
+      "iconAlt": "IconEquipWeapon2HMaceNorm003128",
+      "requiredLevel": 4,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HMace_Norm_003_128.webp"
+    },
+    {
+      "id": "Icefrost_Mallet",
+      "name": "冰霜巨锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Icefrost_Mallet.webp",
+      "iconAlt": "IconEquipWeapon2HMaceNorm004128",
+      "requiredLevel": 9,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HMace_Norm_004_128.webp"
+    },
+    {
+      "id": "Beastfang_Mallet",
+      "name": "兽牙巨锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Beastfang_Mallet.webp",
+      "iconAlt": "IconEquipWeapon2HMaceNorm005128",
+      "requiredLevel": 14,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HMace_Norm_005_128.webp"
+    },
+    {
+      "id": "Scarlet_Maul",
+      "name": "猩红重锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Scarlet_Maul.webp",
+      "iconAlt": "IconEquipWeapon2HMaceNorm001128",
+      "requiredLevel": 19,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HMace_Norm_001_128.webp"
+    },
+    {
+      "id": "Lonewolf_Maul",
+      "name": "孤狼重锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Lonewolf_Maul.webp",
+      "iconAlt": "IconEquipWeapon2HMaceNorm002128",
+      "requiredLevel": 24,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HMace_Norm_002_128.webp"
+    },
+    {
+      "id": "Valagon_Mallet",
+      "name": "瓦拉岗巨锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Valagon_Mallet.webp",
+      "iconAlt": "IconEquipWeapon2HMaceNorm003128",
+      "requiredLevel": 29,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HMace_Norm_003_128.webp"
+    },
+    {
+      "id": "Crushing_Mallet",
+      "name": "粉碎巨锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Crushing_Mallet.webp",
+      "iconAlt": "IconEquipWeapon2HMaceNorm004128",
+      "requiredLevel": 34,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HMace_Norm_004_128.webp"
+    },
+    {
+      "id": "Devastating_Mallet",
+      "name": "毁灭巨锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Devastating_Mallet.webp",
+      "iconAlt": "IconEquipWeapon2HMaceNorm005128",
+      "requiredLevel": 39,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HMace_Norm_005_128.webp"
+    },
+    {
+      "id": "Doomsday_Maul",
+      "name": "末日重锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Doomsday_Maul.webp",
+      "iconAlt": "IconEquipWeapon2HMaceNorm001128",
+      "requiredLevel": 44,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HMace_Norm_001_128.webp"
+    },
+    {
+      "id": "Conflict_Maul",
+      "name": "战争重锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Conflict_Maul.webp",
+      "iconAlt": "IconEquipWeapon2HMaceNorm002128",
+      "requiredLevel": 49,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HMace_Norm_002_128.webp"
+    },
+    {
+      "id": "Vindicator_Maul",
+      "name": "裁决重锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Vindicator_Maul.webp",
+      "iconAlt": "IconEquipWeapon2HMaceNorm003128",
+      "requiredLevel": 54,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HMace_Norm_003_128.webp"
+    },
+    {
+      "id": "Vanquisher_Mallet",
+      "name": "扫荡巨锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Vanquisher_Mallet.webp",
+      "iconAlt": "IconEquipWeapon2HMaceNorm004128",
+      "requiredLevel": 59,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HMace_Norm_004_128.webp"
+    },
+    {
+      "id": "Platinum_Mallet",
+      "name": "白金巨锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Platinum_Mallet.webp",
+      "iconAlt": "IconEquipWeapon2HMaceNorm005128",
+      "requiredLevel": 64,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HMace_Norm_005_128.webp"
+    },
+    {
+      "id": "Lava_Maul",
+      "name": "熔岩重锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Lava_Maul.webp",
+      "iconAlt": "IconEquipWeapon2HMaceNorm001128",
+      "requiredLevel": 68,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HMace_Norm_001_128.webp"
+    },
+    {
+      "id": "Crumbling_Maul",
+      "name": "崩山重锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Crumbling_Maul.webp",
+      "iconAlt": "IconEquipWeapon2HMaceNorm005128",
+      "requiredLevel": 72,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HMace_Norm_005_128.webp"
+    },
+    {
+      "id": "Destroyer_Mallet",
+      "name": "毁灭者巨锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Destroyer_Mallet.webp",
+      "iconAlt": "IconEquipWeapon2HMaceNorm001128",
+      "requiredLevel": 82,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HMace_Norm_001_128.webp"
+    },
+    {
+      "id": "Forger's_Maul",
+      "name": "锻神者重锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Forger_s_Maul.webp",
+      "iconAlt": "IconEquipWeapon2HMaceNorm001128",
+      "requiredLevel": 84,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HMace_Norm_001_128.webp"
+    },
+    {
+      "id": "Sierra_Reverberation_Maul",
+      "name": "群山回响重锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Sierra_Reverberation_Maul.webp",
+      "iconAlt": "IconEquipWeapon2HMaceNorm001128",
+      "requiredLevel": 86,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HMace_Norm_001_128.webp"
+    }
+  ]
+}

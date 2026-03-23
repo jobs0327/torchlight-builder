@@ -1,0 +1,190 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "Scepter",
+  "categoryLabel": "Scepter",
+  "sourceUrl": "https://tlidb.com/cn/Scepter",
+  "fetchedAt": "2026-03-22T11:44:47Z",
+  "baseCount": 20,
+  "bases": [
+    {
+      "id": "Withering_Scepter",
+      "name": "枯叶魔杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Withering_Scepter.webp",
+      "iconAlt": "IconEquipWeaponWandNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
+    },
+    {
+      "id": "Marsh_Scepter",
+      "name": "沼泽魔杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Marsh_Scepter.webp",
+      "iconAlt": "IconEquipWeaponWandNorm002128",
+      "requiredLevel": 2,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_002_128.webp"
+    },
+    {
+      "id": "Barren_Scepter",
+      "name": "荒原魔杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Barren_Scepter.webp",
+      "iconAlt": "IconEquipWeaponWandNorm003128",
+      "requiredLevel": 4,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_003_128.webp"
+    },
+    {
+      "id": "Lamentation_Scepter",
+      "name": "叹息魔杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Lamentation_Scepter.webp",
+      "iconAlt": "IconEquipWeaponWandNorm004128",
+      "requiredLevel": 9,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_004_128.webp"
+    },
+    {
+      "id": "Disorientation_Scepter",
+      "name": "迷失魔杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Disorientation_Scepter.webp",
+      "iconAlt": "IconEquipWeaponWandNorm005128",
+      "requiredLevel": 14,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_005_128.webp"
+    },
+    {
+      "id": "High_Tower_Scepter",
+      "name": "高塔魔杖",
+      "iconUrl": "/assets/equipment/crafted-bases/High_Tower_Scepter.webp",
+      "iconAlt": "IconEquipWeaponWandNorm001128",
+      "requiredLevel": 19,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
+    },
+    {
+      "id": "Hanging_Scepter",
+      "name": "倒吊魔杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Hanging_Scepter.webp",
+      "iconAlt": "IconEquipWeaponWandNorm002128",
+      "requiredLevel": 24,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_002_128.webp"
+    },
+    {
+      "id": "Eternal_Night_Scepter",
+      "name": "永夜魔杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Eternal_Night_Scepter.webp",
+      "iconAlt": "IconEquipWeaponWandNorm003128",
+      "requiredLevel": 29,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_003_128.webp"
+    },
+    {
+      "id": "Red_Rain_Scepter",
+      "name": "红雨魔杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Red_Rain_Scepter.webp",
+      "iconAlt": "IconEquipWeaponWandNorm004128",
+      "requiredLevel": 34,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_004_128.webp"
+    },
+    {
+      "id": "Stigmata_Scepter",
+      "name": "圣痕魔杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Stigmata_Scepter.webp",
+      "iconAlt": "IconEquipWeaponWandNorm005128",
+      "requiredLevel": 39,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_005_128.webp"
+    },
+    {
+      "id": "Deception_Scepter",
+      "name": "谎言魔杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Deception_Scepter.webp",
+      "iconAlt": "IconEquipWeaponWandNorm001128",
+      "requiredLevel": 44,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
+    },
+    {
+      "id": "Sorrow_Scepter",
+      "name": "悲恸魔杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Sorrow_Scepter.webp",
+      "iconAlt": "IconEquipWeaponWandNorm005128",
+      "requiredLevel": 49,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_005_128.webp"
+    },
+    {
+      "id": "Agony_Scepter",
+      "name": "苦痛魔杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Agony_Scepter.webp",
+      "iconAlt": "IconEquipWeaponWandNorm001128",
+      "requiredLevel": 54,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
+    },
+    {
+      "id": "Rotten_Scepter",
+      "name": "腐坏魔杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Rotten_Scepter.webp",
+      "iconAlt": "IconEquipWeaponWandNorm002128",
+      "requiredLevel": 59,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_002_128.webp"
+    },
+    {
+      "id": "Spiral_Scepter",
+      "name": "螺旋魔杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Spiral_Scepter.webp",
+      "iconAlt": "IconEquipWeaponWandNorm003128",
+      "requiredLevel": 64,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_003_128.webp"
+    },
+    {
+      "id": "Judgment_Scepter",
+      "name": "审判魔杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Judgment_Scepter.webp",
+      "iconAlt": "IconEquipWeaponWandNorm004128",
+      "requiredLevel": 68,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_004_128.webp"
+    },
+    {
+      "id": "Reflux_Scepter",
+      "name": "逆流魔杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Reflux_Scepter.webp",
+      "iconAlt": "IconEquipWeaponWandNorm005128",
+      "requiredLevel": 72,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_005_128.webp"
+    },
+    {
+      "id": "Trickster_Scepter",
+      "name": "诡术师魔杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Trickster_Scepter.webp",
+      "iconAlt": "IconEquipWeaponWandNorm001128",
+      "requiredLevel": 82,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
+    },
+    {
+      "id": "Thorn_Sea_Scepter",
+      "name": "荆棘海魔杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Thorn_Sea_Scepter.webp",
+      "iconAlt": "IconEquipWeaponWandNorm001128",
+      "requiredLevel": 84,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
+    },
+    {
+      "id": "Dark_Gaze_Scepter",
+      "name": "暗域凝视魔杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Dark_Gaze_Scepter.webp",
+      "iconAlt": "IconEquipWeaponWandNorm001128",
+      "requiredLevel": 86,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
+    }
+  ]
+}

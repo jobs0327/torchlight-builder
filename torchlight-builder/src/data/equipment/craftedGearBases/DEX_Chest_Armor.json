@@ -1,0 +1,118 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "DEX_Chest_Armor",
+  "categoryLabel": "DEX Chest Armor",
+  "sourceUrl": "https://tlidb.com/cn/DEX_Chest_Armor",
+  "fetchedAt": "2026-03-22T11:43:23Z",
+  "baseCount": 12,
+  "bases": [
+    {
+      "id": "Rogue_Outerwear",
+      "name": "游荡者外套",
+      "iconUrl": "/assets/equipment/crafted-bases/Rogue_Outerwear.webp",
+      "iconAlt": "IconEquipArmorAgiNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Agi_Norm_001_128.webp"
+    },
+    {
+      "id": "Scout's_Tight_Vest",
+      "name": "斥候紧身衣",
+      "iconUrl": "/assets/equipment/crafted-bases/Scout_s_Tight_Vest.webp",
+      "iconAlt": "IconEquipArmorAgiNorm002128",
+      "requiredLevel": 1,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Agi_Norm_002_128.webp"
+    },
+    {
+      "id": "Skirmisher_Outerwear",
+      "name": "散兵外套",
+      "iconUrl": "/assets/equipment/crafted-bases/Skirmisher_Outerwear.webp",
+      "iconAlt": "IconEquipArmorAgiNorm003128",
+      "requiredLevel": 9,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Agi_Norm_003_128.webp"
+    },
+    {
+      "id": "Hunter's_Chestguard",
+      "name": "猎手护胸",
+      "iconUrl": "/assets/equipment/crafted-bases/Hunter_s_Chestguard.webp",
+      "iconAlt": "IconEquipArmorAgiNorm004128",
+      "requiredLevel": 24,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Agi_Norm_004_128.webp"
+    },
+    {
+      "id": "Prospector_Outerwear",
+      "name": "勘探者外套",
+      "iconUrl": "/assets/equipment/crafted-bases/Prospector_Outerwear.webp",
+      "iconAlt": "IconEquipArmorAgiNorm00101128",
+      "requiredLevel": 39,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Agi_Norm_001_01_128.webp"
+    },
+    {
+      "id": "Wild_Dominator_Outerwear",
+      "name": "荒野主宰外套",
+      "iconUrl": "/assets/equipment/crafted-bases/Wild_Dominator_Outerwear.webp",
+      "iconAlt": "IconEquipArmorAgiNorm00201128",
+      "requiredLevel": 52,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Agi_Norm_002_01_128.webp"
+    },
+    {
+      "id": "Grand_Explorer_Outerwear",
+      "name": "大探险家外套",
+      "iconUrl": "/assets/equipment/crafted-bases/Grand_Explorer_Outerwear.webp",
+      "iconAlt": "IconEquipArmorAgiNorm00301128",
+      "requiredLevel": 57,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Agi_Norm_003_01_128.webp"
+    },
+    {
+      "id": "Watcher's_Chest_Armor",
+      "name": "监视者胸甲",
+      "iconUrl": "/assets/equipment/crafted-bases/Watcher_s_Chest_Armor.webp",
+      "iconAlt": "IconEquipArmorAgiNorm00401128",
+      "requiredLevel": 62,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Agi_Norm_004_01_128.webp"
+    },
+    {
+      "id": "Eternal_Night_Stalker's_Chestguard",
+      "name": "永夜追猎者护胸",
+      "iconUrl": "/assets/equipment/crafted-bases/Eternal_Night_Stalker_s_Chestguard.webp",
+      "iconAlt": "IconEquipArmorAgiNorm00102128",
+      "requiredLevel": 66,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Agi_Norm_001_02_128.webp"
+    },
+    {
+      "id": "Sanctuary_of_Calamity",
+      "name": "灾厄庇护",
+      "iconUrl": "/assets/equipment/crafted-bases/Sanctuary_of_Calamity.webp",
+      "iconAlt": "IconEquipArmorAgiNorm00202128",
+      "requiredLevel": 70,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Agi_Norm_002_02_128.webp"
+    },
+    {
+      "id": "Demon_Slayer's_Skin",
+      "name": "除魔者之肤",
+      "iconUrl": "/assets/equipment/crafted-bases/Demon_Slayer_s_Skin.webp",
+      "iconAlt": "IconEquipArmorAgiNorm00302128",
+      "requiredLevel": 76,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Agi_Norm_003_02_128.webp"
+    },
+    {
+      "id": "Secret_Shadow's_Protection",
+      "name": "秘影庇护",
+      "iconUrl": "/assets/equipment/crafted-bases/Secret_Shadow_s_Protection.webp",
+      "iconAlt": "IconEquipArmorAgiNorm00402128",
+      "requiredLevel": 82,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Agi_Norm_004_02_128.webp"
+    }
+  ]
+}

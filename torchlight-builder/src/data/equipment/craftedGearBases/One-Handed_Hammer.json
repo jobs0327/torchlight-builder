@@ -1,0 +1,190 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "One-Handed_Hammer",
+  "categoryLabel": "One-Handed Hammer",
+  "sourceUrl": "https://tlidb.com/cn/One-Handed_Hammer",
+  "fetchedAt": "2026-03-22T11:44:24Z",
+  "baseCount": 20,
+  "bases": [
+    {
+      "id": "Witherbark_Club",
+      "name": "枯木粗棒",
+      "iconUrl": "/assets/equipment/crafted-bases/Witherbark_Club.webp",
+      "iconAlt": "IconEquipWeapon1HMaceNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HMace_Norm_001_128.webp"
+    },
+    {
+      "id": "Mossy_Stone_Hammer",
+      "name": "青苔石锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Mossy_Stone_Hammer.webp",
+      "iconAlt": "IconEquipWeapon1HMaceNorm002128",
+      "requiredLevel": 2,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HMace_Norm_002_128.webp"
+    },
+    {
+      "id": "Rusted_Wooden_Hammer",
+      "name": "锈钉木锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Rusted_Wooden_Hammer.webp",
+      "iconAlt": "IconEquipWeapon1HMaceNorm003128",
+      "requiredLevel": 4,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HMace_Norm_003_128.webp"
+    },
+    {
+      "id": "Black_Iron_Maul",
+      "name": "黑铁重锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Black_Iron_Maul.webp",
+      "iconAlt": "IconEquipWeapon1HMaceNorm004128",
+      "requiredLevel": 9,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HMace_Norm_004_128.webp"
+    },
+    {
+      "id": "War_Hammer",
+      "name": "激战之锤",
+      "iconUrl": "/assets/equipment/crafted-bases/War_Hammer.webp",
+      "iconAlt": "IconEquipWeapon1HMaceNorm005128",
+      "requiredLevel": 14,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HMace_Norm_005_128.webp"
+    },
+    {
+      "id": "Oblivion_Maul",
+      "name": "湮灭重锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Oblivion_Maul.webp",
+      "iconAlt": "IconEquipWeapon1HMaceNorm001128",
+      "requiredLevel": 19,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HMace_Norm_001_128.webp"
+    },
+    {
+      "id": "Prayer_Hammer",
+      "name": "祷祝之锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Prayer_Hammer.webp",
+      "iconAlt": "IconEquipWeapon1HMaceNorm002128",
+      "requiredLevel": 24,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HMace_Norm_002_128.webp"
+    },
+    {
+      "id": "Nightmare_Hammer",
+      "name": "噩梦之锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Nightmare_Hammer.webp",
+      "iconAlt": "IconEquipWeapon1HMaceNorm003128",
+      "requiredLevel": 29,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HMace_Norm_003_128.webp"
+    },
+    {
+      "id": "Dragon's_Roar_Hammer",
+      "name": "龙鸣之锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Dragon_s_Roar_Hammer.webp",
+      "iconAlt": "IconEquipWeapon1HMaceNorm004128",
+      "requiredLevel": 34,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HMace_Norm_004_128.webp"
+    },
+    {
+      "id": "Tremor_Wooden_Hammer",
+      "name": "战栗木锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Tremor_Wooden_Hammer.webp",
+      "iconAlt": "IconEquipWeapon1HMaceNorm005128",
+      "requiredLevel": 39,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HMace_Norm_005_128.webp"
+    },
+    {
+      "id": "Thorny_Hammer",
+      "name": "荆棘之锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Thorny_Hammer.webp",
+      "iconAlt": "IconEquipWeapon1HMaceNorm001128",
+      "requiredLevel": 44,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HMace_Norm_001_128.webp"
+    },
+    {
+      "id": "Rocksplitter_Mallet",
+      "name": "碎岩巨锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Rocksplitter_Mallet.webp",
+      "iconAlt": "IconEquipWeapon1HMaceNorm002128",
+      "requiredLevel": 49,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HMace_Norm_002_128.webp"
+    },
+    {
+      "id": "Primeval_War_Hammer",
+      "name": "上古战锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Primeval_War_Hammer.webp",
+      "iconAlt": "IconEquipWeapon1HMaceNorm003128",
+      "requiredLevel": 54,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HMace_Norm_003_128.webp"
+    },
+    {
+      "id": "Nature_Wooden_Hammer",
+      "name": "生灵木锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Nature_Wooden_Hammer.webp",
+      "iconAlt": "IconEquipWeapon1HMaceNorm004128",
+      "requiredLevel": 59,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HMace_Norm_004_128.webp"
+    },
+    {
+      "id": "Redgold_Hammer",
+      "name": "赤金之锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Redgold_Hammer.webp",
+      "iconAlt": "IconEquipWeapon1HMaceNorm005128",
+      "requiredLevel": 64,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HMace_Norm_005_128.webp"
+    },
+    {
+      "id": "Twilight_Hammer",
+      "name": "暮色之锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Twilight_Hammer.webp",
+      "iconAlt": "IconEquipWeapon1HMaceNorm001128",
+      "requiredLevel": 68,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HMace_Norm_001_128.webp"
+    },
+    {
+      "id": "Quinn's_Hammer",
+      "name": "奎因之锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Quinn_s_Hammer.webp",
+      "iconAlt": "IconEquipWeapon1HMaceNorm005128",
+      "requiredLevel": 72,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HMace_Norm_005_128.webp"
+    },
+    {
+      "id": "General's_War_Hammer",
+      "name": "将军的战锤",
+      "iconUrl": "/assets/equipment/crafted-bases/General_s_War_Hammer.webp",
+      "iconAlt": "IconEquipWeapon1HMaceNorm001128",
+      "requiredLevel": 82,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HMace_Norm_001_128.webp"
+    },
+    {
+      "id": "Melted_Iron_Hammer",
+      "name": "熔化的铁锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Melted_Iron_Hammer.webp",
+      "iconAlt": "IconEquipWeapon1HMaceNorm001128",
+      "requiredLevel": 84,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HMace_Norm_001_128.webp"
+    },
+    {
+      "id": "Sierra_Forge_Light_Hammer",
+      "name": "群山熔铸轻锤",
+      "iconUrl": "/assets/equipment/crafted-bases/Sierra_Forge_Light_Hammer.webp",
+      "iconAlt": "IconEquipWeapon1HMaceNorm001128",
+      "requiredLevel": 86,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HMace_Norm_001_128.webp"
+    }
+  ]
+}

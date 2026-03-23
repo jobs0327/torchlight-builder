@@ -1,0 +1,190 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "Cudgel",
+  "categoryLabel": "Cudgel",
+  "sourceUrl": "https://tlidb.com/cn/Cudgel",
+  "fetchedAt": "2026-03-22T11:45:32Z",
+  "baseCount": 20,
+  "bases": [
+    {
+      "id": "Witherbark_Staff",
+      "name": "枯木长杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Witherbark_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_001_128.webp"
+    },
+    {
+      "id": "Cultivation_Iron_Staff",
+      "name": "修行铁杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Cultivation_Iron_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm002128",
+      "requiredLevel": 2,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_002_128.webp"
+    },
+    {
+      "id": "Thorny_Staff",
+      "name": "荆棘长杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Thorny_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm003128",
+      "requiredLevel": 4,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_003_128.webp"
+    },
+    {
+      "id": "Ascetic_Iron_Staff",
+      "name": "苦行铁杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Ascetic_Iron_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm004128",
+      "requiredLevel": 9,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_004_128.webp"
+    },
+    {
+      "id": "Dryad_Staff",
+      "name": "树灵长杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Dryad_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm005128",
+      "requiredLevel": 14,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_005_128.webp"
+    },
+    {
+      "id": "Confession_Iron_Staff",
+      "name": "忏罪铁杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Confession_Iron_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm001128",
+      "requiredLevel": 19,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_001_128.webp"
+    },
+    {
+      "id": "Broken_Mirror_Staff",
+      "name": "破镜之杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Broken_Mirror_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm002128",
+      "requiredLevel": 24,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_002_128.webp"
+    },
+    {
+      "id": "Ancestral_Staff",
+      "name": "先祖长杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Ancestral_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm003128",
+      "requiredLevel": 29,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_003_128.webp"
+    },
+    {
+      "id": "Authority_Iron_Staff",
+      "name": "威权铁杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Authority_Iron_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm004128",
+      "requiredLevel": 34,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_004_128.webp"
+    },
+    {
+      "id": "Flower_Staff",
+      "name": "万花长杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Flower_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm005128",
+      "requiredLevel": 39,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_005_128.webp"
+    },
+    {
+      "id": "Conviction_Iron_Staff",
+      "name": "断罪铁杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Conviction_Iron_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm001128",
+      "requiredLevel": 44,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_001_128.webp"
+    },
+    {
+      "id": "Sacred_Tree_Staff",
+      "name": "神木长杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Sacred_Tree_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm002128",
+      "requiredLevel": 49,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_002_128.webp"
+    },
+    {
+      "id": "Judge's_Iron_Staff",
+      "name": "圣裁铁杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Judge_s_Iron_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm003128",
+      "requiredLevel": 54,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_003_128.webp"
+    },
+    {
+      "id": "Perishing_Staff",
+      "name": "灭空之杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Perishing_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm004128",
+      "requiredLevel": 59,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_004_128.webp"
+    },
+    {
+      "id": "Esoteric_Cudgel",
+      "name": "秘传之武杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Esoteric_Cudgel.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm005128",
+      "requiredLevel": 64,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_005_128.webp"
+    },
+    {
+      "id": "Origin_Iron_Staff",
+      "name": "根源铁杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Origin_Iron_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm001128",
+      "requiredLevel": 68,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_001_128.webp"
+    },
+    {
+      "id": "Reincarnation_Iron_Staff",
+      "name": "轮回铁杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Reincarnation_Iron_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm005128",
+      "requiredLevel": 72,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_005_128.webp"
+    },
+    {
+      "id": "Absolver_Iron_Staff",
+      "name": "赦罪师铁杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Absolver_Iron_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm001128",
+      "requiredLevel": 82,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_001_128.webp"
+    },
+    {
+      "id": "Executive_Iron_Staff",
+      "name": "执行官铁杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Executive_Iron_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm001128",
+      "requiredLevel": 84,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_001_128.webp"
+    },
+    {
+      "id": "Last_Man's_Cudgel",
+      "name": "终末之人的武杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Last_Man_s_Cudgel.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm001128",
+      "requiredLevel": 86,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_001_128.webp"
+    }
+  ]
+}

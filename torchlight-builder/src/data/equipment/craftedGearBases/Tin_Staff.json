@@ -1,0 +1,190 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "Tin_Staff",
+  "categoryLabel": "Tin Staff",
+  "sourceUrl": "https://tlidb.com/cn/Tin_Staff",
+  "fetchedAt": "2026-03-22T11:45:23Z",
+  "baseCount": 20,
+  "bases": [
+    {
+      "id": "Withervine_Staff",
+      "name": "枯藤长杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Withervine_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_001_128.webp"
+    },
+    {
+      "id": "Bonewood_Staff",
+      "name": "骨木长杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Bonewood_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm002128",
+      "requiredLevel": 2,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_002_128.webp"
+    },
+    {
+      "id": "Ivory_Staff",
+      "name": "象牙长杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Ivory_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm003128",
+      "requiredLevel": 4,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_003_128.webp"
+    },
+    {
+      "id": "Iron_Staff",
+      "name": "精铁长杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Iron_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm004128",
+      "requiredLevel": 9,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_004_128.webp"
+    },
+    {
+      "id": "Viper_Staff",
+      "name": "蝮蛇长杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Viper_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm005128",
+      "requiredLevel": 14,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_005_128.webp"
+    },
+    {
+      "id": "Gilt_Staff",
+      "name": "鎏金长杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Gilt_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm001128",
+      "requiredLevel": 19,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_001_128.webp"
+    },
+    {
+      "id": "Flower_Sea_Staff",
+      "name": "花海长杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Flower_Sea_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm002128",
+      "requiredLevel": 24,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_002_128.webp"
+    },
+    {
+      "id": "Monkey_Staff",
+      "name": "灵猴长杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Monkey_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm003128",
+      "requiredLevel": 29,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_003_128.webp"
+    },
+    {
+      "id": "White_Crystal_Staff",
+      "name": "白晶长杖",
+      "iconUrl": "/assets/equipment/crafted-bases/White_Crystal_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm004128",
+      "requiredLevel": 34,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_004_128.webp"
+    },
+    {
+      "id": "Black_Feather_Staff",
+      "name": "黑羽长杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Black_Feather_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm005128",
+      "requiredLevel": 39,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_005_128.webp"
+    },
+    {
+      "id": "Twilight_Staff",
+      "name": "暮色长杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Twilight_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm001128",
+      "requiredLevel": 44,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_001_128.webp"
+    },
+    {
+      "id": "Voodoo_Staff",
+      "name": "巫灵长杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Voodoo_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm002128",
+      "requiredLevel": 49,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_002_128.webp"
+    },
+    {
+      "id": "Sage's_Staff",
+      "name": "贤者长杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Sage_s_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm003128",
+      "requiredLevel": 54,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_003_128.webp"
+    },
+    {
+      "id": "Devout_Staff",
+      "name": "虔诚长杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Devout_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm004128",
+      "requiredLevel": 59,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_004_128.webp"
+    },
+    {
+      "id": "Wind_God's_Staff",
+      "name": "风神长杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Wind_God_s_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm005128",
+      "requiredLevel": 64,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_005_128.webp"
+    },
+    {
+      "id": "Warden's_Staff",
+      "name": "狱卒长杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Warden_s_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm001128",
+      "requiredLevel": 68,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_001_128.webp"
+    },
+    {
+      "id": "Divinity_Staff",
+      "name": "神权长杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Divinity_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm005128",
+      "requiredLevel": 72,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_005_128.webp"
+    },
+    {
+      "id": "Southern_Cross_Staff",
+      "name": "南十字长杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Southern_Cross_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm001128",
+      "requiredLevel": 82,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_001_128.webp"
+    },
+    {
+      "id": "Centaur_Staff",
+      "name": "半人马长杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Centaur_Staff.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm001128",
+      "requiredLevel": 84,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_001_128.webp"
+    },
+    {
+      "id": "First_Man's_Scepter",
+      "name": "最初之人的权杖",
+      "iconUrl": "/assets/equipment/crafted-bases/First_Man_s_Scepter.webp",
+      "iconAlt": "IconEquipWeaponStaffNorm001128",
+      "requiredLevel": 86,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Staff_Norm_001_128.webp"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "Dagger",
+  "categoryLabel": "Dagger",
+  "sourceUrl": "https://tlidb.com/cn/Dagger",
+  "fetchedAt": "2026-03-22T11:44:12Z",
+  "baseCount": 20,
+  "bases": [
+    {
+      "id": "Thief_Short_Dagger",
+      "name": "窃贼短匕",
+      "iconUrl": "/assets/equipment/crafted-bases/Thief_Short_Dagger.webp",
+      "iconAlt": "IconEquipWeaponDaggerNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Dagger_Norm_001_128.webp"
+    },
+    {
+      "id": "Rusted_Dagger",
+      "name": "锈斑匕首",
+      "iconUrl": "/assets/equipment/crafted-bases/Rusted_Dagger.webp",
+      "iconAlt": "IconEquipWeaponDaggerNorm002128",
+      "requiredLevel": 2,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Dagger_Norm_002_128.webp"
+    },
+    {
+      "id": "Slaughter_Short_Dagger",
+      "name": "暗卫短匕",
+      "iconUrl": "/assets/equipment/crafted-bases/Slaughter_Short_Dagger.webp",
+      "iconAlt": "IconEquipWeaponDaggerNorm003128",
+      "requiredLevel": 4,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Dagger_Norm_003_128.webp"
+    },
+    {
+      "id": "Poisoned_Dagger",
+      "name": "镀铅匕首",
+      "iconUrl": "/assets/equipment/crafted-bases/Poisoned_Dagger.webp",
+      "iconAlt": "IconEquipWeaponDaggerNorm004128",
+      "requiredLevel": 9,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Dagger_Norm_004_128.webp"
+    },
+    {
+      "id": "Assassin_Short_Dagger",
+      "name": "刺客短匕",
+      "iconUrl": "/assets/equipment/crafted-bases/Assassin_Short_Dagger.webp",
+      "iconAlt": "IconEquipWeaponDaggerNorm005128",
+      "requiredLevel": 14,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Dagger_Norm_005_128.webp"
+    },
+    {
+      "id": "Voodoo_Dagger",
+      "name": "阴蛊匕首",
+      "iconUrl": "/assets/equipment/crafted-bases/Voodoo_Dagger.webp",
+      "iconAlt": "IconEquipWeaponDaggerNorm001128",
+      "requiredLevel": 19,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Dagger_Norm_001_128.webp"
+    },
+    {
+      "id": "Resentment_Dirk",
+      "name": "幽怨长匕",
+      "iconUrl": "/assets/equipment/crafted-bases/Resentment_Dirk.webp",
+      "iconAlt": "IconEquipWeaponDaggerNorm002128",
+      "requiredLevel": 24,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Dagger_Norm_002_128.webp"
+    },
+    {
+      "id": "Violence_Short_Dagger",
+      "name": "凶行短匕",
+      "iconUrl": "/assets/equipment/crafted-bases/Violence_Short_Dagger.webp",
+      "iconAlt": "IconEquipWeaponDaggerNorm003128",
+      "requiredLevel": 29,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Dagger_Norm_003_128.webp"
+    },
+    {
+      "id": "Nightshade_Dagger",
+      "name": "夜瘴匕首",
+      "iconUrl": "/assets/equipment/crafted-bases/Nightshade_Dagger.webp",
+      "iconAlt": "IconEquipWeaponDaggerNorm004128",
+      "requiredLevel": 34,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Dagger_Norm_004_128.webp"
+    },
+    {
+      "id": "Kingslayer_Short_Dagger",
+      "name": "弑君短匕",
+      "iconUrl": "/assets/equipment/crafted-bases/Kingslayer_Short_Dagger.webp",
+      "iconAlt": "IconEquipWeaponDaggerNorm005128",
+      "requiredLevel": 39,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Dagger_Norm_005_128.webp"
+    },
+    {
+      "id": "Cursed_Dagger",
+      "name": "受诅匕首",
+      "iconUrl": "/assets/equipment/crafted-bases/Cursed_Dagger.webp",
+      "iconAlt": "IconEquipWeaponDaggerNorm001128",
+      "requiredLevel": 44,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Dagger_Norm_001_128.webp"
+    },
+    {
+      "id": "Godslaughter_Short_Dagger",
+      "name": "诛灭短匕",
+      "iconUrl": "/assets/equipment/crafted-bases/Godslaughter_Short_Dagger.webp",
+      "iconAlt": "IconEquipWeaponDaggerNorm002128",
+      "requiredLevel": 49,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Dagger_Norm_002_128.webp"
+    },
+    {
+      "id": "Sorcerer's_Dagger",
+      "name": "巫王匕首",
+      "iconUrl": "/assets/equipment/crafted-bases/Sorcerer_s_Dagger.webp",
+      "iconAlt": "IconEquipWeaponDaggerNorm003128",
+      "requiredLevel": 54,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Dagger_Norm_003_128.webp"
+    },
+    {
+      "id": "Hatred_Dirk",
+      "name": "深恨长匕",
+      "iconUrl": "/assets/equipment/crafted-bases/Hatred_Dirk.webp",
+      "iconAlt": "IconEquipWeaponDaggerNorm004128",
+      "requiredLevel": 59,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Dagger_Norm_004_128.webp"
+    },
+    {
+      "id": "Esoteric_Dagger",
+      "name": "秘传之匕首",
+      "iconUrl": "/assets/equipment/crafted-bases/Esoteric_Dagger.webp",
+      "iconAlt": "IconEquipWeaponDaggerNorm005128",
+      "requiredLevel": 64,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Dagger_Norm_005_128.webp"
+    },
+    {
+      "id": "Illusory_Dirk",
+      "name": "虚幻长匕",
+      "iconUrl": "/assets/equipment/crafted-bases/Illusory_Dirk.webp",
+      "iconAlt": "IconEquipWeaponDaggerNorm001128",
+      "requiredLevel": 68,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Dagger_Norm_001_128.webp"
+    },
+    {
+      "id": "Disillusion_Dagger",
+      "name": "幻灭之匕",
+      "iconUrl": "/assets/equipment/crafted-bases/Disillusion_Dagger.webp",
+      "iconAlt": "IconEquipWeaponDaggerNorm005128",
+      "requiredLevel": 72,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Dagger_Norm_005_128.webp"
+    },
+    {
+      "id": "Fools'_Dagger",
+      "name": "愚众之匕首",
+      "iconUrl": "/assets/equipment/crafted-bases/Fools__Dagger.webp",
+      "iconAlt": "IconEquipWeaponDaggerNorm001128",
+      "requiredLevel": 82,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Dagger_Norm_001_128.webp"
+    },
+    {
+      "id": "Blind_Faith_Dagger",
+      "name": "盲信之匕首",
+      "iconUrl": "/assets/equipment/crafted-bases/Blind_Faith_Dagger.webp",
+      "iconAlt": "IconEquipWeaponDaggerNorm001128",
+      "requiredLevel": 84,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Dagger_Norm_001_128.webp"
+    },
+    {
+      "id": "Truth_Speaker's_Dagger",
+      "name": "真理喉舌的匕首",
+      "iconUrl": "/assets/equipment/crafted-bases/Truth_Speaker_s_Dagger.webp",
+      "iconAlt": "IconEquipWeaponDaggerNorm001128",
+      "requiredLevel": 86,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Dagger_Norm_001_128.webp"
+    }
+  ]
+}

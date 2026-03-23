@@ -1,0 +1,190 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "One-Handed_Axe",
+  "categoryLabel": "One-Handed Axe",
+  "sourceUrl": "https://tlidb.com/cn/One-Handed_Axe",
+  "fetchedAt": "2026-03-22T11:44:31Z",
+  "baseCount": 20,
+  "bases": [
+    {
+      "id": "Rusted_Iron_Axe",
+      "name": "锈斑铁斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Rusted_Iron_Axe.webp",
+      "iconAlt": "IconEquipWeapon1HAxeNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HAxe_Norm_001_128.webp"
+    },
+    {
+      "id": "Twisted_Copper_Axe",
+      "name": "扭曲铜斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Twisted_Copper_Axe.webp",
+      "iconAlt": "IconEquipWeapon1HAxeNorm002128",
+      "requiredLevel": 2,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HAxe_Norm_002_128.webp"
+    },
+    {
+      "id": "Iron_Hatchet",
+      "name": "精铁手斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Iron_Hatchet.webp",
+      "iconAlt": "IconEquipWeapon1HAxeNorm003128",
+      "requiredLevel": 4,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HAxe_Norm_003_128.webp"
+    },
+    {
+      "id": "Sharpened_Iron_Axe",
+      "name": "锋利铁斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Sharpened_Iron_Axe.webp",
+      "iconAlt": "IconEquipWeapon1HAxeNorm004128",
+      "requiredLevel": 9,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HAxe_Norm_004_128.webp"
+    },
+    {
+      "id": "Alloy_Board_Axe",
+      "name": "合金重斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Alloy_Board_Axe.webp",
+      "iconAlt": "IconEquipWeapon1HAxeNorm005128",
+      "requiredLevel": 14,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HAxe_Norm_005_128.webp"
+    },
+    {
+      "id": "War_Axe",
+      "name": "激战之斧",
+      "iconUrl": "/assets/equipment/crafted-bases/War_Axe.webp",
+      "iconAlt": "IconEquipWeapon1HAxeNorm001128",
+      "requiredLevel": 19,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HAxe_Norm_001_128.webp"
+    },
+    {
+      "id": "Scoundrel's_Axe",
+      "name": "恶徒之斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Scoundrel_s_Axe.webp",
+      "iconAlt": "IconEquipWeapon1HAxeNorm002128",
+      "requiredLevel": 24,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HAxe_Norm_002_128.webp"
+    },
+    {
+      "id": "Earthsplitter_Axe",
+      "name": "裂地之斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Earthsplitter_Axe.webp",
+      "iconAlt": "IconEquipWeapon1HAxeNorm003128",
+      "requiredLevel": 29,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HAxe_Norm_003_128.webp"
+    },
+    {
+      "id": "Savage_Axe",
+      "name": "蛮荒之斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Savage_Axe.webp",
+      "iconAlt": "IconEquipWeapon1HAxeNorm004128",
+      "requiredLevel": 34,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HAxe_Norm_004_128.webp"
+    },
+    {
+      "id": "Valagon_Axe",
+      "name": "瓦拉岗之斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Valagon_Axe.webp",
+      "iconAlt": "IconEquipWeapon1HAxeNorm005128",
+      "requiredLevel": 39,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HAxe_Norm_005_128.webp"
+    },
+    {
+      "id": "Cursed_Axe",
+      "name": "诅咒之斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Cursed_Axe.webp",
+      "iconAlt": "IconEquipWeapon1HAxeNorm001128",
+      "requiredLevel": 44,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HAxe_Norm_001_128.webp"
+    },
+    {
+      "id": "Bonecrusher_Greataxe",
+      "name": "碎骨巨斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Bonecrusher_Greataxe.webp",
+      "iconAlt": "IconEquipWeapon1HAxeNorm002128",
+      "requiredLevel": 49,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HAxe_Norm_002_128.webp"
+    },
+    {
+      "id": "Conflict_War_Axe",
+      "name": "战争利斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Conflict_War_Axe.webp",
+      "iconAlt": "IconEquipWeapon1HAxeNorm003128",
+      "requiredLevel": 54,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HAxe_Norm_003_128.webp"
+    },
+    {
+      "id": "Frenzy_Battle_Axe",
+      "name": "狂暴战斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Frenzy_Battle_Axe.webp",
+      "iconAlt": "IconEquipWeapon1HAxeNorm004128",
+      "requiredLevel": 59,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HAxe_Norm_004_128.webp"
+    },
+    {
+      "id": "Scarlet_Axe",
+      "name": "猩红之斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Scarlet_Axe.webp",
+      "iconAlt": "IconEquipWeapon1HAxeNorm005128",
+      "requiredLevel": 64,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HAxe_Norm_005_128.webp"
+    },
+    {
+      "id": "Ritual_Greataxe",
+      "name": "祭祀巨斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Ritual_Greataxe.webp",
+      "iconAlt": "IconEquipWeapon1HAxeNorm001128",
+      "requiredLevel": 68,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HAxe_Norm_001_128.webp"
+    },
+    {
+      "id": "Vengeance_Axe",
+      "name": "雪恨之斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Vengeance_Axe.webp",
+      "iconAlt": "IconEquipWeapon1HAxeNorm005128",
+      "requiredLevel": 72,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HAxe_Norm_005_128.webp"
+    },
+    {
+      "id": "Suppressor_Axe",
+      "name": "镇压者手斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Suppressor_Axe.webp",
+      "iconAlt": "IconEquipWeapon1HAxeNorm001128",
+      "requiredLevel": 82,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HAxe_Norm_001_128.webp"
+    },
+    {
+      "id": "Rebel_Axe",
+      "name": "反抗者手斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Rebel_Axe.webp",
+      "iconAlt": "IconEquipWeapon1HAxeNorm001128",
+      "requiredLevel": 84,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HAxe_Norm_001_128.webp"
+    },
+    {
+      "id": "Hollow_Rift_Axe",
+      "name": "空洞裂隙手斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Hollow_Rift_Axe.webp",
+      "iconAlt": "IconEquipWeapon1HAxeNorm001128",
+      "requiredLevel": 86,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HAxe_Norm_001_128.webp"
+    }
+  ]
+}

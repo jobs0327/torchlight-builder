@@ -1,0 +1,190 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "Wand",
+  "categoryLabel": "Wand",
+  "sourceUrl": "https://tlidb.com/cn/Wand",
+  "fetchedAt": "2026-03-22T11:44:37Z",
+  "baseCount": 20,
+  "bases": [
+    {
+      "id": "Withervine_Wand",
+      "name": "枯藤法杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Withervine_Wand.webp",
+      "iconAlt": "IconEquipWeaponWandNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
+    },
+    {
+      "id": "Rambone_Wand",
+      "name": "羊骨法杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Rambone_Wand.webp",
+      "iconAlt": "IconEquipWeaponWandNorm002128",
+      "requiredLevel": 2,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_002_128.webp"
+    },
+    {
+      "id": "Carved_Wooden_Wand",
+      "name": "木雕法杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Carved_Wooden_Wand.webp",
+      "iconAlt": "IconEquipWeaponWandNorm003128",
+      "requiredLevel": 4,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_003_128.webp"
+    },
+    {
+      "id": "Cuprite_Wand",
+      "name": "赤铜法杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Cuprite_Wand.webp",
+      "iconAlt": "IconEquipWeaponWandNorm004128",
+      "requiredLevel": 9,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_004_128.webp"
+    },
+    {
+      "id": "Spiritwood_Wand",
+      "name": "灵木法杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Spiritwood_Wand.webp",
+      "iconAlt": "IconEquipWeaponWandNorm005128",
+      "requiredLevel": 14,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_005_128.webp"
+    },
+    {
+      "id": "Wind_Spirit_Wand",
+      "name": "风灵法杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Wind_Spirit_Wand.webp",
+      "iconAlt": "IconEquipWeaponWandNorm001128",
+      "requiredLevel": 19,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
+    },
+    {
+      "id": "Voodoo_Wand",
+      "name": "巫灵法杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Voodoo_Wand.webp",
+      "iconAlt": "IconEquipWeaponWandNorm002128",
+      "requiredLevel": 24,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_002_128.webp"
+    },
+    {
+      "id": "Flower_Sea_Wand",
+      "name": "花海法杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Flower_Sea_Wand.webp",
+      "iconAlt": "IconEquipWeaponWandNorm003128",
+      "requiredLevel": 29,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_003_128.webp"
+    },
+    {
+      "id": "Wiseman's_Wand",
+      "name": "智者法杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Wiseman_s_Wand.webp",
+      "iconAlt": "IconEquipWeaponWandNorm004128",
+      "requiredLevel": 34,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_004_128.webp"
+    },
+    {
+      "id": "White_Crystal_Wand",
+      "name": "白晶法杖",
+      "iconUrl": "/assets/equipment/crafted-bases/White_Crystal_Wand.webp",
+      "iconAlt": "IconEquipWeaponWandNorm005128",
+      "requiredLevel": 39,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_005_128.webp"
+    },
+    {
+      "id": "Viper_Wand",
+      "name": "蝮蛇法杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Viper_Wand.webp",
+      "iconAlt": "IconEquipWeaponWandNorm001128",
+      "requiredLevel": 44,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
+    },
+    {
+      "id": "Wraith_Wand",
+      "name": "恶灵法杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Wraith_Wand.webp",
+      "iconAlt": "IconEquipWeaponWandNorm005128",
+      "requiredLevel": 49,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_005_128.webp"
+    },
+    {
+      "id": "Bard's_Wand",
+      "name": "吟游法杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Bard_s_Wand.webp",
+      "iconAlt": "IconEquipWeaponWandNorm001128",
+      "requiredLevel": 54,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
+    },
+    {
+      "id": "Sage_Wand",
+      "name": "先贤法杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Sage_Wand.webp",
+      "iconAlt": "IconEquipWeaponWandNorm002128",
+      "requiredLevel": 59,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_002_128.webp"
+    },
+    {
+      "id": "Devout_Wand",
+      "name": "虔诚法杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Devout_Wand.webp",
+      "iconAlt": "IconEquipWeaponWandNorm003128",
+      "requiredLevel": 64,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_003_128.webp"
+    },
+    {
+      "id": "Scarlet_Wand",
+      "name": "猩红法杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Scarlet_Wand.webp",
+      "iconAlt": "IconEquipWeaponWandNorm004128",
+      "requiredLevel": 68,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_004_128.webp"
+    },
+    {
+      "id": "Azure_Moon_Wand",
+      "name": "苍月法杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Azure_Moon_Wand.webp",
+      "iconAlt": "IconEquipWeaponWandNorm005128",
+      "requiredLevel": 72,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_005_128.webp"
+    },
+    {
+      "id": "Wretched_Wand",
+      "name": "失心者法杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Wretched_Wand.webp",
+      "iconAlt": "IconEquipWeaponWandNorm001128",
+      "requiredLevel": 82,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
+    },
+    {
+      "id": "Heartflayer_Wand",
+      "name": "夺心者法杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Heartflayer_Wand.webp",
+      "iconAlt": "IconEquipWeaponWandNorm001128",
+      "requiredLevel": 84,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
+    },
+    {
+      "id": "Headless_Cleric_Wand",
+      "name": "无首学者法杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Headless_Cleric_Wand.webp",
+      "iconAlt": "IconEquipWeaponWandNorm001128",
+      "requiredLevel": 86,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
+    }
+  ]
+}

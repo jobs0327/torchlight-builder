@@ -1,1 +1,0 @@
-import{_ as o,o as t,c as n,a as s}from"./index-BDax-ukP.js";const a={},c={class:"equipment-page"};function r(_,e){return t(),n("div",c,[...e[0]||(e[0]=[s("h1",null,"装备系统",-1),s("p",{class:"coming-soon"},"功能开发中...",-1)])])}const p=o(a,[["render",r],["__scopeId","data-v-b3fd0360"]]);export{p as default};

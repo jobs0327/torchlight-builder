@@ -10,6 +10,8 @@
         <router-link to="/talent" class="nav-link">天赋</router-link>
         <router-link to="/skills" class="nav-link">技能</router-link>
         <router-link to="/equipment" class="nav-link">装备</router-link>
+        <router-link to="/pactspirit" class="nav-link">契灵</router-link>
+        <router-link to="/hero-memories" class="nav-link">追忆</router-link>
       </nav>
     </header>
     <main class="app-main">
@@ -24,9 +26,12 @@
 <style scoped>
 .app-container {
   height: 100vh;
+  height: 100dvh;
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  /** 供子页面 calc(100dvh - var) 对齐主内容可视区 */
+  --app-header-height: 4.75rem;
 }
 
 .app-header {
@@ -67,6 +72,7 @@
 
 .app-main {
   flex: 1;
+  min-height: 0;
   background: #0f0f1a;
   overflow-y: auto;
   overflow-x: hidden;

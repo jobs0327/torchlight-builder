@@ -1,0 +1,118 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "INT_Shield",
+  "categoryLabel": "INT Shield",
+  "sourceUrl": "https://tlidb.com/cn/INT_Shield",
+  "fetchedAt": "2026-03-22T11:46:06Z",
+  "baseCount": 12,
+  "bases": [
+    {
+      "id": "Aspiration_Magic_Shield",
+      "name": "初心法盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Aspiration_Magic_Shield.webp",
+      "iconAlt": "IconEquipShieldIntNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Int_Norm_001_128.webp"
+    },
+    {
+      "id": "Voodoo_Caster_Shield",
+      "name": "巫灵魔盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Voodoo_Caster_Shield.webp",
+      "iconAlt": "IconEquipShieldIntNorm002128",
+      "requiredLevel": 1,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Int_Norm_002_128.webp"
+    },
+    {
+      "id": "Bard's_Square_Shield",
+      "name": "吟游方盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Bard_s_Square_Shield.webp",
+      "iconAlt": "IconEquipShieldIntNorm003128",
+      "requiredLevel": 9,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Int_Norm_003_128.webp"
+    },
+    {
+      "id": "Freedom_Square_Shield",
+      "name": "自由方盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Freedom_Square_Shield.webp",
+      "iconAlt": "IconEquipShieldIntNorm004128",
+      "requiredLevel": 24,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Int_Norm_004_128.webp"
+    },
+    {
+      "id": "Nature_Caster_Shield",
+      "name": "生灵魔盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Nature_Caster_Shield.webp",
+      "iconAlt": "IconEquipShieldIntNorm001128",
+      "requiredLevel": 39,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Int_Norm_001_128.webp"
+    },
+    {
+      "id": "Abyssal_Square_Shield",
+      "name": "深渊方盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Abyssal_Square_Shield.webp",
+      "iconAlt": "IconEquipShieldIntNorm002128",
+      "requiredLevel": 52,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Int_Norm_002_128.webp"
+    },
+    {
+      "id": "Blizzard_Square_Shield",
+      "name": "风雪方盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Blizzard_Square_Shield.webp",
+      "iconAlt": "IconEquipShieldIntNorm003128",
+      "requiredLevel": 57,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Int_Norm_003_128.webp"
+    },
+    {
+      "id": "Sage's_Caster_Shield",
+      "name": "贤者魔盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Sage_s_Caster_Shield.webp",
+      "iconAlt": "IconEquipShieldIntNorm004128",
+      "requiredLevel": 62,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Int_Norm_004_128.webp"
+    },
+    {
+      "id": "Spirit_Lord's_Caster_Shield",
+      "name": "灵主魔盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Spirit_Lord_s_Caster_Shield.webp",
+      "iconAlt": "IconEquipShieldIntNorm001128",
+      "requiredLevel": 66,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Int_Norm_001_128.webp"
+    },
+    {
+      "id": "Twilight_Square_Shield",
+      "name": "暮色方盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Twilight_Square_Shield.webp",
+      "iconAlt": "IconEquipShieldIntNorm002128",
+      "requiredLevel": 70,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Int_Norm_002_128.webp"
+    },
+    {
+      "id": "Fraudster_Magic_Shield",
+      "name": "欺诈师法盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Fraudster_Magic_Shield.webp",
+      "iconAlt": "IconEquipShieldIntNorm003128",
+      "requiredLevel": 76,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Int_Norm_003_128.webp"
+    },
+    {
+      "id": "Ninth_Apostle's_Magic_Shield",
+      "name": "第九使徒的法盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Ninth_Apostle_s_Magic_Shield.webp",
+      "iconAlt": "IconEquipShieldIntNorm004128",
+      "requiredLevel": 82,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Int_Norm_004_128.webp"
+    }
+  ]
+}

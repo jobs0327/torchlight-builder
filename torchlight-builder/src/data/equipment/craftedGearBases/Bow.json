@@ -1,0 +1,190 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "Bow",
+  "categoryLabel": "Bow",
+  "sourceUrl": "https://tlidb.com/cn/Bow",
+  "fetchedAt": "2026-03-22T11:45:36Z",
+  "baseCount": 20,
+  "bases": [
+    {
+      "id": "Rottenwood_Bow",
+      "name": "朽木弓",
+      "iconUrl": "/assets/equipment/crafted-bases/Rottenwood_Bow.webp",
+      "iconAlt": "IconEquipWeaponBowNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Bow_Norm_001_128.webp"
+    },
+    {
+      "id": "Vitex_Bow",
+      "name": "荆条弓",
+      "iconUrl": "/assets/equipment/crafted-bases/Vitex_Bow.webp",
+      "iconAlt": "IconEquipWeaponBowNorm002128",
+      "requiredLevel": 2,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Bow_Norm_002_128.webp"
+    },
+    {
+      "id": "Beastbone_Bow",
+      "name": "兽骨弓",
+      "iconUrl": "/assets/equipment/crafted-bases/Beastbone_Bow.webp",
+      "iconAlt": "IconEquipWeaponBowNorm003128",
+      "requiredLevel": 4,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Bow_Norm_003_128.webp"
+    },
+    {
+      "id": "Thorny_Curve_Bow",
+      "name": "荆棘弯弓",
+      "iconUrl": "/assets/equipment/crafted-bases/Thorny_Curve_Bow.webp",
+      "iconAlt": "IconEquipWeaponBowNorm004128",
+      "requiredLevel": 9,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Bow_Norm_004_128.webp"
+    },
+    {
+      "id": "Bonewood_Hunting_Bow",
+      "name": "骨木猎弓",
+      "iconUrl": "/assets/equipment/crafted-bases/Bonewood_Hunting_Bow.webp",
+      "iconAlt": "IconEquipWeaponBowNorm005128",
+      "requiredLevel": 14,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Bow_Norm_005_128.webp"
+    },
+    {
+      "id": "Segar_Hunting_Bow",
+      "name": "赛迦猎弓",
+      "iconUrl": "/assets/equipment/crafted-bases/Segar_Hunting_Bow.webp",
+      "iconAlt": "IconEquipWeaponBowNorm001128",
+      "requiredLevel": 19,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Bow_Norm_001_128.webp"
+    },
+    {
+      "id": "Griffin_Long_Bow",
+      "name": "狮鹫长弓",
+      "iconUrl": "/assets/equipment/crafted-bases/Griffin_Long_Bow.webp",
+      "iconAlt": "IconEquipWeaponBowNorm002128",
+      "requiredLevel": 24,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Bow_Norm_002_128.webp"
+    },
+    {
+      "id": "White_Wolf_Curve_Bow",
+      "name": "白狼弯弓",
+      "iconUrl": "/assets/equipment/crafted-bases/White_Wolf_Curve_Bow.webp",
+      "iconAlt": "IconEquipWeaponBowNorm003128",
+      "requiredLevel": 29,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Bow_Norm_003_128.webp"
+    },
+    {
+      "id": "Raider's_Bow",
+      "name": "掠夺之弓",
+      "iconUrl": "/assets/equipment/crafted-bases/Raider_s_Bow.webp",
+      "iconAlt": "IconEquipWeaponBowNorm004128",
+      "requiredLevel": 34,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Bow_Norm_004_128.webp"
+    },
+    {
+      "id": "White_Feather_Hunting_Bow",
+      "name": "白羽猎弓",
+      "iconUrl": "/assets/equipment/crafted-bases/White_Feather_Hunting_Bow.webp",
+      "iconAlt": "IconEquipWeaponBowNorm005128",
+      "requiredLevel": 39,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Bow_Norm_005_128.webp"
+    },
+    {
+      "id": "Piercer_Bow",
+      "name": "穿刺之弓",
+      "iconUrl": "/assets/equipment/crafted-bases/Piercer_Bow.webp",
+      "iconAlt": "IconEquipWeaponBowNorm001128",
+      "requiredLevel": 44,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Bow_Norm_001_128.webp"
+    },
+    {
+      "id": "Bloody_Curve_Bow",
+      "name": "赤红弯弓",
+      "iconUrl": "/assets/equipment/crafted-bases/Bloody_Curve_Bow.webp",
+      "iconAlt": "IconEquipWeaponBowNorm002128",
+      "requiredLevel": 49,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Bow_Norm_002_128.webp"
+    },
+    {
+      "id": "Black_Feather_Long_Bow",
+      "name": "黑羽长弓",
+      "iconUrl": "/assets/equipment/crafted-bases/Black_Feather_Long_Bow.webp",
+      "iconAlt": "IconEquipWeaponBowNorm003128",
+      "requiredLevel": 54,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Bow_Norm_003_128.webp"
+    },
+    {
+      "id": "Twilight_Curve_Bow",
+      "name": "暮色弯弓",
+      "iconUrl": "/assets/equipment/crafted-bases/Twilight_Curve_Bow.webp",
+      "iconAlt": "IconEquipWeaponBowNorm004128",
+      "requiredLevel": 59,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Bow_Norm_004_128.webp"
+    },
+    {
+      "id": "Unholy_Hunting_Bow",
+      "name": "污秽猎弓",
+      "iconUrl": "/assets/equipment/crafted-bases/Unholy_Hunting_Bow.webp",
+      "iconAlt": "IconEquipWeaponBowNorm005128",
+      "requiredLevel": 64,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Bow_Norm_005_128.webp"
+    },
+    {
+      "id": "Thunder_Long_Bow",
+      "name": "雷霆长弓",
+      "iconUrl": "/assets/equipment/crafted-bases/Thunder_Long_Bow.webp",
+      "iconAlt": "IconEquipWeaponBowNorm001128",
+      "requiredLevel": 68,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Bow_Norm_001_128.webp"
+    },
+    {
+      "id": "Starfall_Long_Bow",
+      "name": "星落长弓",
+      "iconUrl": "/assets/equipment/crafted-bases/Starfall_Long_Bow.webp",
+      "iconAlt": "IconEquipWeaponBowNorm005128",
+      "requiredLevel": 72,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Bow_Norm_005_128.webp"
+    },
+    {
+      "id": "Demon_Hunter_Long_Bow",
+      "name": "狩魔人长弓",
+      "iconUrl": "/assets/equipment/crafted-bases/Demon_Hunter_Long_Bow.webp",
+      "iconAlt": "IconEquipWeaponBowNorm001128",
+      "requiredLevel": 82,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Bow_Norm_001_128.webp"
+    },
+    {
+      "id": "Godseeker_Long_Bow",
+      "name": "寻神者长弓",
+      "iconUrl": "/assets/equipment/crafted-bases/Godseeker_Long_Bow.webp",
+      "iconAlt": "IconEquipWeaponBowNorm001128",
+      "requiredLevel": 84,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Bow_Norm_001_128.webp"
+    },
+    {
+      "id": "Lonely_Hunter's_Bow",
+      "name": "孤狩群星之弓",
+      "iconUrl": "/assets/equipment/crafted-bases/Lonely_Hunter_s_Bow.webp",
+      "iconAlt": "IconEquipWeaponBowNorm001128",
+      "requiredLevel": 86,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Bow_Norm_001_128.webp"
+    }
+  ]
+}

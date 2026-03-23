@@ -1,0 +1,127 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "STR_Chest_Armor",
+  "categoryLabel": "STR Chest Armor",
+  "sourceUrl": "https://tlidb.com/cn/STR_Chest_Armor",
+  "fetchedAt": "2026-03-22T11:43:16Z",
+  "baseCount": 13,
+  "bases": [
+    {
+      "id": "Brute's_Chestguard",
+      "name": "蛮兵护胸",
+      "iconUrl": "/assets/equipment/crafted-bases/Brute_s_Chestguard.webp",
+      "iconAlt": "IconEquipArmorStrNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Str_Norm_001_128.webp"
+    },
+    {
+      "id": "Footman's_Chestguard",
+      "name": "方阵兵胸铠",
+      "iconUrl": "/assets/equipment/crafted-bases/Footman_s_Chestguard.webp",
+      "iconAlt": "IconEquipArmorStrNorm002128",
+      "requiredLevel": 1,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Str_Norm_002_128.webp"
+    },
+    {
+      "id": "Paladin's_Heavy_Armor",
+      "name": "圣战者重铠",
+      "iconUrl": "/assets/equipment/crafted-bases/Paladin_s_Heavy_Armor.webp",
+      "iconAlt": "IconEquipArmorStrNorm003128",
+      "requiredLevel": 9,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Str_Norm_003_128.webp"
+    },
+    {
+      "id": "Berserker's_Chest_Armor",
+      "name": "狂战士胸甲",
+      "iconUrl": "/assets/equipment/crafted-bases/Berserker_s_Chest_Armor.webp",
+      "iconAlt": "IconEquipArmorStrNorm004128",
+      "requiredLevel": 24,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Str_Norm_004_128.webp"
+    },
+    {
+      "id": "Iron_Sentry's_Heavy_Armor",
+      "name": "铁卫重铠",
+      "iconUrl": "/assets/equipment/crafted-bases/Iron_Sentry_s_Heavy_Armor.webp",
+      "iconAlt": "IconEquipArmorStrNorm00101128",
+      "requiredLevel": 39,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Str_Norm_001_01_128.webp"
+    },
+    {
+      "id": "Packleader_Chest_Armor",
+      "name": "头狼胸甲",
+      "iconUrl": "/assets/equipment/crafted-bases/Packleader_Chest_Armor.webp",
+      "iconAlt": "IconEquipArmorStrNorm00201128",
+      "requiredLevel": 52,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Str_Norm_002_01_128.webp"
+    },
+    {
+      "id": "Mountain_Lord's_Chest_Armor",
+      "name": "高山领主胸甲",
+      "iconUrl": "/assets/equipment/crafted-bases/Mountain_Lord_s_Chest_Armor.webp",
+      "iconAlt": "IconEquipArmorStrNorm00301128",
+      "requiredLevel": 57,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Str_Norm_003_01_128.webp"
+    },
+    {
+      "id": "Divine_Arbiter's_Defense",
+      "name": "神圣仲裁者的防护",
+      "iconUrl": "/assets/equipment/crafted-bases/Divine_Arbiter_s_Defense.webp",
+      "iconAlt": "IconEquipArmorStrNorm013128",
+      "requiredLevel": 61,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Str_Norm_013_128.webp"
+    },
+    {
+      "id": "Divine_Arbiter's_Defense",
+      "name": "神圣仲裁者的防护",
+      "iconUrl": "/assets/equipment/crafted-bases/Divine_Arbiter_s_Defense.webp",
+      "iconAlt": "IconEquipArmorStrNorm00401128",
+      "requiredLevel": 62,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Str_Norm_004_01_128.webp"
+    },
+    {
+      "id": "Dragon_Guardian's_Lamellar_Armor",
+      "name": "龙圣卫的扎甲",
+      "iconUrl": "/assets/equipment/crafted-bases/Dragon_Guardian_s_Lamellar_Armor.webp",
+      "iconAlt": "IconEquipArmorStrNorm00102128",
+      "requiredLevel": 66,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Str_Norm_001_02_128.webp"
+    },
+    {
+      "id": "Fallen_Knight's_Armor",
+      "name": "堕落骑士铠甲",
+      "iconUrl": "/assets/equipment/crafted-bases/Fallen_Knight_s_Armor.webp",
+      "iconAlt": "IconEquipArmorStrNorm00202128",
+      "requiredLevel": 70,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Str_Norm_002_02_128.webp"
+    },
+    {
+      "id": "Old_King's_Armor",
+      "name": "旧日王者的大铠",
+      "iconUrl": "/assets/equipment/crafted-bases/Old_King_s_Armor.webp",
+      "iconAlt": "IconEquipArmorStrNorm00302128",
+      "requiredLevel": 76,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Str_Norm_003_02_128.webp"
+    },
+    {
+      "id": "Ranger's_Rag",
+      "name": "游侠的褴褛革衣",
+      "iconUrl": "/assets/equipment/crafted-bases/Ranger_s_Rag.webp",
+      "iconAlt": "IconEquipArmorStrNorm00402128",
+      "requiredLevel": 82,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Str_Norm_004_02_128.webp"
+    }
+  ]
+}

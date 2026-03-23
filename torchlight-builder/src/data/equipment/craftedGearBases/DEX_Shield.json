@@ -1,0 +1,118 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "DEX_Shield",
+  "categoryLabel": "DEX Shield",
+  "sourceUrl": "https://tlidb.com/cn/DEX_Shield",
+  "fetchedAt": "2026-03-22T11:46:01Z",
+  "baseCount": 12,
+  "bases": [
+    {
+      "id": "Aspiration_Light_Shield",
+      "name": "初心轻盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Aspiration_Light_Shield.webp",
+      "iconAlt": "IconEquipShieldAgiNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Agi_Norm_001_128.webp"
+    },
+    {
+      "id": "Griffin_Buckler",
+      "name": "狮鹫圆盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Griffin_Buckler.webp",
+      "iconAlt": "IconEquipShieldAgiNorm002128",
+      "requiredLevel": 1,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Agi_Norm_002_128.webp"
+    },
+    {
+      "id": "Wind_Spirit_Light_Shield",
+      "name": "风灵轻盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Wind_Spirit_Light_Shield.webp",
+      "iconAlt": "IconEquipShieldAgiNorm003128",
+      "requiredLevel": 9,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Agi_Norm_003_128.webp"
+    },
+    {
+      "id": "Dragonfang_Buckler",
+      "name": "龙牙圆盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Dragonfang_Buckler.webp",
+      "iconAlt": "IconEquipShieldAgiNorm004128",
+      "requiredLevel": 24,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Agi_Norm_004_128.webp"
+    },
+    {
+      "id": "Hunter's_Buckler",
+      "name": "猎手圆盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Hunter_s_Buckler.webp",
+      "iconAlt": "IconEquipShieldAgiNorm001128",
+      "requiredLevel": 39,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Agi_Norm_001_128.webp"
+    },
+    {
+      "id": "Thunder_Light_Shield",
+      "name": "雷霆轻盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Thunder_Light_Shield.webp",
+      "iconAlt": "IconEquipShieldAgiNorm002128",
+      "requiredLevel": 52,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Agi_Norm_002_128.webp"
+    },
+    {
+      "id": "Cursed_Light_Shield",
+      "name": "诅咒轻盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Cursed_Light_Shield.webp",
+      "iconAlt": "IconEquipShieldAgiNorm003128",
+      "requiredLevel": 57,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Agi_Norm_003_128.webp"
+    },
+    {
+      "id": "Viper_Buckler",
+      "name": "蝮蛇圆盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Viper_Buckler.webp",
+      "iconAlt": "IconEquipShieldAgiNorm004128",
+      "requiredLevel": 62,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Agi_Norm_004_128.webp"
+    },
+    {
+      "id": "Shadow_Light_Shield",
+      "name": "暗影轻盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Shadow_Light_Shield.webp",
+      "iconAlt": "IconEquipShieldAgiNorm001128",
+      "requiredLevel": 66,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Agi_Norm_001_128.webp"
+    },
+    {
+      "id": "Wind_God's_Buckler",
+      "name": "风神圆盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Wind_God_s_Buckler.webp",
+      "iconAlt": "IconEquipShieldAgiNorm002128",
+      "requiredLevel": 70,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Agi_Norm_002_128.webp"
+    },
+    {
+      "id": "Conqueror_Buckler",
+      "name": "征伐者圆盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Conqueror_Buckler.webp",
+      "iconAlt": "IconEquipShieldAgiNorm003128",
+      "requiredLevel": 76,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Agi_Norm_003_128.webp"
+    },
+    {
+      "id": "Lost_Ranger's_Light_Shield",
+      "name": "迷途游侠的轻盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Lost_Ranger_s_Light_Shield.webp",
+      "iconAlt": "IconEquipShieldAgiNorm004128",
+      "requiredLevel": 82,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Agi_Norm_004_128.webp"
+    }
+  ]
+}

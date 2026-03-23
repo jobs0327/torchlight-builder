@@ -1,0 +1,190 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "Crossbow",
+  "categoryLabel": "Crossbow",
+  "sourceUrl": "https://tlidb.com/cn/Crossbow",
+  "fetchedAt": "2026-03-22T11:45:41Z",
+  "baseCount": 20,
+  "bases": [
+    {
+      "id": "Woodvine_Light_Crossbow",
+      "name": "藤木轻弩",
+      "iconUrl": "/assets/equipment/crafted-bases/Woodvine_Light_Crossbow.webp",
+      "iconAlt": "IconEquipWeaponCrossbowNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Crossbow_Norm_001_128.webp"
+    },
+    {
+      "id": "Rambone_Short_Crossbow",
+      "name": "羊骨短弩",
+      "iconUrl": "/assets/equipment/crafted-bases/Rambone_Short_Crossbow.webp",
+      "iconAlt": "IconEquipWeaponCrossbowNorm002128",
+      "requiredLevel": 2,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Crossbow_Norm_002_128.webp"
+    },
+    {
+      "id": "Darkwoods_Long_Crossbow",
+      "name": "黑木长弩",
+      "iconUrl": "/assets/equipment/crafted-bases/Darkwoods_Long_Crossbow.webp",
+      "iconAlt": "IconEquipWeaponCrossbowNorm003128",
+      "requiredLevel": 4,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Crossbow_Norm_003_128.webp"
+    },
+    {
+      "id": "Bronze_Short_Crossbow",
+      "name": "青铜短弩",
+      "iconUrl": "/assets/equipment/crafted-bases/Bronze_Short_Crossbow.webp",
+      "iconAlt": "IconEquipWeaponCrossbowNorm004128",
+      "requiredLevel": 9,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Crossbow_Norm_004_128.webp"
+    },
+    {
+      "id": "Soldier's_Light_Crossbow",
+      "name": "士兵轻弩",
+      "iconUrl": "/assets/equipment/crafted-bases/Soldier_s_Light_Crossbow.webp",
+      "iconAlt": "IconEquipWeaponCrossbowNorm005128",
+      "requiredLevel": 14,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Crossbow_Norm_005_128.webp"
+    },
+    {
+      "id": "Black_Iron_Crossbow",
+      "name": "黑铁重弩",
+      "iconUrl": "/assets/equipment/crafted-bases/Black_Iron_Crossbow.webp",
+      "iconAlt": "IconEquipWeaponCrossbowNorm001128",
+      "requiredLevel": 19,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Crossbow_Norm_001_128.webp"
+    },
+    {
+      "id": "Elven_Hunting_Crossbow",
+      "name": "精灵猎弩",
+      "iconUrl": "/assets/equipment/crafted-bases/Elven_Hunting_Crossbow.webp",
+      "iconAlt": "IconEquipWeaponCrossbowNorm002128",
+      "requiredLevel": 24,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Crossbow_Norm_002_128.webp"
+    },
+    {
+      "id": "Beastfang_Light_Crossbow",
+      "name": "兽牙轻弩",
+      "iconUrl": "/assets/equipment/crafted-bases/Beastfang_Light_Crossbow.webp",
+      "iconAlt": "IconEquipWeaponCrossbowNorm003128",
+      "requiredLevel": 29,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Crossbow_Norm_003_128.webp"
+    },
+    {
+      "id": "Jungle_Hunting_Bow",
+      "name": "密林猎弩",
+      "iconUrl": "/assets/equipment/crafted-bases/Jungle_Hunting_Bow.webp",
+      "iconAlt": "IconEquipWeaponCrossbowNorm004128",
+      "requiredLevel": 34,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Crossbow_Norm_004_128.webp"
+    },
+    {
+      "id": "Segar_Hunting_Crossbow",
+      "name": "赛迦猎弩",
+      "iconUrl": "/assets/equipment/crafted-bases/Segar_Hunting_Crossbow.webp",
+      "iconAlt": "IconEquipWeaponCrossbowNorm005128",
+      "requiredLevel": 39,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Crossbow_Norm_005_128.webp"
+    },
+    {
+      "id": "Muddy_Long_Crossbow",
+      "name": "污泥长弩",
+      "iconUrl": "/assets/equipment/crafted-bases/Muddy_Long_Crossbow.webp",
+      "iconAlt": "IconEquipWeaponCrossbowNorm001128",
+      "requiredLevel": 44,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Crossbow_Norm_001_128.webp"
+    },
+    {
+      "id": "Cursed_War_Crossbow",
+      "name": "诅咒战弩",
+      "iconUrl": "/assets/equipment/crafted-bases/Cursed_War_Crossbow.webp",
+      "iconAlt": "IconEquipWeaponCrossbowNorm002128",
+      "requiredLevel": 49,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Crossbow_Norm_002_128.webp"
+    },
+    {
+      "id": "Conflict_Crossbow",
+      "name": "战争之弩",
+      "iconUrl": "/assets/equipment/crafted-bases/Conflict_Crossbow.webp",
+      "iconAlt": "IconEquipWeaponCrossbowNorm003128",
+      "requiredLevel": 54,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Crossbow_Norm_003_128.webp"
+    },
+    {
+      "id": "Blue_Sea_War_Crossbow",
+      "name": "蓝海战弩",
+      "iconUrl": "/assets/equipment/crafted-bases/Blue_Sea_War_Crossbow.webp",
+      "iconAlt": "IconEquipWeaponCrossbowNorm004128",
+      "requiredLevel": 59,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Crossbow_Norm_004_128.webp"
+    },
+    {
+      "id": "Icy_War_Crossbow",
+      "name": "寒冰战弩",
+      "iconUrl": "/assets/equipment/crafted-bases/Icy_War_Crossbow.webp",
+      "iconAlt": "IconEquipWeaponCrossbowNorm005128",
+      "requiredLevel": 64,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Crossbow_Norm_005_128.webp"
+    },
+    {
+      "id": "Scarlet_Crossbow",
+      "name": "猩红之弩",
+      "iconUrl": "/assets/equipment/crafted-bases/Scarlet_Crossbow.webp",
+      "iconAlt": "IconEquipWeaponCrossbowNorm001128",
+      "requiredLevel": 68,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Crossbow_Norm_001_128.webp"
+    },
+    {
+      "id": "Flowing_Blaze_Crossbow",
+      "name": "流火之弩",
+      "iconUrl": "/assets/equipment/crafted-bases/Flowing_Blaze_Crossbow.webp",
+      "iconAlt": "IconEquipWeaponCrossbowNorm005128",
+      "requiredLevel": 72,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Crossbow_Norm_005_128.webp"
+    },
+    {
+      "id": "Red_Pegasus_War_Crossbow",
+      "name": "红飞马战弩",
+      "iconUrl": "/assets/equipment/crafted-bases/Red_Pegasus_War_Crossbow.webp",
+      "iconAlt": "IconEquipWeaponCrossbowNorm001128",
+      "requiredLevel": 82,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Crossbow_Norm_001_128.webp"
+    },
+    {
+      "id": "Black_Pass_Hunting_Crossbow",
+      "name": "黑隘口猎弩",
+      "iconUrl": "/assets/equipment/crafted-bases/Black_Pass_Hunting_Crossbow.webp",
+      "iconAlt": "IconEquipWeaponCrossbowNorm001128",
+      "requiredLevel": 84,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Crossbow_Norm_001_128.webp"
+    },
+    {
+      "id": "War_Ranger's_Crossbow",
+      "name": "战场游侠之弩",
+      "iconUrl": "/assets/equipment/crafted-bases/War_Ranger_s_Crossbow.webp",
+      "iconAlt": "IconEquipWeaponCrossbowNorm001128",
+      "requiredLevel": 86,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Crossbow_Norm_001_128.webp"
+    }
+  ]
+}

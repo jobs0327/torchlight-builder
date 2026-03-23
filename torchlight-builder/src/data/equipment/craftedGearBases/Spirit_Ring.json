@@ -1,0 +1,64 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "Spirit_Ring",
+  "categoryLabel": "Spirit Ring",
+  "sourceUrl": "https://tlidb.com/cn/Spirit_Ring",
+  "fetchedAt": "2026-03-22T11:46:29Z",
+  "baseCount": 6,
+  "bases": [
+    {
+      "id": "Budding_Spirit_Ring",
+      "name": "萌动灵戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Budding_Spirit_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00201128",
+      "requiredLevel": 1,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_002_01_128.webp"
+    },
+    {
+      "id": "Thriving_Spirit_Ring",
+      "name": "生长灵戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Thriving_Spirit_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00302128",
+      "requiredLevel": 24,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_003_02_128.webp"
+    },
+    {
+      "id": "Command_Spirit_Ring",
+      "name": "统御灵戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Command_Spirit_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00403128",
+      "requiredLevel": 52,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_004_03_128.webp"
+    },
+    {
+      "id": "Harvest_Spirit_Ring",
+      "name": "丰收灵戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Harvest_Spirit_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00503128",
+      "requiredLevel": 66,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_005_03_128.webp"
+    },
+    {
+      "id": "Championed_Spirit_Ring",
+      "name": "被拥戴的灵戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Championed_Spirit_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00102128",
+      "requiredLevel": 76,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_001_02_128.webp"
+    },
+    {
+      "id": "Essence_Spirit_Ring",
+      "name": "万物归心之灵戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Essence_Spirit_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00202128",
+      "requiredLevel": 82,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_002_02_128.webp"
+    }
+  ]
+}

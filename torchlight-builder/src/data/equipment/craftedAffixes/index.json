@@ -1,0 +1,274 @@
+{
+  "kind": "craftedAffixIndex",
+  "sourceIndexUrl": "https://tlidb.com/cn/Legendary_Gear",
+  "fetchedAt": "2026-03-22T09:00:14Z",
+  "categoryCount": 38,
+  "categories": [
+    {
+      "slug": "Belt",
+      "label": "Belt",
+      "file": "craftedAffixes/Belt.json",
+      "modifierCount": 206,
+      "tierVariantGroupCount": 26
+    },
+    {
+      "slug": "Bow",
+      "label": "Bow",
+      "file": "craftedAffixes/Bow.json",
+      "modifierCount": 129,
+      "tierVariantGroupCount": 27
+    },
+    {
+      "slug": "Cane",
+      "label": "Cane",
+      "file": "craftedAffixes/Cane.json",
+      "modifierCount": 94,
+      "tierVariantGroupCount": 21
+    },
+    {
+      "slug": "Claw",
+      "label": "Claw",
+      "file": "craftedAffixes/Claw.json",
+      "modifierCount": 116,
+      "tierVariantGroupCount": 22
+    },
+    {
+      "slug": "Crossbow",
+      "label": "Crossbow",
+      "file": "craftedAffixes/Crossbow.json",
+      "modifierCount": 116,
+      "tierVariantGroupCount": 24
+    },
+    {
+      "slug": "Cudgel",
+      "label": "Cudgel",
+      "file": "craftedAffixes/Cudgel.json",
+      "modifierCount": 101,
+      "tierVariantGroupCount": 23
+    },
+    {
+      "slug": "DEX_Boots",
+      "label": "DEX Boots",
+      "file": "craftedAffixes/DEX_Boots.json",
+      "modifierCount": 149,
+      "tierVariantGroupCount": 25
+    },
+    {
+      "slug": "DEX_Chest_Armor",
+      "label": "DEX Chest Armor",
+      "file": "craftedAffixes/DEX_Chest_Armor.json",
+      "modifierCount": 125,
+      "tierVariantGroupCount": 26
+    },
+    {
+      "slug": "DEX_Gloves",
+      "label": "DEX Gloves",
+      "file": "craftedAffixes/DEX_Gloves.json",
+      "modifierCount": 136,
+      "tierVariantGroupCount": 24
+    },
+    {
+      "slug": "DEX_Helmet",
+      "label": "DEX Helmet",
+      "file": "craftedAffixes/DEX_Helmet.json",
+      "modifierCount": 130,
+      "tierVariantGroupCount": 23
+    },
+    {
+      "slug": "DEX_Shield",
+      "label": "DEX Shield",
+      "file": "craftedAffixes/DEX_Shield.json",
+      "modifierCount": 106,
+      "tierVariantGroupCount": 27
+    },
+    {
+      "slug": "Dagger",
+      "label": "Dagger",
+      "file": "craftedAffixes/Dagger.json",
+      "modifierCount": 118,
+      "tierVariantGroupCount": 26
+    },
+    {
+      "slug": "Fire_Cannon",
+      "label": "Fire Canon",
+      "file": "craftedAffixes/Fire_Cannon.json",
+      "modifierCount": 104,
+      "tierVariantGroupCount": 24
+    },
+    {
+      "slug": "INT_Boots",
+      "label": "INT Boots",
+      "file": "craftedAffixes/INT_Boots.json",
+      "modifierCount": 135,
+      "tierVariantGroupCount": 22
+    },
+    {
+      "slug": "INT_Chest_Armor",
+      "label": "INT Chest Armor",
+      "file": "craftedAffixes/INT_Chest_Armor.json",
+      "modifierCount": 177,
+      "tierVariantGroupCount": 35
+    },
+    {
+      "slug": "INT_Gloves",
+      "label": "INT Gloves",
+      "file": "craftedAffixes/INT_Gloves.json",
+      "modifierCount": 134,
+      "tierVariantGroupCount": 25
+    },
+    {
+      "slug": "INT_Helmet",
+      "label": "INT Helmet",
+      "file": "craftedAffixes/INT_Helmet.json",
+      "modifierCount": 141,
+      "tierVariantGroupCount": 25
+    },
+    {
+      "slug": "INT_Shield",
+      "label": "INT Shield",
+      "file": "craftedAffixes/INT_Shield.json",
+      "modifierCount": 109,
+      "tierVariantGroupCount": 26
+    },
+    {
+      "slug": "Musket",
+      "label": "Musket",
+      "file": "craftedAffixes/Musket.json",
+      "modifierCount": 110,
+      "tierVariantGroupCount": 25
+    },
+    {
+      "slug": "Necklace",
+      "label": "Necklace",
+      "file": "craftedAffixes/Necklace.json",
+      "modifierCount": 269,
+      "tierVariantGroupCount": 42
+    },
+    {
+      "slug": "One-Handed_Axe",
+      "label": "One-Handed Axe",
+      "file": "craftedAffixes/One-Handed_Axe.json",
+      "modifierCount": 104,
+      "tierVariantGroupCount": 22
+    },
+    {
+      "slug": "One-Handed_Hammer",
+      "label": "One-Handed Hammer",
+      "file": "craftedAffixes/One-Handed_Hammer.json",
+      "modifierCount": 120,
+      "tierVariantGroupCount": 24
+    },
+    {
+      "slug": "One-Handed_Sword",
+      "label": "One-Handed Sword",
+      "file": "craftedAffixes/One-Handed_Sword.json",
+      "modifierCount": 119,
+      "tierVariantGroupCount": 23
+    },
+    {
+      "slug": "Pistol",
+      "label": "Pistol",
+      "file": "craftedAffixes/Pistol.json",
+      "modifierCount": 121,
+      "tierVariantGroupCount": 26
+    },
+    {
+      "slug": "Ring",
+      "label": "Ring",
+      "file": "craftedAffixes/Ring.json",
+      "modifierCount": 208,
+      "tierVariantGroupCount": 31
+    },
+    {
+      "slug": "Rod",
+      "label": "Rod",
+      "file": "craftedAffixes/Rod.json",
+      "modifierCount": 89,
+      "tierVariantGroupCount": 20
+    },
+    {
+      "slug": "STR_Boots",
+      "label": "STR Boots",
+      "file": "craftedAffixes/STR_Boots.json",
+      "modifierCount": 124,
+      "tierVariantGroupCount": 21
+    },
+    {
+      "slug": "STR_Chest_Armor",
+      "label": "STR Chest Armor",
+      "file": "craftedAffixes/STR_Chest_Armor.json",
+      "modifierCount": 172,
+      "tierVariantGroupCount": 29
+    },
+    {
+      "slug": "STR_Gloves",
+      "label": "STR Gloves",
+      "file": "craftedAffixes/STR_Gloves.json",
+      "modifierCount": 140,
+      "tierVariantGroupCount": 21
+    },
+    {
+      "slug": "STR_Helmet",
+      "label": "STR Helmet",
+      "file": "craftedAffixes/STR_Helmet.json",
+      "modifierCount": 144,
+      "tierVariantGroupCount": 20
+    },
+    {
+      "slug": "STR_Shield",
+      "label": "STR Shield",
+      "file": "craftedAffixes/STR_Shield.json",
+      "modifierCount": 116,
+      "tierVariantGroupCount": 27
+    },
+    {
+      "slug": "Scepter",
+      "label": "Scepter",
+      "file": "craftedAffixes/Scepter.json",
+      "modifierCount": 98,
+      "tierVariantGroupCount": 17
+    },
+    {
+      "slug": "Spirit_Ring",
+      "label": "Spirit Ring",
+      "file": "craftedAffixes/Spirit_Ring.json",
+      "modifierCount": 101,
+      "tierVariantGroupCount": 19
+    },
+    {
+      "slug": "Tin_Staff",
+      "label": "Tin Staff",
+      "file": "craftedAffixes/Tin_Staff.json",
+      "modifierCount": 114,
+      "tierVariantGroupCount": 21
+    },
+    {
+      "slug": "Two-Handed_Axe",
+      "label": "Two-Handed Axe",
+      "file": "craftedAffixes/Two-Handed_Axe.json",
+      "modifierCount": 117,
+      "tierVariantGroupCount": 24
+    },
+    {
+      "slug": "Two-Handed_Hammer",
+      "label": "Two-Handed Hammer",
+      "file": "craftedAffixes/Two-Handed_Hammer.json",
+      "modifierCount": 105,
+      "tierVariantGroupCount": 24
+    },
+    {
+      "slug": "Two-Handed_Sword",
+      "label": "Two-Handed Sword",
+      "file": "craftedAffixes/Two-Handed_Sword.json",
+      "modifierCount": 132,
+      "tierVariantGroupCount": 25
+    },
+    {
+      "slug": "Wand",
+      "label": "Wand",
+      "file": "craftedAffixes/Wand.json",
+      "modifierCount": 131,
+      "tierVariantGroupCount": 25
+    }
+  ]
+}

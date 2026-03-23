@@ -1,0 +1,190 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "Cane",
+  "categoryLabel": "Cane",
+  "sourceUrl": "https://tlidb.com/cn/Cane",
+  "fetchedAt": "2026-03-22T11:44:58Z",
+  "baseCount": 20,
+  "bases": [
+    {
+      "id": "Wayfarer_Cane",
+      "name": "云游者手杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Wayfarer_Cane.webp",
+      "iconAlt": "IconEquipWeaponWandNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
+    },
+    {
+      "id": "Rambone_Cane",
+      "name": "羊骨手杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Rambone_Cane.webp",
+      "iconAlt": "IconEquipWeaponWandNorm002128",
+      "requiredLevel": 2,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_002_128.webp"
+    },
+    {
+      "id": "Witness_Cane",
+      "name": "见证者手杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Witness_Cane.webp",
+      "iconAlt": "IconEquipWeaponWandNorm003128",
+      "requiredLevel": 4,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_003_128.webp"
+    },
+    {
+      "id": "Snake-scale_Cane",
+      "name": "蛇鳞手杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Snake-scale_Cane.webp",
+      "iconAlt": "IconEquipWeaponWandNorm004128",
+      "requiredLevel": 9,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_004_128.webp"
+    },
+    {
+      "id": "Recluse_Cane",
+      "name": "遁世者手杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Recluse_Cane.webp",
+      "iconAlt": "IconEquipWeaponWandNorm005128",
+      "requiredLevel": 14,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_005_128.webp"
+    },
+    {
+      "id": "Wolf_Fang_Cane",
+      "name": "狼齿手杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Wolf_Fang_Cane.webp",
+      "iconAlt": "IconEquipWeaponWandNorm001128",
+      "requiredLevel": 19,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
+    },
+    {
+      "id": "Omen_Short_Staff",
+      "name": "预兆短杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Omen_Short_Staff.webp",
+      "iconAlt": "IconEquipWeaponWandNorm002128",
+      "requiredLevel": 24,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_002_128.webp"
+    },
+    {
+      "id": "Thinker_Cane",
+      "name": "覃思者手杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Thinker_Cane.webp",
+      "iconAlt": "IconEquipWeaponWandNorm003128",
+      "requiredLevel": 29,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_003_128.webp"
+    },
+    {
+      "id": "Leopard_Jaw_Cane",
+      "name": "豹颚手杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Leopard_Jaw_Cane.webp",
+      "iconAlt": "IconEquipWeaponWandNorm004128",
+      "requiredLevel": 34,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_004_128.webp"
+    },
+    {
+      "id": "Traitor_Cane",
+      "name": "叛道者手杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Traitor_Cane.webp",
+      "iconAlt": "IconEquipWeaponWandNorm005128",
+      "requiredLevel": 39,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_005_128.webp"
+    },
+    {
+      "id": "Lion_Heart_Cane",
+      "name": "狮心手杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Lion_Heart_Cane.webp",
+      "iconAlt": "IconEquipWeaponWandNorm001128",
+      "requiredLevel": 44,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
+    },
+    {
+      "id": "Villain_Cane",
+      "name": "邪心者手杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Villain_Cane.webp",
+      "iconAlt": "IconEquipWeaponWandNorm002128",
+      "requiredLevel": 49,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_002_128.webp"
+    },
+    {
+      "id": "Dragonblood_Cane",
+      "name": "龙鳞手杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Dragonblood_Cane.webp",
+      "iconAlt": "IconEquipWeaponWandNorm003128",
+      "requiredLevel": 54,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_003_128.webp"
+    },
+    {
+      "id": "Foreshadow_Short_Staff",
+      "name": "噩兆短杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Foreshadow_Short_Staff.webp",
+      "iconAlt": "IconEquipWeaponWandNorm004128",
+      "requiredLevel": 59,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_004_128.webp"
+    },
+    {
+      "id": "Esoteric_Cane",
+      "name": "秘传之手杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Esoteric_Cane.webp",
+      "iconAlt": "IconEquipWeaponWandNorm005128",
+      "requiredLevel": 64,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_005_128.webp"
+    },
+    {
+      "id": "Fallen_Pactspirital_Short_Staff",
+      "name": "落花短杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Fallen_Pactspirital_Short_Staff.webp",
+      "iconAlt": "IconEquipWeaponWandNorm001128",
+      "requiredLevel": 68,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
+    },
+    {
+      "id": "Obsidian_Cane",
+      "name": "黑曜石手杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Obsidian_Cane.webp",
+      "iconAlt": "IconEquipWeaponWandNorm005128",
+      "requiredLevel": 72,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_005_128.webp"
+    },
+    {
+      "id": "Blue_Amber_Cane",
+      "name": "蓝纹琥珀手杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Blue_Amber_Cane.webp",
+      "iconAlt": "IconEquipWeaponWandNorm001128",
+      "requiredLevel": 82,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
+    },
+    {
+      "id": "Glimmering_Fluorite_Cane",
+      "name": "微光萤石手杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Glimmering_Fluorite_Cane.webp",
+      "iconAlt": "IconEquipWeaponWandNorm001128",
+      "requiredLevel": 84,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
+    },
+    {
+      "id": "Sleeping_Sage's_Cane",
+      "name": "安眠贤者的手杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Sleeping_Sage_s_Cane.webp",
+      "iconAlt": "IconEquipWeaponWandNorm001128",
+      "requiredLevel": 86,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
+    }
+  ]
+}

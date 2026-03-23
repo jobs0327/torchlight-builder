@@ -1,0 +1,118 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "DEX_Boots",
+  "categoryLabel": "DEX Boots",
+  "sourceUrl": "https://tlidb.com/cn/DEX_Boots",
+  "fetchedAt": "2026-03-22T11:43:54Z",
+  "baseCount": 12,
+  "bases": [
+    {
+      "id": "Rogue's_Long_Boots",
+      "name": "游荡者长靴",
+      "iconUrl": "/assets/equipment/crafted-bases/Rogue_s_Long_Boots.webp",
+      "iconAlt": "IconEquipShoesAgiNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Agi_Norm_001_128.webp"
+    },
+    {
+      "id": "Scout's_Short_Boots",
+      "name": "斥候短靴",
+      "iconUrl": "/assets/equipment/crafted-bases/Scout_s_Short_Boots.webp",
+      "iconAlt": "IconEquipShoesAgiNorm002128",
+      "requiredLevel": 1,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Agi_Norm_002_128.webp"
+    },
+    {
+      "id": "Skirmisher's_Leather_Boots",
+      "name": "散兵皮靴",
+      "iconUrl": "/assets/equipment/crafted-bases/Skirmisher_s_Leather_Boots.webp",
+      "iconAlt": "IconEquipShoesAgiNorm003128",
+      "requiredLevel": 9,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Agi_Norm_003_128.webp"
+    },
+    {
+      "id": "Hunter's_Leather_Boots",
+      "name": "猎手皮靴",
+      "iconUrl": "/assets/equipment/crafted-bases/Hunter_s_Leather_Boots.webp",
+      "iconAlt": "IconEquipShoesAgiNorm004128",
+      "requiredLevel": 24,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Agi_Norm_004_128.webp"
+    },
+    {
+      "id": "Prospector's_Short_Boots",
+      "name": "勘探者短靴",
+      "iconUrl": "/assets/equipment/crafted-bases/Prospector_s_Short_Boots.webp",
+      "iconAlt": "IconEquipShoesAgiNorm00101128",
+      "requiredLevel": 39,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Agi_Norm_001_01_128.webp"
+    },
+    {
+      "id": "Wild_Dominator_Long_Boots",
+      "name": "荒野主宰长靴",
+      "iconUrl": "/assets/equipment/crafted-bases/Wild_Dominator_Long_Boots.webp",
+      "iconAlt": "IconEquipShoesAgiNorm00201128",
+      "requiredLevel": 52,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Agi_Norm_002_01_128.webp"
+    },
+    {
+      "id": "Grand_Explorer's_Heavy_Boots",
+      "name": "大探险家厚底靴",
+      "iconUrl": "/assets/equipment/crafted-bases/Grand_Explorer_s_Heavy_Boots.webp",
+      "iconAlt": "IconEquipShoesAgiNorm00301128",
+      "requiredLevel": 57,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Agi_Norm_003_01_128.webp"
+    },
+    {
+      "id": "Watcher's_Trail",
+      "name": "监视者的足迹",
+      "iconUrl": "/assets/equipment/crafted-bases/Watcher_s_Trail.webp",
+      "iconAlt": "IconEquipShoesAgiNorm00401128",
+      "requiredLevel": 62,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Agi_Norm_004_01_128.webp"
+    },
+    {
+      "id": "Eternal_Night_Stalker's_Long_Boots",
+      "name": "永夜追猎者长靴",
+      "iconUrl": "/assets/equipment/crafted-bases/Eternal_Night_Stalker_s_Long_Boots.webp",
+      "iconAlt": "IconEquipShoesAgiNorm00102128",
+      "requiredLevel": 66,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Agi_Norm_001_02_128.webp"
+    },
+    {
+      "id": "Boots_of_Calamity",
+      "name": "灾厄之履",
+      "iconUrl": "/assets/equipment/crafted-bases/Boots_of_Calamity.webp",
+      "iconAlt": "IconEquipShoesAgiNorm00202128",
+      "requiredLevel": 70,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Agi_Norm_002_02_128.webp"
+    },
+    {
+      "id": "Demon_Slayer's_Feet",
+      "name": "除魔者之足",
+      "iconUrl": "/assets/equipment/crafted-bases/Demon_Slayer_s_Feet.webp",
+      "iconAlt": "IconEquipShoesAgiNorm00302128",
+      "requiredLevel": 76,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Agi_Norm_003_02_128.webp"
+    },
+    {
+      "id": "Secret_Shadow's_Shoes",
+      "name": "秘影之履",
+      "iconUrl": "/assets/equipment/crafted-bases/Secret_Shadow_s_Shoes.webp",
+      "iconAlt": "IconEquipShoesAgiNorm00402128",
+      "requiredLevel": 82,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Agi_Norm_004_02_128.webp"
+    }
+  ]
+}

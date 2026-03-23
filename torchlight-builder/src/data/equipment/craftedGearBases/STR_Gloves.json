@@ -1,0 +1,118 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "STR_Gloves",
+  "categoryLabel": "STR Gloves",
+  "sourceUrl": "https://tlidb.com/cn/STR_Gloves",
+  "fetchedAt": "2026-03-22T11:43:35Z",
+  "baseCount": 12,
+  "bases": [
+    {
+      "id": "Brute_Handguards",
+      "name": "蛮兵护手",
+      "iconUrl": "/assets/equipment/crafted-bases/Brute_Handguards.webp",
+      "iconAlt": "IconEquipGlovesStrNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Str_Norm_001_128.webp"
+    },
+    {
+      "id": "Footman's_Gauntlets",
+      "name": "方阵兵手甲",
+      "iconUrl": "/assets/equipment/crafted-bases/Footman_s_Gauntlets.webp",
+      "iconAlt": "IconEquipGlovesStrNorm002128",
+      "requiredLevel": 1,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Str_Norm_002_128.webp"
+    },
+    {
+      "id": "Paladin's_Hands",
+      "name": "圣战者之手",
+      "iconUrl": "/assets/equipment/crafted-bases/Paladin_s_Hands.webp",
+      "iconAlt": "IconEquipGlovesStrNorm003128",
+      "requiredLevel": 9,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Str_Norm_003_128.webp"
+    },
+    {
+      "id": "Berserker's_Hands",
+      "name": "狂战士之手",
+      "iconUrl": "/assets/equipment/crafted-bases/Berserker_s_Hands.webp",
+      "iconAlt": "IconEquipGlovesStrNorm004128",
+      "requiredLevel": 24,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Str_Norm_004_128.webp"
+    },
+    {
+      "id": "Iron_Sentry's_Hold",
+      "name": "铁卫之握",
+      "iconUrl": "/assets/equipment/crafted-bases/Iron_Sentry_s_Hold.webp",
+      "iconAlt": "IconEquipGlovesStrNorm00101128",
+      "requiredLevel": 39,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Str_Norm_001_01_128.webp"
+    },
+    {
+      "id": "Packleader_Handguards",
+      "name": "头狼护手",
+      "iconUrl": "/assets/equipment/crafted-bases/Packleader_Handguards.webp",
+      "iconAlt": "IconEquipGlovesStrNorm00201128",
+      "requiredLevel": 52,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Str_Norm_002_01_128.webp"
+    },
+    {
+      "id": "Mountain_Lord_Handguards",
+      "name": "高山领主护手",
+      "iconUrl": "/assets/equipment/crafted-bases/Mountain_Lord_Handguards.webp",
+      "iconAlt": "IconEquipGlovesStrNorm00301128",
+      "requiredLevel": 57,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Str_Norm_003_01_128.webp"
+    },
+    {
+      "id": "Divine_Arbiter's_Hands",
+      "name": "神圣仲裁者之手",
+      "iconUrl": "/assets/equipment/crafted-bases/Divine_Arbiter_s_Hands.webp",
+      "iconAlt": "IconEquipGlovesStrNorm00401128",
+      "requiredLevel": 62,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Str_Norm_004_01_128.webp"
+    },
+    {
+      "id": "Dragon_Guardian_Handguards",
+      "name": "龙圣卫护手",
+      "iconUrl": "/assets/equipment/crafted-bases/Dragon_Guardian_Handguards.webp",
+      "iconAlt": "IconEquipGlovesStrNorm00102128",
+      "requiredLevel": 66,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Str_Norm_001_02_128.webp"
+    },
+    {
+      "id": "Fallen_Knight_Handguards",
+      "name": "堕落骑士护手",
+      "iconUrl": "/assets/equipment/crafted-bases/Fallen_Knight_Handguards.webp",
+      "iconAlt": "IconEquipGlovesStrNorm00202128",
+      "requiredLevel": 70,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Str_Norm_002_02_128.webp"
+    },
+    {
+      "id": "Old_King's_Rerebraces",
+      "name": "旧日王者的护臂",
+      "iconUrl": "/assets/equipment/crafted-bases/Old_King_s_Rerebraces.webp",
+      "iconAlt": "IconEquipGlovesStrNorm00302128",
+      "requiredLevel": 76,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Str_Norm_003_02_128.webp"
+    },
+    {
+      "id": "Ranger's_Rusted_Gauntlets",
+      "name": "游侠的生锈腕甲",
+      "iconUrl": "/assets/equipment/crafted-bases/Ranger_s_Rusted_Gauntlets.webp",
+      "iconAlt": "IconEquipGlovesStrNorm00402128",
+      "requiredLevel": 82,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Str_Norm_004_02_128.webp"
+    }
+  ]
+}

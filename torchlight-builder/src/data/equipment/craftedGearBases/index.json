@@ -1,0 +1,236 @@
+{
+  "kind": "craftedGearBasesIndex",
+  "sourceIndexUrl": "https://tlidb.com/cn/Legendary_Gear",
+  "fetchedAt": "2026-03-22T11:46:30Z",
+  "categoryCount": 38,
+  "categories": [
+    {
+      "slug": "Belt",
+      "label": "Belt",
+      "file": "craftedGearBases/Belt.json",
+      "baseCount": 12
+    },
+    {
+      "slug": "Bow",
+      "label": "Bow",
+      "file": "craftedGearBases/Bow.json",
+      "baseCount": 20
+    },
+    {
+      "slug": "Cane",
+      "label": "Cane",
+      "file": "craftedGearBases/Cane.json",
+      "baseCount": 20
+    },
+    {
+      "slug": "Claw",
+      "label": "Claw",
+      "file": "craftedGearBases/Claw.json",
+      "baseCount": 20
+    },
+    {
+      "slug": "Crossbow",
+      "label": "Crossbow",
+      "file": "craftedGearBases/Crossbow.json",
+      "baseCount": 20
+    },
+    {
+      "slug": "Cudgel",
+      "label": "Cudgel",
+      "file": "craftedGearBases/Cudgel.json",
+      "baseCount": 20
+    },
+    {
+      "slug": "DEX_Boots",
+      "label": "DEX Boots",
+      "file": "craftedGearBases/DEX_Boots.json",
+      "baseCount": 12
+    },
+    {
+      "slug": "DEX_Chest_Armor",
+      "label": "DEX Chest Armor",
+      "file": "craftedGearBases/DEX_Chest_Armor.json",
+      "baseCount": 12
+    },
+    {
+      "slug": "DEX_Gloves",
+      "label": "DEX Gloves",
+      "file": "craftedGearBases/DEX_Gloves.json",
+      "baseCount": 12
+    },
+    {
+      "slug": "DEX_Helmet",
+      "label": "DEX Helmet",
+      "file": "craftedGearBases/DEX_Helmet.json",
+      "baseCount": 12
+    },
+    {
+      "slug": "DEX_Shield",
+      "label": "DEX Shield",
+      "file": "craftedGearBases/DEX_Shield.json",
+      "baseCount": 12
+    },
+    {
+      "slug": "Dagger",
+      "label": "Dagger",
+      "file": "craftedGearBases/Dagger.json",
+      "baseCount": 20
+    },
+    {
+      "slug": "Fire_Cannon",
+      "label": "Fire Canon",
+      "file": "craftedGearBases/Fire_Cannon.json",
+      "baseCount": 20
+    },
+    {
+      "slug": "INT_Boots",
+      "label": "INT Boots",
+      "file": "craftedGearBases/INT_Boots.json",
+      "baseCount": 12
+    },
+    {
+      "slug": "INT_Chest_Armor",
+      "label": "INT Chest Armor",
+      "file": "craftedGearBases/INT_Chest_Armor.json",
+      "baseCount": 14
+    },
+    {
+      "slug": "INT_Gloves",
+      "label": "INT Gloves",
+      "file": "craftedGearBases/INT_Gloves.json",
+      "baseCount": 12
+    },
+    {
+      "slug": "INT_Helmet",
+      "label": "INT Helmet",
+      "file": "craftedGearBases/INT_Helmet.json",
+      "baseCount": 12
+    },
+    {
+      "slug": "INT_Shield",
+      "label": "INT Shield",
+      "file": "craftedGearBases/INT_Shield.json",
+      "baseCount": 12
+    },
+    {
+      "slug": "Musket",
+      "label": "Musket",
+      "file": "craftedGearBases/Musket.json",
+      "baseCount": 20
+    },
+    {
+      "slug": "Necklace",
+      "label": "Necklace",
+      "file": "craftedGearBases/Necklace.json",
+      "baseCount": 19
+    },
+    {
+      "slug": "One-Handed_Axe",
+      "label": "One-Handed Axe",
+      "file": "craftedGearBases/One-Handed_Axe.json",
+      "baseCount": 20
+    },
+    {
+      "slug": "One-Handed_Hammer",
+      "label": "One-Handed Hammer",
+      "file": "craftedGearBases/One-Handed_Hammer.json",
+      "baseCount": 20
+    },
+    {
+      "slug": "One-Handed_Sword",
+      "label": "One-Handed Sword",
+      "file": "craftedGearBases/One-Handed_Sword.json",
+      "baseCount": 20
+    },
+    {
+      "slug": "Pistol",
+      "label": "Pistol",
+      "file": "craftedGearBases/Pistol.json",
+      "baseCount": 20
+    },
+    {
+      "slug": "Ring",
+      "label": "Ring",
+      "file": "craftedGearBases/Ring.json",
+      "baseCount": 27
+    },
+    {
+      "slug": "Rod",
+      "label": "Rod",
+      "file": "craftedGearBases/Rod.json",
+      "baseCount": 20
+    },
+    {
+      "slug": "STR_Boots",
+      "label": "STR Boots",
+      "file": "craftedGearBases/STR_Boots.json",
+      "baseCount": 12
+    },
+    {
+      "slug": "STR_Chest_Armor",
+      "label": "STR Chest Armor",
+      "file": "craftedGearBases/STR_Chest_Armor.json",
+      "baseCount": 13
+    },
+    {
+      "slug": "STR_Gloves",
+      "label": "STR Gloves",
+      "file": "craftedGearBases/STR_Gloves.json",
+      "baseCount": 12
+    },
+    {
+      "slug": "STR_Helmet",
+      "label": "STR Helmet",
+      "file": "craftedGearBases/STR_Helmet.json",
+      "baseCount": 12
+    },
+    {
+      "slug": "STR_Shield",
+      "label": "STR Shield",
+      "file": "craftedGearBases/STR_Shield.json",
+      "baseCount": 12
+    },
+    {
+      "slug": "Scepter",
+      "label": "Scepter",
+      "file": "craftedGearBases/Scepter.json",
+      "baseCount": 20
+    },
+    {
+      "slug": "Spirit_Ring",
+      "label": "Spirit Ring",
+      "file": "craftedGearBases/Spirit_Ring.json",
+      "baseCount": 6
+    },
+    {
+      "slug": "Tin_Staff",
+      "label": "Tin Staff",
+      "file": "craftedGearBases/Tin_Staff.json",
+      "baseCount": 20
+    },
+    {
+      "slug": "Two-Handed_Axe",
+      "label": "Two-Handed Axe",
+      "file": "craftedGearBases/Two-Handed_Axe.json",
+      "baseCount": 20
+    },
+    {
+      "slug": "Two-Handed_Hammer",
+      "label": "Two-Handed Hammer",
+      "file": "craftedGearBases/Two-Handed_Hammer.json",
+      "baseCount": 20
+    },
+    {
+      "slug": "Two-Handed_Sword",
+      "label": "Two-Handed Sword",
+      "file": "craftedGearBases/Two-Handed_Sword.json",
+      "baseCount": 20
+    },
+    {
+      "slug": "Wand",
+      "label": "Wand",
+      "file": "craftedGearBases/Wand.json",
+      "baseCount": 20
+    }
+  ]
+}

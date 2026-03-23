@@ -1,0 +1,190 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "Claw",
+  "categoryLabel": "Claw",
+  "sourceUrl": "https://tlidb.com/cn/Claw",
+  "fetchedAt": "2026-03-22T11:44:06Z",
+  "baseCount": 20,
+  "bases": [
+    {
+      "id": "Nailclaw",
+      "name": "钉爪",
+      "iconUrl": "/assets/equipment/crafted-bases/Nailclaw.webp",
+      "iconAlt": "IconEquipWeaponClawNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_001_128.webp"
+    },
+    {
+      "id": "Shark_Tooth",
+      "name": "恶鲨之牙",
+      "iconUrl": "/assets/equipment/crafted-bases/Shark_Tooth.webp",
+      "iconAlt": "IconEquipWeaponClawNorm002128",
+      "requiredLevel": 2,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_002_128.webp"
+    },
+    {
+      "id": "Pickaxe_Claw",
+      "name": "凿石之爪",
+      "iconUrl": "/assets/equipment/crafted-bases/Pickaxe_Claw.webp",
+      "iconAlt": "IconEquipWeaponClawNorm003128",
+      "requiredLevel": 4,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_003_128.webp"
+    },
+    {
+      "id": "Black_Cat_Claw",
+      "name": "黑猫爪",
+      "iconUrl": "/assets/equipment/crafted-bases/Black_Cat_Claw.webp",
+      "iconAlt": "IconEquipWeaponClawNorm004128",
+      "requiredLevel": 9,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_004_128.webp"
+    },
+    {
+      "id": "Eyestinger_Claw",
+      "name": "刺目钩爪",
+      "iconUrl": "/assets/equipment/crafted-bases/Eyestinger_Claw.webp",
+      "iconAlt": "IconEquipWeaponClawNorm005128",
+      "requiredLevel": 14,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_005_128.webp"
+    },
+    {
+      "id": "Berserker_Claw",
+      "name": "狂战之爪",
+      "iconUrl": "/assets/equipment/crafted-bases/Berserker_Claw.webp",
+      "iconAlt": "IconEquipWeaponClawNorm001128",
+      "requiredLevel": 19,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_001_128.webp"
+    },
+    {
+      "id": "Sandstorm_Katar",
+      "name": "狂沙爪刃",
+      "iconUrl": "/assets/equipment/crafted-bases/Sandstorm_Katar.webp",
+      "iconAlt": "IconEquipWeaponClawNorm002128",
+      "requiredLevel": 24,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_002_128.webp"
+    },
+    {
+      "id": "Wailing_Claw",
+      "name": "哀鸣之爪",
+      "iconUrl": "/assets/equipment/crafted-bases/Wailing_Claw.webp",
+      "iconAlt": "IconEquipWeaponClawNorm003128",
+      "requiredLevel": 29,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_003_128.webp"
+    },
+    {
+      "id": "Two-Headed_Claw",
+      "name": "双头利爪",
+      "iconUrl": "/assets/equipment/crafted-bases/Two-Headed_Claw.webp",
+      "iconAlt": "IconEquipWeaponClawNorm004128",
+      "requiredLevel": 34,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_004_128.webp"
+    },
+    {
+      "id": "Direwolf_Fang",
+      "name": "恶狼尖牙",
+      "iconUrl": "/assets/equipment/crafted-bases/Direwolf_Fang.webp",
+      "iconAlt": "IconEquipWeaponClawNorm005128",
+      "requiredLevel": 39,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_005_128.webp"
+    },
+    {
+      "id": "Spinesplitter_Katar",
+      "name": "裂脊爪刃",
+      "iconUrl": "/assets/equipment/crafted-bases/Spinesplitter_Katar.webp",
+      "iconAlt": "IconEquipWeaponClawNorm001128",
+      "requiredLevel": 44,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_001_128.webp"
+    },
+    {
+      "id": "Crimson_Tiger_Sting",
+      "name": "赤虎骨刺",
+      "iconUrl": "/assets/equipment/crafted-bases/Crimson_Tiger_Sting.webp",
+      "iconAlt": "IconEquipWeaponClawNorm002128",
+      "requiredLevel": 49,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_002_128.webp"
+    },
+    {
+      "id": "Scarlet_River_Claw",
+      "name": "绯河赤爪",
+      "iconUrl": "/assets/equipment/crafted-bases/Scarlet_River_Claw.webp",
+      "iconAlt": "IconEquipWeaponClawNorm003128",
+      "requiredLevel": 54,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_003_128.webp"
+    },
+    {
+      "id": "Primeval_War_Claw",
+      "name": "上古战爪",
+      "iconUrl": "/assets/equipment/crafted-bases/Primeval_War_Claw.webp",
+      "iconAlt": "IconEquipWeaponClawNorm004128",
+      "requiredLevel": 59,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_004_128.webp"
+    },
+    {
+      "id": "Jadebone_Katar",
+      "name": "骨玉爪刃",
+      "iconUrl": "/assets/equipment/crafted-bases/Jadebone_Katar.webp",
+      "iconAlt": "IconEquipWeaponClawNorm005128",
+      "requiredLevel": 64,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_005_128.webp"
+    },
+    {
+      "id": "Eagle_Claw",
+      "name": "白鹰利爪",
+      "iconUrl": "/assets/equipment/crafted-bases/Eagle_Claw.webp",
+      "iconAlt": "IconEquipWeaponClawNorm001128",
+      "requiredLevel": 68,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_001_128.webp"
+    },
+    {
+      "id": "Delusion_Claw",
+      "name": "虚妄之爪",
+      "iconUrl": "/assets/equipment/crafted-bases/Delusion_Claw.webp",
+      "iconAlt": "IconEquipWeaponClawNorm005128",
+      "requiredLevel": 72,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_005_128.webp"
+    },
+    {
+      "id": "Three-tailed_Cat_Claw",
+      "name": "三尾猫之爪",
+      "iconUrl": "/assets/equipment/crafted-bases/Three-tailed_Cat_Claw.webp",
+      "iconAlt": "IconEquipWeaponClawNorm001128",
+      "requiredLevel": 82,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_001_128.webp"
+    },
+    {
+      "id": "Dragon_Hunter_Claw",
+      "name": "猎龙者利爪",
+      "iconUrl": "/assets/equipment/crafted-bases/Dragon_Hunter_Claw.webp",
+      "iconAlt": "IconEquipWeaponClawNorm001128",
+      "requiredLevel": 84,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_001_128.webp"
+    },
+    {
+      "id": "Silence_Piercing_Claw",
+      "name": "寂夜破空之爪",
+      "iconUrl": "/assets/equipment/crafted-bases/Silence_Piercing_Claw.webp",
+      "iconAlt": "IconEquipWeaponClawNorm001128",
+      "requiredLevel": 86,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_001_128.webp"
+    }
+  ]
+}

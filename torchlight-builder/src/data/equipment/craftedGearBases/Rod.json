@@ -1,0 +1,190 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "Rod",
+  "categoryLabel": "Rod",
+  "sourceUrl": "https://tlidb.com/cn/Rod",
+  "fetchedAt": "2026-03-22T11:44:43Z",
+  "baseCount": 20,
+  "bases": [
+    {
+      "id": "Bud_Rod",
+      "name": "萌芽灵杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Bud_Rod.webp",
+      "iconAlt": "IconEquipWeaponWandNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
+    },
+    {
+      "id": "Thriving_Rod",
+      "name": "生长灵杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Thriving_Rod.webp",
+      "iconAlt": "IconEquipWeaponWandNorm002128",
+      "requiredLevel": 2,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_002_128.webp"
+    },
+    {
+      "id": "Vine_Rod",
+      "name": "藤蔓灵杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Vine_Rod.webp",
+      "iconAlt": "IconEquipWeaponWandNorm003128",
+      "requiredLevel": 4,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_003_128.webp"
+    },
+    {
+      "id": "Storm_Rod",
+      "name": "风雨灵杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Storm_Rod.webp",
+      "iconAlt": "IconEquipWeaponWandNorm004128",
+      "requiredLevel": 9,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_004_128.webp"
+    },
+    {
+      "id": "Waning_Moon_Rod",
+      "name": "落月灵杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Waning_Moon_Rod.webp",
+      "iconAlt": "IconEquipWeaponWandNorm005128",
+      "requiredLevel": 14,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_005_128.webp"
+    },
+    {
+      "id": "Flying_Bird_Rod",
+      "name": "飞鸟灵杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Flying_Bird_Rod.webp",
+      "iconAlt": "IconEquipWeaponWandNorm001128",
+      "requiredLevel": 19,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
+    },
+    {
+      "id": "Swimming_Fish_Rod",
+      "name": "游鱼灵杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Swimming_Fish_Rod.webp",
+      "iconAlt": "IconEquipWeaponWandNorm002128",
+      "requiredLevel": 24,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_002_128.webp"
+    },
+    {
+      "id": "Shepherdess_Rod",
+      "name": "牧羊女灵杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Shepherdess_Rod.webp",
+      "iconAlt": "IconEquipWeaponWandNorm003128",
+      "requiredLevel": 29,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_003_128.webp"
+    },
+    {
+      "id": "River_Rod",
+      "name": "河谷灵杖",
+      "iconUrl": "/assets/equipment/crafted-bases/River_Rod.webp",
+      "iconAlt": "IconEquipWeaponWandNorm004128",
+      "requiredLevel": 34,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_004_128.webp"
+    },
+    {
+      "id": "Harvest_Rod",
+      "name": "丰收灵杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Harvest_Rod.webp",
+      "iconAlt": "IconEquipWeaponWandNorm005128",
+      "requiredLevel": 39,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_005_128.webp"
+    },
+    {
+      "id": "Daylight_Rod",
+      "name": "日光灵杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Daylight_Rod.webp",
+      "iconAlt": "IconEquipWeaponWandNorm001128",
+      "requiredLevel": 44,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
+    },
+    {
+      "id": "Full_Moon_Rod",
+      "name": "满月灵杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Full_Moon_Rod.webp",
+      "iconAlt": "IconEquipWeaponWandNorm005128",
+      "requiredLevel": 49,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_005_128.webp"
+    },
+    {
+      "id": "Shooting_Star_Rod",
+      "name": "流星灵杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Shooting_Star_Rod.webp",
+      "iconAlt": "IconEquipWeaponWandNorm001128",
+      "requiredLevel": 54,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
+    },
+    {
+      "id": "Beast_King_Rod",
+      "name": "兽王灵杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Beast_King_Rod.webp",
+      "iconAlt": "IconEquipWeaponWandNorm002128",
+      "requiredLevel": 59,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_002_128.webp"
+    },
+    {
+      "id": "Celestial_Rod",
+      "name": "星空灵杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Celestial_Rod.webp",
+      "iconAlt": "IconEquipWeaponWandNorm003128",
+      "requiredLevel": 64,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_003_128.webp"
+    },
+    {
+      "id": "Cosmic_Rod",
+      "name": "寰宇灵杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Cosmic_Rod.webp",
+      "iconAlt": "IconEquipWeaponWandNorm004128",
+      "requiredLevel": 68,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_004_128.webp"
+    },
+    {
+      "id": "Star_Ocean_Rod",
+      "name": "星海灵杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Star_Ocean_Rod.webp",
+      "iconAlt": "IconEquipWeaponWandNorm005128",
+      "requiredLevel": 72,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_005_128.webp"
+    },
+    {
+      "id": "Astrologer_Rod",
+      "name": "星象师灵杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Astrologer_Rod.webp",
+      "iconAlt": "IconEquipWeaponWandNorm001128",
+      "requiredLevel": 82,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
+    },
+    {
+      "id": "Bard_Rod",
+      "name": "吟游诗人灵杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Bard_Rod.webp",
+      "iconAlt": "IconEquipWeaponWandNorm001128",
+      "requiredLevel": 84,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
+    },
+    {
+      "id": "Heart_of_All_Rod",
+      "name": "万物之心灵杖",
+      "iconUrl": "/assets/equipment/crafted-bases/Heart_of_All_Rod.webp",
+      "iconAlt": "IconEquipWeaponWandNorm001128",
+      "requiredLevel": 86,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
+    }
+  ]
+}

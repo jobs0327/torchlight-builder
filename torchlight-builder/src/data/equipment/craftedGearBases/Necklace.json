@@ -1,0 +1,181 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "Necklace",
+  "categoryLabel": "Necklace",
+  "sourceUrl": "https://tlidb.com/cn/Necklace",
+  "fetchedAt": "2026-03-22T11:46:12Z",
+  "baseCount": 19,
+  "bases": [
+    {
+      "id": "Tortoiseshell_Amulet",
+      "name": "玳瑁护符",
+      "iconUrl": "/assets/equipment/crafted-bases/Tortoiseshell_Amulet.webp",
+      "iconAlt": "IconEquipAmuletNorm00502128",
+      "requiredLevel": 1,
+      "slotKind": "颈部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Amulet/128/Icon_Equip_Amulet_Norm_005_02_128.webp"
+    },
+    {
+      "id": "Cinnabar_Pendant",
+      "name": "辰砂吊坠",
+      "iconUrl": "/assets/equipment/crafted-bases/Cinnabar_Pendant.webp",
+      "iconAlt": "IconEquipAmuletNorm00502128",
+      "requiredLevel": 1,
+      "slotKind": "颈部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Amulet/128/Icon_Equip_Amulet_Norm_005_02_128.webp"
+    },
+    {
+      "id": "Obsidian_Necklace",
+      "name": "黑曜颈链",
+      "iconUrl": "/assets/equipment/crafted-bases/Obsidian_Necklace.webp",
+      "iconAlt": "IconEquipAmuletNorm00502128",
+      "requiredLevel": 1,
+      "slotKind": "颈部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Amulet/128/Icon_Equip_Amulet_Norm_005_02_128.webp"
+    },
+    {
+      "id": "Cataclysm_Amulet",
+      "name": "天灾护符",
+      "iconUrl": "/assets/equipment/crafted-bases/Cataclysm_Amulet.webp",
+      "iconAlt": "IconEquipAmuletNorm00103128",
+      "requiredLevel": 32,
+      "slotKind": "颈部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Amulet/128/Icon_Equip_Amulet_Norm_001_03_128.webp"
+    },
+    {
+      "id": "Sunlight_Pendant",
+      "name": "日耀吊坠",
+      "iconUrl": "/assets/equipment/crafted-bases/Sunlight_Pendant.webp",
+      "iconAlt": "IconEquipAmuletNorm00103128",
+      "requiredLevel": 32,
+      "slotKind": "颈部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Amulet/128/Icon_Equip_Amulet_Norm_001_03_128.webp"
+    },
+    {
+      "id": "Shaman's_Necklace",
+      "name": "萨满颈链",
+      "iconUrl": "/assets/equipment/crafted-bases/Shaman_s_Necklace.webp",
+      "iconAlt": "IconEquipAmuletNorm00103128",
+      "requiredLevel": 32,
+      "slotKind": "颈部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Amulet/128/Icon_Equip_Amulet_Norm_001_03_128.webp"
+    },
+    {
+      "id": "Flare_Amulet",
+      "name": "焰光护符",
+      "iconUrl": "/assets/equipment/crafted-bases/Flare_Amulet.webp",
+      "iconAlt": "IconEquipAmuletNorm00203128",
+      "requiredLevel": 38,
+      "slotKind": "颈部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Amulet/128/Icon_Equip_Amulet_Norm_002_03_128.webp"
+    },
+    {
+      "id": "Ripple_Pendant",
+      "name": "涟漪吊坠",
+      "iconUrl": "/assets/equipment/crafted-bases/Ripple_Pendant.webp",
+      "iconAlt": "IconEquipAmuletNorm00203128",
+      "requiredLevel": 38,
+      "slotKind": "颈部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Amulet/128/Icon_Equip_Amulet_Norm_002_03_128.webp"
+    },
+    {
+      "id": "Lunar_Corona_Necklace",
+      "name": "月华颈链",
+      "iconUrl": "/assets/equipment/crafted-bases/Lunar_Corona_Necklace.webp",
+      "iconAlt": "IconEquipAmuletNorm00203128",
+      "requiredLevel": 38,
+      "slotKind": "颈部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Amulet/128/Icon_Equip_Amulet_Norm_002_03_128.webp"
+    },
+    {
+      "id": "Sunlight_Amulet",
+      "name": "日耀护符",
+      "iconUrl": "/assets/equipment/crafted-bases/Sunlight_Amulet.webp",
+      "iconAlt": "IconEquipAmuletNorm00403128",
+      "requiredLevel": 56,
+      "slotKind": "颈部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Amulet/128/Icon_Equip_Amulet_Norm_004_03_128.webp"
+    },
+    {
+      "id": "Red_Crystal_Amulet",
+      "name": "红水晶护符",
+      "iconUrl": "/assets/equipment/crafted-bases/Red_Crystal_Amulet.webp",
+      "iconAlt": "IconEquipAmuletNorm00303128",
+      "requiredLevel": 56,
+      "slotKind": "颈部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Amulet/128/Icon_Equip_Amulet_Norm_003_03_128.webp"
+    },
+    {
+      "id": "Opal_Pendant",
+      "name": "猫眼石吊坠",
+      "iconUrl": "/assets/equipment/crafted-bases/Opal_Pendant.webp",
+      "iconAlt": "IconEquipAmuletNorm00303128",
+      "requiredLevel": 56,
+      "slotKind": "颈部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Amulet/128/Icon_Equip_Amulet_Norm_003_03_128.webp"
+    },
+    {
+      "id": "Moonstone_Necklace",
+      "name": "月长石颈链",
+      "iconUrl": "/assets/equipment/crafted-bases/Moonstone_Necklace.webp",
+      "iconAlt": "IconEquipAmuletNorm00303128",
+      "requiredLevel": 56,
+      "slotKind": "颈部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Amulet/128/Icon_Equip_Amulet_Norm_003_03_128.webp"
+    },
+    {
+      "id": "Hero's_Amulet",
+      "name": "勇者的护符",
+      "iconUrl": "/assets/equipment/crafted-bases/Hero_s_Amulet.webp",
+      "iconAlt": "IconEquipAmuletNorm00403128",
+      "requiredLevel": 78,
+      "slotKind": "颈部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Amulet/128/Icon_Equip_Amulet_Norm_004_03_128.webp"
+    },
+    {
+      "id": "Assassin's_Pendant",
+      "name": "刺客的吊坠",
+      "iconUrl": "/assets/equipment/crafted-bases/Assassin_s_Pendant.webp",
+      "iconAlt": "IconEquipAmuletNorm00403128",
+      "requiredLevel": 78,
+      "slotKind": "颈部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Amulet/128/Icon_Equip_Amulet_Norm_004_03_128.webp"
+    },
+    {
+      "id": "Sage's_Necklace",
+      "name": "贤者的颈链",
+      "iconUrl": "/assets/equipment/crafted-bases/Sage_s_Necklace.webp",
+      "iconAlt": "IconEquipAmuletNorm00403128",
+      "requiredLevel": 78,
+      "slotKind": "颈部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Amulet/128/Icon_Equip_Amulet_Norm_004_03_128.webp"
+    },
+    {
+      "id": "Destroyer's_Amulet",
+      "name": "破环者护符",
+      "iconUrl": "/assets/equipment/crafted-bases/Destroyer_s_Amulet.webp",
+      "iconAlt": "IconEquipAmuletNorm00503128",
+      "requiredLevel": 86,
+      "slotKind": "颈部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Amulet/128/Icon_Equip_Amulet_Norm_005_03_128.webp"
+    },
+    {
+      "id": "Onslaughter's_Pendant",
+      "name": "进击者吊坠",
+      "iconUrl": "/assets/equipment/crafted-bases/Onslaughter_s_Pendant.webp",
+      "iconAlt": "IconEquipAmuletNorm00503128",
+      "requiredLevel": 86,
+      "slotKind": "颈部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Amulet/128/Icon_Equip_Amulet_Norm_005_03_128.webp"
+    },
+    {
+      "id": "Sacrificer's_Necklace",
+      "name": "献祭者颈链",
+      "iconUrl": "/assets/equipment/crafted-bases/Sacrificer_s_Necklace.webp",
+      "iconAlt": "IconEquipAmuletNorm00503128",
+      "requiredLevel": 86,
+      "slotKind": "颈部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Amulet/128/Icon_Equip_Amulet_Norm_005_03_128.webp"
+    }
+  ]
+}

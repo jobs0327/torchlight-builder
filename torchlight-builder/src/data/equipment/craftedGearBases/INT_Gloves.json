@@ -1,0 +1,118 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "INT_Gloves",
+  "categoryLabel": "INT Gloves",
+  "sourceUrl": "https://tlidb.com/cn/INT_Gloves",
+  "fetchedAt": "2026-03-22T11:43:43Z",
+  "baseCount": 12,
+  "bases": [
+    {
+      "id": "Herbalist's_Gloves",
+      "name": "草药师手套",
+      "iconUrl": "/assets/equipment/crafted-bases/Herbalist_s_Gloves.webp",
+      "iconAlt": "IconEquipGlovesIntNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Int_Norm_001_128.webp"
+    },
+    {
+      "id": "Scribe_Handguards",
+      "name": "抄写员护手",
+      "iconUrl": "/assets/equipment/crafted-bases/Scribe_Handguards.webp",
+      "iconAlt": "IconEquipGlovesIntNorm002128",
+      "requiredLevel": 1,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Int_Norm_002_128.webp"
+    },
+    {
+      "id": "Acolyte_Handguards",
+      "name": "吟游者之手",
+      "iconUrl": "/assets/equipment/crafted-bases/Acolyte_Handguards.webp",
+      "iconAlt": "IconEquipGlovesIntNorm003128",
+      "requiredLevel": 9,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Int_Norm_003_128.webp"
+    },
+    {
+      "id": "Witchdoctor's_Gloves",
+      "name": "巫医手套",
+      "iconUrl": "/assets/equipment/crafted-bases/Witchdoctor_s_Gloves.webp",
+      "iconAlt": "IconEquipGlovesIntNorm004128",
+      "requiredLevel": 24,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Int_Norm_004_128.webp"
+    },
+    {
+      "id": "Disciple_Handguards",
+      "name": "学徒护手",
+      "iconUrl": "/assets/equipment/crafted-bases/Disciple_Handguards.webp",
+      "iconAlt": "IconEquipGlovesIntNorm00101128",
+      "requiredLevel": 39,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Int_Norm_001_01_128.webp"
+    },
+    {
+      "id": "Shaman's_Hands",
+      "name": "萨满之手",
+      "iconUrl": "/assets/equipment/crafted-bases/Shaman_s_Hands.webp",
+      "iconAlt": "IconEquipGlovesIntNorm00201128",
+      "requiredLevel": 52,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Int_Norm_002_01_128.webp"
+    },
+    {
+      "id": "Envoy's_Hands",
+      "name": "神使之手",
+      "iconUrl": "/assets/equipment/crafted-bases/Envoy_s_Hands.webp",
+      "iconAlt": "IconEquipGlovesIntNorm00301128",
+      "requiredLevel": 57,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Int_Norm_003_01_128.webp"
+    },
+    {
+      "id": "Respected_Tutor's_Gloves",
+      "name": "尊师手套",
+      "iconUrl": "/assets/equipment/crafted-bases/Respected_Tutor_s_Gloves.webp",
+      "iconAlt": "IconEquipGlovesIntNorm00401128",
+      "requiredLevel": 62,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Int_Norm_004_01_128.webp"
+    },
+    {
+      "id": "Elder_Sage's_Long_Gloves",
+      "name": "大贤者的长手套",
+      "iconUrl": "/assets/equipment/crafted-bases/Elder_Sage_s_Long_Gloves.webp",
+      "iconAlt": "IconEquipGlovesIntNorm00102128",
+      "requiredLevel": 66,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Int_Norm_001_02_128.webp"
+    },
+    {
+      "id": "Imperishable_Touch",
+      "name": "不灭者之触",
+      "iconUrl": "/assets/equipment/crafted-bases/Imperishable_Touch.webp",
+      "iconAlt": "IconEquipGlovesIntNorm00202128",
+      "requiredLevel": 70,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Int_Norm_002_02_128.webp"
+    },
+    {
+      "id": "All_Magic_Grip",
+      "name": "万法之轻握",
+      "iconUrl": "/assets/equipment/crafted-bases/All_Magic_Grip.webp",
+      "iconAlt": "IconEquipGlovesIntNorm00302128",
+      "requiredLevel": 76,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Int_Norm_003_02_128.webp"
+    },
+    {
+      "id": "Long_Night_Sorcerer's_Wristband",
+      "name": "长夜巫王手带",
+      "iconUrl": "/assets/equipment/crafted-bases/Long_Night_Sorcerer_s_Wristband.webp",
+      "iconAlt": "IconEquipGlovesIntNorm00402128",
+      "requiredLevel": 82,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Int_Norm_004_02_128.webp"
+    }
+  ]
+}

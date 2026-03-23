@@ -1,0 +1,118 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "STR_Shield",
+  "categoryLabel": "STR Shield",
+  "sourceUrl": "https://tlidb.com/cn/STR_Shield",
+  "fetchedAt": "2026-03-22T11:45:57Z",
+  "baseCount": 12,
+  "bases": [
+    {
+      "id": "Aspiration_Tower_Shield",
+      "name": "初心巨盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Aspiration_Tower_Shield.webp",
+      "iconAlt": "IconEquipShieldStrNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Str_Norm_001_128.webp"
+    },
+    {
+      "id": "Starmetal_Kite_Shield",
+      "name": "星铁重盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Starmetal_Kite_Shield.webp",
+      "iconAlt": "IconEquipShieldStrNorm002128",
+      "requiredLevel": 1,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Str_Norm_002_128.webp"
+    },
+    {
+      "id": "Griffin_Tower_Shield",
+      "name": "狮鹫巨盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Griffin_Tower_Shield.webp",
+      "iconAlt": "IconEquipShieldStrNorm003128",
+      "requiredLevel": 9,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Str_Norm_003_128.webp"
+    },
+    {
+      "id": "Crimson_Kite_Shield",
+      "name": "绯红重盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Crimson_Kite_Shield.webp",
+      "iconAlt": "IconEquipShieldStrNorm004128",
+      "requiredLevel": 24,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Str_Norm_004_128.webp"
+    },
+    {
+      "id": "Callous_Kite_Shield",
+      "name": "残酷重盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Callous_Kite_Shield.webp",
+      "iconAlt": "IconEquipShieldStrNorm001128",
+      "requiredLevel": 39,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Str_Norm_001_128.webp"
+    },
+    {
+      "id": "Falling_Star_Tower_Shield",
+      "name": "陨星巨盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Falling_Star_Tower_Shield.webp",
+      "iconAlt": "IconEquipShieldStrNorm002128",
+      "requiredLevel": 52,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Str_Norm_002_128.webp"
+    },
+    {
+      "id": "Warlord's_Kite_Shield",
+      "name": "督军重盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Warlord_s_Kite_Shield.webp",
+      "iconAlt": "IconEquipShieldStrNorm003128",
+      "requiredLevel": 57,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Str_Norm_003_128.webp"
+    },
+    {
+      "id": "Vindicator's_Tower_Shield",
+      "name": "裁决巨盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Vindicator_s_Tower_Shield.webp",
+      "iconAlt": "IconEquipShieldStrNorm004128",
+      "requiredLevel": 62,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Str_Norm_004_128.webp"
+    },
+    {
+      "id": "Monarch's_Kite_Shield",
+      "name": "君主重盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Monarch_s_Kite_Shield.webp",
+      "iconAlt": "IconEquipShieldStrNorm001128",
+      "requiredLevel": 66,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Str_Norm_001_128.webp"
+    },
+    {
+      "id": "Glory_Kite_Shield",
+      "name": "荣耀重盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Glory_Kite_Shield.webp",
+      "iconAlt": "IconEquipShieldStrNorm002128",
+      "requiredLevel": 70,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Str_Norm_002_128.webp"
+    },
+    {
+      "id": "Red_Pegasus_Kite_Shield",
+      "name": "红飞马重盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Red_Pegasus_Kite_Shield.webp",
+      "iconAlt": "IconEquipShieldStrNorm003128",
+      "requiredLevel": 76,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Str_Norm_003_128.webp"
+    },
+    {
+      "id": "Future_Warrior's_Kite_Shield",
+      "name": "末路战士的重盾",
+      "iconUrl": "/assets/equipment/crafted-bases/Future_Warrior_s_Kite_Shield.webp",
+      "iconAlt": "IconEquipShieldStrNorm004128",
+      "requiredLevel": 82,
+      "slotKind": "副手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shield/128/Icon_Equip_Shield_Str_Norm_004_128.webp"
+    }
+  ]
+}

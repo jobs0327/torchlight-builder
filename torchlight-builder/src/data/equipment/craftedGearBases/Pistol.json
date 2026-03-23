@@ -1,0 +1,190 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "Pistol",
+  "categoryLabel": "Pistol",
+  "sourceUrl": "https://tlidb.com/cn/Pistol",
+  "fetchedAt": "2026-03-22T11:45:02Z",
+  "baseCount": 20,
+  "bases": [
+    {
+      "id": "Rusted_Pistol",
+      "name": "锈铁手枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Rusted_Pistol.webp",
+      "iconAlt": "IconEquipWeaponPistolNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Pistol_Norm_001_128.webp"
+    },
+    {
+      "id": "Blackrock_Zapper",
+      "name": "黑石魔枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Blackrock_Zapper.webp",
+      "iconAlt": "IconEquipWeaponPistolNorm002128",
+      "requiredLevel": 2,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Pistol_Norm_002_128.webp"
+    },
+    {
+      "id": "Pocket_Boomstick",
+      "name": "袖珍短枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Pocket_Boomstick.webp",
+      "iconAlt": "IconEquipWeaponPistolNorm003128",
+      "requiredLevel": 4,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Pistol_Norm_003_128.webp"
+    },
+    {
+      "id": "Iron_Pistol",
+      "name": "精铁手枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Iron_Pistol.webp",
+      "iconAlt": "IconEquipWeaponPistolNorm004128",
+      "requiredLevel": 9,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Pistol_Norm_004_128.webp"
+    },
+    {
+      "id": "Black_Feather_Zapper",
+      "name": "黑羽魔枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Black_Feather_Zapper.webp",
+      "iconAlt": "IconEquipWeaponPistolNorm005128",
+      "requiredLevel": 14,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Pistol_Norm_005_128.webp"
+    },
+    {
+      "id": "Rottenbone_Zapper",
+      "name": "朽骨魔枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Rottenbone_Zapper.webp",
+      "iconAlt": "IconEquipWeaponPistolNorm001128",
+      "requiredLevel": 19,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Pistol_Norm_001_128.webp"
+    },
+    {
+      "id": "Thorny_Boomstick",
+      "name": "荆棘短枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Thorny_Boomstick.webp",
+      "iconAlt": "IconEquipWeaponPistolNorm002128",
+      "requiredLevel": 24,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Pistol_Norm_002_128.webp"
+    },
+    {
+      "id": "Warden's_Boomstick",
+      "name": "狱卒短枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Warden_s_Boomstick.webp",
+      "iconAlt": "IconEquipWeaponPistolNorm003128",
+      "requiredLevel": 29,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Pistol_Norm_003_128.webp"
+    },
+    {
+      "id": "Unholy_Zapper",
+      "name": "污秽魔枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Unholy_Zapper.webp",
+      "iconAlt": "IconEquipWeaponPistolNorm004128",
+      "requiredLevel": 34,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Pistol_Norm_004_128.webp"
+    },
+    {
+      "id": "Cursed_Boomstick",
+      "name": "诅咒短枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Cursed_Boomstick.webp",
+      "iconAlt": "IconEquipWeaponPistolNorm005128",
+      "requiredLevel": 39,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Pistol_Norm_005_128.webp"
+    },
+    {
+      "id": "Viper_Zapper",
+      "name": "蝮蛇魔枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Viper_Zapper.webp",
+      "iconAlt": "IconEquipWeaponPistolNorm001128",
+      "requiredLevel": 44,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Pistol_Norm_001_128.webp"
+    },
+    {
+      "id": "Voodoo_Boomstick",
+      "name": "巫灵短枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Voodoo_Boomstick.webp",
+      "iconAlt": "IconEquipWeaponPistolNorm002128",
+      "requiredLevel": 49,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Pistol_Norm_002_128.webp"
+    },
+    {
+      "id": "Bloodclaw_Zapper",
+      "name": "恶爪魔枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Bloodclaw_Zapper.webp",
+      "iconAlt": "IconEquipWeaponPistolNorm003128",
+      "requiredLevel": 54,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Pistol_Norm_003_128.webp"
+    },
+    {
+      "id": "Swarm_Pistol",
+      "name": "虫豺手枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Swarm_Pistol.webp",
+      "iconAlt": "IconEquipWeaponPistolNorm004128",
+      "requiredLevel": 59,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Pistol_Norm_004_128.webp"
+    },
+    {
+      "id": "Shadow_Boomstick",
+      "name": "暗影短枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Shadow_Boomstick.webp",
+      "iconAlt": "IconEquipWeaponPistolNorm005128",
+      "requiredLevel": 64,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Pistol_Norm_005_128.webp"
+    },
+    {
+      "id": "Dragonsoul_Zapper",
+      "name": "龙魂魔枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Dragonsoul_Zapper.webp",
+      "iconAlt": "IconEquipWeaponPistolNorm001128",
+      "requiredLevel": 68,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Pistol_Norm_001_128.webp"
+    },
+    {
+      "id": "Final_Battle_Boomstick",
+      "name": "决战短枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Final_Battle_Boomstick.webp",
+      "iconAlt": "IconEquipWeaponPistolNorm005128",
+      "requiredLevel": 72,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Pistol_Norm_005_128.webp"
+    },
+    {
+      "id": "Terminator_Boomstick",
+      "name": "终结者短枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Terminator_Boomstick.webp",
+      "iconAlt": "IconEquipWeaponPistolNorm001128",
+      "requiredLevel": 82,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Pistol_Norm_001_128.webp"
+    },
+    {
+      "id": "Kingslayer_Boomstick",
+      "name": "弑君者短枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Kingslayer_Boomstick.webp",
+      "iconAlt": "IconEquipWeaponPistolNorm001128",
+      "requiredLevel": 84,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Pistol_Norm_001_128.webp"
+    },
+    {
+      "id": "War_Ender's_Boomstick",
+      "name": "止战之徒的短枪",
+      "iconUrl": "/assets/equipment/crafted-bases/War_Ender_s_Boomstick.webp",
+      "iconAlt": "IconEquipWeaponPistolNorm001128",
+      "requiredLevel": 86,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Pistol_Norm_001_128.webp"
+    }
+  ]
+}

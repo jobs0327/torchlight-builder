@@ -1,0 +1,253 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "Ring",
+  "categoryLabel": "Ring",
+  "sourceUrl": "https://tlidb.com/cn/Ring",
+  "fetchedAt": "2026-03-22T11:46:17Z",
+  "baseCount": 27,
+  "bases": [
+    {
+      "id": "Burning_Flame_Ring",
+      "name": "灼烧炎戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Burning_Flame_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00201128",
+      "requiredLevel": 1,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_002_01_128.webp"
+    },
+    {
+      "id": "Biting_Wind_Ice_Ring",
+      "name": "寒风冰戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Biting_Wind_Ice_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00201128",
+      "requiredLevel": 1,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_002_01_128.webp"
+    },
+    {
+      "id": "Calamity_Lightning_Ring",
+      "name": "万厄雷戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Calamity_Lightning_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00201128",
+      "requiredLevel": 1,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_002_01_128.webp"
+    },
+    {
+      "id": "Abyss_Darkness_Ring",
+      "name": "深渊暗戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Abyss_Darkness_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00201128",
+      "requiredLevel": 1,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_002_01_128.webp"
+    },
+    {
+      "id": "Heated_Flame_Ring",
+      "name": "淬火炎戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Heated_Flame_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00302128",
+      "requiredLevel": 24,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_003_02_128.webp"
+    },
+    {
+      "id": "Blight_Ice_Ring",
+      "name": "凝霜冰戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Blight_Ice_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00302128",
+      "requiredLevel": 24,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_003_02_128.webp"
+    },
+    {
+      "id": "Dazzling_Lightning_Ring",
+      "name": "耀眼雷戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Dazzling_Lightning_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00302128",
+      "requiredLevel": 24,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_003_02_128.webp"
+    },
+    {
+      "id": "Agony_Darkness_Ring",
+      "name": "苦痛暗戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Agony_Darkness_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00302128",
+      "requiredLevel": 24,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_003_02_128.webp"
+    },
+    {
+      "id": "Raging_Boil_Flame_Ring",
+      "name": "沸腾炎戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Raging_Boil_Flame_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00403128",
+      "requiredLevel": 52,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_004_03_128.webp"
+    },
+    {
+      "id": "Snow_Ice_Ring",
+      "name": "雪染冰戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Snow_Ice_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00403128",
+      "requiredLevel": 52,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_004_03_128.webp"
+    },
+    {
+      "id": "Chilling_Lightning_Ring",
+      "name": "彻骨雷戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Chilling_Lightning_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00403128",
+      "requiredLevel": 52,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_004_03_128.webp"
+    },
+    {
+      "id": "Rotten_Darkness_Ring",
+      "name": "腐坏暗戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Rotten_Darkness_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00403128",
+      "requiredLevel": 52,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_004_03_128.webp"
+    },
+    {
+      "id": "Frozen_Ring",
+      "name": "凝冰戒指",
+      "iconUrl": "/assets/equipment/crafted-bases/Frozen_Ring.webp",
+      "iconAlt": "IconEquipRingNorm002128",
+      "requiredLevel": 58,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_002_128.webp"
+    },
+    {
+      "id": "Firestorm_Flame_Ring",
+      "name": "火海炎戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Firestorm_Flame_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00503128",
+      "requiredLevel": 66,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_005_03_128.webp"
+    },
+    {
+      "id": "Frost_City_Ice_Ring",
+      "name": "霜城冰戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Frost_City_Ice_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00503128",
+      "requiredLevel": 66,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_005_03_128.webp"
+    },
+    {
+      "id": "High_Heavens_Lightning_Ring",
+      "name": "高天雷戒",
+      "iconUrl": "/assets/equipment/crafted-bases/High_Heavens_Lightning_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00503128",
+      "requiredLevel": 66,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_005_03_128.webp"
+    },
+    {
+      "id": "Evernight_Darkness_Ring",
+      "name": "长夜暗戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Evernight_Darkness_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00503128",
+      "requiredLevel": 66,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_005_03_128.webp"
+    },
+    {
+      "id": "Torched_Flame_Ring",
+      "name": "被焚灼的炎戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Torched_Flame_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00102128",
+      "requiredLevel": 76,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_001_02_128.webp"
+    },
+    {
+      "id": "Sealed_Ice_Ring",
+      "name": "被封藏的冰戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Sealed_Ice_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00102128",
+      "requiredLevel": 76,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_001_02_128.webp"
+    },
+    {
+      "id": "Punished_Lightning_Ring",
+      "name": "被刑罚的雷戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Punished_Lightning_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00102128",
+      "requiredLevel": 76,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_001_02_128.webp"
+    },
+    {
+      "id": "Imprisoned_Darkness_Ring",
+      "name": "被幽囚的暗戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Imprisoned_Darkness_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00102128",
+      "requiredLevel": 76,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_001_02_128.webp"
+    },
+    {
+      "id": "Depicted_Ward_Ring",
+      "name": "被描绘的佑戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Depicted_Ward_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00102128",
+      "requiredLevel": 76,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_001_02_128.webp"
+    },
+    {
+      "id": "Perishing_Inferno_Flame_Ring",
+      "name": "众火沉沦之炎戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Perishing_Inferno_Flame_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00202128",
+      "requiredLevel": 82,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_002_02_128.webp"
+    },
+    {
+      "id": "Eternal_Sleep_Ice_Ring",
+      "name": "极冬永眠之冰戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Eternal_Sleep_Ice_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00202128",
+      "requiredLevel": 82,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_002_02_128.webp"
+    },
+    {
+      "id": "Thunder_Tempered_Lightning_Ring",
+      "name": "万雷入骨之雷戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Thunder_Tempered_Lightning_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00202128",
+      "requiredLevel": 82,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_002_02_128.webp"
+    },
+    {
+      "id": "Eternal_Gloom_Darkness_Ring",
+      "name": "星河无渡之暗戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Eternal_Gloom_Darkness_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00202128",
+      "requiredLevel": 82,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_002_02_128.webp"
+    },
+    {
+      "id": "Myriad_Radiance_Ward_Ring",
+      "name": "千虹辉映之佑戒",
+      "iconUrl": "/assets/equipment/crafted-bases/Myriad_Radiance_Ward_Ring.webp",
+      "iconAlt": "IconEquipRingNorm00202128",
+      "requiredLevel": 82,
+      "slotKind": "手指",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Ring/128/Icon_Equip_Ring_Norm_002_02_128.webp"
+    }
+  ]
+}

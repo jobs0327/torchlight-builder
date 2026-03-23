@@ -1,0 +1,118 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "STR_Helmet",
+  "categoryLabel": "STR Helmet",
+  "sourceUrl": "https://tlidb.com/cn/STR_Helmet",
+  "fetchedAt": "2026-03-22T11:42:56Z",
+  "baseCount": 12,
+  "bases": [
+    {
+      "id": "Brute's_Helm",
+      "name": "蛮兵护盔",
+      "iconUrl": "/assets/equipment/crafted-bases/Brute_s_Helm.webp",
+      "iconAlt": "IconEquipHelmetStrNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Str_Norm_001_128.webp"
+    },
+    {
+      "id": "Footman_Helmet",
+      "name": "方阵兵头盔",
+      "iconUrl": "/assets/equipment/crafted-bases/Footman_Helmet.webp",
+      "iconAlt": "IconEquipHelmetStrNorm002128",
+      "requiredLevel": 1,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Str_Norm_002_128.webp"
+    },
+    {
+      "id": "Paladin's_Heavy_Helm",
+      "name": "圣战者重盔",
+      "iconUrl": "/assets/equipment/crafted-bases/Paladin_s_Heavy_Helm.webp",
+      "iconAlt": "IconEquipHelmetStrNorm003128",
+      "requiredLevel": 9,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Str_Norm_003_128.webp"
+    },
+    {
+      "id": "Berserker's_Spired_Helm",
+      "name": "狂战士角盔",
+      "iconUrl": "/assets/equipment/crafted-bases/Berserker_s_Spired_Helm.webp",
+      "iconAlt": "IconEquipHelmetStrNorm004128",
+      "requiredLevel": 24,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Str_Norm_004_128.webp"
+    },
+    {
+      "id": "Iron_Sentry's_Helmet",
+      "name": "铁卫罩盔",
+      "iconUrl": "/assets/equipment/crafted-bases/Iron_Sentry_s_Helmet.webp",
+      "iconAlt": "IconEquipHelmetStrNorm00101128",
+      "requiredLevel": 39,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Str_Norm_001_01_128.webp"
+    },
+    {
+      "id": "Packleader_Helmet",
+      "name": "头狼之盔",
+      "iconUrl": "/assets/equipment/crafted-bases/Packleader_Helmet.webp",
+      "iconAlt": "IconEquipHelmetStrNorm00201128",
+      "requiredLevel": 52,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Str_Norm_002_01_128.webp"
+    },
+    {
+      "id": "Mountain_Lord_Helmet",
+      "name": "高山领主头盔",
+      "iconUrl": "/assets/equipment/crafted-bases/Mountain_Lord_Helmet.webp",
+      "iconAlt": "IconEquipHelmetStrNorm00301128",
+      "requiredLevel": 57,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Str_Norm_003_01_128.webp"
+    },
+    {
+      "id": "Divine_Arbiter's_Diadem",
+      "name": "神圣仲裁者冠冕",
+      "iconUrl": "/assets/equipment/crafted-bases/Divine_Arbiter_s_Diadem.webp",
+      "iconAlt": "IconEquipHelmetStrNorm00401128",
+      "requiredLevel": 62,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Str_Norm_004_01_128.webp"
+    },
+    {
+      "id": "Dragon_Guardian's_Faceguard",
+      "name": "龙圣卫面甲",
+      "iconUrl": "/assets/equipment/crafted-bases/Dragon_Guardian_s_Faceguard.webp",
+      "iconAlt": "IconEquipHelmetStrNorm00102128",
+      "requiredLevel": 66,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Str_Norm_001_02_128.webp"
+    },
+    {
+      "id": "Fallen_Knight_Helmet",
+      "name": "堕落骑士头盔",
+      "iconUrl": "/assets/equipment/crafted-bases/Fallen_Knight_Helmet.webp",
+      "iconAlt": "IconEquipHelmetStrNorm00202128",
+      "requiredLevel": 70,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Str_Norm_002_02_128.webp"
+    },
+    {
+      "id": "Old_King's_Crown",
+      "name": "旧日王者的头冠",
+      "iconUrl": "/assets/equipment/crafted-bases/Old_King_s_Crown.webp",
+      "iconAlt": "IconEquipHelmetStrNorm00302128",
+      "requiredLevel": 76,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Str_Norm_003_02_128.webp"
+    },
+    {
+      "id": "Ranger's_Broken_Mask",
+      "name": "游侠的破碎面甲",
+      "iconUrl": "/assets/equipment/crafted-bases/Ranger_s_Broken_Mask.webp",
+      "iconAlt": "IconEquipHelmetStrNorm00402128",
+      "requiredLevel": 82,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Str_Norm_004_02_128.webp"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "INT_Chest_Armor",
+  "categoryLabel": "INT Chest Armor",
+  "sourceUrl": "https://tlidb.com/cn/INT_Chest_Armor",
+  "fetchedAt": "2026-03-22T11:43:27Z",
+  "baseCount": 14,
+  "bases": [
+    {
+      "id": "Herbalist's_Robe",
+      "name": "草药师长袍",
+      "iconUrl": "/assets/equipment/crafted-bases/Herbalist_s_Robe.webp",
+      "iconAlt": "IconEquipArmorIntNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Int_Norm_001_128.webp"
+    },
+    {
+      "id": "Scribe's_Coat",
+      "name": "抄写员外衣",
+      "iconUrl": "/assets/equipment/crafted-bases/Scribe_s_Coat.webp",
+      "iconAlt": "IconEquipArmorIntNorm002128",
+      "requiredLevel": 1,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Int_Norm_002_128.webp"
+    },
+    {
+      "id": "Acolyte's_Robe",
+      "name": "吟游者长袍",
+      "iconUrl": "/assets/equipment/crafted-bases/Acolyte_s_Robe.webp",
+      "iconAlt": "IconEquipArmorIntNorm003128",
+      "requiredLevel": 9,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Int_Norm_003_128.webp"
+    },
+    {
+      "id": "Witchdoctor's_Robe",
+      "name": "巫医之袍",
+      "iconUrl": "/assets/equipment/crafted-bases/Witchdoctor_s_Robe.webp",
+      "iconAlt": "IconEquipArmorIntNorm004128",
+      "requiredLevel": 24,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Int_Norm_004_128.webp"
+    },
+    {
+      "id": "Disciple's_Coat",
+      "name": "学徒外衣",
+      "iconUrl": "/assets/equipment/crafted-bases/Disciple_s_Coat.webp",
+      "iconAlt": "IconEquipArmorIntNorm00101128",
+      "requiredLevel": 39,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Int_Norm_001_01_128.webp"
+    },
+    {
+      "id": "Shaman's_Short_Robe",
+      "name": "萨满短袍",
+      "iconUrl": "/assets/equipment/crafted-bases/Shaman_s_Short_Robe.webp",
+      "iconAlt": "IconEquipArmorIntNorm00201128",
+      "requiredLevel": 52,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Int_Norm_002_01_128.webp"
+    },
+    {
+      "id": "Envoy's_Robe",
+      "name": "神使外袍",
+      "iconUrl": "/assets/equipment/crafted-bases/Envoy_s_Robe.webp",
+      "iconAlt": "IconEquipArmorIntNorm00301128",
+      "requiredLevel": 57,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Int_Norm_003_01_128.webp"
+    },
+    {
+      "id": "Respected_Tutor's_Robe",
+      "name": "尊师长袍",
+      "iconUrl": "/assets/equipment/crafted-bases/Respected_Tutor_s_Robe.webp",
+      "iconAlt": "IconEquipArmorIntNorm013128",
+      "requiredLevel": 61,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Int_Norm_013_128.webp"
+    },
+    {
+      "id": "Respected_Tutor's_Robe",
+      "name": "尊师长袍",
+      "iconUrl": "/assets/equipment/crafted-bases/Respected_Tutor_s_Robe.webp",
+      "iconAlt": "IconEquipArmorIntNorm00401128",
+      "requiredLevel": 62,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Int_Norm_004_01_128.webp"
+    },
+    {
+      "id": "Elder_Sage's_Regalia",
+      "name": "大贤者法袍",
+      "iconUrl": "/assets/equipment/crafted-bases/Elder_Sage_s_Regalia.webp",
+      "iconAlt": "IconEquipArmorIntNorm00102128",
+      "requiredLevel": 66,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Int_Norm_001_02_128.webp"
+    },
+    {
+      "id": "Imperishable_Black_Robe",
+      "name": "不灭者的黑袍",
+      "iconUrl": "/assets/equipment/crafted-bases/Imperishable_Black_Robe.webp",
+      "iconAlt": "IconEquipArmorIntNorm015128",
+      "requiredLevel": 66,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Int_Norm_015_128.webp"
+    },
+    {
+      "id": "Imperishable_Black_Robe",
+      "name": "不灭者的黑袍",
+      "iconUrl": "/assets/equipment/crafted-bases/Imperishable_Black_Robe.webp",
+      "iconAlt": "IconEquipArmorIntNorm00202128",
+      "requiredLevel": 70,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Int_Norm_002_02_128.webp"
+    },
+    {
+      "id": "All_Magic_Secret_Robe",
+      "name": "万法之秘袍",
+      "iconUrl": "/assets/equipment/crafted-bases/All_Magic_Secret_Robe.webp",
+      "iconAlt": "IconEquipArmorIntNorm00302128",
+      "requiredLevel": 76,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Int_Norm_003_02_128.webp"
+    },
+    {
+      "id": "Long_Night_Sorcerer's_Robe",
+      "name": "长夜巫王灵袍",
+      "iconUrl": "/assets/equipment/crafted-bases/Long_Night_Sorcerer_s_Robe.webp",
+      "iconAlt": "IconEquipArmorIntNorm00402128",
+      "requiredLevel": 82,
+      "slotKind": "胸部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Armor/128/Icon_Equip_Armor_Int_Norm_004_02_128.webp"
+    }
+  ]
+}

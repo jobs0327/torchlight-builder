@@ -1,0 +1,1818 @@
+{
+  "slug": "Scepter",
+  "label": "Scepter",
+  "sourceUrl": "https://tlidb.com/cn/Scepter",
+  "fetchedAt": "2026-03-22T08:58:29Z",
+  "modifierCount": 98,
+  "modifiers": [
+    {
+      "modifierId": "1503400",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+(15–20) 力量",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "1503401",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+(15–20) 敏捷",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "1503402",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+(15–20) 智慧",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "1503403",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+(20–24) % 物理伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "1503404",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+(20–24) % 元素伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "1503405",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+(20–24) % 腐蚀伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "1503406",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+(20–24) % 法术伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "1503407",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+(10–14) % 加剧 效果",
+      "valueSpans": [
+        "+(10–14)"
+      ]
+    },
+    {
+      "modifierId": "1503408",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+(8–10) % 收割 时间",
+      "valueSpans": [
+        "+(8–10)"
+      ]
+    },
+    {
+      "modifierId": "1503409",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+(15–20) % 收割 回复速度",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "1503410",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "额外 +(6–8) % 持续伤害",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1503411",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1503412",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+1 灵动祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "1503413",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+(6–8) % 迷踪 效果",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1503414",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+1 聚能祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "1503415",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+1 坚韧祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "60063401",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "魔杖",
+      "effectPlain": "使用核心法术技能时， +(5–8) % 几率额外触发一次",
+      "valueSpans": [
+        "+(5–8)"
+      ]
+    },
+    {
+      "modifierId": "60063402",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "魔杖",
+      "effectPlain": "击败时， +(4–8) % 几率获得 1 层 聚能祝福",
+      "valueSpans": [
+        "+(4–8)"
+      ]
+    },
+    {
+      "modifierId": "60063403",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "魔杖",
+      "effectPlain": "伤害穿透 (5–8) % 元素 抗性",
+      "valueSpans": [
+        "(5–8)"
+      ]
+    },
+    {
+      "modifierId": "60063404",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "魔杖",
+      "effectPlain": "+(10–16) % 施法速度",
+      "valueSpans": [
+        "+(10–16)"
+      ]
+    },
+    {
+      "modifierId": "60063405",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "魔杖",
+      "effectPlain": "+(20–30) % 法术伤害",
+      "valueSpans": [
+        "+(20–30)"
+      ]
+    },
+    {
+      "modifierId": "60063406",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "魔杖",
+      "effectPlain": "+(30–40) % 法术暴击值",
+      "valueSpans": [
+        "+(30–40)"
+      ]
+    },
+    {
+      "modifierId": "60063407",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "魔杖",
+      "effectPlain": "+(25–32) % 暴击伤害",
+      "valueSpans": [
+        "+(25–32)"
+      ]
+    },
+    {
+      "modifierId": "60063408",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "魔杖",
+      "effectPlain": "+(6–10) % 冷却回复速度",
+      "valueSpans": [
+        "+(6–10)"
+      ]
+    },
+    {
+      "modifierId": "60063409",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "魔杖",
+      "effectPlain": "附加 (5–8) % 元素 伤害的腐蚀伤害",
+      "valueSpans": [
+        "(5–8)"
+      ]
+    },
+    {
+      "modifierId": "104340001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "魔杖",
+      "effectPlain": "+(127–180) 最大魔力",
+      "valueSpans": [
+        "+(127–180)"
+      ]
+    },
+    {
+      "modifierId": "107340601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "魔杖",
+      "effectPlain": "+(77–108) % 持续伤害",
+      "valueSpans": [
+        "+(77–108)"
+      ]
+    },
+    {
+      "modifierId": "116340201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "魔杖",
+      "effectPlain": "+(120–144) 每秒施加 加剧 值",
+      "valueSpans": [
+        "+(120–144)"
+      ]
+    },
+    {
+      "modifierId": "130340301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "魔杖",
+      "effectPlain": "造成持续伤害时， 收割 (0.13–0.18) 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": [
+        "(0.13–0.18)",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "140340701",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "魔杖",
+      "effectPlain": "+(232–330) 最大生命",
+      "valueSpans": [
+        "+(232–330)"
+      ]
+    },
+    {
+      "modifierId": "140340801",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "魔杖",
+      "effectPlain": "+(369–525) 最大护盾",
+      "valueSpans": [
+        "+(369–525)"
+      ]
+    },
+    {
+      "modifierId": "109340001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "魔杖",
+      "effectPlain": "+(64–90) 智慧",
+      "valueSpans": [
+        "+(64–90)"
+      ]
+    },
+    {
+      "modifierId": "109340301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "魔杖",
+      "effectPlain": "+(64–90) 力量",
+      "valueSpans": [
+        "+(64–90)"
+      ]
+    },
+    {
+      "modifierId": "109340401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "魔杖",
+      "effectPlain": "+(64–90) 敏捷",
+      "valueSpans": [
+        "+(64–90)"
+      ]
+    },
+    {
+      "modifierId": "115340201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "魔杖",
+      "effectPlain": "+2 物理技能等级",
+      "valueSpans": [
+        "+2"
+      ]
+    },
+    {
+      "modifierId": "115340301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "魔杖",
+      "effectPlain": "+2 闪电技能等级",
+      "valueSpans": [
+        "+2"
+      ]
+    },
+    {
+      "modifierId": "115340401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "魔杖",
+      "effectPlain": "+2 冰冷技能等级",
+      "valueSpans": [
+        "+2"
+      ]
+    },
+    {
+      "modifierId": "115340501",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "魔杖",
+      "effectPlain": "+2 火焰技能等级",
+      "valueSpans": [
+        "+2"
+      ]
+    },
+    {
+      "modifierId": "115340601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "魔杖",
+      "effectPlain": "+2 腐蚀技能等级",
+      "valueSpans": [
+        "+2"
+      ]
+    },
+    {
+      "modifierId": "110340801",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "魔杖",
+      "effectPlain": "+2 地面蓄能 层数上限",
+      "valueSpans": [
+        "+2"
+      ]
+    },
+    {
+      "modifierId": "130340001",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "魔杖",
+      "effectPlain": "+3 法术技能等级",
+      "valueSpans": [
+        "+3"
+      ]
+    },
+    {
+      "modifierId": "130340101",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "魔杖",
+      "effectPlain": "+(22–30) % 元素和腐蚀抗性穿透",
+      "valueSpans": [
+        "+(22–30)"
+      ]
+    },
+    {
+      "modifierId": "130340201",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "魔杖",
+      "effectPlain": "对生命造成额外 (22–30) % 伤害",
+      "valueSpans": [
+        "(22–30)"
+      ]
+    },
+    {
+      "modifierId": "110340301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "魔杖",
+      "effectPlain": "+(18–24) % 护盾 充能 速度",
+      "valueSpans": [
+        "+(18–24)"
+      ]
+    },
+    {
+      "modifierId": "115341001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "魔杖",
+      "effectPlain": "附加 56 - 67 基础 凋零 伤害",
+      "valueSpans": [
+        "56",
+        "67"
+      ]
+    },
+    {
+      "modifierId": "116340301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "魔杖",
+      "effectPlain": "+(54–75) % 加剧 效果",
+      "valueSpans": [
+        "+(54–75)"
+      ]
+    },
+    {
+      "modifierId": "140340001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "魔杖",
+      "effectPlain": "附加 480 - 1120 基础 创伤 伤害",
+      "valueSpans": [
+        "480",
+        "1120"
+      ]
+    },
+    {
+      "modifierId": "140340101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "魔杖",
+      "effectPlain": "附加 350 - 650 基础 点燃 伤害",
+      "valueSpans": [
+        "350",
+        "650"
+      ]
+    },
+    {
+      "modifierId": "140340901",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "魔杖",
+      "effectPlain": "+(78–108) % 物理伤害",
+      "valueSpans": [
+        "+(78–108)"
+      ]
+    },
+    {
+      "modifierId": "140341001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "魔杖",
+      "effectPlain": "+(78–108) % 元素 伤害",
+      "valueSpans": [
+        "+(78–108)"
+      ]
+    },
+    {
+      "modifierId": "140341101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "魔杖",
+      "effectPlain": "+(77–108) % 腐蚀伤害",
+      "valueSpans": [
+        "+(77–108)"
+      ]
+    },
+    {
+      "modifierId": "110340101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "魔杖",
+      "effectPlain": "+(26–36) % 施法速度 +(26–36) % 召唤物施法速度",
+      "valueSpans": [
+        "+(26–36)",
+        "+(26–36)"
+      ]
+    },
+    {
+      "modifierId": "140340301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "魔杖",
+      "effectPlain": "+(36–48) % 点燃 持续时间",
+      "valueSpans": [
+        "+(36–48)"
+      ]
+    },
+    {
+      "modifierId": "140340401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "魔杖",
+      "effectPlain": "+(36–48) % 创伤 持续时间",
+      "valueSpans": [
+        "+(36–48)"
+      ]
+    },
+    {
+      "modifierId": "140340501",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "魔杖",
+      "effectPlain": "+(36–48) % 凋零 持续时间",
+      "valueSpans": [
+        "+(36–48)"
+      ]
+    },
+    {
+      "modifierId": "140340601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "魔杖",
+      "effectPlain": "+(54–75) % 收割 时间",
+      "valueSpans": [
+        "+(54–75)"
+      ]
+    },
+    {
+      "modifierId": "140341401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "魔杖",
+      "effectPlain": "+(45–54) % 贯注速度",
+      "valueSpans": [
+        "+(45–54)"
+      ]
+    },
+    {
+      "modifierId": "140340201",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "魔杖",
+      "effectPlain": "+(89–125) % 收割 回复速度",
+      "valueSpans": [
+        "+(89–125)"
+      ]
+    },
+    {
+      "modifierId": "140341201",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "魔杖",
+      "effectPlain": "+1 地面数量上限 额外 +1 % 伤害",
+      "valueSpans": [
+        "+1",
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "140341501",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "魔杖",
+      "effectPlain": "+(35–45) % 贯注伤害加深",
+      "valueSpans": [
+        "+(35–45)"
+      ]
+    },
+    {
+      "modifierId": "140341601",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "魔杖",
+      "effectPlain": "若最近释放的连携终结技至少消耗了 8 点连携点， +(40–50) % 连携伤害加深",
+      "valueSpans": [
+        "8",
+        "+(40–50)"
+      ]
+    },
+    {
+      "modifierId": "140341701",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "魔杖",
+      "effectPlain": "+(40–50) % 异常伤害加深",
+      "valueSpans": [
+        "+(40–50)"
+      ]
+    },
+    {
+      "modifierId": "85034001",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+(15–20) 力量",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85034011",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+(15–20) 敏捷",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85034021",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+(15–20) 智慧",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85034031",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+(20–24) % 物理伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85034041",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+(20–24) % 元素伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85034051",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+(20–24) % 腐蚀伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85034061",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+(20–24) % 法术伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85034071",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+(10–14) % 加剧 效果",
+      "valueSpans": [
+        "+(10–14)"
+      ]
+    },
+    {
+      "modifierId": "85034081",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+(8–10) % 收割 时间",
+      "valueSpans": [
+        "+(8–10)"
+      ]
+    },
+    {
+      "modifierId": "85034091",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+(15–20) % 收割 回复速度",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85034101",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "额外 +(6–8) % 持续伤害",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "85034111",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "85034121",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+1 灵动祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85034131",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+(6–8) % 迷踪 效果",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "85034141",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+1 聚能祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85034151",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+1 坚韧祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "160441034",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "魔杖",
+      "effectPlain": "额外 +8 % 持续伤害",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160442034",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "魔杖",
+      "effectPlain": "+16 每秒施加 加剧 值 +24 % 加剧 效果",
+      "valueSpans": [
+        "+16",
+        "+24"
+      ]
+    },
+    {
+      "modifierId": "160443034",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "魔杖",
+      "effectPlain": "+25 % 收割 回复速度",
+      "valueSpans": [
+        "+25"
+      ]
+    },
+    {
+      "modifierId": "160444034",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "魔杖",
+      "effectPlain": "+30 % 收割 时间",
+      "valueSpans": [
+        "+30"
+      ]
+    },
+    {
+      "modifierId": "160445034",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "魔杖",
+      "effectPlain": "+10 % 移动速度",
+      "valueSpans": [
+        "+10"
+      ]
+    },
+    {
+      "modifierId": "160446034",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "魔杖",
+      "effectPlain": "+12 % 异常状态 持续时间",
+      "valueSpans": [
+        "+12"
+      ]
+    },
+    {
+      "modifierId": "160447034",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "魔杖",
+      "effectPlain": "-1 地面蓄能 层数上限 +1 地面数量上限",
+      "valueSpans": [
+        "-1",
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "160448034",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "魔杖",
+      "effectPlain": "+8 % 迷踪 效果",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160449034",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "魔杖",
+      "effectPlain": "敌人 加剧 值达到上限时， -10 % 所有抗性",
+      "valueSpans": [
+        "-10"
+      ]
+    },
+    {
+      "modifierId": "160450034",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "魔杖",
+      "effectPlain": "+8 % 全属性",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160561034",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
+      "source": "魔杖",
+      "effectPlain": "攻击或者法术击败敌人时 15 % 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 250 % 的真实伤害",
+      "valueSpans": [
+        "15",
+        "6",
+        "250"
+      ]
+    },
+    {
+      "modifierId": "160562034",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 30,
+      "affixType": "高阶序列",
+      "source": "魔杖",
+      "effectPlain": "移动时，触发 30 级黑洞，间隔 1.5 秒",
+      "valueSpans": [
+        "30",
+        "1.5"
+      ]
+    },
+    {
+      "modifierId": "160563034",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 30,
+      "affixType": "高阶序列",
+      "source": "魔杖",
+      "effectPlain": "核心技能被 25 级催化剂辅助",
+      "valueSpans": [
+        "25"
+      ]
+    },
+    {
+      "modifierId": "160564034",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 60,
+      "affixType": "高阶序列",
+      "source": "魔杖",
+      "effectPlain": "造成伤害时，敌人每有一种 异常状态 ，额外 +8 % 异常伤害（叠乘）",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160565034",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 60,
+      "affixType": "高阶序列",
+      "source": "魔杖",
+      "effectPlain": "+120 % 深层苦痛光环效果 额外 -20 % 深层苦痛 魔力封印 补偿",
+      "valueSpans": [
+        "+120",
+        "-20"
+      ]
+    },
+    {
+      "modifierId": "160566034",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
+      "source": "魔杖",
+      "effectPlain": "处于地面技能上时， +20 % 移动速度，持续 2 秒 处于地面技能上时， +100 % 技能范围，持续 2 秒",
+      "valueSpans": [
+        "+20",
+        "2",
+        "+100",
+        "2"
+      ]
+    },
+    {
+      "modifierId": "160567034",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
+      "source": "魔杖",
+      "effectPlain": "+160 每秒施加 加剧 值",
+      "valueSpans": [
+        "+160"
+      ]
+    },
+    {
+      "modifierId": "160568034",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
+      "source": "魔杖",
+      "effectPlain": "+1 坚韧祝福 层数上限 -1 聚能祝福 层数上限 +1 灵动祝福 层数上限",
+      "valueSpans": [
+        "+1",
+        "-1",
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51340871",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "无上权柄",
+      "source": "魔杖",
+      "effectPlain": "法术附加 (46–48) - (55–60) 点冰冷，火焰，闪电和物理伤害",
+      "valueSpans": [
+        "(46–48)",
+        "(55–60)"
+      ]
+    },
+    {
+      "modifierId": "51340841",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "无上权柄",
+      "source": "魔杖",
+      "effectPlain": "引导层数到达上限时，获得 1 层 王权 ，最多10层",
+      "valueSpans": []
+    }
+  ],
+  "tierVariantGroups": [
+    {
+      "skeleton": "{#} % 元素伤害",
+      "rolls": [
+        {
+          "modifierId": "1503404",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(20–24)"
+          ],
+          "effectPlain": "+(20–24) % 元素伤害"
+        },
+        {
+          "modifierId": "85034041",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(20–24)"
+          ],
+          "effectPlain": "+(20–24) % 元素伤害"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 元素和腐蚀抗性穿透",
+      "rolls": [
+        {
+          "modifierId": "130340101",
+          "tier": 1,
+          "itemLevel": 100,
+          "weight": 100,
+          "affixType": "至臻前缀",
+          "valueSpans": [
+            "+(22–30)"
+          ],
+          "effectPlain": "+(22–30) % 元素和腐蚀抗性穿透"
+        },
+        {
+          "modifierId": "1503411",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(6–8)"
+          ],
+          "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透"
+        },
+        {
+          "modifierId": "85034111",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(6–8)"
+          ],
+          "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 加剧 效果",
+      "rolls": [
+        {
+          "modifierId": "116340301",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "初阶后缀",
+          "valueSpans": [
+            "+(54–75)"
+          ],
+          "effectPlain": "+(54–75) % 加剧 效果"
+        },
+        {
+          "modifierId": "1503407",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(10–14)"
+          ],
+          "effectPlain": "+(10–14) % 加剧 效果"
+        },
+        {
+          "modifierId": "85034071",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(10–14)"
+          ],
+          "effectPlain": "+(10–14) % 加剧 效果"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 收割 回复速度",
+      "rolls": [
+        {
+          "modifierId": "140340201",
+          "tier": 1,
+          "itemLevel": 100,
+          "weight": 100,
+          "affixType": "至臻后缀",
+          "valueSpans": [
+            "+(89–125)"
+          ],
+          "effectPlain": "+(89–125) % 收割 回复速度"
+        },
+        {
+          "modifierId": "1503409",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(15–20)"
+          ],
+          "effectPlain": "+(15–20) % 收割 回复速度"
+        },
+        {
+          "modifierId": "160443034",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 100,
+          "affixType": "中阶序列",
+          "valueSpans": [
+            "+25"
+          ],
+          "effectPlain": "+25 % 收割 回复速度"
+        },
+        {
+          "modifierId": "85034091",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(15–20)"
+          ],
+          "effectPlain": "+(15–20) % 收割 回复速度"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 收割 时间",
+      "rolls": [
+        {
+          "modifierId": "140340601",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "进阶后缀",
+          "valueSpans": [
+            "+(54–75)"
+          ],
+          "effectPlain": "+(54–75) % 收割 时间"
+        },
+        {
+          "modifierId": "160444034",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 100,
+          "affixType": "中阶序列",
+          "valueSpans": [
+            "+30"
+          ],
+          "effectPlain": "+30 % 收割 时间"
+        },
+        {
+          "modifierId": "1503408",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(8–10)"
+          ],
+          "effectPlain": "+(8–10) % 收割 时间"
+        },
+        {
+          "modifierId": "85034081",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(8–10)"
+          ],
+          "effectPlain": "+(8–10) % 收割 时间"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 法术伤害",
+      "rolls": [
+        {
+          "modifierId": "60063405",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "侵蚀基底",
+          "valueSpans": [
+            "+(20–30)"
+          ],
+          "effectPlain": "+(20–30) % 法术伤害"
+        },
+        {
+          "modifierId": "1503406",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(20–24)"
+          ],
+          "effectPlain": "+(20–24) % 法术伤害"
+        },
+        {
+          "modifierId": "85034061",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(20–24)"
+          ],
+          "effectPlain": "+(20–24) % 法术伤害"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 物理伤害",
+      "rolls": [
+        {
+          "modifierId": "140340901",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "初阶后缀",
+          "valueSpans": [
+            "+(78–108)"
+          ],
+          "effectPlain": "+(78–108) % 物理伤害"
+        },
+        {
+          "modifierId": "1503403",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(20–24)"
+          ],
+          "effectPlain": "+(20–24) % 物理伤害"
+        },
+        {
+          "modifierId": "85034031",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(20–24)"
+          ],
+          "effectPlain": "+(20–24) % 物理伤害"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 腐蚀伤害",
+      "rolls": [
+        {
+          "modifierId": "140341101",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "初阶后缀",
+          "valueSpans": [
+            "+(77–108)"
+          ],
+          "effectPlain": "+(77–108) % 腐蚀伤害"
+        },
+        {
+          "modifierId": "1503405",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(20–24)"
+          ],
+          "effectPlain": "+(20–24) % 腐蚀伤害"
+        },
+        {
+          "modifierId": "85034051",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(20–24)"
+          ],
+          "effectPlain": "+(20–24) % 腐蚀伤害"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 迷踪 效果",
+      "rolls": [
+        {
+          "modifierId": "1503413",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(6–8)"
+          ],
+          "effectPlain": "+(6–8) % 迷踪 效果"
+        },
+        {
+          "modifierId": "85034131",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(6–8)"
+          ],
+          "effectPlain": "+(6–8) % 迷踪 效果"
+        },
+        {
+          "modifierId": "160448034",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 100,
+          "affixType": "中阶序列",
+          "valueSpans": [
+            "+8"
+          ],
+          "effectPlain": "+8 % 迷踪 效果"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} 力量",
+      "rolls": [
+        {
+          "modifierId": "109340301",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "进阶前缀",
+          "valueSpans": [
+            "+(64–90)"
+          ],
+          "effectPlain": "+(64–90) 力量"
+        },
+        {
+          "modifierId": "1503400",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(15–20)"
+          ],
+          "effectPlain": "+(15–20) 力量"
+        },
+        {
+          "modifierId": "85034001",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(15–20)"
+          ],
+          "effectPlain": "+(15–20) 力量"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} 坚韧祝福 层数上限",
+      "rolls": [
+        {
+          "modifierId": "1503415",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+1"
+          ],
+          "effectPlain": "+1 坚韧祝福 层数上限"
+        },
+        {
+          "modifierId": "85034151",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+1"
+          ],
+          "effectPlain": "+1 坚韧祝福 层数上限"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} 敏捷",
+      "rolls": [
+        {
+          "modifierId": "109340401",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "进阶前缀",
+          "valueSpans": [
+            "+(64–90)"
+          ],
+          "effectPlain": "+(64–90) 敏捷"
+        },
+        {
+          "modifierId": "1503401",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(15–20)"
+          ],
+          "effectPlain": "+(15–20) 敏捷"
+        },
+        {
+          "modifierId": "85034011",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(15–20)"
+          ],
+          "effectPlain": "+(15–20) 敏捷"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} 智慧",
+      "rolls": [
+        {
+          "modifierId": "109340001",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "进阶前缀",
+          "valueSpans": [
+            "+(64–90)"
+          ],
+          "effectPlain": "+(64–90) 智慧"
+        },
+        {
+          "modifierId": "1503402",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(15–20)"
+          ],
+          "effectPlain": "+(15–20) 智慧"
+        },
+        {
+          "modifierId": "85034021",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(15–20)"
+          ],
+          "effectPlain": "+(15–20) 智慧"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} 每秒施加 加剧 值",
+      "rolls": [
+        {
+          "modifierId": "160567034",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 100,
+          "affixType": "高阶序列",
+          "valueSpans": [
+            "+160"
+          ],
+          "effectPlain": "+160 每秒施加 加剧 值"
+        },
+        {
+          "modifierId": "116340201",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "初阶前缀",
+          "valueSpans": [
+            "+(120–144)"
+          ],
+          "effectPlain": "+(120–144) 每秒施加 加剧 值"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} 灵动祝福 层数上限",
+      "rolls": [
+        {
+          "modifierId": "1503412",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+1"
+          ],
+          "effectPlain": "+1 灵动祝福 层数上限"
+        },
+        {
+          "modifierId": "85034121",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+1"
+          ],
+          "effectPlain": "+1 灵动祝福 层数上限"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} 聚能祝福 层数上限",
+      "rolls": [
+        {
+          "modifierId": "1503414",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+1"
+          ],
+          "effectPlain": "+1 聚能祝福 层数上限"
+        },
+        {
+          "modifierId": "85034141",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+1"
+          ],
+          "effectPlain": "+1 聚能祝福 层数上限"
+        }
+      ]
+    },
+    {
+      "skeleton": "额外 {#} % 持续伤害",
+      "rolls": [
+        {
+          "modifierId": "1503410",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(6–8)"
+          ],
+          "effectPlain": "额外 +(6–8) % 持续伤害"
+        },
+        {
+          "modifierId": "160441034",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 100,
+          "affixType": "中阶序列",
+          "valueSpans": [
+            "+8"
+          ],
+          "effectPlain": "额外 +8 % 持续伤害"
+        },
+        {
+          "modifierId": "85034101",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(6–8)"
+          ],
+          "effectPlain": "额外 +(6–8) % 持续伤害"
+        }
+      ]
+    }
+  ],
+  "tierVariantGroupCount": 17
+}

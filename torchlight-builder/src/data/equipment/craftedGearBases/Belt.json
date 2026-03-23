@@ -1,0 +1,118 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "Belt",
+  "categoryLabel": "Belt",
+  "sourceUrl": "https://tlidb.com/cn/Belt",
+  "fetchedAt": "2026-03-22T11:46:23Z",
+  "baseCount": 12,
+  "bases": [
+    {
+      "id": "Rock_Waistguard",
+      "name": "磐石护腰",
+      "iconUrl": "/assets/equipment/crafted-bases/Rock_Waistguard.webp",
+      "iconAlt": "IconEquipBeltNorm00401128",
+      "requiredLevel": 1,
+      "slotKind": "腰部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Belt/128/Icon_Equip_Belt_Norm_004_01_128.webp"
+    },
+    {
+      "id": "Spring_Source_Girdle",
+      "name": "泉源束带",
+      "iconUrl": "/assets/equipment/crafted-bases/Spring_Source_Girdle.webp",
+      "iconAlt": "IconEquipBeltNorm00401128",
+      "requiredLevel": 1,
+      "slotKind": "腰部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Belt/128/Icon_Equip_Belt_Norm_004_01_128.webp"
+    },
+    {
+      "id": "Wind_Blade_Waistguard",
+      "name": "风刃护腰",
+      "iconUrl": "/assets/equipment/crafted-bases/Wind_Blade_Waistguard.webp",
+      "iconAlt": "IconEquipBeltNorm00502128",
+      "requiredLevel": 32,
+      "slotKind": "腰部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Belt/128/Icon_Equip_Belt_Norm_005_02_128.webp"
+    },
+    {
+      "id": "God's_Grace_Girdle",
+      "name": "神恩束带",
+      "iconUrl": "/assets/equipment/crafted-bases/God_s_Grace_Girdle.webp",
+      "iconAlt": "IconEquipBeltNorm00502128",
+      "requiredLevel": 32,
+      "slotKind": "腰部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Belt/128/Icon_Equip_Belt_Norm_005_02_128.webp"
+    },
+    {
+      "id": "Dragon_Scale_Waistguard",
+      "name": "龙鳞护腰",
+      "iconUrl": "/assets/equipment/crafted-bases/Dragon_Scale_Waistguard.webp",
+      "iconAlt": "IconEquipBeltNorm00103128",
+      "requiredLevel": 52,
+      "slotKind": "腰部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Belt/128/Icon_Equip_Belt_Norm_001_03_128.webp"
+    },
+    {
+      "id": "Radiant_Lunar_Girdle",
+      "name": "月辉束带",
+      "iconUrl": "/assets/equipment/crafted-bases/Radiant_Lunar_Girdle.webp",
+      "iconAlt": "IconEquipBeltNorm00103128",
+      "requiredLevel": 52,
+      "slotKind": "腰部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Belt/128/Icon_Equip_Belt_Norm_001_03_128.webp"
+    },
+    {
+      "id": "Fearless_Waistguard",
+      "name": "无畏护腰",
+      "iconUrl": "/assets/equipment/crafted-bases/Fearless_Waistguard.webp",
+      "iconAlt": "IconEquipBeltNorm00202128",
+      "requiredLevel": 66,
+      "slotKind": "腰部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Belt/128/Icon_Equip_Belt_Norm_002_02_128.webp"
+    },
+    {
+      "id": "Magic_Girdle",
+      "name": "奇术束带",
+      "iconUrl": "/assets/equipment/crafted-bases/Magic_Girdle.webp",
+      "iconAlt": "IconEquipBeltNorm00202128",
+      "requiredLevel": 66,
+      "slotKind": "腰部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Belt/128/Icon_Equip_Belt_Norm_002_02_128.webp"
+    },
+    {
+      "id": "Conqueror_Waistguard",
+      "name": "征伐者护腰",
+      "iconUrl": "/assets/equipment/crafted-bases/Conqueror_Waistguard.webp",
+      "iconAlt": "IconEquipBeltNorm00302128",
+      "requiredLevel": 76,
+      "slotKind": "腰部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Belt/128/Icon_Equip_Belt_Norm_003_02_128.webp"
+    },
+    {
+      "id": "Arcanist_Girdle",
+      "name": "秘术师束带",
+      "iconUrl": "/assets/equipment/crafted-bases/Arcanist_Girdle.webp",
+      "iconAlt": "IconEquipBeltNorm00302128",
+      "requiredLevel": 76,
+      "slotKind": "腰部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Belt/128/Icon_Equip_Belt_Norm_003_02_128.webp"
+    },
+    {
+      "id": "Wayfarer_Waistguard",
+      "name": "云游者护腰",
+      "iconUrl": "/assets/equipment/crafted-bases/Wayfarer_Waistguard.webp",
+      "iconAlt": "IconEquipBeltNorm00402128",
+      "requiredLevel": 82,
+      "slotKind": "腰部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Belt/128/Icon_Equip_Belt_Norm_004_02_128.webp"
+    },
+    {
+      "id": "Elder_Sage_Girdle",
+      "name": "大贤者束带",
+      "iconUrl": "/assets/equipment/crafted-bases/Elder_Sage_Girdle.webp",
+      "iconAlt": "IconEquipBeltNorm00402128",
+      "requiredLevel": 82,
+      "slotKind": "腰部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Belt/128/Icon_Equip_Belt_Norm_004_02_128.webp"
+    }
+  ]
+}

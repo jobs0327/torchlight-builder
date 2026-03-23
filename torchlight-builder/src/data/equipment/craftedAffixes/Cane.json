@@ -1,0 +1,1815 @@
+{
+  "slug": "Cane",
+  "label": "Cane",
+  "sourceUrl": "https://tlidb.com/cn/Cane",
+  "fetchedAt": "2026-03-22T08:58:34Z",
+  "modifierCount": 94,
+  "modifiers": [
+    {
+      "modifierId": "1500300",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "手杖",
+      "effectPlain": "攻击附加 (10–13) - (14–19) 点物理伤害",
+      "valueSpans": [
+        "(10–13)",
+        "(14–19)"
+      ]
+    },
+    {
+      "modifierId": "1500301",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "手杖",
+      "effectPlain": "攻击附加 (9–14) - (15–20) 点火焰伤害",
+      "valueSpans": [
+        "(9–14)",
+        "(15–20)"
+      ]
+    },
+    {
+      "modifierId": "1500302",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "手杖",
+      "effectPlain": "攻击附加 (10–13) - (14–19) 点冰冷伤害",
+      "valueSpans": [
+        "(10–13)",
+        "(14–19)"
+      ]
+    },
+    {
+      "modifierId": "1500303",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "手杖",
+      "effectPlain": "攻击附加 (1–2) - (28–32) 点闪电伤害",
+      "valueSpans": [
+        "(1–2)",
+        "(28–32)"
+      ]
+    },
+    {
+      "modifierId": "1500304",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "手杖",
+      "effectPlain": "攻击附加 (11–13) - (15–18) 点腐蚀伤害",
+      "valueSpans": [
+        "(11–13)",
+        "(15–18)"
+      ]
+    },
+    {
+      "modifierId": "1500305",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "手杖",
+      "effectPlain": "+(20–24) % 物理伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "1500306",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "手杖",
+      "effectPlain": "+(20–24) % 元素伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "1500307",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "手杖",
+      "effectPlain": "+(20–24) % 腐蚀伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "1500308",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "手杖",
+      "effectPlain": "+(20–24) % 远程伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "1500309",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "手杖",
+      "effectPlain": "+(6–8) % 攻击速度",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1500310",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "手杖",
+      "effectPlain": "+1 投射物数量",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "1500311",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "手杖",
+      "effectPlain": "额外 +(6–8) % 投射物伤害",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1500312",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "手杖",
+      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1500313",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "手杖",
+      "effectPlain": "+(5–7) % 护甲减伤穿透",
+      "valueSpans": [
+        "+(5–7)"
+      ]
+    },
+    {
+      "modifierId": "1500314",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "手杖",
+      "effectPlain": "+1 坚韧祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "1500315",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "手杖",
+      "effectPlain": "+1 灵动祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "1500316",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "手杖",
+      "effectPlain": "+1 聚能祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "60060301",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "手杖",
+      "effectPlain": "使用核心法术技能时， +(5–8) % 几率额外触发一次",
+      "valueSpans": [
+        "+(5–8)"
+      ]
+    },
+    {
+      "modifierId": "60060302",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "手杖",
+      "effectPlain": "击败时， +(4–8) % 几率获得 1 层 聚能祝福",
+      "valueSpans": [
+        "+(4–8)"
+      ]
+    },
+    {
+      "modifierId": "60060303",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "手杖",
+      "effectPlain": "伤害穿透 (5–8) % 元素 抗性",
+      "valueSpans": [
+        "(5–8)"
+      ]
+    },
+    {
+      "modifierId": "60060304",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "手杖",
+      "effectPlain": "+(10–16) % 施法速度",
+      "valueSpans": [
+        "+(10–16)"
+      ]
+    },
+    {
+      "modifierId": "60060305",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "手杖",
+      "effectPlain": "+(20–30) % 法术伤害",
+      "valueSpans": [
+        "+(20–30)"
+      ]
+    },
+    {
+      "modifierId": "60060306",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "手杖",
+      "effectPlain": "+(30–40) % 法术暴击值",
+      "valueSpans": [
+        "+(30–40)"
+      ]
+    },
+    {
+      "modifierId": "60060307",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "手杖",
+      "effectPlain": "+(25–32) % 暴击伤害",
+      "valueSpans": [
+        "+(25–32)"
+      ]
+    },
+    {
+      "modifierId": "60060308",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "手杖",
+      "effectPlain": "+(6–10) % 冷却回复速度",
+      "valueSpans": [
+        "+(6–10)"
+      ]
+    },
+    {
+      "modifierId": "60060309",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "手杖",
+      "effectPlain": "附加 (5–8) % 元素 伤害的腐蚀伤害",
+      "valueSpans": [
+        "(5–8)"
+      ]
+    },
+    {
+      "modifierId": "106030001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "手杖",
+      "effectPlain": "该装备附加 (36–38) - (44–46) 点物理伤害",
+      "valueSpans": [
+        "(36–38)",
+        "(44–46)"
+      ]
+    },
+    {
+      "modifierId": "106030101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "手杖",
+      "effectPlain": "该装备附加 (123–125) - (160–169) 点火焰伤害",
+      "valueSpans": [
+        "(123–125)",
+        "(160–169)"
+      ]
+    },
+    {
+      "modifierId": "106030201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "手杖",
+      "effectPlain": "该装备附加 (125–127) - (165–167) 点冰冷伤害",
+      "valueSpans": [
+        "(125–127)",
+        "(165–167)"
+      ]
+    },
+    {
+      "modifierId": "106030301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "手杖",
+      "effectPlain": "该装备附加 (14–16) - (276–278) 点闪电伤害",
+      "valueSpans": [
+        "(14–16)",
+        "(276–278)"
+      ]
+    },
+    {
+      "modifierId": "106030401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "手杖",
+      "effectPlain": "该装备附加 (133–135) - (157–159) 点腐蚀伤害",
+      "valueSpans": [
+        "(133–135)",
+        "(157–159)"
+      ]
+    },
+    {
+      "modifierId": "140030401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "手杖",
+      "effectPlain": "+(78–108) % 投射物伤害",
+      "valueSpans": [
+        "+(78–108)"
+      ]
+    },
+    {
+      "modifierId": "107030001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "手杖",
+      "effectPlain": "+(56–100) % 该装备物理伤害",
+      "valueSpans": [
+        "+(56–100)"
+      ]
+    },
+    {
+      "modifierId": "109030001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "手杖",
+      "effectPlain": "+(64–90) 敏捷",
+      "valueSpans": [
+        "+(64–90)"
+      ]
+    },
+    {
+      "modifierId": "109030101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "手杖",
+      "effectPlain": "+(64–90) 智慧",
+      "valueSpans": [
+        "+(64–90)"
+      ]
+    },
+    {
+      "modifierId": "109030201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "手杖",
+      "effectPlain": "+(64–90) 力量",
+      "valueSpans": [
+        "+(64–90)"
+      ]
+    },
+    {
+      "modifierId": "115030601",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "手杖",
+      "effectPlain": "+(18–25) % 护甲减伤穿透",
+      "valueSpans": [
+        "+(18–25)"
+      ]
+    },
+    {
+      "modifierId": "119030201",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "手杖",
+      "effectPlain": "+3 攻击技能等级",
+      "valueSpans": [
+        "+3"
+      ]
+    },
+    {
+      "modifierId": "119030301",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "手杖",
+      "effectPlain": "+(22–30) % 元素和腐蚀抗性穿透",
+      "valueSpans": [
+        "+(22–30)"
+      ]
+    },
+    {
+      "modifierId": "140031501",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "手杖",
+      "effectPlain": "该装备附加 (47–49) - (272–274) 点元素伤害 -100 % 该装备物理伤害",
+      "valueSpans": [
+        "(47–49)",
+        "(272–274)",
+        "-100"
+      ]
+    },
+    {
+      "modifierId": "110030101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "手杖",
+      "effectPlain": "+(23–32) % 该装备攻击速度",
+      "valueSpans": [
+        "+(23–32)"
+      ]
+    },
+    {
+      "modifierId": "140031001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "手杖",
+      "effectPlain": "+(14–18) % 生命返还",
+      "valueSpans": [
+        "+(14–18)"
+      ]
+    },
+    {
+      "modifierId": "140031101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "手杖",
+      "effectPlain": "+(14–18) % 护盾返还",
+      "valueSpans": [
+        "+(14–18)"
+      ]
+    },
+    {
+      "modifierId": "140031201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "手杖",
+      "effectPlain": "+(77–108) % 物理伤害",
+      "valueSpans": [
+        "+(77–108)"
+      ]
+    },
+    {
+      "modifierId": "140031301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "手杖",
+      "effectPlain": "+(77–108) % 元素 伤害",
+      "valueSpans": [
+        "+(77–108)"
+      ]
+    },
+    {
+      "modifierId": "140031401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "手杖",
+      "effectPlain": "+(77–108) % 腐蚀伤害",
+      "valueSpans": [
+        "+(77–108)"
+      ]
+    },
+    {
+      "modifierId": "110030201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "手杖",
+      "effectPlain": "+(36–50) % 该装备攻击暴击值",
+      "valueSpans": [
+        "+(36–50)"
+      ]
+    },
+    {
+      "modifierId": "110030501",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "手杖",
+      "effectPlain": "+(128–180) % 暴击值",
+      "valueSpans": [
+        "+(128–180)"
+      ]
+    },
+    {
+      "modifierId": "110030601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "手杖",
+      "effectPlain": "+(26–36) % 攻击与施法速度 +(26–36) % 召唤物攻击与施法速度",
+      "valueSpans": [
+        "+(26–36)",
+        "+(26–36)"
+      ]
+    },
+    {
+      "modifierId": "111030401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "手杖",
+      "effectPlain": "+(64–90) % 暴击伤害",
+      "valueSpans": [
+        "+(64–90)"
+      ]
+    },
+    {
+      "modifierId": "140031601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "手杖",
+      "effectPlain": "+(45–54) % 贯注速度",
+      "valueSpans": [
+        "+(45–54)"
+      ]
+    },
+    {
+      "modifierId": "130030501",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "手杖",
+      "effectPlain": "+(29–40) % 几率造成双倍伤害",
+      "valueSpans": [
+        "+(29–40)"
+      ]
+    },
+    {
+      "modifierId": "140031701",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "手杖",
+      "effectPlain": "+(35–45) % 贯注伤害加深",
+      "valueSpans": [
+        "+(35–45)"
+      ]
+    },
+    {
+      "modifierId": "85003001",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "手杖",
+      "effectPlain": "攻击附加 (10–13) - (14–19) 点物理伤害",
+      "valueSpans": [
+        "(10–13)",
+        "(14–19)"
+      ]
+    },
+    {
+      "modifierId": "85003011",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "手杖",
+      "effectPlain": "攻击附加 (9–14) - (15–20) 点火焰伤害",
+      "valueSpans": [
+        "(9–14)",
+        "(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85003021",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "手杖",
+      "effectPlain": "攻击附加 (10–13) - (14–19) 点冰冷伤害",
+      "valueSpans": [
+        "(10–13)",
+        "(14–19)"
+      ]
+    },
+    {
+      "modifierId": "85003031",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "手杖",
+      "effectPlain": "攻击附加 (1–2) - (28–32) 点闪电伤害",
+      "valueSpans": [
+        "(1–2)",
+        "(28–32)"
+      ]
+    },
+    {
+      "modifierId": "85003041",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "手杖",
+      "effectPlain": "攻击附加 (11–13) - (15–18) 点腐蚀伤害",
+      "valueSpans": [
+        "(11–13)",
+        "(15–18)"
+      ]
+    },
+    {
+      "modifierId": "85003051",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "手杖",
+      "effectPlain": "+(20–24) % 物理伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85003061",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "手杖",
+      "effectPlain": "+(20–24) % 元素伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85003071",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "手杖",
+      "effectPlain": "+(20–24) % 腐蚀伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85003081",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "手杖",
+      "effectPlain": "+(20–24) % 远程伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85003091",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "手杖",
+      "effectPlain": "+(6–8) % 攻击速度",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "85003101",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "手杖",
+      "effectPlain": "+1 投射物数量",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85003111",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "手杖",
+      "effectPlain": "额外 +(6–8) % 投射物伤害",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "85003121",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "手杖",
+      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "85003131",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "手杖",
+      "effectPlain": "+(5–7) % 护甲减伤穿透",
+      "valueSpans": [
+        "+(5–7)"
+      ]
+    },
+    {
+      "modifierId": "85003141",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "手杖",
+      "effectPlain": "+1 坚韧祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85003151",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "手杖",
+      "effectPlain": "+1 灵动祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85003161",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "手杖",
+      "effectPlain": "+1 聚能祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "160401003",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "手杖",
+      "effectPlain": "额外 +8 % 主手武器 伤害",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160402003",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "手杖",
+      "effectPlain": "+6 % 护甲减伤穿透",
+      "valueSpans": [
+        "+6"
+      ]
+    },
+    {
+      "modifierId": "160403003",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "手杖",
+      "effectPlain": "+8 % 火焰穿透",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160404003",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "手杖",
+      "effectPlain": "+8 % 冰冷穿透",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160405003",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "手杖",
+      "effectPlain": "+8 % 闪电穿透",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160406003",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "手杖",
+      "effectPlain": "+8 % 腐蚀抗性穿透",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160407003",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "手杖",
+      "effectPlain": "+8 % 该装备攻击速度",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160408003",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "手杖",
+      "effectPlain": "+20 % 该装备攻击暴击值",
+      "valueSpans": [
+        "+20"
+      ]
+    },
+    {
+      "modifierId": "160409003",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "手杖",
+      "effectPlain": "暴击时，额外 +10 % 伤害",
+      "valueSpans": [
+        "+10"
+      ]
+    },
+    {
+      "modifierId": "160410003",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "手杖",
+      "effectPlain": "+10 % 全属性",
+      "valueSpans": [
+        "+10"
+      ]
+    },
+    {
+      "modifierId": "160521003",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
+      "source": "手杖",
+      "effectPlain": "攻击或者法术击败敌人时 15 % 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 250 % 的真实伤害",
+      "valueSpans": [
+        "15",
+        "6",
+        "250"
+      ]
+    },
+    {
+      "modifierId": "160522003",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 30,
+      "affixType": "高阶序列",
+      "source": "手杖",
+      "effectPlain": "每 10 点敏捷，攻击附加 1 - 3 点闪电伤害",
+      "valueSpans": [
+        "10",
+        "1",
+        "3"
+      ]
+    },
+    {
+      "modifierId": "160523003",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 30,
+      "affixType": "高阶序列",
+      "source": "手杖",
+      "effectPlain": "每 10 点力量，攻击附加 2 - 2 点火焰伤害",
+      "valueSpans": [
+        "10",
+        "2",
+        "2"
+      ]
+    },
+    {
+      "modifierId": "160524003",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 30,
+      "affixType": "高阶序列",
+      "source": "手杖",
+      "effectPlain": "核心技能被 25 级的散射辅助",
+      "valueSpans": [
+        "25"
+      ]
+    },
+    {
+      "modifierId": "160525003",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 60,
+      "affixType": "高阶序列",
+      "source": "手杖",
+      "effectPlain": "每 2260 点护甲值，攻击附加 1 - 1 点物理伤害",
+      "valueSpans": [
+        "2260",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "160526003",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 60,
+      "affixType": "高阶序列",
+      "source": "手杖",
+      "effectPlain": "+120 % 精准投射光环效果 额外 -20 % 精准投射 魔力封印 补偿",
+      "valueSpans": [
+        "+120",
+        "-20"
+      ]
+    },
+    {
+      "modifierId": "160527003",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
+      "source": "手杖",
+      "effectPlain": "+80 % 该装备物理伤害 -20 % 该装备攻击暴击值",
+      "valueSpans": [
+        "+80",
+        "-20"
+      ]
+    },
+    {
+      "modifierId": "160528003",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
+      "source": "手杖",
+      "effectPlain": "额外 +15 % 恶化 伤害 10 % 几率额外造成 1 层 恶化",
+      "valueSpans": [
+        "+15",
+        "10",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "160529003",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
+      "source": "手杖",
+      "effectPlain": "+25 % 该装备元素伤害 -25 % 该装备物理伤害",
+      "valueSpans": [
+        "+25",
+        "-25"
+      ]
+    },
+    {
+      "modifierId": "51340311",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "寒枝扭结",
+      "source": "手杖",
+      "effectPlain": "技能范围的增加和减少的 (10–20) % 同样作用于投射物速度",
+      "valueSpans": [
+        "(10–20)"
+      ]
+    },
+    {
+      "modifierId": "51340321",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "寒枝扭结",
+      "source": "手杖",
+      "effectPlain": "攻击和法术附加 (87–92) - (113–118) 点物理伤害",
+      "valueSpans": [
+        "(87–92)",
+        "(113–118)"
+      ]
+    },
+    {
+      "modifierId": "51340331",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "寒枝扭结",
+      "source": "手杖",
+      "effectPlain": "+(120–150) % 该装备物理伤害",
+      "valueSpans": [
+        "+(120–150)"
+      ]
+    },
+    {
+      "modifierId": "51340341",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "寒枝扭结",
+      "source": "手杖",
+      "effectPlain": "+1 投射物技能等级",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51340351",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "寒枝扭结",
+      "source": "手杖",
+      "effectPlain": "+(40–50) % 该装备攻击速度",
+      "valueSpans": [
+        "+(40–50)"
+      ]
+    }
+  ],
+  "tierVariantGroups": [
+    {
+      "skeleton": "{#} % 元素伤害",
+      "rolls": [
+        {
+          "modifierId": "1500306",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(20–24)"
+          ],
+          "effectPlain": "+(20–24) % 元素伤害"
+        },
+        {
+          "modifierId": "85003061",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(20–24)"
+          ],
+          "effectPlain": "+(20–24) % 元素伤害"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 元素和腐蚀抗性穿透",
+      "rolls": [
+        {
+          "modifierId": "119030301",
+          "tier": 1,
+          "itemLevel": 100,
+          "weight": 100,
+          "affixType": "至臻前缀",
+          "valueSpans": [
+            "+(22–30)"
+          ],
+          "effectPlain": "+(22–30) % 元素和腐蚀抗性穿透"
+        },
+        {
+          "modifierId": "1500312",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(6–8)"
+          ],
+          "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透"
+        },
+        {
+          "modifierId": "85003121",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(6–8)"
+          ],
+          "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 护甲减伤穿透",
+      "rolls": [
+        {
+          "modifierId": "115030601",
+          "tier": 1,
+          "itemLevel": 100,
+          "weight": 100,
+          "affixType": "至臻前缀",
+          "valueSpans": [
+            "+(18–25)"
+          ],
+          "effectPlain": "+(18–25) % 护甲减伤穿透"
+        },
+        {
+          "modifierId": "1500313",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(5–7)"
+          ],
+          "effectPlain": "+(5–7) % 护甲减伤穿透"
+        },
+        {
+          "modifierId": "160402003",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 100,
+          "affixType": "中阶序列",
+          "valueSpans": [
+            "+6"
+          ],
+          "effectPlain": "+6 % 护甲减伤穿透"
+        },
+        {
+          "modifierId": "85003131",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(5–7)"
+          ],
+          "effectPlain": "+(5–7) % 护甲减伤穿透"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 攻击速度",
+      "rolls": [
+        {
+          "modifierId": "1500309",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(6–8)"
+          ],
+          "effectPlain": "+(6–8) % 攻击速度"
+        },
+        {
+          "modifierId": "85003091",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(6–8)"
+          ],
+          "effectPlain": "+(6–8) % 攻击速度"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 暴击伤害",
+      "rolls": [
+        {
+          "modifierId": "60060307",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "侵蚀基底",
+          "valueSpans": [
+            "+(25–32)"
+          ],
+          "effectPlain": "+(25–32) % 暴击伤害"
+        },
+        {
+          "modifierId": "111030401",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "进阶后缀",
+          "valueSpans": [
+            "+(64–90)"
+          ],
+          "effectPlain": "+(64–90) % 暴击伤害"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 物理伤害",
+      "rolls": [
+        {
+          "modifierId": "140031201",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "初阶后缀",
+          "valueSpans": [
+            "+(77–108)"
+          ],
+          "effectPlain": "+(77–108) % 物理伤害"
+        },
+        {
+          "modifierId": "1500305",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(20–24)"
+          ],
+          "effectPlain": "+(20–24) % 物理伤害"
+        },
+        {
+          "modifierId": "85003051",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(20–24)"
+          ],
+          "effectPlain": "+(20–24) % 物理伤害"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 腐蚀伤害",
+      "rolls": [
+        {
+          "modifierId": "140031401",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "初阶后缀",
+          "valueSpans": [
+            "+(77–108)"
+          ],
+          "effectPlain": "+(77–108) % 腐蚀伤害"
+        },
+        {
+          "modifierId": "1500307",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(20–24)"
+          ],
+          "effectPlain": "+(20–24) % 腐蚀伤害"
+        },
+        {
+          "modifierId": "85003071",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(20–24)"
+          ],
+          "effectPlain": "+(20–24) % 腐蚀伤害"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 该装备攻击暴击值",
+      "rolls": [
+        {
+          "modifierId": "110030201",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "进阶后缀",
+          "valueSpans": [
+            "+(36–50)"
+          ],
+          "effectPlain": "+(36–50) % 该装备攻击暴击值"
+        },
+        {
+          "modifierId": "160408003",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 100,
+          "affixType": "中阶序列",
+          "valueSpans": [
+            "+20"
+          ],
+          "effectPlain": "+20 % 该装备攻击暴击值"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 该装备攻击速度",
+      "rolls": [
+        {
+          "modifierId": "110030101",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "初阶后缀",
+          "valueSpans": [
+            "+(23–32)"
+          ],
+          "effectPlain": "+(23–32) % 该装备攻击速度"
+        },
+        {
+          "modifierId": "160407003",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 100,
+          "affixType": "中阶序列",
+          "valueSpans": [
+            "+8"
+          ],
+          "effectPlain": "+8 % 该装备攻击速度"
+        },
+        {
+          "modifierId": "51340351",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "寒枝扭结",
+          "valueSpans": [
+            "+(40–50)"
+          ],
+          "effectPlain": "+(40–50) % 该装备攻击速度"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 该装备物理伤害",
+      "rolls": [
+        {
+          "modifierId": "107030001",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "进阶前缀",
+          "valueSpans": [
+            "+(56–100)"
+          ],
+          "effectPlain": "+(56–100) % 该装备物理伤害"
+        },
+        {
+          "modifierId": "51340331",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "寒枝扭结",
+          "valueSpans": [
+            "+(120–150)"
+          ],
+          "effectPlain": "+(120–150) % 该装备物理伤害"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 远程伤害",
+      "rolls": [
+        {
+          "modifierId": "1500308",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(20–24)"
+          ],
+          "effectPlain": "+(20–24) % 远程伤害"
+        },
+        {
+          "modifierId": "85003081",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(20–24)"
+          ],
+          "effectPlain": "+(20–24) % 远程伤害"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} 坚韧祝福 层数上限",
+      "rolls": [
+        {
+          "modifierId": "1500314",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+1"
+          ],
+          "effectPlain": "+1 坚韧祝福 层数上限"
+        },
+        {
+          "modifierId": "85003141",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+1"
+          ],
+          "effectPlain": "+1 坚韧祝福 层数上限"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} 投射物数量",
+      "rolls": [
+        {
+          "modifierId": "1500310",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+1"
+          ],
+          "effectPlain": "+1 投射物数量"
+        },
+        {
+          "modifierId": "85003101",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+1"
+          ],
+          "effectPlain": "+1 投射物数量"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} 灵动祝福 层数上限",
+      "rolls": [
+        {
+          "modifierId": "1500315",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+1"
+          ],
+          "effectPlain": "+1 灵动祝福 层数上限"
+        },
+        {
+          "modifierId": "85003151",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+1"
+          ],
+          "effectPlain": "+1 灵动祝福 层数上限"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} 聚能祝福 层数上限",
+      "rolls": [
+        {
+          "modifierId": "1500316",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+1"
+          ],
+          "effectPlain": "+1 聚能祝福 层数上限"
+        },
+        {
+          "modifierId": "85003161",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+1"
+          ],
+          "effectPlain": "+1 聚能祝福 层数上限"
+        }
+      ]
+    },
+    {
+      "skeleton": "攻击附加 {#} - {#} 点冰冷伤害",
+      "rolls": [
+        {
+          "modifierId": "1500302",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "(10–13)",
+            "(14–19)"
+          ],
+          "effectPlain": "攻击附加 (10–13) - (14–19) 点冰冷伤害"
+        },
+        {
+          "modifierId": "85003021",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "(10–13)",
+            "(14–19)"
+          ],
+          "effectPlain": "攻击附加 (10–13) - (14–19) 点冰冷伤害"
+        }
+      ]
+    },
+    {
+      "skeleton": "攻击附加 {#} - {#} 点火焰伤害",
+      "rolls": [
+        {
+          "modifierId": "1500301",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "(9–14)",
+            "(15–20)"
+          ],
+          "effectPlain": "攻击附加 (9–14) - (15–20) 点火焰伤害"
+        },
+        {
+          "modifierId": "85003011",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "(9–14)",
+            "(15–20)"
+          ],
+          "effectPlain": "攻击附加 (9–14) - (15–20) 点火焰伤害"
+        }
+      ]
+    },
+    {
+      "skeleton": "攻击附加 {#} - {#} 点物理伤害",
+      "rolls": [
+        {
+          "modifierId": "1500300",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "(10–13)",
+            "(14–19)"
+          ],
+          "effectPlain": "攻击附加 (10–13) - (14–19) 点物理伤害"
+        },
+        {
+          "modifierId": "85003001",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "(10–13)",
+            "(14–19)"
+          ],
+          "effectPlain": "攻击附加 (10–13) - (14–19) 点物理伤害"
+        }
+      ]
+    },
+    {
+      "skeleton": "攻击附加 {#} - {#} 点腐蚀伤害",
+      "rolls": [
+        {
+          "modifierId": "1500304",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "(11–13)",
+            "(15–18)"
+          ],
+          "effectPlain": "攻击附加 (11–13) - (15–18) 点腐蚀伤害"
+        },
+        {
+          "modifierId": "85003041",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "(11–13)",
+            "(15–18)"
+          ],
+          "effectPlain": "攻击附加 (11–13) - (15–18) 点腐蚀伤害"
+        }
+      ]
+    },
+    {
+      "skeleton": "攻击附加 {#} - {#} 点闪电伤害",
+      "rolls": [
+        {
+          "modifierId": "1500303",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "(1–2)",
+            "(28–32)"
+          ],
+          "effectPlain": "攻击附加 (1–2) - (28–32) 点闪电伤害"
+        },
+        {
+          "modifierId": "85003031",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "(1–2)",
+            "(28–32)"
+          ],
+          "effectPlain": "攻击附加 (1–2) - (28–32) 点闪电伤害"
+        }
+      ]
+    },
+    {
+      "skeleton": "额外 {#} % 投射物伤害",
+      "rolls": [
+        {
+          "modifierId": "1500311",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(6–8)"
+          ],
+          "effectPlain": "额外 +(6–8) % 投射物伤害"
+        },
+        {
+          "modifierId": "85003111",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(6–8)"
+          ],
+          "effectPlain": "额外 +(6–8) % 投射物伤害"
+        }
+      ]
+    }
+  ],
+  "tierVariantGroupCount": 21
+}

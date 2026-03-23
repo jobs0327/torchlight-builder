@@ -1,0 +1,190 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "Two-Handed_Axe",
+  "categoryLabel": "Two-Handed Axe",
+  "sourceUrl": "https://tlidb.com/cn/Two-Handed_Axe",
+  "fetchedAt": "2026-03-22T11:45:19Z",
+  "baseCount": 20,
+  "bases": [
+    {
+      "id": "Shattered_Iron_Axe",
+      "name": "破碎铁斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Shattered_Iron_Axe.webp",
+      "iconAlt": "IconEquipWeapon2HAxeNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HAxe_Norm_001_128.webp"
+    },
+    {
+      "id": "Gigantic_Stone_Axe",
+      "name": "巨型石斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Gigantic_Stone_Axe.webp",
+      "iconAlt": "IconEquipWeapon2HAxeNorm002128",
+      "requiredLevel": 2,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HAxe_Norm_002_128.webp"
+    },
+    {
+      "id": "Iron_Battle_Axe",
+      "name": "精铁战斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Iron_Battle_Axe.webp",
+      "iconAlt": "IconEquipWeapon2HAxeNorm003128",
+      "requiredLevel": 4,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HAxe_Norm_003_128.webp"
+    },
+    {
+      "id": "Hardrock_Stone_Axe",
+      "name": "坚岩石斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Hardrock_Stone_Axe.webp",
+      "iconAlt": "IconEquipWeapon2HAxeNorm004128",
+      "requiredLevel": 9,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HAxe_Norm_004_128.webp"
+    },
+    {
+      "id": "Coldlight_Greataxe",
+      "name": "寒光巨斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Coldlight_Greataxe.webp",
+      "iconAlt": "IconEquipWeapon2HAxeNorm005128",
+      "requiredLevel": 14,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HAxe_Norm_005_128.webp"
+    },
+    {
+      "id": "Gilt_Board_Axe",
+      "name": "鎏金重斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Gilt_Board_Axe.webp",
+      "iconAlt": "IconEquipWeapon2HAxeNorm001128",
+      "requiredLevel": 19,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HAxe_Norm_001_128.webp"
+    },
+    {
+      "id": "Marsh_Greataxe",
+      "name": "沼泽巨斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Marsh_Greataxe.webp",
+      "iconAlt": "IconEquipWeapon2HAxeNorm002128",
+      "requiredLevel": 24,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HAxe_Norm_002_128.webp"
+    },
+    {
+      "id": "Blazing_Greataxe",
+      "name": "炙热巨斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Blazing_Greataxe.webp",
+      "iconAlt": "IconEquipWeapon2HAxeNorm003128",
+      "requiredLevel": 29,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HAxe_Norm_003_128.webp"
+    },
+    {
+      "id": "Giant's_Board_Axe",
+      "name": "巨人重斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Giant_s_Board_Axe.webp",
+      "iconAlt": "IconEquipWeapon2HAxeNorm004128",
+      "requiredLevel": 34,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HAxe_Norm_004_128.webp"
+    },
+    {
+      "id": "Doomsday_Board_Axe",
+      "name": "末日重斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Doomsday_Board_Axe.webp",
+      "iconAlt": "IconEquipWeapon2HAxeNorm005128",
+      "requiredLevel": 39,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HAxe_Norm_005_128.webp"
+    },
+    {
+      "id": "Redgold_Greataxe",
+      "name": "赤金巨斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Redgold_Greataxe.webp",
+      "iconAlt": "IconEquipWeapon2HAxeNorm001128",
+      "requiredLevel": 44,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HAxe_Norm_001_128.webp"
+    },
+    {
+      "id": "Unpredictable_Board_Axe",
+      "name": "诡谲重斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Unpredictable_Board_Axe.webp",
+      "iconAlt": "IconEquipWeapon2HAxeNorm002128",
+      "requiredLevel": 49,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HAxe_Norm_002_128.webp"
+    },
+    {
+      "id": "Griffin_Greataxe",
+      "name": "狮鹫巨斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Griffin_Greataxe.webp",
+      "iconAlt": "IconEquipWeapon2HAxeNorm003128",
+      "requiredLevel": 54,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HAxe_Norm_003_128.webp"
+    },
+    {
+      "id": "Blue_Sea_Greataxe",
+      "name": "蓝海巨斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Blue_Sea_Greataxe.webp",
+      "iconAlt": "IconEquipWeapon2HAxeNorm004128",
+      "requiredLevel": 59,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HAxe_Norm_004_128.webp"
+    },
+    {
+      "id": "Ripping_Greataxe",
+      "name": "撕裂巨斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Ripping_Greataxe.webp",
+      "iconAlt": "IconEquipWeapon2HAxeNorm005128",
+      "requiredLevel": 64,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HAxe_Norm_005_128.webp"
+    },
+    {
+      "id": "Lava_Board_Axe",
+      "name": "熔岩重斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Lava_Board_Axe.webp",
+      "iconAlt": "IconEquipWeapon2HAxeNorm001128",
+      "requiredLevel": 68,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HAxe_Norm_001_128.webp"
+    },
+    {
+      "id": "Fallen_Star_Greataxe",
+      "name": "陨星巨斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Fallen_Star_Greataxe.webp",
+      "iconAlt": "IconEquipWeapon2HAxeNorm005128",
+      "requiredLevel": 72,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HAxe_Norm_005_128.webp"
+    },
+    {
+      "id": "Red_Pegasus_Greataxe",
+      "name": "红飞马巨斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Red_Pegasus_Greataxe.webp",
+      "iconAlt": "IconEquipWeapon2HAxeNorm001128",
+      "requiredLevel": 82,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HAxe_Norm_001_128.webp"
+    },
+    {
+      "id": "Black_Pass_Board_Axe",
+      "name": "黑隘口重斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Black_Pass_Board_Axe.webp",
+      "iconAlt": "IconEquipWeapon2HAxeNorm001128",
+      "requiredLevel": 84,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HAxe_Norm_001_128.webp"
+    },
+    {
+      "id": "Earthrending_Axe",
+      "name": "切割大地之斧",
+      "iconUrl": "/assets/equipment/crafted-bases/Earthrending_Axe.webp",
+      "iconAlt": "IconEquipWeapon2HAxeNorm001128",
+      "requiredLevel": 86,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HAxe_Norm_001_128.webp"
+    }
+  ]
+}

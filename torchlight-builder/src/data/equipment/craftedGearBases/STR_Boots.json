@@ -1,0 +1,118 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "STR_Boots",
+  "categoryLabel": "STR Boots",
+  "sourceUrl": "https://tlidb.com/cn/STR_Boots",
+  "fetchedAt": "2026-03-22T11:43:47Z",
+  "baseCount": 12,
+  "bases": [
+    {
+      "id": "Brute's_Greaves",
+      "name": "蛮兵护胫",
+      "iconUrl": "/assets/equipment/crafted-bases/Brute_s_Greaves.webp",
+      "iconAlt": "IconEquipShoesStrNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Str_Norm_001_128.webp"
+    },
+    {
+      "id": "Footman's_Boots",
+      "name": "方阵兵之靴",
+      "iconUrl": "/assets/equipment/crafted-bases/Footman_s_Boots.webp",
+      "iconAlt": "IconEquipShoesStrNorm002128",
+      "requiredLevel": 1,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Str_Norm_002_128.webp"
+    },
+    {
+      "id": "Paladin's_Iron_Greaves",
+      "name": "圣战者铁护胫",
+      "iconUrl": "/assets/equipment/crafted-bases/Paladin_s_Iron_Greaves.webp",
+      "iconAlt": "IconEquipShoesStrNorm003128",
+      "requiredLevel": 9,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Str_Norm_003_128.webp"
+    },
+    {
+      "id": "Berserker's_Footguards",
+      "name": "狂战士护足",
+      "iconUrl": "/assets/equipment/crafted-bases/Berserker_s_Footguards.webp",
+      "iconAlt": "IconEquipShoesStrNorm004128",
+      "requiredLevel": 24,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Str_Norm_004_128.webp"
+    },
+    {
+      "id": "Iron_Sentry's_Feet",
+      "name": "铁卫之足",
+      "iconUrl": "/assets/equipment/crafted-bases/Iron_Sentry_s_Feet.webp",
+      "iconAlt": "IconEquipShoesStrNorm00101128",
+      "requiredLevel": 39,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Str_Norm_001_01_128.webp"
+    },
+    {
+      "id": "Packleader_Greaves",
+      "name": "头狼护胫",
+      "iconUrl": "/assets/equipment/crafted-bases/Packleader_Greaves.webp",
+      "iconAlt": "IconEquipShoesStrNorm00201128",
+      "requiredLevel": 52,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Str_Norm_002_01_128.webp"
+    },
+    {
+      "id": "Mountain_Lord's_Feet",
+      "name": "高山领主之足",
+      "iconUrl": "/assets/equipment/crafted-bases/Mountain_Lord_s_Feet.webp",
+      "iconAlt": "IconEquipShoesStrNorm00301128",
+      "requiredLevel": 57,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Str_Norm_003_01_128.webp"
+    },
+    {
+      "id": "Divine_Arbiter's_Feet",
+      "name": "神圣仲裁者之足",
+      "iconUrl": "/assets/equipment/crafted-bases/Divine_Arbiter_s_Feet.webp",
+      "iconAlt": "IconEquipShoesStrNorm00401128",
+      "requiredLevel": 62,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Str_Norm_004_01_128.webp"
+    },
+    {
+      "id": "Dragon_Guardian's_Footguards",
+      "name": "龙圣卫护足",
+      "iconUrl": "/assets/equipment/crafted-bases/Dragon_Guardian_s_Footguards.webp",
+      "iconAlt": "IconEquipShoesStrNorm00102128",
+      "requiredLevel": 66,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Str_Norm_001_02_128.webp"
+    },
+    {
+      "id": "Fallen_Knight's_Footguards",
+      "name": "堕落骑士护足",
+      "iconUrl": "/assets/equipment/crafted-bases/Fallen_Knight_s_Footguards.webp",
+      "iconAlt": "IconEquipShoesStrNorm00202128",
+      "requiredLevel": 70,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Str_Norm_002_02_128.webp"
+    },
+    {
+      "id": "Old_King's_Sabatons",
+      "name": "旧日王者的铁靴",
+      "iconUrl": "/assets/equipment/crafted-bases/Old_King_s_Sabatons.webp",
+      "iconAlt": "IconEquipShoesStrNorm00302128",
+      "requiredLevel": 76,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Str_Norm_003_02_128.webp"
+    },
+    {
+      "id": "Ranger's_Dirty_Boots",
+      "name": "游侠的脏污马靴",
+      "iconUrl": "/assets/equipment/crafted-bases/Ranger_s_Dirty_Boots.webp",
+      "iconAlt": "IconEquipShoesStrNorm00402128",
+      "requiredLevel": 82,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Str_Norm_004_02_128.webp"
+    }
+  ]
+}

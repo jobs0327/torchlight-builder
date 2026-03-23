@@ -1,0 +1,118 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "DEX_Helmet",
+  "categoryLabel": "DEX Helmet",
+  "sourceUrl": "https://tlidb.com/cn/DEX_Helmet",
+  "fetchedAt": "2026-03-22T11:43:03Z",
+  "baseCount": 12,
+  "bases": [
+    {
+      "id": "Rogue's_Hood",
+      "name": "游荡者罩帽",
+      "iconUrl": "/assets/equipment/crafted-bases/Rogue_s_Hood.webp",
+      "iconAlt": "IconEquipHelmetAgiNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Agi_Norm_001_128.webp"
+    },
+    {
+      "id": "Scout's_Hood",
+      "name": "斥候头罩",
+      "iconUrl": "/assets/equipment/crafted-bases/Scout_s_Hood.webp",
+      "iconAlt": "IconEquipHelmetAgiNorm002128",
+      "requiredLevel": 1,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Agi_Norm_002_128.webp"
+    },
+    {
+      "id": "Skirmisher's_Mask",
+      "name": "散兵面具",
+      "iconUrl": "/assets/equipment/crafted-bases/Skirmisher_s_Mask.webp",
+      "iconAlt": "IconEquipHelmetAgiNorm003128",
+      "requiredLevel": 9,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Agi_Norm_003_128.webp"
+    },
+    {
+      "id": "Hunter's_Hood",
+      "name": "猎手兜帽",
+      "iconUrl": "/assets/equipment/crafted-bases/Hunter_s_Hood.webp",
+      "iconAlt": "IconEquipHelmetAgiNorm004128",
+      "requiredLevel": 24,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Agi_Norm_004_128.webp"
+    },
+    {
+      "id": "Prospector's_Hat",
+      "name": "勘探者之帽",
+      "iconUrl": "/assets/equipment/crafted-bases/Prospector_s_Hat.webp",
+      "iconAlt": "IconEquipHelmetAgiNorm00101128",
+      "requiredLevel": 39,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Agi_Norm_001_01_128.webp"
+    },
+    {
+      "id": "Wild_Dominator_Headdress",
+      "name": "荒野主宰头饰",
+      "iconUrl": "/assets/equipment/crafted-bases/Wild_Dominator_Headdress.webp",
+      "iconAlt": "IconEquipHelmetAgiNorm00201128",
+      "requiredLevel": 52,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Agi_Norm_002_01_128.webp"
+    },
+    {
+      "id": "Grand_Explorer's_Fez",
+      "name": "大探险家毡帽",
+      "iconUrl": "/assets/equipment/crafted-bases/Grand_Explorer_s_Fez.webp",
+      "iconAlt": "IconEquipHelmetAgiNorm00301128",
+      "requiredLevel": 57,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Agi_Norm_003_01_128.webp"
+    },
+    {
+      "id": "Watcher's_Gaze",
+      "name": "监视者的凝视",
+      "iconUrl": "/assets/equipment/crafted-bases/Watcher_s_Gaze.webp",
+      "iconAlt": "IconEquipHelmetAgiNorm00401128",
+      "requiredLevel": 62,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Agi_Norm_004_01_128.webp"
+    },
+    {
+      "id": "Eternal_Night_Stalker's_Hood",
+      "name": "永夜追猎者罩帽",
+      "iconUrl": "/assets/equipment/crafted-bases/Eternal_Night_Stalker_s_Hood.webp",
+      "iconAlt": "IconEquipHelmetAgiNorm00102128",
+      "requiredLevel": 66,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Agi_Norm_001_02_128.webp"
+    },
+    {
+      "id": "Mask_of_Calamity",
+      "name": "灾厄面具",
+      "iconUrl": "/assets/equipment/crafted-bases/Mask_of_Calamity.webp",
+      "iconAlt": "IconEquipHelmetAgiNorm00202128",
+      "requiredLevel": 70,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Agi_Norm_002_02_128.webp"
+    },
+    {
+      "id": "Demon_Slayer's_Eyes",
+      "name": "除魔者之眼",
+      "iconUrl": "/assets/equipment/crafted-bases/Demon_Slayer_s_Eyes.webp",
+      "iconAlt": "IconEquipHelmetAgiNorm00302128",
+      "requiredLevel": 76,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Agi_Norm_003_02_128.webp"
+    },
+    {
+      "id": "Secret_Shadow's_Mask",
+      "name": "秘影面具",
+      "iconUrl": "/assets/equipment/crafted-bases/Secret_Shadow_s_Mask.webp",
+      "iconAlt": "IconEquipHelmetAgiNorm00402128",
+      "requiredLevel": 82,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Agi_Norm_004_02_128.webp"
+    }
+  ]
+}

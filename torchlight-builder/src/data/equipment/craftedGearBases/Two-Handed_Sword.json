@@ -1,0 +1,190 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "Two-Handed_Sword",
+  "categoryLabel": "Two-Handed Sword",
+  "sourceUrl": "https://tlidb.com/cn/Two-Handed_Sword",
+  "fetchedAt": "2026-03-22T11:45:10Z",
+  "baseCount": 20,
+  "bases": [
+    {
+      "id": "Crude_Wooden_Sword",
+      "name": "粗质木剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Crude_Wooden_Sword.webp",
+      "iconAlt": "IconEquipWeapon2HSwordNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HSword_Norm_001_128.webp"
+    },
+    {
+      "id": "Rottenwood_Greatsword",
+      "name": "朽木巨剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Rottenwood_Greatsword.webp",
+      "iconAlt": "IconEquipWeapon2HSwordNorm002128",
+      "requiredLevel": 2,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HSword_Norm_002_128.webp"
+    },
+    {
+      "id": "Rusted_Claymore",
+      "name": "锈斑大剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Rusted_Claymore.webp",
+      "iconAlt": "IconEquipWeapon2HSwordNorm003128",
+      "requiredLevel": 4,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HSword_Norm_003_128.webp"
+    },
+    {
+      "id": "Rock_Claymore",
+      "name": "磐石大剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Rock_Claymore.webp",
+      "iconAlt": "IconEquipWeapon2HSwordNorm004128",
+      "requiredLevel": 9,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HSword_Norm_004_128.webp"
+    },
+    {
+      "id": "Iron_Greatsword",
+      "name": "精铁巨剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Iron_Greatsword.webp",
+      "iconAlt": "IconEquipWeapon2HSwordNorm005128",
+      "requiredLevel": 14,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HSword_Norm_005_128.webp"
+    },
+    {
+      "id": "Conflict_Greatsword",
+      "name": "战争巨剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Conflict_Greatsword.webp",
+      "iconAlt": "IconEquipWeapon2HSwordNorm001128",
+      "requiredLevel": 19,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HSword_Norm_001_128.webp"
+    },
+    {
+      "id": "Ripping_Claymore",
+      "name": "撕裂重剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Ripping_Claymore.webp",
+      "iconAlt": "IconEquipWeapon2HSwordNorm002128",
+      "requiredLevel": 24,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HSword_Norm_002_128.webp"
+    },
+    {
+      "id": "Coldlight_Claymore",
+      "name": "寒光重剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Coldlight_Claymore.webp",
+      "iconAlt": "IconEquipWeapon2HSwordNorm003128",
+      "requiredLevel": 29,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HSword_Norm_003_128.webp"
+    },
+    {
+      "id": "Gladiator's_Greatsword",
+      "name": "角斗巨剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Gladiator_s_Greatsword.webp",
+      "iconAlt": "IconEquipWeapon2HSwordNorm004128",
+      "requiredLevel": 34,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HSword_Norm_004_128.webp"
+    },
+    {
+      "id": "Barren_Greatsword",
+      "name": "荒原巨剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Barren_Greatsword.webp",
+      "iconAlt": "IconEquipWeapon2HSwordNorm005128",
+      "requiredLevel": 39,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HSword_Norm_005_128.webp"
+    },
+    {
+      "id": "Tidal_Claymore",
+      "name": "潮汐重剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Tidal_Claymore.webp",
+      "iconAlt": "IconEquipWeapon2HSwordNorm001128",
+      "requiredLevel": 44,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HSword_Norm_001_128.webp"
+    },
+    {
+      "id": "Sundering_Greatsword",
+      "name": "碎甲巨剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Sundering_Greatsword.webp",
+      "iconAlt": "IconEquipWeapon2HSwordNorm002128",
+      "requiredLevel": 49,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HSword_Norm_002_128.webp"
+    },
+    {
+      "id": "Wolfsoul_Claymore",
+      "name": "狼魂重剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Wolfsoul_Claymore.webp",
+      "iconAlt": "IconEquipWeapon2HSwordNorm003128",
+      "requiredLevel": 54,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HSword_Norm_003_128.webp"
+    },
+    {
+      "id": "Glory_Greatsword",
+      "name": "荣耀巨剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Glory_Greatsword.webp",
+      "iconAlt": "IconEquipWeapon2HSwordNorm004128",
+      "requiredLevel": 59,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HSword_Norm_004_128.webp"
+    },
+    {
+      "id": "Griffin_Greatsword",
+      "name": "狮鹫巨剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Griffin_Greatsword.webp",
+      "iconAlt": "IconEquipWeapon2HSwordNorm005128",
+      "requiredLevel": 64,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HSword_Norm_005_128.webp"
+    },
+    {
+      "id": "Vindicator's_Greatsword",
+      "name": "裁决巨剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Vindicator_s_Greatsword.webp",
+      "iconAlt": "IconEquipWeapon2HSwordNorm001128",
+      "requiredLevel": 68,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HSword_Norm_001_128.webp"
+    },
+    {
+      "id": "Subjugation_Claymore",
+      "name": "镇压重剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Subjugation_Claymore.webp",
+      "iconAlt": "IconEquipWeapon2HSwordNorm005128",
+      "requiredLevel": 72,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HSword_Norm_005_128.webp"
+    },
+    {
+      "id": "Red_Pegasus_Greatsword",
+      "name": "红飞马巨剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Red_Pegasus_Greatsword.webp",
+      "iconAlt": "IconEquipWeapon2HSwordNorm001128",
+      "requiredLevel": 82,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HSword_Norm_001_128.webp"
+    },
+    {
+      "id": "Black_Pass_Claymore",
+      "name": "黑隘口重剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Black_Pass_Claymore.webp",
+      "iconAlt": "IconEquipWeapon2HSwordNorm001128",
+      "requiredLevel": 84,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HSword_Norm_001_128.webp"
+    },
+    {
+      "id": "Sky_Severing_Sword",
+      "name": "斩落长空之剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Sky_Severing_Sword.webp",
+      "iconAlt": "IconEquipWeapon2HSwordNorm001128",
+      "requiredLevel": 86,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_2HSword_Norm_001_128.webp"
+    }
+  ]
+}

@@ -1,0 +1,1833 @@
+{
+  "slug": "Rod",
+  "label": "Rod",
+  "sourceUrl": "https://tlidb.com/cn/Rod",
+  "fetchedAt": "2026-03-22T08:58:24Z",
+  "modifierCount": 89,
+  "modifiers": [
+    {
+      "modifierId": "1503300",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "灵杖",
+      "effectPlain": "召唤物附加 (10–13) - (14–19) 点物理伤害",
+      "valueSpans": [
+        "(10–13)",
+        "(14–19)"
+      ]
+    },
+    {
+      "modifierId": "1503301",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "灵杖",
+      "effectPlain": "召唤物附加 (9–14) - (15–20) 点火焰伤害",
+      "valueSpans": [
+        "(9–14)",
+        "(15–20)"
+      ]
+    },
+    {
+      "modifierId": "1503302",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "灵杖",
+      "effectPlain": "召唤物附加 (10–13) - (14–19) 点冰冷伤害",
+      "valueSpans": [
+        "(10–13)",
+        "(14–19)"
+      ]
+    },
+    {
+      "modifierId": "1503303",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "灵杖",
+      "effectPlain": "召唤物附加 (1–2) - (28–32) 点闪电伤害",
+      "valueSpans": [
+        "(1–2)",
+        "(28–32)"
+      ]
+    },
+    {
+      "modifierId": "1503304",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "灵杖",
+      "effectPlain": "召唤物附加 (11–13) - (15–18) 点腐蚀伤害",
+      "valueSpans": [
+        "(11–13)",
+        "(15–18)"
+      ]
+    },
+    {
+      "modifierId": "1503305",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "灵杖",
+      "effectPlain": "+(15–20) 力量",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "1503306",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "灵杖",
+      "effectPlain": "+(15–20) 敏捷",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "1503307",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "灵杖",
+      "effectPlain": "+(15–20) 智慧",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "1503308",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "灵杖",
+      "effectPlain": "+(20–24) % 召唤物伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "1503309",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "灵杖",
+      "effectPlain": "+(6–8) % 召唤物攻击与施法速度",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1503310",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "灵杖",
+      "effectPlain": "释放召唤技能时， +100 % 几率获得 1 层 坚韧祝福 ，间隔 1 秒",
+      "valueSpans": [
+        "+100",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "1503311",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "灵杖",
+      "effectPlain": "释放召唤技能时， +100 % 几率获得 1 层 聚能祝福 ，间隔 1 秒",
+      "valueSpans": [
+        "+100",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "1503312",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "灵杖",
+      "effectPlain": "额外 +(6–8) % 召唤物伤害",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1503313",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "灵杖",
+      "effectPlain": "召唤物伤害穿透 (6–8) % 元素抗性",
+      "valueSpans": [
+        "(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1503314",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "灵杖",
+      "effectPlain": "召唤物 +(5–7) % 护甲减伤穿透",
+      "valueSpans": [
+        "+(5–7)"
+      ]
+    },
+    {
+      "modifierId": "1503315",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "灵杖",
+      "effectPlain": "+1 聚能祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "60063301",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "灵杖",
+      "effectPlain": "使用核心法术技能时， +(5–8) % 几率额外触发一次",
+      "valueSpans": [
+        "+(5–8)"
+      ]
+    },
+    {
+      "modifierId": "60063302",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "灵杖",
+      "effectPlain": "击败时， +(4–8) % 几率获得 1 层 聚能祝福",
+      "valueSpans": [
+        "+(4–8)"
+      ]
+    },
+    {
+      "modifierId": "60063303",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "灵杖",
+      "effectPlain": "召唤物 +(5–8) % 元素和腐蚀抗性穿透",
+      "valueSpans": [
+        "+(5–8)"
+      ]
+    },
+    {
+      "modifierId": "60063304",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "灵杖",
+      "effectPlain": "+(10–16) % 施法速度",
+      "valueSpans": [
+        "+(10–16)"
+      ]
+    },
+    {
+      "modifierId": "60063305",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "灵杖",
+      "effectPlain": "+(20–30) % 召唤物伤害",
+      "valueSpans": [
+        "+(20–30)"
+      ]
+    },
+    {
+      "modifierId": "60063306",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "灵杖",
+      "effectPlain": "+(30–40) % 召唤物暴击值",
+      "valueSpans": [
+        "+(30–40)"
+      ]
+    },
+    {
+      "modifierId": "60063307",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "灵杖",
+      "effectPlain": "+(25–32) % 召唤物暴击伤害",
+      "valueSpans": [
+        "+(25–32)"
+      ]
+    },
+    {
+      "modifierId": "60063308",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "灵杖",
+      "effectPlain": "+(6–10) % 冷却回复速度",
+      "valueSpans": [
+        "+(6–10)"
+      ]
+    },
+    {
+      "modifierId": "60063309",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "灵杖",
+      "effectPlain": "附加 (5–8) % 元素 伤害的腐蚀伤害",
+      "valueSpans": [
+        "(5–8)"
+      ]
+    },
+    {
+      "modifierId": "106330001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "灵杖",
+      "effectPlain": "召唤物附加 (63–65) - (82–87) 点火焰伤害",
+      "valueSpans": [
+        "(63–65)",
+        "(82–87)"
+      ]
+    },
+    {
+      "modifierId": "106330101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "灵杖",
+      "effectPlain": "召唤物附加 (64–66) - (85–87) 点冰冷伤害",
+      "valueSpans": [
+        "(64–66)",
+        "(85–87)"
+      ]
+    },
+    {
+      "modifierId": "106330201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "灵杖",
+      "effectPlain": "召唤物附加 (7–9) - (142–144) 点闪电伤害",
+      "valueSpans": [
+        "(7–9)",
+        "(142–144)"
+      ]
+    },
+    {
+      "modifierId": "106330301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "灵杖",
+      "effectPlain": "召唤物附加 (67–69) - (82–84) 点腐蚀伤害",
+      "valueSpans": [
+        "(67–69)",
+        "(82–84)"
+      ]
+    },
+    {
+      "modifierId": "107330101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "灵杖",
+      "effectPlain": "+(77–108) % 召唤物伤害",
+      "valueSpans": [
+        "+(77–108)"
+      ]
+    },
+    {
+      "modifierId": "140330701",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "灵杖",
+      "effectPlain": "召唤物附加 (67–69) - (82–84) 点物理伤害",
+      "valueSpans": [
+        "(67–69)",
+        "(82–84)"
+      ]
+    },
+    {
+      "modifierId": "140330801",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "灵杖",
+      "effectPlain": "+(33–45) % 召唤物最大生命",
+      "valueSpans": [
+        "+(33–45)"
+      ]
+    },
+    {
+      "modifierId": "109330001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "灵杖",
+      "effectPlain": "+(64–90) 智慧",
+      "valueSpans": [
+        "+(64–90)"
+      ]
+    },
+    {
+      "modifierId": "109330301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "灵杖",
+      "effectPlain": "+(64–90) 力量",
+      "valueSpans": [
+        "+(64–90)"
+      ]
+    },
+    {
+      "modifierId": "109330401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "灵杖",
+      "effectPlain": "+(64–90) 敏捷",
+      "valueSpans": [
+        "+(64–90)"
+      ]
+    },
+    {
+      "modifierId": "140330001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "灵杖",
+      "effectPlain": "魔灵 +(22–30) % 强化技能 使用几率",
+      "valueSpans": [
+        "+(22–30)"
+      ]
+    },
+    {
+      "modifierId": "140330101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "灵杖",
+      "effectPlain": "+1 智械召唤物数量上限 额外 +(6–8) % 召唤物伤害",
+      "valueSpans": [
+        "+1",
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "115330701",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "灵杖",
+      "effectPlain": "+3 召唤召唤物的技能等级",
+      "valueSpans": [
+        "+3"
+      ]
+    },
+    {
+      "modifierId": "115331201",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "灵杖",
+      "effectPlain": "召唤物 +(18–25) % 护甲减伤穿透",
+      "valueSpans": [
+        "+(18–25)"
+      ]
+    },
+    {
+      "modifierId": "130330001",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "灵杖",
+      "effectPlain": "+3 核心技能等级",
+      "valueSpans": [
+        "+3"
+      ]
+    },
+    {
+      "modifierId": "130330101",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "灵杖",
+      "effectPlain": "召唤物 +(22–30) % 元素和腐蚀抗性穿透",
+      "valueSpans": [
+        "+(22–30)"
+      ]
+    },
+    {
+      "modifierId": "107330001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "灵杖",
+      "effectPlain": "召唤物 +(77–108) % 物理伤害",
+      "valueSpans": [
+        "+(77–108)"
+      ]
+    },
+    {
+      "modifierId": "107330201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "灵杖",
+      "effectPlain": "+(77–108) % 召唤物元素伤害",
+      "valueSpans": [
+        "+(77–108)"
+      ]
+    },
+    {
+      "modifierId": "107330601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "灵杖",
+      "effectPlain": "+(77–108) % 召唤物腐蚀伤害",
+      "valueSpans": [
+        "+(77–108)"
+      ]
+    },
+    {
+      "modifierId": "110330001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "灵杖",
+      "effectPlain": "+(27–36) % 攻击与施法速度 +(27–36) % 召唤物攻击与施法速度",
+      "valueSpans": [
+        "+(27–36)",
+        "+(27–36)"
+      ]
+    },
+    {
+      "modifierId": "140330201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "灵杖",
+      "effectPlain": "每秒自然回复 (130–180) 生命",
+      "valueSpans": [
+        "(130–180)"
+      ]
+    },
+    {
+      "modifierId": "140330301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "灵杖",
+      "effectPlain": "+(18–24) % 护盾 充能 速度",
+      "valueSpans": [
+        "+(18–24)"
+      ]
+    },
+    {
+      "modifierId": "110330601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "灵杖",
+      "effectPlain": "+(127–180) % 召唤物暴击值",
+      "valueSpans": [
+        "+(127–180)"
+      ]
+    },
+    {
+      "modifierId": "140330401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "灵杖",
+      "effectPlain": "+(89–125) 召唤物暴击值",
+      "valueSpans": [
+        "+(89–125)"
+      ]
+    },
+    {
+      "modifierId": "140330501",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "灵杖",
+      "effectPlain": "+(51–72) % 召唤物技能范围",
+      "valueSpans": [
+        "+(51–72)"
+      ]
+    },
+    {
+      "modifierId": "110330701",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "灵杖",
+      "effectPlain": "+(106–150) % 召唤物暴击伤害",
+      "valueSpans": [
+        "+(106–150)"
+      ]
+    },
+    {
+      "modifierId": "116330801",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "灵杖",
+      "effectPlain": "额外 +(29–40) %魔灵 强化技能 伤害和 强化技能 造成的 异常伤害",
+      "valueSpans": [
+        "+(29–40)"
+      ]
+    },
+    {
+      "modifierId": "116330901",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "灵杖",
+      "effectPlain": "额外 +(43–60) % 魔灵 终极技能 伤害和 终极技能 造成的 异常伤害",
+      "valueSpans": [
+        "+(43–60)"
+      ]
+    },
+    {
+      "modifierId": "130330501",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "灵杖",
+      "effectPlain": "召唤物 +(29–40) % 几率造成双倍伤害",
+      "valueSpans": [
+        "+(29–40)"
+      ]
+    },
+    {
+      "modifierId": "140330601",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "灵杖",
+      "effectPlain": "至少拥有 40 点 统御值 时，智械召唤物额外 +(26–35) % 伤害",
+      "valueSpans": [
+        "40",
+        "+(26–35)"
+      ]
+    },
+    {
+      "modifierId": "85033001",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "灵杖",
+      "effectPlain": "召唤物附加 (10–13) - (14–19) 点物理伤害",
+      "valueSpans": [
+        "(10–13)",
+        "(14–19)"
+      ]
+    },
+    {
+      "modifierId": "85033011",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "灵杖",
+      "effectPlain": "召唤物附加 (9–14) - (15–20) 点火焰伤害",
+      "valueSpans": [
+        "(9–14)",
+        "(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85033021",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "灵杖",
+      "effectPlain": "召唤物附加 (10–13) - (14–19) 点冰冷伤害",
+      "valueSpans": [
+        "(10–13)",
+        "(14–19)"
+      ]
+    },
+    {
+      "modifierId": "85033031",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "灵杖",
+      "effectPlain": "召唤物附加 (1–2) - (28–32) 点闪电伤害",
+      "valueSpans": [
+        "(1–2)",
+        "(28–32)"
+      ]
+    },
+    {
+      "modifierId": "85033041",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "灵杖",
+      "effectPlain": "召唤物附加 (11–13) - (15–18) 点腐蚀伤害",
+      "valueSpans": [
+        "(11–13)",
+        "(15–18)"
+      ]
+    },
+    {
+      "modifierId": "85033051",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "灵杖",
+      "effectPlain": "+(15–20) 力量",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85033061",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "灵杖",
+      "effectPlain": "+(15–20) 敏捷",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85033071",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "灵杖",
+      "effectPlain": "+(15–20) 智慧",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85033081",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "灵杖",
+      "effectPlain": "+(20–24) % 召唤物伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85033091",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "灵杖",
+      "effectPlain": "+(6–8) % 召唤物攻击与施法速度",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "85033101",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "灵杖",
+      "effectPlain": "释放召唤技能时， +100 % 几率获得 1 层 坚韧祝福 ，间隔 1 秒",
+      "valueSpans": [
+        "+100",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "85033111",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "灵杖",
+      "effectPlain": "释放召唤技能时， +100 % 几率获得 1 层 聚能祝福 ，间隔 1 秒",
+      "valueSpans": [
+        "+100",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "85033121",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "灵杖",
+      "effectPlain": "额外 +(6–8) % 召唤物伤害",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "85033131",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "灵杖",
+      "effectPlain": "召唤物伤害穿透 (6–8) % 元素抗性",
+      "valueSpans": [
+        "(6–8)"
+      ]
+    },
+    {
+      "modifierId": "85033141",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "灵杖",
+      "effectPlain": "召唤物 +(5–7) % 护甲减伤穿透",
+      "valueSpans": [
+        "+(5–7)"
+      ]
+    },
+    {
+      "modifierId": "85033151",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "灵杖",
+      "effectPlain": "+1 聚能祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "160451033",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "灵杖",
+      "effectPlain": "额外 +8 % 召唤物伤害",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160452033",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "灵杖",
+      "effectPlain": "召唤物 +6 % 护甲减伤穿透",
+      "valueSpans": [
+        "+6"
+      ]
+    },
+    {
+      "modifierId": "160453033",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "灵杖",
+      "effectPlain": "召唤物 +8 % 火焰穿透",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160454033",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "灵杖",
+      "effectPlain": "召唤物 +8 % 冰冷穿透",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160455033",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "灵杖",
+      "effectPlain": "召唤物 +8 % 闪电穿透",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160456033",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "灵杖",
+      "effectPlain": "召唤物 +8 % 腐蚀穿透",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160457033",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "灵杖",
+      "effectPlain": "+16 % 召唤物攻击与施法速度",
+      "valueSpans": [
+        "+16"
+      ]
+    },
+    {
+      "modifierId": "160458033",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "灵杖",
+      "effectPlain": "+55 召唤物暴击值",
+      "valueSpans": [
+        "+55"
+      ]
+    },
+    {
+      "modifierId": "160459033",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "灵杖",
+      "effectPlain": "+40 % 召唤物暴击伤害",
+      "valueSpans": [
+        "+40"
+      ]
+    },
+    {
+      "modifierId": "160460033",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "灵杖",
+      "effectPlain": "+8 % 全属性",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160571033",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
+      "source": "灵杖",
+      "effectPlain": "魔灵 +80 初始 生长值",
+      "valueSpans": [
+        "+80"
+      ]
+    },
+    {
+      "modifierId": "160572033",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
+      "source": "灵杖",
+      "effectPlain": "每秒 统御值 增加 10 点",
+      "valueSpans": [
+        "10"
+      ]
+    },
+    {
+      "modifierId": "160573033",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 30,
+      "affixType": "高阶序列",
+      "source": "灵杖",
+      "effectPlain": "召唤物造成伤害时，触发 10 级 苦痛纠缠 诅咒和 胆怯 诅咒，冷却时间为 1 秒 召唤物可以施加 1 个额外诅咒",
+      "valueSpans": [
+        "10",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "160574033",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 30,
+      "affixType": "高阶序列",
+      "source": "灵杖",
+      "effectPlain": "核心技能被 25 级的仆从伤害辅助",
+      "valueSpans": [
+        "25"
+      ]
+    },
+    {
+      "modifierId": "160575033",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 60,
+      "affixType": "高阶序列",
+      "source": "灵杖",
+      "effectPlain": "-80 召唤物暴击值 +200 % 召唤物暴击伤害",
+      "valueSpans": [
+        "-80",
+        "+200"
+      ]
+    },
+    {
+      "modifierId": "160576033",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 60,
+      "affixType": "高阶序列",
+      "source": "灵杖",
+      "effectPlain": "+120 % 激进号令光环效果 额外 -20 % 激进号令 魔力封印 补偿",
+      "valueSpans": [
+        "+120",
+        "-20"
+      ]
+    },
+    {
+      "modifierId": "160577033",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
+      "source": "灵杖",
+      "effectPlain": "移动时，触发 20 级 黑暗之门 ，间隔 4 秒",
+      "valueSpans": [
+        "20",
+        "4"
+      ]
+    },
+    {
+      "modifierId": "160578033",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
+      "source": "灵杖",
+      "effectPlain": "召唤物造成伤害时，施加 火焰渗透 ，对每个敌人拥有 1 秒间隔时间 召唤物造成伤害时，施加 闪电渗透 ，对每个敌人拥有 1 秒间隔时间 召唤物造成伤害时，施加 冰冷渗透 ，对每个敌人拥有 1 秒间隔时间",
+      "valueSpans": [
+        "1",
+        "1",
+        "1"
+      ]
+    }
+  ],
+  "tierVariantGroups": [
+    {
+      "skeleton": "{#} % 召唤物伤害",
+      "rolls": [
+        {
+          "modifierId": "60063305",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "侵蚀基底",
+          "valueSpans": [
+            "+(20–30)"
+          ],
+          "effectPlain": "+(20–30) % 召唤物伤害"
+        },
+        {
+          "modifierId": "107330101",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "初阶前缀",
+          "valueSpans": [
+            "+(77–108)"
+          ],
+          "effectPlain": "+(77–108) % 召唤物伤害"
+        },
+        {
+          "modifierId": "1503308",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(20–24)"
+          ],
+          "effectPlain": "+(20–24) % 召唤物伤害"
+        },
+        {
+          "modifierId": "85033081",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(20–24)"
+          ],
+          "effectPlain": "+(20–24) % 召唤物伤害"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 召唤物攻击与施法速度",
+      "rolls": [
+        {
+          "modifierId": "160457033",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 100,
+          "affixType": "中阶序列",
+          "valueSpans": [
+            "+16"
+          ],
+          "effectPlain": "+16 % 召唤物攻击与施法速度"
+        },
+        {
+          "modifierId": "1503309",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(6–8)"
+          ],
+          "effectPlain": "+(6–8) % 召唤物攻击与施法速度"
+        },
+        {
+          "modifierId": "85033091",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(6–8)"
+          ],
+          "effectPlain": "+(6–8) % 召唤物攻击与施法速度"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 召唤物暴击伤害",
+      "rolls": [
+        {
+          "modifierId": "60063307",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "侵蚀基底",
+          "valueSpans": [
+            "+(25–32)"
+          ],
+          "effectPlain": "+(25–32) % 召唤物暴击伤害"
+        },
+        {
+          "modifierId": "110330701",
+          "tier": 1,
+          "itemLevel": 100,
+          "weight": 100,
+          "affixType": "至臻后缀",
+          "valueSpans": [
+            "+(106–150)"
+          ],
+          "effectPlain": "+(106–150) % 召唤物暴击伤害"
+        },
+        {
+          "modifierId": "160459033",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 100,
+          "affixType": "中阶序列",
+          "valueSpans": [
+            "+40"
+          ],
+          "effectPlain": "+40 % 召唤物暴击伤害"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 召唤物暴击值",
+      "rolls": [
+        {
+          "modifierId": "60063306",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "侵蚀基底",
+          "valueSpans": [
+            "+(30–40)"
+          ],
+          "effectPlain": "+(30–40) % 召唤物暴击值"
+        },
+        {
+          "modifierId": "110330601",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "进阶后缀",
+          "valueSpans": [
+            "+(127–180)"
+          ],
+          "effectPlain": "+(127–180) % 召唤物暴击值"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} 力量",
+      "rolls": [
+        {
+          "modifierId": "109330301",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "进阶前缀",
+          "valueSpans": [
+            "+(64–90)"
+          ],
+          "effectPlain": "+(64–90) 力量"
+        },
+        {
+          "modifierId": "1503305",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(15–20)"
+          ],
+          "effectPlain": "+(15–20) 力量"
+        },
+        {
+          "modifierId": "85033051",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(15–20)"
+          ],
+          "effectPlain": "+(15–20) 力量"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} 召唤物暴击值",
+      "rolls": [
+        {
+          "modifierId": "140330401",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "进阶后缀",
+          "valueSpans": [
+            "+(89–125)"
+          ],
+          "effectPlain": "+(89–125) 召唤物暴击值"
+        },
+        {
+          "modifierId": "160458033",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 100,
+          "affixType": "中阶序列",
+          "valueSpans": [
+            "+55"
+          ],
+          "effectPlain": "+55 召唤物暴击值"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} 敏捷",
+      "rolls": [
+        {
+          "modifierId": "109330401",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "进阶前缀",
+          "valueSpans": [
+            "+(64–90)"
+          ],
+          "effectPlain": "+(64–90) 敏捷"
+        },
+        {
+          "modifierId": "1503306",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(15–20)"
+          ],
+          "effectPlain": "+(15–20) 敏捷"
+        },
+        {
+          "modifierId": "85033061",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(15–20)"
+          ],
+          "effectPlain": "+(15–20) 敏捷"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} 智慧",
+      "rolls": [
+        {
+          "modifierId": "109330001",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "进阶前缀",
+          "valueSpans": [
+            "+(64–90)"
+          ],
+          "effectPlain": "+(64–90) 智慧"
+        },
+        {
+          "modifierId": "1503307",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(15–20)"
+          ],
+          "effectPlain": "+(15–20) 智慧"
+        },
+        {
+          "modifierId": "85033071",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(15–20)"
+          ],
+          "effectPlain": "+(15–20) 智慧"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} 聚能祝福 层数上限",
+      "rolls": [
+        {
+          "modifierId": "1503315",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+1"
+          ],
+          "effectPlain": "+1 聚能祝福 层数上限"
+        },
+        {
+          "modifierId": "85033151",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+1"
+          ],
+          "effectPlain": "+1 聚能祝福 层数上限"
+        }
+      ]
+    },
+    {
+      "skeleton": "召唤物 {#} % 元素和腐蚀抗性穿透",
+      "rolls": [
+        {
+          "modifierId": "60063303",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "侵蚀基底",
+          "valueSpans": [
+            "+(5–8)"
+          ],
+          "effectPlain": "召唤物 +(5–8) % 元素和腐蚀抗性穿透"
+        },
+        {
+          "modifierId": "130330101",
+          "tier": 1,
+          "itemLevel": 100,
+          "weight": 100,
+          "affixType": "至臻前缀",
+          "valueSpans": [
+            "+(22–30)"
+          ],
+          "effectPlain": "召唤物 +(22–30) % 元素和腐蚀抗性穿透"
+        }
+      ]
+    },
+    {
+      "skeleton": "召唤物 {#} % 护甲减伤穿透",
+      "rolls": [
+        {
+          "modifierId": "115331201",
+          "tier": 1,
+          "itemLevel": 100,
+          "weight": 100,
+          "affixType": "至臻前缀",
+          "valueSpans": [
+            "+(18–25)"
+          ],
+          "effectPlain": "召唤物 +(18–25) % 护甲减伤穿透"
+        },
+        {
+          "modifierId": "1503314",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(5–7)"
+          ],
+          "effectPlain": "召唤物 +(5–7) % 护甲减伤穿透"
+        },
+        {
+          "modifierId": "160452033",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 100,
+          "affixType": "中阶序列",
+          "valueSpans": [
+            "+6"
+          ],
+          "effectPlain": "召唤物 +6 % 护甲减伤穿透"
+        },
+        {
+          "modifierId": "85033141",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(5–7)"
+          ],
+          "effectPlain": "召唤物 +(5–7) % 护甲减伤穿透"
+        }
+      ]
+    },
+    {
+      "skeleton": "召唤物伤害穿透 {#} % 元素抗性",
+      "rolls": [
+        {
+          "modifierId": "1503313",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "(6–8)"
+          ],
+          "effectPlain": "召唤物伤害穿透 (6–8) % 元素抗性"
+        },
+        {
+          "modifierId": "85033131",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "(6–8)"
+          ],
+          "effectPlain": "召唤物伤害穿透 (6–8) % 元素抗性"
+        }
+      ]
+    },
+    {
+      "skeleton": "召唤物附加 {#} - {#} 点冰冷伤害",
+      "rolls": [
+        {
+          "modifierId": "106330101",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "初阶前缀",
+          "valueSpans": [
+            "(64–66)",
+            "(85–87)"
+          ],
+          "effectPlain": "召唤物附加 (64–66) - (85–87) 点冰冷伤害"
+        },
+        {
+          "modifierId": "1503302",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "(10–13)",
+            "(14–19)"
+          ],
+          "effectPlain": "召唤物附加 (10–13) - (14–19) 点冰冷伤害"
+        },
+        {
+          "modifierId": "85033021",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "(10–13)",
+            "(14–19)"
+          ],
+          "effectPlain": "召唤物附加 (10–13) - (14–19) 点冰冷伤害"
+        }
+      ]
+    },
+    {
+      "skeleton": "召唤物附加 {#} - {#} 点火焰伤害",
+      "rolls": [
+        {
+          "modifierId": "106330001",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "初阶前缀",
+          "valueSpans": [
+            "(63–65)",
+            "(82–87)"
+          ],
+          "effectPlain": "召唤物附加 (63–65) - (82–87) 点火焰伤害"
+        },
+        {
+          "modifierId": "1503301",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "(9–14)",
+            "(15–20)"
+          ],
+          "effectPlain": "召唤物附加 (9–14) - (15–20) 点火焰伤害"
+        },
+        {
+          "modifierId": "85033011",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "(9–14)",
+            "(15–20)"
+          ],
+          "effectPlain": "召唤物附加 (9–14) - (15–20) 点火焰伤害"
+        }
+      ]
+    },
+    {
+      "skeleton": "召唤物附加 {#} - {#} 点物理伤害",
+      "rolls": [
+        {
+          "modifierId": "140330701",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "初阶前缀",
+          "valueSpans": [
+            "(67–69)",
+            "(82–84)"
+          ],
+          "effectPlain": "召唤物附加 (67–69) - (82–84) 点物理伤害"
+        },
+        {
+          "modifierId": "1503300",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "(10–13)",
+            "(14–19)"
+          ],
+          "effectPlain": "召唤物附加 (10–13) - (14–19) 点物理伤害"
+        },
+        {
+          "modifierId": "85033001",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "(10–13)",
+            "(14–19)"
+          ],
+          "effectPlain": "召唤物附加 (10–13) - (14–19) 点物理伤害"
+        }
+      ]
+    },
+    {
+      "skeleton": "召唤物附加 {#} - {#} 点腐蚀伤害",
+      "rolls": [
+        {
+          "modifierId": "106330301",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "初阶前缀",
+          "valueSpans": [
+            "(67–69)",
+            "(82–84)"
+          ],
+          "effectPlain": "召唤物附加 (67–69) - (82–84) 点腐蚀伤害"
+        },
+        {
+          "modifierId": "1503304",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "(11–13)",
+            "(15–18)"
+          ],
+          "effectPlain": "召唤物附加 (11–13) - (15–18) 点腐蚀伤害"
+        },
+        {
+          "modifierId": "85033041",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "(11–13)",
+            "(15–18)"
+          ],
+          "effectPlain": "召唤物附加 (11–13) - (15–18) 点腐蚀伤害"
+        }
+      ]
+    },
+    {
+      "skeleton": "召唤物附加 {#} - {#} 点闪电伤害",
+      "rolls": [
+        {
+          "modifierId": "106330201",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "初阶前缀",
+          "valueSpans": [
+            "(7–9)",
+            "(142–144)"
+          ],
+          "effectPlain": "召唤物附加 (7–9) - (142–144) 点闪电伤害"
+        },
+        {
+          "modifierId": "1503303",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "(1–2)",
+            "(28–32)"
+          ],
+          "effectPlain": "召唤物附加 (1–2) - (28–32) 点闪电伤害"
+        },
+        {
+          "modifierId": "85033031",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "(1–2)",
+            "(28–32)"
+          ],
+          "effectPlain": "召唤物附加 (1–2) - (28–32) 点闪电伤害"
+        }
+      ]
+    },
+    {
+      "skeleton": "释放召唤技能时， {#} % 几率获得 {#} 层 坚韧祝福 ，间隔 1 秒",
+      "rolls": [
+        {
+          "modifierId": "1503310",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+100",
+            "1"
+          ],
+          "effectPlain": "释放召唤技能时， +100 % 几率获得 1 层 坚韧祝福 ，间隔 1 秒"
+        },
+        {
+          "modifierId": "85033101",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+100",
+            "1"
+          ],
+          "effectPlain": "释放召唤技能时， +100 % 几率获得 1 层 坚韧祝福 ，间隔 1 秒"
+        }
+      ]
+    },
+    {
+      "skeleton": "释放召唤技能时， {#} % 几率获得 {#} 层 聚能祝福 ，间隔 1 秒",
+      "rolls": [
+        {
+          "modifierId": "1503311",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+100",
+            "1"
+          ],
+          "effectPlain": "释放召唤技能时， +100 % 几率获得 1 层 聚能祝福 ，间隔 1 秒"
+        },
+        {
+          "modifierId": "85033111",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+100",
+            "1"
+          ],
+          "effectPlain": "释放召唤技能时， +100 % 几率获得 1 层 聚能祝福 ，间隔 1 秒"
+        }
+      ]
+    },
+    {
+      "skeleton": "额外 {#} % 召唤物伤害",
+      "rolls": [
+        {
+          "modifierId": "1503312",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(6–8)"
+          ],
+          "effectPlain": "额外 +(6–8) % 召唤物伤害"
+        },
+        {
+          "modifierId": "160451033",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 100,
+          "affixType": "中阶序列",
+          "valueSpans": [
+            "+8"
+          ],
+          "effectPlain": "额外 +8 % 召唤物伤害"
+        },
+        {
+          "modifierId": "85033121",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(6–8)"
+          ],
+          "effectPlain": "额外 +(6–8) % 召唤物伤害"
+        }
+      ]
+    }
+  ],
+  "tierVariantGroupCount": 20
+}

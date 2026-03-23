@@ -26,6 +26,16 @@ const routes: RouteRecordRaw[] = [
     path: '/hero',
     name: 'Hero',
     component: () => import('@/views/Hero.vue')
+  },
+  {
+    path: '/pactspirit',
+    name: 'Pactspirit',
+    component: () => import('@/views/Pactspirit.vue')
+  },
+  {
+    path: '/hero-memories',
+    name: 'HeroMemories',
+    component: () => import('@/views/HeroMemories.vue')
   }
 ]
 

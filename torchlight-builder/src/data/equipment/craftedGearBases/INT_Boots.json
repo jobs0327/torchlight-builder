@@ -1,0 +1,118 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "INT_Boots",
+  "categoryLabel": "INT Boots",
+  "sourceUrl": "https://tlidb.com/cn/INT_Boots",
+  "fetchedAt": "2026-03-22T11:44:02Z",
+  "baseCount": 12,
+  "bases": [
+    {
+      "id": "Herbalist's_Footguards",
+      "name": "草药师护足",
+      "iconUrl": "/assets/equipment/crafted-bases/Herbalist_s_Footguards.webp",
+      "iconAlt": "IconEquipShoesIntNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Int_Norm_001_128.webp"
+    },
+    {
+      "id": "Scribe's_Boots",
+      "name": "抄写员的鞋子",
+      "iconUrl": "/assets/equipment/crafted-bases/Scribe_s_Boots.webp",
+      "iconAlt": "IconEquipShoesIntNorm002128",
+      "requiredLevel": 1,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Int_Norm_002_128.webp"
+    },
+    {
+      "id": "Acolyte's_Footwraps",
+      "name": "吟游者足履",
+      "iconUrl": "/assets/equipment/crafted-bases/Acolyte_s_Footwraps.webp",
+      "iconAlt": "IconEquipShoesIntNorm003128",
+      "requiredLevel": 9,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Int_Norm_003_128.webp"
+    },
+    {
+      "id": "Witchdoctor's_Slippers",
+      "name": "巫医便鞋",
+      "iconUrl": "/assets/equipment/crafted-bases/Witchdoctor_s_Slippers.webp",
+      "iconAlt": "IconEquipShoesIntNorm004128",
+      "requiredLevel": 24,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Int_Norm_004_128.webp"
+    },
+    {
+      "id": "Disciple's_Cloth_Boots",
+      "name": "学徒布靴",
+      "iconUrl": "/assets/equipment/crafted-bases/Disciple_s_Cloth_Boots.webp",
+      "iconAlt": "IconEquipShoesIntNorm00101128",
+      "requiredLevel": 39,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Int_Norm_001_01_128.webp"
+    },
+    {
+      "id": "Shaman's_Slippers",
+      "name": "萨满便鞋",
+      "iconUrl": "/assets/equipment/crafted-bases/Shaman_s_Slippers.webp",
+      "iconAlt": "IconEquipShoesIntNorm00201128",
+      "requiredLevel": 52,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Int_Norm_002_01_128.webp"
+    },
+    {
+      "id": "Envoy's_Soft_Shoes",
+      "name": "神使软靴",
+      "iconUrl": "/assets/equipment/crafted-bases/Envoy_s_Soft_Shoes.webp",
+      "iconAlt": "IconEquipShoesIntNorm00301128",
+      "requiredLevel": 57,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Int_Norm_003_01_128.webp"
+    },
+    {
+      "id": "Respected_Tutor's_Footwraps",
+      "name": "尊师足履",
+      "iconUrl": "/assets/equipment/crafted-bases/Respected_Tutor_s_Footwraps.webp",
+      "iconAlt": "IconEquipShoesIntNorm00401128",
+      "requiredLevel": 62,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Int_Norm_004_01_128.webp"
+    },
+    {
+      "id": "Elder_Sage's_Treads",
+      "name": "大贤者足靴",
+      "iconUrl": "/assets/equipment/crafted-bases/Elder_Sage_s_Treads.webp",
+      "iconAlt": "IconEquipShoesIntNorm00102128",
+      "requiredLevel": 66,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Int_Norm_001_02_128.webp"
+    },
+    {
+      "id": "Imperishable_Feet",
+      "name": "不灭者之足",
+      "iconUrl": "/assets/equipment/crafted-bases/Imperishable_Feet.webp",
+      "iconAlt": "IconEquipShoesIntNorm00202128",
+      "requiredLevel": 70,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Int_Norm_002_02_128.webp"
+    },
+    {
+      "id": "All_Magic_Shoes",
+      "name": "万法之足履",
+      "iconUrl": "/assets/equipment/crafted-bases/All_Magic_Shoes.webp",
+      "iconAlt": "IconEquipShoesIntNorm00302128",
+      "requiredLevel": 76,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Int_Norm_003_02_128.webp"
+    },
+    {
+      "id": "Long_Night_Sorcerer's_Boots",
+      "name": "长夜巫王魔靴",
+      "iconUrl": "/assets/equipment/crafted-bases/Long_Night_Sorcerer_s_Boots.webp",
+      "iconAlt": "IconEquipShoesIntNorm00402128",
+      "requiredLevel": 82,
+      "slotKind": "脚部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Shoes/128/Icon_Equip_Shoes_Int_Norm_004_02_128.webp"
+    }
+  ]
+}

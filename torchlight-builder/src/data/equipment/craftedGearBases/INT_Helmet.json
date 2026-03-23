@@ -1,0 +1,118 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "INT_Helmet",
+  "categoryLabel": "INT Helmet",
+  "sourceUrl": "https://tlidb.com/cn/INT_Helmet",
+  "fetchedAt": "2026-03-22T11:43:08Z",
+  "baseCount": 12,
+  "bases": [
+    {
+      "id": "Herbalist's_Headscarf",
+      "name": "草药师头巾",
+      "iconUrl": "/assets/equipment/crafted-bases/Herbalist_s_Headscarf.webp",
+      "iconAlt": "IconEquipHelmetIntNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Int_Norm_001_128.webp"
+    },
+    {
+      "id": "Scribe's_Headscarf",
+      "name": "抄写员头巾",
+      "iconUrl": "/assets/equipment/crafted-bases/Scribe_s_Headscarf.webp",
+      "iconAlt": "IconEquipHelmetIntNorm002128",
+      "requiredLevel": 1,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Int_Norm_002_128.webp"
+    },
+    {
+      "id": "Acolyte's_Crown",
+      "name": "吟游者头冠",
+      "iconUrl": "/assets/equipment/crafted-bases/Acolyte_s_Crown.webp",
+      "iconAlt": "IconEquipHelmetIntNorm003128",
+      "requiredLevel": 9,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Int_Norm_003_128.webp"
+    },
+    {
+      "id": "Witchdoctor's_Mask",
+      "name": "巫医面具",
+      "iconUrl": "/assets/equipment/crafted-bases/Witchdoctor_s_Mask.webp",
+      "iconAlt": "IconEquipHelmetIntNorm004128",
+      "requiredLevel": 24,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Int_Norm_004_128.webp"
+    },
+    {
+      "id": "Disciple's_Headscarf",
+      "name": "学徒头巾",
+      "iconUrl": "/assets/equipment/crafted-bases/Disciple_s_Headscarf.webp",
+      "iconAlt": "IconEquipHelmetIntNorm00101128",
+      "requiredLevel": 39,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Int_Norm_001_01_128.webp"
+    },
+    {
+      "id": "Shaman's_Headdress",
+      "name": "萨满头饰",
+      "iconUrl": "/assets/equipment/crafted-bases/Shaman_s_Headdress.webp",
+      "iconAlt": "IconEquipHelmetIntNorm00201128",
+      "requiredLevel": 52,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Int_Norm_002_01_128.webp"
+    },
+    {
+      "id": "Envoy's_Mask",
+      "name": "神使面具",
+      "iconUrl": "/assets/equipment/crafted-bases/Envoy_s_Mask.webp",
+      "iconAlt": "IconEquipHelmetIntNorm00301128",
+      "requiredLevel": 57,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Int_Norm_003_01_128.webp"
+    },
+    {
+      "id": "Respected_Tutor's_Face",
+      "name": "尊师之面",
+      "iconUrl": "/assets/equipment/crafted-bases/Respected_Tutor_s_Face.webp",
+      "iconAlt": "IconEquipHelmetIntNorm00401128",
+      "requiredLevel": 62,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Int_Norm_004_01_128.webp"
+    },
+    {
+      "id": "Elder_Sage's_Chapeau",
+      "name": "大贤者之冠",
+      "iconUrl": "/assets/equipment/crafted-bases/Elder_Sage_s_Chapeau.webp",
+      "iconAlt": "IconEquipHelmetIntNorm00102128",
+      "requiredLevel": 66,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Int_Norm_001_02_128.webp"
+    },
+    {
+      "id": "Imperishable_Miter",
+      "name": "不灭者法冠",
+      "iconUrl": "/assets/equipment/crafted-bases/Imperishable_Miter.webp",
+      "iconAlt": "IconEquipHelmetIntNorm00202128",
+      "requiredLevel": 70,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Int_Norm_002_02_128.webp"
+    },
+    {
+      "id": "All_Magic_Crown",
+      "name": "万法之宝冠",
+      "iconUrl": "/assets/equipment/crafted-bases/All_Magic_Crown.webp",
+      "iconAlt": "IconEquipHelmetIntNorm00302128",
+      "requiredLevel": 76,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Int_Norm_003_02_128.webp"
+    },
+    {
+      "id": "Long_Night_Sorcerer's_Mask",
+      "name": "长夜巫王假面",
+      "iconUrl": "/assets/equipment/crafted-bases/Long_Night_Sorcerer_s_Mask.webp",
+      "iconAlt": "IconEquipHelmetIntNorm00402128",
+      "requiredLevel": 82,
+      "slotKind": "头部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Helmet/128/Icon_Equip_Helmet_Int_Norm_004_02_128.webp"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "One-Handed_Sword",
+  "categoryLabel": "One-Handed Sword",
+  "sourceUrl": "https://tlidb.com/cn/One-Handed_Sword",
+  "fetchedAt": "2026-03-22T11:44:18Z",
+  "baseCount": 20,
+  "bases": [
+    {
+      "id": "Rusted_Bronze_Sword",
+      "name": "锈斑铜剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Rusted_Bronze_Sword.webp",
+      "iconAlt": "IconEquipWeapon1HSwordNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HSword_Norm_001_128.webp"
+    },
+    {
+      "id": "Crude_Iron_Sword",
+      "name": "粗制铁剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Crude_Iron_Sword.webp",
+      "iconAlt": "IconEquipWeapon1HSwordNorm002128",
+      "requiredLevel": 2,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HSword_Norm_002_128.webp"
+    },
+    {
+      "id": "Recruit's_Saber",
+      "name": "新兵军刀",
+      "iconUrl": "/assets/equipment/crafted-bases/Recruit_s_Saber.webp",
+      "iconAlt": "IconEquipWeapon1HSwordNorm003128",
+      "requiredLevel": 4,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HSword_Norm_003_128.webp"
+    },
+    {
+      "id": "Iron_Sword",
+      "name": "精铁剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Iron_Sword.webp",
+      "iconAlt": "IconEquipWeapon1HSwordNorm004128",
+      "requiredLevel": 9,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HSword_Norm_004_128.webp"
+    },
+    {
+      "id": "Thorny_Sword",
+      "name": "荆棘之剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Thorny_Sword.webp",
+      "iconAlt": "IconEquipWeapon1HSwordNorm005128",
+      "requiredLevel": 14,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HSword_Norm_005_128.webp"
+    },
+    {
+      "id": "Battlefield_Longsword",
+      "name": "战场长剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Battlefield_Longsword.webp",
+      "iconAlt": "IconEquipWeapon1HSwordNorm001128",
+      "requiredLevel": 19,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HSword_Norm_001_128.webp"
+    },
+    {
+      "id": "Redgold_Sword",
+      "name": "赤金之剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Redgold_Sword.webp",
+      "iconAlt": "IconEquipWeapon1HSwordNorm002128",
+      "requiredLevel": 24,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HSword_Norm_002_128.webp"
+    },
+    {
+      "id": "Cold_Blade",
+      "name": "冰冷利刃",
+      "iconUrl": "/assets/equipment/crafted-bases/Cold_Blade.webp",
+      "iconAlt": "IconEquipWeapon1HSwordNorm003128",
+      "requiredLevel": 29,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HSword_Norm_003_128.webp"
+    },
+    {
+      "id": "Talon_Sword",
+      "name": "刺爪之剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Talon_Sword.webp",
+      "iconAlt": "IconEquipWeapon1HSwordNorm004128",
+      "requiredLevel": 34,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HSword_Norm_004_128.webp"
+    },
+    {
+      "id": "Hurricane_Short_Sword",
+      "name": "飓风短剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Hurricane_Short_Sword.webp",
+      "iconAlt": "IconEquipWeapon1HSwordNorm005128",
+      "requiredLevel": 39,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HSword_Norm_005_128.webp"
+    },
+    {
+      "id": "Blizzard_Sword",
+      "name": "风雪之剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Blizzard_Sword.webp",
+      "iconAlt": "IconEquipWeapon1HSwordNorm001128",
+      "requiredLevel": 44,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HSword_Norm_001_128.webp"
+    },
+    {
+      "id": "Coldlight_Sword",
+      "name": "寒光利剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Coldlight_Sword.webp",
+      "iconAlt": "IconEquipWeapon1HSwordNorm002128",
+      "requiredLevel": 49,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HSword_Norm_002_128.webp"
+    },
+    {
+      "id": "Hero's_Longsword",
+      "name": "勇者长剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Hero_s_Longsword.webp",
+      "iconAlt": "IconEquipWeapon1HSwordNorm003128",
+      "requiredLevel": 54,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HSword_Norm_003_128.webp"
+    },
+    {
+      "id": "Gilt_Longsword",
+      "name": "鎏金长剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Gilt_Longsword.webp",
+      "iconAlt": "IconEquipWeapon1HSwordNorm004128",
+      "requiredLevel": 59,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HSword_Norm_004_128.webp"
+    },
+    {
+      "id": "Bone_Stinger_Sword",
+      "name": "刺骨之剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Bone_Stinger_Sword.webp",
+      "iconAlt": "IconEquipWeapon1HSwordNorm005128",
+      "requiredLevel": 64,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HSword_Norm_005_128.webp"
+    },
+    {
+      "id": "Moonlight_Long_Blade",
+      "name": "月光长刀",
+      "iconUrl": "/assets/equipment/crafted-bases/Moonlight_Long_Blade.webp",
+      "iconAlt": "IconEquipWeapon1HSwordNorm001128",
+      "requiredLevel": 68,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HSword_Norm_001_128.webp"
+    },
+    {
+      "id": "Nameless_Sword",
+      "name": "未名之剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Nameless_Sword.webp",
+      "iconAlt": "IconEquipWeapon1HSwordNorm005128",
+      "requiredLevel": 72,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HSword_Norm_005_128.webp"
+    },
+    {
+      "id": "Forgotten_Iron_Sword",
+      "name": "被遗忘的铁剑",
+      "iconUrl": "/assets/equipment/crafted-bases/Forgotten_Iron_Sword.webp",
+      "iconAlt": "IconEquipWeapon1HSwordNorm001128",
+      "requiredLevel": 82,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HSword_Norm_001_128.webp"
+    },
+    {
+      "id": "Unforgotten_Long_Blade",
+      "name": "被铭记的长刀",
+      "iconUrl": "/assets/equipment/crafted-bases/Unforgotten_Long_Blade.webp",
+      "iconAlt": "IconEquipWeapon1HSwordNorm001128",
+      "requiredLevel": 84,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HSword_Norm_001_128.webp"
+    },
+    {
+      "id": "Shadowless_Swordsman's_Blade",
+      "name": "无影剑士的名刀",
+      "iconUrl": "/assets/equipment/crafted-bases/Shadowless_Swordsman_s_Blade.webp",
+      "iconAlt": "IconEquipWeapon1HSwordNorm001128",
+      "requiredLevel": 86,
+      "slotKind": "单手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_1HSword_Norm_001_128.webp"
+    }
+  ]
+}

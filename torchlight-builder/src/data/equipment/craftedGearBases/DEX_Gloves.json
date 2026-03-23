@@ -1,0 +1,118 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "DEX_Gloves",
+  "categoryLabel": "DEX Gloves",
+  "sourceUrl": "https://tlidb.com/cn/DEX_Gloves",
+  "fetchedAt": "2026-03-22T11:43:39Z",
+  "baseCount": 12,
+  "bases": [
+    {
+      "id": "Rogue's_Gloves",
+      "name": "游荡者手套",
+      "iconUrl": "/assets/equipment/crafted-bases/Rogue_s_Gloves.webp",
+      "iconAlt": "IconEquipGlovesAgiNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Agi_Norm_001_128.webp"
+    },
+    {
+      "id": "Scout's_Gloves",
+      "name": "斥候手套",
+      "iconUrl": "/assets/equipment/crafted-bases/Scout_s_Gloves.webp",
+      "iconAlt": "IconEquipGlovesAgiNorm002128",
+      "requiredLevel": 1,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Agi_Norm_002_128.webp"
+    },
+    {
+      "id": "Skirmisher's_Gloves",
+      "name": "散兵手套",
+      "iconUrl": "/assets/equipment/crafted-bases/Skirmisher_s_Gloves.webp",
+      "iconAlt": "IconEquipGlovesAgiNorm003128",
+      "requiredLevel": 9,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Agi_Norm_003_128.webp"
+    },
+    {
+      "id": "Hunter's_Gloves",
+      "name": "猎手手套",
+      "iconUrl": "/assets/equipment/crafted-bases/Hunter_s_Gloves.webp",
+      "iconAlt": "IconEquipGlovesAgiNorm004128",
+      "requiredLevel": 24,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Agi_Norm_004_128.webp"
+    },
+    {
+      "id": "Prospector_Handguards",
+      "name": "勘探者护手",
+      "iconUrl": "/assets/equipment/crafted-bases/Prospector_Handguards.webp",
+      "iconAlt": "IconEquipGlovesAgiNorm00101128",
+      "requiredLevel": 39,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Agi_Norm_001_01_128.webp"
+    },
+    {
+      "id": "Wild_Dominator_Handguards",
+      "name": "荒野主宰护手",
+      "iconUrl": "/assets/equipment/crafted-bases/Wild_Dominator_Handguards.webp",
+      "iconAlt": "IconEquipGlovesAgiNorm00201128",
+      "requiredLevel": 52,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Agi_Norm_002_01_128.webp"
+    },
+    {
+      "id": "Grand_Explorer's_Gloves",
+      "name": "大探险家手套",
+      "iconUrl": "/assets/equipment/crafted-bases/Grand_Explorer_s_Gloves.webp",
+      "iconAlt": "IconEquipGlovesAgiNorm00301128",
+      "requiredLevel": 57,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Agi_Norm_003_01_128.webp"
+    },
+    {
+      "id": "Watcher's_Hold",
+      "name": "监视者之握",
+      "iconUrl": "/assets/equipment/crafted-bases/Watcher_s_Hold.webp",
+      "iconAlt": "IconEquipGlovesAgiNorm00401128",
+      "requiredLevel": 62,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Agi_Norm_004_01_128.webp"
+    },
+    {
+      "id": "Eternal_Night_Stalker's_Hands",
+      "name": "永夜追猎者之手",
+      "iconUrl": "/assets/equipment/crafted-bases/Eternal_Night_Stalker_s_Hands.webp",
+      "iconAlt": "IconEquipGlovesAgiNorm00102128",
+      "requiredLevel": 66,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Agi_Norm_001_02_128.webp"
+    },
+    {
+      "id": "Hands_of_Calamity",
+      "name": "灾厄之手",
+      "iconUrl": "/assets/equipment/crafted-bases/Hands_of_Calamity.webp",
+      "iconAlt": "IconEquipGlovesAgiNorm00202128",
+      "requiredLevel": 70,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Agi_Norm_002_02_128.webp"
+    },
+    {
+      "id": "Demon_Slayer's_Hands",
+      "name": "除魔者之手",
+      "iconUrl": "/assets/equipment/crafted-bases/Demon_Slayer_s_Hands.webp",
+      "iconAlt": "IconEquipGlovesAgiNorm00302128",
+      "requiredLevel": 76,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Agi_Norm_003_02_128.webp"
+    },
+    {
+      "id": "Secret_Shadow's_Wrists",
+      "name": "秘影手腕",
+      "iconUrl": "/assets/equipment/crafted-bases/Secret_Shadow_s_Wrists.webp",
+      "iconAlt": "IconEquipGlovesAgiNorm00402128",
+      "requiredLevel": 82,
+      "slotKind": "手部",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Gloves/128/Icon_Equip_Gloves_Agi_Norm_004_02_128.webp"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "Fire_Cannon",
+  "categoryLabel": "Fire Canon",
+  "sourceUrl": "https://tlidb.com/cn/Fire_Cannon",
+  "fetchedAt": "2026-03-22T11:45:51Z",
+  "baseCount": 20,
+  "bases": [
+    {
+      "id": "Witherbark_Cannon",
+      "name": "枯木重炮",
+      "iconUrl": "/assets/equipment/crafted-bases/Witherbark_Cannon.webp",
+      "iconAlt": "IconEquipWeaponCannonNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_001_128.webp"
+    },
+    {
+      "id": "Rusted_Blaster",
+      "name": "锈斑巨炮",
+      "iconUrl": "/assets/equipment/crafted-bases/Rusted_Blaster.webp",
+      "iconAlt": "IconEquipWeaponCannonNorm002128",
+      "requiredLevel": 2,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_002_128.webp"
+    },
+    {
+      "id": "Black_Iron_Cannon",
+      "name": "黑铁重炮",
+      "iconUrl": "/assets/equipment/crafted-bases/Black_Iron_Cannon.webp",
+      "iconAlt": "IconEquipWeaponCannonNorm003128",
+      "requiredLevel": 4,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_003_128.webp"
+    },
+    {
+      "id": "Iron_Cannon",
+      "name": "精铁炮",
+      "iconUrl": "/assets/equipment/crafted-bases/Iron_Cannon.webp",
+      "iconAlt": "IconEquipWeaponCannonNorm004128",
+      "requiredLevel": 9,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_004_128.webp"
+    },
+    {
+      "id": "Wolf_Hunter's_Cannon",
+      "name": "猎狼重炮",
+      "iconUrl": "/assets/equipment/crafted-bases/Wolf_Hunter_s_Cannon.webp",
+      "iconAlt": "IconEquipWeaponCannonNorm005128",
+      "requiredLevel": 14,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_005_128.webp"
+    },
+    {
+      "id": "Starmetal_Cannon",
+      "name": "星铁重炮",
+      "iconUrl": "/assets/equipment/crafted-bases/Starmetal_Cannon.webp",
+      "iconAlt": "IconEquipWeaponCannonNorm001128",
+      "requiredLevel": 19,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_001_128.webp"
+    },
+    {
+      "id": "Unholy_Blaster",
+      "name": "污秽巨炮",
+      "iconUrl": "/assets/equipment/crafted-bases/Unholy_Blaster.webp",
+      "iconAlt": "IconEquipWeaponCannonNorm002128",
+      "requiredLevel": 24,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_002_128.webp"
+    },
+    {
+      "id": "Warden's_Blaster",
+      "name": "狱卒巨炮",
+      "iconUrl": "/assets/equipment/crafted-bases/Warden_s_Blaster.webp",
+      "iconAlt": "IconEquipWeaponCannonNorm003128",
+      "requiredLevel": 29,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_003_128.webp"
+    },
+    {
+      "id": "Griffin_Blaster",
+      "name": "狮鹫巨炮",
+      "iconUrl": "/assets/equipment/crafted-bases/Griffin_Blaster.webp",
+      "iconAlt": "IconEquipWeaponCannonNorm004128",
+      "requiredLevel": 34,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_004_128.webp"
+    },
+    {
+      "id": "Blazing_Cannon",
+      "name": "炙热重炮",
+      "iconUrl": "/assets/equipment/crafted-bases/Blazing_Cannon.webp",
+      "iconAlt": "IconEquipWeaponCannonNorm005128",
+      "requiredLevel": 39,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_005_128.webp"
+    },
+    {
+      "id": "Unyielding_Cannon",
+      "name": "不屈重炮",
+      "iconUrl": "/assets/equipment/crafted-bases/Unyielding_Cannon.webp",
+      "iconAlt": "IconEquipWeaponCannonNorm001128",
+      "requiredLevel": 44,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_001_128.webp"
+    },
+    {
+      "id": "Wailing_Blaster",
+      "name": "哀鸣巨炮",
+      "iconUrl": "/assets/equipment/crafted-bases/Wailing_Blaster.webp",
+      "iconAlt": "IconEquipWeaponCannonNorm002128",
+      "requiredLevel": 49,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_002_128.webp"
+    },
+    {
+      "id": "Abyssal_Blaster",
+      "name": "深渊巨炮",
+      "iconUrl": "/assets/equipment/crafted-bases/Abyssal_Blaster.webp",
+      "iconAlt": "IconEquipWeaponCannonNorm003128",
+      "requiredLevel": 54,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_003_128.webp"
+    },
+    {
+      "id": "Monarch's_Cannon",
+      "name": "君主重炮",
+      "iconUrl": "/assets/equipment/crafted-bases/Monarch_s_Cannon.webp",
+      "iconAlt": "IconEquipWeaponCannonNorm004128",
+      "requiredLevel": 59,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_004_128.webp"
+    },
+    {
+      "id": "Solar_Flame_Cannon",
+      "name": "阳炎重炮",
+      "iconUrl": "/assets/equipment/crafted-bases/Solar_Flame_Cannon.webp",
+      "iconAlt": "IconEquipWeaponCannonNorm005128",
+      "requiredLevel": 64,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_005_128.webp"
+    },
+    {
+      "id": "Viking_Blaster",
+      "name": "维京巨炮",
+      "iconUrl": "/assets/equipment/crafted-bases/Viking_Blaster.webp",
+      "iconAlt": "IconEquipWeaponCannonNorm001128",
+      "requiredLevel": 68,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_001_128.webp"
+    },
+    {
+      "id": "Dark_Ravine_Cannon",
+      "name": "黑峡巨炮",
+      "iconUrl": "/assets/equipment/crafted-bases/Dark_Ravine_Cannon.webp",
+      "iconAlt": "IconEquipWeaponCannonNorm005128",
+      "requiredLevel": 72,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_005_128.webp"
+    },
+    {
+      "id": "Fire_Worshiper_Cannon",
+      "name": "拜火者巨炮",
+      "iconUrl": "/assets/equipment/crafted-bases/Fire_Worshiper_Cannon.webp",
+      "iconAlt": "IconEquipWeaponCannonNorm001128",
+      "requiredLevel": 82,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_001_128.webp"
+    },
+    {
+      "id": "Fire_Eater_Cannon",
+      "name": "食火者巨炮",
+      "iconUrl": "/assets/equipment/crafted-bases/Fire_Eater_Cannon.webp",
+      "iconAlt": "IconEquipWeaponCannonNorm001128",
+      "requiredLevel": 84,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_001_128.webp"
+    },
+    {
+      "id": "Sun_Fall_Cannon",
+      "name": "烈阳陨落巨炮",
+      "iconUrl": "/assets/equipment/crafted-bases/Sun_Fall_Cannon.webp",
+      "iconAlt": "IconEquipWeaponCannonNorm001128",
+      "requiredLevel": 86,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_001_128.webp"
+    }
+  ]
+}

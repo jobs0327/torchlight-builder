@@ -1,0 +1,3498 @@
+{
+  "slug": "INT_Chest_Armor",
+  "label": "INT Chest Armor",
+  "sourceUrl": "https://tlidb.com/cn/INT_Chest_Armor",
+  "fetchedAt": "2026-03-22T08:57:15Z",
+  "modifierCount": 177,
+  "modifiers": [
+    {
+      "modifierId": "1506200",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(87–117) 最大护盾",
+      "valueSpans": [
+        "+(87–117)"
+      ]
+    },
+    {
+      "modifierId": "1506201",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(4–6) % 护盾 充能 速度",
+      "valueSpans": [
+        "+(4–6)"
+      ]
+    },
+    {
+      "modifierId": "1506202",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(5–10) % 火焰抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "1506203",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(5–10) % 冰冷抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "1506204",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(5–10) % 闪电抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "1506205",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(5–10) % 腐蚀抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "1506206",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(15–20) 力量",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "1506207",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(15–20) 敏捷",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "1506208",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(15–20) 智慧",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "1506209",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(20–24) % 技能范围",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "1506210",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透 召唤物 +(6–8) % 元素和腐蚀抗性穿透",
+      "valueSpans": [
+        "+(6–8)",
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1506211",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(5–7) % 护甲减伤穿透 召唤物 +(5–7) % 护甲减伤穿透",
+      "valueSpans": [
+        "+(5–7)",
+        "+(5–7)"
+      ]
+    },
+    {
+      "modifierId": "1506212",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(6–8) % 魔力封印 补偿",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1506213",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(7–8) % 光环效果",
+      "valueSpans": [
+        "+(7–8)"
+      ]
+    },
+    {
+      "modifierId": "1506214",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(3–5) % 元素 抗性上限",
+      "valueSpans": [
+        "+(3–5)"
+      ]
+    },
+    {
+      "modifierId": "1506215",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "(16–20) % 受到的物理伤害转化为冰冷伤害",
+      "valueSpans": [
+        "(16–20)"
+      ]
+    },
+    {
+      "modifierId": "1506216",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(12–20) % 暴击伤害减免",
+      "valueSpans": [
+        "+(12–20)"
+      ]
+    },
+    {
+      "modifierId": "1506217",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "每 0.1 秒受到 10 点真实伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "1506218",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "(36–45) % 受到的腐蚀伤害转化为冰冷伤害",
+      "valueSpans": [
+        "(36–45)"
+      ]
+    },
+    {
+      "modifierId": "60066201",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "智慧胸甲",
+      "effectPlain": "+2 主动技能等级",
+      "valueSpans": [
+        "+2"
+      ]
+    },
+    {
+      "modifierId": "60066203",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "智慧胸甲",
+      "effectPlain": "+(3–5) % 元素 抗性上限",
+      "valueSpans": [
+        "+(3–5)"
+      ]
+    },
+    {
+      "modifierId": "60066206",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "智慧胸甲",
+      "effectPlain": "+(50–70) % 伤害",
+      "valueSpans": [
+        "+(50–70)"
+      ]
+    },
+    {
+      "modifierId": "60066207",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "智慧胸甲",
+      "effectPlain": "+(15–20) % 最大护盾",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "60066208",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "智慧胸甲",
+      "effectPlain": "+(15–20) % 最大生命",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "60066209",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "智慧胸甲",
+      "effectPlain": "免疫 元素异常 状态",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "60066210",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "智慧胸甲",
+      "effectPlain": "+(8–10) % 元素 抗性和腐蚀抗性",
+      "valueSpans": [
+        "+(8–10)"
+      ]
+    },
+    {
+      "modifierId": "60066211",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "智慧胸甲",
+      "effectPlain": "+(30–50) % 该装备护盾",
+      "valueSpans": [
+        "+(30–50)"
+      ]
+    },
+    {
+      "modifierId": "104620301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(85–120) 最大魔力",
+      "valueSpans": [
+        "+(85–120)"
+      ]
+    },
+    {
+      "modifierId": "105620001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(281–400) 该装备护盾",
+      "valueSpans": [
+        "+(281–400)"
+      ]
+    },
+    {
+      "modifierId": "105620101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(47–66) % 该装备护盾",
+      "valueSpans": [
+        "+(47–66)"
+      ]
+    },
+    {
+      "modifierId": "105620301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(43–60) % 暴击伤害减免",
+      "valueSpans": [
+        "+(43–60)"
+      ]
+    },
+    {
+      "modifierId": "107620201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(51–72) % 召唤物伤害",
+      "valueSpans": [
+        "+(51–72)"
+      ]
+    },
+    {
+      "modifierId": "140620001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(51–72) % 伤害",
+      "valueSpans": [
+        "+(51–72)"
+      ]
+    },
+    {
+      "modifierId": "140721701",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(155–220) 最大生命",
+      "valueSpans": [
+        "+(155–220)"
+      ]
+    },
+    {
+      "modifierId": "104620101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(12–15) % 攻击与法术格挡率",
+      "valueSpans": [
+        "+(12–15)"
+      ]
+    },
+    {
+      "modifierId": "109620001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(43–60) 智慧",
+      "valueSpans": [
+        "+(43–60)"
+      ]
+    },
+    {
+      "modifierId": "109620301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(43–60) 敏捷",
+      "valueSpans": [
+        "+(43–60)"
+      ]
+    },
+    {
+      "modifierId": "109620401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(43–60) 力量",
+      "valueSpans": [
+        "+(43–60)"
+      ]
+    },
+    {
+      "modifierId": "140620201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(33–45) % 投射物速度",
+      "valueSpans": [
+        "+(33–45)"
+      ]
+    },
+    {
+      "modifierId": "115620101",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "智慧胸甲",
+      "effectPlain": "(16–20) % 受到的物理伤害转化为冰冷伤害",
+      "valueSpans": [
+        "(16–20)"
+      ]
+    },
+    {
+      "modifierId": "119620001",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "智慧胸甲",
+      "effectPlain": "攻击或者法术击败敌人时 (10–15) % 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 (200–250) % 的真实伤害",
+      "valueSpans": [
+        "(10–15)",
+        "6",
+        "(200–250)"
+      ]
+    },
+    {
+      "modifierId": "119620101",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(15–20) % 魔力封印 补偿",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "120620001",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "智慧胸甲",
+      "effectPlain": "你可以施加 1 个额外诅咒",
+      "valueSpans": [
+        "1"
+      ]
+    },
+    {
+      "modifierId": "140620601",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "智慧胸甲",
+      "effectPlain": "额外 +(12–15) % 最大护盾",
+      "valueSpans": [
+        "+(12–15)"
+      ]
+    },
+    {
+      "modifierId": "140620801",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "智慧胸甲",
+      "effectPlain": "(15–20) % 的伤害优先抵扣魔力",
+      "valueSpans": [
+        "(15–20)"
+      ]
+    },
+    {
+      "modifierId": "140621001",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "智慧胸甲",
+      "effectPlain": "(36–45) % 受到的腐蚀伤害转化为冰冷伤害",
+      "valueSpans": [
+        "(36–45)"
+      ]
+    },
+    {
+      "modifierId": "140621301",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "智慧胸甲",
+      "effectPlain": "至少拥有 8000 点最大护盾时， 额外 -40 % 受到的持续伤害",
+      "valueSpans": [
+        "8000",
+        "-40"
+      ]
+    },
+    {
+      "modifierId": "108620001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(19–27) % 火焰抗性",
+      "valueSpans": [
+        "+(19–27)"
+      ]
+    },
+    {
+      "modifierId": "108620101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(19–27) % 冰冷抗性",
+      "valueSpans": [
+        "+(19–27)"
+      ]
+    },
+    {
+      "modifierId": "108620201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(19–27) % 闪电抗性",
+      "valueSpans": [
+        "+(19–27)"
+      ]
+    },
+    {
+      "modifierId": "108620301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(19–27) % 腐蚀抗性",
+      "valueSpans": [
+        "+(19–27)"
+      ]
+    },
+    {
+      "modifierId": "110620001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(87–120) % 暴击值",
+      "valueSpans": [
+        "+(87–120)"
+      ]
+    },
+    {
+      "modifierId": "140620101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(36–50) % 加剧 效果",
+      "valueSpans": [
+        "+(36–50)"
+      ]
+    },
+    {
+      "modifierId": "140620901",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(43–60) % 魔力自然回复速度",
+      "valueSpans": [
+        "+(43–60)"
+      ]
+    },
+    {
+      "modifierId": "108620401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(8–10) % 元素 抗性",
+      "valueSpans": [
+        "+(8–10)"
+      ]
+    },
+    {
+      "modifierId": "110620101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(18–24) % 攻击与施法速度 +(18–24) % 召唤物攻击与施法速度",
+      "valueSpans": [
+        "+(18–24)",
+        "+(18–24)"
+      ]
+    },
+    {
+      "modifierId": "140620301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(44–60) % 暴击伤害",
+      "valueSpans": [
+        "+(44–60)"
+      ]
+    },
+    {
+      "modifierId": "140620401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(36–50) % 收割时间",
+      "valueSpans": [
+        "+(36–50)"
+      ]
+    },
+    {
+      "modifierId": "140620701",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(14–18) % 智慧",
+      "valueSpans": [
+        "+(14–18)"
+      ]
+    },
+    {
+      "modifierId": "140621201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "智慧胸甲",
+      "effectPlain": "造成伤害时，施加 冰冷渗透 ，对每个敌人拥有 1 秒间隔时间 召唤物造成伤害时，施加 冰冷渗透 ，对每个敌人拥有 1 秒间隔时间 +(10–30) % 冰冷渗透 效果",
+      "valueSpans": [
+        "1",
+        "1",
+        "+(10–30)"
+      ]
+    },
+    {
+      "modifierId": "120620201",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(15–20) % 光环效果",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "120620301",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(96–135) 攻击和法术暴击值",
+      "valueSpans": [
+        "+(96–135)"
+      ]
+    },
+    {
+      "modifierId": "140620501",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(59–83) % 收割 回复速度",
+      "valueSpans": [
+        "+(59–83)"
+      ]
+    },
+    {
+      "modifierId": "140621101",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(30–45) % 几率避免 元素异常 状态",
+      "valueSpans": [
+        "+(30–45)"
+      ]
+    },
+    {
+      "modifierId": "85062001",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(87–117) 最大护盾",
+      "valueSpans": [
+        "+(87–117)"
+      ]
+    },
+    {
+      "modifierId": "85062011",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(4–6) % 护盾 充能 速度",
+      "valueSpans": [
+        "+(4–6)"
+      ]
+    },
+    {
+      "modifierId": "85062021",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(5–10) % 火焰抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "85062031",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(5–10) % 冰冷抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "85062041",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(5–10) % 闪电抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "85062051",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(5–10) % 腐蚀抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "85062061",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(15–20) 力量",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85062071",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(15–20) 敏捷",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85062081",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(15–20) 智慧",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85062091",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(20–24) % 技能范围",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85062101",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透 召唤物 +(6–8) % 元素和腐蚀抗性穿透",
+      "valueSpans": [
+        "+(6–8)",
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "85062111",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(5–7) % 护甲减伤穿透 召唤物 +(5–7) % 护甲减伤穿透",
+      "valueSpans": [
+        "+(5–7)",
+        "+(5–7)"
+      ]
+    },
+    {
+      "modifierId": "85062121",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(6–8) % 魔力封印 补偿",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "85062131",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(7–8) % 光环效果",
+      "valueSpans": [
+        "+(7–8)"
+      ]
+    },
+    {
+      "modifierId": "85062141",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+(3–5) % 元素 抗性上限",
+      "valueSpans": [
+        "+(3–5)"
+      ]
+    },
+    {
+      "modifierId": "85062151",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "(16–20) % 受到的物理伤害转化为冰冷伤害",
+      "valueSpans": [
+        "(16–20)"
+      ]
+    },
+    {
+      "modifierId": "85062161",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "每 0.1 秒受到 10 点真实伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "85062171",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "(36–45) % 受到的腐蚀伤害转化为冰冷伤害",
+      "valueSpans": [
+        "(36–45)"
+      ]
+    },
+    {
+      "modifierId": "85062181",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+1 强硬 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85062191",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧胸甲",
+      "effectPlain": "+3 强硬 层数上限",
+      "valueSpans": [
+        "+3"
+      ]
+    },
+    {
+      "modifierId": "52410621",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "迸碎月光",
+      "source": "智慧胸甲",
+      "effectPlain": "+(350–370) 该装备护盾",
+      "valueSpans": [
+        "+(350–370)"
+      ]
+    },
+    {
+      "modifierId": "52410631",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "迸碎月光",
+      "source": "智慧胸甲",
+      "effectPlain": "核心技能被 (10–20) 级灵能乍泄辅助",
+      "valueSpans": [
+        "(10–20)"
+      ]
+    },
+    {
+      "modifierId": "52410641",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "迸碎月光",
+      "source": "智慧胸甲",
+      "effectPlain": "[灯塔] 法术迸发 上限 +2",
+      "valueSpans": [
+        "+2"
+      ]
+    },
+    {
+      "modifierId": "52410651",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "迸碎月光",
+      "source": "智慧胸甲",
+      "effectPlain": "无法使用回复技能",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51411211",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "王魂护甲",
+      "source": "智慧胸甲",
+      "effectPlain": "+(5–8) % 最大生命和最大护盾",
+      "valueSpans": [
+        "+(5–8)"
+      ]
+    },
+    {
+      "modifierId": "52411221",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "王魂护甲",
+      "source": "智慧胸甲",
+      "effectPlain": "+1 地面蓄能 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51411231",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "王魂护甲",
+      "source": "智慧胸甲",
+      "effectPlain": "+1 核心技能等级",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51411241",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "王魂护甲",
+      "source": "智慧胸甲",
+      "effectPlain": "+(15–20) % 腐蚀抗性",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "52411251",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "王魂护甲",
+      "source": "智慧胸甲",
+      "effectPlain": "地面蓄能 回复速度固定为默认值的 (200–300) %",
+      "valueSpans": [
+        "(200–300)"
+      ]
+    },
+    {
+      "modifierId": "51411261",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "王魂护甲",
+      "source": "智慧胸甲",
+      "effectPlain": "最近每消耗一次 地面蓄能 ， (-2–-1) % 移动速度，最多叠加 (5–15) 层",
+      "valueSpans": [
+        "(-2–-1)",
+        "(5–15)"
+      ]
+    },
+    {
+      "modifierId": "55411311",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "饮冰者的樊笼",
+      "source": "智慧胸甲",
+      "effectPlain": "+(300–350) 该装备护盾",
+      "valueSpans": [
+        "+(300–350)"
+      ]
+    },
+    {
+      "modifierId": "55411321",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "饮冰者的樊笼",
+      "source": "智慧胸甲",
+      "effectPlain": "(-1–1) 核心技能等级",
+      "valueSpans": [
+        "(-1–1)"
+      ]
+    },
+    {
+      "modifierId": "55411331",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "饮冰者的樊笼",
+      "source": "智慧胸甲",
+      "effectPlain": "刺骨极寒",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "55411341",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "饮冰者的樊笼",
+      "source": "智慧胸甲",
+      "effectPlain": "造成 冰结 时，获得 1 层 樊笼 ，间隔 1 秒",
+      "valueSpans": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "55411351",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "饮冰者的樊笼",
+      "source": "智慧胸甲",
+      "effectPlain": "+(1–50) % 受到的 控制类状态 效果",
+      "valueSpans": [
+        "+(1–50)"
+      ]
+    },
+    {
+      "modifierId": "51412111",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "不灭信仰",
+      "source": "智慧胸甲",
+      "effectPlain": "+(120–272) 该装备护盾",
+      "valueSpans": [
+        "+(120–272)"
+      ]
+    },
+    {
+      "modifierId": "51412121",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "不灭信仰",
+      "source": "智慧胸甲",
+      "effectPlain": "+(1–2) 被动技能等级",
+      "valueSpans": [
+        "+(1–2)"
+      ]
+    },
+    {
+      "modifierId": "51412141",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "不灭信仰",
+      "source": "智慧胸甲",
+      "effectPlain": "+(8–12) % 魔力封印 补偿",
+      "valueSpans": [
+        "+(8–12)"
+      ]
+    },
+    {
+      "modifierId": "51412151",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "不灭信仰",
+      "source": "智慧胸甲",
+      "effectPlain": "生命濒危 时，额外 +(18–24) % 伤害",
+      "valueSpans": [
+        "+(18–24)"
+      ]
+    },
+    {
+      "modifierId": "51412161",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "不灭信仰",
+      "source": "智慧胸甲",
+      "effectPlain": "生命濒危 时， +(6–9) % 光环效果",
+      "valueSpans": [
+        "+(6–9)"
+      ]
+    },
+    {
+      "modifierId": "51412211",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "无限要塞",
+      "source": "智慧胸甲",
+      "effectPlain": "+(204–238) 该装备护盾",
+      "valueSpans": [
+        "+(204–238)"
+      ]
+    },
+    {
+      "modifierId": "51412221",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "无限要塞",
+      "source": "智慧胸甲",
+      "effectPlain": "-10 % 冰冷与闪电抗性",
+      "valueSpans": [
+        "-10"
+      ]
+    },
+    {
+      "modifierId": "51412231",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "无限要塞",
+      "source": "智慧胸甲",
+      "effectPlain": "-10 % 攻击与法术格挡率",
+      "valueSpans": [
+        "-10"
+      ]
+    },
+    {
+      "modifierId": "51412241",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "无限要塞",
+      "source": "智慧胸甲",
+      "effectPlain": "召唤物 生命濒危 时，额外 +(30–40) % 召唤物伤害",
+      "valueSpans": [
+        "+(30–40)"
+      ]
+    },
+    {
+      "modifierId": "51412251",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "无限要塞",
+      "source": "智慧胸甲",
+      "effectPlain": "(-2–2) 智械召唤物数量上限",
+      "valueSpans": [
+        "(-2–2)"
+      ]
+    },
+    {
+      "modifierId": "51412261",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "无限要塞",
+      "source": "智慧胸甲",
+      "effectPlain": "[秘法] 魔力消耗的 100 % 转换为生命消耗 额外 +25 % 最大生命",
+      "valueSpans": [
+        "100",
+        "+25"
+      ]
+    },
+    {
+      "modifierId": "51412411",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "浸蚀壁垒",
+      "source": "智慧胸甲",
+      "effectPlain": "满护盾时，额外 (-12–-15) % 受到的伤害",
+      "valueSpans": [
+        "(-12–-15)"
+      ]
+    },
+    {
+      "modifierId": "51412421",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "浸蚀壁垒",
+      "source": "智慧胸甲",
+      "effectPlain": "+(1750–2000) 最大护盾",
+      "valueSpans": [
+        "+(1750–2000)"
+      ]
+    },
+    {
+      "modifierId": "51412431",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "浸蚀壁垒",
+      "source": "智慧胸甲",
+      "effectPlain": "+1 最大魔力",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51412441",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "浸蚀壁垒",
+      "source": "智慧胸甲",
+      "effectPlain": "+1 全属性",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51412451",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "浸蚀壁垒",
+      "source": "智慧胸甲",
+      "effectPlain": "+(10–12) % 受伤缓冲",
+      "valueSpans": [
+        "+(10–12)"
+      ]
+    },
+    {
+      "modifierId": "51413111",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "噬火之恶",
+      "source": "智慧胸甲",
+      "effectPlain": "+(4–6) % 火焰 抗性上限",
+      "valueSpans": [
+        "+(4–6)"
+      ]
+    },
+    {
+      "modifierId": "51413121",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "噬火之恶",
+      "source": "智慧胸甲",
+      "effectPlain": "+1 % 冰冷 抗性上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51413131",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "噬火之恶",
+      "source": "智慧胸甲",
+      "effectPlain": "+1 % 闪电 抗性上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51413141",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "噬火之恶",
+      "source": "智慧胸甲",
+      "effectPlain": "+(20–32) % 最大生命、最大魔力和最大护盾",
+      "valueSpans": [
+        "+(20–32)"
+      ]
+    },
+    {
+      "modifierId": "51413151",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "噬火之恶",
+      "source": "智慧胸甲",
+      "effectPlain": "每 1 % 火焰抗性， +(2.5–3) % 暴击伤害，最多 +600 %",
+      "valueSpans": [
+        "1",
+        "+(2.5–3)",
+        "+600"
+      ]
+    },
+    {
+      "modifierId": "51413211",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "冰封行径",
+      "source": "智慧胸甲",
+      "effectPlain": "+1 % 火焰 抗性上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51413221",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "冰封行径",
+      "source": "智慧胸甲",
+      "effectPlain": "+(4–6) % 冰冷 抗性上限",
+      "valueSpans": [
+        "+(4–6)"
+      ]
+    },
+    {
+      "modifierId": "51413231",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "冰封行径",
+      "source": "智慧胸甲",
+      "effectPlain": "+1 % 闪电 抗性上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51413241",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "冰封行径",
+      "source": "智慧胸甲",
+      "effectPlain": "+(20–32) % 最大生命、最大魔力和最大护盾",
+      "valueSpans": [
+        "+(20–32)"
+      ]
+    },
+    {
+      "modifierId": "51413251",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "冰封行径",
+      "source": "智慧胸甲",
+      "effectPlain": "每 1 % 冰冷抗性， +(3–4) 攻击和法术暴击值，最多 +800",
+      "valueSpans": [
+        "1",
+        "+(3–4)",
+        "+800"
+      ]
+    },
+    {
+      "modifierId": "51413311",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "苍蓝刹那",
+      "source": "智慧胸甲",
+      "effectPlain": "+1 % 火焰 抗性上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51413321",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "苍蓝刹那",
+      "source": "智慧胸甲",
+      "effectPlain": "+1 % 冰冷 抗性上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51413331",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "苍蓝刹那",
+      "source": "智慧胸甲",
+      "effectPlain": "+(4–6) % 闪电 抗性上限",
+      "valueSpans": [
+        "+(4–6)"
+      ]
+    },
+    {
+      "modifierId": "51413341",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "苍蓝刹那",
+      "source": "智慧胸甲",
+      "effectPlain": "+(20–32) % 最大生命、最大魔力和最大护盾",
+      "valueSpans": [
+        "+(20–32)"
+      ]
+    },
+    {
+      "modifierId": "51413351",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "苍蓝刹那",
+      "source": "智慧胸甲",
+      "effectPlain": "每 1 % 闪电抗性， +(1–1.2) % 攻击和施法速度，最多 +240 %",
+      "valueSpans": [
+        "1",
+        "+(1–1.2)",
+        "+240"
+      ]
+    },
+    {
+      "modifierId": "51413411",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "蝉锐",
+      "source": "智慧胸甲",
+      "effectPlain": "+1 % 火焰 抗性上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51413421",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "蝉锐",
+      "source": "智慧胸甲",
+      "effectPlain": "+1 % 冰冷 抗性上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51413431",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "蝉锐",
+      "source": "智慧胸甲",
+      "effectPlain": "+1 % 闪电 抗性上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51413441",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "蝉锐",
+      "source": "智慧胸甲",
+      "effectPlain": "+(10–16) % 最大生命、最大魔力和最大护盾",
+      "valueSpans": [
+        "+(10–16)"
+      ]
+    },
+    {
+      "modifierId": "51413451",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "蝉锐",
+      "source": "智慧胸甲",
+      "effectPlain": "-80 % 护盾 充能 速度 攻击和法术附加相当于最大护盾 (1.1–1.4) % 点的元素伤害",
+      "valueSpans": [
+        "-80",
+        "(1.1–1.4)"
+      ]
+    },
+    {
+      "modifierId": "51413711",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "恢弘群星法袍",
+      "source": "智慧胸甲",
+      "effectPlain": "+(270–280) 该装备护盾",
+      "valueSpans": [
+        "+(270–280)"
+      ]
+    },
+    {
+      "modifierId": "51413721",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "恢弘群星法袍",
+      "source": "智慧胸甲",
+      "effectPlain": "+(8–10) % 元素 抗性",
+      "valueSpans": [
+        "+(8–10)"
+      ]
+    },
+    {
+      "modifierId": "51413731",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "恢弘群星法袍",
+      "source": "智慧胸甲",
+      "effectPlain": "+60 智慧",
+      "valueSpans": [
+        "+60"
+      ]
+    },
+    {
+      "modifierId": "51413741",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "恢弘群星法袍",
+      "source": "智慧胸甲",
+      "effectPlain": "-60 % 轰炸技能波次间隔",
+      "valueSpans": [
+        "-60"
+      ]
+    },
+    {
+      "modifierId": "51413751",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "恢弘群星法袍",
+      "source": "智慧胸甲",
+      "effectPlain": "轰炸技能 +(20–30) % 每波伤害递增",
+      "valueSpans": [
+        "+(20–30)"
+      ]
+    },
+    {
+      "modifierId": "51413761",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "恢弘群星法袍",
+      "source": "智慧胸甲",
+      "effectPlain": "释放轰炸技能时，有 +(85–100) % 概率该次轰炸技能总波次+1",
+      "valueSpans": [
+        "+(85–100)"
+      ]
+    },
+    {
+      "modifierId": "51413911",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "薄暮笼罩法袍",
+      "source": "智慧胸甲",
+      "effectPlain": "+(238–272) 该装备护盾",
+      "valueSpans": [
+        "+(238–272)"
+      ]
+    },
+    {
+      "modifierId": "55413921",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "薄暮笼罩法袍",
+      "source": "智慧胸甲",
+      "effectPlain": "+1 主动技能等级",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51413931",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "薄暮笼罩法袍",
+      "source": "智慧胸甲",
+      "effectPlain": "收割 时，护盾立即充能",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51413941",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "薄暮笼罩法袍",
+      "source": "智慧胸甲",
+      "effectPlain": "(-36–12) % 护盾 充能 速度",
+      "valueSpans": [
+        "(-36–12)"
+      ]
+    },
+    {
+      "modifierId": "51413951",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "薄暮笼罩法袍",
+      "source": "智慧胸甲",
+      "effectPlain": "+(8–12) % 收割 时间",
+      "valueSpans": [
+        "+(8–12)"
+      ]
+    },
+    {
+      "modifierId": "51413961",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "薄暮笼罩法袍",
+      "source": "智慧胸甲",
+      "effectPlain": "+(3–5) % 元素 抗性",
+      "valueSpans": [
+        "+(3–5)"
+      ]
+    },
+    {
+      "modifierId": "51415511",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "伊斯拉菲尔的悲愿",
+      "source": "智慧胸甲",
+      "effectPlain": "+(170–238) 该装备护盾",
+      "valueSpans": [
+        "+(170–238)"
+      ]
+    },
+    {
+      "modifierId": "51415521",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "伊斯拉菲尔的悲愿",
+      "source": "智慧胸甲",
+      "effectPlain": "+(120–144) 最大魔力",
+      "valueSpans": [
+        "+(120–144)"
+      ]
+    },
+    {
+      "modifierId": "51415531",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "伊斯拉菲尔的悲愿",
+      "source": "智慧胸甲",
+      "effectPlain": "+36 % 智慧",
+      "valueSpans": [
+        "+36"
+      ]
+    },
+    {
+      "modifierId": "51415541",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "伊斯拉菲尔的悲愿",
+      "source": "智慧胸甲",
+      "effectPlain": "至少有 600 点智慧时，附加 (297–317) - (413–433) 点冰冷伤害",
+      "valueSpans": [
+        "600",
+        "(297–317)",
+        "(413–433)"
+      ]
+    },
+    {
+      "modifierId": "54526601",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻罪黑纱",
+      "source": "智慧胸甲",
+      "effectPlain": "(-1–1) 灵动祝福 层数上限",
+      "valueSpans": [
+        "(-1–1)"
+      ]
+    },
+    {
+      "modifierId": "54526611",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻罪黑纱",
+      "source": "智慧胸甲",
+      "effectPlain": "(-1–1) 聚能祝福 层数上限",
+      "valueSpans": [
+        "(-1–1)"
+      ]
+    },
+    {
+      "modifierId": "54526621",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻罪黑纱",
+      "source": "智慧胸甲",
+      "effectPlain": "(-1–1) 坚韧祝福 层数上限",
+      "valueSpans": [
+        "(-1–1)"
+      ]
+    },
+    {
+      "modifierId": "54526631",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻罪黑纱",
+      "source": "智慧胸甲",
+      "effectPlain": "每有一层 祝福 ，额外 -2 % 伤害（叠乘）",
+      "valueSpans": [
+        "-2"
+      ]
+    },
+    {
+      "modifierId": "80935331",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "恶劫",
+      "source": "智慧胸甲",
+      "effectPlain": "+(20–30) % 最大生命和最大护盾",
+      "valueSpans": [
+        "+(20–30)"
+      ]
+    },
+    {
+      "modifierId": "80935321",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "恶劫",
+      "source": "智慧胸甲",
+      "effectPlain": "+(30–40) % 攻击与施法速度",
+      "valueSpans": [
+        "+(30–40)"
+      ]
+    },
+    {
+      "modifierId": "89035311",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "恶劫",
+      "source": "智慧胸甲",
+      "effectPlain": "敌人每拥有一层 恶化 ，额外 +(10–12) % 受到的 恶化 伤害，上限 10 层",
+      "valueSpans": [
+        "+(10–12)",
+        "10"
+      ]
+    },
+    {
+      "modifierId": "80935301",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "恶劫",
+      "source": "智慧胸甲",
+      "effectPlain": "额外 -25 % 恶化 持续时间",
+      "valueSpans": [
+        "-25"
+      ]
+    },
+    {
+      "modifierId": "80935381",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "煞星",
+      "source": "智慧胸甲",
+      "effectPlain": "+(20–30) % 腐蚀抗性",
+      "valueSpans": [
+        "+(20–30)"
+      ]
+    },
+    {
+      "modifierId": "80935371",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "煞星",
+      "source": "智慧胸甲",
+      "effectPlain": "+(15–30) % 恶化 持续时间",
+      "valueSpans": [
+        "+(15–30)"
+      ]
+    },
+    {
+      "modifierId": "80935391",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "煞星",
+      "source": "智慧胸甲",
+      "effectPlain": "每隔 0.5 秒，下一次非引导核心技能被 抹灭 强化 未被 抹灭 强化的技能无法造成 恶化",
+      "valueSpans": [
+        "0.5"
+      ]
+    },
+    {
+      "modifierId": "80935341",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "煞星",
+      "source": "智慧胸甲",
+      "effectPlain": "恶化 持续时间结束时不再造成真实伤害，改为持续时间内每隔 0.33 秒造成 1 次真实伤害，每次额外递增 40%，上限 6 次",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51415911",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "苦痛之拥",
+      "source": "智慧胸甲",
+      "effectPlain": "-6 % 腐蚀 抗性上限",
+      "valueSpans": [
+        "-6"
+      ]
+    },
+    {
+      "modifierId": "51415921",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "苦痛之拥",
+      "source": "智慧胸甲",
+      "effectPlain": "+(21–30) % 防御值",
+      "valueSpans": [
+        "+(21–30)"
+      ]
+    },
+    {
+      "modifierId": "51415931",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "苦痛之拥",
+      "source": "智慧胸甲",
+      "effectPlain": "+(5–7) % 移动速度",
+      "valueSpans": [
+        "+(5–7)"
+      ]
+    },
+    {
+      "modifierId": "51415941",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "苦痛之拥",
+      "source": "智慧胸甲",
+      "effectPlain": "(20–25) % 受到的物理和元素伤害转化为腐蚀伤害",
+      "valueSpans": [
+        "(20–25)"
+      ]
+    },
+    {
+      "modifierId": "51415951",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "苦痛之拥",
+      "source": "智慧胸甲",
+      "effectPlain": "如果最近使用过腐蚀技能， +(15–20) % 腐蚀抗性穿透， +(10–15) % 生命返还 与 护盾返还",
+      "valueSpans": [
+        "+(15–20)",
+        "+(10–15)"
+      ]
+    },
+    {
+      "modifierId": "51416311",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "创意作战服",
+      "source": "智慧胸甲",
+      "effectPlain": "+(60–80) 最大生命",
+      "valueSpans": [
+        "+(60–80)"
+      ]
+    },
+    {
+      "modifierId": "51416321",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "创意作战服",
+      "source": "智慧胸甲",
+      "effectPlain": "-100 % 暴击值 +100 % 暴击伤害",
+      "valueSpans": [
+        "-100",
+        "+100"
+      ]
+    },
+    {
+      "modifierId": "51416331",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "创意作战服",
+      "source": "智慧胸甲",
+      "effectPlain": "每消耗 1 层法术迸发充能，+40% 法术暴击值，持续 10 秒，上限 10 层",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51416511",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "擅断",
+      "source": "智慧胸甲",
+      "effectPlain": "-2 贯注技能等级",
+      "valueSpans": [
+        "-2"
+      ]
+    },
+    {
+      "modifierId": "51416531",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "擅断",
+      "source": "智慧胸甲",
+      "effectPlain": "+(100–150) 最大生命",
+      "valueSpans": [
+        "+(100–150)"
+      ]
+    },
+    {
+      "modifierId": "51416551",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "擅断",
+      "source": "智慧胸甲",
+      "effectPlain": "贯注技能装备在主动技能槽位时：额外 +(15–25) % 贯注技能伤害， (-25–-15) % 贯注的增益效果",
+      "valueSpans": [
+        "+(15–25)",
+        "(-25–-15)"
+      ]
+    },
+    {
+      "modifierId": "51416611",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "舍本之痛",
+      "source": "智慧胸甲",
+      "effectPlain": "+(10–20) % 最大生命和最大护盾",
+      "valueSpans": [
+        "+(10–20)"
+      ]
+    },
+    {
+      "modifierId": "51416621",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "舍本之痛",
+      "source": "智慧胸甲",
+      "effectPlain": "+(1–3) 核心技能等级",
+      "valueSpans": [
+        "+(1–3)"
+      ]
+    },
+    {
+      "modifierId": "51416631",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "舍本之痛",
+      "source": "智慧胸甲",
+      "effectPlain": "若最近未使用过核心技能，每 0.1 秒承受 30 点真实伤害",
+      "valueSpans": [
+        "30"
+      ]
+    }
+  ],
+  "tierVariantGroups": [
+    {
+      "skeleton": "{#} % 伤害",
+      "rolls": [
+        {
+          "modifierId": "60066206",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "侵蚀基底",
+          "valueSpans": [
+            "+(50–70)"
+          ],
+          "effectPlain": "+(50–70) % 伤害"
+        },
+        {
+          "modifierId": "140620001",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "初阶前缀",
+          "valueSpans": [
+            "+(51–72)"
+          ],
+          "effectPlain": "+(51–72) % 伤害"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 元素 抗性",
+      "rolls": [
+        {
+          "modifierId": "108620401",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "进阶后缀",
+          "valueSpans": [
+            "+(8–10)"
+          ],
+          "effectPlain": "+(8–10) % 元素 抗性"
+        },
+        {
+          "modifierId": "51413721",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "恢弘群星法袍",
+          "valueSpans": [
+            "+(8–10)"
+          ],
+          "effectPlain": "+(8–10) % 元素 抗性"
+        },
+        {
+          "modifierId": "51413961",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "薄暮笼罩法袍",
+          "valueSpans": [
+            "+(3–5)"
+          ],
+          "effectPlain": "+(3–5) % 元素 抗性"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 元素 抗性上限",
+      "rolls": [
+        {
+          "modifierId": "1506214",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(3–5)"
+          ],
+          "effectPlain": "+(3–5) % 元素 抗性上限"
+        },
+        {
+          "modifierId": "60066203",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "侵蚀基底",
+          "valueSpans": [
+            "+(3–5)"
+          ],
+          "effectPlain": "+(3–5) % 元素 抗性上限"
+        },
+        {
+          "modifierId": "85062141",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(3–5)"
+          ],
+          "effectPlain": "+(3–5) % 元素 抗性上限"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 元素和腐蚀抗性穿透 召唤物 {#} % 元素和腐蚀抗性穿透",
+      "rolls": [
+        {
+          "modifierId": "1506210",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(6–8)",
+            "+(6–8)"
+          ],
+          "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透 召唤物 +(6–8) % 元素和腐蚀抗性穿透"
+        },
+        {
+          "modifierId": "85062101",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(6–8)",
+            "+(6–8)"
+          ],
+          "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透 召唤物 +(6–8) % 元素和腐蚀抗性穿透"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 光环效果",
+      "rolls": [
+        {
+          "modifierId": "120620201",
+          "tier": 1,
+          "itemLevel": 100,
+          "weight": 100,
+          "affixType": "至臻后缀",
+          "valueSpans": [
+            "+(15–20)"
+          ],
+          "effectPlain": "+(15–20) % 光环效果"
+        },
+        {
+          "modifierId": "1506213",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(7–8)"
+          ],
+          "effectPlain": "+(7–8) % 光环效果"
+        },
+        {
+          "modifierId": "85062131",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(7–8)"
+          ],
+          "effectPlain": "+(7–8) % 光环效果"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 冰冷 抗性上限",
+      "rolls": [
+        {
+          "modifierId": "51413121",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "噬火之恶",
+          "valueSpans": [
+            "+1"
+          ],
+          "effectPlain": "+1 % 冰冷 抗性上限"
+        },
+        {
+          "modifierId": "51413221",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "冰封行径",
+          "valueSpans": [
+            "+(4–6)"
+          ],
+          "effectPlain": "+(4–6) % 冰冷 抗性上限"
+        },
+        {
+          "modifierId": "51413321",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "苍蓝刹那",
+          "valueSpans": [
+            "+1"
+          ],
+          "effectPlain": "+1 % 冰冷 抗性上限"
+        },
+        {
+          "modifierId": "51413421",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "蝉锐",
+          "valueSpans": [
+            "+1"
+          ],
+          "effectPlain": "+1 % 冰冷 抗性上限"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 冰冷抗性",
+      "rolls": [
+        {
+          "modifierId": "108620101",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "初阶后缀",
+          "valueSpans": [
+            "+(19–27)"
+          ],
+          "effectPlain": "+(19–27) % 冰冷抗性"
+        },
+        {
+          "modifierId": "1506203",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(5–10)"
+          ],
+          "effectPlain": "+(5–10) % 冰冷抗性"
+        },
+        {
+          "modifierId": "85062031",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(5–10)"
+          ],
+          "effectPlain": "+(5–10) % 冰冷抗性"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 受到的物理伤害转化为冰冷伤害",
+      "rolls": [
+        {
+          "modifierId": "1506215",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "(16–20)"
+          ],
+          "effectPlain": "(16–20) % 受到的物理伤害转化为冰冷伤害"
+        },
+        {
+          "modifierId": "85062151",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "(16–20)"
+          ],
+          "effectPlain": "(16–20) % 受到的物理伤害转化为冰冷伤害"
+        },
+        {
+          "modifierId": "115620101",
+          "tier": 1,
+          "itemLevel": 100,
+          "weight": 100,
+          "affixType": "至臻前缀",
+          "valueSpans": [
+            "(16–20)"
+          ],
+          "effectPlain": "(16–20) % 受到的物理伤害转化为冰冷伤害"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 受到的腐蚀伤害转化为冰冷伤害",
+      "rolls": [
+        {
+          "modifierId": "1506218",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "(36–45)"
+          ],
+          "effectPlain": "(36–45) % 受到的腐蚀伤害转化为冰冷伤害"
+        },
+        {
+          "modifierId": "85062171",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "(36–45)"
+          ],
+          "effectPlain": "(36–45) % 受到的腐蚀伤害转化为冰冷伤害"
+        },
+        {
+          "modifierId": "140621001",
+          "tier": 1,
+          "itemLevel": 100,
+          "weight": 100,
+          "affixType": "至臻前缀",
+          "valueSpans": [
+            "(36–45)"
+          ],
+          "effectPlain": "(36–45) % 受到的腐蚀伤害转化为冰冷伤害"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 技能范围",
+      "rolls": [
+        {
+          "modifierId": "1506209",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(20–24)"
+          ],
+          "effectPlain": "+(20–24) % 技能范围"
+        },
+        {
+          "modifierId": "85062091",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(20–24)"
+          ],
+          "effectPlain": "+(20–24) % 技能范围"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 护甲减伤穿透 召唤物 {#} % 护甲减伤穿透",
+      "rolls": [
+        {
+          "modifierId": "1506211",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(5–7)",
+            "+(5–7)"
+          ],
+          "effectPlain": "+(5–7) % 护甲减伤穿透 召唤物 +(5–7) % 护甲减伤穿透"
+        },
+        {
+          "modifierId": "85062111",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(5–7)",
+            "+(5–7)"
+          ],
+          "effectPlain": "+(5–7) % 护甲减伤穿透 召唤物 +(5–7) % 护甲减伤穿透"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 护盾 充能 速度",
+      "rolls": [
+        {
+          "modifierId": "1506201",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(4–6)"
+          ],
+          "effectPlain": "+(4–6) % 护盾 充能 速度"
+        },
+        {
+          "modifierId": "85062011",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(4–6)"
+          ],
+          "effectPlain": "+(4–6) % 护盾 充能 速度"
+        },
+        {
+          "modifierId": "51413941",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "薄暮笼罩法袍",
+          "valueSpans": [
+            "(-36–12)"
+          ],
+          "effectPlain": "(-36–12) % 护盾 充能 速度"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 攻击与法术格挡率",
+      "rolls": [
+        {
+          "modifierId": "104620101",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "进阶前缀",
+          "valueSpans": [
+            "+(12–15)"
+          ],
+          "effectPlain": "+(12–15) % 攻击与法术格挡率"
+        },
+        {
+          "modifierId": "51412231",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "无限要塞",
+          "valueSpans": [
+            "-10"
+          ],
+          "effectPlain": "-10 % 攻击与法术格挡率"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 智慧",
+      "rolls": [
+        {
+          "modifierId": "140620701",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "进阶后缀",
+          "valueSpans": [
+            "+(14–18)"
+          ],
+          "effectPlain": "+(14–18) % 智慧"
+        },
+        {
+          "modifierId": "51415531",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "伊斯拉菲尔的悲愿",
+          "valueSpans": [
+            "+36"
+          ],
+          "effectPlain": "+36 % 智慧"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 暴击伤害减免",
+      "rolls": [
+        {
+          "modifierId": "105620301",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "初阶前缀",
+          "valueSpans": [
+            "+(43–60)"
+          ],
+          "effectPlain": "+(43–60) % 暴击伤害减免"
+        },
+        {
+          "modifierId": "1506216",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(12–20)"
+          ],
+          "effectPlain": "+(12–20) % 暴击伤害减免"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 最大生命、最大魔力和最大护盾",
+      "rolls": [
+        {
+          "modifierId": "51413141",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "噬火之恶",
+          "valueSpans": [
+            "+(20–32)"
+          ],
+          "effectPlain": "+(20–32) % 最大生命、最大魔力和最大护盾"
+        },
+        {
+          "modifierId": "51413241",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "冰封行径",
+          "valueSpans": [
+            "+(20–32)"
+          ],
+          "effectPlain": "+(20–32) % 最大生命、最大魔力和最大护盾"
+        },
+        {
+          "modifierId": "51413341",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "苍蓝刹那",
+          "valueSpans": [
+            "+(20–32)"
+          ],
+          "effectPlain": "+(20–32) % 最大生命、最大魔力和最大护盾"
+        },
+        {
+          "modifierId": "51413441",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "蝉锐",
+          "valueSpans": [
+            "+(10–16)"
+          ],
+          "effectPlain": "+(10–16) % 最大生命、最大魔力和最大护盾"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 最大生命和最大护盾",
+      "rolls": [
+        {
+          "modifierId": "51411211",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "王魂护甲",
+          "valueSpans": [
+            "+(5–8)"
+          ],
+          "effectPlain": "+(5–8) % 最大生命和最大护盾"
+        },
+        {
+          "modifierId": "51416611",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "舍本之痛",
+          "valueSpans": [
+            "+(10–20)"
+          ],
+          "effectPlain": "+(10–20) % 最大生命和最大护盾"
+        },
+        {
+          "modifierId": "80935331",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "恶劫",
+          "valueSpans": [
+            "+(20–30)"
+          ],
+          "effectPlain": "+(20–30) % 最大生命和最大护盾"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 火焰 抗性上限",
+      "rolls": [
+        {
+          "modifierId": "51413111",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "噬火之恶",
+          "valueSpans": [
+            "+(4–6)"
+          ],
+          "effectPlain": "+(4–6) % 火焰 抗性上限"
+        },
+        {
+          "modifierId": "51413211",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "冰封行径",
+          "valueSpans": [
+            "+1"
+          ],
+          "effectPlain": "+1 % 火焰 抗性上限"
+        },
+        {
+          "modifierId": "51413311",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "苍蓝刹那",
+          "valueSpans": [
+            "+1"
+          ],
+          "effectPlain": "+1 % 火焰 抗性上限"
+        },
+        {
+          "modifierId": "51413411",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "蝉锐",
+          "valueSpans": [
+            "+1"
+          ],
+          "effectPlain": "+1 % 火焰 抗性上限"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 火焰抗性",
+      "rolls": [
+        {
+          "modifierId": "108620001",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "初阶后缀",
+          "valueSpans": [
+            "+(19–27)"
+          ],
+          "effectPlain": "+(19–27) % 火焰抗性"
+        },
+        {
+          "modifierId": "1506202",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(5–10)"
+          ],
+          "effectPlain": "+(5–10) % 火焰抗性"
+        },
+        {
+          "modifierId": "85062021",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(5–10)"
+          ],
+          "effectPlain": "+(5–10) % 火焰抗性"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 腐蚀抗性",
+      "rolls": [
+        {
+          "modifierId": "108620301",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "初阶后缀",
+          "valueSpans": [
+            "+(19–27)"
+          ],
+          "effectPlain": "+(19–27) % 腐蚀抗性"
+        },
+        {
+          "modifierId": "1506205",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(5–10)"
+          ],
+          "effectPlain": "+(5–10) % 腐蚀抗性"
+        },
+        {
+          "modifierId": "85062051",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(5–10)"
+          ],
+          "effectPlain": "+(5–10) % 腐蚀抗性"
+        },
+        {
+          "modifierId": "51411241",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "王魂护甲",
+          "valueSpans": [
+            "+(15–20)"
+          ],
+          "effectPlain": "+(15–20) % 腐蚀抗性"
+        },
+        {
+          "modifierId": "80935381",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "煞星",
+          "valueSpans": [
+            "+(20–30)"
+          ],
+          "effectPlain": "+(20–30) % 腐蚀抗性"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 该装备护盾",
+      "rolls": [
+        {
+          "modifierId": "60066211",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "侵蚀基底",
+          "valueSpans": [
+            "+(30–50)"
+          ],
+          "effectPlain": "+(30–50) % 该装备护盾"
+        },
+        {
+          "modifierId": "105620101",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "初阶前缀",
+          "valueSpans": [
+            "+(47–66)"
+          ],
+          "effectPlain": "+(47–66) % 该装备护盾"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 闪电 抗性上限",
+      "rolls": [
+        {
+          "modifierId": "51413131",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "噬火之恶",
+          "valueSpans": [
+            "+1"
+          ],
+          "effectPlain": "+1 % 闪电 抗性上限"
+        },
+        {
+          "modifierId": "51413231",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "冰封行径",
+          "valueSpans": [
+            "+1"
+          ],
+          "effectPlain": "+1 % 闪电 抗性上限"
+        },
+        {
+          "modifierId": "51413331",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "苍蓝刹那",
+          "valueSpans": [
+            "+(4–6)"
+          ],
+          "effectPlain": "+(4–6) % 闪电 抗性上限"
+        },
+        {
+          "modifierId": "51413431",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "蝉锐",
+          "valueSpans": [
+            "+1"
+          ],
+          "effectPlain": "+1 % 闪电 抗性上限"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 闪电抗性",
+      "rolls": [
+        {
+          "modifierId": "108620201",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "初阶后缀",
+          "valueSpans": [
+            "+(19–27)"
+          ],
+          "effectPlain": "+(19–27) % 闪电抗性"
+        },
+        {
+          "modifierId": "1506204",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(5–10)"
+          ],
+          "effectPlain": "+(5–10) % 闪电抗性"
+        },
+        {
+          "modifierId": "85062041",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(5–10)"
+          ],
+          "effectPlain": "+(5–10) % 闪电抗性"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} % 魔力封印 补偿",
+      "rolls": [
+        {
+          "modifierId": "119620101",
+          "tier": 1,
+          "itemLevel": 100,
+          "weight": 100,
+          "affixType": "至臻前缀",
+          "valueSpans": [
+            "+(15–20)"
+          ],
+          "effectPlain": "+(15–20) % 魔力封印 补偿"
+        },
+        {
+          "modifierId": "1506212",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(6–8)"
+          ],
+          "effectPlain": "+(6–8) % 魔力封印 补偿"
+        },
+        {
+          "modifierId": "85062121",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(6–8)"
+          ],
+          "effectPlain": "+(6–8) % 魔力封印 补偿"
+        },
+        {
+          "modifierId": "51412141",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "不灭信仰",
+          "valueSpans": [
+            "+(8–12)"
+          ],
+          "effectPlain": "+(8–12) % 魔力封印 补偿"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} 主动技能等级",
+      "rolls": [
+        {
+          "modifierId": "60066201",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "侵蚀基底",
+          "valueSpans": [
+            "+2"
+          ],
+          "effectPlain": "+2 主动技能等级"
+        },
+        {
+          "modifierId": "55413921",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "薄暮笼罩法袍",
+          "valueSpans": [
+            "+1"
+          ],
+          "effectPlain": "+1 主动技能等级"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} 力量",
+      "rolls": [
+        {
+          "modifierId": "109620401",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "进阶前缀",
+          "valueSpans": [
+            "+(43–60)"
+          ],
+          "effectPlain": "+(43–60) 力量"
+        },
+        {
+          "modifierId": "1506206",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(15–20)"
+          ],
+          "effectPlain": "+(15–20) 力量"
+        },
+        {
+          "modifierId": "85062061",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(15–20)"
+          ],
+          "effectPlain": "+(15–20) 力量"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} 强硬 层数上限",
+      "rolls": [
+        {
+          "modifierId": "85062191",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+3"
+          ],
+          "effectPlain": "+3 强硬 层数上限"
+        },
+        {
+          "modifierId": "85062181",
+          "tier": 1,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+1"
+          ],
+          "effectPlain": "+1 强硬 层数上限"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} 敏捷",
+      "rolls": [
+        {
+          "modifierId": "109620301",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "进阶前缀",
+          "valueSpans": [
+            "+(43–60)"
+          ],
+          "effectPlain": "+(43–60) 敏捷"
+        },
+        {
+          "modifierId": "1506207",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(15–20)"
+          ],
+          "effectPlain": "+(15–20) 敏捷"
+        },
+        {
+          "modifierId": "85062071",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(15–20)"
+          ],
+          "effectPlain": "+(15–20) 敏捷"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} 智慧",
+      "rolls": [
+        {
+          "modifierId": "109620001",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "进阶前缀",
+          "valueSpans": [
+            "+(43–60)"
+          ],
+          "effectPlain": "+(43–60) 智慧"
+        },
+        {
+          "modifierId": "1506208",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(15–20)"
+          ],
+          "effectPlain": "+(15–20) 智慧"
+        },
+        {
+          "modifierId": "85062081",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(15–20)"
+          ],
+          "effectPlain": "+(15–20) 智慧"
+        },
+        {
+          "modifierId": "51413731",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "恢弘群星法袍",
+          "valueSpans": [
+            "+60"
+          ],
+          "effectPlain": "+60 智慧"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} 最大护盾",
+      "rolls": [
+        {
+          "modifierId": "1506200",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [
+            "+(87–117)"
+          ],
+          "effectPlain": "+(87–117) 最大护盾"
+        },
+        {
+          "modifierId": "85062001",
+          "tier": 2,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [
+            "+(87–117)"
+          ],
+          "effectPlain": "+(87–117) 最大护盾"
+        },
+        {
+          "modifierId": "51412421",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "浸蚀壁垒",
+          "valueSpans": [
+            "+(1750–2000)"
+          ],
+          "effectPlain": "+(1750–2000) 最大护盾"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} 最大生命",
+      "rolls": [
+        {
+          "modifierId": "140721701",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "初阶前缀",
+          "valueSpans": [
+            "+(155–220)"
+          ],
+          "effectPlain": "+(155–220) 最大生命"
+        },
+        {
+          "modifierId": "51416311",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "创意作战服",
+          "valueSpans": [
+            "+(60–80)"
+          ],
+          "effectPlain": "+(60–80) 最大生命"
+        },
+        {
+          "modifierId": "51416531",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "擅断",
+          "valueSpans": [
+            "+(100–150)"
+          ],
+          "effectPlain": "+(100–150) 最大生命"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} 最大魔力",
+      "rolls": [
+        {
+          "modifierId": "104620301",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "初阶前缀",
+          "valueSpans": [
+            "+(85–120)"
+          ],
+          "effectPlain": "+(85–120) 最大魔力"
+        },
+        {
+          "modifierId": "51412431",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "浸蚀壁垒",
+          "valueSpans": [
+            "+1"
+          ],
+          "effectPlain": "+1 最大魔力"
+        },
+        {
+          "modifierId": "51415521",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "伊斯拉菲尔的悲愿",
+          "valueSpans": [
+            "+(120–144)"
+          ],
+          "effectPlain": "+(120–144) 最大魔力"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} 核心技能等级",
+      "rolls": [
+        {
+          "modifierId": "51411231",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "王魂护甲",
+          "valueSpans": [
+            "+1"
+          ],
+          "effectPlain": "+1 核心技能等级"
+        },
+        {
+          "modifierId": "51416621",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "舍本之痛",
+          "valueSpans": [
+            "+(1–3)"
+          ],
+          "effectPlain": "+(1–3) 核心技能等级"
+        },
+        {
+          "modifierId": "55411321",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "饮冰者的樊笼",
+          "valueSpans": [
+            "(-1–1)"
+          ],
+          "effectPlain": "(-1–1) 核心技能等级"
+        }
+      ]
+    },
+    {
+      "skeleton": "{#} 该装备护盾",
+      "rolls": [
+        {
+          "modifierId": "105620001",
+          "tier": 1,
+          "itemLevel": 86,
+          "weight": 100,
+          "affixType": "初阶前缀",
+          "valueSpans": [
+            "+(281–400)"
+          ],
+          "effectPlain": "+(281–400) 该装备护盾"
+        },
+        {
+          "modifierId": "51412111",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "不灭信仰",
+          "valueSpans": [
+            "+(120–272)"
+          ],
+          "effectPlain": "+(120–272) 该装备护盾"
+        },
+        {
+          "modifierId": "51412211",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "无限要塞",
+          "valueSpans": [
+            "+(204–238)"
+          ],
+          "effectPlain": "+(204–238) 该装备护盾"
+        },
+        {
+          "modifierId": "51413711",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "恢弘群星法袍",
+          "valueSpans": [
+            "+(270–280)"
+          ],
+          "effectPlain": "+(270–280) 该装备护盾"
+        },
+        {
+          "modifierId": "51413911",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "薄暮笼罩法袍",
+          "valueSpans": [
+            "+(238–272)"
+          ],
+          "effectPlain": "+(238–272) 该装备护盾"
+        },
+        {
+          "modifierId": "51415511",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "伊斯拉菲尔的悲愿",
+          "valueSpans": [
+            "+(170–238)"
+          ],
+          "effectPlain": "+(170–238) 该装备护盾"
+        },
+        {
+          "modifierId": "52410621",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "迸碎月光",
+          "valueSpans": [
+            "+(350–370)"
+          ],
+          "effectPlain": "+(350–370) 该装备护盾"
+        },
+        {
+          "modifierId": "55411311",
+          "tier": null,
+          "itemLevel": null,
+          "weight": null,
+          "affixType": "饮冰者的樊笼",
+          "valueSpans": [
+            "+(300–350)"
+          ],
+          "effectPlain": "+(300–350) 该装备护盾"
+        }
+      ]
+    },
+    {
+      "skeleton": "每 0.1 秒受到 10 点真实伤害",
+      "rolls": [
+        {
+          "modifierId": "1506217",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "基础词缀",
+          "valueSpans": [],
+          "effectPlain": "每 0.1 秒受到 10 点真实伤害"
+        },
+        {
+          "modifierId": "85062161",
+          "tier": 0,
+          "itemLevel": 1,
+          "weight": 1,
+          "affixType": "美梦词缀",
+          "valueSpans": [],
+          "effectPlain": "每 0.1 秒受到 10 点真实伤害"
+        }
+      ]
+    }
+  ],
+  "tierVariantGroupCount": 35
+}

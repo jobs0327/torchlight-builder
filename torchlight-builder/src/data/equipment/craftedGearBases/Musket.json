@@ -1,0 +1,190 @@
+{
+  "kind": "craftedGearBases",
+  "categorySlug": "Musket",
+  "categoryLabel": "Musket",
+  "sourceUrl": "https://tlidb.com/cn/Musket",
+  "fetchedAt": "2026-03-22T11:45:46Z",
+  "baseCount": 20,
+  "bases": [
+    {
+      "id": "Rusted_Rifle",
+      "name": "锈斑长枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Rusted_Rifle.webp",
+      "iconAlt": "IconEquipWeaponShotgunNorm001128",
+      "requiredLevel": 1,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Shotgun_Norm_001_128.webp"
+    },
+    {
+      "id": "Crude_Iron_Rifle",
+      "name": "粗铁长枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Crude_Iron_Rifle.webp",
+      "iconAlt": "IconEquipWeaponShotgunNorm002128",
+      "requiredLevel": 2,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Shotgun_Norm_002_128.webp"
+    },
+    {
+      "id": "Recruit's_Musket",
+      "name": "新兵火枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Recruit_s_Musket.webp",
+      "iconAlt": "IconEquipWeaponShotgunNorm003128",
+      "requiredLevel": 4,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Shotgun_Norm_003_128.webp"
+    },
+    {
+      "id": "Iron_Musket",
+      "name": "精铁火枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Iron_Musket.webp",
+      "iconAlt": "IconEquipWeaponShotgunNorm004128",
+      "requiredLevel": 9,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Shotgun_Norm_004_128.webp"
+    },
+    {
+      "id": "Wolf_Fang_Rifle",
+      "name": "狼牙长枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Wolf_Fang_Rifle.webp",
+      "iconAlt": "IconEquipWeaponShotgunNorm005128",
+      "requiredLevel": 14,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Shotgun_Norm_005_128.webp"
+    },
+    {
+      "id": "Blazing_Rifle",
+      "name": "炙热长枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Blazing_Rifle.webp",
+      "iconAlt": "IconEquipWeaponShotgunNorm001128",
+      "requiredLevel": 19,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Shotgun_Norm_001_128.webp"
+    },
+    {
+      "id": "Unpredictable_Rifle",
+      "name": "诡谲长枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Unpredictable_Rifle.webp",
+      "iconAlt": "IconEquipWeaponShotgunNorm002128",
+      "requiredLevel": 24,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Shotgun_Norm_002_128.webp"
+    },
+    {
+      "id": "Ripple_Rifle",
+      "name": "波纹长枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Ripple_Rifle.webp",
+      "iconAlt": "IconEquipWeaponShotgunNorm003128",
+      "requiredLevel": 29,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Shotgun_Norm_003_128.webp"
+    },
+    {
+      "id": "Eagle_Rifle",
+      "name": "白鹰长枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Eagle_Rifle.webp",
+      "iconAlt": "IconEquipWeaponShotgunNorm004128",
+      "requiredLevel": 34,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Shotgun_Norm_004_128.webp"
+    },
+    {
+      "id": "Toxic_Rifle",
+      "name": "险恶长枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Toxic_Rifle.webp",
+      "iconAlt": "IconEquipWeaponShotgunNorm005128",
+      "requiredLevel": 39,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Shotgun_Norm_005_128.webp"
+    },
+    {
+      "id": "Conflict_Rifle",
+      "name": "战争长枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Conflict_Rifle.webp",
+      "iconAlt": "IconEquipWeaponShotgunNorm001128",
+      "requiredLevel": 44,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Shotgun_Norm_001_128.webp"
+    },
+    {
+      "id": "Giant's_Rifle",
+      "name": "巨人长枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Giant_s_Rifle.webp",
+      "iconAlt": "IconEquipWeaponShotgunNorm002128",
+      "requiredLevel": 49,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Shotgun_Norm_002_128.webp"
+    },
+    {
+      "id": "War_Rifle",
+      "name": "激战长枪",
+      "iconUrl": "/assets/equipment/crafted-bases/War_Rifle.webp",
+      "iconAlt": "IconEquipWeaponShotgunNorm003128",
+      "requiredLevel": 54,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Shotgun_Norm_003_128.webp"
+    },
+    {
+      "id": "Scarlet_Rifle",
+      "name": "猩红长枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Scarlet_Rifle.webp",
+      "iconAlt": "IconEquipWeaponShotgunNorm004128",
+      "requiredLevel": 59,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Shotgun_Norm_004_128.webp"
+    },
+    {
+      "id": "Moonlight_Rifle",
+      "name": "月光长枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Moonlight_Rifle.webp",
+      "iconAlt": "IconEquipWeaponShotgunNorm005128",
+      "requiredLevel": 64,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Shotgun_Norm_005_128.webp"
+    },
+    {
+      "id": "Warlord's_Musket",
+      "name": "督军火枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Warlord_s_Musket.webp",
+      "iconAlt": "IconEquipWeaponShotgunNorm001128",
+      "requiredLevel": 68,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Shotgun_Norm_001_128.webp"
+    },
+    {
+      "id": "Imperial_Rifle",
+      "name": "帝国长枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Imperial_Rifle.webp",
+      "iconAlt": "IconEquipWeaponShotgunNorm005128",
+      "requiredLevel": 72,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Shotgun_Norm_005_128.webp"
+    },
+    {
+      "id": "Bannerlord's_Musket",
+      "name": "掌旗官火枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Bannerlord_s_Musket.webp",
+      "iconAlt": "IconEquipWeaponShotgunNorm001128",
+      "requiredLevel": 82,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Shotgun_Norm_001_128.webp"
+    },
+    {
+      "id": "Personal_Guard_Musket",
+      "name": "近卫军火枪",
+      "iconUrl": "/assets/equipment/crafted-bases/Personal_Guard_Musket.webp",
+      "iconAlt": "IconEquipWeaponShotgunNorm001128",
+      "requiredLevel": 84,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Shotgun_Norm_001_128.webp"
+    },
+    {
+      "id": "War_Repercussion_Musket",
+      "name": "战争残响火枪",
+      "iconUrl": "/assets/equipment/crafted-bases/War_Repercussion_Musket.webp",
+      "iconAlt": "IconEquipWeaponShotgunNorm001128",
+      "requiredLevel": 86,
+      "slotKind": "双手",
+      "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Shotgun_Norm_001_128.webp"
+    }
+  ]
+}
