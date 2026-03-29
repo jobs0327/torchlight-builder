@@ -2,79 +2,1676 @@
   "slug": "INT_Boots",
   "label": "INT Boots",
   "sourceUrl": "https://tlidb.com/cn/INT_Boots",
-  "fetchedAt": "2026-03-22T08:57:44Z",
-  "modifierCount": 135,
+  "fetchedAt": "2026-03-24T07:24:41Z",
+  "modifierCount": 366,
   "modifiers": [
     {
-      "modifierId": "1505200",
-      "tier": 2,
+      "modifierId": "60065211",
+      "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "智慧鞋子",
-      "effectPlain": "+(87–117) 最大护盾",
+      "effectPlain": "+(15–20) % 冷却回复速度",
       "valueSpans": [
-        "+(87–117)"
+        "+(15–20)"
       ]
     },
     {
-      "modifierId": "1505201",
-      "tier": 2,
+      "modifierId": "60065207",
+      "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "智慧鞋子",
-      "effectPlain": "+(4–6) % 护盾 充能 速度",
+      "effectPlain": "+(15–20) % 最大护盾",
       "valueSpans": [
-        "+(4–6)"
+        "+(15–20)"
       ]
     },
     {
-      "modifierId": "1505202",
-      "tier": 2,
+      "modifierId": "60065208",
+      "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "智慧鞋子",
-      "effectPlain": "+(5–10) % 火焰抗性",
+      "effectPlain": "+(15–20) % 最大生命",
       "valueSpans": [
-        "+(5–10)"
+        "+(15–20)"
       ]
     },
     {
-      "modifierId": "1505203",
-      "tier": 2,
+      "modifierId": "60065201",
+      "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "智慧鞋子",
-      "effectPlain": "+(5–10) % 冰冷抗性",
+      "effectPlain": "+(15–20) % 移动速度",
       "valueSpans": [
-        "+(5–10)"
+        "+(15–20)"
       ]
     },
     {
-      "modifierId": "1505204",
-      "tier": 2,
+      "modifierId": "60065203",
+      "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "智慧鞋子",
-      "effectPlain": "+(5–10) % 闪电抗性",
+      "effectPlain": "+(30–40) % 位移技能冷却回复速度",
       "valueSpans": [
-        "+(5–10)"
+        "+(30–40)"
       ]
     },
     {
-      "modifierId": "1505205",
+      "modifierId": "60065209",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "智慧鞋子",
+      "effectPlain": "+(30–50) % 该装备护盾",
+      "valueSpans": [
+        "+(30–50)"
+      ]
+    },
+    {
+      "modifierId": "60065210",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "智慧鞋子",
+      "effectPlain": "+(50–70) % 伤害",
+      "valueSpans": [
+        "+(50–70)"
+      ]
+    },
+    {
+      "modifierId": "60065202",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "智慧鞋子",
+      "effectPlain": "+1 灵动祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "60065213",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "智慧鞋子",
+      "effectPlain": "拥有 迅捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "60065212",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "智慧鞋子",
+      "effectPlain": "移动时，触发 20 级石肤术，间隔 2 秒",
+      "valueSpans": [
+        "20",
+        "2"
+      ]
+    },
+    {
+      "modifierId": "51444121",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "冰海涟漪",
+      "source": "智慧鞋子",
+      "effectPlain": "+(20–25) % 冰冷抗性",
+      "valueSpans": [
+        "+(20–25)"
+      ]
+    },
+    {
+      "modifierId": "51444111",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "冰海涟漪",
+      "source": "智慧鞋子",
+      "effectPlain": "+5 % 移动速度",
+      "valueSpans": [
+        "+5"
+      ]
+    },
+    {
+      "modifierId": "51444131",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "冰海涟漪",
+      "source": "智慧鞋子",
+      "effectPlain": "每有 1 层 法术迸发 上限， +(4–5) % 移动速度，最多 +(25–30) %",
+      "valueSpans": [
+        "+(4–5)",
+        "+(25–30)"
+      ]
+    },
+    {
+      "modifierId": "51444141",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "冰海涟漪",
+      "source": "智慧鞋子",
+      "effectPlain": "移动速度不高于基础值的 200 % 时， 法术迸发 上限 +1",
+      "valueSpans": [
+        "200",
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "104520380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(157–203) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(287–372) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105520080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(443–575) 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140522480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(79–100) % 暴击伤害减免",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105520180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(87–112) % 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(95–122) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(95–122) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104520300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(121–156) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(221–286) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105520000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(341–442) 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140522400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(61–78) % 暴击伤害减免",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105520100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(61–86) % 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(73–94) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(73–94) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(155–220) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105520001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(239–340) 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140522401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(43–60) % 暴击伤害减免",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105520101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(47–66) % 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(51–72) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(51–72) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104520301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(85–120) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721602",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(111–154) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105520002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(171–238) 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140522402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(31–42) % 暴击伤害减免",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(37–50) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(37–50) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105520102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(39–46) % 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104520302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(61–84) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105520003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(137–170) 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140522403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(25–30) % 暴击伤害减免",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105520103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(28–33) % 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(30–36) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(30–36) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104520303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(49–60) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721603",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(89–110) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105520004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(110–136) 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140522404",
+      "tier": 4,
+      "itemLevel": 72,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(19–24) % 暴击伤害减免",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105520104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(23–26) % 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(24–29) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(24–29) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104520304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(39–48) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721604",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(71–88) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(20–23) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(20–23) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105520105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(21–22) % 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104520305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(32–38) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721605",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(58–70) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105520005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(89–109) 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(15–19) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(15–19) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105520106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(18–20) % 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104520306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(25–31) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721606",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(45–57) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105520006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(69–88) 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(12–14) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(12–14) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104520307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(19–24) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721607",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(34–44) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105520007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(52–68) 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(157–203) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(36–46) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(36–46) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(36–46) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(36–46) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(66–85) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104520580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "移动时，每秒回复 5 % 护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(121–156) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(25–35) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(25–35) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(25–35) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(25–35) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(51–65) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104520500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "移动时，每秒回复 4 % 护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(19–27) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(19–27) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(19–27) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(19–27) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(36–50) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520501",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(87–120) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104520501",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "移动时，每秒回复 3 % 护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(16–19) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(16–19) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(16–19) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(16–19) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(26–35) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520502",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(62–86) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104520502",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "移动时，每秒回复 2 % 护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(11–14) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(11–14) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(11–14) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(11–14) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(21–25) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520503",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(45–61) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(17–20) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520504",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(30–44) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(9–11) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(9–11) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(9–11) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(9–11) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(14–16) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520505",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(20–29) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(7–9) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(7–9) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(7–9) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(7–9) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(11–13) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520506",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(14–19) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(6–7) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(6–7) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(6–7) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(6–7) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(9–10) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520507",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(9–13) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+5 % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+5 % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+5 % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108520207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+5 % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51441221",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "动力作战胫甲",
+      "source": "智慧鞋子",
+      "effectPlain": "+(14–16) % 冰冷抗性",
+      "valueSpans": [
+        "+(14–16)"
+      ]
+    },
+    {
+      "modifierId": "51441231",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "动力作战胫甲",
+      "source": "智慧鞋子",
+      "effectPlain": "+(20–30) % 移动速度",
+      "valueSpans": [
+        "+(20–30)"
+      ]
+    },
+    {
+      "modifierId": "51441211",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "动力作战胫甲",
+      "source": "智慧鞋子",
+      "effectPlain": "+272 该装备护盾",
+      "valueSpans": [
+        "+272"
+      ]
+    },
+    {
+      "modifierId": "51441261",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "动力作战胫甲",
+      "source": "智慧鞋子",
+      "effectPlain": "当前护盾低于 35 % 时，护盾充能无法被打断",
+      "valueSpans": [
+        "35"
+      ]
+    },
+    {
+      "modifierId": "51441251",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "动力作战胫甲",
+      "source": "智慧鞋子",
+      "effectPlain": "护盾充能时， +10 % 几率避免伤害",
+      "valueSpans": [
+        "+10"
+      ]
+    },
+    {
+      "modifierId": "51441241",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "动力作战胫甲",
+      "source": "智慧鞋子",
+      "effectPlain": "满护盾时， +20 % 移动速度",
+      "valueSpans": [
+        "+20"
+      ]
+    },
+    {
+      "modifierId": "51441551",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "君王恩赐",
+      "source": "智慧鞋子",
+      "effectPlain": "+(10–30) % 移动速度",
+      "valueSpans": [
+        "+(10–30)"
+      ]
+    },
+    {
+      "modifierId": "51441521",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "君王恩赐",
+      "source": "智慧鞋子",
+      "effectPlain": "+(16–22) % 冰冷抗性",
+      "valueSpans": [
+        "+(16–22)"
+      ]
+    },
+    {
+      "modifierId": "51441511",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "君王恩赐",
+      "source": "智慧鞋子",
+      "effectPlain": "+(170–238) 该装备护盾",
+      "valueSpans": [
+        "+(170–238)"
+      ]
+    },
+    {
+      "modifierId": "51441561",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "君王恩赐",
+      "source": "智慧鞋子",
+      "effectPlain": "[事半功倍] 额外 +30 % 持续伤害 额外 -10 % 持续伤害持续时间",
+      "valueSpans": [
+        "+30",
+        "-10"
+      ]
+    },
+    {
+      "modifierId": "51441531",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "君王恩赐",
+      "source": "智慧鞋子",
+      "effectPlain": "造成持续伤害时， 收割 0.3 秒持续伤害，该效果对同一目标有 6 秒回复时间",
+      "valueSpans": [
+        "0.3",
+        "6"
+      ]
+    },
+    {
+      "modifierId": "51441541",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "君王恩赐",
+      "source": "智慧鞋子",
+      "effectPlain": "额外 (-10–10) % 受到的持续伤害",
+      "valueSpans": [
+        "(-10–10)"
+      ]
+    },
+    {
+      "modifierId": "51441331",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "商会护卫战靴",
+      "source": "智慧鞋子",
+      "effectPlain": "+(20–30) % 移动速度",
+      "valueSpans": [
+        "+(20–30)"
+      ]
+    },
+    {
+      "modifierId": "51441321",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "商会护卫战靴",
+      "source": "智慧鞋子",
+      "effectPlain": "+(7–10) % 火焰与冰冷抗性",
+      "valueSpans": [
+        "+(7–10)"
+      ]
+    },
+    {
+      "modifierId": "51441311",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "商会护卫战靴",
+      "source": "智慧鞋子",
+      "effectPlain": "+75 最大生命和最大护盾",
+      "valueSpans": [
+        "+75"
+      ]
+    },
+    {
+      "modifierId": "51441361",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "商会护卫战靴",
+      "source": "智慧鞋子",
+      "effectPlain": "受到 重创 时， +20 % 几率获得 硬化屏障 ，持续 4 秒",
+      "valueSpans": [
+        "+20",
+        "4"
+      ]
+    },
+    {
+      "modifierId": "51441371",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "商会护卫战靴",
+      "source": "智慧鞋子",
+      "effectPlain": "造成 元素异常 状态时， +20 % 几率获得 兴奋屏障 ，持续 4 秒",
+      "valueSpans": [
+        "+20",
+        "4"
+      ]
+    },
+    {
+      "modifierId": "51441341",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "商会护卫战靴",
+      "source": "智慧鞋子",
+      "effectPlain": "释放防护技能时， +(10–20) % 几率获得屏障",
+      "valueSpans": [
+        "+(10–20)"
+      ]
+    },
+    {
+      "modifierId": "51441351",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "商会护卫战靴",
+      "source": "智慧鞋子",
+      "effectPlain": "释放防护技能时， +(10–20) % 几率触发 1 级重整阵势，间隔 0.5 秒",
+      "valueSpans": [
+        "+(10–20)"
+      ]
+    },
+    {
+      "modifierId": "1505217",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧鞋子",
+      "effectPlain": "(16–20) % 受到的物理伤害转化为冰冷伤害",
+      "valueSpans": [
+        "(16–20)"
+      ]
+    },
+    {
+      "modifierId": "1505213",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧鞋子",
+      "effectPlain": "(36–45) % 受到的腐蚀伤害转化为冰冷伤害",
+      "valueSpans": [
+        "(36–45)"
+      ]
+    },
+    {
+      "modifierId": "1505214",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧鞋子",
+      "effectPlain": "+(17–24) % 冷却回复速度",
+      "valueSpans": [
+        "+(17–24)"
+      ]
+    },
+    {
+      "modifierId": "1505212",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧鞋子",
+      "effectPlain": "+(20–25) % 移动速度",
+      "valueSpans": [
+        "+(20–25)"
+      ]
+    },
+    {
+      "modifierId": "1505215",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧鞋子",
+      "effectPlain": "+(3–5) % 元素 抗性上限",
+      "valueSpans": [
+        "+(3–5)"
+      ]
+    },
+    {
+      "modifierId": "1505211",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧鞋子",
+      "effectPlain": "+(5–7) % 护甲减伤穿透 召唤物 +(5–7) % 护甲减伤穿透",
+      "valueSpans": [
+        "+(5–7)",
+        "+(5–7)"
+      ]
+    },
+    {
+      "modifierId": "1505210",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧鞋子",
+      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透 召唤物 +(6–8) % 元素和腐蚀抗性穿透",
+      "valueSpans": [
+        "+(6–8)",
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1505216",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "基础词缀",
       "source": "智慧鞋子",
-      "effectPlain": "+(5–10) % 腐蚀抗性",
+      "effectPlain": "+(12–20) % 暴击伤害减免",
       "valueSpans": [
-        "+(5–10)"
+        "+(12–20)"
       ]
     },
     {
@@ -126,24 +1723,350 @@
       ]
     },
     {
-      "modifierId": "1505210",
-      "tier": 1,
+      "modifierId": "1505201",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "基础词缀",
       "source": "智慧鞋子",
-      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透 召唤物 +(6–8) % 元素和腐蚀抗性穿透",
+      "effectPlain": "+(4–6) % 护盾 充能 速度",
       "valueSpans": [
-        "+(6–8)",
-        "+(6–8)"
+        "+(4–6)"
       ]
     },
     {
-      "modifierId": "1505211",
-      "tier": 1,
+      "modifierId": "1505203",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "基础词缀",
+      "source": "智慧鞋子",
+      "effectPlain": "+(5–10) % 冰冷抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "1505202",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧鞋子",
+      "effectPlain": "+(5–10) % 火焰抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "1505205",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧鞋子",
+      "effectPlain": "+(5–10) % 腐蚀抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "1505204",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧鞋子",
+      "effectPlain": "+(5–10) % 闪电抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "1505200",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧鞋子",
+      "effectPlain": "+(87–117) 最大护盾",
+      "valueSpans": [
+        "+(87–117)"
+      ]
+    },
+    {
+      "modifierId": "51441611",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "失期",
+      "source": "智慧鞋子",
+      "effectPlain": "+(44–55) 最大生命",
+      "valueSpans": [
+        "+(44–55)"
+      ]
+    },
+    {
+      "modifierId": "51441651",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "失期",
+      "source": "智慧鞋子",
+      "effectPlain": "+(6–10) % 移动速度",
+      "valueSpans": [
+        "+(6–10)"
+      ]
+    },
+    {
+      "modifierId": "51441671",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "失期",
+      "source": "智慧鞋子",
+      "effectPlain": "每秒自然回复 (15–20) 生命",
+      "valueSpans": [
+        "(15–20)"
+      ]
+    },
+    {
+      "modifierId": "51441661",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "失期",
+      "source": "智慧鞋子",
+      "effectPlain": "非满护盾时， +20 % 移动速度",
+      "valueSpans": [
+        "+20"
+      ]
+    },
+    {
+      "modifierId": "54442841",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "御寒义肢",
+      "source": "智慧鞋子",
+      "effectPlain": "+(20–30) % 法术迸发 充能速度",
+      "valueSpans": [
+        "+(20–30)"
+      ]
+    },
+    {
+      "modifierId": "54442831",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "御寒义肢",
+      "source": "智慧鞋子",
+      "effectPlain": "+48 % 技能范围",
+      "valueSpans": [
+        "+48"
+      ]
+    },
+    {
+      "modifierId": "54442851",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "御寒义肢",
+      "source": "智慧鞋子",
+      "effectPlain": "-20 % 移动速度",
+      "valueSpans": [
+        "-20"
+      ]
+    },
+    {
+      "modifierId": "54442811",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "御寒义肢",
+      "source": "智慧鞋子",
+      "effectPlain": "使用位移技能时，触发一次 15 级冰环术，该效果有 1 秒间隔时间",
+      "valueSpans": [
+        "15",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "54442821",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "御寒义肢",
+      "source": "智慧鞋子",
+      "effectPlain": "使用位移技能时，触发一次 15 级寒霜地面，该效果有 1 秒间隔时间",
+      "valueSpans": [
+        "15",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "51441721",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "无尽斗志",
+      "source": "智慧鞋子",
+      "effectPlain": "若最近使用过引导技能， +(20–30) % 移动速度",
+      "valueSpans": [
+        "+(20–30)"
+      ]
+    },
+    {
+      "modifierId": "51441711",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "无尽斗志",
+      "source": "智慧鞋子",
+      "effectPlain": "若最近使用过引导技能，额外 (-10–-5) % 受到的伤害",
+      "valueSpans": [
+        "(-10–-5)"
+      ]
+    },
+    {
+      "modifierId": "51441731",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "无尽斗志",
+      "source": "智慧鞋子",
+      "effectPlain": "额外 +(7–10) % 引导技能伤害",
+      "valueSpans": [
+        "+(7–10)"
+      ]
+    },
+    {
+      "modifierId": "514439111",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "森罗行迹",
+      "source": "智慧鞋子",
+      "effectPlain": "自身每受 1 个 魔灵之源 影响， +(10–12) % 移动速度",
+      "valueSpans": [
+        "+(10–12)"
+      ]
+    },
+    {
+      "modifierId": "51443141",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "破空轻履",
+      "source": "智慧鞋子",
+      "effectPlain": "+40 最大生命",
+      "valueSpans": [
+        "+40"
+      ]
+    },
+    {
+      "modifierId": "51443111",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "破空轻履",
+      "source": "智慧鞋子",
+      "effectPlain": "-20 % 地面技能持续时间",
+      "valueSpans": [
+        "-20"
+      ]
+    },
+    {
+      "modifierId": "51443131",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "破空轻履",
+      "source": "智慧鞋子",
+      "effectPlain": "-30 % 玩家移动速度",
+      "valueSpans": [
+        "-30"
+      ]
+    },
+    {
+      "modifierId": "51443121",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "破空轻履",
+      "source": "智慧鞋子",
+      "effectPlain": "处于地面技能上时， +80 % 移动速度，持续 2 秒",
+      "valueSpans": [
+        "+80",
+        "2"
+      ]
+    },
+    {
+      "modifierId": "85052161",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧鞋子",
+      "effectPlain": "(16–20) % 受到的物理伤害转化为冰冷伤害",
+      "valueSpans": [
+        "(16–20)"
+      ]
+    },
+    {
+      "modifierId": "85052131",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧鞋子",
+      "effectPlain": "(36–45) % 受到的腐蚀伤害转化为冰冷伤害",
+      "valueSpans": [
+        "(36–45)"
+      ]
+    },
+    {
+      "modifierId": "85052141",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧鞋子",
+      "effectPlain": "+(17–24) % 冷却回复速度",
+      "valueSpans": [
+        "+(17–24)"
+      ]
+    },
+    {
+      "modifierId": "85052121",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧鞋子",
+      "effectPlain": "+(20–25) % 移动速度",
+      "valueSpans": [
+        "+(20–25)"
+      ]
+    },
+    {
+      "modifierId": "85052151",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧鞋子",
+      "effectPlain": "+(3–5) % 元素 抗性上限",
+      "valueSpans": [
+        "+(3–5)"
+      ]
+    },
+    {
+      "modifierId": "85052111",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
       "source": "智慧鞋子",
       "effectPlain": "+(5–7) % 护甲减伤穿透 召唤物 +(5–7) % 护甲减伤穿透",
       "valueSpans": [
@@ -152,778 +2075,16 @@
       ]
     },
     {
-      "modifierId": "1505212",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(20–25) % 移动速度",
-      "valueSpans": [
-        "+(20–25)"
-      ]
-    },
-    {
-      "modifierId": "1505213",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "智慧鞋子",
-      "effectPlain": "(36–45) % 受到的腐蚀伤害转化为冰冷伤害",
-      "valueSpans": [
-        "(36–45)"
-      ]
-    },
-    {
-      "modifierId": "1505214",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(17–24) % 冷却回复速度",
-      "valueSpans": [
-        "+(17–24)"
-      ]
-    },
-    {
-      "modifierId": "1505215",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(3–5) % 元素 抗性上限",
-      "valueSpans": [
-        "+(3–5)"
-      ]
-    },
-    {
-      "modifierId": "1505216",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(12–20) % 暴击伤害减免",
-      "valueSpans": [
-        "+(12–20)"
-      ]
-    },
-    {
-      "modifierId": "1505217",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "智慧鞋子",
-      "effectPlain": "(16–20) % 受到的物理伤害转化为冰冷伤害",
-      "valueSpans": [
-        "(16–20)"
-      ]
-    },
-    {
-      "modifierId": "60065201",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "智慧鞋子",
-      "effectPlain": "+(15–20) % 移动速度",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "60065202",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "智慧鞋子",
-      "effectPlain": "+1 灵动祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "60065203",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "智慧鞋子",
-      "effectPlain": "+(30–40) % 位移技能冷却回复速度",
-      "valueSpans": [
-        "+(30–40)"
-      ]
-    },
-    {
-      "modifierId": "60065207",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "智慧鞋子",
-      "effectPlain": "+(15–20) % 最大护盾",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "60065208",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "智慧鞋子",
-      "effectPlain": "+(15–20) % 最大生命",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "60065209",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "智慧鞋子",
-      "effectPlain": "+(30–50) % 该装备护盾",
-      "valueSpans": [
-        "+(30–50)"
-      ]
-    },
-    {
-      "modifierId": "60065210",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "智慧鞋子",
-      "effectPlain": "+(50–70) % 伤害",
-      "valueSpans": [
-        "+(50–70)"
-      ]
-    },
-    {
-      "modifierId": "60065211",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "智慧鞋子",
-      "effectPlain": "+(15–20) % 冷却回复速度",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "60065212",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "智慧鞋子",
-      "effectPlain": "移动时，触发 20 级石肤术，间隔 2 秒",
-      "valueSpans": [
-        "20",
-        "2"
-      ]
-    },
-    {
-      "modifierId": "60065213",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "智慧鞋子",
-      "effectPlain": "拥有 迅捷",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "104520301",
+      "modifierId": "85052101",
       "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(85–120) 最大魔力",
-      "valueSpans": [
-        "+(85–120)"
-      ]
-    },
-    {
-      "modifierId": "105520001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(239–340) 该装备护盾",
-      "valueSpans": [
-        "+(239–340)"
-      ]
-    },
-    {
-      "modifierId": "105520101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(47–66) % 该装备护盾",
-      "valueSpans": [
-        "+(47–66)"
-      ]
-    },
-    {
-      "modifierId": "140520001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(51–72) % 伤害",
-      "valueSpans": [
-        "+(51–72)"
-      ]
-    },
-    {
-      "modifierId": "140520301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(51–72) % 召唤物伤害",
-      "valueSpans": [
-        "+(51–72)"
-      ]
-    },
-    {
-      "modifierId": "140522401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(43–60) % 暴击伤害减免",
-      "valueSpans": [
-        "+(43–60)"
-      ]
-    },
-    {
-      "modifierId": "140721601",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(155–220) 最大生命",
-      "valueSpans": [
-        "+(155–220)"
-      ]
-    },
-    {
-      "modifierId": "104520101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(12–15) % 攻击与法术格挡率",
-      "valueSpans": [
-        "+(12–15)"
-      ]
-    },
-    {
-      "modifierId": "119520101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+1 冰冷技能等级",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "119520201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+1 召唤召唤物的技能等级",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "140520201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(33–45) % 投射物速度",
-      "valueSpans": [
-        "+(33–45)"
-      ]
-    },
-    {
-      "modifierId": "140520601",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+1 物理技能等级",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "140520701",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+1 火焰技能等级",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "140520801",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+1 闪电技能等级",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "140520901",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+1 腐蚀技能等级",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "140521401",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "智慧鞋子",
-      "effectPlain": "额外 +(12–15) % 最大护盾",
-      "valueSpans": [
-        "+(12–15)"
-      ]
-    },
-    {
-      "modifierId": "140521501",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "智慧鞋子",
-      "effectPlain": "每移动 (5–10) 米， 50 % 几率获得 迷踪",
-      "valueSpans": [
-        "(5–10)",
-        "50"
-      ]
-    },
-    {
-      "modifierId": "140521601",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(26–30) % 几率避免法术伤害",
-      "valueSpans": [
-        "+(26–30)"
-      ]
-    },
-    {
-      "modifierId": "140522101",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(21–30) % 法术迸发 充能速度 使用技能时， +10 % 几率立即获得 1 层 法术迸发 充能，间隔 0.03 秒",
-      "valueSpans": [
-        "+(21–30)",
-        "+10",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "140522201",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "智慧鞋子",
-      "effectPlain": "静止时， 触发 (6–10) 级瞄准，间隔 1 秒",
-      "valueSpans": [
-        "(6–10)",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "140522501",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "智慧鞋子",
-      "effectPlain": "(16–20) % 受到的物理伤害转化为冰冷伤害",
-      "valueSpans": [
-        "(16–20)"
-      ]
-    },
-    {
-      "modifierId": "140522601",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "智慧鞋子",
-      "effectPlain": "(36–45) % 受到的腐蚀伤害转化为冰冷伤害",
-      "valueSpans": [
-        "(36–45)"
-      ]
-    },
-    {
-      "modifierId": "140522901",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "智慧鞋子",
-      "effectPlain": "至少拥有 8000 点最大护盾时， 额外 -40 % 受到的持续伤害",
-      "valueSpans": [
-        "8000",
-        "-40"
-      ]
-    },
-    {
-      "modifierId": "140722601",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "智慧鞋子",
-      "effectPlain": "(15–20) % 的伤害优先抵扣魔力",
-      "valueSpans": [
-        "(15–20)"
-      ]
-    },
-    {
-      "modifierId": "104520501",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "智慧鞋子",
-      "effectPlain": "移动时，每秒回复 3 % 护盾",
-      "valueSpans": [
-        "3"
-      ]
-    },
-    {
-      "modifierId": "108520001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(19–27) % 火焰抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "108520101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(19–27) % 冰冷抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "108520201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(19–27) % 闪电抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "108520301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(19–27) % 腐蚀抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "140520401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(36–50) % 加剧 效果",
-      "valueSpans": [
-        "+(36–50)"
-      ]
-    },
-    {
-      "modifierId": "140520501",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(87–120) % 暴击值",
-      "valueSpans": [
-        "+(87–120)"
-      ]
-    },
-    {
-      "modifierId": "110520001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(29–40) % 移动速度",
-      "valueSpans": [
-        "+(29–40)"
-      ]
-    },
-    {
-      "modifierId": "140521101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(18–24) % 攻击与施法速度 +(18–24) % 召唤物攻击与施法速度",
-      "valueSpans": [
-        "+(18–24)",
-        "+(18–24)"
-      ]
-    },
-    {
-      "modifierId": "140521201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(44–60) % 暴击伤害",
-      "valueSpans": [
-        "+(44–60)"
-      ]
-    },
-    {
-      "modifierId": "140521301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(36–50) % 收割时间",
-      "valueSpans": [
-        "+(36–50)"
-      ]
-    },
-    {
-      "modifierId": "140522801",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "智慧鞋子",
-      "effectPlain": "拥有 迅捷 拥有 迅捷 时， +(5–8) % 攻击速度、施法速度和移动速度",
-      "valueSpans": [
-        "+(5–8)"
-      ]
-    },
-    {
-      "modifierId": "130520301",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(19–26) % 冷却回复速度",
-      "valueSpans": [
-        "+(19–26)"
-      ]
-    },
-    {
-      "modifierId": "140520101",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(59–83) % 收割 回复速度",
-      "valueSpans": [
-        "+(59–83)"
-      ]
-    },
-    {
-      "modifierId": "140521801",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "智慧鞋子",
-      "effectPlain": "每移动 6 米，获得 1 层 偏斜",
-      "valueSpans": [
-        "6",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "140521901",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "智慧鞋子",
-      "effectPlain": "移动时，额外 +(13–17) % 最大护盾",
-      "valueSpans": [
-        "+(13–17)"
-      ]
-    },
-    {
-      "modifierId": "140522301",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "智慧鞋子",
-      "effectPlain": "开始移动时， 触发 (6–10) 级迷踪步，间隔 1 秒",
-      "valueSpans": [
-        "(6–10)",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "140522701",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(30–45) % 几率避免 元素异常 状态",
-      "valueSpans": [
-        "+(30–45)"
-      ]
-    },
-    {
-      "modifierId": "85052001",
-      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "智慧鞋子",
-      "effectPlain": "+(87–117) 最大护盾",
+      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透 召唤物 +(6–8) % 元素和腐蚀抗性穿透",
       "valueSpans": [
-        "+(87–117)"
-      ]
-    },
-    {
-      "modifierId": "85052011",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(4–6) % 护盾 充能 速度",
-      "valueSpans": [
-        "+(4–6)"
-      ]
-    },
-    {
-      "modifierId": "85052021",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(5–10) % 火焰抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "85052031",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(5–10) % 冰冷抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "85052041",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(5–10) % 闪电抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "85052051",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "智慧鞋子",
-      "effectPlain": "+(5–10) % 腐蚀抗性",
-      "valueSpans": [
-        "+(5–10)"
+        "+(6–8)",
+        "+(6–8)"
       ]
     },
     {
@@ -975,113 +2136,75 @@
       ]
     },
     {
-      "modifierId": "85052101",
-      "tier": 1,
+      "modifierId": "85052011",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "智慧鞋子",
-      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透 召唤物 +(6–8) % 元素和腐蚀抗性穿透",
+      "effectPlain": "+(4–6) % 护盾 充能 速度",
       "valueSpans": [
-        "+(6–8)",
-        "+(6–8)"
+        "+(4–6)"
       ]
     },
     {
-      "modifierId": "85052111",
-      "tier": 1,
+      "modifierId": "85052031",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "智慧鞋子",
-      "effectPlain": "+(5–7) % 护甲减伤穿透 召唤物 +(5–7) % 护甲减伤穿透",
+      "effectPlain": "+(5–10) % 冰冷抗性",
       "valueSpans": [
-        "+(5–7)",
-        "+(5–7)"
+        "+(5–10)"
       ]
     },
     {
-      "modifierId": "85052121",
-      "tier": 0,
+      "modifierId": "85052021",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "智慧鞋子",
-      "effectPlain": "+(20–25) % 移动速度",
+      "effectPlain": "+(5–10) % 火焰抗性",
       "valueSpans": [
-        "+(20–25)"
+        "+(5–10)"
       ]
     },
     {
-      "modifierId": "85052131",
-      "tier": 0,
+      "modifierId": "85052051",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "智慧鞋子",
-      "effectPlain": "(36–45) % 受到的腐蚀伤害转化为冰冷伤害",
+      "effectPlain": "+(5–10) % 腐蚀抗性",
       "valueSpans": [
-        "(36–45)"
+        "+(5–10)"
       ]
     },
     {
-      "modifierId": "85052141",
-      "tier": 0,
+      "modifierId": "85052041",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "智慧鞋子",
-      "effectPlain": "+(17–24) % 冷却回复速度",
+      "effectPlain": "+(5–10) % 闪电抗性",
       "valueSpans": [
-        "+(17–24)"
+        "+(5–10)"
       ]
     },
     {
-      "modifierId": "85052151",
-      "tier": 0,
+      "modifierId": "85052001",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "智慧鞋子",
-      "effectPlain": "+(3–5) % 元素 抗性上限",
+      "effectPlain": "+(87–117) 最大护盾",
       "valueSpans": [
-        "+(3–5)"
-      ]
-    },
-    {
-      "modifierId": "85052161",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "智慧鞋子",
-      "effectPlain": "(16–20) % 受到的物理伤害转化为冰冷伤害",
-      "valueSpans": [
-        "(16–20)"
-      ]
-    },
-    {
-      "modifierId": "51441011",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "翩然之靴",
-      "source": "智慧鞋子",
-      "effectPlain": "+(130–180) 该装备护盾",
-      "valueSpans": [
-        "+(130–180)"
-      ]
-    },
-    {
-      "modifierId": "51441021",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "翩然之靴",
-      "source": "智慧鞋子",
-      "effectPlain": "+10 % 移动速度",
-      "valueSpans": [
-        "+10"
+        "+(87–117)"
       ]
     },
     {
@@ -1097,6 +2220,18 @@
       ]
     },
     {
+      "modifierId": "51441011",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "翩然之靴",
+      "source": "智慧鞋子",
+      "effectPlain": "+(130–180) 该装备护盾",
+      "valueSpans": [
+        "+(130–180)"
+      ]
+    },
+    {
       "modifierId": "51441041",
       "tier": null,
       "itemLevel": null,
@@ -1106,6 +2241,18 @@
       "effectPlain": "+(5–11) % 冰冷抗性",
       "valueSpans": [
         "+(5–11)"
+      ]
+    },
+    {
+      "modifierId": "51441021",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "翩然之靴",
+      "source": "智慧鞋子",
+      "effectPlain": "+10 % 移动速度",
+      "valueSpans": [
+        "+10"
       ]
     },
     {
@@ -1133,382 +2280,1564 @@
       ]
     },
     {
-      "modifierId": "51441211",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "动力作战胫甲",
-      "source": "智慧鞋子",
-      "effectPlain": "+272 该装备护盾",
-      "valueSpans": [
-        "+272"
-      ]
+      "modifierId": "140722680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "(27–34) % 的伤害优先抵扣魔力",
+      "valueSpans": []
     },
     {
-      "modifierId": "51441221",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "动力作战胫甲",
-      "source": "智慧鞋子",
-      "effectPlain": "+(14–16) % 冰冷抗性",
-      "valueSpans": [
-        "+(14–16)"
-      ]
+      "modifierId": "140522580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "(27–35) % 受到的物理伤害转化为冰冷伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "51441231",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "动力作战胫甲",
-      "source": "智慧鞋子",
-      "effectPlain": "+(20–30) % 移动速度",
-      "valueSpans": [
-        "+(20–30)"
-      ]
+      "modifierId": "140522680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "(63–77) % 受到的腐蚀伤害转化为冰冷伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "51441241",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "动力作战胫甲",
-      "source": "智慧鞋子",
-      "effectPlain": "满护盾时， +20 % 移动速度",
-      "valueSpans": [
-        "+20"
-      ]
+      "modifierId": "140521680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(41–50) % 几率避免法术伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "51441251",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "动力作战胫甲",
-      "source": "智慧鞋子",
-      "effectPlain": "护盾充能时， +10 % 几率避免伤害",
-      "valueSpans": [
-        "+10"
-      ]
+      "modifierId": "140522180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(41–50) % 法术迸发 充能速度 使用技能时， +10 % 几率立即获得 1 层 法术迸发 充能，间隔 0.03 秒",
+      "valueSpans": []
     },
     {
-      "modifierId": "51441261",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "动力作战胫甲",
-      "source": "智慧鞋子",
-      "effectPlain": "当前护盾低于 35 % 时，护盾充能无法被打断",
-      "valueSpans": [
-        "35"
-      ]
+      "modifierId": "140521580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "每移动 (5–10) 米， 100 % 几率获得 迷踪",
+      "valueSpans": []
     },
     {
-      "modifierId": "51441311",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "商会护卫战靴",
-      "source": "智慧鞋子",
-      "effectPlain": "+75 最大生命和最大护盾",
-      "valueSpans": [
-        "+75"
-      ]
+      "modifierId": "140522980",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "至少拥有 8000 点最大护盾时， 额外 -50 % 受到的持续伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "51441321",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "商会护卫战靴",
-      "source": "智慧鞋子",
-      "effectPlain": "+(7–10) % 火焰与冰冷抗性",
-      "valueSpans": [
-        "+(7–10)"
-      ]
+      "modifierId": "140522280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "静止时， 触发 (21–30) 级瞄准，间隔 1 秒",
+      "valueSpans": []
     },
     {
-      "modifierId": "51441331",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "商会护卫战靴",
-      "source": "智慧鞋子",
-      "effectPlain": "+(20–30) % 移动速度",
-      "valueSpans": [
-        "+(20–30)"
-      ]
+      "modifierId": "140521480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "额外 +(21–25) % 最大护盾",
+      "valueSpans": []
     },
     {
-      "modifierId": "51441341",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "商会护卫战靴",
-      "source": "智慧鞋子",
-      "effectPlain": "释放防护技能时， +(10–20) % 几率获得屏障",
-      "valueSpans": [
-        "+(10–20)"
-      ]
+      "modifierId": "140522500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "(21–26) % 受到的物理伤害转化为冰冷伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "51441351",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "商会护卫战靴",
-      "source": "智慧鞋子",
-      "effectPlain": "释放防护技能时， +(10–20) % 几率触发 1 级重整阵势，间隔 0.5 秒",
-      "valueSpans": [
-        "+(10–20)"
-      ]
+      "modifierId": "140722600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "(21–26) % 的伤害优先抵扣魔力",
+      "valueSpans": []
     },
     {
-      "modifierId": "51441361",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "商会护卫战靴",
-      "source": "智慧鞋子",
-      "effectPlain": "受到 重创 时， +20 % 几率获得 硬化屏障 ，持续 4 秒",
-      "valueSpans": [
-        "+20",
-        "4"
-      ]
+      "modifierId": "140522600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "(46–60) % 受到的腐蚀伤害转化为冰冷伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "51441371",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "商会护卫战靴",
-      "source": "智慧鞋子",
-      "effectPlain": "造成 元素异常 状态时， +20 % 几率获得 兴奋屏障 ，持续 4 秒",
-      "valueSpans": [
-        "+20",
-        "4"
-      ]
+      "modifierId": "140521600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(31–40) % 几率避免法术伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "51441511",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "君王恩赐",
-      "source": "智慧鞋子",
-      "effectPlain": "+(170–238) 该装备护盾",
-      "valueSpans": [
-        "+(170–238)"
-      ]
+      "modifierId": "140522100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(31–40) % 法术迸发 充能速度 使用技能时， +10 % 几率立即获得 1 层 法术迸发 充能，间隔 0.03 秒",
+      "valueSpans": []
     },
     {
-      "modifierId": "51441521",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "君王恩赐",
-      "source": "智慧鞋子",
-      "effectPlain": "+(16–22) % 冰冷抗性",
-      "valueSpans": [
-        "+(16–22)"
-      ]
+      "modifierId": "140521500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "每移动 (5–10) 米， 70 % 几率获得 迷踪",
+      "valueSpans": []
     },
     {
-      "modifierId": "51441531",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "君王恩赐",
-      "source": "智慧鞋子",
-      "effectPlain": "造成持续伤害时， 收割 0.3 秒持续伤害，该效果对同一目标有 6 秒回复时间",
-      "valueSpans": [
-        "0.3",
-        "6"
-      ]
+      "modifierId": "140522900",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "至少拥有 8000 点最大护盾时， 额外 -45 % 受到的持续伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "51441541",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "君王恩赐",
-      "source": "智慧鞋子",
-      "effectPlain": "额外 (-10–10) % 受到的持续伤害",
-      "valueSpans": [
-        "(-10–10)"
-      ]
+      "modifierId": "140522200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "静止时， 触发 (11–20) 级瞄准，间隔 1 秒",
+      "valueSpans": []
     },
     {
-      "modifierId": "51441551",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "君王恩赐",
-      "source": "智慧鞋子",
-      "effectPlain": "+(10–30) % 移动速度",
-      "valueSpans": [
-        "+(10–30)"
-      ]
+      "modifierId": "140521400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "额外 +(16–20) % 最大护盾",
+      "valueSpans": []
     },
     {
-      "modifierId": "51441561",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "君王恩赐",
-      "source": "智慧鞋子",
-      "effectPlain": "[事半功倍] 额外 +30 % 持续伤害 额外 -10 % 持续伤害持续时间",
-      "valueSpans": [
-        "+30",
-        "-10"
-      ]
+      "modifierId": "140722601",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "(15–20) % 的伤害优先抵扣魔力",
+      "valueSpans": []
     },
     {
-      "modifierId": "51441611",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "失期",
-      "source": "智慧鞋子",
-      "effectPlain": "+(44–55) 最大生命",
-      "valueSpans": [
-        "+(44–55)"
-      ]
+      "modifierId": "140522501",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "(16–20) % 受到的物理伤害转化为冰冷伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "51441671",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "失期",
-      "source": "智慧鞋子",
-      "effectPlain": "每秒自然回复 (15–20) 生命",
-      "valueSpans": [
-        "(15–20)"
-      ]
+      "modifierId": "140522601",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "(36–45) % 受到的腐蚀伤害转化为冰冷伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "51441651",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "失期",
-      "source": "智慧鞋子",
-      "effectPlain": "+(6–10) % 移动速度",
-      "valueSpans": [
-        "+(6–10)"
-      ]
+      "modifierId": "140522101",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(21–30) % 法术迸发 充能速度 使用技能时， +10 % 几率立即获得 1 层 法术迸发 充能，间隔 0.03 秒",
+      "valueSpans": []
     },
     {
-      "modifierId": "51441661",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "失期",
-      "source": "智慧鞋子",
-      "effectPlain": "非满护盾时， +20 % 移动速度",
-      "valueSpans": [
-        "+20"
-      ]
+      "modifierId": "140521601",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(26–30) % 几率避免法术伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "51441711",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "无尽斗志",
-      "source": "智慧鞋子",
-      "effectPlain": "若最近使用过引导技能，额外 (-10–-5) % 受到的伤害",
-      "valueSpans": [
-        "(-10–-5)"
-      ]
+      "modifierId": "140521501",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "每移动 (5–10) 米， 50 % 几率获得 迷踪",
+      "valueSpans": []
     },
     {
-      "modifierId": "51441721",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "无尽斗志",
-      "source": "智慧鞋子",
-      "effectPlain": "若最近使用过引导技能， +(20–30) % 移动速度",
-      "valueSpans": [
-        "+(20–30)"
-      ]
+      "modifierId": "140522901",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "至少拥有 8000 点最大护盾时， 额外 -40 % 受到的持续伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "51441731",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "无尽斗志",
-      "source": "智慧鞋子",
-      "effectPlain": "额外 +(7–10) % 引导技能伤害",
-      "valueSpans": [
-        "+(7–10)"
-      ]
+      "modifierId": "140522201",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "静止时， 触发 (6–10) 级瞄准，间隔 1 秒",
+      "valueSpans": []
     },
     {
-      "modifierId": "54442811",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "御寒义肢",
-      "source": "智慧鞋子",
-      "effectPlain": "使用位移技能时，触发一次 15 级冰环术，该效果有 1 秒间隔时间",
-      "valueSpans": [
-        "15",
-        "1"
-      ]
+      "modifierId": "140521401",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "额外 +(12–15) % 最大护盾",
+      "valueSpans": []
     },
     {
-      "modifierId": "54442821",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "御寒义肢",
-      "source": "智慧鞋子",
-      "effectPlain": "使用位移技能时，触发一次 15 级寒霜地面，该效果有 1 秒间隔时间",
-      "valueSpans": [
-        "15",
-        "1"
-      ]
+      "modifierId": "140722602",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "(11–14) % 的伤害优先抵扣魔力",
+      "valueSpans": []
     },
     {
-      "modifierId": "54442831",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "御寒义肢",
-      "source": "智慧鞋子",
-      "effectPlain": "+48 % 技能范围",
-      "valueSpans": [
-        "+48"
-      ]
+      "modifierId": "140522502",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "(12–15) % 受到的物理伤害转化为冰冷伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "54442841",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "御寒义肢",
-      "source": "智慧鞋子",
-      "effectPlain": "+(20–30) % 法术迸发 充能速度",
-      "valueSpans": [
-        "+(20–30)"
-      ]
+      "modifierId": "140522602",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "(27–35) % 受到的腐蚀伤害转化为冰冷伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "54442851",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "御寒义肢",
-      "source": "智慧鞋子",
-      "effectPlain": "-20 % 移动速度",
-      "valueSpans": [
-        "-20"
-      ]
+      "modifierId": "140522102",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(10–20) % 法术迸发 充能速度 使用技能时， +10 % 几率立即获得 1 层 法术迸发 充能，间隔 0.03 秒",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521602",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(21–25) % 几率避免法术伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140522902",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "至少拥有 8000 点最大护盾时， 额外 -35 % 受到的持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140522202",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "静止时， 触发 (1–5) 级瞄准，间隔 1 秒",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521402",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "额外 +(9–11) % 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722603",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "(8–10) % 的伤害优先抵扣魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521603",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(16–20) % 几率避免法术伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140522903",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "至少拥有 8000 点最大护盾时， 额外 -30 % 受到的持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521403",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "额外 +(7–8) % 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722604",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "(6–7) % 的伤害优先抵扣魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521604",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(10–15) % 几率避免法术伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140522904",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "至少拥有 8000 点最大护盾时， 额外 -25 % 受到的持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521404",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "额外 +6 % 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722605",
+      "tier": 5,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "(4–5) % 的伤害优先抵扣魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521605",
+      "tier": 5,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "+8 % 几率避免法术伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140522905",
+      "tier": 5,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "至少拥有 8000 点最大护盾时， 额外 -20 % 受到的持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521405",
+      "tier": 5,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "额外 +5 % 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521606",
+      "tier": 6,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "+6 % 几率避免法术伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722606",
+      "tier": 6,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "3 % 的伤害优先抵扣魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140522906",
+      "tier": 6,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "至少拥有 8000 点最大护盾时， 额外 -15 % 受到的持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521406",
+      "tier": 6,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "额外 +4 % 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521607",
+      "tier": 7,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "+4 % 几率避免法术伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722607",
+      "tier": 7,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "2 % 的伤害优先抵扣魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140522907",
+      "tier": 7,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "至少拥有 8000 点最大护盾时， 额外 -10 % 受到的持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521407",
+      "tier": 7,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻前缀",
+      "source": "INT Boots",
+      "effectPlain": "额外 +3 % 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(109–140) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130520380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(35–44) % 冷却回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140522780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(71–85) % 几率避免 元素异常 状态",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140522380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "开始移动时， 触发 (21–30) 级迷踪步，间隔 1 秒",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "每移动 4 米，获得 1 层 偏斜",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521980",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "移动时，额外 +(23–29) % 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130520300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(27–34) % 冷却回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140522700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(50–68) % 几率避免 元素异常 状态",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(84–108) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140522300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "开始移动时， 触发 (11–20) 级迷踪步，间隔 1 秒",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521800",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "每移动 5 米，获得 1 层 偏斜",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521900",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "移动时，额外 +(18–22) % 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130520301",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(19–26) % 冷却回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140522701",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(30–45) % 几率避免 元素异常 状态",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520101",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(59–83) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140522301",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "开始移动时， 触发 (6–10) 级迷踪步，间隔 1 秒",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521801",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "每移动 6 米，获得 1 层 偏斜",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521901",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "移动时，额外 +(13–17) % 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130520302",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(14–18) % 冷却回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140522702",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(21–27) % 几率避免 元素异常 状态",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520102",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(43–58) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140522302",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "开始移动时， 触发 (1–5) 级迷踪步，间隔 1 秒",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521902",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "移动时，额外 +(10–12) % 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130520303",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(11–13) % 冷却回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520103",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(34–42) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521903",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "移动时，额外 +(8–9) % 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521904",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "移动时，额外 +(6–7) % 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521905",
+      "tier": 5,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "移动时，额外 +5 % 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521906",
+      "tier": 6,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "移动时，额外 +4 % 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521907",
+      "tier": 7,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻后缀",
+      "source": "INT Boots",
+      "effectPlain": "移动时，额外 +3 % 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104520180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(21–25) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(60–76) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "119520180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+3 冰冷技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "119520280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+3 召唤召唤物的技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+3 火焰技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+3 物理技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520980",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+3 腐蚀技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+3 闪电技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104520100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(16–20) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(46–59) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "119520100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+2 冰冷技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "119520200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+2 召唤召唤物的技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+2 火焰技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+2 物理技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520900",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+2 腐蚀技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520800",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+2 闪电技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104520101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(12–15) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(33–45) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "119520101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+1 冰冷技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "119520201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+1 召唤召唤物的技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520701",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+1 火焰技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+1 物理技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520901",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+1 腐蚀技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520801",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+1 闪电技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(24–32) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104520102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(9–11) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(17–23) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104520103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(7–8) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(12–16) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(8–11) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(6–7) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140520207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "INT Boots",
+      "effectPlain": "+(4–5) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(32–41) % 攻击与施法速度 +(32–41) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110520080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(53–68) % 移动速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(66–85) % 收割时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(79–101) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140522880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "拥有 迅捷 拥有 迅捷 时， +(15–18) % 攻击速度、施法速度和移动速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(25–31) % 攻击与施法速度 +(25–31) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110520000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(41–52) % 移动速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(51–65) % 收割时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(61–78) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140522800",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "拥有 迅捷 拥有 迅捷 时， +(9–12) % 攻击速度、施法速度和移动速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(18–24) % 攻击与施法速度 +(18–24) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110520001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(29–40) % 移动速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(36–50) % 收割时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(44–60) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140522801",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "拥有 迅捷 拥有 迅捷 时， +(5–8) % 攻击速度、施法速度和移动速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(13–17) % 攻击与施法速度 +(13–17) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110520002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(21–28) % 移动速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(26–35) % 收割时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(32–43) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(10–12) % 攻击与施法速度 +(10–12) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110520003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(17–20) % 移动速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(21–25) % 收割时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(23–31) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110520004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(14–16) % 移动速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(16–22) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(17–20) % 收割时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(7–9) % 攻击与施法速度 +(7–9) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110520005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(11–13) % 移动速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(11–15) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(14–16) % 收割时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(5–6) % 攻击与施法速度 +(5–6) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(11–13) % 收割时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(7–10) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110520006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(9–10) % 移动速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+4 % 攻击与施法速度 +4 % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(5–6) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110520007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(7–8) % 移动速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+(9–10) % 收割时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140521107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "INT Boots",
+      "effectPlain": "+3 % 攻击与施法速度 +3 % 召唤物攻击与施法速度",
+      "valueSpans": []
     },
     {
       "modifierId": "51443011",
@@ -1533,147 +3862,9 @@
       "valueSpans": [
         "30"
       ]
-    },
-    {
-      "modifierId": "51443111",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "破空轻履",
-      "source": "智慧鞋子",
-      "effectPlain": "-20 % 地面技能持续时间",
-      "valueSpans": [
-        "-20"
-      ]
-    },
-    {
-      "modifierId": "51443121",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "破空轻履",
-      "source": "智慧鞋子",
-      "effectPlain": "处于地面技能上时， +80 % 移动速度，持续 2 秒",
-      "valueSpans": [
-        "+80",
-        "2"
-      ]
-    },
-    {
-      "modifierId": "51443131",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "破空轻履",
-      "source": "智慧鞋子",
-      "effectPlain": "-30 % 玩家移动速度",
-      "valueSpans": [
-        "-30"
-      ]
-    },
-    {
-      "modifierId": "51443141",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "破空轻履",
-      "source": "智慧鞋子",
-      "effectPlain": "+40 最大生命",
-      "valueSpans": [
-        "+40"
-      ]
-    },
-    {
-      "modifierId": "514439111",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "森罗行迹",
-      "source": "智慧鞋子",
-      "effectPlain": "自身每受 1 个 魔灵之源 影响， +(10–12) % 移动速度",
-      "valueSpans": [
-        "+(10–12)"
-      ]
-    },
-    {
-      "modifierId": "51444111",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "冰海涟漪",
-      "source": "智慧鞋子",
-      "effectPlain": "+5 % 移动速度",
-      "valueSpans": [
-        "+5"
-      ]
-    },
-    {
-      "modifierId": "51444121",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "冰海涟漪",
-      "source": "智慧鞋子",
-      "effectPlain": "+(20–25) % 冰冷抗性",
-      "valueSpans": [
-        "+(20–25)"
-      ]
-    },
-    {
-      "modifierId": "51444131",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "冰海涟漪",
-      "source": "智慧鞋子",
-      "effectPlain": "每有 1 层 法术迸发 上限， +(4–5) % 移动速度，最多 +(25–30) %",
-      "valueSpans": [
-        "+(4–5)",
-        "+(25–30)"
-      ]
-    },
-    {
-      "modifierId": "51444141",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "冰海涟漪",
-      "source": "智慧鞋子",
-      "effectPlain": "移动速度不高于基础值的 200 % 时， 法术迸发 上限 +1",
-      "valueSpans": [
-        "200",
-        "+1"
-      ]
     }
   ],
   "tierVariantGroups": [
-    {
-      "skeleton": "{#} % 伤害",
-      "rolls": [
-        {
-          "modifierId": "60065210",
-          "tier": 0,
-          "itemLevel": 1,
-          "weight": 1,
-          "affixType": "侵蚀基底",
-          "valueSpans": [
-            "+(50–70)"
-          ],
-          "effectPlain": "+(50–70) % 伤害"
-        },
-        {
-          "modifierId": "140520001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(51–72)"
-          ],
-          "effectPlain": "+(51–72) % 伤害"
-        }
-      ]
-    },
     {
       "skeleton": "{#} % 元素 抗性上限",
       "rolls": [
@@ -1733,17 +3924,6 @@
     {
       "skeleton": "{#} % 冰冷抗性",
       "rolls": [
-        {
-          "modifierId": "108520101",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 冰冷抗性"
-        },
         {
           "modifierId": "1505203",
           "tier": 2,
@@ -1847,17 +4027,6 @@
             "+(17–24)"
           ],
           "effectPlain": "+(17–24) % 冷却回复速度"
-        },
-        {
-          "modifierId": "130520301",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻后缀",
-          "valueSpans": [
-            "+(19–26)"
-          ],
-          "effectPlain": "+(19–26) % 冷却回复速度"
         }
       ]
     },
@@ -1885,17 +4054,6 @@
             "(16–20)"
           ],
           "effectPlain": "(16–20) % 受到的物理伤害转化为冰冷伤害"
-        },
-        {
-          "modifierId": "140522501",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻前缀",
-          "valueSpans": [
-            "(16–20)"
-          ],
-          "effectPlain": "(16–20) % 受到的物理伤害转化为冰冷伤害"
         }
       ]
     },
@@ -1919,17 +4077,6 @@
           "itemLevel": 1,
           "weight": 1,
           "affixType": "美梦词缀",
-          "valueSpans": [
-            "(36–45)"
-          ],
-          "effectPlain": "(36–45) % 受到的腐蚀伤害转化为冰冷伤害"
-        },
-        {
-          "modifierId": "140522601",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻前缀",
           "valueSpans": [
             "(36–45)"
           ],
@@ -2032,46 +4179,8 @@
       ]
     },
     {
-      "skeleton": "{#} % 暴击伤害减免",
-      "rolls": [
-        {
-          "modifierId": "140522401",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(43–60)"
-          ],
-          "effectPlain": "+(43–60) % 暴击伤害减免"
-        },
-        {
-          "modifierId": "1505216",
-          "tier": 2,
-          "itemLevel": 1,
-          "weight": 1,
-          "affixType": "基础词缀",
-          "valueSpans": [
-            "+(12–20)"
-          ],
-          "effectPlain": "+(12–20) % 暴击伤害减免"
-        }
-      ]
-    },
-    {
       "skeleton": "{#} % 火焰抗性",
       "rolls": [
-        {
-          "modifierId": "108520001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 火焰抗性"
-        },
         {
           "modifierId": "1505202",
           "tier": 2,
@@ -2131,17 +4240,6 @@
             "+(20–25)"
           ],
           "effectPlain": "+(20–25) % 移动速度"
-        },
-        {
-          "modifierId": "110520001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶后缀",
-          "valueSpans": [
-            "+(29–40)"
-          ],
-          "effectPlain": "+(29–40) % 移动速度"
         },
         {
           "modifierId": "51441021",
@@ -2237,17 +4335,6 @@
       "skeleton": "{#} % 腐蚀抗性",
       "rolls": [
         {
-          "modifierId": "108520301",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 腐蚀抗性"
-        },
-        {
           "modifierId": "1505205",
           "tier": 2,
           "itemLevel": 1,
@@ -2272,46 +4359,8 @@
       ]
     },
     {
-      "skeleton": "{#} % 该装备护盾",
-      "rolls": [
-        {
-          "modifierId": "60065209",
-          "tier": 0,
-          "itemLevel": 1,
-          "weight": 1,
-          "affixType": "侵蚀基底",
-          "valueSpans": [
-            "+(30–50)"
-          ],
-          "effectPlain": "+(30–50) % 该装备护盾"
-        },
-        {
-          "modifierId": "105520101",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(47–66)"
-          ],
-          "effectPlain": "+(47–66) % 该装备护盾"
-        }
-      ]
-    },
-    {
       "skeleton": "{#} % 闪电抗性",
       "rolls": [
-        {
-          "modifierId": "108520201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 闪电抗性"
-        },
         {
           "modifierId": "1505204",
           "tier": 2,
@@ -2459,17 +4508,6 @@
       "skeleton": "{#} 最大生命",
       "rolls": [
         {
-          "modifierId": "140721601",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(155–220)"
-          ],
-          "effectPlain": "+(155–220) 最大生命"
-        },
-        {
           "modifierId": "51441611",
           "tier": null,
           "itemLevel": null,
@@ -2496,17 +4534,6 @@
     {
       "skeleton": "{#} 该装备护盾",
       "rolls": [
-        {
-          "modifierId": "105520001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(239–340)"
-          ],
-          "effectPlain": "+(239–340) 该装备护盾"
-        },
         {
           "modifierId": "51441011",
           "tier": null,
@@ -2543,5 +4570,5 @@
       ]
     }
   ],
-  "tierVariantGroupCount": 22
+  "tierVariantGroupCount": 19
 }

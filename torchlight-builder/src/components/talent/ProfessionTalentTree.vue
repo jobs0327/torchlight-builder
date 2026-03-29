@@ -504,15 +504,8 @@ function onNodeClick(node: ProfessionTalentNode) {
 
 function onNodeRightClick(node: ProfessionTalentNode, event: MouseEvent) {
   event.preventDefault()
+  // 减点校验与提示统一由 store.deallocateNode 处理（含后续层依赖检测）
   if (node.currentPoints > 0) {
-    const hasAllocatedChildren = props.tree.nodes.some(n => 
-      n.connections.includes(node.id) &&
-      n.currentPoints > 0 &&
-      // 只把「在纵向后面的」节点视为后续节点，避免双向连接导致互相锁死
-      n.position.col > (node.position.col ?? 0)
-    )
-    // 规则同 store：如果当前节点是「前置」，且有后续已分配点，则完全禁止减点
-    if (hasAllocatedChildren) return
     emit('deallocate', node.id)
   }
 }

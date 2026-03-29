@@ -99,15 +99,15 @@ const FREQ_TO_DAMAGE_COEF = [1, 1.15, 1.3, 1.45, 1.6]
 // 我没蓝了：每次消耗魔力，额外 (+5/6.3/7.5/8.8/10)% 你和时空幻象伤害，最多叠加 10 次
 const MANA_DRAIN_DAMAGE_COEF = [5, 6.3, 7.5, 8.8, 10]
 
-const freqTraitLevel = ref<number>(5)
+const freqTraitLevel = ref<number>(3)
 const cooldownRecoveryPct = ref<number>(0) // 比如 10 表示 +10% 冷却回复速度
 
-const castSpeedTraitLevel = ref<number>(5)
+const castSpeedTraitLevel = ref<number>(3)
 const castSpeedBonusPct = ref<number>(150)
 
-const blueTraitLevel = ref<number>(5)
+const blueTraitLevel = ref<number>(3)
 
-const manaDrainTraitLevel = ref<number>(5)
+const manaDrainTraitLevel = ref<number>(3)
 const manaDrainStacks = ref<number>(6)
 
 const totalFreqBonusPct = computed(() => {

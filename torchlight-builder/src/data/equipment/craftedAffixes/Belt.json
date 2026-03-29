@@ -2,251 +2,17 @@
   "slug": "Belt",
   "label": "Belt",
   "sourceUrl": "https://tlidb.com/cn/Belt",
-  "fetchedAt": "2026-03-22T09:00:09Z",
-  "modifierCount": 206,
+  "fetchedAt": "2026-03-24T07:26:58Z",
+  "modifierCount": 435,
   "modifiers": [
     {
-      "modifierId": "1502300",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "腰带",
-      "effectPlain": "+(54–74) 最大生命",
-      "valueSpans": [
-        "+(54–74)"
-      ]
-    },
-    {
-      "modifierId": "1502301",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "腰带",
-      "effectPlain": "+(40–60) 最大魔力",
-      "valueSpans": [
-        "+(40–60)"
-      ]
-    },
-    {
-      "modifierId": "1502302",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "腰带",
-      "effectPlain": "+(87–117) 最大护盾",
-      "valueSpans": [
-        "+(87–117)"
-      ]
-    },
-    {
-      "modifierId": "1502303",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "腰带",
-      "effectPlain": "+(5–10) % 火焰抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "1502304",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "腰带",
-      "effectPlain": "+(5–10) % 冰冷抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "1502305",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "腰带",
-      "effectPlain": "+(5–10) % 闪电抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "1502306",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "腰带",
-      "effectPlain": "+(5–10) % 腐蚀抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "1502310",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "腰带",
-      "effectPlain": "+(8–10) % 移动速度",
-      "valueSpans": [
-        "+(8–10)"
-      ]
-    },
-    {
-      "modifierId": "1502312",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "腰带",
-      "effectPlain": "+(20–25) % 冷却回复速度",
-      "valueSpans": [
-        "+(20–25)"
-      ]
-    },
-    {
-      "modifierId": "1502313",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "腰带",
-      "effectPlain": "+(20–25) % 技能效果持续时间",
-      "valueSpans": [
-        "+(20–25)"
-      ]
-    },
-    {
-      "modifierId": "1502314",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "腰带",
-      "effectPlain": "+(6–8) % 魔力封印 补偿",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "1502315",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "腰带",
-      "effectPlain": "+(7–8) % 光环效果",
-      "valueSpans": [
-        "+(7–8)"
-      ]
-    },
-    {
-      "modifierId": "1502316",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "腰带",
-      "effectPlain": "免疫 瘫痪 免疫 致盲",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "1502317",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "腰带",
-      "effectPlain": "免疫 减速 免疫 虚弱",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "1502318",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "腰带",
-      "effectPlain": "回复技能每秒获得 1.5 充能进度",
-      "valueSpans": [
-        "1.5"
-      ]
-    },
-    {
-      "modifierId": "1502319",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "腰带",
-      "effectPlain": "释放回复技能时，获得 1 层所有祝福",
-      "valueSpans": [
-        "1"
-      ]
-    },
-    {
-      "modifierId": "1502320",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "腰带",
-      "effectPlain": "拥有 迅捷",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "60062301",
+      "modifierId": "60062316",
       "tier": 0,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "侵蚀基底",
       "source": "腰带",
-      "effectPlain": "+(3–5) % 元素 抗性上限",
-      "valueSpans": [
-        "+(3–5)"
-      ]
-    },
-    {
-      "modifierId": "60062302",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "腰带",
-      "effectPlain": "回复技能 +(30–40) % 回复效果",
-      "valueSpans": [
-        "+(30–40)"
-      ]
-    },
-    {
-      "modifierId": "60062303",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "腰带",
-      "effectPlain": "回复技能 (-20–-15) % 回复时间",
-      "valueSpans": [
-        "(-20–-15)"
-      ]
-    },
-    {
-      "modifierId": "60062311",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "腰带",
-      "effectPlain": "+(20–30) % 深层苦痛光环效果",
+      "effectPlain": "+(20–30) % 暴虐光环效果",
       "valueSpans": [
         "+(20–30)"
       ]
@@ -264,23 +30,13 @@
       ]
     },
     {
-      "modifierId": "60062315",
+      "modifierId": "60062311",
       "tier": 0,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "侵蚀基底",
       "source": "腰带",
-      "effectPlain": "免疫 控制类状态",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "60062316",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "腰带",
-      "effectPlain": "+(20–30) % 暴虐光环效果",
+      "effectPlain": "+(20–30) % 深层苦痛光环效果",
       "valueSpans": [
         "+(20–30)"
       ]
@@ -295,6 +51,52 @@
       "effectPlain": "+(20–30) % 激进号令光环效果",
       "valueSpans": [
         "+(20–30)"
+      ]
+    },
+    {
+      "modifierId": "60062301",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "腰带",
+      "effectPlain": "+(3–5) % 元素 抗性上限",
+      "valueSpans": [
+        "+(3–5)"
+      ]
+    },
+    {
+      "modifierId": "60062315",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "腰带",
+      "effectPlain": "免疫 控制类状态",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "60062303",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "腰带",
+      "effectPlain": "回复技能 (-20–-15) % 回复时间",
+      "valueSpans": [
+        "(-20–-15)"
+      ]
+    },
+    {
+      "modifierId": "60062302",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "腰带",
+      "effectPlain": "回复技能 +(30–40) % 回复效果",
+      "valueSpans": [
+        "+(30–40)"
       ]
     },
     {
@@ -322,908 +124,15 @@
       ]
     },
     {
-      "modifierId": "104230001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "腰带",
-      "effectPlain": "+(155–220) 最大生命",
-      "valueSpans": [
-        "+(155–220)"
-      ]
-    },
-    {
-      "modifierId": "104230301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "腰带",
-      "effectPlain": "+(85–120) 最大魔力",
-      "valueSpans": [
-        "+(85–120)"
-      ]
-    },
-    {
-      "modifierId": "105230201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "腰带",
-      "effectPlain": "+(246–350) 最大护盾",
-      "valueSpans": [
-        "+(246–350)"
-      ]
-    },
-    {
-      "modifierId": "140230301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "腰带",
-      "effectPlain": "+(51–72) % 伤害",
-      "valueSpans": [
-        "+(51–72)"
-      ]
-    },
-    {
-      "modifierId": "140230401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "腰带",
-      "effectPlain": "击中时， +(17–23) % 几率对敌人造成 嘲讽",
-      "valueSpans": [
-        "+(17–23)"
-      ]
-    },
-    {
-      "modifierId": "140231101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "腰带",
-      "effectPlain": "+(51–72) % 召唤物伤害",
-      "valueSpans": [
-        "+(51–72)"
-      ]
-    },
-    {
-      "modifierId": "104230101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "腰带",
-      "effectPlain": "+(12–15) % 攻击与法术格挡率",
-      "valueSpans": [
-        "+(12–15)"
-      ]
-    },
-    {
-      "modifierId": "109230001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "腰带",
-      "effectPlain": "+(43–60) 力量",
-      "valueSpans": [
-        "+(43–60)"
-      ]
-    },
-    {
-      "modifierId": "109230101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "腰带",
-      "effectPlain": "+(43–60) 敏捷",
-      "valueSpans": [
-        "+(43–60)"
-      ]
-    },
-    {
-      "modifierId": "109230201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "腰带",
-      "effectPlain": "+(43–60) 智慧",
-      "valueSpans": [
-        "+(43–60)"
-      ]
-    },
-    {
-      "modifierId": "115230401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "腰带",
-      "effectPlain": "+(15–20) % 防御值",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "140231201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "腰带",
-      "effectPlain": "轰炸技能 +(20–25) % 每波伤害递增",
-      "valueSpans": [
-        "+(20–25)"
-      ]
-    },
-    {
-      "modifierId": "140231601",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "腰带",
-      "effectPlain": "使用近战技能时，获得一层 强硬 额外 (-5–-3) % 受到的伤害",
-      "valueSpans": [
-        "(-5–-3)"
-      ]
-    },
-    {
-      "modifierId": "140231701",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "腰带",
-      "effectPlain": "拥有 邪祟 ；召唤物拥有 邪祟 +(20–30) % 腐蚀伤害 +(20–30) % 召唤物腐蚀伤害",
-      "valueSpans": [
-        "+(20–30)",
-        "+(20–30)"
-      ]
-    },
-    {
-      "modifierId": "140902501",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "腰带",
-      "effectPlain": "+(23–32) % 恶化 几率",
-      "valueSpans": [
-        "+(23–32)"
-      ]
-    },
-    {
-      "modifierId": "115230001",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "腰带",
-      "effectPlain": "低魔 时，额外 (-15–-12) % 受到的伤害",
-      "valueSpans": [
-        "(-15–-12)"
-      ]
-    },
-    {
-      "modifierId": "140230001",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "腰带",
-      "effectPlain": "+1 引导层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "140230101",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "腰带",
-      "effectPlain": "+1 引导层数下限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "140230801",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "腰带",
-      "effectPlain": "对 创伤 状态下的敌人， +(271–385) % 暴击值 额外 -30 % 击中伤害",
-      "valueSpans": [
-        "+(271–385)",
-        "-30"
-      ]
-    },
-    {
-      "modifierId": "140231001",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "腰带",
-      "effectPlain": "+1 点燃 上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "140902401",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "腰带",
-      "effectPlain": "+(36–50) % 恶化 伤害",
-      "valueSpans": [
-        "+(36–50)"
-      ]
-    },
-    {
-      "modifierId": "108230001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "腰带",
-      "effectPlain": "+(19–27) % 火焰抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "108230101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "腰带",
-      "effectPlain": "+(19–27) % 冰冷抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "108230201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "腰带",
-      "effectPlain": "+(19–27) % 闪电抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "108230301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "腰带",
-      "effectPlain": "+(19–27) % 腐蚀抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "140230501",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "腰带",
-      "effectPlain": "造成 创伤 时，收割 0.12 秒持续伤害，该效果对同一目标有 1 秒回复时间",
-      "valueSpans": [
-        "0.12",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "140230601",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "腰带",
-      "effectPlain": "造成 点燃 时，收割 0.12 秒持续伤害，该效果对同一目标有 1 秒回复时间",
-      "valueSpans": [
-        "0.12",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "140230701",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "腰带",
-      "effectPlain": "造成 凋零 时，收割 0.12 秒持续伤害，该效果对同一目标有 1 秒回复时间",
-      "valueSpans": [
-        "0.12",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "111230201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "腰带",
-      "effectPlain": "+(16–24) % 异常状态 持续时间",
-      "valueSpans": [
-        "+(16–24)"
-      ]
-    },
-    {
-      "modifierId": "116230601",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "腰带",
-      "effectPlain": "+(36–50) % 加剧 效果",
-      "valueSpans": [
-        "+(36–50)"
-      ]
-    },
-    {
-      "modifierId": "130230101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "腰带",
-      "effectPlain": "战吼立即释放 +1 战吼技能充能点数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "130230301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "腰带",
-      "effectPlain": "+(7–9) % 元素 抗性 +(12–15) % 几率避免 元素 异常",
-      "valueSpans": [
-        "+(7–9)",
-        "+(12–15)"
-      ]
-    },
-    {
-      "modifierId": "140231401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "腰带",
-      "effectPlain": "魔灵 +(35–48) 初始 生长值",
-      "valueSpans": [
-        "+(35–48)"
-      ]
-    },
-    {
-      "modifierId": "140231501",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "腰带",
-      "effectPlain": "+(26–36) % 贯注速度",
-      "valueSpans": [
-        "+(26–36)"
-      ]
-    },
-    {
-      "modifierId": "140722201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "腰带",
-      "effectPlain": "+(23–32) % 最大魔力",
-      "valueSpans": [
-        "+(23–32)"
-      ]
-    },
-    {
-      "modifierId": "130230001",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "腰带",
-      "effectPlain": "+(18–24) % 技能效果持续时间",
-      "valueSpans": [
-        "+(18–24)"
-      ]
-    },
-    {
-      "modifierId": "130230401",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "腰带",
-      "effectPlain": "+(17–24) % 冷却回复速度",
-      "valueSpans": [
-        "+(17–24)"
-      ]
-    },
-    {
-      "modifierId": "140230201",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "腰带",
-      "effectPlain": "+(19–26) % 几率造成双倍伤害",
-      "valueSpans": [
-        "+(19–26)"
-      ]
-    },
-    {
-      "modifierId": "140230901",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "腰带",
-      "effectPlain": "+(37–52) % 凋零 持续时间",
-      "valueSpans": [
-        "+(37–52)"
-      ]
-    },
-    {
-      "modifierId": "140231301",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "腰带",
-      "effectPlain": "释放轰炸技能时，有 +(30–37) % 概率该次轰炸技能总波次+1",
-      "valueSpans": [
-        "+(30–37)"
-      ]
-    },
-    {
-      "modifierId": "140902601",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "腰带",
-      "effectPlain": "+(23–32) % 恶化 持续时间",
-      "valueSpans": [
-        "+(23–32)"
-      ]
-    },
-    {
-      "modifierId": "85023001",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "腰带",
-      "effectPlain": "+(54–74) 最大生命",
-      "valueSpans": [
-        "+(54–74)"
-      ]
-    },
-    {
-      "modifierId": "85023011",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "腰带",
-      "effectPlain": "+(40–60) 最大魔力",
-      "valueSpans": [
-        "+(40–60)"
-      ]
-    },
-    {
-      "modifierId": "85023021",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "腰带",
-      "effectPlain": "+(87–117) 最大护盾",
-      "valueSpans": [
-        "+(87–117)"
-      ]
-    },
-    {
-      "modifierId": "85023031",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "腰带",
-      "effectPlain": "+(5–10) % 火焰抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "85023041",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "腰带",
-      "effectPlain": "+(5–10) % 冰冷抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "85023051",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "腰带",
-      "effectPlain": "+(5–10) % 闪电抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "85023061",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "腰带",
-      "effectPlain": "+(5–10) % 腐蚀抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "85023101",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "腰带",
-      "effectPlain": "+(8–10) % 移动速度",
-      "valueSpans": [
-        "+(8–10)"
-      ]
-    },
-    {
-      "modifierId": "85023121",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "腰带",
-      "effectPlain": "+(20–25) % 冷却回复速度",
-      "valueSpans": [
-        "+(20–25)"
-      ]
-    },
-    {
-      "modifierId": "85023131",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "腰带",
-      "effectPlain": "+(20–25) % 技能效果持续时间",
-      "valueSpans": [
-        "+(20–25)"
-      ]
-    },
-    {
-      "modifierId": "85023141",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "腰带",
-      "effectPlain": "+(6–8) % 魔力封印 补偿",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "85023151",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "腰带",
-      "effectPlain": "+(7–8) % 光环效果",
-      "valueSpans": [
-        "+(7–8)"
-      ]
-    },
-    {
-      "modifierId": "85023161",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "腰带",
-      "effectPlain": "拥有 迅捷",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "51530111",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "钢铁悲鸣",
-      "source": "腰带",
-      "effectPlain": "+(165–176) 最大生命",
-      "valueSpans": [
-        "+(165–176)"
-      ]
-    },
-    {
-      "modifierId": "51530121",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "钢铁悲鸣",
-      "source": "腰带",
-      "effectPlain": "额外 (-8–-6) % 受到的伤害",
-      "valueSpans": [
-        "(-8–-6)"
-      ]
-    },
-    {
-      "modifierId": "51530131",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "钢铁悲鸣",
-      "source": "腰带",
-      "effectPlain": "战吼技能被 (10–15) 级角斗怒吼辅助",
-      "valueSpans": [
-        "(10–15)"
-      ]
-    },
-    {
-      "modifierId": "51530141",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "钢铁悲鸣",
-      "source": "腰带",
-      "effectPlain": "+12 % 战吼技能冷却回复速度",
-      "valueSpans": [
-        "+12"
-      ]
-    },
-    {
-      "modifierId": "51530151",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "钢铁悲鸣",
-      "source": "腰带",
-      "effectPlain": "+(80–100) % 战吼范围",
-      "valueSpans": [
-        "+(80–100)"
-      ]
-    },
-    {
-      "modifierId": "51530311",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "永恒日轮",
-      "source": "腰带",
-      "effectPlain": "+(330–550) 最大生命",
-      "valueSpans": [
-        "+(330–550)"
-      ]
-    },
-    {
-      "modifierId": "51530331",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "永恒日轮",
-      "source": "腰带",
-      "effectPlain": "+(41–65) % 火焰抗性",
-      "valueSpans": [
-        "+(41–65)"
-      ]
-    },
-    {
-      "modifierId": "55530341",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "永恒日轮",
-      "source": "腰带",
-      "effectPlain": "每损失 1 % 生命，每秒自然回复 0.2 % 生命， 0.4 % 生命自然回复速度",
-      "valueSpans": [
-        "1",
-        "0.2",
-        "0.4"
-      ]
-    },
-    {
-      "modifierId": "51530351",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "永恒日轮",
-      "source": "腰带",
-      "effectPlain": "拥有护盾时，额外 +20 % 受到的伤害",
-      "valueSpans": [
-        "+20"
-      ]
-    },
-    {
-      "modifierId": "51530411",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "绝缘",
-      "source": "腰带",
-      "effectPlain": "攻击和法术附加 (1–4) - (75–100) 点闪电伤害",
-      "valueSpans": [
-        "(1–4)",
-        "(75–100)"
-      ]
-    },
-    {
-      "modifierId": "51530441",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "绝缘",
-      "source": "腰带",
-      "effectPlain": "+(5–10) % 闪电抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "51530451",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "绝缘",
-      "source": "腰带",
-      "effectPlain": "防护技能效果持续期间， +(1000–3000) 闪避值",
-      "valueSpans": [
-        "+(1000–3000)"
-      ]
-    },
-    {
-      "modifierId": "51530461",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "绝缘",
-      "source": "腰带",
-      "effectPlain": "防护技能效果持续期间，对法术伤害，闪避值不再默认额外降低",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "51530511",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "歧路药师护腰",
-      "source": "腰带",
-      "effectPlain": "+(10–12) % 最大生命和最大魔力",
-      "valueSpans": [
-        "+(10–12)"
-      ]
-    },
-    {
-      "modifierId": "51530521",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "歧路药师护腰",
-      "source": "腰带",
-      "effectPlain": "+(16–20) 全属性",
-      "valueSpans": [
-        "+(16–20)"
-      ]
-    },
-    {
-      "modifierId": "51530531",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "歧路药师护腰",
-      "source": "腰带",
-      "effectPlain": "+(10–16) % 腐蚀抗性",
-      "valueSpans": [
-        "+(10–16)"
-      ]
-    },
-    {
-      "modifierId": "51530541",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "歧路药师护腰",
-      "source": "腰带",
-      "effectPlain": "如果最近释放过回复技能， +(50–150) % 凋零 伤害",
-      "valueSpans": [
-        "+(50–150)"
-      ]
-    },
-    {
-      "modifierId": "51530551",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "歧路药师护腰",
-      "source": "腰带",
-      "effectPlain": "如果最近释放过回复技能， +(8–20) % 几率额外造成一层 凋零",
-      "valueSpans": [
-        "+(8–20)"
-      ]
-    },
-    {
-      "modifierId": "51530561",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "歧路药师护腰",
-      "source": "腰带",
-      "effectPlain": "回复效果持续期间，造成伤害时必定造成 凋零",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "51530611",
+      "modifierId": "51530641",
       "tier": null,
       "itemLevel": null,
       "weight": null,
       "affixType": "元素秘语腰带",
       "source": "腰带",
-      "effectPlain": "法术附加 (4–6) - (14–16) 点火焰伤害",
+      "effectPlain": "每秒自然回复 (5–7) 魔力",
       "valueSpans": [
-        "(4–6)",
-        "(14–16)"
-      ]
-    },
-    {
-      "modifierId": "51530621",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "元素秘语腰带",
-      "source": "腰带",
-      "effectPlain": "法术附加 (4–6) - (14–16) 点冰冷伤害",
-      "valueSpans": [
-        "(4–6)",
-        "(14–16)"
+        "(5–7)"
       ]
     },
     {
@@ -1240,199 +149,1211 @@
       ]
     },
     {
-      "modifierId": "51530641",
+      "modifierId": "51530621",
       "tier": null,
       "itemLevel": null,
       "weight": null,
       "affixType": "元素秘语腰带",
       "source": "腰带",
-      "effectPlain": "每秒自然回复 (5–7) 魔力",
+      "effectPlain": "法术附加 (4–6) - (14–16) 点冰冷伤害",
       "valueSpans": [
-        "(5–7)"
+        "(4–6)",
+        "(14–16)"
       ]
     },
     {
-      "modifierId": "51530711",
+      "modifierId": "51530611",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "混乱元素腰带",
+      "affixType": "元素秘语腰带",
       "source": "腰带",
-      "effectPlain": "+(6–8) % 全属性",
+      "effectPlain": "法术附加 (4–6) - (14–16) 点火焰伤害",
       "valueSpans": [
-        "+(6–8)"
+        "(4–6)",
+        "(14–16)"
       ]
     },
     {
-      "modifierId": "51530721",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "混乱元素腰带",
-      "source": "腰带",
-      "effectPlain": "+(20–30) % 异常伤害加深",
-      "valueSpans": [
-        "+(20–30)"
-      ]
+      "modifierId": "104230380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(157–203) 最大魔力",
+      "valueSpans": []
     },
     {
-      "modifierId": "51530731",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "混乱元素腰带",
-      "source": "腰带",
-      "effectPlain": "当力量大于敏捷时，获得附加点伤 (20–24) % - (48–55) % 的基础 创伤 伤害",
-      "valueSpans": [
-        "(20–24)",
-        "(48–55)"
-      ]
+      "modifierId": "104230080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(287–372) 最大生命",
+      "valueSpans": []
     },
     {
-      "modifierId": "51530741",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "混乱元素腰带",
-      "source": "腰带",
-      "effectPlain": "当智慧大于力量时，获得附加点伤 5 % - 6 % 的基础 凋零 伤害",
-      "valueSpans": [
-        "5",
-        "6"
-      ]
+      "modifierId": "105230280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(456–592) 最大护盾",
+      "valueSpans": []
     },
     {
-      "modifierId": "51530751",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "混乱元素腰带",
-      "source": "腰带",
-      "effectPlain": "当敏捷大于智慧时，获得附加点伤 (15–18) % - (30–32) % 的基础 点燃 伤害",
-      "valueSpans": [
-        "(15–18)",
-        "(30–32)"
-      ]
+      "modifierId": "140230380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(95–122) % 伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "51530811",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "苍白云雾之拥",
-      "source": "腰带",
-      "effectPlain": "+44 最大生命",
-      "valueSpans": [
-        "+44"
-      ]
+      "modifierId": "140231180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(95–122) % 召唤物伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "51530821",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "苍白云雾之拥",
-      "source": "腰带",
-      "effectPlain": "+(8–10) % 元素 抗性",
-      "valueSpans": [
-        "+(8–10)"
-      ]
+      "modifierId": "140230480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "击中时， +(31–39) % 几率对敌人造成 嘲讽",
+      "valueSpans": []
     },
     {
-      "modifierId": "51530831",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "苍白云雾之拥",
-      "source": "腰带",
-      "effectPlain": "+(20–30) % 技能范围",
-      "valueSpans": [
-        "+(20–30)"
-      ]
+      "modifierId": "104230300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(121–156) 最大魔力",
+      "valueSpans": []
     },
     {
-      "modifierId": "51530841",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "苍白云雾之拥",
-      "source": "腰带",
-      "effectPlain": "技能范围的增加和减少的 25 % 同样作用于范围伤害，最多 + 100 %",
-      "valueSpans": [
-        "25",
-        "100"
-      ]
+      "modifierId": "104230000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(221–286) 最大生命",
+      "valueSpans": []
     },
     {
-      "modifierId": "51530911",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "巫医的草药包",
-      "source": "腰带",
-      "effectPlain": "+(120–150) 最大生命",
-      "valueSpans": [
-        "+(120–150)"
-      ]
+      "modifierId": "105230200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(351–455) 最大护盾",
+      "valueSpans": []
     },
     {
-      "modifierId": "51530921",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "巫医的草药包",
-      "source": "腰带",
-      "effectPlain": "+(90–120) 最大魔力",
-      "valueSpans": [
-        "+(90–120)"
-      ]
+      "modifierId": "140231100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(66–94) % 召唤物伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "51530941",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "巫医的草药包",
-      "source": "腰带",
-      "effectPlain": "回复技能 +80 % 回复效果",
-      "valueSpans": [
-        "+80"
-      ]
+      "modifierId": "140230300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(73–94) % 伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "51530951",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "巫医的草药包",
-      "source": "腰带",
-      "effectPlain": "+(1–2) 回复技能充能点数上限",
-      "valueSpans": [
-        "+(1–2)"
-      ]
+      "modifierId": "140230400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "击中时， +(24–30) % 几率对敌人造成 嘲讽",
+      "valueSpans": []
     },
     {
-      "modifierId": "51530961",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "巫医的草药包",
-      "source": "腰带",
-      "effectPlain": "生命健康 时，额外 +(35–40) % 伤害",
-      "valueSpans": [
-        "+(35–40)"
-      ]
+      "modifierId": "104230001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(155–220) 最大生命",
+      "valueSpans": []
     },
     {
-      "modifierId": "51531111",
+      "modifierId": "105230201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(246–350) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(51–72) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(51–72) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104230301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(85–120) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "击中时， +(17–23) % 几率对敌人造成 嘲讽",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104230002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(111–154) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105230202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(176–245) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(37–50) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(43–50) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104230302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(61–84) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "击中时， +(13–16) % 几率对敌人造成 嘲讽",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105230203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(141–175) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(30–36) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(31–36) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104230303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(49–60) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104230003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(89–110) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "击中时， +(10–12) % 几率对敌人造成 嘲讽",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105230204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(113–140) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(24–29) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(24–29) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104230304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(39–48) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104230004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(71–88) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "击中时， +(8–9) % 几率对敌人造成 嘲讽",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(19–23) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(20–23) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104230305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(32–38) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104230005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(58–70) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105230205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(92–112) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "击中时， +7 % 几率对敌人造成 嘲讽",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(15–19) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(16–19) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104230306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(25–31) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104230006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(45–57) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105230206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(71–91) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "击中时， +6 % 几率对敌人造成 嘲讽",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(12–14) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(12–14) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104230307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(19–24) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104230007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(34–44) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105230207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(54–70) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Belt",
+      "effectPlain": "击中时， +5 % 几率对敌人造成 嘲讽",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(36–46) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(36–46) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(36–46) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(36–46) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "造成 凋零 时，收割 0.20 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "造成 创伤 时，收割 0.20 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "造成 点燃 时，收割 0.20 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(25–35) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(25–35) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(25–35) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(25–35) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "造成 凋零 时，收割 0.16 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "造成 创伤 时，收割 0.16 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "造成 点燃 时，收割 0.16 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(19–27) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(19–27) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(19–27) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(19–27) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230701",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "造成 凋零 时，收割 0.12 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230501",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "造成 创伤 时，收割 0.12 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "造成 点燃 时，收割 0.12 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(16–19) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(16–19) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(16–19) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(16–19) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230702",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "造成 凋零 时，收割 0.09 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230502",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "造成 创伤 时，收割 0.09 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230602",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "造成 点燃 时，收割 0.09 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(11–14) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(11–14) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(11–14) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(11–14) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230703",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "造成 凋零 时，收割 0.06 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230503",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "造成 创伤 时，收割 0.06 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230603",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "造成 点燃 时，收割 0.06 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(9–11) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(9–11) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(9–11) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(9–11) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230704",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "造成 凋零 时，收割 0.04 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230504",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "造成 创伤 时，收割 0.04 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230604",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "造成 点燃 时，收割 0.04 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(7–9) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(7–9) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(7–9) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(7–9) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230705",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "造成 凋零 时，收割 0.03 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230505",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "造成 创伤 时，收割 0.03 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230605",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "造成 点燃 时，收割 0.03 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(6–7) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(6–7) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(6–7) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(6–7) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230706",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "造成 凋零 时，收割 0.02 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230506",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "造成 创伤 时，收割 0.02 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230606",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "造成 点燃 时，收割 0.02 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+5 % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+5 % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+5 % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108230207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "+5 % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230707",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "造成 凋零 时，收割 0.01 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230507",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "造成 创伤 时，收割 0.01 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230607",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Belt",
+      "effectPlain": "造成 点燃 时，收割 0.01 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51531131",
       "tier": null,
       "itemLevel": null,
       "weight": null,
       "affixType": "原点的寒冬",
       "source": "腰带",
-      "effectPlain": "+(15–20) % 召唤物攻击与施法速度",
+      "effectPlain": "+(10–16) % 最大生命",
       "valueSpans": [
-        "+(15–20)"
+        "+(10–16)"
       ]
     },
     {
@@ -1448,15 +1369,15 @@
       ]
     },
     {
-      "modifierId": "51531131",
+      "modifierId": "51531111",
       "tier": null,
       "itemLevel": null,
       "weight": null,
       "affixType": "原点的寒冬",
       "source": "腰带",
-      "effectPlain": "+(10–16) % 最大生命",
+      "effectPlain": "+(15–20) % 召唤物攻击与施法速度",
       "valueSpans": [
-        "+(10–16)"
+        "+(15–20)"
       ]
     },
     {
@@ -1486,332 +1407,201 @@
       ]
     },
     {
-      "modifierId": "51531321",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "生息代偿",
+      "modifierId": "1502312",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
       "source": "腰带",
-      "effectPlain": "+(27–32) % 最大魔力",
+      "effectPlain": "+(20–25) % 冷却回复速度",
       "valueSpans": [
-        "+(27–32)"
+        "+(20–25)"
       ]
     },
     {
-      "modifierId": "51531331",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "生息代偿",
+      "modifierId": "1502313",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
       "source": "腰带",
-      "effectPlain": "+(48–60) % 魔力自然回复速度",
+      "effectPlain": "+(20–25) % 技能效果持续时间",
       "valueSpans": [
-        "+(48–60)"
+        "+(20–25)"
       ]
     },
     {
-      "modifierId": "55531371",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "生息代偿",
+      "modifierId": "1502320",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
       "source": "腰带",
-      "effectPlain": "最近每消耗 100 魔力， +(3–6) % 法术伤害，最高 216 %",
+      "effectPlain": "拥有 迅捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "1502319",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "腰带",
+      "effectPlain": "释放回复技能时，获得 1 层所有祝福",
       "valueSpans": [
-        "100",
-        "+(3–6)",
-        "216"
+        "1"
       ]
     },
     {
-      "modifierId": "55531351",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "生息代偿",
+      "modifierId": "1502314",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
       "source": "腰带",
-      "effectPlain": "最近每消耗 100 魔力， +(3–4) % 魔力自然回复速度，最高 360 %",
+      "effectPlain": "+(6–8) % 魔力封印 补偿",
       "valueSpans": [
-        "100",
-        "+(3–4)",
-        "360"
+        "+(6–8)"
       ]
     },
     {
-      "modifierId": "55531341",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "生息代偿",
+      "modifierId": "1502315",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
       "source": "腰带",
-      "effectPlain": "生命濒危 时，你拥有 (25–30) 级 法术增幅",
+      "effectPlain": "+(7–8) % 光环效果",
       "valueSpans": [
-        "(25–30)"
+        "+(7–8)"
       ]
     },
     {
-      "modifierId": "51531511",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "求生之欲",
+      "modifierId": "1502310",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
       "source": "腰带",
-      "effectPlain": "+(5–10) 力量",
+      "effectPlain": "+(8–10) % 移动速度",
+      "valueSpans": [
+        "+(8–10)"
+      ]
+    },
+    {
+      "modifierId": "1502317",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "腰带",
+      "effectPlain": "免疫 减速 免疫 虚弱",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "1502316",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "腰带",
+      "effectPlain": "免疫 瘫痪 免疫 致盲",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "1502318",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "腰带",
+      "effectPlain": "回复技能每秒获得 1.5 充能进度",
+      "valueSpans": [
+        "1.5"
+      ]
+    },
+    {
+      "modifierId": "1502301",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "腰带",
+      "effectPlain": "+(40–60) 最大魔力",
+      "valueSpans": [
+        "+(40–60)"
+      ]
+    },
+    {
+      "modifierId": "1502300",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "腰带",
+      "effectPlain": "+(54–74) 最大生命",
+      "valueSpans": [
+        "+(54–74)"
+      ]
+    },
+    {
+      "modifierId": "1502304",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "腰带",
+      "effectPlain": "+(5–10) % 冰冷抗性",
       "valueSpans": [
         "+(5–10)"
       ]
     },
     {
-      "modifierId": "51531521",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "求生之欲",
+      "modifierId": "1502303",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
       "source": "腰带",
-      "effectPlain": "+(10–15) % 最大生命",
+      "effectPlain": "+(5–10) % 火焰抗性",
       "valueSpans": [
-        "+(10–15)"
+        "+(5–10)"
       ]
     },
     {
-      "modifierId": "51531531",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "求生之欲",
+      "modifierId": "1502306",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
       "source": "腰带",
-      "effectPlain": "生命健康 时， +(9–11) % 移动速度",
+      "effectPlain": "+(5–10) % 腐蚀抗性",
       "valueSpans": [
-        "+(9–11)"
+        "+(5–10)"
       ]
     },
     {
-      "modifierId": "51531541",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "求生之欲",
+      "modifierId": "1502305",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
       "source": "腰带",
-      "effectPlain": "移动时，每秒自然回复 0.5 % 生命",
+      "effectPlain": "+(5–10) % 闪电抗性",
       "valueSpans": [
-        "0.5"
+        "+(5–10)"
       ]
     },
     {
-      "modifierId": "51531551",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "求生之欲",
+      "modifierId": "1502302",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
       "source": "腰带",
-      "effectPlain": "生命濒危 时，回复 65 % 最大生命并击退 周围 敌人，间隔 20 秒",
+      "effectPlain": "+(87–117) 最大护盾",
       "valueSpans": [
-        "65",
-        "20"
-      ]
-    },
-    {
-      "modifierId": "51531711",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "永燃雷火",
-      "source": "腰带",
-      "effectPlain": "+(18–25) 点力量与敏捷",
-      "valueSpans": [
-        "+(18–25)"
-      ]
-    },
-    {
-      "modifierId": "51531721",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "永燃雷火",
-      "source": "腰带",
-      "effectPlain": "+20 % 点燃 几率",
-      "valueSpans": [
-        "+20"
-      ]
-    },
-    {
-      "modifierId": "51531731",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "永燃雷火",
-      "source": "腰带",
-      "effectPlain": "额外施加 1 层 麻痹",
-      "valueSpans": [
-        "1"
-      ]
-    },
-    {
-      "modifierId": "51531741",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "永燃雷火",
-      "source": "腰带",
-      "effectPlain": "对 麻痹 的敌人， +1 点燃 上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "51531751",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "永燃雷火",
-      "source": "腰带",
-      "effectPlain": "对被 点燃 敌人，闪电伤害 幸运",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "51531811",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "猎光腰带",
-      "source": "腰带",
-      "effectPlain": "+(150–400) 最大护盾",
-      "valueSpans": [
-        "+(150–400)"
-      ]
-    },
-    {
-      "modifierId": "51531821",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "猎光腰带",
-      "source": "腰带",
-      "effectPlain": "+(32–40) % 最大护盾",
-      "valueSpans": [
-        "+(32–40)"
-      ]
-    },
-    {
-      "modifierId": "51531831",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "猎光腰带",
-      "source": "腰带",
-      "effectPlain": "护盾充能无法被打断",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "51531841",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "猎光腰带",
-      "source": "腰带",
-      "effectPlain": "当前每拥有 5 % 护盾，护盾充能速度额外 -6 %",
-      "valueSpans": [
-        "5",
-        "-6"
-      ]
-    },
-    {
-      "modifierId": "51531851",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "猎光腰带",
-      "source": "腰带",
-      "effectPlain": "拥有护盾时，额外 (-30–-25) % 受到的伤害",
-      "valueSpans": [
-        "(-30–-25)"
-      ]
-    },
-    {
-      "modifierId": "51531921",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "神性之呼",
-      "source": "腰带",
-      "effectPlain": "每秒自然回复 1 % 生命",
-      "valueSpans": [
-        "1"
-      ]
-    },
-    {
-      "modifierId": "51531941",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "神性之呼",
-      "source": "腰带",
-      "effectPlain": "+30 % 召唤物伤害",
-      "valueSpans": [
-        "+30"
-      ]
-    },
-    {
-      "modifierId": "52531951",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "神性之呼",
-      "source": "腰带",
-      "effectPlain": "召唤物暴击时，每秒获得 8 点 统御值 ，持续 3 秒",
-      "valueSpans": [
-        "3"
-      ]
-    },
-    {
-      "modifierId": "51532011",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "黑潮之拥",
-      "source": "腰带",
-      "effectPlain": "+(3–6) % 火焰与闪电抗性上限",
-      "valueSpans": [
-        "+(3–6)"
-      ]
-    },
-    {
-      "modifierId": "51532021",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "黑潮之拥",
-      "source": "腰带",
-      "effectPlain": "+(10–12) % 火焰抗性",
-      "valueSpans": [
-        "+(10–12)"
-      ]
-    },
-    {
-      "modifierId": "51532031",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "黑潮之拥",
-      "source": "腰带",
-      "effectPlain": "+(10–12) % 闪电抗性",
-      "valueSpans": [
-        "+(10–12)"
-      ]
-    },
-    {
-      "modifierId": "51532051",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "黑潮之拥",
-      "source": "腰带",
-      "effectPlain": "最近每造成一次 麻痹 ， 20 % 受到的物理伤害转化为闪电伤害，上限 40 % 最近每造成一次 点燃 ， 20 % 受到的物理伤害转化为火焰伤害，上限 40 %",
-      "valueSpans": [
-        "20",
-        "40",
-        "20",
-        "40"
+        "+(87–117)"
       ]
     },
     {
@@ -1863,6 +1653,407 @@
       ]
     },
     {
+      "modifierId": "51530911",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "巫医的草药包",
+      "source": "腰带",
+      "effectPlain": "+(120–150) 最大生命",
+      "valueSpans": [
+        "+(120–150)"
+      ]
+    },
+    {
+      "modifierId": "51530951",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "巫医的草药包",
+      "source": "腰带",
+      "effectPlain": "+(1–2) 回复技能充能点数上限",
+      "valueSpans": [
+        "+(1–2)"
+      ]
+    },
+    {
+      "modifierId": "51530921",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "巫医的草药包",
+      "source": "腰带",
+      "effectPlain": "+(90–120) 最大魔力",
+      "valueSpans": [
+        "+(90–120)"
+      ]
+    },
+    {
+      "modifierId": "51530941",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "巫医的草药包",
+      "source": "腰带",
+      "effectPlain": "回复技能 +80 % 回复效果",
+      "valueSpans": [
+        "+80"
+      ]
+    },
+    {
+      "modifierId": "51530961",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "巫医的草药包",
+      "source": "腰带",
+      "effectPlain": "生命健康 时，额外 +(35–40) % 伤害",
+      "valueSpans": [
+        "+(35–40)"
+      ]
+    },
+    {
+      "modifierId": "51530511",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "歧路药师护腰",
+      "source": "腰带",
+      "effectPlain": "+(10–12) % 最大生命和最大魔力",
+      "valueSpans": [
+        "+(10–12)"
+      ]
+    },
+    {
+      "modifierId": "51530531",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "歧路药师护腰",
+      "source": "腰带",
+      "effectPlain": "+(10–16) % 腐蚀抗性",
+      "valueSpans": [
+        "+(10–16)"
+      ]
+    },
+    {
+      "modifierId": "51530521",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "歧路药师护腰",
+      "source": "腰带",
+      "effectPlain": "+(16–20) 全属性",
+      "valueSpans": [
+        "+(16–20)"
+      ]
+    },
+    {
+      "modifierId": "51530561",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "歧路药师护腰",
+      "source": "腰带",
+      "effectPlain": "回复效果持续期间，造成伤害时必定造成 凋零",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51530541",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "歧路药师护腰",
+      "source": "腰带",
+      "effectPlain": "如果最近释放过回复技能， +(50–150) % 凋零 伤害",
+      "valueSpans": [
+        "+(50–150)"
+      ]
+    },
+    {
+      "modifierId": "51530551",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "歧路药师护腰",
+      "source": "腰带",
+      "effectPlain": "如果最近释放过回复技能， +(8–20) % 几率额外造成一层 凋零",
+      "valueSpans": [
+        "+(8–20)"
+      ]
+    },
+    {
+      "modifierId": "51521011",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "永恒",
+      "source": "腰带",
+      "effectPlain": "+(160–220) 最大生命",
+      "valueSpans": [
+        "+(160–220)"
+      ]
+    },
+    {
+      "modifierId": "51521071",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "永恒",
+      "source": "腰带",
+      "effectPlain": "击败 劲敌 时， +50 % 几率获得 1 层 永恒主宰",
+      "valueSpans": [
+        "+50",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "51521041",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "永恒",
+      "source": "腰带",
+      "effectPlain": "击败时， +(10–20) % 几率获得 1 层 永恒虚影",
+      "valueSpans": [
+        "+(10–20)",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "51521021",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "永恒",
+      "source": "腰带",
+      "effectPlain": "击败时， +(30–50) % 几率获得 1 层 永恒斗志",
+      "valueSpans": [
+        "+(30–50)",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "51521031",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "永恒",
+      "source": "腰带",
+      "effectPlain": "击败时， +(30–50) % 几率获得 1 层 永恒梦魇",
+      "valueSpans": [
+        "+(30–50)",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "51521061",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "永恒",
+      "source": "腰带",
+      "effectPlain": "击败魔法怪物时， +(10–20) % 几率获得 1 层 永恒拟像",
+      "valueSpans": [
+        "+(10–20)",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "51521051",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "永恒",
+      "source": "腰带",
+      "effectPlain": "击败魔法怪物时， +(30–50) % 几率获得 1 层 永恒守护",
+      "valueSpans": [
+        "+(30–50)",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "51530311",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "永恒日轮",
+      "source": "腰带",
+      "effectPlain": "+(330–550) 最大生命",
+      "valueSpans": [
+        "+(330–550)"
+      ]
+    },
+    {
+      "modifierId": "51530331",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "永恒日轮",
+      "source": "腰带",
+      "effectPlain": "+(41–65) % 火焰抗性",
+      "valueSpans": [
+        "+(41–65)"
+      ]
+    },
+    {
+      "modifierId": "51530351",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "永恒日轮",
+      "source": "腰带",
+      "effectPlain": "拥有护盾时，额外 +20 % 受到的伤害",
+      "valueSpans": [
+        "+20"
+      ]
+    },
+    {
+      "modifierId": "55530341",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "永恒日轮",
+      "source": "腰带",
+      "effectPlain": "每损失 1 % 生命，每秒自然回复 0.2 % 生命， 0.4 % 生命自然回复速度",
+      "valueSpans": [
+        "1",
+        "0.2",
+        "0.4"
+      ]
+    },
+    {
+      "modifierId": "51531711",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "永燃雷火",
+      "source": "腰带",
+      "effectPlain": "+(18–25) 点力量与敏捷",
+      "valueSpans": [
+        "+(18–25)"
+      ]
+    },
+    {
+      "modifierId": "51531721",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "永燃雷火",
+      "source": "腰带",
+      "effectPlain": "+20 % 点燃 几率",
+      "valueSpans": [
+        "+20"
+      ]
+    },
+    {
+      "modifierId": "51531741",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "永燃雷火",
+      "source": "腰带",
+      "effectPlain": "对 麻痹 的敌人， +1 点燃 上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51531751",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "永燃雷火",
+      "source": "腰带",
+      "effectPlain": "对被 点燃 敌人，闪电伤害 幸运",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51531731",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "永燃雷火",
+      "source": "腰带",
+      "effectPlain": "额外施加 1 层 麻痹",
+      "valueSpans": [
+        "1"
+      ]
+    },
+    {
+      "modifierId": "51531521",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "求生之欲",
+      "source": "腰带",
+      "effectPlain": "+(10–15) % 最大生命",
+      "valueSpans": [
+        "+(10–15)"
+      ]
+    },
+    {
+      "modifierId": "51531511",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "求生之欲",
+      "source": "腰带",
+      "effectPlain": "+(5–10) 力量",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "51531531",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "求生之欲",
+      "source": "腰带",
+      "effectPlain": "生命健康 时， +(9–11) % 移动速度",
+      "valueSpans": [
+        "+(9–11)"
+      ]
+    },
+    {
+      "modifierId": "51531551",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "求生之欲",
+      "source": "腰带",
+      "effectPlain": "生命濒危 时，回复 65 % 最大生命并击退 周围 敌人，间隔 20 秒",
+      "valueSpans": [
+        "65",
+        "20"
+      ]
+    },
+    {
+      "modifierId": "51531541",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "求生之欲",
+      "source": "腰带",
+      "effectPlain": "移动时，每秒自然回复 0.5 % 生命",
+      "valueSpans": [
+        "0.5"
+      ]
+    },
+    {
+      "modifierId": "80935001",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "泛泛倾心",
+      "source": "腰带",
+      "effectPlain": "(-3–-2) 核心技能等级",
+      "valueSpans": [
+        "(-3–-2)"
+      ]
+    },
+    {
       "modifierId": "51532311",
       "tier": null,
       "itemLevel": null,
@@ -1887,19 +2078,6 @@
       ]
     },
     {
-      "modifierId": "51532341",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "流形之蚀",
-      "source": "腰带",
-      "effectPlain": "至少拥有 8 层 坚韧祝福 时， +50 % 腐蚀抗性",
-      "valueSpans": [
-        "8",
-        "+50"
-      ]
-    },
-    {
       "modifierId": "51532351",
       "tier": null,
       "itemLevel": null,
@@ -1913,142 +2091,79 @@
       ]
     },
     {
-      "modifierId": "51532611",
+      "modifierId": "51532341",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "虚海永雾",
+      "affixType": "流形之蚀",
       "source": "腰带",
-      "effectPlain": "+(5–15) % 防御值",
+      "effectPlain": "至少拥有 8 层 坚韧祝福 时， +50 % 腐蚀抗性",
       "valueSpans": [
-        "+(5–15)"
-      ]
-    },
-    {
-      "modifierId": "51532621",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "虚海永雾",
-      "source": "腰带",
-      "effectPlain": "+(5–6) % 元素 抗性",
-      "valueSpans": [
-        "+(5–6)"
-      ]
-    },
-    {
-      "modifierId": "51532631",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "虚海永雾",
-      "source": "腰带",
-      "effectPlain": "(-20–20) % 迷踪 效果",
-      "valueSpans": [
-        "(-20–20)"
-      ]
-    },
-    {
-      "modifierId": "51532641",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "虚海永雾",
-      "source": "腰带",
-      "effectPlain": "迷踪 获得额外效果：每点迷踪值，+0.3% 移动速度",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "51532651",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "虚海永雾",
-      "source": "腰带",
-      "effectPlain": "失去 迷踪 时， +10 % 移动速度，持续 1 秒",
-      "valueSpans": [
-        "+10",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "51532661",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "虚海永雾",
-      "source": "腰带",
-      "effectPlain": "闪避时， +50 % 几率获得 迷踪",
-      "valueSpans": [
+        "8",
         "+50"
       ]
     },
     {
-      "modifierId": "80935001",
+      "modifierId": "51530721",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "泛泛倾心",
+      "affixType": "混乱元素腰带",
       "source": "腰带",
-      "effectPlain": "(-3–-2) 核心技能等级",
+      "effectPlain": "+(20–30) % 异常伤害加深",
       "valueSpans": [
-        "(-3–-2)"
+        "+(20–30)"
       ]
     },
     {
-      "modifierId": "51533011",
+      "modifierId": "51530711",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "破阵",
+      "affixType": "混乱元素腰带",
       "source": "腰带",
-      "effectPlain": "放置哨卫的技能额外 (-40–20) % 攻击和施法速度",
+      "effectPlain": "+(6–8) % 全属性",
       "valueSpans": [
-        "(-40–20)"
+        "+(6–8)"
       ]
     },
     {
-      "modifierId": "51533021",
+      "modifierId": "51530731",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "破阵",
+      "affixType": "混乱元素腰带",
       "source": "腰带",
-      "effectPlain": "+48 % 技能范围",
+      "effectPlain": "当力量大于敏捷时，获得附加点伤 (20–24) % - (48–55) % 的基础 创伤 伤害",
       "valueSpans": [
-        "+48"
+        "(20–24)",
+        "(48–55)"
       ]
     },
     {
-      "modifierId": "51533031",
+      "modifierId": "51530751",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "破阵",
+      "affixType": "混乱元素腰带",
       "source": "腰带",
-      "effectPlain": "哨卫近处的敌人，额外 +30% 受到的伤害",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "51533041",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "破阵",
-      "source": "腰带",
-      "effectPlain": "使用哨卫技能时， 获得 破击蓄能",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "51533311",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "灵魄之应",
-      "source": "腰带",
-      "effectPlain": "每秒自然回复 1 % 生命",
+      "effectPlain": "当敏捷大于智慧时，获得附加点伤 (15–18) % - (30–32) % 的基础 点燃 伤害",
       "valueSpans": [
-        "1"
+        "(15–18)",
+        "(30–32)"
+      ]
+    },
+    {
+      "modifierId": "51530741",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "混乱元素腰带",
+      "source": "腰带",
+      "effectPlain": "当智慧大于力量时，获得附加点伤 5 % - 6 % 的基础 凋零 伤害",
+      "valueSpans": [
+        "5",
+        "6"
       ]
     },
     {
@@ -2075,6 +2190,79 @@
         "5",
         "25",
         "50"
+      ]
+    },
+    {
+      "modifierId": "51533311",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "灵魄之应",
+      "source": "腰带",
+      "effectPlain": "每秒自然回复 1 % 生命",
+      "valueSpans": [
+        "1"
+      ]
+    },
+    {
+      "modifierId": "51533621",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "热夜的轻拥",
+      "source": "腰带",
+      "effectPlain": "+(10–15) % 受伤缓冲",
+      "valueSpans": [
+        "+(10–15)"
+      ]
+    },
+    {
+      "modifierId": "51533631",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "热夜的轻拥",
+      "source": "腰带",
+      "effectPlain": "+1 火焰技能等级",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51533611",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "热夜的轻拥",
+      "source": "腰带",
+      "effectPlain": "+10 智慧",
+      "valueSpans": [
+        "+10"
+      ]
+    },
+    {
+      "modifierId": "51533641",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "热夜的轻拥",
+      "source": "腰带",
+      "effectPlain": "每释放 5 次火焰技能，获得 余烬 ，持续 1 秒",
+      "valueSpans": [
+        "5",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "51533541",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "牧鼠人的金缰绳",
+      "source": "腰带",
+      "effectPlain": "-15 % 召唤物攻击与施法速度",
+      "valueSpans": [
+        "-15"
       ]
     },
     {
@@ -2116,201 +2304,163 @@
       ]
     },
     {
-      "modifierId": "51533541",
+      "modifierId": "51531811",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "牧鼠人的金缰绳",
+      "affixType": "猎光腰带",
       "source": "腰带",
-      "effectPlain": "-15 % 召唤物攻击与施法速度",
+      "effectPlain": "+(150–400) 最大护盾",
       "valueSpans": [
-        "-15"
+        "+(150–400)"
       ]
     },
     {
-      "modifierId": "51521011",
+      "modifierId": "51531821",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "永恒",
+      "affixType": "猎光腰带",
       "source": "腰带",
-      "effectPlain": "+(160–220) 最大生命",
+      "effectPlain": "+(32–40) % 最大护盾",
       "valueSpans": [
-        "+(160–220)"
+        "+(32–40)"
       ]
     },
     {
-      "modifierId": "51521021",
+      "modifierId": "51531841",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "永恒",
+      "affixType": "猎光腰带",
       "source": "腰带",
-      "effectPlain": "击败时， +(30–50) % 几率获得 1 层 永恒斗志",
-      "valueSpans": [
-        "+(30–50)",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "51521031",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "永恒",
-      "source": "腰带",
-      "effectPlain": "击败时， +(30–50) % 几率获得 1 层 永恒梦魇",
-      "valueSpans": [
-        "+(30–50)",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "51521041",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "永恒",
-      "source": "腰带",
-      "effectPlain": "击败时， +(10–20) % 几率获得 1 层 永恒虚影",
-      "valueSpans": [
-        "+(10–20)",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "51521051",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "永恒",
-      "source": "腰带",
-      "effectPlain": "击败魔法怪物时， +(30–50) % 几率获得 1 层 永恒守护",
-      "valueSpans": [
-        "+(30–50)",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "51521061",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "永恒",
-      "source": "腰带",
-      "effectPlain": "击败魔法怪物时， +(10–20) % 几率获得 1 层 永恒拟像",
-      "valueSpans": [
-        "+(10–20)",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "51521071",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "永恒",
-      "source": "腰带",
-      "effectPlain": "击败 劲敌 时， +50 % 几率获得 1 层 永恒主宰",
-      "valueSpans": [
-        "+50",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "51533611",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "热夜的轻拥",
-      "source": "腰带",
-      "effectPlain": "+10 智慧",
-      "valueSpans": [
-        "+10"
-      ]
-    },
-    {
-      "modifierId": "51533621",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "热夜的轻拥",
-      "source": "腰带",
-      "effectPlain": "+(10–15) % 受伤缓冲",
-      "valueSpans": [
-        "+(10–15)"
-      ]
-    },
-    {
-      "modifierId": "51533631",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "热夜的轻拥",
-      "source": "腰带",
-      "effectPlain": "+1 火焰技能等级",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "51533641",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "热夜的轻拥",
-      "source": "腰带",
-      "effectPlain": "每释放 5 次火焰技能，获得 余烬 ，持续 1 秒",
+      "effectPlain": "当前每拥有 5 % 护盾，护盾充能速度额外 -6 %",
       "valueSpans": [
         "5",
-        "1"
+        "-6"
       ]
     },
     {
-      "modifierId": "51533711",
+      "modifierId": "51531831",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "破晓",
+      "affixType": "猎光腰带",
       "source": "腰带",
-      "effectPlain": "+(500–1000) 点护甲和闪避值",
-      "valueSpans": [
-        "+(500–1000)"
-      ]
-    },
-    {
-      "modifierId": "51533731",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "破晓",
-      "source": "腰带",
-      "effectPlain": "拥有 战意",
+      "effectPlain": "护盾充能无法被打断",
       "valueSpans": []
     },
     {
-      "modifierId": "51533741",
+      "modifierId": "51531851",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "破晓",
+      "affixType": "猎光腰带",
       "source": "腰带",
-      "effectPlain": "固定拥有 (60–70) 点 战意值",
+      "effectPlain": "拥有护盾时，额外 (-30–-25) % 受到的伤害",
       "valueSpans": [
-        "(60–70)"
+        "(-30–-25)"
       ]
     },
     {
-      "modifierId": "51533751",
+      "modifierId": "51531321",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "破晓",
+      "affixType": "生息代偿",
       "source": "腰带",
-      "effectPlain": "每 (2–3) 点 战意值 ，额外 +1 % 伤害",
+      "effectPlain": "+(27–32) % 最大魔力",
       "valueSpans": [
-        "(2–3)",
-        "+1"
+        "+(27–32)"
+      ]
+    },
+    {
+      "modifierId": "51531331",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "生息代偿",
+      "source": "腰带",
+      "effectPlain": "+(48–60) % 魔力自然回复速度",
+      "valueSpans": [
+        "+(48–60)"
+      ]
+    },
+    {
+      "modifierId": "55531351",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "生息代偿",
+      "source": "腰带",
+      "effectPlain": "最近每消耗 100 魔力， +(3–4) % 魔力自然回复速度，最高 360 %",
+      "valueSpans": [
+        "100",
+        "+(3–4)",
+        "360"
+      ]
+    },
+    {
+      "modifierId": "55531371",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "生息代偿",
+      "source": "腰带",
+      "effectPlain": "最近每消耗 100 魔力， +(3–6) % 法术伤害，最高 216 %",
+      "valueSpans": [
+        "100",
+        "+(3–6)",
+        "216"
+      ]
+    },
+    {
+      "modifierId": "55531341",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "生息代偿",
+      "source": "腰带",
+      "effectPlain": "生命濒危 时，你拥有 (25–30) 级 法术增幅",
+      "valueSpans": [
+        "(25–30)"
+      ]
+    },
+    {
+      "modifierId": "51533851",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "盘根",
+      "source": "腰带",
+      "effectPlain": "+(250–330) 最大生命",
+      "valueSpans": [
+        "+(250–330)"
+      ]
+    },
+    {
+      "modifierId": "51533841",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "盘根",
+      "source": "腰带",
+      "effectPlain": "+(8–10) % 元素抗性",
+      "valueSpans": [
+        "+(8–10)"
+      ]
+    },
+    {
+      "modifierId": "51533831",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "盘根",
+      "source": "腰带",
+      "effectPlain": "每损失 10 %生命， (-10–-5) % 移动速度",
+      "valueSpans": [
+        "10",
+        "(-10–-5)"
       ]
     },
     {
@@ -2338,40 +2488,1051 @@
       ]
     },
     {
-      "modifierId": "51533831",
+      "modifierId": "51533711",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "盘根",
+      "affixType": "破晓",
       "source": "腰带",
-      "effectPlain": "每损失 10 %生命， (-10–-5) % 移动速度",
+      "effectPlain": "+(500–1000) 点护甲和闪避值",
       "valueSpans": [
-        "10",
-        "(-10–-5)"
+        "+(500–1000)"
       ]
     },
     {
-      "modifierId": "51533841",
+      "modifierId": "51533741",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "盘根",
+      "affixType": "破晓",
       "source": "腰带",
-      "effectPlain": "+(8–10) % 元素抗性",
+      "effectPlain": "固定拥有 (60–70) 点 战意值",
+      "valueSpans": [
+        "(60–70)"
+      ]
+    },
+    {
+      "modifierId": "51533731",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "破晓",
+      "source": "腰带",
+      "effectPlain": "拥有 战意",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51533751",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "破晓",
+      "source": "腰带",
+      "effectPlain": "每 (2–3) 点 战意值 ，额外 +1 % 伤害",
+      "valueSpans": [
+        "(2–3)",
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51533021",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "破阵",
+      "source": "腰带",
+      "effectPlain": "+48 % 技能范围",
+      "valueSpans": [
+        "+48"
+      ]
+    },
+    {
+      "modifierId": "51533041",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "破阵",
+      "source": "腰带",
+      "effectPlain": "使用哨卫技能时， 获得 破击蓄能",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51533031",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "破阵",
+      "source": "腰带",
+      "effectPlain": "哨卫近处的敌人，额外 +30% 受到的伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51533011",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "破阵",
+      "source": "腰带",
+      "effectPlain": "放置哨卫的技能额外 (-40–20) % 攻击和施法速度",
+      "valueSpans": [
+        "(-40–20)"
+      ]
+    },
+    {
+      "modifierId": "51531941",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "神性之呼",
+      "source": "腰带",
+      "effectPlain": "+30 % 召唤物伤害",
+      "valueSpans": [
+        "+30"
+      ]
+    },
+    {
+      "modifierId": "52531951",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "神性之呼",
+      "source": "腰带",
+      "effectPlain": "召唤物暴击时，每秒获得 8 点 统御值 ，持续 3 秒",
+      "valueSpans": [
+        "3"
+      ]
+    },
+    {
+      "modifierId": "51531921",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "神性之呼",
+      "source": "腰带",
+      "effectPlain": "每秒自然回复 1 % 生命",
+      "valueSpans": [
+        "1"
+      ]
+    },
+    {
+      "modifierId": "51530441",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "绝缘",
+      "source": "腰带",
+      "effectPlain": "+(5–10) % 闪电抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "51530411",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "绝缘",
+      "source": "腰带",
+      "effectPlain": "攻击和法术附加 (1–4) - (75–100) 点闪电伤害",
+      "valueSpans": [
+        "(1–4)",
+        "(75–100)"
+      ]
+    },
+    {
+      "modifierId": "51530451",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "绝缘",
+      "source": "腰带",
+      "effectPlain": "防护技能效果持续期间， +(1000–3000) 闪避值",
+      "valueSpans": [
+        "+(1000–3000)"
+      ]
+    },
+    {
+      "modifierId": "51530461",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "绝缘",
+      "source": "腰带",
+      "effectPlain": "防护技能效果持续期间，对法术伤害，闪避值不再默认额外降低",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "85023121",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "腰带",
+      "effectPlain": "+(20–25) % 冷却回复速度",
+      "valueSpans": [
+        "+(20–25)"
+      ]
+    },
+    {
+      "modifierId": "85023131",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "腰带",
+      "effectPlain": "+(20–25) % 技能效果持续时间",
+      "valueSpans": [
+        "+(20–25)"
+      ]
+    },
+    {
+      "modifierId": "85023161",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "腰带",
+      "effectPlain": "拥有 迅捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "85023141",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "腰带",
+      "effectPlain": "+(6–8) % 魔力封印 补偿",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "85023151",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "腰带",
+      "effectPlain": "+(7–8) % 光环效果",
+      "valueSpans": [
+        "+(7–8)"
+      ]
+    },
+    {
+      "modifierId": "85023101",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "腰带",
+      "effectPlain": "+(8–10) % 移动速度",
       "valueSpans": [
         "+(8–10)"
       ]
     },
     {
-      "modifierId": "51533851",
+      "modifierId": "85023011",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "腰带",
+      "effectPlain": "+(40–60) 最大魔力",
+      "valueSpans": [
+        "+(40–60)"
+      ]
+    },
+    {
+      "modifierId": "85023001",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "腰带",
+      "effectPlain": "+(54–74) 最大生命",
+      "valueSpans": [
+        "+(54–74)"
+      ]
+    },
+    {
+      "modifierId": "85023041",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "腰带",
+      "effectPlain": "+(5–10) % 冰冷抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "85023031",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "腰带",
+      "effectPlain": "+(5–10) % 火焰抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "85023061",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "腰带",
+      "effectPlain": "+(5–10) % 腐蚀抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "85023051",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "腰带",
+      "effectPlain": "+(5–10) % 闪电抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "85023021",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "腰带",
+      "effectPlain": "+(87–117) 最大护盾",
+      "valueSpans": [
+        "+(87–117)"
+      ]
+    },
+    {
+      "modifierId": "140230080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Belt",
+      "effectPlain": "+(2–3) 引导层数上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Belt",
+      "effectPlain": "+(2–3) 引导层数下限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Belt",
+      "effectPlain": "+(66–85) % 恶化 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Belt",
+      "effectPlain": "+1 点燃 上限 额外 +12 % 点燃 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115230080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Belt",
+      "effectPlain": "低魔 时，额外 (-21–-20) % 受到的伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Belt",
+      "effectPlain": "对 创伤 状态下的敌人， +(501–650) % 暴击值 额外 -30 % 击中伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Belt",
+      "effectPlain": "+(51–65) % 恶化 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Belt",
+      "effectPlain": "+1 点燃 上限 额外 +5 % 点燃 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Belt",
+      "effectPlain": "+2 引导层数上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Belt",
+      "effectPlain": "+2 引导层数下限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115230000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Belt",
+      "effectPlain": "低魔 时，额外 (-18–-16) % 受到的伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230800",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Belt",
+      "effectPlain": "对 创伤 状态下的敌人， +(386–500) % 暴击值 额外 -30 % 击中伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902401",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Belt",
+      "effectPlain": "+(36–50) % 恶化 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230001",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Belt",
+      "effectPlain": "+1 引导层数上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230101",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Belt",
+      "effectPlain": "+1 引导层数下限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231001",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Belt",
+      "effectPlain": "+1 点燃 上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115230001",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Belt",
+      "effectPlain": "低魔 时，额外 (-15–-12) % 受到的伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230801",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Belt",
+      "effectPlain": "对 创伤 状态下的敌人， +(271–385) % 暴击值 额外 -30 % 击中伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902402",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Belt",
+      "effectPlain": "+(26–35) % 恶化 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115230002",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Belt",
+      "effectPlain": "低魔 时，额外 (-11–-9) % 受到的伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230802",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Belt",
+      "effectPlain": "对 创伤 状态下的敌人， +(194–270) % 暴击值 额外 -30 % 击中伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902403",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 400,
+      "affixType": "至臻前缀",
+      "source": "Belt",
+      "effectPlain": "+(21–25) % 恶化 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230803",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "Belt",
+      "effectPlain": "对 创伤 状态下的敌人， +(155–193) % 暴击值 额外 -30 % 击中伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230804",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "Belt",
+      "effectPlain": "对 创伤 状态下的敌人， +(124–154) % 暴击值 额外 -30 % 击中伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230805",
+      "tier": 5,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "Belt",
+      "effectPlain": "对 创伤 状态下的敌人， +(101–123) % 暴击值 额外 -30 % 击中伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230806",
+      "tier": 6,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻前缀",
+      "source": "Belt",
+      "effectPlain": "对 创伤 状态下的敌人， +(78–100) % 暴击值 额外 -30 % 击中伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230807",
+      "tier": 7,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻前缀",
+      "source": "Belt",
+      "effectPlain": "对 创伤 状态下的敌人， +(60–77) % 暴击值 额外 -30 % 击中伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130230480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "+(32–41) % 冷却回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130230080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "+(32–41) % 技能效果持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "+(35–44) % 几率造成双倍伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "+(43–54) % 恶化 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230980",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "+(75–90) % 凋零 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "释放轰炸技能时，有 +(55–65) % 概率该次轰炸技能总波次+1",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130230400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "+(22–31) % 冷却回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130230000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "+(25–31) % 技能效果持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "+(27–34) % 几率造成双倍伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "+(33–42) % 恶化 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230900",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "+(54–68) % 凋零 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "释放轰炸技能时，有 +(40–50) % 概率该次轰炸技能总波次+1",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130230401",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "+(17–24) % 冷却回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130230001",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "+(18–24) % 技能效果持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230201",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "+(19–26) % 几率造成双倍伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902601",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "+(23–32) % 恶化 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230901",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "+(37–52) % 凋零 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231301",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "释放轰炸技能时，有 +(30–37) % 概率该次轰炸技能总波次+1",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130230002",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "+(13–17) % 技能效果持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130230402",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "+(14–17) % 冷却回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230202",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "+(14–18) % 几率造成双倍伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902602",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "+(17–22) % 恶化 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230902",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "+(27–36) % 凋零 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231302",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "释放轰炸技能时，有 +(20–28) % 概率该次轰炸技能总波次+1",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130230403",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "+(10–12) % 冷却回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130230003",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 400,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "+(10–12) % 技能效果持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230203",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "+(10–13) % 几率造成双倍伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902603",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 400,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "+(14–16) % 恶化 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230903",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "+(22–26) % 凋零 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230904",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "+(19–21) % 凋零 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230905",
+      "tier": 5,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "+(16–18) % 凋零 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230906",
+      "tier": 6,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "+(12–15) % 凋零 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140230907",
+      "tier": 7,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻后缀",
+      "source": "Belt",
+      "effectPlain": "+10 % 凋零 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51530831",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "盘根",
+      "affixType": "苍白云雾之拥",
       "source": "腰带",
-      "effectPlain": "+(250–330) 最大生命",
+      "effectPlain": "+(20–30) % 技能范围",
       "valueSpans": [
-        "+(250–330)"
+        "+(20–30)"
+      ]
+    },
+    {
+      "modifierId": "51530821",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "苍白云雾之拥",
+      "source": "腰带",
+      "effectPlain": "+(8–10) % 元素 抗性",
+      "valueSpans": [
+        "+(8–10)"
+      ]
+    },
+    {
+      "modifierId": "51530811",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "苍白云雾之拥",
+      "source": "腰带",
+      "effectPlain": "+44 最大生命",
+      "valueSpans": [
+        "+44"
+      ]
+    },
+    {
+      "modifierId": "51530841",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "苍白云雾之拥",
+      "source": "腰带",
+      "effectPlain": "技能范围的增加和减少的 25 % 同样作用于范围伤害，最多 + 100 %",
+      "valueSpans": [
+        "25",
+        "100"
+      ]
+    },
+    {
+      "modifierId": "51532631",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "虚海永雾",
+      "source": "腰带",
+      "effectPlain": "(-20–20) % 迷踪 效果",
+      "valueSpans": [
+        "(-20–20)"
+      ]
+    },
+    {
+      "modifierId": "51532611",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "虚海永雾",
+      "source": "腰带",
+      "effectPlain": "+(5–15) % 防御值",
+      "valueSpans": [
+        "+(5–15)"
+      ]
+    },
+    {
+      "modifierId": "51532621",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "虚海永雾",
+      "source": "腰带",
+      "effectPlain": "+(5–6) % 元素 抗性",
+      "valueSpans": [
+        "+(5–6)"
+      ]
+    },
+    {
+      "modifierId": "51532651",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "虚海永雾",
+      "source": "腰带",
+      "effectPlain": "失去 迷踪 时， +10 % 移动速度，持续 1 秒",
+      "valueSpans": [
+        "+10",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "51532641",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "虚海永雾",
+      "source": "腰带",
+      "effectPlain": "迷踪 获得额外效果：每点迷踪值，+0.3% 移动速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51532661",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "虚海永雾",
+      "source": "腰带",
+      "effectPlain": "闪避时， +50 % 几率获得 迷踪",
+      "valueSpans": [
+        "+50"
       ]
     },
     {
@@ -2396,6 +3557,996 @@
       "effectPlain": "连携终结技暴击时，每消耗 1 点连携点，额外 +(4.0–4.5) % 伤害",
       "valueSpans": [
         "+(4.0–4.5)"
+      ]
+    },
+    {
+      "modifierId": "104230180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(21–25) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115230480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(27–34) % 防御值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(43–54) % 恶化 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109230080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(79–101) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109230180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(79–101) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109230280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(79–101) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "使用近战技能时，获得一层 强硬 额外 (-12–-9) % 受到的伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "拥有 邪祟 ；召唤物拥有 邪祟 +(60–80) % 腐蚀伤害 +(60–80) % 召唤物腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "轰炸技能 +(35–42) % 每波伤害递增",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104230100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(16–20) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115230400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(21–26) % 防御值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(33–42) % 恶化 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109230000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(61–78) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109230100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(61–78) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109230200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(61–78) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "使用近战技能时，获得一层 强硬 额外 (-8–-6) % 受到的伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "拥有 邪祟 ；召唤物拥有 邪祟 +(40–50) % 腐蚀伤害 +(40–50) % 召唤物腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "轰炸技能 +(26–32) % 每波伤害递增",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104230101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(12–15) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115230401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(15–20) % 防御值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902501",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(23–32) % 恶化 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109230001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(43–60) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109230101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(43–60) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109230201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(43–60) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "使用近战技能时，获得一层 强硬 额外 (-5–-3) % 受到的伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231701",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "拥有 邪祟 ；召唤物拥有 邪祟 +(20–30) % 腐蚀伤害 +(20–30) % 召唤物腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "轰炸技能 +(20–25) % 每波伤害递增",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115230402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(11–14) % 防御值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902502",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(17–22) % 恶化 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109230002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(31–42) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109230102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(31–42) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109230202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(31–42) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104230102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(9–11) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231602",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "使用近战技能时，获得一层 强硬 额外 (-2–-1) % 受到的伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "轰炸技能 +(12–18) % 每波伤害递增",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902503",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 400,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(14–16) % 恶化 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109230003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(25–30) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109230103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(25–30) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109230203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(25–30) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104230103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(7–8) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115230403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(8–10) % 防御值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109230004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(20–24) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109230104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(20–24) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109230204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(20–24) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115230404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(6–7) % 防御值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109230005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(17–19) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109230105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(17–19) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109230205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(17–19) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115230405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(4–5) % 防御值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109230006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(13–16) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109230106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(13–16) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109230206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(13–16) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115230406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+3 % 防御值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109230007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(10–12) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109230107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(10–12) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109230207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+(10–12) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115230407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Belt",
+      "effectPlain": "+2 % 防御值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130230380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(13–15) % 元素 抗性 +(12–15) % 几率避免 元素 异常",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111230280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(34–40) % 异常状态 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(43–54) % 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(48–61) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116230680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(66–85) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130230180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "战吼立即释放 +3 战吼技能充能点数上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "魔灵 +(63–81) 初始 生长值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130230300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(10–12) % 元素 抗性 +(12–15) % 几率避免 元素 异常",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111230200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(26–32) % 异常状态 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(33–42) % 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(37–47) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116230600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(51–65) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130230100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "战吼立即释放 +2 战吼技能充能点数上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "魔灵 +(49–62) 初始 生长值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111230201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(16–24) % 异常状态 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(23–32) % 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231501",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(26–36) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116230601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(36–50) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130230301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(7–9) % 元素 抗性 +(12–15) % 几率避免 元素 异常",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130230101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "战吼立即释放 +1 战吼技能充能点数上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "魔灵 +(35–48) 初始 生长值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111230202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(10–14) % 异常状态 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(17–22) % 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231502",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(19–25) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116230602",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(26–35) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130230302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "+6 % 元素 抗性 +(9–11) % 几率避免 元素 异常",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140231402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "魔灵 +(25–34) 初始 生长值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(14–16) % 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116230603",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(21–25) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130230303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 400,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(4–5) % 元素 抗性 +(6–8) % 几率避免 元素 异常",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111230203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(5–8) % 异常状态 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(11–13) % 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116230604",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(17–20) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(9–10) % 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "+(7–8) % 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Belt",
+      "effectPlain": "+6 % 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51530111",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "钢铁悲鸣",
+      "source": "腰带",
+      "effectPlain": "+(165–176) 最大生命",
+      "valueSpans": [
+        "+(165–176)"
+      ]
+    },
+    {
+      "modifierId": "51530151",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "钢铁悲鸣",
+      "source": "腰带",
+      "effectPlain": "+(80–100) % 战吼范围",
+      "valueSpans": [
+        "+(80–100)"
+      ]
+    },
+    {
+      "modifierId": "51530141",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "钢铁悲鸣",
+      "source": "腰带",
+      "effectPlain": "+12 % 战吼技能冷却回复速度",
+      "valueSpans": [
+        "+12"
+      ]
+    },
+    {
+      "modifierId": "51530131",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "钢铁悲鸣",
+      "source": "腰带",
+      "effectPlain": "战吼技能被 (10–15) 级角斗怒吼辅助",
+      "valueSpans": [
+        "(10–15)"
+      ]
+    },
+    {
+      "modifierId": "51530121",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "钢铁悲鸣",
+      "source": "腰带",
+      "effectPlain": "额外 (-8–-6) % 受到的伤害",
+      "valueSpans": [
+        "(-8–-6)"
       ]
     },
     {
@@ -2493,6 +4644,57 @@
       "valueSpans": [
         "(1–2)"
       ]
+    },
+    {
+      "modifierId": "51532021",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "黑潮之拥",
+      "source": "腰带",
+      "effectPlain": "+(10–12) % 火焰抗性",
+      "valueSpans": [
+        "+(10–12)"
+      ]
+    },
+    {
+      "modifierId": "51532031",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "黑潮之拥",
+      "source": "腰带",
+      "effectPlain": "+(10–12) % 闪电抗性",
+      "valueSpans": [
+        "+(10–12)"
+      ]
+    },
+    {
+      "modifierId": "51532011",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "黑潮之拥",
+      "source": "腰带",
+      "effectPlain": "+(3–6) % 火焰与闪电抗性上限",
+      "valueSpans": [
+        "+(3–6)"
+      ]
+    },
+    {
+      "modifierId": "51532051",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "黑潮之拥",
+      "source": "腰带",
+      "effectPlain": "最近每造成一次 麻痹 ， 20 % 受到的物理伤害转化为闪电伤害，上限 40 % 最近每造成一次 点燃 ， 20 % 受到的物理伤害转化为火焰伤害，上限 40 %",
+      "valueSpans": [
+        "20",
+        "40",
+        "20",
+        "40"
+      ]
     }
   ],
   "tierVariantGroups": [
@@ -2554,17 +4756,6 @@
       "skeleton": "{#} % 冰冷抗性",
       "rolls": [
         {
-          "modifierId": "108230101",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 冰冷抗性"
-        },
-        {
           "modifierId": "1502304",
           "tier": 2,
           "itemLevel": 1,
@@ -2623,34 +4814,12 @@
             "+(20–25)"
           ],
           "effectPlain": "+(20–25) % 冷却回复速度"
-        },
-        {
-          "modifierId": "130230401",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻后缀",
-          "valueSpans": [
-            "+(17–24)"
-          ],
-          "effectPlain": "+(17–24) % 冷却回复速度"
         }
       ]
     },
     {
       "skeleton": "{#} % 召唤物伤害",
       "rolls": [
-        {
-          "modifierId": "140231101",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(51–72)"
-          ],
-          "effectPlain": "+(51–72) % 召唤物伤害"
-        },
         {
           "modifierId": "51531941",
           "tier": null,
@@ -2726,17 +4895,6 @@
             "+(20–25)"
           ],
           "effectPlain": "+(20–25) % 技能效果持续时间"
-        },
-        {
-          "modifierId": "130230001",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻后缀",
-          "valueSpans": [
-            "+(18–24)"
-          ],
-          "effectPlain": "+(18–24) % 技能效果持续时间"
         }
       ]
     },
@@ -2795,46 +4953,8 @@
       ]
     },
     {
-      "skeleton": "{#} % 最大魔力",
-      "rolls": [
-        {
-          "modifierId": "140722201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶后缀",
-          "valueSpans": [
-            "+(23–32)"
-          ],
-          "effectPlain": "+(23–32) % 最大魔力"
-        },
-        {
-          "modifierId": "51531321",
-          "tier": null,
-          "itemLevel": null,
-          "weight": null,
-          "affixType": "生息代偿",
-          "valueSpans": [
-            "+(27–32)"
-          ],
-          "effectPlain": "+(27–32) % 最大魔力"
-        }
-      ]
-    },
-    {
       "skeleton": "{#} % 火焰抗性",
       "rolls": [
-        {
-          "modifierId": "108230001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 火焰抗性"
-        },
         {
           "modifierId": "1502303",
           "tier": 2,
@@ -2912,17 +5032,6 @@
       "skeleton": "{#} % 腐蚀抗性",
       "rolls": [
         {
-          "modifierId": "108230301",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 腐蚀抗性"
-        },
-        {
           "modifierId": "1502306",
           "tier": 2,
           "itemLevel": 1,
@@ -2972,17 +5081,6 @@
       "skeleton": "{#} % 闪电抗性",
       "rolls": [
         {
-          "modifierId": "108230201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 闪电抗性"
-        },
-        {
           "modifierId": "1502305",
           "tier": 2,
           "itemLevel": 1,
@@ -3025,33 +5123,6 @@
             "+(10–12)"
           ],
           "effectPlain": "+(10–12) % 闪电抗性"
-        }
-      ]
-    },
-    {
-      "skeleton": "{#} % 防御值",
-      "rolls": [
-        {
-          "modifierId": "115230401",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(15–20)"
-          ],
-          "effectPlain": "+(15–20) % 防御值"
-        },
-        {
-          "modifierId": "51532611",
-          "tier": null,
-          "itemLevel": null,
-          "weight": null,
-          "affixType": "虚海永雾",
-          "valueSpans": [
-            "+(5–15)"
-          ],
-          "effectPlain": "+(5–15) % 防御值"
         }
       ]
     },
@@ -3110,73 +5181,8 @@
       ]
     },
     {
-      "skeleton": "{#} 力量",
-      "rolls": [
-        {
-          "modifierId": "109230001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(43–60)"
-          ],
-          "effectPlain": "+(43–60) 力量"
-        },
-        {
-          "modifierId": "51531511",
-          "tier": null,
-          "itemLevel": null,
-          "weight": null,
-          "affixType": "求生之欲",
-          "valueSpans": [
-            "+(5–10)"
-          ],
-          "effectPlain": "+(5–10) 力量"
-        }
-      ]
-    },
-    {
-      "skeleton": "{#} 智慧",
-      "rolls": [
-        {
-          "modifierId": "109230201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(43–60)"
-          ],
-          "effectPlain": "+(43–60) 智慧"
-        },
-        {
-          "modifierId": "51533611",
-          "tier": null,
-          "itemLevel": null,
-          "weight": null,
-          "affixType": "热夜的轻拥",
-          "valueSpans": [
-            "+10"
-          ],
-          "effectPlain": "+10 智慧"
-        }
-      ]
-    },
-    {
       "skeleton": "{#} 最大护盾",
       "rolls": [
-        {
-          "modifierId": "105230201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(246–350)"
-          ],
-          "effectPlain": "+(246–350) 最大护盾"
-        },
         {
           "modifierId": "1502302",
           "tier": 2,
@@ -3215,17 +5221,6 @@
     {
       "skeleton": "{#} 最大生命",
       "rolls": [
-        {
-          "modifierId": "104230001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(155–220)"
-          ],
-          "effectPlain": "+(155–220) 最大生命"
-        },
         {
           "modifierId": "1502300",
           "tier": 2,
@@ -3330,17 +5325,6 @@
     {
       "skeleton": "{#} 最大魔力",
       "rolls": [
-        {
-          "modifierId": "104230301",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(85–120)"
-          ],
-          "effectPlain": "+(85–120) 最大魔力"
-        },
         {
           "modifierId": "1502301",
           "tier": 2,
@@ -3481,5 +5465,5 @@
       ]
     }
   ],
-  "tierVariantGroupCount": 26
+  "tierVariantGroupCount": 22
 }

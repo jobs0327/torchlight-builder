@@ -82,10 +82,10 @@ const ZEALOT_EXTREME_VALUES = [0, 5, 5, 10, 16] // 极端温差
 const ZEALOT_ETERNAL_VALUES = [0, 5, 10, 16, 21] // 战火永燃
 
 const zealotHeatStacks = ref<number>(40)
-const zealotBurnLevel = ref<number>(5)
-const zealotBreathLevel = ref<number>(5)
-const zealotExtremeLevel = ref<number>(5)
-const zealotEternalLevel = ref<number>(5)
+const zealotBurnLevel = ref<number>(3)
+const zealotBreathLevel = ref<number>(3)
+const zealotExtremeLevel = ref<number>(3)
+const zealotEternalLevel = ref<number>(3)
 
 function calcZealotBonus(
   heatStacks: number,

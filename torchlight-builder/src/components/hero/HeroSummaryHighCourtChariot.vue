@@ -65,10 +65,10 @@ const MANY_ENEMIES_CAP = 100
 // 天降神兵：当前每有 1 点斗志， 对圣光领域中的敌人额外 (0.3/0.37/0.44/0.51/0.58)% 伤害
 const FORTITUDE_DAMAGE_PER = [0.3, 0.37, 0.44, 0.51, 0.58]
 
-const manyEnemiesTraitLevel = ref<number>(5)
+const manyEnemiesTraitLevel = ref<number>(3)
 const enemyCount = ref<number>(10)
 
-const dropSoldierTraitLevel = ref<number>(5)
+const dropSoldierTraitLevel = ref<number>(3)
 const fortitude = ref<number>(15)
 
 const selectedSet = computed(() =>

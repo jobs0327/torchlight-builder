@@ -79,7 +79,7 @@ const FUSION_AFTERGLOW = 100 // 冰火辉映：暴走结束后 3 秒窗口 +100%
 
 const fusionHasRecentFire = ref<boolean>(true)
 const fusionHasRecentCold = ref<boolean>(true)
-const fusionEmbraceLevel = ref<number>(5)
+const fusionEmbraceLevel = ref<number>(3)
 const fusionInAfterglow = ref<boolean>(true)
 
 const selectedSet = computed(() => new Set(props.selectedTraits ?? []))

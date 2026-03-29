@@ -92,15 +92,15 @@ const NETHER_CAP = [60, 70, 80, 90, 100]
 // 竭诚奉圣：每点秘银值额外 (0.08/0.08/0.1/0.1/0.1)% 元素伤害
 const INK_DAMAGE_PER_POINT = [0.08, 0.08, 0.1, 0.1, 0.1]
 
-const purityCleanLevel = ref<number>(5)
+const purityCleanLevel = ref<number>(3)
 const maxMana = ref<number>(3000)
 
-const unboundedNetherLevel = ref<number>(5)
+const unboundedNetherLevel = ref<number>(3)
 const enemyCount = ref<number>(5)
 
 const isInStance = ref<boolean>(false)
 
-const devoutLevel = ref<number>(5)
+const devoutLevel = ref<number>(3)
 const inkValue = ref<number>(200)
 
 const selectedSet = computed(() =>

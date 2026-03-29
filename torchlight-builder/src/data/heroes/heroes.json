@@ -68,7 +68,19 @@
         "icon": "/assets/heroes/traits/Rehan/YeManRen602.webp"
       }
     ],
-    "sourceUrl": "https://tlidb.com/cn/Anger"
+    "sourceUrl": "https://tlidb.com/cn/Anger",
+    "burstSkill": {
+      "name": "爆裂",
+      "radiusMeters": 3,
+      "weaponDamageMultiplierPct": 340,
+      "perSkillLevelMoreMultiplicative": 1.1,
+      "baseCooldownSec": 0.3,
+      "tags": ["攻击", "近战", "物理", "触发", "范围", "力量", "敏捷"],
+      "notes": [
+        "触发时对 3 米范围内敌人造成范围爆炸伤害；伤害相当于武器伤害的百分比（见 weaponDamageMultiplierPct）。",
+        "双持时，计算两把武器的平均值作为基础伤害。"
+      ]
+    }
   },
   {
     "id": "Seething_Silhouette",

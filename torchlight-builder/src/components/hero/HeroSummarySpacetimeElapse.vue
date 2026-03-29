@@ -82,10 +82,10 @@ const STOP_RECORDED_PER_LEVEL = [60, 70, 80, 90, 100]
 // 时空膨胀：额外 (+50/+62/+74/+86/+98)% 扭曲时空与时空乱流持续时间
 const INFLATE_DURATION_PER_LEVEL = [50, 62, 74, 86, 98]
 
-const accelTraitLevel = ref<number>(5)
-const changeTraitLevel = ref<number>(5)
-const stopTraitLevel = ref<number>(5)
-const inflateTraitLevel = ref<number>(5)
+const accelTraitLevel = ref<number>(3)
+const changeTraitLevel = ref<number>(3)
+const stopTraitLevel = ref<number>(3)
+const inflateTraitLevel = ref<number>(3)
 
 const baseDistortionSeconds = ref<number>(6) // 与核心描述一致：持续 6 秒（此处用于计算膨胀后存在时长）
 

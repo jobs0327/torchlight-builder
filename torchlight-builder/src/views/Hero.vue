@@ -1,5 +1,14 @@
 <template>
   <div class="hero-page">
+    <ConfirmDialog
+      v-model="showSwitchHeroConfirm"
+      title="切换英雄"
+      :message="switchHeroConfirmMessage"
+      cancel-text="取消"
+      confirm-text="继续切换"
+      @confirm="onConfirmSwitchHero"
+      @cancel="onCancelSwitchHero"
+    />
     <div class="hero-sidebar">
       <div class="hero-sidebar-header">
         <div>
@@ -15,7 +24,7 @@
           :key="hero.id"
           class="hero-item"
           :class="{ active: hero.id === activeHeroId }"
-          @click="activeHeroId = hero.id"
+          @click="requestSwitchHero(hero.id)"
         >
           <div class="hero-portrait">
             <img v-if="hero.portrait" :src="hero.portrait" :alt="hero.displayName" />
@@ -35,11 +44,6 @@
           <div class="hero-detail-title">{{ activeHero.traitTitle }}</div>
           <div class="hero-detail-sub" v-if="activeHero.heroName">{{ activeHero.heroName }}</div>
           <div class="hero-detail-desc" v-if="activeHero.heroDescription">{{ activeHero.heroDescription }}</div>
-        </div>
-
-        <!-- 英雄专属数值总结模块：使用动态组件，根据 hero.id 渲染对应 Summary 组件 -->
-        <div v-if="heroSummaryComponent" class="hero-summary">
-          <component :is="heroSummaryComponent" v-bind="heroSummaryProps" />
         </div>
 
         <div class="hero-traits-actions">
@@ -107,6 +111,11 @@
           </div>
         </div>
 
+        <!-- 英雄专属数值总结：置于特性列表下方 -->
+        <div v-if="heroSummaryComponent" class="hero-summary">
+          <component :is="heroSummaryComponent" v-bind="heroSummaryProps" />
+        </div>
+
       </div>
 
       <div v-else class="hero-empty">
@@ -118,38 +127,14 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ref, watch } from 'vue'
+import { computed, onActivated, onMounted, ref, watch } from 'vue'
+import { useBuildStore } from '@/stores/build'
+import ConfirmDialog from '@/components/ui/ConfirmDialog.vue'
+import { heroSummaryMap } from '@/components/hero/heroSummaryRegistry'
 // 数据由爬虫生成：build_hero_data.py -> src/data/heroes/heroes.json
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import heroesJson from '@/data/heroes/heroes.json'
-
-// 英雄专属数值 Summary 组件
-import HeroSummaryAnger from '@/components/hero/HeroSummaryAnger.vue'
-import HeroSummarySeethingSilhouette from '@/components/hero/HeroSummarySeethingSilhouette.vue'
-import HeroSummaryRangerOfGlory from '@/components/hero/HeroSummaryRangerOfGlory.vue'
-import HeroSummaryLethalFlash from '@/components/hero/HeroSummaryLethalFlash.vue'
-import HeroSummaryZealotOfWar from '@/components/hero/HeroSummaryZealotOfWar.vue'
-import HeroSummaryWindStalker from '@/components/hero/HeroSummaryWindStalker.vue'
-import HeroSummaryLightningShadow from '@/components/hero/HeroSummaryLightningShadow.vue'
-import HeroSummaryVendettasSting from '@/components/hero/HeroSummaryVendettasSting.vue'
-import HeroSummaryBlastNova from '@/components/hero/HeroSummaryBlastNova.vue'
-import HeroSummaryCreativeGenius from '@/components/hero/HeroSummaryCreativeGenius.vue'
-import HeroSummaryFlameOfPleasure from '@/components/hero/HeroSummaryFlameOfPleasure.vue'
-import HeroSummaryFrostbittenHeart from '@/components/hero/HeroSummaryFrostbittenHeart.vue'
-import HeroSummaryIceFireFusion from '@/components/hero/HeroSummaryIceFireFusion.vue'
-import HeroSummaryWisdomOfTheGods from '@/components/hero/HeroSummaryWisdomOfTheGods.vue'
-import HeroSummaryIncarnationOfTheGods from '@/components/hero/HeroSummaryIncarnationOfTheGods.vue'
-import HeroSummaryBlasphemer from '@/components/hero/HeroSummaryBlasphemer.vue'
-import HeroSummarySpacetimeIllusion from '@/components/hero/HeroSummarySpacetimeIllusion.vue'
-import HeroSummarySpacetimeElapse from '@/components/hero/HeroSummarySpacetimeElapse.vue'
-import HeroSummaryOrderCalling from '@/components/hero/HeroSummaryOrderCalling.vue'
-import HeroSummaryChargeCalling from '@/components/hero/HeroSummaryChargeCalling.vue'
-import HeroSummaryHighCourtChariot from '@/components/hero/HeroSummaryHighCourtChariot.vue'
-import HeroSummaryUnsulliedBlade from '@/components/hero/HeroSummaryUnsulliedBlade.vue'
-import HeroSummaryGrowingBreeze from '@/components/hero/HeroSummaryGrowingBreeze.vue'
-import HeroSummaryVigilantBreeze from '@/components/hero/HeroSummaryVigilantBreeze.vue'
-import HeroSummarySingWithTheTide from '@/components/hero/HeroSummarySingWithTheTide.vue'
 
 type HeroTrait = {
   name: string
@@ -176,9 +161,80 @@ const activeHeroId = ref<string>(heroes.value[0]?.id ?? '')
 
 const activeHero = computed(() => heroes.value.find(h => h.id === activeHeroId.value) || null)
 
+const showSwitchHeroConfirm = ref(false)
+const pendingHeroId = ref<string | null>(null)
+
+const pendingTargetHero = computed(() =>
+  pendingHeroId.value ? heroes.value.find(h => h.id === pendingHeroId.value) ?? null : null
+)
+
+const switchHeroConfirmMessage = computed(() => {
+  const cur = activeHero.value?.displayName ?? '当前英雄'
+  const next = pendingTargetHero.value?.displayName ?? '目标英雄'
+  return `「${cur}」已选择特性，切换到「${next}」将清空已选特性，是否继续？`
+})
+
 // 交互：按需求等级互斥选择（同 requiredLevel 只能选 1 个特性）
 const selectedTraitByRequiredLevel = ref<Record<number, string>>({})
 const expandedTraitByName = ref<Record<string, boolean>>({})
+
+const buildStore = useBuildStore()
+const HERO_SNAPSHOT_V = 1
+const applyingHeroFromStore = ref(false)
+
+function applyHeroFromStore() {
+  const raw = buildStore.snapshot.hero
+  if (!raw || typeof raw !== 'object') return
+  const h = raw as Record<string, unknown>
+  if (h.v !== HERO_SNAPSHOT_V) return
+  applyingHeroFromStore.value = true
+  try {
+    if (typeof h.activeHeroId === 'string' && heroes.value.some(x => x.id === h.activeHeroId)) {
+      activeHeroId.value = h.activeHeroId
+    }
+    if (h.selectedTraitByRequiredLevel && typeof h.selectedTraitByRequiredLevel === 'object') {
+      const m = h.selectedTraitByRequiredLevel as Record<string, string>
+      const next: Record<number, string> = {}
+      for (const [k, v] of Object.entries(m)) {
+        const num = Number(k)
+        if (!Number.isNaN(num) && typeof v === 'string') next[num] = v
+      }
+      selectedTraitByRequiredLevel.value = next
+    }
+    if (h.expandedTraitByName && typeof h.expandedTraitByName === 'object') {
+      expandedTraitByName.value = { ...(h.expandedTraitByName as Record<string, boolean>) }
+    }
+  } finally {
+    applyingHeroFromStore.value = false
+  }
+}
+
+applyHeroFromStore()
+
+function hasAnyTraitSelection(): boolean {
+  return Object.keys(selectedTraitByRequiredLevel.value).length > 0
+}
+
+/** 切换英雄；若已选特性则弹出项目内确认框 */
+function requestSwitchHero(nextId: string) {
+  if (!nextId || nextId === activeHeroId.value) return
+  if (hasAnyTraitSelection()) {
+    pendingHeroId.value = nextId
+    showSwitchHeroConfirm.value = true
+    return
+  }
+  activeHeroId.value = nextId
+}
+
+function onConfirmSwitchHero() {
+  const id = pendingHeroId.value
+  pendingHeroId.value = null
+  if (id) activeHeroId.value = id
+}
+
+function onCancelSwitchHero() {
+  pendingHeroId.value = null
+}
 
 function isTraitSelected(t: HeroTrait) {
   return selectedTraitByRequiredLevel.value[t.requiredLevel] === t.name
@@ -232,40 +288,29 @@ const allTraitsCollapsed = computed(() => {
 watch(
   () => activeHeroId.value,
   () => {
+    if (applyingHeroFromStore.value) return
     // 切换英雄时重置选择，避免跨英雄保留错误状态
     selectedTraitByRequiredLevel.value = {}
     expandedTraitByName.value = {}
   }
 )
 
-// hero.id -> Summary 组件映射
-const heroSummaryMap: Record<string, any> = {
-  Anger: HeroSummaryAnger,
-  Seething_Silhouette: HeroSummarySeethingSilhouette,
-  Ranger_of_Glory: HeroSummaryRangerOfGlory,
-  Lethal_Flash: HeroSummaryLethalFlash,
-  Zealot_of_War: HeroSummaryZealotOfWar,
-  Wind_Stalker: HeroSummaryWindStalker,
-  Lightning_Shadow: HeroSummaryLightningShadow,
-  "Vendetta%27s_Sting": HeroSummaryVendettasSting,
-  Blast_Nova: HeroSummaryBlastNova,
-  Creative_Genius: HeroSummaryCreativeGenius,
-  Flame_of_Pleasure: HeroSummaryFlameOfPleasure,
-  Frostbitten_Heart: HeroSummaryFrostbittenHeart,
-  'Ice-Fire_Fusion': HeroSummaryIceFireFusion,
-  Wisdom_of_The_Gods: HeroSummaryWisdomOfTheGods,
-  Incarnation_of_the_Gods: HeroSummaryIncarnationOfTheGods,
-  Blasphemer: HeroSummaryBlasphemer,
-  Spacetime_Illusion: HeroSummarySpacetimeIllusion,
-  Spacetime_Elapse: HeroSummarySpacetimeElapse,
-  Order_Calling: HeroSummaryOrderCalling,
-  Charge_Calling: HeroSummaryChargeCalling,
-  High_Court_Chariot: HeroSummaryHighCourtChariot,
-  Unsullied_Blade: HeroSummaryUnsulliedBlade,
-  Growing_Breeze: HeroSummaryGrowingBreeze,
-  Vigilant_Breeze: HeroSummaryVigilantBreeze,
-  Sing_with_the_Tide: HeroSummarySingWithTheTide
-}
+watch(
+  [activeHeroId, selectedTraitByRequiredLevel, expandedTraitByName],
+  () => {
+    if (applyingHeroFromStore.value) return
+    buildStore.setHero({
+      v: HERO_SNAPSHOT_V,
+      activeHeroId: activeHeroId.value,
+      selectedTraitByRequiredLevel: { ...selectedTraitByRequiredLevel.value },
+      expandedTraitByName: { ...expandedTraitByName.value }
+    })
+  },
+  { deep: true }
+)
+
+onMounted(applyHeroFromStore)
+onActivated(applyHeroFromStore)
 
 const heroSummaryComponent = computed(() => {
   const id = activeHero.value?.id
@@ -279,39 +324,8 @@ const selectedTraitNames = computed(() =>
 )
 
 const heroSummaryProps = computed<Record<string, unknown>>(() => {
-  const id = activeHero.value?.id
-  if (!id) return {}
-  // 将“已选特性”传给已实现联动的 Summary 组件
-  if (
-    id === 'Vendetta%27s_Sting' ||
-    id === 'Anger' ||
-    id === 'Seething_Silhouette' ||
-    id === 'Ranger_of_Glory' ||
-    id === 'Lethal_Flash' ||
-    id === 'Zealot_of_War' ||
-    id === 'Wind_Stalker' ||
-    id === 'Lightning_Shadow' ||
-    id === 'Blast_Nova' ||
-    id === 'Flame_of_Pleasure' ||
-    id === 'Frostbitten_Heart' ||
-    id === 'Ice-Fire_Fusion' ||
-    id === 'Wisdom_of_The_Gods' ||
-    id === 'Incarnation_of_the_Gods' ||
-    id === 'Blasphemer' ||
-    id === 'Spacetime_Illusion' ||
-    id === 'Spacetime_Elapse' ||
-    id === 'Order_Calling' ||
-    id === 'Charge_Calling' ||
-    id === 'High_Court_Chariot' ||
-    id === 'Unsullied_Blade' ||
-    id === 'Growing_Breeze' ||
-    id === 'Vigilant_Breeze' ||
-    id === 'Sing_with_the_Tide' ||
-    id === 'Creative_Genius'
-  ) {
-    return { selectedTraits: selectedTraitNames.value }
-  }
-  return {}
+  if (!heroSummaryComponent.value) return {}
+  return { selectedTraits: selectedTraitNames.value }
 })
 </script>
 
@@ -492,8 +506,8 @@ const heroSummaryProps = computed<Record<string, unknown>>(() => {
 }
 
 .hero-summary {
-  padding: 12px 14px 4px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 14px 14px 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
   background: rgba(255, 255, 255, 0.02);
 }
 

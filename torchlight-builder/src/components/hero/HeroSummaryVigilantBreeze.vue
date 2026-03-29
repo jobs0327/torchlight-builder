@@ -110,11 +110,11 @@ const startWarmStacks = ref<number>(5)
 const nonRegroupSeconds = ref<number>(4)
 const regroupSeconds = ref<number>(0)
 
-const sameRivalLevel = ref<number>(5)
+const sameRivalLevel = ref<number>(3)
 const ultimateCount = ref<number>(0)
 
-const warmGuardLevel = ref<number>(5)
-const joyReunionLevel = ref<number>(5)
+const warmGuardLevel = ref<number>(3)
+const joyReunionLevel = ref<number>(3)
 const magicLingCount = ref<number>(5)
 
 const lifeConsumedPctTotal = computed(() => {

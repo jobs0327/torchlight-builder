@@ -2,966 +2,31 @@
   "slug": "Dagger",
   "label": "Dagger",
   "sourceUrl": "https://tlidb.com/cn/Dagger",
-  "fetchedAt": "2026-03-22T08:57:55Z",
-  "modifierCount": 118,
+  "fetchedAt": "2026-03-24T07:24:50Z",
+  "modifierCount": 332,
   "modifiers": [
     {
-      "modifierId": "1500800",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "匕首",
-      "effectPlain": "攻击附加 (10–13) - (14–19) 点物理伤害",
-      "valueSpans": [
-        "(10–13)",
-        "(14–19)"
-      ]
-    },
-    {
-      "modifierId": "1500801",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "匕首",
-      "effectPlain": "攻击附加 (9–14) - (15–20) 点火焰伤害",
-      "valueSpans": [
-        "(9–14)",
-        "(15–20)"
-      ]
-    },
-    {
-      "modifierId": "1500802",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "匕首",
-      "effectPlain": "攻击附加 (10–13) - (14–19) 点冰冷伤害",
-      "valueSpans": [
-        "(10–13)",
-        "(14–19)"
-      ]
-    },
-    {
-      "modifierId": "1500803",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "匕首",
-      "effectPlain": "攻击附加 (1–2) - (28–32) 点闪电伤害",
-      "valueSpans": [
-        "(1–2)",
-        "(28–32)"
-      ]
-    },
-    {
-      "modifierId": "1500804",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "匕首",
-      "effectPlain": "攻击附加 (11–13) - (15–18) 点腐蚀伤害",
-      "valueSpans": [
-        "(11–13)",
-        "(15–18)"
-      ]
-    },
-    {
-      "modifierId": "1500805",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "匕首",
-      "effectPlain": "+(20–24) % 物理伤害",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "1500806",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "匕首",
-      "effectPlain": "+(20–24) % 元素伤害",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "1500807",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "匕首",
-      "effectPlain": "+(20–24) % 腐蚀伤害",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "1500808",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "匕首",
-      "effectPlain": "+(20–24) % 近战伤害",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "1500809",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "匕首",
-      "effectPlain": "+(6–8) % 攻击速度",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "1500810",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "匕首",
-      "effectPlain": "+1 幻影 数量",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "1500811",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "匕首",
-      "effectPlain": "额外 +(6–8) % 攻击伤害",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "1500812",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "匕首",
-      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "1500813",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "匕首",
-      "effectPlain": "+(5–7) % 护甲减伤穿透",
-      "valueSpans": [
-        "+(5–7)"
-      ]
-    },
-    {
-      "modifierId": "1500814",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "匕首",
-      "effectPlain": "+1 坚韧祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "1500815",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "匕首",
-      "effectPlain": "+1 灵动祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "1500816",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "匕首",
-      "effectPlain": "+1 聚能祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "60060801",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "匕首",
-      "effectPlain": "击败时， +(4–8) % 几率获得 1 层 聚能祝福",
-      "valueSpans": [
-        "+(4–8)"
-      ]
-    },
-    {
-      "modifierId": "60060802",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "匕首",
-      "effectPlain": "+(5–10) 每秒施加 加剧 值",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "60060803",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "匕首",
-      "effectPlain": "该装备附加 (2–4) - (8–10) 点物理伤害",
-      "valueSpans": [
-        "(2–4)",
-        "(8–10)"
-      ]
-    },
-    {
-      "modifierId": "60060804",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "匕首",
-      "effectPlain": "+(15–25) % 该装备物理伤害",
-      "valueSpans": [
-        "+(15–25)"
-      ]
-    },
-    {
-      "modifierId": "60060805",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "匕首",
-      "effectPlain": "+(5–8) % 该装备攻击速度",
-      "valueSpans": [
-        "+(5–8)"
-      ]
-    },
-    {
-      "modifierId": "60060806",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "匕首",
-      "effectPlain": "+(3–6) % 该装备攻击暴击值",
-      "valueSpans": [
-        "+(3–6)"
-      ]
-    },
-    {
-      "modifierId": "60060807",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "匕首",
-      "effectPlain": "(5–8) % 几率额外造成 1 层 凋零",
-      "valueSpans": [
-        "(5–8)",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "60060808",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "匕首",
-      "effectPlain": "+(25–30) % 元素 伤害",
-      "valueSpans": [
-        "+(25–30)"
-      ]
-    },
-    {
-      "modifierId": "106080001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "匕首",
-      "effectPlain": "该装备附加 (36–38) - (44–46) 点物理伤害",
-      "valueSpans": [
-        "(36–38)",
-        "(44–46)"
-      ]
-    },
-    {
-      "modifierId": "106080101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "匕首",
-      "effectPlain": "该装备附加 (123–125) - (160–169) 点火焰伤害",
-      "valueSpans": [
-        "(123–125)",
-        "(160–169)"
-      ]
-    },
-    {
-      "modifierId": "106080201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "匕首",
-      "effectPlain": "该装备附加 (125–127) - (165–167) 点冰冷伤害",
-      "valueSpans": [
-        "(125–127)",
-        "(165–167)"
-      ]
-    },
-    {
-      "modifierId": "106080301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "匕首",
-      "effectPlain": "该装备附加 (14–16) - (276–278) 点闪电伤害",
-      "valueSpans": [
-        "(14–16)",
-        "(276–278)"
-      ]
-    },
-    {
-      "modifierId": "106080401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "匕首",
-      "effectPlain": "该装备附加 (133–135) - (157–159) 点腐蚀伤害",
-      "valueSpans": [
-        "(133–135)",
-        "(157–159)"
-      ]
-    },
-    {
-      "modifierId": "140080401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "匕首",
-      "effectPlain": "+(77–108) % 近战伤害",
-      "valueSpans": [
-        "+(77–108)"
-      ]
-    },
-    {
-      "modifierId": "140081601",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "匕首",
-      "effectPlain": "附加 56 - 67 基础 凋零 伤害",
-      "valueSpans": [
-        "56",
-        "67"
-      ]
-    },
-    {
-      "modifierId": "140081901",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "匕首",
-      "effectPlain": "造成持续伤害时，收割 (0.13–0.18) 秒 凋零 伤害，该效果对同一目标有 1 秒回复时间",
-      "valueSpans": [
-        "(0.13–0.18)",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "107080001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "匕首",
-      "effectPlain": "+(56–100) % 该装备物理伤害",
-      "valueSpans": [
-        "+(56–100)"
-      ]
-    },
-    {
-      "modifierId": "109080001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "匕首",
-      "effectPlain": "+(64–90) 智慧",
-      "valueSpans": [
-        "+(64–90)"
-      ]
-    },
-    {
-      "modifierId": "109080101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "匕首",
-      "effectPlain": "+(64–90) 敏捷",
-      "valueSpans": [
-        "+(64–90)"
-      ]
-    },
-    {
-      "modifierId": "109080301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "匕首",
-      "effectPlain": "+(64–90) 力量",
-      "valueSpans": [
-        "+(64–90)"
-      ]
-    },
-    {
-      "modifierId": "115080501",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "匕首",
-      "effectPlain": "+(18–25) % 护甲减伤穿透",
-      "valueSpans": [
-        "+(18–25)"
-      ]
-    },
-    {
-      "modifierId": "130080101",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "匕首",
-      "effectPlain": "+(22–30) % 元素和腐蚀抗性穿透",
-      "valueSpans": [
-        "+(22–30)"
-      ]
-    },
-    {
-      "modifierId": "140080501",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "匕首",
-      "effectPlain": "连续攻击 伤害递增 (43–60) %",
-      "valueSpans": [
-        "(43–60)"
-      ]
-    },
-    {
-      "modifierId": "140081801",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "匕首",
-      "effectPlain": "+3 攻击技能等级",
-      "valueSpans": [
-        "+3"
-      ]
-    },
-    {
-      "modifierId": "140082001",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "匕首",
-      "effectPlain": "该装备附加 (47–49) - (272–274) 点元素伤害 -100 % 该装备物理伤害",
-      "valueSpans": [
-        "(47–49)",
-        "(272–274)",
-        "-100"
-      ]
-    },
-    {
-      "modifierId": "140082301",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "匕首",
-      "effectPlain": "额外 +(22–30) % 凋零 伤害",
-      "valueSpans": [
-        "+(22–30)"
-      ]
-    },
-    {
-      "modifierId": "110080001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "匕首",
-      "effectPlain": "+(23–32) % 该装备攻击速度",
-      "valueSpans": [
-        "+(23–32)"
-      ]
-    },
-    {
-      "modifierId": "140080901",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "匕首",
-      "effectPlain": "+(14–18) % 生命返还",
-      "valueSpans": [
-        "+(14–18)"
-      ]
-    },
-    {
-      "modifierId": "140080905",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "匕首",
-      "effectPlain": "+(14–18) % 护盾返还",
-      "valueSpans": [
-        "+(14–18)"
-      ]
-    },
-    {
-      "modifierId": "140081201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "匕首",
-      "effectPlain": "+(77–108) % 物理伤害",
-      "valueSpans": [
-        "+(77–108)"
-      ]
-    },
-    {
-      "modifierId": "140081301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "匕首",
-      "effectPlain": "+(77–108) % 元素 伤害",
-      "valueSpans": [
-        "+(77–108)"
-      ]
-    },
-    {
-      "modifierId": "140081401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "匕首",
-      "effectPlain": "+(77–108) % 腐蚀伤害",
-      "valueSpans": [
-        "+(77–108)"
-      ]
-    },
-    {
-      "modifierId": "110080101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "匕首",
-      "effectPlain": "+(36–50) % 该装备攻击暴击值",
-      "valueSpans": [
-        "+(36–50)"
-      ]
-    },
-    {
-      "modifierId": "110080501",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "匕首",
-      "effectPlain": "+(128–180) % 暴击值",
-      "valueSpans": [
-        "+(128–180)"
-      ]
-    },
-    {
-      "modifierId": "110080601",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "匕首",
-      "effectPlain": "+(26–36) % 攻击与施法速度 +(26–36) % 召唤物攻击与施法速度",
-      "valueSpans": [
-        "+(26–36)",
-        "+(26–36)"
-      ]
-    },
-    {
-      "modifierId": "111080401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "匕首",
-      "effectPlain": "+(64–90) % 暴击伤害",
-      "valueSpans": [
-        "+(64–90)"
-      ]
-    },
-    {
-      "modifierId": "140080601",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "匕首",
-      "effectPlain": "+(57–72) % 连续攻击 几率",
-      "valueSpans": [
-        "+(57–72)"
-      ]
-    },
-    {
-      "modifierId": "140081501",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "匕首",
-      "effectPlain": "+(54–75) % 加剧 效果",
-      "valueSpans": [
-        "+(54–75)"
-      ]
-    },
-    {
-      "modifierId": "140082101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "匕首",
-      "effectPlain": "+(45–54) % 贯注速度",
-      "valueSpans": [
-        "+(45–54)"
-      ]
-    },
-    {
-      "modifierId": "130080501",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "匕首",
-      "effectPlain": "+(29–40) % 几率造成双倍伤害",
-      "valueSpans": [
-        "+(29–40)"
-      ]
-    },
-    {
-      "modifierId": "140080801",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "匕首",
-      "effectPlain": "+2 幻影 数量 额外 -5 % 幻影 伤害",
-      "valueSpans": [
-        "+2",
-        "-5"
-      ]
-    },
-    {
-      "modifierId": "140082201",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "匕首",
-      "effectPlain": "+(35–45) % 贯注伤害加深",
-      "valueSpans": [
-        "+(35–45)"
-      ]
-    },
-    {
-      "modifierId": "140082401",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "匕首",
-      "effectPlain": "+(40–50) % 异常伤害加深",
-      "valueSpans": [
-        "+(40–50)"
-      ]
-    },
-    {
-      "modifierId": "85008001",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "匕首",
-      "effectPlain": "攻击附加 (10–13) - (14–19) 点物理伤害",
-      "valueSpans": [
-        "(10–13)",
-        "(14–19)"
-      ]
-    },
-    {
-      "modifierId": "85008011",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "匕首",
-      "effectPlain": "攻击附加 (9–14) - (15–20) 点火焰伤害",
-      "valueSpans": [
-        "(9–14)",
-        "(15–20)"
-      ]
-    },
-    {
-      "modifierId": "85008021",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "匕首",
-      "effectPlain": "攻击附加 (10–13) - (14–19) 点冰冷伤害",
-      "valueSpans": [
-        "(10–13)",
-        "(14–19)"
-      ]
-    },
-    {
-      "modifierId": "85008031",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "匕首",
-      "effectPlain": "攻击附加 (1–2) - (28–32) 点闪电伤害",
-      "valueSpans": [
-        "(1–2)",
-        "(28–32)"
-      ]
-    },
-    {
-      "modifierId": "85008041",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "匕首",
-      "effectPlain": "攻击附加 (11–13) - (15–18) 点腐蚀伤害",
-      "valueSpans": [
-        "(11–13)",
-        "(15–18)"
-      ]
-    },
-    {
-      "modifierId": "85008051",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "匕首",
-      "effectPlain": "+(20–24) % 物理伤害",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "85008061",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "匕首",
-      "effectPlain": "+(20–24) % 元素伤害",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "85008071",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "匕首",
-      "effectPlain": "+(20–24) % 腐蚀伤害",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "85008081",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "匕首",
-      "effectPlain": "+(20–24) % 近战伤害",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "85008091",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "匕首",
-      "effectPlain": "+(6–8) % 攻击速度",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "85008101",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "匕首",
-      "effectPlain": "+1 幻影 数量",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "85008111",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "匕首",
-      "effectPlain": "额外 +(6–8) % 攻击伤害",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "85008121",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "匕首",
-      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "85008131",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "匕首",
-      "effectPlain": "+(5–7) % 护甲减伤穿透",
-      "valueSpans": [
-        "+(5–7)"
-      ]
-    },
-    {
-      "modifierId": "85008141",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "匕首",
-      "effectPlain": "+1 坚韧祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "85008151",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "匕首",
-      "effectPlain": "+1 灵动祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "85008161",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "匕首",
-      "effectPlain": "+1 聚能祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "160401008",
+      "modifierId": "160410008",
       "tier": 1,
       "itemLevel": 1,
       "weight": 100,
       "affixType": "中阶序列",
       "source": "匕首",
-      "effectPlain": "额外 +8 % 主手武器 伤害",
+      "effectPlain": "+10 % 全属性",
       "valueSpans": [
-        "+8"
+        "+10"
+      ]
+    },
+    {
+      "modifierId": "160408008",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "匕首",
+      "effectPlain": "+20 % 该装备攻击暴击值",
+      "valueSpans": [
+        "+20"
       ]
     },
     {
@@ -977,18 +42,6 @@
       ]
     },
     {
-      "modifierId": "160403008",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "匕首",
-      "effectPlain": "+8 % 火焰穿透",
-      "valueSpans": [
-        "+8"
-      ]
-    },
-    {
       "modifierId": "160404008",
       "tier": 1,
       "itemLevel": 1,
@@ -1001,13 +54,13 @@
       ]
     },
     {
-      "modifierId": "160405008",
+      "modifierId": "160403008",
       "tier": 1,
       "itemLevel": 1,
       "weight": 100,
       "affixType": "中阶序列",
       "source": "匕首",
-      "effectPlain": "+8 % 闪电穿透",
+      "effectPlain": "+8 % 火焰穿透",
       "valueSpans": [
         "+8"
       ]
@@ -1037,15 +90,15 @@
       ]
     },
     {
-      "modifierId": "160408008",
+      "modifierId": "160405008",
       "tier": 1,
       "itemLevel": 1,
       "weight": 100,
       "affixType": "中阶序列",
       "source": "匕首",
-      "effectPlain": "+20 % 该装备攻击暴击值",
+      "effectPlain": "+8 % 闪电穿透",
       "valueSpans": [
-        "+20"
+        "+8"
       ]
     },
     {
@@ -1061,333 +114,15 @@
       ]
     },
     {
-      "modifierId": "160410008",
+      "modifierId": "160401008",
       "tier": 1,
       "itemLevel": 1,
       "weight": 100,
       "affixType": "中阶序列",
       "source": "匕首",
-      "effectPlain": "+10 % 全属性",
+      "effectPlain": "额外 +8 % 主手武器 伤害",
       "valueSpans": [
-        "+10"
-      ]
-    },
-    {
-      "modifierId": "160501008",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "高阶序列",
-      "source": "匕首",
-      "effectPlain": "攻击或者法术击败敌人时 15 % 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 250 % 的真实伤害",
-      "valueSpans": [
-        "15",
-        "6",
-        "250"
-      ]
-    },
-    {
-      "modifierId": "160502008",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 30,
-      "affixType": "高阶序列",
-      "source": "匕首",
-      "effectPlain": "每 10 点敏捷，攻击附加 1 - 3 点闪电伤害",
-      "valueSpans": [
-        "10",
-        "1",
-        "3"
-      ]
-    },
-    {
-      "modifierId": "160503008",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 30,
-      "affixType": "高阶序列",
-      "source": "匕首",
-      "effectPlain": "每 10 点力量，攻击附加 2 - 2 点火焰伤害",
-      "valueSpans": [
-        "10",
-        "2",
-        "2"
-      ]
-    },
-    {
-      "modifierId": "160504008",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 30,
-      "affixType": "高阶序列",
-      "source": "匕首",
-      "effectPlain": "核心技能被 25 级的碾压辅助",
-      "valueSpans": [
-        "25"
-      ]
-    },
-    {
-      "modifierId": "160505008",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 60,
-      "affixType": "高阶序列",
-      "source": "匕首",
-      "effectPlain": "每 2260 点护甲值，攻击附加 1 - 1 点物理伤害",
-      "valueSpans": [
-        "2260",
-        "1",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "160506008",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 60,
-      "affixType": "高阶序列",
-      "source": "匕首",
-      "effectPlain": "+120 % 狂猛光环效果 额外 -20 % 狂猛 魔力封印 补偿",
-      "valueSpans": [
-        "+120",
-        "-20"
-      ]
-    },
-    {
-      "modifierId": "160507008",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "高阶序列",
-      "source": "匕首",
-      "effectPlain": "+80 % 该装备物理伤害 -20 % 该装备攻击暴击值",
-      "valueSpans": [
-        "+80",
-        "-20"
-      ]
-    },
-    {
-      "modifierId": "160508008",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "高阶序列",
-      "source": "匕首",
-      "effectPlain": "额外 +15 % 恶化 伤害 10 % 几率额外造成 1 层 恶化",
-      "valueSpans": [
-        "+15",
-        "10",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "160509008",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "高阶序列",
-      "source": "匕首",
-      "effectPlain": "+25 % 该装备元素伤害 -25 % 该装备物理伤害",
-      "valueSpans": [
-        "+25",
-        "-25"
-      ]
-    },
-    {
-      "modifierId": "51280211",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "追忆",
-      "source": "匕首",
-      "effectPlain": "+(20–30) % 法术伤害",
-      "valueSpans": [
-        "+(20–30)"
-      ]
-    },
-    {
-      "modifierId": "51280221",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "追忆",
-      "source": "匕首",
-      "effectPlain": "+(5–10) % 施法速度",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "51280231",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "追忆",
-      "source": "匕首",
-      "effectPlain": "附加 (35–40) - (45–50) 基础 凋零 伤害",
-      "valueSpans": [
-        "(35–40)",
-        "(45–50)"
-      ]
-    },
-    {
-      "modifierId": "51280241",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "追忆",
-      "source": "匕首",
-      "effectPlain": "+20 % 凋零 几率",
-      "valueSpans": [
-        "+20"
-      ]
-    },
-    {
-      "modifierId": "51280251",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "追忆",
-      "source": "匕首",
-      "effectPlain": "被你击败的 凋零 敌人有 (40–50) % 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 (16–20) % 的真实伤害",
-      "valueSpans": [
-        "(40–50)",
-        "6",
-        "(16–20)"
-      ]
-    },
-    {
-      "modifierId": "51280261",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "追忆",
-      "source": "匕首",
-      "effectPlain": "对传奇敌人 +(25–30) % 凋零 持续时间",
-      "valueSpans": [
-        "+(25–30)"
-      ]
-    },
-    {
-      "modifierId": "51280411",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "求告匕首",
-      "source": "匕首",
-      "effectPlain": "+(90–100) % 该装备物理伤害",
-      "valueSpans": [
-        "+(90–100)"
-      ]
-    },
-    {
-      "modifierId": "51280421",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "求告匕首",
-      "source": "匕首",
-      "effectPlain": "+(40–50) % 连续攻击 几率",
-      "valueSpans": [
-        "+(40–50)"
-      ]
-    },
-    {
-      "modifierId": "51280431",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "求告匕首",
-      "source": "匕首",
-      "effectPlain": "+(15–20) % 该装备攻击速度",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "51280441",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "求告匕首",
-      "source": "匕首",
-      "effectPlain": "+(15–20) % 凋零 持续时间",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "51280451",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "求告匕首",
-      "source": "匕首",
-      "effectPlain": "附加 (18–20) - (22–25) 基础 凋零 伤害",
-      "valueSpans": [
-        "(18–20)",
-        "(22–25)"
-      ]
-    },
-    {
-      "modifierId": "51280811",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "雷光绝影的冷眼",
-      "source": "匕首",
-      "effectPlain": "+1 闪电技能等级",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "51280821",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "雷光绝影的冷眼",
-      "source": "匕首",
-      "effectPlain": "+(10–20) % 施法速度",
-      "valueSpans": [
-        "+(10–20)"
-      ]
-    },
-    {
-      "modifierId": "51280831",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "雷光绝影的冷眼",
-      "source": "匕首",
-      "effectPlain": "+(20–30) % 技能范围",
-      "valueSpans": [
-        "+(20–30)"
-      ]
-    },
-    {
-      "modifierId": "51280851",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "雷光绝影的冷眼",
-      "source": "匕首",
-      "effectPlain": "如果最近造成了冰冷伤害， +20 % 闪电穿透",
-      "valueSpans": [
-        "+20"
-      ]
-    },
-    {
-      "modifierId": "51280911",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "乱影",
-      "source": "匕首",
-      "effectPlain": "该装备附加 (157–167) - (175–185) 点物理伤害",
-      "valueSpans": [
-        "(157–167)",
-        "(175–185)"
+        "+8"
       ]
     },
     {
@@ -1467,36 +202,3333 @@
         "+10",
         "3"
       ]
+    },
+    {
+      "modifierId": "51280911",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "乱影",
+      "source": "匕首",
+      "effectPlain": "该装备附加 (157–167) - (175–185) 点物理伤害",
+      "valueSpans": [
+        "(157–167)",
+        "(175–185)"
+      ]
+    },
+    {
+      "modifierId": "60060807",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "匕首",
+      "effectPlain": "(5–8) % 几率额外造成 1 层 凋零",
+      "valueSpans": [
+        "(5–8)",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "60060804",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "匕首",
+      "effectPlain": "+(15–25) % 该装备物理伤害",
+      "valueSpans": [
+        "+(15–25)"
+      ]
+    },
+    {
+      "modifierId": "60060808",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "匕首",
+      "effectPlain": "+(25–30) % 元素 伤害",
+      "valueSpans": [
+        "+(25–30)"
+      ]
+    },
+    {
+      "modifierId": "60060806",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "匕首",
+      "effectPlain": "+(3–6) % 该装备攻击暴击值",
+      "valueSpans": [
+        "+(3–6)"
+      ]
+    },
+    {
+      "modifierId": "60060802",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "匕首",
+      "effectPlain": "+(5–10) 每秒施加 加剧 值",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "60060805",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "匕首",
+      "effectPlain": "+(5–8) % 该装备攻击速度",
+      "valueSpans": [
+        "+(5–8)"
+      ]
+    },
+    {
+      "modifierId": "60060801",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "匕首",
+      "effectPlain": "击败时， +(4–8) % 几率获得 1 层 聚能祝福",
+      "valueSpans": [
+        "+(4–8)"
+      ]
+    },
+    {
+      "modifierId": "60060803",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "匕首",
+      "effectPlain": "该装备附加 (2–4) - (8–10) 点物理伤害",
+      "valueSpans": [
+        "(2–4)",
+        "(8–10)"
+      ]
+    },
+    {
+      "modifierId": "140080480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(141–183) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (209–211) - (271–285) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (209–211) - (271–285) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (226–228) - (266–268) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (24–26) - (468–470) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (61–63) - (75–77) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081980",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "造成持续伤害时，收割 (0.25–0.3) 秒 凋零 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "附加 95 - 115 基础 凋零 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(109–140) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (161–163) - (208–220) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (162–164) - (216–218) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (174–176) - (204–206) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (18–20) - (360–362) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (47–49) - (57–59) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081900",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "造成持续伤害时，收割 (0.19–0.24) 秒 凋零 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "附加 72 - 88 基础 凋零 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(77–108) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (123–125) - (160–169) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (125–127) - (165–167) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (133–135) - (157–159) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (14–16) - (276–278) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (36–38) - (44–46) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081901",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "造成持续伤害时，收割 (0.13–0.18) 秒 凋零 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "附加 56 - 67 基础 凋零 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(55–76) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (21–23) - (25–27) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (47–49) - (62–67) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (48–50) - (64–66) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (51–53) - (61–63) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (5–7) - (107–109) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081902",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "造成持续伤害时，收割 (0.09–0.12) 秒 凋零 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081602",
+      "tier": 2,
+      "itemLevel": 78,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "附加 38 - 46 基础 凋零 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(44–54) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (13–15) - (17–19) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (23–25) - (30–33) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (23–25) - (31–33) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (25–27) - (29–31) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (2–4) - (52–54) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081903",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "造成持续伤害时，收割 0.08 秒 凋零 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081603",
+      "tier": 3,
+      "itemLevel": 68,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "附加 28 - 35 基础 凋零 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(36–43) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (1–2) - (20–22) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (8–10) - (11–14) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (8–10) - (12–14) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (9–11) - (11–13) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (9–11) - (11–13) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081904",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "造成持续伤害时，收割 0.07 秒 凋零 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081604",
+      "tier": 4,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "附加 21 - 25 基础 凋零 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(29–35) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (1–2) - (10–12) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (4–6) - (6–8) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (4–6) - (6–8) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (4–6) - (6–8) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 5 - (5–7) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081905",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "造成持续伤害时，收割 0.06 秒 凋零 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(23–28) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (1–2) - (9–11) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (3–5) - (5–7) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (3–5) - (5–7) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 4 - (4–6) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 4 - (5–7) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081906",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "造成持续伤害时，收割 0.05 秒 凋零 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(17–22) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (1–2) - (3–6) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (1–2) - (3–6) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 1 - (5–7) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 3 - (3–4) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106080407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 3 - 3 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081907",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Dagger",
+      "effectPlain": "造成持续伤害时，收割 0.04 秒 凋零 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(141–183) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(141–183) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(141–183) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(24–30) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080980",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(24–30) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(43–54) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(109–140) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(109–140) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(109–140) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080904",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(19–23) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080900",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(19–23) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(29–41) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080905",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(14–18) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080901",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(14–18) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(23–32) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(77–108) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(77–108) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(77–108) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080906",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(10–13) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080902",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(10–13) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(19–22) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(55–76) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(55–76) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(55–76) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(14–16) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(44–54) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(44–54) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(44–54) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080907",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(8–9) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080903",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(8–9) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(11–13) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(36–43) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(36–43) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(36–43) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(29–35) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(29–35) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(29–35) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(9–10) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(23–28) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(23–28) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(23–28) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(7–8) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(17–22) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(17–22) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(17–22) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(5–6) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "1500814",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "匕首",
+      "effectPlain": "+1 坚韧祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "1500815",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "匕首",
+      "effectPlain": "+1 灵动祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "1500816",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "匕首",
+      "effectPlain": "+1 聚能祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "1500813",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "匕首",
+      "effectPlain": "+(5–7) % 护甲减伤穿透",
+      "valueSpans": [
+        "+(5–7)"
+      ]
+    },
+    {
+      "modifierId": "1500812",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "匕首",
+      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1500810",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "匕首",
+      "effectPlain": "+1 幻影 数量",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "1500811",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "匕首",
+      "effectPlain": "额外 +(6–8) % 攻击伤害",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1500806",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "匕首",
+      "effectPlain": "+(20–24) % 元素伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "1500805",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "匕首",
+      "effectPlain": "+(20–24) % 物理伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "1500807",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "匕首",
+      "effectPlain": "+(20–24) % 腐蚀伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "1500808",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "匕首",
+      "effectPlain": "+(20–24) % 近战伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "1500809",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "匕首",
+      "effectPlain": "+(6–8) % 攻击速度",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1500802",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "匕首",
+      "effectPlain": "攻击附加 (10–13) - (14–19) 点冰冷伤害",
+      "valueSpans": [
+        "(10–13)",
+        "(14–19)"
+      ]
+    },
+    {
+      "modifierId": "1500800",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "匕首",
+      "effectPlain": "攻击附加 (10–13) - (14–19) 点物理伤害",
+      "valueSpans": [
+        "(10–13)",
+        "(14–19)"
+      ]
+    },
+    {
+      "modifierId": "1500804",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "匕首",
+      "effectPlain": "攻击附加 (11–13) - (15–18) 点腐蚀伤害",
+      "valueSpans": [
+        "(11–13)",
+        "(15–18)"
+      ]
+    },
+    {
+      "modifierId": "1500803",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "匕首",
+      "effectPlain": "攻击附加 (1–2) - (28–32) 点闪电伤害",
+      "valueSpans": [
+        "(1–2)",
+        "(28–32)"
+      ]
+    },
+    {
+      "modifierId": "1500801",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "匕首",
+      "effectPlain": "攻击附加 (9–14) - (15–20) 点火焰伤害",
+      "valueSpans": [
+        "(9–14)",
+        "(15–20)"
+      ]
+    },
+    {
+      "modifierId": "51280441",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "求告匕首",
+      "source": "匕首",
+      "effectPlain": "+(15–20) % 凋零 持续时间",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "51280431",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "求告匕首",
+      "source": "匕首",
+      "effectPlain": "+(15–20) % 该装备攻击速度",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "51280421",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "求告匕首",
+      "source": "匕首",
+      "effectPlain": "+(40–50) % 连续攻击 几率",
+      "valueSpans": [
+        "+(40–50)"
+      ]
+    },
+    {
+      "modifierId": "51280411",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "求告匕首",
+      "source": "匕首",
+      "effectPlain": "+(90–100) % 该装备物理伤害",
+      "valueSpans": [
+        "+(90–100)"
+      ]
+    },
+    {
+      "modifierId": "51280451",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "求告匕首",
+      "source": "匕首",
+      "effectPlain": "附加 (18–20) - (22–25) 基础 凋零 伤害",
+      "valueSpans": [
+        "(18–20)",
+        "(22–25)"
+      ]
+    },
+    {
+      "modifierId": "85008141",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "匕首",
+      "effectPlain": "+1 坚韧祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85008151",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "匕首",
+      "effectPlain": "+1 灵动祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85008161",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "匕首",
+      "effectPlain": "+1 聚能祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85008131",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "匕首",
+      "effectPlain": "+(5–7) % 护甲减伤穿透",
+      "valueSpans": [
+        "+(5–7)"
+      ]
+    },
+    {
+      "modifierId": "85008121",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "匕首",
+      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "85008101",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "匕首",
+      "effectPlain": "+1 幻影 数量",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85008111",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "匕首",
+      "effectPlain": "额外 +(6–8) % 攻击伤害",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "85008061",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "匕首",
+      "effectPlain": "+(20–24) % 元素伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85008051",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "匕首",
+      "effectPlain": "+(20–24) % 物理伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85008071",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "匕首",
+      "effectPlain": "+(20–24) % 腐蚀伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85008081",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "匕首",
+      "effectPlain": "+(20–24) % 近战伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85008091",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "匕首",
+      "effectPlain": "+(6–8) % 攻击速度",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "85008021",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "匕首",
+      "effectPlain": "攻击附加 (10–13) - (14–19) 点冰冷伤害",
+      "valueSpans": [
+        "(10–13)",
+        "(14–19)"
+      ]
+    },
+    {
+      "modifierId": "85008001",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "匕首",
+      "effectPlain": "攻击附加 (10–13) - (14–19) 点物理伤害",
+      "valueSpans": [
+        "(10–13)",
+        "(14–19)"
+      ]
+    },
+    {
+      "modifierId": "85008041",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "匕首",
+      "effectPlain": "攻击附加 (11–13) - (15–18) 点腐蚀伤害",
+      "valueSpans": [
+        "(11–13)",
+        "(15–18)"
+      ]
+    },
+    {
+      "modifierId": "85008031",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "匕首",
+      "effectPlain": "攻击附加 (1–2) - (28–32) 点闪电伤害",
+      "valueSpans": [
+        "(1–2)",
+        "(28–32)"
+      ]
+    },
+    {
+      "modifierId": "85008011",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "匕首",
+      "effectPlain": "攻击附加 (9–14) - (15–20) 点火焰伤害",
+      "valueSpans": [
+        "(9–14)",
+        "(15–20)"
+      ]
+    },
+    {
+      "modifierId": "115080580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Dagger",
+      "effectPlain": "+(34–42) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130080180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Dagger",
+      "effectPlain": "+(40–51) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Dagger",
+      "effectPlain": "+(4–5) 攻击技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140082080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (81–83) - (463–465) 点元素伤害 -100 % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Dagger",
+      "effectPlain": "连续攻击 伤害递增 (79–101) %",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140082380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Dagger",
+      "effectPlain": "额外 +(40–50) % 凋零 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115080500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Dagger",
+      "effectPlain": "+(26–32) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130080100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Dagger",
+      "effectPlain": "+(28–39) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081800",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Dagger",
+      "effectPlain": "+(3–4) 攻击技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140082000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (62–64) - (356–358) 点元素伤害 -100 % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Dagger",
+      "effectPlain": "连续攻击 伤害递增 (61–78) %",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140082300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Dagger",
+      "effectPlain": "额外 +(31–39) % 凋零 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115080501",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Dagger",
+      "effectPlain": "+(18–25) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130080101",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Dagger",
+      "effectPlain": "+(22–30) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081801",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Dagger",
+      "effectPlain": "+3 攻击技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140082001",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (47–49) - (272–274) 点元素伤害 -100 % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080501",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Dagger",
+      "effectPlain": "连续攻击 伤害递增 (43–60) %",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140082301",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Dagger",
+      "effectPlain": "额外 +(22–30) % 凋零 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115080502",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Dagger",
+      "effectPlain": "+(15–17) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130080102",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Dagger",
+      "effectPlain": "+(18–21) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081802",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Dagger",
+      "effectPlain": "+2 攻击技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140082002",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Dagger",
+      "effectPlain": "该装备附加 (18–20) - (107–109) 点元素伤害 -100 % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080502",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Dagger",
+      "effectPlain": "连续攻击 伤害递增 (31–42) %",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140082302",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Dagger",
+      "effectPlain": "额外 +(16–21) % 凋零 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115080503",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "Dagger",
+      "effectPlain": "+(11–12) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130080103",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "Dagger",
+      "effectPlain": "+(13–15) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080503",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "Dagger",
+      "effectPlain": "连续攻击 伤害递增 (25–30) %",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115080504",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "Dagger",
+      "effectPlain": "+(9–10) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130080580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Dagger",
+      "effectPlain": "+(53–68) % 几率造成双倍伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140082280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Dagger",
+      "effectPlain": "+(65–80) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140082480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Dagger",
+      "effectPlain": "+(70–85) % 异常伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Dagger",
+      "effectPlain": "+2 幻影 数量 额外 +(30–40) % 幻影 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130080500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Dagger",
+      "effectPlain": "+(41–52) % 几率造成双倍伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140082200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Dagger",
+      "effectPlain": "+(48–60) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140082400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Dagger",
+      "effectPlain": "+(55–65) % 异常伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080800",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Dagger",
+      "effectPlain": "+2 幻影 数量 额外 +(10–15) % 幻影 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130080501",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Dagger",
+      "effectPlain": "+(29–40) % 几率造成双倍伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140082201",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Dagger",
+      "effectPlain": "+(35–45) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140082401",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Dagger",
+      "effectPlain": "+(40–50) % 异常伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080801",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Dagger",
+      "effectPlain": "+2 幻影 数量 额外 -5 % 幻影 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140082202",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Dagger",
+      "effectPlain": "+(20–30) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130080502",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Dagger",
+      "effectPlain": "+(21–28) % 几率造成双倍伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140082402",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Dagger",
+      "effectPlain": "+(25–35) % 异常伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130080503",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "Dagger",
+      "effectPlain": "+(17–20) % 几率造成双倍伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109080380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(118–152) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109080180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(118–152) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109080080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(118–152) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107080080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(131–169) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115080680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(30–37) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107080000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(101–130) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115080600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(23–29) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109080300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(91–117) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109080100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(91–117) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109080000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(91–117) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107080001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(56–100) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109080301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(64–90) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109080101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(64–90) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109080001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(64–90) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107080002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(46–55) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109080302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(46–63) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109080102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(46–63) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109080002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(46–63) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107080003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(36–45) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109080303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(37–45) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109080103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(37–45) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109080003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(37–45) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107080004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(26–35) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109080304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(30–36) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109080104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(30–36) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109080004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(30–36) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107080005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(16–25) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109080305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(24–29) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109080105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(24–29) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109080005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(24–29) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107080006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(11–15) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109080306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(19–23) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109080106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(19–23) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109080006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(19–23) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109080307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(15–18) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109080107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(15–18) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109080007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(15–18) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107080007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Dagger",
+      "effectPlain": "+(9–10) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111080480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(118–152) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(235–304) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(48–61) % 攻击与施法速度 +(48–61) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(66–85) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140082180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(75–90) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(95–122) % 连续攻击 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(99–127) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(166–234) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(33–47) % 攻击与施法速度 +(33–47) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(47–64) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140082100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(60–70) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(74–94) % 连续攻击 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(76–98) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111080400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(91–117) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080501",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(128–180) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(26–36) % 攻击与施法速度 +(26–36) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(36–50) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140082101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(45–54) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081501",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(54–75) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(57–72) % 连续攻击 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111080401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(64–90) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080502",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(107–126) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080602",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(21–25) % 攻击与施法速度 +(21–25) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(30–35) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140082102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(30–40) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081502",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(39–53) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111080402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(46–63) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080602",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(48–50) % 连续攻击 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080603",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(15–18) % 攻击与施法速度 +(15–18) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(22–25) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081503",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(31–38) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080603",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(34–36) % 连续攻击 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111080403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(37–45) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080503",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(77–90) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(17–20) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081504",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(25–30) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080604",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(27–29) % 连续攻击 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111080404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(30–36) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080504",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(61–72) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(14–16) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081505",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(21–24) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080605",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(22–23) % 连续攻击 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111080405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(24–29) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080505",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(48–58) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(11–13) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081506",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(16–20) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140080606",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(18–19) % 连续攻击 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111080406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(19–23) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080506",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(40–47) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140081507",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(13–15) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111080407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(15–18) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110080107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Dagger",
+      "effectPlain": "+(9–10) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51280211",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "追忆",
+      "source": "匕首",
+      "effectPlain": "+(20–30) % 法术伤害",
+      "valueSpans": [
+        "+(20–30)"
+      ]
+    },
+    {
+      "modifierId": "51280221",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "追忆",
+      "source": "匕首",
+      "effectPlain": "+(5–10) % 施法速度",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "51280241",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "追忆",
+      "source": "匕首",
+      "effectPlain": "+20 % 凋零 几率",
+      "valueSpans": [
+        "+20"
+      ]
+    },
+    {
+      "modifierId": "51280261",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "追忆",
+      "source": "匕首",
+      "effectPlain": "对传奇敌人 +(25–30) % 凋零 持续时间",
+      "valueSpans": [
+        "+(25–30)"
+      ]
+    },
+    {
+      "modifierId": "51280251",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "追忆",
+      "source": "匕首",
+      "effectPlain": "被你击败的 凋零 敌人有 (40–50) % 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 (16–20) % 的真实伤害",
+      "valueSpans": [
+        "(40–50)",
+        "6",
+        "(16–20)"
+      ]
+    },
+    {
+      "modifierId": "51280231",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "追忆",
+      "source": "匕首",
+      "effectPlain": "附加 (35–40) - (45–50) 基础 凋零 伤害",
+      "valueSpans": [
+        "(35–40)",
+        "(45–50)"
+      ]
+    },
+    {
+      "modifierId": "51280821",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "雷光绝影的冷眼",
+      "source": "匕首",
+      "effectPlain": "+(10–20) % 施法速度",
+      "valueSpans": [
+        "+(10–20)"
+      ]
+    },
+    {
+      "modifierId": "51280831",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "雷光绝影的冷眼",
+      "source": "匕首",
+      "effectPlain": "+(20–30) % 技能范围",
+      "valueSpans": [
+        "+(20–30)"
+      ]
+    },
+    {
+      "modifierId": "51280811",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "雷光绝影的冷眼",
+      "source": "匕首",
+      "effectPlain": "+1 闪电技能等级",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51280851",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "雷光绝影的冷眼",
+      "source": "匕首",
+      "effectPlain": "如果最近造成了冰冷伤害， +20 % 闪电穿透",
+      "valueSpans": [
+        "+20"
+      ]
+    },
+    {
+      "modifierId": "160506008",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 60,
+      "affixType": "高阶序列",
+      "source": "匕首",
+      "effectPlain": "+120 % 狂猛光环效果 额外 -20 % 狂猛 魔力封印 补偿",
+      "valueSpans": [
+        "+120",
+        "-20"
+      ]
+    },
+    {
+      "modifierId": "160509008",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
+      "source": "匕首",
+      "effectPlain": "+25 % 该装备元素伤害 -25 % 该装备物理伤害",
+      "valueSpans": [
+        "+25",
+        "-25"
+      ]
+    },
+    {
+      "modifierId": "160507008",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
+      "source": "匕首",
+      "effectPlain": "+80 % 该装备物理伤害 -20 % 该装备攻击暴击值",
+      "valueSpans": [
+        "+80",
+        "-20"
+      ]
+    },
+    {
+      "modifierId": "160501008",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
+      "source": "匕首",
+      "effectPlain": "攻击或者法术击败敌人时 15 % 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 250 % 的真实伤害",
+      "valueSpans": [
+        "15",
+        "6",
+        "250"
+      ]
+    },
+    {
+      "modifierId": "160504008",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 30,
+      "affixType": "高阶序列",
+      "source": "匕首",
+      "effectPlain": "核心技能被 25 级的碾压辅助",
+      "valueSpans": [
+        "25"
+      ]
+    },
+    {
+      "modifierId": "160503008",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 30,
+      "affixType": "高阶序列",
+      "source": "匕首",
+      "effectPlain": "每 10 点力量，攻击附加 2 - 2 点火焰伤害",
+      "valueSpans": [
+        "10",
+        "2",
+        "2"
+      ]
+    },
+    {
+      "modifierId": "160502008",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 30,
+      "affixType": "高阶序列",
+      "source": "匕首",
+      "effectPlain": "每 10 点敏捷，攻击附加 1 - 3 点闪电伤害",
+      "valueSpans": [
+        "10",
+        "1",
+        "3"
+      ]
+    },
+    {
+      "modifierId": "160505008",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 60,
+      "affixType": "高阶序列",
+      "source": "匕首",
+      "effectPlain": "每 2260 点护甲值，攻击附加 1 - 1 点物理伤害",
+      "valueSpans": [
+        "2260",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "160508008",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
+      "source": "匕首",
+      "effectPlain": "额外 +15 % 恶化 伤害 10 % 几率额外造成 1 层 恶化",
+      "valueSpans": [
+        "+15",
+        "10",
+        "1"
+      ]
     }
   ],
   "tierVariantGroups": [
-    {
-      "skeleton": "{#} % 元素 伤害",
-      "rolls": [
-        {
-          "modifierId": "60060808",
-          "tier": 0,
-          "itemLevel": 1,
-          "weight": 1,
-          "affixType": "侵蚀基底",
-          "valueSpans": [
-            "+(25–30)"
-          ],
-          "effectPlain": "+(25–30) % 元素 伤害"
-        },
-        {
-          "modifierId": "140081301",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(77–108)"
-          ],
-          "effectPlain": "+(77–108) % 元素 伤害"
-        }
-      ]
-    },
     {
       "skeleton": "{#} % 元素伤害",
       "rolls": [
@@ -1528,17 +3560,6 @@
       "skeleton": "{#} % 元素和腐蚀抗性穿透",
       "rolls": [
         {
-          "modifierId": "130080101",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻前缀",
-          "valueSpans": [
-            "+(22–30)"
-          ],
-          "effectPlain": "+(22–30) % 元素和腐蚀抗性穿透"
-        },
-        {
           "modifierId": "1500812",
           "tier": 1,
           "itemLevel": 1,
@@ -1565,17 +3586,6 @@
     {
       "skeleton": "{#} % 护甲减伤穿透",
       "rolls": [
-        {
-          "modifierId": "115080501",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻前缀",
-          "valueSpans": [
-            "+(18–25)"
-          ],
-          "effectPlain": "+(18–25) % 护甲减伤穿透"
-        },
         {
           "modifierId": "1500813",
           "tier": 1,
@@ -1669,17 +3679,6 @@
       "skeleton": "{#} % 物理伤害",
       "rolls": [
         {
-          "modifierId": "140081201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(77–108)"
-          ],
-          "effectPlain": "+(77–108) % 物理伤害"
-        },
-        {
           "modifierId": "1500805",
           "tier": 2,
           "itemLevel": 1,
@@ -1706,17 +3705,6 @@
     {
       "skeleton": "{#} % 腐蚀伤害",
       "rolls": [
-        {
-          "modifierId": "140081401",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(77–108)"
-          ],
-          "effectPlain": "+(77–108) % 腐蚀伤害"
-        },
         {
           "modifierId": "1500807",
           "tier": 2,
@@ -1756,17 +3744,6 @@
           "effectPlain": "+(3–6) % 该装备攻击暴击值"
         },
         {
-          "modifierId": "110080101",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶后缀",
-          "valueSpans": [
-            "+(36–50)"
-          ],
-          "effectPlain": "+(36–50) % 该装备攻击暴击值"
-        },
-        {
           "modifierId": "160408008",
           "tier": 1,
           "itemLevel": 1,
@@ -1803,17 +3780,6 @@
             "+(5–8)"
           ],
           "effectPlain": "+(5–8) % 该装备攻击速度"
-        },
-        {
-          "modifierId": "110080001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(23–32)"
-          ],
-          "effectPlain": "+(23–32) % 该装备攻击速度"
         },
         {
           "modifierId": "160407008",
@@ -1865,17 +3831,6 @@
           "effectPlain": "+(15–25) % 该装备物理伤害"
         },
         {
-          "modifierId": "107080001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(56–100)"
-          ],
-          "effectPlain": "+(56–100) % 该装备物理伤害"
-        },
-        {
           "modifierId": "51280411",
           "tier": null,
           "itemLevel": null,
@@ -1891,17 +3846,6 @@
     {
       "skeleton": "{#} % 近战伤害",
       "rolls": [
-        {
-          "modifierId": "140080401",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(77–108)"
-          ],
-          "effectPlain": "+(77–108) % 近战伤害"
-        },
         {
           "modifierId": "1500808",
           "tier": 2,
@@ -1923,33 +3867,6 @@
             "+(20–24)"
           ],
           "effectPlain": "+(20–24) % 近战伤害"
-        }
-      ]
-    },
-    {
-      "skeleton": "{#} % 连续攻击 几率",
-      "rolls": [
-        {
-          "modifierId": "140080601",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶后缀",
-          "valueSpans": [
-            "+(57–72)"
-          ],
-          "effectPlain": "+(57–72) % 连续攻击 几率"
-        },
-        {
-          "modifierId": "51280421",
-          "tier": null,
-          "itemLevel": null,
-          "weight": null,
-          "affixType": "求告匕首",
-          "valueSpans": [
-            "+(40–50)"
-          ],
-          "effectPlain": "+(40–50) % 连续攻击 几率"
         }
       ]
     },
@@ -2277,18 +4194,6 @@
           "effectPlain": "该装备附加 (2–4) - (8–10) 点物理伤害"
         },
         {
-          "modifierId": "106080001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "(36–38)",
-            "(44–46)"
-          ],
-          "effectPlain": "该装备附加 (36–38) - (44–46) 点物理伤害"
-        },
-        {
           "modifierId": "51280911",
           "tier": null,
           "itemLevel": null,
@@ -2305,18 +4210,6 @@
     {
       "skeleton": "附加 {#} - {#} 基础 凋零 伤害",
       "rolls": [
-        {
-          "modifierId": "140081601",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "56",
-            "67"
-          ],
-          "effectPlain": "附加 56 - 67 基础 凋零 伤害"
-        },
         {
           "modifierId": "51280231",
           "tier": null,
@@ -2371,5 +4264,5 @@
       ]
     }
   ],
-  "tierVariantGroupCount": 26
+  "tierVariantGroupCount": 24
 }

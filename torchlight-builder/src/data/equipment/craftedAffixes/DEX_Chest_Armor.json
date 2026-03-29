@@ -2,79 +2,1494 @@
   "slug": "DEX_Chest_Armor",
   "label": "DEX Chest Armor",
   "sourceUrl": "https://tlidb.com/cn/DEX_Chest_Armor",
-  "fetchedAt": "2026-03-22T08:57:10Z",
-  "modifierCount": 125,
+  "fetchedAt": "2026-03-24T07:24:06Z",
+  "modifierCount": 356,
   "modifiers": [
     {
-      "modifierId": "1506100",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "51416211",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "三相",
       "source": "敏捷胸甲",
-      "effectPlain": "+(54–74) 最大生命",
+      "effectPlain": "(-3–3) % 元素 抗性上限",
       "valueSpans": [
-        "+(54–74)"
+        "(-3–3)"
       ]
     },
     {
-      "modifierId": "1506101",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "51416221",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "三相",
       "source": "敏捷胸甲",
-      "effectPlain": "每秒自然回复 (0.5–1.0) % 生命",
+      "effectPlain": "(-5–5) % 元素抗性",
       "valueSpans": [
-        "(0.5–1.0)"
+        "(-5–5)"
       ]
     },
     {
-      "modifierId": "1506102",
-      "tier": 2,
+      "modifierId": "51416241",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "三相",
+      "source": "敏捷胸甲",
+      "effectPlain": "三相律法",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51416231",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "三相",
+      "source": "敏捷胸甲",
+      "effectPlain": "获得等同于自身的最低 有效 元素抗性的元素抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "60066107",
+      "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "敏捷胸甲",
-      "effectPlain": "+(5–10) % 火焰抗性",
+      "effectPlain": "+(15–20) % 最大护盾",
       "valueSpans": [
-        "+(5–10)"
+        "+(15–20)"
       ]
     },
     {
-      "modifierId": "1506103",
-      "tier": 2,
+      "modifierId": "60066108",
+      "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "敏捷胸甲",
-      "effectPlain": "+(5–10) % 冰冷抗性",
+      "effectPlain": "+(15–20) % 最大生命",
       "valueSpans": [
-        "+(5–10)"
+        "+(15–20)"
       ]
     },
     {
-      "modifierId": "1506104",
-      "tier": 2,
+      "modifierId": "60066111",
+      "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "敏捷胸甲",
-      "effectPlain": "+(5–10) % 闪电抗性",
+      "effectPlain": "+(30–50) % 该装备闪避值",
       "valueSpans": [
-        "+(5–10)"
+        "+(30–50)"
       ]
     },
     {
-      "modifierId": "1506105",
+      "modifierId": "60066103",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "敏捷胸甲",
+      "effectPlain": "+(3–5) % 元素 抗性上限",
+      "valueSpans": [
+        "+(3–5)"
+      ]
+    },
+    {
+      "modifierId": "60066106",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "敏捷胸甲",
+      "effectPlain": "+(50–70) % 伤害",
+      "valueSpans": [
+        "+(50–70)"
+      ]
+    },
+    {
+      "modifierId": "60066110",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "敏捷胸甲",
+      "effectPlain": "+(8–10) % 元素 抗性和腐蚀抗性",
+      "valueSpans": [
+        "+(8–10)"
+      ]
+    },
+    {
+      "modifierId": "60066101",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "敏捷胸甲",
+      "effectPlain": "+2 主动技能等级",
+      "valueSpans": [
+        "+2"
+      ]
+    },
+    {
+      "modifierId": "60066109",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "敏捷胸甲",
+      "effectPlain": "免疫 元素异常 状态",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(157–203) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(22–27) % 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104610080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(287–372) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105610080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(4369–5678) 该装备闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(79–100) % 暴击伤害减免",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(95–122) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107610280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(95–122) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(121–156) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(17–21) % 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104610000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(221–286) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105610000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(3361–4368) 该装备闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610800",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(61–78) % 暴击伤害减免",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(73–94) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107610200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(73–94) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(12–16) % 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104610001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(154–220) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105610001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(2353–3360) 该装备闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610801",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(43–60) % 暴击伤害减免",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(51–72) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107610201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(51–72) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(85–120) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104610002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(129–154) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105610002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(1681–2352) 该装备闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610802",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(31–42) % 暴击伤害减免",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(37–50) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107610202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(37–50) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(61–84) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610602",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(9–11) % 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105610003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(1345–1680) 该装备闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610803",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(25–30) % 暴击伤害减免",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(30–36) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107610203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(30–36) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(49–60) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610603",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(7–8) % 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104610003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(92–110) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105610004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(1076–1344) 该装备闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610804",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(19–24) % 暴击伤害减免",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(24–29) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107610204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(24–29) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(39–48) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104610004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(74–88) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610604",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+6 % 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(20–23) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107610205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(20–23) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(32–38) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104610005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(59–70) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105610005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(875–1075) 该装备闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610605",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+5 % 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(15–19) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107610206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(15–19) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(25–31) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104610006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(48–57) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105610006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(673–874) 该装备闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610606",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+4 % 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(12–14) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107610207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(12–14) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(19–24) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104610007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(37–44) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105610007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(505–672) 该装备闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610607",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+3 % 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110610080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(157–203) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(36–46) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(36–46) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(36–46) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(36–46) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(66–85) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "每秒自然回复 (4–5) % 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110610000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(121–156) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(25–35) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(25–35) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(25–35) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(25–35) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(51–65) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "每秒自然回复 4 % 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(19–27) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(19–27) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(19–27) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(19–27) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(36–50) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110610001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(87–120) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610701",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "每秒自然回复 3 % 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(16–19) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(16–19) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(16–19) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(16–19) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(26–35) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110610002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(62–86) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610702",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "每秒自然回复 2 % 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(11–14) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(11–14) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(11–14) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(11–14) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(21–25) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110610003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(45–61) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610703",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "每秒自然回复 1 % 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(17–20) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110610004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(30–44) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(9–11) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(9–11) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(9–11) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(9–11) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(14–16) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110610005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(20–29) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(7–9) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(7–9) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(7–9) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(7–9) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(11–13) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110610006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(14–19) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(6–7) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(6–7) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(6–7) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(6–7) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(9–10) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+5 % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+5 % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+5 % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+5 % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51413041",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "双虹",
+      "source": "敏捷胸甲",
+      "effectPlain": "+(6–10) % 元素 抗性",
+      "valueSpans": [
+        "+(6–10)"
+      ]
+    },
+    {
+      "modifierId": "51413011",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "双虹",
+      "source": "敏捷胸甲",
+      "effectPlain": "+1 % 力量",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51413021",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "双虹",
+      "source": "敏捷胸甲",
+      "effectPlain": "+1 % 敏捷",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51413031",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "双虹",
+      "source": "敏捷胸甲",
+      "effectPlain": "+1 % 智慧",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "55413051",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "双虹",
+      "source": "敏捷胸甲",
+      "effectPlain": "每有两个 元素 抗性相同时， 额外 +(15–17) % 伤害，额外 (-6–-5) % 受到伤害（叠乘）",
+      "valueSpans": [
+        "+(15–17)",
+        "(-6–-5)"
+      ]
+    },
+    {
+      "modifierId": "1506115",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷胸甲",
+      "effectPlain": "(16–20) % 受到的物理伤害转化为闪电伤害",
+      "valueSpans": [
+        "(16–20)"
+      ]
+    },
+    {
+      "modifierId": "1506118",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷胸甲",
+      "effectPlain": "(36–45) % 受到的腐蚀伤害转化为闪电伤害",
+      "valueSpans": [
+        "(36–45)"
+      ]
+    },
+    {
+      "modifierId": "1506114",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷胸甲",
+      "effectPlain": "+(3–5) % 元素 抗性上限",
+      "valueSpans": [
+        "+(3–5)"
+      ]
+    },
+    {
+      "modifierId": "1506117",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷胸甲",
+      "effectPlain": "每 0.1 秒受到 10 点真实伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "1506111",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷胸甲",
+      "effectPlain": "+(5–7) % 护甲减伤穿透 召唤物 +(5–7) % 护甲减伤穿透",
+      "valueSpans": [
+        "+(5–7)",
+        "+(5–7)"
+      ]
+    },
+    {
+      "modifierId": "1506110",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷胸甲",
+      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透 召唤物 +(6–8) % 元素和腐蚀抗性穿透",
+      "valueSpans": [
+        "+(6–8)",
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1506112",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷胸甲",
+      "effectPlain": "+(6–8) % 魔力封印 补偿",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1506113",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷胸甲",
+      "effectPlain": "+(7–8) % 光环效果",
+      "valueSpans": [
+        "+(7–8)"
+      ]
+    },
+    {
+      "modifierId": "1506116",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "基础词缀",
       "source": "敏捷胸甲",
-      "effectPlain": "+(5–10) % 腐蚀抗性",
+      "effectPlain": "+(12–20) % 暴击伤害减免",
       "valueSpans": [
-        "+(5–10)"
+        "+(12–20)"
       ]
     },
     {
@@ -126,675 +1541,11 @@
       ]
     },
     {
-      "modifierId": "1506110",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透 召唤物 +(6–8) % 元素和腐蚀抗性穿透",
-      "valueSpans": [
-        "+(6–8)",
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "1506111",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(5–7) % 护甲减伤穿透 召唤物 +(5–7) % 护甲减伤穿透",
-      "valueSpans": [
-        "+(5–7)",
-        "+(5–7)"
-      ]
-    },
-    {
-      "modifierId": "1506112",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(6–8) % 魔力封印 补偿",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "1506113",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(7–8) % 光环效果",
-      "valueSpans": [
-        "+(7–8)"
-      ]
-    },
-    {
-      "modifierId": "1506114",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(3–5) % 元素 抗性上限",
-      "valueSpans": [
-        "+(3–5)"
-      ]
-    },
-    {
-      "modifierId": "1506115",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "(16–20) % 受到的物理伤害转化为闪电伤害",
-      "valueSpans": [
-        "(16–20)"
-      ]
-    },
-    {
-      "modifierId": "1506116",
+      "modifierId": "1506100",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "基础词缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(12–20) % 暴击伤害减免",
-      "valueSpans": [
-        "+(12–20)"
-      ]
-    },
-    {
-      "modifierId": "1506117",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "每 0.1 秒受到 10 点真实伤害",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "1506118",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "(36–45) % 受到的腐蚀伤害转化为闪电伤害",
-      "valueSpans": [
-        "(36–45)"
-      ]
-    },
-    {
-      "modifierId": "60066101",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷胸甲",
-      "effectPlain": "+2 主动技能等级",
-      "valueSpans": [
-        "+2"
-      ]
-    },
-    {
-      "modifierId": "60066103",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(3–5) % 元素 抗性上限",
-      "valueSpans": [
-        "+(3–5)"
-      ]
-    },
-    {
-      "modifierId": "60066106",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(50–70) % 伤害",
-      "valueSpans": [
-        "+(50–70)"
-      ]
-    },
-    {
-      "modifierId": "60066107",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(15–20) % 最大护盾",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "60066108",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(15–20) % 最大生命",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "60066109",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷胸甲",
-      "effectPlain": "免疫 元素异常 状态",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "60066110",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(8–10) % 元素 抗性和腐蚀抗性",
-      "valueSpans": [
-        "+(8–10)"
-      ]
-    },
-    {
-      "modifierId": "60066111",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(30–50) % 该装备闪避值",
-      "valueSpans": [
-        "+(30–50)"
-      ]
-    },
-    {
-      "modifierId": "104610001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(154–220) 最大生命",
-      "valueSpans": [
-        "+(154–220)"
-      ]
-    },
-    {
-      "modifierId": "105610001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(2353–3360) 该装备闪避值",
-      "valueSpans": [
-        "+(2353–3360)"
-      ]
-    },
-    {
-      "modifierId": "107610201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(51–72) % 召唤物伤害",
-      "valueSpans": [
-        "+(51–72)"
-      ]
-    },
-    {
-      "modifierId": "140610001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(51–72) % 伤害",
-      "valueSpans": [
-        "+(51–72)"
-      ]
-    },
-    {
-      "modifierId": "140610601",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(12–16) % 最大生命",
-      "valueSpans": [
-        "+(12–16)"
-      ]
-    },
-    {
-      "modifierId": "140610801",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(43–60) % 暴击伤害减免",
-      "valueSpans": [
-        "+(43–60)"
-      ]
-    },
-    {
-      "modifierId": "140721301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(85–120) 最大魔力",
-      "valueSpans": [
-        "+(85–120)"
-      ]
-    },
-    {
-      "modifierId": "104610101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(12–15) % 攻击与法术格挡率",
-      "valueSpans": [
-        "+(12–15)"
-      ]
-    },
-    {
-      "modifierId": "109610001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(43–60) 敏捷",
-      "valueSpans": [
-        "+(43–60)"
-      ]
-    },
-    {
-      "modifierId": "109610301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(43–60) 智慧",
-      "valueSpans": [
-        "+(43–60)"
-      ]
-    },
-    {
-      "modifierId": "109610401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(43–60) 力量",
-      "valueSpans": [
-        "+(43–60)"
-      ]
-    },
-    {
-      "modifierId": "140610201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(33–45) % 投射物速度",
-      "valueSpans": [
-        "+(33–45)"
-      ]
-    },
-    {
-      "modifierId": "115610101",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "(16–20) % 受到的物理伤害转化为闪电伤害",
-      "valueSpans": [
-        "(16–20)"
-      ]
-    },
-    {
-      "modifierId": "119610101",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(15–20) % 魔力封印 补偿",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "120610001",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "你可以施加 1 个额外诅咒",
-      "valueSpans": [
-        "1"
-      ]
-    },
-    {
-      "modifierId": "130610001",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "攻击或者法术击败敌人时 (10–15) % 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 (200–250) % 的真实伤害",
-      "valueSpans": [
-        "(10–15)",
-        "6",
-        "(200–250)"
-      ]
-    },
-    {
-      "modifierId": "140610901",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "额外 +(15–20) % 闪避值",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "140611101",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "(15–20) % 的伤害优先抵扣魔力",
-      "valueSpans": [
-        "(15–20)"
-      ]
-    },
-    {
-      "modifierId": "140611301",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "(36–45) % 受到的腐蚀伤害转化为闪电伤害",
-      "valueSpans": [
-        "(36–45)"
-      ]
-    },
-    {
-      "modifierId": "140611601",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "至少拥有 50000 点闪避值时， 额外 -40 % 受到的持续伤害",
-      "valueSpans": [
-        "50000",
-        "-40"
-      ]
-    },
-    {
-      "modifierId": "108610001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(19–27) % 火焰抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "108610101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(19–27) % 冰冷抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "108610201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(19–27) % 闪电抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "108610301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(19–27) % 腐蚀抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "110610001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(87–120) % 暴击值",
-      "valueSpans": [
-        "+(87–120)"
-      ]
-    },
-    {
-      "modifierId": "140610101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(36–50) % 加剧 效果",
-      "valueSpans": [
-        "+(36–50)"
-      ]
-    },
-    {
-      "modifierId": "140610701",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "每秒自然回复 3 % 生命",
-      "valueSpans": [
-        "3"
-      ]
-    },
-    {
-      "modifierId": "108610401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(8–10) % 元素 抗性",
-      "valueSpans": [
-        "+(8–10)"
-      ]
-    },
-    {
-      "modifierId": "110610101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(18–24) % 攻击与施法速度 +(18–24) % 召唤物攻击与施法速度",
-      "valueSpans": [
-        "+(18–24)",
-        "+(18–24)"
-      ]
-    },
-    {
-      "modifierId": "140610301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(44–60) % 暴击伤害",
-      "valueSpans": [
-        "+(44–60)"
-      ]
-    },
-    {
-      "modifierId": "140610401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(36–50) % 收割时间",
-      "valueSpans": [
-        "+(36–50)"
-      ]
-    },
-    {
-      "modifierId": "140611001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(14–18) % 敏捷",
-      "valueSpans": [
-        "+(14–18)"
-      ]
-    },
-    {
-      "modifierId": "140611501",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "造成伤害时，施加 闪电渗透 ，对每个敌人拥有 1 秒间隔时间 召唤物造成伤害时，施加 闪电渗透 ，对每个敌人拥有 1 秒间隔时间 +(10–30) % 闪电渗透 效果",
-      "valueSpans": [
-        "1",
-        "1",
-        "+(10–30)"
-      ]
-    },
-    {
-      "modifierId": "120610201",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(15–20) % 光环效果",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "120610301",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(96–135) 攻击和法术暴击值",
-      "valueSpans": [
-        "+(96–135)"
-      ]
-    },
-    {
-      "modifierId": "140601401",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(30–45) % 几率避免 元素异常 状态",
-      "valueSpans": [
-        "+(30–45)"
-      ]
-    },
-    {
-      "modifierId": "140610501",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(59–83) % 收割 回复速度",
-      "valueSpans": [
-        "+(59–83)"
-      ]
-    },
-    {
-      "modifierId": "140611201",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "受到持续伤害时，每秒自然回复 (7–8) % 生命",
-      "valueSpans": [
-        "(7–8)"
-      ]
-    },
-    {
-      "modifierId": "85061001",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
       "source": "敏捷胸甲",
       "effectPlain": "+(54–74) 最大生命",
       "valueSpans": [
@@ -802,35 +1553,11 @@
       ]
     },
     {
-      "modifierId": "85061011",
+      "modifierId": "1506103",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "每秒自然回复 (0.5–1.0) % 生命",
-      "valueSpans": [
-        "(0.5–1.0)"
-      ]
-    },
-    {
-      "modifierId": "85061021",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(5–10) % 火焰抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "85061031",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "敏捷胸甲",
       "effectPlain": "+(5–10) % 冰冷抗性",
       "valueSpans": [
@@ -838,23 +1565,23 @@
       ]
     },
     {
-      "modifierId": "85061041",
+      "modifierId": "1506102",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "敏捷胸甲",
-      "effectPlain": "+(5–10) % 闪电抗性",
+      "effectPlain": "+(5–10) % 火焰抗性",
       "valueSpans": [
         "+(5–10)"
       ]
     },
     {
-      "modifierId": "85061051",
+      "modifierId": "1506105",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "敏捷胸甲",
       "effectPlain": "+(5–10) % 腐蚀抗性",
       "valueSpans": [
@@ -862,219 +1589,27 @@
       ]
     },
     {
-      "modifierId": "85061061",
+      "modifierId": "1506104",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "敏捷胸甲",
-      "effectPlain": "+(15–20) 力量",
+      "effectPlain": "+(5–10) % 闪电抗性",
       "valueSpans": [
-        "+(15–20)"
+        "+(5–10)"
       ]
     },
     {
-      "modifierId": "85061071",
+      "modifierId": "1506101",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "敏捷胸甲",
-      "effectPlain": "+(15–20) 敏捷",
+      "effectPlain": "每秒自然回复 (0.5–1.0) % 生命",
       "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "85061081",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(15–20) 智慧",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "85061091",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(20–24) % 技能范围",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "85061101",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透 召唤物 +(6–8) % 元素和腐蚀抗性穿透",
-      "valueSpans": [
-        "+(6–8)",
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "85061111",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(5–7) % 护甲减伤穿透 召唤物 +(5–7) % 护甲减伤穿透",
-      "valueSpans": [
-        "+(5–7)",
-        "+(5–7)"
-      ]
-    },
-    {
-      "modifierId": "85061121",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(6–8) % 魔力封印 补偿",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "85061131",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(7–8) % 光环效果",
-      "valueSpans": [
-        "+(7–8)"
-      ]
-    },
-    {
-      "modifierId": "85061141",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(3–5) % 元素 抗性上限",
-      "valueSpans": [
-        "+(3–5)"
-      ]
-    },
-    {
-      "modifierId": "85061151",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "(16–20) % 受到的物理伤害转化为闪电伤害",
-      "valueSpans": [
-        "(16–20)"
-      ]
-    },
-    {
-      "modifierId": "85061161",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "每 0.1 秒受到 10 点真实伤害",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "85061171",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "(36–45) % 受到的腐蚀伤害转化为闪电伤害",
-      "valueSpans": [
-        "(36–45)"
-      ]
-    },
-    {
-      "modifierId": "85061181",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+1 强硬 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "85061191",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷胸甲",
-      "effectPlain": "+3 强硬 层数上限",
-      "valueSpans": [
-        "+3"
-      ]
-    },
-    {
-      "modifierId": "51410511",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "邪心护甲",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(3000–4000) 该装备闪避值",
-      "valueSpans": [
-        "+(3000–4000)"
-      ]
-    },
-    {
-      "modifierId": "51410521",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "邪心护甲",
-      "source": "敏捷胸甲",
-      "effectPlain": "额外 -20 % 受到的持续伤害",
-      "valueSpans": [
-        "-20"
-      ]
-    },
-    {
-      "modifierId": "51410531",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "邪心护甲",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(40–60) % 异常伤害加深",
-      "valueSpans": [
-        "+(40–60)"
-      ]
-    },
-    {
-      "modifierId": "51410551",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "邪心护甲",
-      "source": "敏捷胸甲",
-      "effectPlain": "额外 -50 % 击中伤害",
-      "valueSpans": [
-        "-50"
+        "(0.5–1.0)"
       ]
     },
     {
@@ -1090,6 +1625,18 @@
       ]
     },
     {
+      "modifierId": "51411651",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻躯",
+      "source": "敏捷胸甲",
+      "effectPlain": "+15 % 投射物速度",
+      "valueSpans": [
+        "+15"
+      ]
+    },
+    {
       "modifierId": "51411621",
       "tier": null,
       "itemLevel": null,
@@ -1099,6 +1646,18 @@
       "effectPlain": "+55 最大生命",
       "valueSpans": [
         "+55"
+      ]
+    },
+    {
+      "modifierId": "51411661",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻躯",
+      "source": "敏捷胸甲",
+      "effectPlain": "体型增大 (10–15) %",
+      "valueSpans": [
+        "(10–15)"
       ]
     },
     {
@@ -1115,27 +1674,52 @@
       ]
     },
     {
-      "modifierId": "51411651",
+      "modifierId": "51416111",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "幻躯",
+      "affixType": "掣电者的骶骨",
       "source": "敏捷胸甲",
-      "effectPlain": "+15 % 投射物速度",
+      "effectPlain": "+(3000–4000) 该装备闪避值",
       "valueSpans": [
-        "+15"
+        "+(3000–4000)"
       ]
     },
     {
-      "modifierId": "51411661",
+      "modifierId": "51416121",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "幻躯",
+      "affixType": "掣电者的骶骨",
       "source": "敏捷胸甲",
-      "effectPlain": "体型增大 (10–15) %",
+      "effectPlain": "+(3–4) 直射投射物技能等级",
       "valueSpans": [
-        "(10–15)"
+        "+(3–4)"
+      ]
+    },
+    {
+      "modifierId": "51416131",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "掣电者的骶骨",
+      "source": "敏捷胸甲",
+      "effectPlain": "攻击附加 1 - (180–240) 点闪电伤害",
+      "valueSpans": [
+        "1",
+        "(180–240)"
+      ]
+    },
+    {
+      "modifierId": "51416141",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "掣电者的骶骨",
+      "source": "敏捷胸甲",
+      "effectPlain": "闪避时，获得 1 层 偏斜",
+      "valueSpans": [
+        "1"
       ]
     },
     {
@@ -1215,110 +1799,16 @@
       ]
     },
     {
-      "modifierId": "51413011",
+      "modifierId": "51415241",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "双虹",
+      "affixType": "疯医的镀银肺",
       "source": "敏捷胸甲",
-      "effectPlain": "+1 % 力量",
+      "effectPlain": "如果最近释放过回复、激发和防护技能， +(30–50) % 体型，+ (10–20) % 移动速度",
       "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "51413021",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "双虹",
-      "source": "敏捷胸甲",
-      "effectPlain": "+1 % 敏捷",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "51413031",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "双虹",
-      "source": "敏捷胸甲",
-      "effectPlain": "+1 % 智慧",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "51413041",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "双虹",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(6–10) % 元素 抗性",
-      "valueSpans": [
-        "+(6–10)"
-      ]
-    },
-    {
-      "modifierId": "55413051",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "双虹",
-      "source": "敏捷胸甲",
-      "effectPlain": "每有两个 元素 抗性相同时， 额外 +(15–17) % 伤害，额外 (-6–-5) % 受到伤害（叠乘）",
-      "valueSpans": [
-        "+(15–17)",
-        "(-6–-5)"
-      ]
-    },
-    {
-      "modifierId": "51414911",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "萨日图雅",
-      "source": "敏捷胸甲",
-      "effectPlain": "迷你化",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "51414921",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "萨日图雅",
-      "source": "敏捷胸甲",
-      "effectPlain": "+50 % 灵敏光环效果",
-      "valueSpans": [
-        "+50"
-      ]
-    },
-    {
-      "modifierId": "51414931",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "萨日图雅",
-      "source": "敏捷胸甲",
-      "effectPlain": "+3 光环技能等级",
-      "valueSpans": [
-        "+3"
-      ]
-    },
-    {
-      "modifierId": "51414941",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "萨日图雅",
-      "source": "敏捷胸甲",
-      "effectPlain": "+1 偏斜 层数上限",
-      "valueSpans": [
-        "+1"
+        "+(30–50)",
+        "(10–20)"
       ]
     },
     {
@@ -1361,16 +1851,1847 @@
       ]
     },
     {
-      "modifierId": "51415241",
+      "modifierId": "85061151",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷胸甲",
+      "effectPlain": "(16–20) % 受到的物理伤害转化为闪电伤害",
+      "valueSpans": [
+        "(16–20)"
+      ]
+    },
+    {
+      "modifierId": "85061171",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷胸甲",
+      "effectPlain": "(36–45) % 受到的腐蚀伤害转化为闪电伤害",
+      "valueSpans": [
+        "(36–45)"
+      ]
+    },
+    {
+      "modifierId": "85061141",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷胸甲",
+      "effectPlain": "+(3–5) % 元素 抗性上限",
+      "valueSpans": [
+        "+(3–5)"
+      ]
+    },
+    {
+      "modifierId": "85061191",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷胸甲",
+      "effectPlain": "+3 强硬 层数上限",
+      "valueSpans": [
+        "+3"
+      ]
+    },
+    {
+      "modifierId": "85061161",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷胸甲",
+      "effectPlain": "每 0.1 秒受到 10 点真实伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "85061111",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷胸甲",
+      "effectPlain": "+(5–7) % 护甲减伤穿透 召唤物 +(5–7) % 护甲减伤穿透",
+      "valueSpans": [
+        "+(5–7)",
+        "+(5–7)"
+      ]
+    },
+    {
+      "modifierId": "85061101",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷胸甲",
+      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透 召唤物 +(6–8) % 元素和腐蚀抗性穿透",
+      "valueSpans": [
+        "+(6–8)",
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "85061121",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷胸甲",
+      "effectPlain": "+(6–8) % 魔力封印 补偿",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "85061131",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷胸甲",
+      "effectPlain": "+(7–8) % 光环效果",
+      "valueSpans": [
+        "+(7–8)"
+      ]
+    },
+    {
+      "modifierId": "85061181",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷胸甲",
+      "effectPlain": "+1 强硬 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85061061",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷胸甲",
+      "effectPlain": "+(15–20) 力量",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85061071",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷胸甲",
+      "effectPlain": "+(15–20) 敏捷",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85061081",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷胸甲",
+      "effectPlain": "+(15–20) 智慧",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85061091",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷胸甲",
+      "effectPlain": "+(20–24) % 技能范围",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85061001",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷胸甲",
+      "effectPlain": "+(54–74) 最大生命",
+      "valueSpans": [
+        "+(54–74)"
+      ]
+    },
+    {
+      "modifierId": "85061031",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷胸甲",
+      "effectPlain": "+(5–10) % 冰冷抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "85061021",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷胸甲",
+      "effectPlain": "+(5–10) % 火焰抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "85061051",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷胸甲",
+      "effectPlain": "+(5–10) % 腐蚀抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "85061041",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷胸甲",
+      "effectPlain": "+(5–10) % 闪电抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "85061011",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷胸甲",
+      "effectPlain": "每秒自然回复 (0.5–1.0) % 生命",
+      "valueSpans": [
+        "(0.5–1.0)"
+      ]
+    },
+    {
+      "modifierId": "140611180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "(27–34) % 的伤害优先抵扣魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115610180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "(27–35) % 受到的物理伤害转化为闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "(63–77) % 受到的腐蚀伤害转化为闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "119610180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(27–34) % 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "120610080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "你可以施加 1 个额外诅咒 +(11–23) % 诅咒效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130610080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "攻击或者法术击败敌人时 (35–40) % 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 (250–300) % 的真实伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "至少拥有 50000 点闪避值时， 额外 -50 % 受到的持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610980",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "额外 +(27–34) % 闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115610100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "(21–26) % 受到的物理伤害转化为闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "(21–26) % 的伤害优先抵扣魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "(46–60) % 受到的腐蚀伤害转化为闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "119610100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(21–26) % 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "120610000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "你可以施加 1 个额外诅咒 +(8–10) % 诅咒效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130610000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "攻击或者法术击败敌人时 (20–25) % 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 (250–300) % 的真实伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "至少拥有 50000 点闪避值时， 额外 -45 % 受到的持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610900",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "额外 +(21–26) % 闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611101",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "(15–20) % 的伤害优先抵扣魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115610101",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "(16–20) % 受到的物理伤害转化为闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611301",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "(36–45) % 受到的腐蚀伤害转化为闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "119610101",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(15–20) % 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "120610001",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "你可以施加 1 个额外诅咒",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130610001",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "攻击或者法术击败敌人时 (10–15) % 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 (200–250) % 的真实伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611601",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "至少拥有 50000 点闪避值时， 额外 -40 % 受到的持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610901",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "额外 +(15–20) % 闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611102",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "(11–14) % 的伤害优先抵扣魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115610102",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "(12–15) % 受到的物理伤害转化为闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611302",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "(27–35) % 受到的腐蚀伤害转化为闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "119610102",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(8–12) % 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611602",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "至少拥有 50000 点闪避值时， 额外 -35 % 受到的持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610902",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "额外 +(11–14) % 闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611103",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "(8–10) % 的伤害优先抵扣魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611603",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "至少拥有 50000 点闪避值时， 额外 -30 % 受到的持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610903",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "额外 +(8–10) % 闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611104",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "(6–7) % 的伤害优先抵扣魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611604",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "至少拥有 50000 点闪避值时， 额外 -25 % 受到的持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610904",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "额外 +(6–7) % 闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611105",
+      "tier": 5,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "(4–5) % 的伤害优先抵扣魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611605",
+      "tier": 5,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "至少拥有 50000 点闪避值时， 额外 -20 % 受到的持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610905",
+      "tier": 5,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "额外 +(4–5) % 闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611106",
+      "tier": 6,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "3 % 的伤害优先抵扣魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611606",
+      "tier": 6,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "至少拥有 50000 点闪避值时， 额外 -15 % 受到的持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610906",
+      "tier": 6,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "额外 +3 % 闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611107",
+      "tier": 7,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "2 % 的伤害优先抵扣魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611607",
+      "tier": 7,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "至少拥有 50000 点闪避值时， 额外 -10 % 受到的持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610907",
+      "tier": 7,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "额外 +2 % 闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(109–140) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "120610380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(177–228) 攻击和法术暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "120610280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(27–34) % 光环效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(71–85) % 几率避免 元素异常 状态",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "受到持续伤害时，每秒自然回复 (11–13) % 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "120610300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(136–176) 攻击和法术暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "120610200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(21–26) % 光环效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140601400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(50–68) % 几率避免 元素异常 状态",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(84–108) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "受到持续伤害时，每秒自然回复 (9–10) % 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "120610201",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(15–20) % 光环效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140601401",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(30–45) % 几率避免 元素异常 状态",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610501",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(59–83) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "120610301",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(96–135) 攻击和法术暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611201",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "受到持续伤害时，每秒自然回复 (7–8) % 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "120610202",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(11–14) % 光环效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140601402",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(21–27) % 几率避免 元素异常 状态",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610502",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(43–58) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611202",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "受到持续伤害时，每秒自然回复 (5–6) % 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610503",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(34–42) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "120610203",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 400,
+      "affixType": "至臻后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(9–10) % 光环效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611203",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "受到持续伤害时，每秒自然回复 4 % 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51414941",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "疯医的镀银肺",
+      "affixType": "萨日图雅",
       "source": "敏捷胸甲",
-      "effectPlain": "如果最近释放过回复、激发和防护技能， +(30–50) % 体型，+ (10–20) % 移动速度",
+      "effectPlain": "+1 偏斜 层数上限",
       "valueSpans": [
-        "+(30–50)",
-        "(10–20)"
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51414931",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "萨日图雅",
+      "source": "敏捷胸甲",
+      "effectPlain": "+3 光环技能等级",
+      "valueSpans": [
+        "+3"
+      ]
+    },
+    {
+      "modifierId": "51414921",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "萨日图雅",
+      "source": "敏捷胸甲",
+      "effectPlain": "+50 % 灵敏光环效果",
+      "valueSpans": [
+        "+50"
+      ]
+    },
+    {
+      "modifierId": "51414911",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "萨日图雅",
+      "source": "敏捷胸甲",
+      "effectPlain": "迷你化",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104610180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(21–25) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(60–76) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109610480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(79–101) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109610080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(79–101) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109610380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(79–101) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104610100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(16–20) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(46–59) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109610400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(61–78) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109610000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(61–78) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109610300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(61–78) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104610101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(12–15) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(33–45) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109610401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(43–60) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109610001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(43–60) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109610301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(43–60) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(24–32) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109610402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(31–42) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109610002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(31–42) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109610302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(31–42) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104610102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(9–11) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(17–23) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109610403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(25–30) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109610003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(25–30) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109610303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(25–30) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104610103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(7–8) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(12–16) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109610404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(20–24) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109610004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(20–24) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109610304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(20–24) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104610104",
+      "tier": 4,
+      "itemLevel": 72,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+6 % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109610405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(17–19) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109610005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(17–19) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109610305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(17–19) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(8–11) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104610105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+5 % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109610406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(13–16) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109610006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(13–16) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109610306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(13–16) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(6–7) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104610106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+4 % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109610407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(10–12) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109610007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(10–12) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109610307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(10–12) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(4–5) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(14–17) % 元素 抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(24–30) % 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110610180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(32–41) % 攻击与施法速度 +(32–41) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(66–85) % 收割时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(79–101) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "造成伤害时，施加 闪电渗透 ，对每个敌人拥有 1 秒间隔时间 召唤物造成伤害时，施加 闪电渗透 ，对每个敌人拥有 1 秒间隔时间 +(70–100) % 闪电渗透 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(11–13) % 元素 抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(19–23) % 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110610100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(25–31) % 攻击与施法速度 +(25–31) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(51–65) % 收割时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(61–78) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "造成伤害时，施加 闪电渗透 ，对每个敌人拥有 1 秒间隔时间 召唤物造成伤害时，施加 闪电渗透 ，对每个敌人拥有 1 秒间隔时间 +(40–60) % 闪电渗透 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(14–18) % 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110610101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(18–24) % 攻击与施法速度 +(18–24) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(36–50) % 收割时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(44–60) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(8–10) % 元素 抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611501",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "造成伤害时，施加 闪电渗透 ，对每个敌人拥有 1 秒间隔时间 召唤物造成伤害时，施加 闪电渗透 ，对每个敌人拥有 1 秒间隔时间 +(10–30) % 闪电渗透 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(10–13) % 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110610102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(13–17) % 攻击与施法速度 +(13–17) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(26–35) % 收割时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(32–43) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(6–7) % 元素 抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110610103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(10–12) % 攻击与施法速度 +(10–12) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(21–25) % 收割时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(23–31) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(8–9) % 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108610403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+5 % 元素 抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(16–22) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(17–20) % 收割时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+7 % 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(11–15) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(14–16) % 收割时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+6 % 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(11–13) % 收割时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(7–10) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+5 % 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(5–6) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140610407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+(9–10) % 收割时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140611007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "DEX Chest Armor",
+      "effectPlain": "+4 % 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51410511",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "邪心护甲",
+      "source": "敏捷胸甲",
+      "effectPlain": "+(3000–4000) 该装备闪避值",
+      "valueSpans": [
+        "+(3000–4000)"
+      ]
+    },
+    {
+      "modifierId": "51410531",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "邪心护甲",
+      "source": "敏捷胸甲",
+      "effectPlain": "+(40–60) % 异常伤害加深",
+      "valueSpans": [
+        "+(40–60)"
+      ]
+    },
+    {
+      "modifierId": "51410521",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "邪心护甲",
+      "source": "敏捷胸甲",
+      "effectPlain": "额外 -20 % 受到的持续伤害",
+      "valueSpans": [
+        "-20"
+      ]
+    },
+    {
+      "modifierId": "51410551",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "邪心护甲",
+      "source": "敏捷胸甲",
+      "effectPlain": "额外 -50 % 击中伤害",
+      "valueSpans": [
+        "-50"
       ]
     },
     {
@@ -1398,6 +3719,16 @@
       ]
     },
     {
+      "modifierId": "51415441",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "雷尔夫的骨冢",
+      "source": "敏捷胸甲",
+      "effectPlain": "主属性基础不再额外增加伤害",
+      "valueSpans": []
+    },
+    {
       "modifierId": "51415431",
       "tier": null,
       "itemLevel": null,
@@ -1410,153 +3741,12 @@
         "(1–2)",
         "(5–6)"
       ]
-    },
-    {
-      "modifierId": "51415441",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "雷尔夫的骨冢",
-      "source": "敏捷胸甲",
-      "effectPlain": "主属性基础不再额外增加伤害",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "51416111",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "掣电者的骶骨",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(3000–4000) 该装备闪避值",
-      "valueSpans": [
-        "+(3000–4000)"
-      ]
-    },
-    {
-      "modifierId": "51416121",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "掣电者的骶骨",
-      "source": "敏捷胸甲",
-      "effectPlain": "+(3–4) 直射投射物技能等级",
-      "valueSpans": [
-        "+(3–4)"
-      ]
-    },
-    {
-      "modifierId": "51416131",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "掣电者的骶骨",
-      "source": "敏捷胸甲",
-      "effectPlain": "攻击附加 1 - (180–240) 点闪电伤害",
-      "valueSpans": [
-        "1",
-        "(180–240)"
-      ]
-    },
-    {
-      "modifierId": "51416141",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "掣电者的骶骨",
-      "source": "敏捷胸甲",
-      "effectPlain": "闪避时，获得 1 层 偏斜",
-      "valueSpans": [
-        "1"
-      ]
-    },
-    {
-      "modifierId": "51416211",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "三相",
-      "source": "敏捷胸甲",
-      "effectPlain": "(-3–3) % 元素 抗性上限",
-      "valueSpans": [
-        "(-3–3)"
-      ]
-    },
-    {
-      "modifierId": "51416221",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "三相",
-      "source": "敏捷胸甲",
-      "effectPlain": "(-5–5) % 元素抗性",
-      "valueSpans": [
-        "(-5–5)"
-      ]
-    },
-    {
-      "modifierId": "51416231",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "三相",
-      "source": "敏捷胸甲",
-      "effectPlain": "获得等同于自身的最低 有效 元素抗性的元素抗性穿透",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "51416241",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "三相",
-      "source": "敏捷胸甲",
-      "effectPlain": "三相律法",
-      "valueSpans": []
     }
   ],
   "tierVariantGroups": [
     {
-      "skeleton": "{#} % 伤害",
-      "rolls": [
-        {
-          "modifierId": "60066106",
-          "tier": 0,
-          "itemLevel": 1,
-          "weight": 1,
-          "affixType": "侵蚀基底",
-          "valueSpans": [
-            "+(50–70)"
-          ],
-          "effectPlain": "+(50–70) % 伤害"
-        },
-        {
-          "modifierId": "140610001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(51–72)"
-          ],
-          "effectPlain": "+(51–72) % 伤害"
-        }
-      ]
-    },
-    {
       "skeleton": "{#} % 元素 抗性",
       "rolls": [
-        {
-          "modifierId": "108610401",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶后缀",
-          "valueSpans": [
-            "+(8–10)"
-          ],
-          "effectPlain": "+(8–10) % 元素 抗性"
-        },
         {
           "modifierId": "51411921",
           "tier": null,
@@ -1663,17 +3853,6 @@
       "skeleton": "{#} % 光环效果",
       "rolls": [
         {
-          "modifierId": "120610201",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻后缀",
-          "valueSpans": [
-            "+(15–20)"
-          ],
-          "effectPlain": "+(15–20) % 光环效果"
-        },
-        {
           "modifierId": "1506113",
           "tier": 1,
           "itemLevel": 1,
@@ -1700,17 +3879,6 @@
     {
       "skeleton": "{#} % 冰冷抗性",
       "rolls": [
-        {
-          "modifierId": "108610101",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 冰冷抗性"
-        },
         {
           "modifierId": "1506103",
           "tier": 2,
@@ -1759,17 +3927,6 @@
             "(16–20)"
           ],
           "effectPlain": "(16–20) % 受到的物理伤害转化为闪电伤害"
-        },
-        {
-          "modifierId": "115610101",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻前缀",
-          "valueSpans": [
-            "(16–20)"
-          ],
-          "effectPlain": "(16–20) % 受到的物理伤害转化为闪电伤害"
         }
       ]
     },
@@ -1793,17 +3950,6 @@
           "itemLevel": 1,
           "weight": 1,
           "affixType": "美梦词缀",
-          "valueSpans": [
-            "(36–45)"
-          ],
-          "effectPlain": "(36–45) % 受到的腐蚀伤害转化为闪电伤害"
-        },
-        {
-          "modifierId": "140611301",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻前缀",
           "valueSpans": [
             "(36–45)"
           ],
@@ -1835,33 +3981,6 @@
             "+(20–24)"
           ],
           "effectPlain": "+(20–24) % 技能范围"
-        }
-      ]
-    },
-    {
-      "skeleton": "{#} % 投射物速度",
-      "rolls": [
-        {
-          "modifierId": "140610201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(33–45)"
-          ],
-          "effectPlain": "+(33–45) % 投射物速度"
-        },
-        {
-          "modifierId": "51411651",
-          "tier": null,
-          "itemLevel": null,
-          "weight": null,
-          "affixType": "幻躯",
-          "valueSpans": [
-            "+15"
-          ],
-          "effectPlain": "+15 % 投射物速度"
         }
       ]
     },
@@ -1898,17 +4017,6 @@
       "skeleton": "{#} % 敏捷",
       "rolls": [
         {
-          "modifierId": "140611001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶后缀",
-          "valueSpans": [
-            "+(14–18)"
-          ],
-          "effectPlain": "+(14–18) % 敏捷"
-        },
-        {
           "modifierId": "51413021",
           "tier": null,
           "itemLevel": null,
@@ -1933,73 +4041,8 @@
       ]
     },
     {
-      "skeleton": "{#} % 暴击伤害减免",
-      "rolls": [
-        {
-          "modifierId": "140610801",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(43–60)"
-          ],
-          "effectPlain": "+(43–60) % 暴击伤害减免"
-        },
-        {
-          "modifierId": "1506116",
-          "tier": 2,
-          "itemLevel": 1,
-          "weight": 1,
-          "affixType": "基础词缀",
-          "valueSpans": [
-            "+(12–20)"
-          ],
-          "effectPlain": "+(12–20) % 暴击伤害减免"
-        }
-      ]
-    },
-    {
-      "skeleton": "{#} % 最大生命",
-      "rolls": [
-        {
-          "modifierId": "60066108",
-          "tier": 0,
-          "itemLevel": 1,
-          "weight": 1,
-          "affixType": "侵蚀基底",
-          "valueSpans": [
-            "+(15–20)"
-          ],
-          "effectPlain": "+(15–20) % 最大生命"
-        },
-        {
-          "modifierId": "140610601",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(12–16)"
-          ],
-          "effectPlain": "+(12–16) % 最大生命"
-        }
-      ]
-    },
-    {
       "skeleton": "{#} % 火焰抗性",
       "rolls": [
-        {
-          "modifierId": "108610001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 火焰抗性"
-        },
         {
           "modifierId": "1506102",
           "tier": 2,
@@ -2028,17 +4071,6 @@
       "skeleton": "{#} % 腐蚀抗性",
       "rolls": [
         {
-          "modifierId": "108610301",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 腐蚀抗性"
-        },
-        {
           "modifierId": "1506105",
           "tier": 2,
           "itemLevel": 1,
@@ -2065,17 +4097,6 @@
     {
       "skeleton": "{#} % 闪电抗性",
       "rolls": [
-        {
-          "modifierId": "108610201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 闪电抗性"
-        },
         {
           "modifierId": "1506104",
           "tier": 2,
@@ -2104,17 +4125,6 @@
       "skeleton": "{#} % 魔力封印 补偿",
       "rolls": [
         {
-          "modifierId": "119610101",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻前缀",
-          "valueSpans": [
-            "+(15–20)"
-          ],
-          "effectPlain": "+(15–20) % 魔力封印 补偿"
-        },
-        {
           "modifierId": "1506112",
           "tier": 1,
           "itemLevel": 1,
@@ -2141,17 +4151,6 @@
     {
       "skeleton": "{#} 力量",
       "rolls": [
-        {
-          "modifierId": "109610401",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(43–60)"
-          ],
-          "effectPlain": "+(43–60) 力量"
-        },
         {
           "modifierId": "1506106",
           "tier": 2,
@@ -2207,17 +4206,6 @@
       "skeleton": "{#} 敏捷",
       "rolls": [
         {
-          "modifierId": "109610001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(43–60)"
-          ],
-          "effectPlain": "+(43–60) 敏捷"
-        },
-        {
           "modifierId": "1506107",
           "tier": 2,
           "itemLevel": 1,
@@ -2245,17 +4233,6 @@
       "skeleton": "{#} 智慧",
       "rolls": [
         {
-          "modifierId": "109610301",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(43–60)"
-          ],
-          "effectPlain": "+(43–60) 智慧"
-        },
-        {
           "modifierId": "1506108",
           "tier": 2,
           "itemLevel": 1,
@@ -2282,17 +4259,6 @@
     {
       "skeleton": "{#} 最大生命",
       "rolls": [
-        {
-          "modifierId": "104610001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(154–220)"
-          ],
-          "effectPlain": "+(154–220) 最大生命"
-        },
         {
           "modifierId": "1506100",
           "tier": 2,
@@ -2331,17 +4297,6 @@
     {
       "skeleton": "{#} 该装备闪避值",
       "rolls": [
-        {
-          "modifierId": "105610001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(2353–3360)"
-          ],
-          "effectPlain": "+(2353–3360) 该装备闪避值"
-        },
         {
           "modifierId": "51410511",
           "tier": null,
@@ -2415,17 +4370,6 @@
       "skeleton": "每秒自然回复 {#} % 生命",
       "rolls": [
         {
-          "modifierId": "140610701",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "3"
-          ],
-          "effectPlain": "每秒自然回复 3 % 生命"
-        },
-        {
           "modifierId": "1506101",
           "tier": 2,
           "itemLevel": 1,
@@ -2450,5 +4394,5 @@
       ]
     }
   ],
-  "tierVariantGroupCount": 26
+  "tierVariantGroupCount": 22
 }

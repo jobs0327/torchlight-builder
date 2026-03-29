@@ -80,14 +80,18 @@
 
       <div class="hm-picked">
         <div class="hm-picked-title">已选属性</div>
-        <p class="hm-picked-hint">点击表格行选择；基础词缀最多 1 条，固有 / 随机各最多 2 条（全局合计）。</p>
+        <p class="hm-picked-hint">
+          点击表格行选择；<strong>本源、守己、奋进</strong>三种追忆各自独立：每种各 1 条基础，固有 / 随机各最多 2 条。含数值范围的词条在文案中直接嵌入下拉选择，默认区间中值。
+        </p>
 
         <p class="hm-picked-global">
-          全局配额：<span>基础 {{ selectedBase ? 1 : 0 }}/1</span>
-          <span class="hm-picked-dot">·</span>
-          <span>固有 {{ selectedImplicit.length }}/2</span>
-          <span class="hm-picked-dot">·</span>
-          <span>随机 {{ selectedRandom.length }}/2</span>
+          <template v-for="(it, idx) in items" :key="it.id">
+            <span v-if="idx > 0" class="hm-picked-dot">·</span>
+            <span class="hm-picked-mem-quota"
+              >{{ memoryShortLabel(it.name) }} 基础 {{ quotaFor(it.id).base }}/1 固有
+              {{ quotaFor(it.id).implicit }}/2 随机 {{ quotaFor(it.id).random }}/2</span
+            >
+          </template>
         </p>
 
         <div class="hm-picked-by-mem">
@@ -101,16 +105,79 @@
               <li class="hm-mem-line">
                 <span class="hm-mem-k">基础</span>
                 <span class="hm-mem-n">{{ block.countBase }} 条</span>
-                <span class="hm-mem-v">{{ block.base ? block.base.effectText : '—' }}</span>
+                <span class="hm-mem-v">
+                  <template v-if="block.base">
+                    <div class="hm-mem-inline-entry" @click.stop>
+                      <span class="hm-inline-fx">
+                        <template
+                          v-for="(seg, si) in memoryEffectInlineSegments(block.base)"
+                          :key="`b-${si}`"
+                        >
+                          <span v-if="seg.type === 'text'" class="hm-inline-txt">{{ seg.value }}</span>
+                          <select
+                            v-else
+                            class="hm-inline-sel"
+                            :value="String(seg.current)"
+                            @change="
+                              onMemoryRangeChange(
+                                block.id,
+                                'base',
+                                0,
+                                seg.rangeIndex,
+                                ($event.target as HTMLSelectElement).value
+                              )
+                            "
+                          >
+                            <option v-for="opt in seg.options" :key="opt" :value="String(opt)">{{
+                              opt
+                            }}</option>
+                          </select>
+                        </template>
+                      </span>
+                    </div>
+                  </template>
+                  <template v-else>—</template>
+                </span>
               </li>
               <li class="hm-mem-line">
                 <span class="hm-mem-k">固有</span>
                 <span class="hm-mem-n">{{ block.implicit.length }} 条</span>
                 <span class="hm-mem-v">
                   <template v-if="block.implicit.length">
-                    <span v-for="(r, i) in block.implicit" :key="`im-${affixKey(r)}-${i}`" class="hm-mem-chip">
-                      {{ r.tierLabel || '—' }} {{ r.effectText }}
-                    </span>
+                    <div
+                      v-for="(r, i) in block.implicit"
+                      :key="`im-${affixKey(r)}-${i}`"
+                      class="hm-mem-inline-entry hm-mem-inline-entry--list"
+                      @click.stop
+                    >
+                      <span v-if="r.tierLabel" class="hm-inline-tier">{{ r.tierLabel }}</span>
+                      <span class="hm-inline-fx">
+                        <template
+                          v-for="(seg, si) in memoryEffectInlineSegments(r)"
+                          :key="`im-${i}-${si}`"
+                        >
+                          <span v-if="seg.type === 'text'" class="hm-inline-txt">{{ seg.value }}</span>
+                          <select
+                            v-else
+                            class="hm-inline-sel"
+                            :value="String(seg.current)"
+                            @change="
+                              onMemoryRangeChange(
+                                block.id,
+                                'implicit',
+                                i,
+                                seg.rangeIndex,
+                                ($event.target as HTMLSelectElement).value
+                              )
+                            "
+                          >
+                            <option v-for="opt in seg.options" :key="opt" :value="String(opt)">{{
+                              opt
+                            }}</option>
+                          </select>
+                        </template>
+                      </span>
+                    </div>
                   </template>
                   <template v-else>—</template>
                 </span>
@@ -120,9 +187,40 @@
                 <span class="hm-mem-n">{{ block.random.length }} 条</span>
                 <span class="hm-mem-v">
                   <template v-if="block.random.length">
-                    <span v-for="(r, i) in block.random" :key="`rn-${affixKey(r)}-${i}`" class="hm-mem-chip">
-                      {{ r.tierLabel || '—' }} {{ r.effectText }}
-                    </span>
+                    <div
+                      v-for="(r, i) in block.random"
+                      :key="`rn-${affixKey(r)}-${i}`"
+                      class="hm-mem-inline-entry hm-mem-inline-entry--list"
+                      @click.stop
+                    >
+                      <span v-if="r.tierLabel" class="hm-inline-tier">{{ r.tierLabel }}</span>
+                      <span class="hm-inline-fx">
+                        <template
+                          v-for="(seg, si) in memoryEffectInlineSegments(r)"
+                          :key="`rn-${i}-${si}`"
+                        >
+                          <span v-if="seg.type === 'text'" class="hm-inline-txt">{{ seg.value }}</span>
+                          <select
+                            v-else
+                            class="hm-inline-sel"
+                            :value="String(seg.current)"
+                            @change="
+                              onMemoryRangeChange(
+                                block.id,
+                                'random',
+                                i,
+                                seg.rangeIndex,
+                                ($event.target as HTMLSelectElement).value
+                              )
+                            "
+                          >
+                            <option v-for="opt in seg.options" :key="opt" :value="String(opt)">{{
+                              opt
+                            }}</option>
+                          </select>
+                        </template>
+                      </span>
+                    </div>
                   </template>
                   <template v-else>—</template>
                 </span>
@@ -178,8 +276,20 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ref, watch } from 'vue'
+import { computed, onActivated, onMounted, ref, watch } from 'vue'
 import heroMemoriesJson from '@/data/hero_memories.json'
+import {
+  useBuildStore,
+  type MemoryPerSourceSelections,
+  type MemorySelectionItem,
+  createEmptyPerSourceRecord,
+  MEMORY_ITEM_SOURCE_IDS
+} from '@/stores/build'
+import {
+  memoryEffectInlineSegments,
+  normalizeMemorySelectionItem,
+  patchMemoryItemRangePick
+} from '@/utils/memoryEffectRoll'
 
 type MemoryItem = {
   id: string
@@ -210,10 +320,54 @@ const payload = heroMemoriesJson as {
 
 const items = payload.items ?? []
 const affixes = payload.affixes ?? []
+const buildStore = useBuildStore()
 
-const selectedBase = ref<AffixRow | null>(null)
-const selectedImplicit = ref<AffixRow[]>([])
-const selectedRandom = ref<AffixRow[]>([])
+const perSource = ref<Record<string, MemoryPerSourceSelections>>(createEmptyPerSourceRecord())
+
+function cloneCell(cell: MemoryPerSourceSelections): MemoryPerSourceSelections {
+  return {
+    base: cell.base ? normalizeMemorySelectionItem({ ...(cell.base as MemorySelectionItem) }) : null,
+    implicit: [...(cell.implicit as MemorySelectionItem[])].map(r =>
+      normalizeMemorySelectionItem({ ...r })
+    ),
+    random: [...(cell.random as MemorySelectionItem[])].map(r =>
+      normalizeMemorySelectionItem({ ...r })
+    )
+  }
+}
+
+/** 从 buildStore 拉取追忆选择（进入页面 / 路由返回时与持久化快照一致） */
+function applyMemoriesFromStore() {
+  const ps = buildStore.snapshot.memories?.perSource ?? {}
+  const next = createEmptyPerSourceRecord()
+  for (const id of MEMORY_ITEM_SOURCE_IDS) {
+    const cell = ps[id]
+    next[id] = cell ? cloneCell(cell as MemoryPerSourceSelections) : { base: null, implicit: [], random: [] }
+  }
+  for (const [id, cell] of Object.entries(ps)) {
+    if ((MEMORY_ITEM_SOURCE_IDS as readonly string[]).includes(id)) continue
+    if (cell && typeof cell === 'object') {
+      next[id] = cloneCell(cell as MemoryPerSourceSelections)
+    }
+  }
+  perSource.value = next
+}
+
+applyMemoriesFromStore()
+
+function memoryShortLabel(fullName: string): string {
+  const n = fullName.replace(/的追忆$/, '')
+  return n.length ? n : fullName
+}
+
+function quotaFor(sourceId: string): { base: number; implicit: number; random: number } {
+  const c = perSource.value[sourceId] ?? { base: null, implicit: [], random: [] }
+  return {
+    base: c.base ? 1 : 0,
+    implicit: c.implicit?.length ?? 0,
+    random: c.random?.length ?? 0
+  }
+}
 
 const query = ref('')
 const sourceFilter = ref<'all' | string>('all')
@@ -260,62 +414,140 @@ function tierCellText(row: AffixRow): string {
   return row.tierLabel || '—'
 }
 
-function affixKey(row: AffixRow): string {
-  return String(row.modifierId ?? `${row.sourceId}|${row.effectText}|${row.tierLabel ?? ''}`)
+function affixKey(row: AffixRow | MemorySelectionItem): string {
+  const id = String(row.modifierId ?? '').trim()
+  if (id) {
+    return `${id}|${row.sourceId}|${row.category}|${String(row.tierLabel ?? '')}`
+  }
+  const raw =
+    'effectTextRaw' in row && row.effectTextRaw
+      ? String(row.effectTextRaw)
+      : String((row as AffixRow).effectText ?? '')
+  return `${row.sourceId}|${raw}|${row.category}|${String(row.tierLabel ?? '')}`
+}
+
+function toMemorySelection(row: AffixRow): MemorySelectionItem {
+  return normalizeMemorySelectionItem({
+    modifierId: row.modifierId,
+    effectText: row.effectText,
+    sourceId: row.sourceId,
+    sourceName: row.sourceName,
+    sourcePath: row.sourcePath,
+    category: row.category,
+    tier: row.tier ?? null,
+    tierLabel: row.tierLabel,
+    level: row.level ?? null,
+    weight: row.weight ?? null,
+    memoryRarity: row.memoryRarity
+  })
+}
+
+function onMemoryRangeChange(
+  sourceId: string,
+  kind: 'base' | 'implicit' | 'random',
+  slotIndex: number,
+  rangeIndex: number,
+  valueStr: string
+) {
+  const cell = perSource.value[sourceId]
+  if (!cell) return
+  const v = Number(valueStr)
+  if (!Number.isFinite(v)) return
+  if (kind === 'base') {
+    if (!cell.base) return
+    const next = patchMemoryItemRangePick(cell.base as MemorySelectionItem, rangeIndex, v)
+    perSource.value = { ...perSource.value, [sourceId]: { ...cell, base: next } }
+    return
+  }
+  if (kind === 'implicit') {
+    const arr = [...cell.implicit] as MemorySelectionItem[]
+    const cur = arr[slotIndex]
+    if (!cur) return
+    arr[slotIndex] = patchMemoryItemRangePick(cur, rangeIndex, v)
+    perSource.value = { ...perSource.value, [sourceId]: { ...cell, implicit: arr } }
+    return
+  }
+  const arr = [...cell.random] as MemorySelectionItem[]
+  const cur = arr[slotIndex]
+  if (!cur) return
+  arr[slotIndex] = patchMemoryItemRangePick(cur, rangeIndex, v)
+  perSource.value = { ...perSource.value, [sourceId]: { ...cell, random: arr } }
 }
 
 function isRowSelected(row: AffixRow): boolean {
   const k = affixKey(row)
+  const sid = row.sourceId
+  const cell = perSource.value[sid]
+  if (!cell) return false
   if (row.category === '基础属性') {
-    return selectedBase.value != null && affixKey(selectedBase.value) === k
+    return cell.base != null && affixKey(cell.base as MemorySelectionItem) === k
   }
   if (row.category === '固有词缀') {
-    return selectedImplicit.value.some(r => affixKey(r) === k)
+    return cell.implicit.some(r => affixKey(r as MemorySelectionItem) === k)
   }
   if (row.category === '随机词缀') {
-    return selectedRandom.value.some(r => affixKey(r) === k)
+    return cell.random.some(r => affixKey(r as MemorySelectionItem) === k)
   }
   return false
 }
 
 function toggleSelect(row: AffixRow) {
   const k = affixKey(row)
+  const sid = row.sourceId
+  const prev = perSource.value[sid] ?? { base: null, implicit: [], random: [] }
+  const cell: MemoryPerSourceSelections = {
+    base: prev.base,
+    implicit: [...prev.implicit],
+    random: [...prev.random]
+  }
+
   if (row.category === '基础属性') {
-    if (selectedBase.value && affixKey(selectedBase.value) === k) {
-      selectedBase.value = null
+    const cur = cell.base as MemorySelectionItem | null
+    if (cur && affixKey(cur) === k) {
+      cell.base = null
     } else {
-      selectedBase.value = row
+      cell.base = toMemorySelection(row)
     }
+    perSource.value = { ...perSource.value, [sid]: cell }
     return
   }
   if (row.category === '固有词缀') {
-    const arr = selectedImplicit.value
+    const arr = cell.implicit as MemorySelectionItem[]
     const i = arr.findIndex(r => affixKey(r) === k)
     if (i >= 0) {
-      selectedImplicit.value = arr.filter((_, j) => j !== i)
-      return
-    }
-    if (arr.length < 2) {
-      selectedImplicit.value = [...arr, row]
+      cell.implicit = arr.filter((_, j) => j !== i)
+    } else if (arr.length < 2) {
+      cell.implicit = [...arr, toMemorySelection(row)]
     } else {
-      selectedImplicit.value = [arr[1]!, row]
+      cell.implicit = [arr[1]!, toMemorySelection(row)]
     }
+    perSource.value = { ...perSource.value, [sid]: cell }
     return
   }
   if (row.category === '随机词缀') {
-    const arr = selectedRandom.value
+    const arr = cell.random as MemorySelectionItem[]
     const i = arr.findIndex(r => affixKey(r) === k)
     if (i >= 0) {
-      selectedRandom.value = arr.filter((_, j) => j !== i)
-      return
-    }
-    if (arr.length < 2) {
-      selectedRandom.value = [...arr, row]
+      cell.random = arr.filter((_, j) => j !== i)
+    } else if (arr.length < 2) {
+      cell.random = [...arr, toMemorySelection(row)]
     } else {
-      selectedRandom.value = [arr[1]!, row]
+      cell.random = [arr[1]!, toMemorySelection(row)]
     }
+    perSource.value = { ...perSource.value, [sid]: cell }
   }
 }
+
+watch(
+  perSource,
+  () => {
+    buildStore.setMemorySelectionsPerSource(perSource.value)
+  },
+  { deep: true }
+)
+
+onMounted(applyMemoriesFromStore)
+onActivated(applyMemoriesFromStore)
 
 function tlidbUrl(path: string): string {
   if (path.startsWith('http')) return path
@@ -326,9 +558,10 @@ function tlidbUrl(path: string): string {
 const pickedByMemory = computed(() => {
   return items.map(it => {
     const sid = it.id
-    const base = selectedBase.value?.sourceId === sid ? selectedBase.value : null
-    const implicit = selectedImplicit.value.filter(r => r.sourceId === sid)
-    const random = selectedRandom.value.filter(r => r.sourceId === sid)
+    const cell = perSource.value[sid] ?? { base: null, implicit: [], random: [] }
+    const base = (cell.base as MemorySelectionItem | null) ?? null
+    const implicit = (cell.implicit as MemorySelectionItem[]) ?? []
+    const random = (cell.random as MemorySelectionItem[]) ?? []
     const countBase = base ? 1 : 0
     const total = countBase + implicit.length + random.length
     return {
@@ -663,9 +896,14 @@ const filteredAffixes = computed((): AffixRow[] => {
 
 .hm-picked-global {
   margin: 0 0 12px;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
   color: rgba(230, 238, 255, 0.88);
+  line-height: 1.45;
+}
+
+.hm-picked-mem-quota {
+  margin-right: 4px;
 }
 
 .hm-picked-dot {
@@ -764,6 +1002,78 @@ const filteredAffixes = computed((): AffixRow[] => {
 
 .hm-mem-chip:first-child {
   margin-top: 0;
+}
+
+.hm-mem-inline-entry {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 8px;
+  margin-bottom: 6px;
+  font-size: 11px;
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.88);
+  word-break: break-word;
+}
+
+.hm-mem-inline-entry--list {
+  padding-bottom: 6px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.hm-mem-inline-entry--list:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.hm-inline-tier {
+  flex-shrink: 0;
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 700;
+  color: rgba(240, 210, 150, 0.95);
+  background: rgba(233, 69, 96, 0.15);
+  border: 1px solid rgba(233, 69, 96, 0.35);
+}
+
+.hm-inline-fx {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 2px;
+  vertical-align: baseline;
+  min-width: 0;
+}
+
+.hm-inline-txt {
+  white-space: pre-wrap;
+  vertical-align: baseline;
+}
+
+.hm-inline-sel {
+  display: inline-block;
+  vertical-align: baseline;
+  margin: 0 1px;
+  min-width: 2.75rem;
+  max-width: 4.5rem;
+  padding: 0 4px;
+  height: 1.35rem;
+  line-height: 1.2;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: rgba(20, 22, 32, 0.95);
+  color: rgba(255, 230, 200, 0.98);
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hm-inline-sel:focus {
+  outline: 1px solid rgba(233, 69, 96, 0.6);
+  border-color: rgba(233, 69, 96, 0.5);
 }
 
 .hm-search-input {

@@ -110,14 +110,14 @@ const HERDING_CAP_METERS = 15
 
 const isHighSong = ref<boolean>(true)
 
-const waveTraitLevel = ref<number>(5)
-const herdingTraitLevel = ref<number>(5)
+const waveTraitLevel = ref<number>(3)
+const herdingTraitLevel = ref<number>(3)
 const moveDistanceOnSeaMeters = ref<number>(8)
 
-const submergeTraitLevel = ref<number>(5)
+const submergeTraitLevel = ref<number>(3)
 const submergeStacks = ref<number>(1)
 
-const flowTraitLevel = ref<number>(5)
+const flowTraitLevel = ref<number>(3)
 
 const seaEffectMultiplier = computed(() => {
   if (!coreSelected.value) return 0

@@ -2,139 +2,1171 @@
   "slug": "STR_Shield",
   "label": "STR Shield",
   "sourceUrl": "https://tlidb.com/cn/STR_Shield",
-  "fetchedAt": "2026-03-22T08:59:33Z",
-  "modifierCount": 116,
+  "fetchedAt": "2026-03-24T07:26:27Z",
+  "modifierCount": 284,
   "modifiers": [
     {
-      "modifierId": "1508000",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(54–74) 最大生命",
-      "valueSpans": [
-        "+(54–74)"
-      ]
-    },
-    {
-      "modifierId": "1508001",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(10–14) % 护甲值",
-      "valueSpans": [
-        "+(10–14)"
-      ]
-    },
-    {
-      "modifierId": "1508002",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(5–10) % 火焰抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "1508003",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(5–10) % 冰冷抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "1508004",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(5–10) % 闪电抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "1508005",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(5–10) % 腐蚀抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "1508006",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(20–24) % 物理伤害",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "1508007",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(20–24) % 元素伤害",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "1508008",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(20–24) % 腐蚀伤害",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "1508009",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(8–10) % 攻击和法术格挡率",
-      "valueSpans": [
-        "+(8–10)"
-      ]
-    },
-    {
-      "modifierId": "1508010",
+      "modifierId": "160464080",
       "tier": 1,
       "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "力量盾牌",
+      "effectPlain": "+10 % 攻击与法术格挡率",
+      "valueSpans": [
+        "+10"
+      ]
+    },
+    {
+      "modifierId": "160465080",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "力量盾牌",
+      "effectPlain": "+10 % 移动速度",
+      "valueSpans": [
+        "+10"
+      ]
+    },
+    {
+      "modifierId": "160462080",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "力量盾牌",
+      "effectPlain": "+15 % 最大生命和最大魔力",
+      "valueSpans": [
+        "+15"
+      ]
+    },
+    {
+      "modifierId": "160463080",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "力量盾牌",
+      "effectPlain": "+40 % 从盾牌获得的 防御值",
+      "valueSpans": [
+        "+40"
+      ]
+    },
+    {
+      "modifierId": "160467080",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "力量盾牌",
+      "effectPlain": "+40 % 暴击伤害",
+      "valueSpans": [
+        "+40"
+      ]
+    },
+    {
+      "modifierId": "160461080",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "力量盾牌",
+      "effectPlain": "+8 % 元素 抗性",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160470080",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "力量盾牌",
+      "effectPlain": "+8 % 全属性",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160466080",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "力量盾牌",
+      "effectPlain": "+80 % 暴击值",
+      "valueSpans": [
+        "+80"
+      ]
+    },
+    {
+      "modifierId": "160469080",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "力量盾牌",
+      "effectPlain": "格挡时，回复 3 % 护盾，间隔 0.3 秒",
+      "valueSpans": [
+        "3"
+      ]
+    },
+    {
+      "modifierId": "160468080",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "力量盾牌",
+      "effectPlain": "格挡时，回复 3 % 生命，间隔 0.3 秒",
+      "valueSpans": [
+        "3"
+      ]
+    },
+    {
+      "modifierId": "60068007",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "力量盾牌",
+      "effectPlain": "+(12–15) % 法术格挡率",
+      "valueSpans": [
+        "+(12–15)"
+      ]
+    },
+    {
+      "modifierId": "60068002",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "力量盾牌",
+      "effectPlain": "+(1–2) % 冰冷 抗性上限",
+      "valueSpans": [
+        "+(1–2)"
+      ]
+    },
+    {
+      "modifierId": "60068001",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "力量盾牌",
+      "effectPlain": "+(1–2) % 火焰 抗性上限",
+      "valueSpans": [
+        "+(1–2)"
+      ]
+    },
+    {
+      "modifierId": "60068003",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "力量盾牌",
+      "effectPlain": "+(1–2) % 闪电 抗性上限",
+      "valueSpans": [
+        "+(1–2)"
+      ]
+    },
+    {
+      "modifierId": "60068008",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "力量盾牌",
+      "effectPlain": "+(3–5) % 最大护盾",
+      "valueSpans": [
+        "+(3–5)"
+      ]
+    },
+    {
+      "modifierId": "60068009",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "力量盾牌",
+      "effectPlain": "+(3–5) % 最大生命",
+      "valueSpans": [
+        "+(3–5)"
+      ]
+    },
+    {
+      "modifierId": "60068005",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "力量盾牌",
+      "effectPlain": "+(5–8) % 格挡比例",
+      "valueSpans": [
+        "+(5–8)"
+      ]
+    },
+    {
+      "modifierId": "60068006",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "力量盾牌",
+      "effectPlain": "+(8–12) % 攻击格挡率",
+      "valueSpans": [
+        "+(8–12)"
+      ]
+    },
+    {
+      "modifierId": "60068004",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "力量盾牌",
+      "effectPlain": "有 (5–10) % 几率避免被格挡的伤害",
+      "valueSpans": [
+        "(5–10)"
+      ]
+    },
+    {
+      "modifierId": "140800080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(141–183) % 伤害 +(141–183) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105800280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(26–32) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104800080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(430–558) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105800080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(5617–7301) 该装备护甲值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115800280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "额外 (-18–-16) % 受到的物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(109–140) % 伤害 +(109–140) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105800200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(20–25) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104800000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(331–429) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105800000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(4321–5616) 该装备护甲值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115800200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "额外 (-15–-13) % 受到的物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105800201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(14–19) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104800001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(232–330) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105800001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(3025–4320) 该装备护甲值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(77–108) % 伤害 +(77–108) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115800201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "额外 (-12–-10) % 受到的物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105800202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(11–13) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104800002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(166–231) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105800002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(2161–3024) 该装备护甲值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(55–76) % 伤害 +(55–76) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115800202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "额外 (-9–-7) % 受到的物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104800003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(133–165) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105800003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(1729–2160) 该装备护甲值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(44–54) % 伤害 +(44–54) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105800203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(9–10) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104800004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(107–132) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105800004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(1383–1728) 该装备护甲值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(36–43) % 伤害 +(36–43) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105800005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(1124–1382) 该装备护甲值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(29–35) % 伤害 +(29–35) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104800005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(87–106) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(23–28) % 伤害 +(23–28) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104800006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(67–86) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105800006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(865–1123) 该装备护甲值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(18–22) % 伤害 +(18–22) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104800007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(51–66) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105800007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(649–864) 该装备护甲值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(19–24) % 元素 抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(46–50) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(46–50) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(46–50) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(46–50) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115800380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "格挡时，回复 (7–8) % 生命，间隔 0.3 秒",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104800180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "每秒自然回复 (235–304) 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(15–18) % 元素 抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(41–45) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(41–45) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(41–45) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(41–45) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115800300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "格挡时，回复 (5–6) % 生命，间隔 0.3 秒",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104800100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "每秒自然回复 (177–234) 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(10–14) % 元素 抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(29–40) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(29–40) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(29–40) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(29–40) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115800301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "格挡时，回复 4 % 生命，间隔 0.3 秒",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104800101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "每秒自然回复 (136–180) 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(21–28) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(21–28) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(21–28) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(21–28) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(6–9) % 元素 抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115800302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "格挡时，回复 3 % 生命，间隔 0.3 秒",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104800102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "每秒自然回复 (114–126) 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(17–20) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(17–20) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(17–20) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(17–20) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(3–5) % 元素 抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104800103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "每秒自然回复 (82–90) 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(14–16) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(14–16) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(14–16) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(14–16) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104800104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "每秒自然回复 (65–72) 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(11–13) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(11–13) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(11–13) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(11–13) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104800105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "每秒自然回复 (52–58) 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(9–10) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(9–10) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(9–10) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(9–10) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104800106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "每秒自然回复 (42–47) 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(7–8) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(7–8) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(7–8) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108800207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(7–8) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104800107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "每秒自然回复 (33–36) 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "1508015",
+      "tier": 0,
+      "itemLevel": 1,
       "weight": 1,
       "affixType": "基础词缀",
       "source": "力量盾牌",
-      "effectPlain": "额外 +(6–8) % 伤害",
+      "effectPlain": "(16–20) % 受到的物理伤害转化为火焰伤害",
       "valueSpans": [
-        "+(6–8)"
+        "(16–20)"
+      ]
+    },
+    {
+      "modifierId": "1508016",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "力量盾牌",
+      "effectPlain": "(36–45) % 受到的腐蚀伤害转化为火焰伤害",
+      "valueSpans": [
+        "(36–45)"
+      ]
+    },
+    {
+      "modifierId": "1508014",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "力量盾牌",
+      "effectPlain": "+(4–5) % 元素和腐蚀 抗性上限",
+      "valueSpans": [
+        "+(4–5)"
       ]
     },
     {
@@ -174,677 +1206,11 @@
       ]
     },
     {
-      "modifierId": "1508014",
-      "tier": 0,
+      "modifierId": "1508010",
+      "tier": 1,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "基础词缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(4–5) % 元素和腐蚀 抗性上限",
-      "valueSpans": [
-        "+(4–5)"
-      ]
-    },
-    {
-      "modifierId": "1508015",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "力量盾牌",
-      "effectPlain": "(16–20) % 受到的物理伤害转化为火焰伤害",
-      "valueSpans": [
-        "(16–20)"
-      ]
-    },
-    {
-      "modifierId": "1508016",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "力量盾牌",
-      "effectPlain": "(36–45) % 受到的腐蚀伤害转化为火焰伤害",
-      "valueSpans": [
-        "(36–45)"
-      ]
-    },
-    {
-      "modifierId": "60068001",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "力量盾牌",
-      "effectPlain": "+(1–2) % 火焰 抗性上限",
-      "valueSpans": [
-        "+(1–2)"
-      ]
-    },
-    {
-      "modifierId": "60068002",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "力量盾牌",
-      "effectPlain": "+(1–2) % 冰冷 抗性上限",
-      "valueSpans": [
-        "+(1–2)"
-      ]
-    },
-    {
-      "modifierId": "60068003",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "力量盾牌",
-      "effectPlain": "+(1–2) % 闪电 抗性上限",
-      "valueSpans": [
-        "+(1–2)"
-      ]
-    },
-    {
-      "modifierId": "60068004",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "力量盾牌",
-      "effectPlain": "有 (5–10) % 几率避免被格挡的伤害",
-      "valueSpans": [
-        "(5–10)"
-      ]
-    },
-    {
-      "modifierId": "60068005",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "力量盾牌",
-      "effectPlain": "+(5–8) % 格挡比例",
-      "valueSpans": [
-        "+(5–8)"
-      ]
-    },
-    {
-      "modifierId": "60068006",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "力量盾牌",
-      "effectPlain": "+(8–12) % 攻击格挡率",
-      "valueSpans": [
-        "+(8–12)"
-      ]
-    },
-    {
-      "modifierId": "60068007",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "力量盾牌",
-      "effectPlain": "+(12–15) % 法术格挡率",
-      "valueSpans": [
-        "+(12–15)"
-      ]
-    },
-    {
-      "modifierId": "60068008",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "力量盾牌",
-      "effectPlain": "+(3–5) % 最大护盾",
-      "valueSpans": [
-        "+(3–5)"
-      ]
-    },
-    {
-      "modifierId": "60068009",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "力量盾牌",
-      "effectPlain": "+(3–5) % 最大生命",
-      "valueSpans": [
-        "+(3–5)"
-      ]
-    },
-    {
-      "modifierId": "104800001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(232–330) 最大生命",
-      "valueSpans": [
-        "+(232–330)"
-      ]
-    },
-    {
-      "modifierId": "105800001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(3025–4320) 该装备护甲值",
-      "valueSpans": [
-        "+(3025–4320)"
-      ]
-    },
-    {
-      "modifierId": "105800201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(14–19) % 攻击与法术格挡率",
-      "valueSpans": [
-        "+(14–19)"
-      ]
-    },
-    {
-      "modifierId": "115800201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "力量盾牌",
-      "effectPlain": "额外 (-12–-10) % 受到的物理伤害",
-      "valueSpans": [
-        "(-12–-10)"
-      ]
-    },
-    {
-      "modifierId": "140800001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(77–108) % 伤害 +(77–108) % 召唤物伤害",
-      "valueSpans": [
-        "+(77–108)",
-        "+(77–108)"
-      ]
-    },
-    {
-      "modifierId": "104820301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(18–24) % 最大生命",
-      "valueSpans": [
-        "+(18–24)"
-      ]
-    },
-    {
-      "modifierId": "105800401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(12–15) % 格挡比例",
-      "valueSpans": [
-        "+(12–15)"
-      ]
-    },
-    {
-      "modifierId": "109800001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(64–90) 力量",
-      "valueSpans": [
-        "+(64–90)"
-      ]
-    },
-    {
-      "modifierId": "109800301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(64–90) 智慧",
-      "valueSpans": [
-        "+(64–90)"
-      ]
-    },
-    {
-      "modifierId": "109800401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(64–90) 敏捷",
-      "valueSpans": [
-        "+(64–90)"
-      ]
-    },
-    {
-      "modifierId": "130800001",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(22–30) % 元素和腐蚀抗性穿透 召唤物伤害穿透 (22–30) % 元素抗性",
-      "valueSpans": [
-        "+(22–30)",
-        "(22–30)"
-      ]
-    },
-    {
-      "modifierId": "130800101",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "力量盾牌",
-      "effectPlain": "+3 主动技能等级",
-      "valueSpans": [
-        "+3"
-      ]
-    },
-    {
-      "modifierId": "140800101",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(19–25) % 护甲减伤穿透 召唤物 +(19–25) % 护甲减伤穿透",
-      "valueSpans": [
-        "+(19–25)",
-        "+(19–25)"
-      ]
-    },
-    {
-      "modifierId": "104800101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "力量盾牌",
-      "effectPlain": "每秒自然回复 (136–180) 生命",
-      "valueSpans": [
-        "(136–180)"
-      ]
-    },
-    {
-      "modifierId": "108800001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(29–40) % 火焰抗性",
-      "valueSpans": [
-        "+(29–40)"
-      ]
-    },
-    {
-      "modifierId": "108800101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(29–40) % 冰冷抗性",
-      "valueSpans": [
-        "+(29–40)"
-      ]
-    },
-    {
-      "modifierId": "108800201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(29–40) % 闪电抗性",
-      "valueSpans": [
-        "+(29–40)"
-      ]
-    },
-    {
-      "modifierId": "108800301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(29–40) % 腐蚀抗性",
-      "valueSpans": [
-        "+(29–40)"
-      ]
-    },
-    {
-      "modifierId": "115800301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "力量盾牌",
-      "effectPlain": "格挡时，回复 4 % 生命，间隔 0.3 秒",
-      "valueSpans": [
-        "4"
-      ]
-    },
-    {
-      "modifierId": "140800201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(10–14) % 元素 抗性",
-      "valueSpans": [
-        "+(10–14)"
-      ]
-    },
-    {
-      "modifierId": "110800001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(26–36) % 攻击与施法速度 +(26–36) % 召唤物攻击与施法速度",
-      "valueSpans": [
-        "+(26–36)",
-        "+(26–36)"
-      ]
-    },
-    {
-      "modifierId": "110800201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(127–180) % 暴击值",
-      "valueSpans": [
-        "+(127–180)"
-      ]
-    },
-    {
-      "modifierId": "110800301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(64–90) % 暴击伤害",
-      "valueSpans": [
-        "+(64–90)"
-      ]
-    },
-    {
-      "modifierId": "116800101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "力量盾牌",
-      "effectPlain": "+1 战吼技能充能点数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "116800201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(37–48) % 战吼技能的效果",
-      "valueSpans": [
-        "+(37–48)"
-      ]
-    },
-    {
-      "modifierId": "140800301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(45–54) % 贯注速度",
-      "valueSpans": [
-        "+(45–54)"
-      ]
-    },
-    {
-      "modifierId": "116800401",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "力量盾牌",
-      "effectPlain": "+1 哨卫数量上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "130800201",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "力量盾牌",
-      "effectPlain": "额外 +(22–30) % 从盾牌获得的 防御值",
-      "valueSpans": [
-        "+(22–30)"
-      ]
-    },
-    {
-      "modifierId": "130800301",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(7–8) % 元素 抗性上限",
-      "valueSpans": [
-        "+(7–8)"
-      ]
-    },
-    {
-      "modifierId": "130800401",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "力量盾牌",
-      "effectPlain": "每 5 % 攻击格挡， +3 % 暴击值和暴击伤害",
-      "valueSpans": [
-        "5",
-        "+3"
-      ]
-    },
-    {
-      "modifierId": "140800401",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(35–45) % 贯注伤害加深",
-      "valueSpans": [
-        "+(35–45)"
-      ]
-    },
-    {
-      "modifierId": "140800501",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "力量盾牌",
-      "effectPlain": "若最近释放的连携终结技至少消耗了 8 点连携点， +(40–50) % 连携伤害加深",
-      "valueSpans": [
-        "8",
-        "+(40–50)"
-      ]
-    },
-    {
-      "modifierId": "140800601",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(40–50) % 异常伤害加深",
-      "valueSpans": [
-        "+(40–50)"
-      ]
-    },
-    {
-      "modifierId": "85080001",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(54–74) 最大生命",
-      "valueSpans": [
-        "+(54–74)"
-      ]
-    },
-    {
-      "modifierId": "85080011",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(10–14) % 护甲值",
-      "valueSpans": [
-        "+(10–14)"
-      ]
-    },
-    {
-      "modifierId": "85080021",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(5–10) % 火焰抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "85080031",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(5–10) % 冰冷抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "85080041",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(5–10) % 闪电抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "85080051",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(5–10) % 腐蚀抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "85080061",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(20–24) % 物理伤害",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "85080071",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(20–24) % 元素伤害",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "85080081",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(20–24) % 腐蚀伤害",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "85080091",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "力量盾牌",
-      "effectPlain": "+(8–10) % 攻击和法术格挡率",
-      "valueSpans": [
-        "+(8–10)"
-      ]
-    },
-    {
-      "modifierId": "85080101",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
       "source": "力量盾牌",
       "effectPlain": "额外 +(6–8) % 伤害",
       "valueSpans": [
@@ -852,412 +1218,135 @@
       ]
     },
     {
-      "modifierId": "85080111",
-      "tier": 1,
+      "modifierId": "1508001",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "力量盾牌",
-      "effectPlain": "+(35–40) 力量",
+      "effectPlain": "+(10–14) % 护甲值",
       "valueSpans": [
-        "+(35–40)"
+        "+(10–14)"
       ]
     },
     {
-      "modifierId": "85080121",
-      "tier": 1,
+      "modifierId": "1508007",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "力量盾牌",
-      "effectPlain": "+(35–40) 敏捷",
+      "effectPlain": "+(20–24) % 元素伤害",
       "valueSpans": [
-        "+(35–40)"
+        "+(20–24)"
       ]
     },
     {
-      "modifierId": "85080131",
-      "tier": 1,
+      "modifierId": "1508006",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "力量盾牌",
-      "effectPlain": "+(35–40) 智慧",
+      "effectPlain": "+(20–24) % 物理伤害",
       "valueSpans": [
-        "+(35–40)"
+        "+(20–24)"
       ]
     },
     {
-      "modifierId": "85080141",
-      "tier": 0,
+      "modifierId": "1508008",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "力量盾牌",
-      "effectPlain": "+(4–5) % 元素和腐蚀 抗性上限",
+      "effectPlain": "+(20–24) % 腐蚀伤害",
       "valueSpans": [
-        "+(4–5)"
+        "+(20–24)"
       ]
     },
     {
-      "modifierId": "85080151",
-      "tier": 0,
+      "modifierId": "1508000",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "力量盾牌",
-      "effectPlain": "(16–20) % 受到的物理伤害转化为火焰伤害",
+      "effectPlain": "+(54–74) 最大生命",
       "valueSpans": [
-        "(16–20)"
+        "+(54–74)"
       ]
     },
     {
-      "modifierId": "85080161",
-      "tier": 0,
+      "modifierId": "1508003",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "力量盾牌",
-      "effectPlain": "(36–45) % 受到的腐蚀伤害转化为火焰伤害",
+      "effectPlain": "+(5–10) % 冰冷抗性",
       "valueSpans": [
-        "(36–45)"
+        "+(5–10)"
       ]
     },
     {
-      "modifierId": "85080171",
-      "tier": 1,
+      "modifierId": "1508002",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "力量盾牌",
-      "effectPlain": "使用近战技能时， +100 % 几率获得一层 强硬",
+      "effectPlain": "+(5–10) % 火焰抗性",
       "valueSpans": [
-        "+100"
+        "+(5–10)"
       ]
     },
     {
-      "modifierId": "160461080",
-      "tier": 1,
+      "modifierId": "1508005",
+      "tier": 2,
       "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
+      "weight": 1,
+      "affixType": "基础词缀",
       "source": "力量盾牌",
-      "effectPlain": "+8 % 元素 抗性",
+      "effectPlain": "+(5–10) % 腐蚀抗性",
       "valueSpans": [
-        "+8"
+        "+(5–10)"
       ]
     },
     {
-      "modifierId": "160462080",
-      "tier": 1,
+      "modifierId": "1508004",
+      "tier": 2,
       "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
+      "weight": 1,
+      "affixType": "基础词缀",
       "source": "力量盾牌",
-      "effectPlain": "+15 % 最大生命和最大魔力",
+      "effectPlain": "+(5–10) % 闪电抗性",
       "valueSpans": [
-        "+15"
+        "+(5–10)"
       ]
     },
     {
-      "modifierId": "160463080",
-      "tier": 1,
+      "modifierId": "1508009",
+      "tier": 2,
       "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
+      "weight": 1,
+      "affixType": "基础词缀",
       "source": "力量盾牌",
-      "effectPlain": "+40 % 从盾牌获得的 防御值",
+      "effectPlain": "+(8–10) % 攻击和法术格挡率",
       "valueSpans": [
-        "+40"
+        "+(8–10)"
       ]
     },
     {
-      "modifierId": "160464080",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "力量盾牌",
-      "effectPlain": "+10 % 攻击与法术格挡率",
-      "valueSpans": [
-        "+10"
-      ]
-    },
-    {
-      "modifierId": "160465080",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "力量盾牌",
-      "effectPlain": "+10 % 移动速度",
-      "valueSpans": [
-        "+10"
-      ]
-    },
-    {
-      "modifierId": "160466080",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "力量盾牌",
-      "effectPlain": "+80 % 暴击值",
-      "valueSpans": [
-        "+80"
-      ]
-    },
-    {
-      "modifierId": "160467080",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "力量盾牌",
-      "effectPlain": "+40 % 暴击伤害",
-      "valueSpans": [
-        "+40"
-      ]
-    },
-    {
-      "modifierId": "160468080",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "力量盾牌",
-      "effectPlain": "格挡时，回复 3 % 生命，间隔 0.3 秒",
-      "valueSpans": [
-        "3"
-      ]
-    },
-    {
-      "modifierId": "160469080",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "力量盾牌",
-      "effectPlain": "格挡时，回复 3 % 护盾，间隔 0.3 秒",
-      "valueSpans": [
-        "3"
-      ]
-    },
-    {
-      "modifierId": "160470080",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "力量盾牌",
-      "effectPlain": "+8 % 全属性",
-      "valueSpans": [
-        "+8"
-      ]
-    },
-    {
-      "modifierId": "160581080",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 30,
-      "affixType": "高阶序列",
-      "source": "力量盾牌",
-      "effectPlain": "+8 % 格挡比例上限",
-      "valueSpans": [
-        "+8"
-      ]
-    },
-    {
-      "modifierId": "160582080",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 30,
-      "affixType": "高阶序列",
-      "source": "力量盾牌",
-      "effectPlain": "所有被动技能栏被 30 级的精密 节流辅助",
-      "valueSpans": [
-        "30"
-      ]
-    },
-    {
-      "modifierId": "160583080",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 60,
-      "affixType": "高阶序列",
-      "source": "力量盾牌",
-      "effectPlain": "免疫 控制类状态",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "160584080",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 60,
-      "affixType": "高阶序列",
-      "source": "力量盾牌",
-      "effectPlain": "25 % 受到的物理伤害转化为随机 元素 伤害 -25 % 防御值",
-      "valueSpans": [
-        "25",
-        "-25"
-      ]
-    },
-    {
-      "modifierId": "160585080",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "高阶序列",
-      "source": "力量盾牌",
-      "effectPlain": "对非物理伤害， +15 % 护甲有效率 +2400 该装备护甲值",
-      "valueSpans": [
-        "+15",
-        "+2400"
-      ]
-    },
-    {
-      "modifierId": "160586080",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "高阶序列",
-      "source": "力量盾牌",
-      "effectPlain": "对法术伤害，闪避值不再默认额外降低 +1680 该装备闪避值",
-      "valueSpans": [
-        "+1680"
-      ]
-    },
-    {
-      "modifierId": "160587080",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "高阶序列",
-      "source": "力量盾牌",
-      "effectPlain": "格挡时，护盾立即开始 充能 +40 % 护盾 充能 速度",
-      "valueSpans": [
-        "+40"
-      ]
-    },
-    {
-      "modifierId": "51450311",
+      "modifierId": "51450731",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "裁决之盾",
+      "affixType": "沉重灵魂",
       "source": "力量盾牌",
-      "effectPlain": "+(10–13) % 攻击格挡率",
+      "effectPlain": "+(10–14) % 攻击与法术格挡率",
       "valueSpans": [
-        "+(10–13)"
-      ]
-    },
-    {
-      "modifierId": "51450321",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "裁决之盾",
-      "source": "力量盾牌",
-      "effectPlain": "+(44–66) 最大生命",
-      "valueSpans": [
-        "+(44–66)"
-      ]
-    },
-    {
-      "modifierId": "51450331",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "裁决之盾",
-      "source": "力量盾牌",
-      "effectPlain": "+(150–300) 反射 物理伤害",
-      "valueSpans": [
-        "+(150–300)"
-      ]
-    },
-    {
-      "modifierId": "51450351",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "裁决之盾",
-      "source": "力量盾牌",
-      "effectPlain": "若最近格挡法术， +(150–300) 反射物理伤害",
-      "valueSpans": [
-        "+(150–300)"
-      ]
-    },
-    {
-      "modifierId": "51450361",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "裁决之盾",
-      "source": "力量盾牌",
-      "effectPlain": "若最近格挡攻击， +(150–300) 反射物理伤害",
-      "valueSpans": [
-        "+(150–300)"
-      ]
-    },
-    {
-      "modifierId": "51450511",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "背水一战",
-      "source": "力量盾牌",
-      "effectPlain": "+(600–800) 该装备护甲值",
-      "valueSpans": [
-        "+(600–800)"
-      ]
-    },
-    {
-      "modifierId": "51450521",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "背水一战",
-      "source": "力量盾牌",
-      "effectPlain": "+(176–198) 最大生命",
-      "valueSpans": [
-        "+(176–198)"
-      ]
-    },
-    {
-      "modifierId": "51450531",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "背水一战",
-      "source": "力量盾牌",
-      "effectPlain": "+(35–53) 最大护盾",
-      "valueSpans": [
-        "+(35–53)"
-      ]
-    },
-    {
-      "modifierId": "51450541",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "背水一战",
-      "source": "力量盾牌",
-      "effectPlain": "+6 % 攻击格挡率",
-      "valueSpans": [
-        "+6"
-      ]
-    },
-    {
-      "modifierId": "51450551",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "背水一战",
-      "source": "力量盾牌",
-      "effectPlain": "生命低于 75 % 时， +10 % 格挡比例",
-      "valueSpans": [
-        "75",
-        "+10"
+        "+(10–14)"
       ]
     },
     {
@@ -1282,18 +1371,6 @@
       "effectPlain": "+198 最大生命",
       "valueSpans": [
         "+198"
-      ]
-    },
-    {
-      "modifierId": "51450731",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "沉重灵魂",
-      "source": "力量盾牌",
-      "effectPlain": "+(10–14) % 攻击与法术格挡率",
-      "valueSpans": [
-        "+(10–14)"
       ]
     },
     {
@@ -1333,6 +1410,703 @@
       ]
     },
     {
+      "modifierId": "85080151",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "力量盾牌",
+      "effectPlain": "(16–20) % 受到的物理伤害转化为火焰伤害",
+      "valueSpans": [
+        "(16–20)"
+      ]
+    },
+    {
+      "modifierId": "85080161",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "力量盾牌",
+      "effectPlain": "(36–45) % 受到的腐蚀伤害转化为火焰伤害",
+      "valueSpans": [
+        "(36–45)"
+      ]
+    },
+    {
+      "modifierId": "85080141",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "力量盾牌",
+      "effectPlain": "+(4–5) % 元素和腐蚀 抗性上限",
+      "valueSpans": [
+        "+(4–5)"
+      ]
+    },
+    {
+      "modifierId": "85080111",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "力量盾牌",
+      "effectPlain": "+(35–40) 力量",
+      "valueSpans": [
+        "+(35–40)"
+      ]
+    },
+    {
+      "modifierId": "85080121",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "力量盾牌",
+      "effectPlain": "+(35–40) 敏捷",
+      "valueSpans": [
+        "+(35–40)"
+      ]
+    },
+    {
+      "modifierId": "85080131",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "力量盾牌",
+      "effectPlain": "+(35–40) 智慧",
+      "valueSpans": [
+        "+(35–40)"
+      ]
+    },
+    {
+      "modifierId": "85080171",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "力量盾牌",
+      "effectPlain": "使用近战技能时， +100 % 几率获得一层 强硬",
+      "valueSpans": [
+        "+100"
+      ]
+    },
+    {
+      "modifierId": "85080101",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "力量盾牌",
+      "effectPlain": "额外 +(6–8) % 伤害",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "85080011",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "力量盾牌",
+      "effectPlain": "+(10–14) % 护甲值",
+      "valueSpans": [
+        "+(10–14)"
+      ]
+    },
+    {
+      "modifierId": "85080071",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "力量盾牌",
+      "effectPlain": "+(20–24) % 元素伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85080061",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "力量盾牌",
+      "effectPlain": "+(20–24) % 物理伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85080081",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "力量盾牌",
+      "effectPlain": "+(20–24) % 腐蚀伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85080001",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "力量盾牌",
+      "effectPlain": "+(54–74) 最大生命",
+      "valueSpans": [
+        "+(54–74)"
+      ]
+    },
+    {
+      "modifierId": "85080031",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "力量盾牌",
+      "effectPlain": "+(5–10) % 冰冷抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "85080021",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "力量盾牌",
+      "effectPlain": "+(5–10) % 火焰抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "85080051",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "力量盾牌",
+      "effectPlain": "+(5–10) % 腐蚀抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "85080041",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "力量盾牌",
+      "effectPlain": "+(5–10) % 闪电抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "85080091",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "力量盾牌",
+      "effectPlain": "+(8–10) % 攻击和法术格挡率",
+      "valueSpans": [
+        "+(8–10)"
+      ]
+    },
+    {
+      "modifierId": "51450521",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "背水一战",
+      "source": "力量盾牌",
+      "effectPlain": "+(176–198) 最大生命",
+      "valueSpans": [
+        "+(176–198)"
+      ]
+    },
+    {
+      "modifierId": "51450531",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "背水一战",
+      "source": "力量盾牌",
+      "effectPlain": "+(35–53) 最大护盾",
+      "valueSpans": [
+        "+(35–53)"
+      ]
+    },
+    {
+      "modifierId": "51450511",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "背水一战",
+      "source": "力量盾牌",
+      "effectPlain": "+(600–800) 该装备护甲值",
+      "valueSpans": [
+        "+(600–800)"
+      ]
+    },
+    {
+      "modifierId": "51450541",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "背水一战",
+      "source": "力量盾牌",
+      "effectPlain": "+6 % 攻击格挡率",
+      "valueSpans": [
+        "+6"
+      ]
+    },
+    {
+      "modifierId": "51450551",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "背水一战",
+      "source": "力量盾牌",
+      "effectPlain": "生命低于 75 % 时， +10 % 格挡比例",
+      "valueSpans": [
+        "75",
+        "+10"
+      ]
+    },
+    {
+      "modifierId": "140800180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(34–42) % 护甲减伤穿透 召唤物 +(34–42) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130800080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(40–51) % 元素和腐蚀抗性穿透 召唤物伤害穿透 (40–51) % 元素抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130800180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(4–5) 主动技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(26–33) % 护甲减伤穿透 召唤物 +(26–33) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130800000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(29–39) % 元素和腐蚀抗性穿透 召唤物伤害穿透 (29–39) % 元素抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130800100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(3–4) 主动技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800101",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(19–25) % 护甲减伤穿透 召唤物 +(19–25) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130800001",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(22–30) % 元素和腐蚀抗性穿透 召唤物伤害穿透 (22–30) % 元素抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130800101",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "STR Shield",
+      "effectPlain": "+3 主动技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800102",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(14–18) % 护甲减伤穿透 召唤物 +(14–18) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130800002",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(18–21) % 元素和腐蚀抗性穿透 召唤物伤害穿透 (18–21) % 元素抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800103",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(11–13) % 护甲减伤穿透 召唤物 +(11–13) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130800003",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(13–15) % 元素和腐蚀抗性穿透 召唤物伤害穿透 (13–15) % 元素抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130800380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(11–12) % 元素 抗性上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(65–80) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(70–85) % 异常伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116800480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "STR Shield",
+      "effectPlain": "+1 哨卫数量上限 额外 +10 % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130800480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "STR Shield",
+      "effectPlain": "每 5 % 攻击格挡， +6 % 暴击值和暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "STR Shield",
+      "effectPlain": "若最近释放的连携终结技至少消耗了 8 点连携点， +(70–85) % 连携伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130800280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "STR Shield",
+      "effectPlain": "额外 +(40–51) % 从盾牌获得的 防御值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(48–60) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(55–65) % 异常伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130800300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(9–10) % 元素 抗性上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116800400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "STR Shield",
+      "effectPlain": "+1 哨卫数量上限 额外 +5 % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130800400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "STR Shield",
+      "effectPlain": "每 5 % 攻击格挡， +5 % 暴击值和暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "STR Shield",
+      "effectPlain": "若最近释放的连携终结技至少消耗了 8 点连携点， +(55–65) % 连携伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130800200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "STR Shield",
+      "effectPlain": "额外 +(31–39) % 从盾牌获得的 防御值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800401",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(35–45) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800601",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(40–50) % 异常伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130800301",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(7–8) % 元素 抗性上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116800401",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "STR Shield",
+      "effectPlain": "+1 哨卫数量上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130800401",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "STR Shield",
+      "effectPlain": "每 5 % 攻击格挡， +3 % 暴击值和暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800501",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "STR Shield",
+      "effectPlain": "若最近释放的连携终结技至少消耗了 8 点连携点， +(40–50) % 连携伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130800201",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "STR Shield",
+      "effectPlain": "额外 +(22–30) % 从盾牌获得的 防御值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800402",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(20–30) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800602",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(25–35) % 异常伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130800302",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(5–6) % 元素 抗性上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130800402",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "STR Shield",
+      "effectPlain": "每 5 % 攻击格挡， +2 % 暴击值和暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800502",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "STR Shield",
+      "effectPlain": "若最近释放的连携终结技至少消耗了 8 点连携点， +(25–35) % 连携伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130800202",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "STR Shield",
+      "effectPlain": "额外 +(16–21) % 从盾牌获得的 防御值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130800303",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(3–4) % 元素 抗性上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130800203",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 400,
+      "affixType": "至臻后缀",
+      "source": "STR Shield",
+      "effectPlain": "额外 +(13–15) % 从盾牌获得的 防御值",
+      "valueSpans": []
+    },
+    {
       "modifierId": "54451911",
       "tier": null,
       "itemLevel": null,
@@ -1369,16 +2143,14 @@
       ]
     },
     {
-      "modifierId": "54451941",
+      "modifierId": "54451961",
       "tier": null,
       "itemLevel": null,
       "weight": null,
       "affixType": "蔽日",
       "source": "力量盾牌",
-      "effectPlain": "施加诅咒时，同时施加 1 层 坚韧祝福",
-      "valueSpans": [
-        "1"
-      ]
+      "effectPlain": "巨龙末裔的憎恨",
+      "valueSpans": []
     },
     {
       "modifierId": "54451951",
@@ -1391,44 +2163,853 @@
       "valueSpans": []
     },
     {
-      "modifierId": "54451961",
+      "modifierId": "54451941",
       "tier": null,
       "itemLevel": null,
       "weight": null,
       "affixType": "蔽日",
       "source": "力量盾牌",
-      "effectPlain": "巨龙末裔的憎恨",
+      "effectPlain": "施加诅咒时，同时施加 1 层 坚韧祝福",
+      "valueSpans": [
+        "1"
+      ]
+    },
+    {
+      "modifierId": "51450311",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "裁决之盾",
+      "source": "力量盾牌",
+      "effectPlain": "+(10–13) % 攻击格挡率",
+      "valueSpans": [
+        "+(10–13)"
+      ]
+    },
+    {
+      "modifierId": "51450331",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "裁决之盾",
+      "source": "力量盾牌",
+      "effectPlain": "+(150–300) 反射 物理伤害",
+      "valueSpans": [
+        "+(150–300)"
+      ]
+    },
+    {
+      "modifierId": "51450321",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "裁决之盾",
+      "source": "力量盾牌",
+      "effectPlain": "+(44–66) 最大生命",
+      "valueSpans": [
+        "+(44–66)"
+      ]
+    },
+    {
+      "modifierId": "51450361",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "裁决之盾",
+      "source": "力量盾牌",
+      "effectPlain": "若最近格挡攻击， +(150–300) 反射物理伤害",
+      "valueSpans": [
+        "+(150–300)"
+      ]
+    },
+    {
+      "modifierId": "51450351",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "裁决之盾",
+      "source": "力量盾牌",
+      "effectPlain": "若最近格挡法术， +(150–300) 反射物理伤害",
+      "valueSpans": [
+        "+(150–300)"
+      ]
+    },
+    {
+      "modifierId": "109800080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(118–152) 力量",
       "valueSpans": []
+    },
+    {
+      "modifierId": "109800480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(118–152) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109800380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(118–152) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105800480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(21–25) % 格挡比例",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104820380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(32–41) % 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105800400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(16–20) % 格挡比例",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104820300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(25–31) % 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109800000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(91–117) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109800400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(91–117) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109800300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(91–117) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105800401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(12–15) % 格挡比例",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104820301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(18–24) % 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109800001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(64–90) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109800401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(64–90) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109800301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(64–90) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104820302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(13–17) % 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109800002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(46–63) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109800402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(46–63) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109800302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(46–63) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105800402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(9–11) % 格挡比例",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104820303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(11–12) % 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109800003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(37–45) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109800403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(37–45) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109800303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(37–45) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105800403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(7–8) % 格挡比例",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109800004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(30–36) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109800404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(30–36) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109800304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(30–36) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109800005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(24–29) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109800405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(24–29) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109800305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(24–29) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109800006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(19–23) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109800406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(19–23) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109800306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(19–23) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109800007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(15–18) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109800407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(15–18) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109800307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "STR Shield",
+      "effectPlain": "+(15–18) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110800380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(118–152) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110800280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(235–304) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110800080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(48–61) % 攻击与施法速度 +(48–61) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116800280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(63–81) % 战吼技能的效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(75–90) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116800180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+3 战吼技能充能点数上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110800200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(165–234) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110800000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(34–47) % 攻击与施法速度 +(34–47) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116800200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(49–72) % 战吼技能的效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(60–70) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110800300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(83–117) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116800100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+2 战吼技能充能点数上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110800201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(127–180) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110800001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(26–36) % 攻击与施法速度 +(26–36) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116800201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(37–48) % 战吼技能的效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(45–54) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110800301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(64–90) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116800101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+1 战吼技能充能点数上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110800202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(107–126) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110800002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(22–25) % 攻击与施法速度 +(22–25) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116800202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(29–36) % 战吼技能的效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140800302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(30–40) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110800302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(54–63) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110800003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(16–18) % 攻击与施法速度 +(16–18) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110800303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(38–45) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110800203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(76–90) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110800304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(31–36) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110800204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(61–72) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110800305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(24–29) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110800205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(48–58) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110800306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(20–23) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110800206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "STR Shield",
+      "effectPlain": "+(39–47) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "160581080",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 30,
+      "affixType": "高阶序列",
+      "source": "力量盾牌",
+      "effectPlain": "+8 % 格挡比例上限",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160584080",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 60,
+      "affixType": "高阶序列",
+      "source": "力量盾牌",
+      "effectPlain": "25 % 受到的物理伤害转化为随机 元素 伤害 -25 % 防御值",
+      "valueSpans": [
+        "25",
+        "-25"
+      ]
+    },
+    {
+      "modifierId": "160583080",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 60,
+      "affixType": "高阶序列",
+      "source": "力量盾牌",
+      "effectPlain": "免疫 控制类状态",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "160586080",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
+      "source": "力量盾牌",
+      "effectPlain": "对法术伤害，闪避值不再默认额外降低 +1680 该装备闪避值",
+      "valueSpans": [
+        "+1680"
+      ]
+    },
+    {
+      "modifierId": "160585080",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
+      "source": "力量盾牌",
+      "effectPlain": "对非物理伤害， +15 % 护甲有效率 +2400 该装备护甲值",
+      "valueSpans": [
+        "+15",
+        "+2400"
+      ]
+    },
+    {
+      "modifierId": "160582080",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 30,
+      "affixType": "高阶序列",
+      "source": "力量盾牌",
+      "effectPlain": "所有被动技能栏被 30 级的精密 节流辅助",
+      "valueSpans": [
+        "30"
+      ]
+    },
+    {
+      "modifierId": "160587080",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
+      "source": "力量盾牌",
+      "effectPlain": "格挡时，护盾立即开始 充能 +40 % 护盾 充能 速度",
+      "valueSpans": [
+        "+40"
+      ]
     }
   ],
   "tierVariantGroups": [
-    {
-      "skeleton": "{#} % 元素 抗性",
-      "rolls": [
-        {
-          "modifierId": "140800201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(10–14)"
-          ],
-          "effectPlain": "+(10–14) % 元素 抗性"
-        },
-        {
-          "modifierId": "160461080",
-          "tier": 1,
-          "itemLevel": 1,
-          "weight": 100,
-          "affixType": "中阶序列",
-          "valueSpans": [
-            "+8"
-          ],
-          "effectPlain": "+8 % 元素 抗性"
-        }
-      ]
-    },
     {
       "skeleton": "{#} % 元素伤害",
       "rolls": [
@@ -1486,17 +3067,6 @@
     {
       "skeleton": "{#} % 冰冷抗性",
       "rolls": [
-        {
-          "modifierId": "108800101",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(29–40)"
-          ],
-          "effectPlain": "+(29–40) % 冰冷抗性"
-        },
         {
           "modifierId": "1508003",
           "tier": 2,
@@ -1606,17 +3176,6 @@
       "skeleton": "{#} % 攻击与法术格挡率",
       "rolls": [
         {
-          "modifierId": "105800201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(14–19)"
-          ],
-          "effectPlain": "+(14–19) % 攻击与法术格挡率"
-        },
-        {
           "modifierId": "160464080",
           "tier": 1,
           "itemLevel": 1,
@@ -1706,127 +3265,8 @@
       ]
     },
     {
-      "skeleton": "{#} % 暴击伤害",
-      "rolls": [
-        {
-          "modifierId": "110800301",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶后缀",
-          "valueSpans": [
-            "+(64–90)"
-          ],
-          "effectPlain": "+(64–90) % 暴击伤害"
-        },
-        {
-          "modifierId": "160467080",
-          "tier": 1,
-          "itemLevel": 1,
-          "weight": 100,
-          "affixType": "中阶序列",
-          "valueSpans": [
-            "+40"
-          ],
-          "effectPlain": "+40 % 暴击伤害"
-        }
-      ]
-    },
-    {
-      "skeleton": "{#} % 暴击值",
-      "rolls": [
-        {
-          "modifierId": "110800201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶后缀",
-          "valueSpans": [
-            "+(127–180)"
-          ],
-          "effectPlain": "+(127–180) % 暴击值"
-        },
-        {
-          "modifierId": "160466080",
-          "tier": 1,
-          "itemLevel": 1,
-          "weight": 100,
-          "affixType": "中阶序列",
-          "valueSpans": [
-            "+80"
-          ],
-          "effectPlain": "+80 % 暴击值"
-        }
-      ]
-    },
-    {
-      "skeleton": "{#} % 最大生命",
-      "rolls": [
-        {
-          "modifierId": "60068009",
-          "tier": 0,
-          "itemLevel": 1,
-          "weight": 1,
-          "affixType": "侵蚀基底",
-          "valueSpans": [
-            "+(3–5)"
-          ],
-          "effectPlain": "+(3–5) % 最大生命"
-        },
-        {
-          "modifierId": "104820301",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(18–24)"
-          ],
-          "effectPlain": "+(18–24) % 最大生命"
-        }
-      ]
-    },
-    {
-      "skeleton": "{#} % 格挡比例",
-      "rolls": [
-        {
-          "modifierId": "60068005",
-          "tier": 0,
-          "itemLevel": 1,
-          "weight": 1,
-          "affixType": "侵蚀基底",
-          "valueSpans": [
-            "+(5–8)"
-          ],
-          "effectPlain": "+(5–8) % 格挡比例"
-        },
-        {
-          "modifierId": "105800401",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(12–15)"
-          ],
-          "effectPlain": "+(12–15) % 格挡比例"
-        }
-      ]
-    },
-    {
       "skeleton": "{#} % 火焰抗性",
       "rolls": [
-        {
-          "modifierId": "108800001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(29–40)"
-          ],
-          "effectPlain": "+(29–40) % 火焰抗性"
-        },
         {
           "modifierId": "1508002",
           "tier": 2,
@@ -1936,17 +3376,6 @@
       "skeleton": "{#} % 腐蚀抗性",
       "rolls": [
         {
-          "modifierId": "108800301",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(29–40)"
-          ],
-          "effectPlain": "+(29–40) % 腐蚀抗性"
-        },
-        {
           "modifierId": "1508005",
           "tier": 2,
           "itemLevel": 1,
@@ -1973,17 +3402,6 @@
     {
       "skeleton": "{#} % 闪电抗性",
       "rolls": [
-        {
-          "modifierId": "108800201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(29–40)"
-          ],
-          "effectPlain": "+(29–40) % 闪电抗性"
-        },
         {
           "modifierId": "1508004",
           "tier": 2,
@@ -2012,17 +3430,6 @@
       "skeleton": "{#} 力量",
       "rolls": [
         {
-          "modifierId": "109800001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(64–90)"
-          ],
-          "effectPlain": "+(64–90) 力量"
-        },
-        {
           "modifierId": "1508011",
           "tier": 1,
           "itemLevel": 1,
@@ -2049,17 +3456,6 @@
     {
       "skeleton": "{#} 敏捷",
       "rolls": [
-        {
-          "modifierId": "109800401",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(64–90)"
-          ],
-          "effectPlain": "+(64–90) 敏捷"
-        },
         {
           "modifierId": "1508012",
           "tier": 1,
@@ -2088,17 +3484,6 @@
       "skeleton": "{#} 智慧",
       "rolls": [
         {
-          "modifierId": "109800301",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(64–90)"
-          ],
-          "effectPlain": "+(64–90) 智慧"
-        },
-        {
           "modifierId": "1508013",
           "tier": 1,
           "itemLevel": 1,
@@ -2125,17 +3510,6 @@
     {
       "skeleton": "{#} 最大生命",
       "rolls": [
-        {
-          "modifierId": "104800001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(232–330)"
-          ],
-          "effectPlain": "+(232–330) 最大生命"
-        },
         {
           "modifierId": "1508000",
           "tier": 2,
@@ -2197,17 +3571,6 @@
       "skeleton": "{#} 该装备护甲值",
       "rolls": [
         {
-          "modifierId": "105800001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(3025–4320)"
-          ],
-          "effectPlain": "+(3025–4320) 该装备护甲值"
-        },
-        {
           "modifierId": "51450511",
           "tier": null,
           "itemLevel": null,
@@ -2243,33 +3606,6 @@
       ]
     },
     {
-      "skeleton": "格挡时，回复 {#} % 生命，间隔 0.3 秒",
-      "rolls": [
-        {
-          "modifierId": "115800301",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "4"
-          ],
-          "effectPlain": "格挡时，回复 4 % 生命，间隔 0.3 秒"
-        },
-        {
-          "modifierId": "160468080",
-          "tier": 1,
-          "itemLevel": 1,
-          "weight": 100,
-          "affixType": "中阶序列",
-          "valueSpans": [
-            "3"
-          ],
-          "effectPlain": "格挡时，回复 3 % 生命，间隔 0.3 秒"
-        }
-      ]
-    },
-    {
       "skeleton": "额外 {#} % 伤害",
       "rolls": [
         {
@@ -2297,5 +3633,5 @@
       ]
     }
   ],
-  "tierVariantGroupCount": 27
+  "tierVariantGroupCount": 21
 }

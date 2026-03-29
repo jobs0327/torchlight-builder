@@ -2,84 +2,1399 @@
   "slug": "Cane",
   "label": "Cane",
   "sourceUrl": "https://tlidb.com/cn/Cane",
-  "fetchedAt": "2026-03-22T08:58:34Z",
-  "modifierCount": 94,
+  "fetchedAt": "2026-03-24T07:25:23Z",
+  "modifierCount": 276,
   "modifiers": [
     {
-      "modifierId": "1500300",
-      "tier": 2,
+      "modifierId": "160410003",
+      "tier": 1,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "weight": 100,
+      "affixType": "中阶序列",
       "source": "手杖",
-      "effectPlain": "攻击附加 (10–13) - (14–19) 点物理伤害",
+      "effectPlain": "+10 % 全属性",
       "valueSpans": [
-        "(10–13)",
-        "(14–19)"
+        "+10"
       ]
     },
     {
-      "modifierId": "1500301",
-      "tier": 2,
+      "modifierId": "160408003",
+      "tier": 1,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "weight": 100,
+      "affixType": "中阶序列",
       "source": "手杖",
-      "effectPlain": "攻击附加 (9–14) - (15–20) 点火焰伤害",
+      "effectPlain": "+20 % 该装备攻击暴击值",
       "valueSpans": [
-        "(9–14)",
-        "(15–20)"
+        "+20"
       ]
     },
     {
-      "modifierId": "1500302",
-      "tier": 2,
+      "modifierId": "160402003",
+      "tier": 1,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "weight": 100,
+      "affixType": "中阶序列",
       "source": "手杖",
-      "effectPlain": "攻击附加 (10–13) - (14–19) 点冰冷伤害",
+      "effectPlain": "+6 % 护甲减伤穿透",
       "valueSpans": [
-        "(10–13)",
-        "(14–19)"
+        "+6"
       ]
     },
     {
-      "modifierId": "1500303",
-      "tier": 2,
+      "modifierId": "160404003",
+      "tier": 1,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "weight": 100,
+      "affixType": "中阶序列",
       "source": "手杖",
-      "effectPlain": "攻击附加 (1–2) - (28–32) 点闪电伤害",
+      "effectPlain": "+8 % 冰冷穿透",
       "valueSpans": [
-        "(1–2)",
-        "(28–32)"
+        "+8"
       ]
     },
     {
-      "modifierId": "1500304",
-      "tier": 2,
+      "modifierId": "160403003",
+      "tier": 1,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "weight": 100,
+      "affixType": "中阶序列",
       "source": "手杖",
-      "effectPlain": "攻击附加 (11–13) - (15–18) 点腐蚀伤害",
+      "effectPlain": "+8 % 火焰穿透",
       "valueSpans": [
-        "(11–13)",
-        "(15–18)"
+        "+8"
       ]
     },
     {
-      "modifierId": "1500305",
+      "modifierId": "160406003",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "手杖",
+      "effectPlain": "+8 % 腐蚀抗性穿透",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160407003",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "手杖",
+      "effectPlain": "+8 % 该装备攻击速度",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160405003",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "手杖",
+      "effectPlain": "+8 % 闪电穿透",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160409003",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "手杖",
+      "effectPlain": "暴击时，额外 +10 % 伤害",
+      "valueSpans": [
+        "+10"
+      ]
+    },
+    {
+      "modifierId": "160401003",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "手杖",
+      "effectPlain": "额外 +8 % 主手武器 伤害",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "60060304",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "手杖",
+      "effectPlain": "+(10–16) % 施法速度",
+      "valueSpans": [
+        "+(10–16)"
+      ]
+    },
+    {
+      "modifierId": "60060305",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "手杖",
+      "effectPlain": "+(20–30) % 法术伤害",
+      "valueSpans": [
+        "+(20–30)"
+      ]
+    },
+    {
+      "modifierId": "60060307",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "手杖",
+      "effectPlain": "+(25–32) % 暴击伤害",
+      "valueSpans": [
+        "+(25–32)"
+      ]
+    },
+    {
+      "modifierId": "60060306",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "手杖",
+      "effectPlain": "+(30–40) % 法术暴击值",
+      "valueSpans": [
+        "+(30–40)"
+      ]
+    },
+    {
+      "modifierId": "60060308",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "手杖",
+      "effectPlain": "+(6–10) % 冷却回复速度",
+      "valueSpans": [
+        "+(6–10)"
+      ]
+    },
+    {
+      "modifierId": "60060303",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "手杖",
+      "effectPlain": "伤害穿透 (5–8) % 元素 抗性",
+      "valueSpans": [
+        "(5–8)"
+      ]
+    },
+    {
+      "modifierId": "60060301",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "手杖",
+      "effectPlain": "使用核心法术技能时， +(5–8) % 几率额外触发一次",
+      "valueSpans": [
+        "+(5–8)"
+      ]
+    },
+    {
+      "modifierId": "60060302",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "手杖",
+      "effectPlain": "击败时， +(4–8) % 几率获得 1 层 聚能祝福",
+      "valueSpans": [
+        "+(4–8)"
+      ]
+    },
+    {
+      "modifierId": "60060309",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "手杖",
+      "effectPlain": "附加 (5–8) % 元素 伤害的腐蚀伤害",
+      "valueSpans": [
+        "(5–8)"
+      ]
+    },
+    {
+      "modifierId": "140030480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(141–183) % 投射物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (209–211) - (271–285) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (209–211) - (271–285) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (226–228) - (266–268) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (24–26) - (468–470) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (61–63) - (75–77) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140030400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(109–140) % 投射物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (161–163) - (208–220) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (162–164) - (216–218) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (174–176) - (204–206) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (18–20) - (360–362) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (47–49) - (57–59) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140030401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(78–108) % 投射物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (123–125) - (160–169) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (125–127) - (165–167) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (133–135) - (157–159) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (14–16) - (276–278) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (36–38) - (44–46) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140030402",
       "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(56–77) % 投射物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (21–23) - (25–27) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (47–49) - (62–67) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (48–50) - (64–66) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (51–53) - (61–63) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (5–7) - (107–109) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140030403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(40–55) % 投射物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (13–15) - (17–19) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (23–25) - (30–33) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (23–25) - (31–33) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (25–27) - (29–31) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (2–4) - (52–54) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140030404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(27–39) % 投射物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (1–2) - (20–22) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (8–10) - (11–14) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (8–10) - (12–14) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (9–11) - (11–13) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (9–11) - (11–13) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140030405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(18–26) % 投射物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (1–2) - (10–12) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (4–6) - (6–8) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (4–6) - (6–8) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (4–6) - (6–8) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 5 - (5–7) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140030406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(13–17) % 投射物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (1–2) - (9–11) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (3–5) - (5–7) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (3–5) - (5–7) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 4 - (4–6) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 4 - (5–7) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140030407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(8–12) % 投射物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (1–2) - (3–6) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (1–2) - (3–6) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (1–2) - (3–6) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 1 - (5–7) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106030007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 3 - (3–4) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(141–183) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(141–183) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(141–183) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(24–30) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(24–30) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(43–54) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(109–140) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(109–140) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(109–140) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(19–23) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(19–23) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(29–41) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(14–18) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(14–18) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(23–32) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(77–108) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(77–108) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(77–108) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(10–13) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(10–13) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(19–22) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(55–76) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(55–76) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(55–76) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(14–16) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(44–54) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(44–54) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(44–54) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(8–9) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(8–9) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(11–13) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(36–43) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(36–43) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(36–43) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+7 % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+7 % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(29–35) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(29–35) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(29–35) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(9–10) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+6 % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+6 % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(23–28) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(23–28) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(23–28) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(7–8) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+5 % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+5 % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(17–22) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(17–22) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(17–22) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(5–6) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+4 % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Cane",
+      "effectPlain": "+4 % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "1500314",
+      "tier": 0,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "基础词缀",
       "source": "手杖",
-      "effectPlain": "+(20–24) % 物理伤害",
+      "effectPlain": "+1 坚韧祝福 层数上限",
       "valueSpans": [
-        "+(20–24)"
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "1500315",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "手杖",
+      "effectPlain": "+1 灵动祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "1500316",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "手杖",
+      "effectPlain": "+1 聚能祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "1500313",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "手杖",
+      "effectPlain": "+(5–7) % 护甲减伤穿透",
+      "valueSpans": [
+        "+(5–7)"
+      ]
+    },
+    {
+      "modifierId": "1500312",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "手杖",
+      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1500310",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "手杖",
+      "effectPlain": "+1 投射物数量",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "1500311",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "手杖",
+      "effectPlain": "额外 +(6–8) % 投射物伤害",
+      "valueSpans": [
+        "+(6–8)"
       ]
     },
     {
@@ -90,6 +1405,18 @@
       "affixType": "基础词缀",
       "source": "手杖",
       "effectPlain": "+(20–24) % 元素伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "1500305",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "手杖",
+      "effectPlain": "+(20–24) % 物理伤害",
       "valueSpans": [
         "+(20–24)"
       ]
@@ -131,561 +1458,11 @@
       ]
     },
     {
-      "modifierId": "1500310",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "手杖",
-      "effectPlain": "+1 投射物数量",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "1500311",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "手杖",
-      "effectPlain": "额外 +(6–8) % 投射物伤害",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "1500312",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "手杖",
-      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "1500313",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "手杖",
-      "effectPlain": "+(5–7) % 护甲减伤穿透",
-      "valueSpans": [
-        "+(5–7)"
-      ]
-    },
-    {
-      "modifierId": "1500314",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "手杖",
-      "effectPlain": "+1 坚韧祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "1500315",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "手杖",
-      "effectPlain": "+1 灵动祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "1500316",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "手杖",
-      "effectPlain": "+1 聚能祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "60060301",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "手杖",
-      "effectPlain": "使用核心法术技能时， +(5–8) % 几率额外触发一次",
-      "valueSpans": [
-        "+(5–8)"
-      ]
-    },
-    {
-      "modifierId": "60060302",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "手杖",
-      "effectPlain": "击败时， +(4–8) % 几率获得 1 层 聚能祝福",
-      "valueSpans": [
-        "+(4–8)"
-      ]
-    },
-    {
-      "modifierId": "60060303",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "手杖",
-      "effectPlain": "伤害穿透 (5–8) % 元素 抗性",
-      "valueSpans": [
-        "(5–8)"
-      ]
-    },
-    {
-      "modifierId": "60060304",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "手杖",
-      "effectPlain": "+(10–16) % 施法速度",
-      "valueSpans": [
-        "+(10–16)"
-      ]
-    },
-    {
-      "modifierId": "60060305",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "手杖",
-      "effectPlain": "+(20–30) % 法术伤害",
-      "valueSpans": [
-        "+(20–30)"
-      ]
-    },
-    {
-      "modifierId": "60060306",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "手杖",
-      "effectPlain": "+(30–40) % 法术暴击值",
-      "valueSpans": [
-        "+(30–40)"
-      ]
-    },
-    {
-      "modifierId": "60060307",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "手杖",
-      "effectPlain": "+(25–32) % 暴击伤害",
-      "valueSpans": [
-        "+(25–32)"
-      ]
-    },
-    {
-      "modifierId": "60060308",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "手杖",
-      "effectPlain": "+(6–10) % 冷却回复速度",
-      "valueSpans": [
-        "+(6–10)"
-      ]
-    },
-    {
-      "modifierId": "60060309",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "手杖",
-      "effectPlain": "附加 (5–8) % 元素 伤害的腐蚀伤害",
-      "valueSpans": [
-        "(5–8)"
-      ]
-    },
-    {
-      "modifierId": "106030001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "手杖",
-      "effectPlain": "该装备附加 (36–38) - (44–46) 点物理伤害",
-      "valueSpans": [
-        "(36–38)",
-        "(44–46)"
-      ]
-    },
-    {
-      "modifierId": "106030101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "手杖",
-      "effectPlain": "该装备附加 (123–125) - (160–169) 点火焰伤害",
-      "valueSpans": [
-        "(123–125)",
-        "(160–169)"
-      ]
-    },
-    {
-      "modifierId": "106030201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "手杖",
-      "effectPlain": "该装备附加 (125–127) - (165–167) 点冰冷伤害",
-      "valueSpans": [
-        "(125–127)",
-        "(165–167)"
-      ]
-    },
-    {
-      "modifierId": "106030301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "手杖",
-      "effectPlain": "该装备附加 (14–16) - (276–278) 点闪电伤害",
-      "valueSpans": [
-        "(14–16)",
-        "(276–278)"
-      ]
-    },
-    {
-      "modifierId": "106030401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "手杖",
-      "effectPlain": "该装备附加 (133–135) - (157–159) 点腐蚀伤害",
-      "valueSpans": [
-        "(133–135)",
-        "(157–159)"
-      ]
-    },
-    {
-      "modifierId": "140030401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "手杖",
-      "effectPlain": "+(78–108) % 投射物伤害",
-      "valueSpans": [
-        "+(78–108)"
-      ]
-    },
-    {
-      "modifierId": "107030001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "手杖",
-      "effectPlain": "+(56–100) % 该装备物理伤害",
-      "valueSpans": [
-        "+(56–100)"
-      ]
-    },
-    {
-      "modifierId": "109030001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "手杖",
-      "effectPlain": "+(64–90) 敏捷",
-      "valueSpans": [
-        "+(64–90)"
-      ]
-    },
-    {
-      "modifierId": "109030101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "手杖",
-      "effectPlain": "+(64–90) 智慧",
-      "valueSpans": [
-        "+(64–90)"
-      ]
-    },
-    {
-      "modifierId": "109030201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "手杖",
-      "effectPlain": "+(64–90) 力量",
-      "valueSpans": [
-        "+(64–90)"
-      ]
-    },
-    {
-      "modifierId": "115030601",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "手杖",
-      "effectPlain": "+(18–25) % 护甲减伤穿透",
-      "valueSpans": [
-        "+(18–25)"
-      ]
-    },
-    {
-      "modifierId": "119030201",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "手杖",
-      "effectPlain": "+3 攻击技能等级",
-      "valueSpans": [
-        "+3"
-      ]
-    },
-    {
-      "modifierId": "119030301",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "手杖",
-      "effectPlain": "+(22–30) % 元素和腐蚀抗性穿透",
-      "valueSpans": [
-        "+(22–30)"
-      ]
-    },
-    {
-      "modifierId": "140031501",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "手杖",
-      "effectPlain": "该装备附加 (47–49) - (272–274) 点元素伤害 -100 % 该装备物理伤害",
-      "valueSpans": [
-        "(47–49)",
-        "(272–274)",
-        "-100"
-      ]
-    },
-    {
-      "modifierId": "110030101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "手杖",
-      "effectPlain": "+(23–32) % 该装备攻击速度",
-      "valueSpans": [
-        "+(23–32)"
-      ]
-    },
-    {
-      "modifierId": "140031001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "手杖",
-      "effectPlain": "+(14–18) % 生命返还",
-      "valueSpans": [
-        "+(14–18)"
-      ]
-    },
-    {
-      "modifierId": "140031101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "手杖",
-      "effectPlain": "+(14–18) % 护盾返还",
-      "valueSpans": [
-        "+(14–18)"
-      ]
-    },
-    {
-      "modifierId": "140031201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "手杖",
-      "effectPlain": "+(77–108) % 物理伤害",
-      "valueSpans": [
-        "+(77–108)"
-      ]
-    },
-    {
-      "modifierId": "140031301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "手杖",
-      "effectPlain": "+(77–108) % 元素 伤害",
-      "valueSpans": [
-        "+(77–108)"
-      ]
-    },
-    {
-      "modifierId": "140031401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "手杖",
-      "effectPlain": "+(77–108) % 腐蚀伤害",
-      "valueSpans": [
-        "+(77–108)"
-      ]
-    },
-    {
-      "modifierId": "110030201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "手杖",
-      "effectPlain": "+(36–50) % 该装备攻击暴击值",
-      "valueSpans": [
-        "+(36–50)"
-      ]
-    },
-    {
-      "modifierId": "110030501",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "手杖",
-      "effectPlain": "+(128–180) % 暴击值",
-      "valueSpans": [
-        "+(128–180)"
-      ]
-    },
-    {
-      "modifierId": "110030601",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "手杖",
-      "effectPlain": "+(26–36) % 攻击与施法速度 +(26–36) % 召唤物攻击与施法速度",
-      "valueSpans": [
-        "+(26–36)",
-        "+(26–36)"
-      ]
-    },
-    {
-      "modifierId": "111030401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "手杖",
-      "effectPlain": "+(64–90) % 暴击伤害",
-      "valueSpans": [
-        "+(64–90)"
-      ]
-    },
-    {
-      "modifierId": "140031601",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "手杖",
-      "effectPlain": "+(45–54) % 贯注速度",
-      "valueSpans": [
-        "+(45–54)"
-      ]
-    },
-    {
-      "modifierId": "130030501",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "手杖",
-      "effectPlain": "+(29–40) % 几率造成双倍伤害",
-      "valueSpans": [
-        "+(29–40)"
-      ]
-    },
-    {
-      "modifierId": "140031701",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "手杖",
-      "effectPlain": "+(35–45) % 贯注伤害加深",
-      "valueSpans": [
-        "+(35–45)"
-      ]
-    },
-    {
-      "modifierId": "85003001",
+      "modifierId": "1500302",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "手杖",
-      "effectPlain": "攻击附加 (10–13) - (14–19) 点物理伤害",
-      "valueSpans": [
-        "(10–13)",
-        "(14–19)"
-      ]
-    },
-    {
-      "modifierId": "85003011",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "手杖",
-      "effectPlain": "攻击附加 (9–14) - (15–20) 点火焰伤害",
-      "valueSpans": [
-        "(9–14)",
-        "(15–20)"
-      ]
-    },
-    {
-      "modifierId": "85003021",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "手杖",
       "effectPlain": "攻击附加 (10–13) - (14–19) 点冰冷伤害",
       "valueSpans": [
@@ -694,24 +1471,24 @@
       ]
     },
     {
-      "modifierId": "85003031",
+      "modifierId": "1500300",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "手杖",
-      "effectPlain": "攻击附加 (1–2) - (28–32) 点闪电伤害",
+      "effectPlain": "攻击附加 (10–13) - (14–19) 点物理伤害",
       "valueSpans": [
-        "(1–2)",
-        "(28–32)"
+        "(10–13)",
+        "(14–19)"
       ]
     },
     {
-      "modifierId": "85003041",
+      "modifierId": "1500304",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "手杖",
       "effectPlain": "攻击附加 (11–13) - (15–18) 点腐蚀伤害",
       "valueSpans": [
@@ -720,15 +1497,174 @@
       ]
     },
     {
-      "modifierId": "85003051",
+      "modifierId": "1500303",
       "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "手杖",
+      "effectPlain": "攻击附加 (1–2) - (28–32) 点闪电伤害",
+      "valueSpans": [
+        "(1–2)",
+        "(28–32)"
+      ]
+    },
+    {
+      "modifierId": "1500301",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "手杖",
+      "effectPlain": "攻击附加 (9–14) - (15–20) 点火焰伤害",
+      "valueSpans": [
+        "(9–14)",
+        "(15–20)"
+      ]
+    },
+    {
+      "modifierId": "51340331",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "寒枝扭结",
+      "source": "手杖",
+      "effectPlain": "+(120–150) % 该装备物理伤害",
+      "valueSpans": [
+        "+(120–150)"
+      ]
+    },
+    {
+      "modifierId": "51340351",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "寒枝扭结",
+      "source": "手杖",
+      "effectPlain": "+(40–50) % 该装备攻击速度",
+      "valueSpans": [
+        "+(40–50)"
+      ]
+    },
+    {
+      "modifierId": "51340341",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "寒枝扭结",
+      "source": "手杖",
+      "effectPlain": "+1 投射物技能等级",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51340311",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "寒枝扭结",
+      "source": "手杖",
+      "effectPlain": "技能范围的增加和减少的 (10–20) % 同样作用于投射物速度",
+      "valueSpans": [
+        "(10–20)"
+      ]
+    },
+    {
+      "modifierId": "51340321",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "寒枝扭结",
+      "source": "手杖",
+      "effectPlain": "攻击和法术附加 (87–92) - (113–118) 点物理伤害",
+      "valueSpans": [
+        "(87–92)",
+        "(113–118)"
+      ]
+    },
+    {
+      "modifierId": "85003141",
+      "tier": 0,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "手杖",
-      "effectPlain": "+(20–24) % 物理伤害",
+      "effectPlain": "+1 坚韧祝福 层数上限",
       "valueSpans": [
-        "+(20–24)"
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85003151",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "手杖",
+      "effectPlain": "+1 灵动祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85003161",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "手杖",
+      "effectPlain": "+1 聚能祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85003131",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "手杖",
+      "effectPlain": "+(5–7) % 护甲减伤穿透",
+      "valueSpans": [
+        "+(5–7)"
+      ]
+    },
+    {
+      "modifierId": "85003121",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "手杖",
+      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "85003101",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "手杖",
+      "effectPlain": "+1 投射物数量",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85003111",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "手杖",
+      "effectPlain": "额外 +(6–8) % 投射物伤害",
+      "valueSpans": [
+        "+(6–8)"
       ]
     },
     {
@@ -739,6 +1675,18 @@
       "affixType": "美梦词缀",
       "source": "手杖",
       "effectPlain": "+(20–24) % 元素伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85003051",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "手杖",
+      "effectPlain": "+(20–24) % 物理伤害",
       "valueSpans": [
         "+(20–24)"
       ]
@@ -780,207 +1728,1117 @@
       ]
     },
     {
-      "modifierId": "85003101",
-      "tier": 1,
+      "modifierId": "85003021",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "手杖",
-      "effectPlain": "+1 投射物数量",
+      "effectPlain": "攻击附加 (10–13) - (14–19) 点冰冷伤害",
       "valueSpans": [
-        "+1"
+        "(10–13)",
+        "(14–19)"
       ]
     },
     {
-      "modifierId": "85003111",
-      "tier": 1,
+      "modifierId": "85003001",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "手杖",
-      "effectPlain": "额外 +(6–8) % 投射物伤害",
+      "effectPlain": "攻击附加 (10–13) - (14–19) 点物理伤害",
       "valueSpans": [
-        "+(6–8)"
+        "(10–13)",
+        "(14–19)"
       ]
     },
     {
-      "modifierId": "85003121",
-      "tier": 1,
+      "modifierId": "85003041",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "手杖",
-      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
+      "effectPlain": "攻击附加 (11–13) - (15–18) 点腐蚀伤害",
       "valueSpans": [
-        "+(6–8)"
+        "(11–13)",
+        "(15–18)"
       ]
     },
     {
-      "modifierId": "85003131",
-      "tier": 1,
+      "modifierId": "85003031",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "手杖",
-      "effectPlain": "+(5–7) % 护甲减伤穿透",
+      "effectPlain": "攻击附加 (1–2) - (28–32) 点闪电伤害",
       "valueSpans": [
-        "+(5–7)"
+        "(1–2)",
+        "(28–32)"
       ]
     },
     {
-      "modifierId": "85003141",
+      "modifierId": "85003011",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "手杖",
+      "effectPlain": "攻击附加 (9–14) - (15–20) 点火焰伤害",
+      "valueSpans": [
+        "(9–14)",
+        "(15–20)"
+      ]
+    },
+    {
+      "modifierId": "115030680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Cane",
+      "effectPlain": "+(34–42) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "119030380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Cane",
+      "effectPlain": "+(40–51) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "119030280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Cane",
+      "effectPlain": "+(4–5) 攻击技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (81–83) - (463–465) 点元素伤害 -100 % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115030600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Cane",
+      "effectPlain": "+(26–32) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "119030300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Cane",
+      "effectPlain": "+(31–39) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "119030200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Cane",
+      "effectPlain": "+(3–4) 攻击技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (62–64) - (356–358) 点元素伤害 -100 % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115030601",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Cane",
+      "effectPlain": "+(18–25) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "119030301",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Cane",
+      "effectPlain": "+(22–30) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "119030201",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Cane",
+      "effectPlain": "+3 攻击技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031501",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (47–49) - (272–274) 点元素伤害 -100 % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115030602",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Cane",
+      "effectPlain": "+(15–17) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "119030302",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Cane",
+      "effectPlain": "+(16–21) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "119030202",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Cane",
+      "effectPlain": "+2 攻击技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031502",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Cane",
+      "effectPlain": "该装备附加 (18–20) - (107–109) 点元素伤害 -100 % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115030603",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "Cane",
+      "effectPlain": "+(11–12) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "119030303",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 400,
+      "affixType": "至臻前缀",
+      "source": "Cane",
+      "effectPlain": "+(12–15) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115030604",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "Cane",
+      "effectPlain": "+(9–10) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130030580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Cane",
+      "effectPlain": "+(53–68) % 几率造成双倍伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Cane",
+      "effectPlain": "+(65–80) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130030500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Cane",
+      "effectPlain": "+(41–52) % 几率造成双倍伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Cane",
+      "effectPlain": "+(48–60) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130030501",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Cane",
+      "effectPlain": "+(29–40) % 几率造成双倍伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031701",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Cane",
+      "effectPlain": "+(35–45) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031702",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Cane",
+      "effectPlain": "+(20–30) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130030502",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Cane",
+      "effectPlain": "+(21–28) % 几率造成双倍伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130030503",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "Cane",
+      "effectPlain": "+(17–20) % 几率造成双倍伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109030280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(118–152) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109030080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(118–152) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109030180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(118–152) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107030080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(131–169) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115030780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(40–51) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107030000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(101–130) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115030700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(31–39) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109030200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(91–117) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109030000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(91–117) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109030100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(91–117) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107030001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(56–100) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109030201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(64–90) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109030001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(64–90) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109030101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(64–90) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107030002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(46–55) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109030202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(46–63) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109030002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(46–63) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109030102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(46–63) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107030003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(36–45) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109030203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(37–45) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109030003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(37–45) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109030103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(37–45) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107030004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(26–35) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109030204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(30–36) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109030004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(30–36) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109030104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(30–36) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107030005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(16–25) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109030205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(24–29) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109030005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(24–29) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109030105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(24–29) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107030006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(11–15) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109030206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(19–23) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109030006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(19–23) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109030106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(19–23) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109030207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(15–18) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109030007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(15–18) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109030107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(15–18) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107030007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Cane",
+      "effectPlain": "+(9–10) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111030480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(118–152) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(235–304) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(48–61) % 攻击与施法速度 +(48–61) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(66–85) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(75–90) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(166–234) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(33–47) % 攻击与施法速度 +(33–47) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(47–64) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(60–70) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111030400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(91–117) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030501",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(128–180) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(26–36) % 攻击与施法速度 +(26–36) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(36–50) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(45–54) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111030401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(64–90) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030502",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(107–126) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030602",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(21–25) % 攻击与施法速度 +(21–25) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(30–35) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140031602",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(30–40) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111030402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(46–63) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030603",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(15–18) % 攻击与施法速度 +(15–18) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(22–25) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111030403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(37–45) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030503",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(77–90) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(17–20) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111030404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(30–36) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030504",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(61–72) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(14–16) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111030405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(24–29) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030505",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(48–58) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(11–13) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111030406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(19–23) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030506",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(40–47) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111030407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 1350,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(15–18) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110030207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Cane",
+      "effectPlain": "+(9–10) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "160526003",
       "tier": 0,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
+      "weight": 60,
+      "affixType": "高阶序列",
       "source": "手杖",
-      "effectPlain": "+1 坚韧祝福 层数上限",
+      "effectPlain": "+120 % 精准投射光环效果 额外 -20 % 精准投射 魔力封印 补偿",
       "valueSpans": [
-        "+1"
+        "+120",
+        "-20"
       ]
     },
     {
-      "modifierId": "85003151",
+      "modifierId": "160529003",
       "tier": 0,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
+      "weight": 100,
+      "affixType": "高阶序列",
       "source": "手杖",
-      "effectPlain": "+1 灵动祝福 层数上限",
+      "effectPlain": "+25 % 该装备元素伤害 -25 % 该装备物理伤害",
       "valueSpans": [
-        "+1"
+        "+25",
+        "-25"
       ]
     },
     {
-      "modifierId": "85003161",
+      "modifierId": "160527003",
       "tier": 0,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "手杖",
-      "effectPlain": "+1 聚能祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "160401003",
-      "tier": 1,
-      "itemLevel": 1,
       "weight": 100,
-      "affixType": "中阶序列",
+      "affixType": "高阶序列",
       "source": "手杖",
-      "effectPlain": "额外 +8 % 主手武器 伤害",
+      "effectPlain": "+80 % 该装备物理伤害 -20 % 该装备攻击暴击值",
       "valueSpans": [
-        "+8"
-      ]
-    },
-    {
-      "modifierId": "160402003",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "手杖",
-      "effectPlain": "+6 % 护甲减伤穿透",
-      "valueSpans": [
-        "+6"
-      ]
-    },
-    {
-      "modifierId": "160403003",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "手杖",
-      "effectPlain": "+8 % 火焰穿透",
-      "valueSpans": [
-        "+8"
-      ]
-    },
-    {
-      "modifierId": "160404003",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "手杖",
-      "effectPlain": "+8 % 冰冷穿透",
-      "valueSpans": [
-        "+8"
-      ]
-    },
-    {
-      "modifierId": "160405003",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "手杖",
-      "effectPlain": "+8 % 闪电穿透",
-      "valueSpans": [
-        "+8"
-      ]
-    },
-    {
-      "modifierId": "160406003",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "手杖",
-      "effectPlain": "+8 % 腐蚀抗性穿透",
-      "valueSpans": [
-        "+8"
-      ]
-    },
-    {
-      "modifierId": "160407003",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "手杖",
-      "effectPlain": "+8 % 该装备攻击速度",
-      "valueSpans": [
-        "+8"
-      ]
-    },
-    {
-      "modifierId": "160408003",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "手杖",
-      "effectPlain": "+20 % 该装备攻击暴击值",
-      "valueSpans": [
-        "+20"
-      ]
-    },
-    {
-      "modifierId": "160409003",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "手杖",
-      "effectPlain": "暴击时，额外 +10 % 伤害",
-      "valueSpans": [
-        "+10"
-      ]
-    },
-    {
-      "modifierId": "160410003",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "手杖",
-      "effectPlain": "+10 % 全属性",
-      "valueSpans": [
-        "+10"
+        "+80",
+        "-20"
       ]
     },
     {
@@ -998,17 +2856,15 @@
       ]
     },
     {
-      "modifierId": "160522003",
+      "modifierId": "160524003",
       "tier": 0,
       "itemLevel": 1,
       "weight": 30,
       "affixType": "高阶序列",
       "source": "手杖",
-      "effectPlain": "每 10 点敏捷，攻击附加 1 - 3 点闪电伤害",
+      "effectPlain": "核心技能被 25 级的散射辅助",
       "valueSpans": [
-        "10",
-        "1",
-        "3"
+        "25"
       ]
     },
     {
@@ -1026,15 +2882,17 @@
       ]
     },
     {
-      "modifierId": "160524003",
+      "modifierId": "160522003",
       "tier": 0,
       "itemLevel": 1,
       "weight": 30,
       "affixType": "高阶序列",
       "source": "手杖",
-      "effectPlain": "核心技能被 25 级的散射辅助",
+      "effectPlain": "每 10 点敏捷，攻击附加 1 - 3 点闪电伤害",
       "valueSpans": [
-        "25"
+        "10",
+        "1",
+        "3"
       ]
     },
     {
@@ -1052,32 +2910,6 @@
       ]
     },
     {
-      "modifierId": "160526003",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 60,
-      "affixType": "高阶序列",
-      "source": "手杖",
-      "effectPlain": "+120 % 精准投射光环效果 额外 -20 % 精准投射 魔力封印 补偿",
-      "valueSpans": [
-        "+120",
-        "-20"
-      ]
-    },
-    {
-      "modifierId": "160527003",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "高阶序列",
-      "source": "手杖",
-      "effectPlain": "+80 % 该装备物理伤害 -20 % 该装备攻击暴击值",
-      "valueSpans": [
-        "+80",
-        "-20"
-      ]
-    },
-    {
       "modifierId": "160528003",
       "tier": 0,
       "itemLevel": 1,
@@ -1089,80 +2921,6 @@
         "+15",
         "10",
         "1"
-      ]
-    },
-    {
-      "modifierId": "160529003",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "高阶序列",
-      "source": "手杖",
-      "effectPlain": "+25 % 该装备元素伤害 -25 % 该装备物理伤害",
-      "valueSpans": [
-        "+25",
-        "-25"
-      ]
-    },
-    {
-      "modifierId": "51340311",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "寒枝扭结",
-      "source": "手杖",
-      "effectPlain": "技能范围的增加和减少的 (10–20) % 同样作用于投射物速度",
-      "valueSpans": [
-        "(10–20)"
-      ]
-    },
-    {
-      "modifierId": "51340321",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "寒枝扭结",
-      "source": "手杖",
-      "effectPlain": "攻击和法术附加 (87–92) - (113–118) 点物理伤害",
-      "valueSpans": [
-        "(87–92)",
-        "(113–118)"
-      ]
-    },
-    {
-      "modifierId": "51340331",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "寒枝扭结",
-      "source": "手杖",
-      "effectPlain": "+(120–150) % 该装备物理伤害",
-      "valueSpans": [
-        "+(120–150)"
-      ]
-    },
-    {
-      "modifierId": "51340341",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "寒枝扭结",
-      "source": "手杖",
-      "effectPlain": "+1 投射物技能等级",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "51340351",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "寒枝扭结",
-      "source": "手杖",
-      "effectPlain": "+(40–50) % 该装备攻击速度",
-      "valueSpans": [
-        "+(40–50)"
       ]
     }
   ],
@@ -1198,17 +2956,6 @@
       "skeleton": "{#} % 元素和腐蚀抗性穿透",
       "rolls": [
         {
-          "modifierId": "119030301",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻前缀",
-          "valueSpans": [
-            "+(22–30)"
-          ],
-          "effectPlain": "+(22–30) % 元素和腐蚀抗性穿透"
-        },
-        {
           "modifierId": "1500312",
           "tier": 1,
           "itemLevel": 1,
@@ -1235,17 +2982,6 @@
     {
       "skeleton": "{#} % 护甲减伤穿透",
       "rolls": [
-        {
-          "modifierId": "115030601",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻前缀",
-          "valueSpans": [
-            "+(18–25)"
-          ],
-          "effectPlain": "+(18–25) % 护甲减伤穿透"
-        },
         {
           "modifierId": "1500313",
           "tier": 1,
@@ -1309,46 +3045,8 @@
       ]
     },
     {
-      "skeleton": "{#} % 暴击伤害",
-      "rolls": [
-        {
-          "modifierId": "60060307",
-          "tier": 0,
-          "itemLevel": 1,
-          "weight": 1,
-          "affixType": "侵蚀基底",
-          "valueSpans": [
-            "+(25–32)"
-          ],
-          "effectPlain": "+(25–32) % 暴击伤害"
-        },
-        {
-          "modifierId": "111030401",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶后缀",
-          "valueSpans": [
-            "+(64–90)"
-          ],
-          "effectPlain": "+(64–90) % 暴击伤害"
-        }
-      ]
-    },
-    {
       "skeleton": "{#} % 物理伤害",
       "rolls": [
-        {
-          "modifierId": "140031201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(77–108)"
-          ],
-          "effectPlain": "+(77–108) % 物理伤害"
-        },
         {
           "modifierId": "1500305",
           "tier": 2,
@@ -1377,17 +3075,6 @@
       "skeleton": "{#} % 腐蚀伤害",
       "rolls": [
         {
-          "modifierId": "140031401",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(77–108)"
-          ],
-          "effectPlain": "+(77–108) % 腐蚀伤害"
-        },
-        {
           "modifierId": "1500307",
           "tier": 2,
           "itemLevel": 1,
@@ -1412,46 +3099,8 @@
       ]
     },
     {
-      "skeleton": "{#} % 该装备攻击暴击值",
-      "rolls": [
-        {
-          "modifierId": "110030201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶后缀",
-          "valueSpans": [
-            "+(36–50)"
-          ],
-          "effectPlain": "+(36–50) % 该装备攻击暴击值"
-        },
-        {
-          "modifierId": "160408003",
-          "tier": 1,
-          "itemLevel": 1,
-          "weight": 100,
-          "affixType": "中阶序列",
-          "valueSpans": [
-            "+20"
-          ],
-          "effectPlain": "+20 % 该装备攻击暴击值"
-        }
-      ]
-    },
-    {
       "skeleton": "{#} % 该装备攻击速度",
       "rolls": [
-        {
-          "modifierId": "110030101",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(23–32)"
-          ],
-          "effectPlain": "+(23–32) % 该装备攻击速度"
-        },
         {
           "modifierId": "160407003",
           "tier": 1,
@@ -1473,33 +3122,6 @@
             "+(40–50)"
           ],
           "effectPlain": "+(40–50) % 该装备攻击速度"
-        }
-      ]
-    },
-    {
-      "skeleton": "{#} % 该装备物理伤害",
-      "rolls": [
-        {
-          "modifierId": "107030001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(56–100)"
-          ],
-          "effectPlain": "+(56–100) % 该装备物理伤害"
-        },
-        {
-          "modifierId": "51340331",
-          "tier": null,
-          "itemLevel": null,
-          "weight": null,
-          "affixType": "寒枝扭结",
-          "valueSpans": [
-            "+(120–150)"
-          ],
-          "effectPlain": "+(120–150) % 该装备物理伤害"
         }
       ]
     },
@@ -1811,5 +3433,5 @@
       ]
     }
   ],
-  "tierVariantGroupCount": 21
+  "tierVariantGroupCount": 18
 }

@@ -2,91 +2,1518 @@
   "slug": "Necklace",
   "label": "Necklace",
   "sourceUrl": "https://tlidb.com/cn/Necklace",
-  "fetchedAt": "2026-03-22T08:59:53Z",
-  "modifierCount": 269,
+  "fetchedAt": "2026-03-24T07:26:45Z",
+  "modifierCount": 513,
   "modifiers": [
     {
-      "modifierId": "1502000",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "51528421",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "不轨律",
       "source": "项链",
-      "effectPlain": "+(54–74) 最大生命",
+      "effectPlain": "+(20–30) % 几率避免 元素异常 状态",
       "valueSpans": [
-        "+(54–74)"
+        "+(20–30)"
       ]
     },
     {
-      "modifierId": "1502001",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "51528411",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "不轨律",
       "source": "项链",
-      "effectPlain": "+(87–117) 最大护盾",
+      "effectPlain": "+(20–30) % 最大生命、最大魔力和最大护盾",
       "valueSpans": [
-        "+(87–117)"
+        "+(20–30)"
       ]
     },
     {
-      "modifierId": "1502002",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "51528461",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "不轨律",
       "source": "项链",
-      "effectPlain": "+(5–10) % 火焰抗性",
+      "effectPlain": "封印 10 % 最大魔力，获得 欲求无厌",
       "valueSpans": [
-        "+(5–10)"
+        "10"
       ]
     },
     {
-      "modifierId": "1502003",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "51528431",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "不轨律",
       "source": "项链",
-      "effectPlain": "+(5–10) % 冰冷抗性",
+      "effectPlain": "每有 1 层 法术迸发 上限， +(30–40) % 伤害，最多 +320 %",
       "valueSpans": [
-        "+(5–10)"
+        "+(30–40)",
+        "+320"
       ]
     },
     {
-      "modifierId": "1502004",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "51525701",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "伪神之蜕",
       "source": "项链",
-      "effectPlain": "+(5–10) % 闪电抗性",
+      "effectPlain": "+(6–10) % 全属性",
       "valueSpans": [
-        "+(5–10)"
+        "+(6–10)"
       ]
     },
     {
-      "modifierId": "1502005",
-      "tier": 2,
+      "modifierId": "60062014",
+      "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "项链",
-      "effectPlain": "+(5–10) % 腐蚀抗性",
+      "effectPlain": "+(15–20) % 技能效果持续时间",
       "valueSpans": [
-        "+(5–10)"
+        "+(15–20)"
       ]
     },
     {
-      "modifierId": "1502006",
+      "modifierId": "60062013",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "项链",
+      "effectPlain": "+(30–40) % 技能范围",
+      "valueSpans": [
+        "+(30–40)"
+      ]
+    },
+    {
+      "modifierId": "60062011",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "项链",
+      "effectPlain": "+(50–70) % 伤害",
+      "valueSpans": [
+        "+(50–70)"
+      ]
+    },
+    {
+      "modifierId": "60062010",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "项链",
+      "effectPlain": "+(60–80) 攻击和法术暴击值",
+      "valueSpans": [
+        "+(60–80)"
+      ]
+    },
+    {
+      "modifierId": "60062012",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "项链",
+      "effectPlain": "+(8–10) % 元素 抗性",
+      "valueSpans": [
+        "+(8–10)"
+      ]
+    },
+    {
+      "modifierId": "60062001",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "项链",
+      "effectPlain": "你可以施加 1 个额外诅咒",
+      "valueSpans": [
+        "1"
+      ]
+    },
+    {
+      "modifierId": "60062002",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "项链",
+      "effectPlain": "免疫 元素异常 状态",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51520931",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "典狱官的胸针",
+      "source": "项链",
+      "effectPlain": "+(101–144) % 召唤物伤害",
+      "valueSpans": [
+        "+(101–144)"
+      ]
+    },
+    {
+      "modifierId": "55520911",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "典狱官的胸针",
+      "source": "项链",
+      "effectPlain": "+(1–2) 被动技能等级",
+      "valueSpans": [
+        "+(1–2)"
+      ]
+    },
+    {
+      "modifierId": "51520921",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "典狱官的胸针",
+      "source": "项链",
+      "effectPlain": "+(90–108) % 召唤物最大生命",
+      "valueSpans": [
+        "+(90–108)"
+      ]
+    },
+    {
+      "modifierId": "51520941",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "典狱官的胸针",
+      "source": "项链",
+      "effectPlain": "你的召唤物只能造成物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51520951",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "典狱官的胸针",
+      "source": "项链",
+      "effectPlain": "暴击值和暴击伤害的 (50–75) % 同样作用于召唤物",
+      "valueSpans": [
+        "(50–75)"
+      ]
+    },
+    {
+      "modifierId": "51527911",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "凡夫的梦",
+      "source": "项链",
+      "effectPlain": "+(190–220) 最大生命",
+      "valueSpans": [
+        "+(190–220)"
+      ]
+    },
+    {
+      "modifierId": "51527921",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "凡夫的梦",
+      "source": "项链",
+      "effectPlain": "每消耗 (900–1000) 点同种技能的贯注值，获得超凡状态，持续 4 秒",
+      "valueSpans": [
+        "(900–1000)",
+        "4"
+      ]
+    },
+    {
+      "modifierId": "51527941",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "凡夫的梦",
+      "source": "项链",
+      "effectPlain": "超凡状态下，触发贯注技能时有 (30–40) % 几率额外触发一次；对贯注速度加成的 50 % 作用于额外触发几率",
+      "valueSpans": [
+        "(30–40)",
+        "50"
+      ]
+    },
+    {
+      "modifierId": "51527931",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "凡夫的梦",
+      "source": "项链",
+      "effectPlain": "超凡状态下，额外 +(30–40) % 贯注速度， +(40–48) % 贯注技能范围",
+      "valueSpans": [
+        "+(30–40)",
+        "+(40–48)"
+      ]
+    },
+    {
+      "modifierId": "140721980",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(157–203) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104200080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(287–372) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105200280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(456–592) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(48–61) % 护甲值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(48–61) % 闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(95–122) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(95–122) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721900",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(121–156) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104200000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(221–286) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105200200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(319–455) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(37–47) % 护甲值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(37–47) % 闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(66–94) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(73–94) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104200001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(155–220) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105200201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(245–350) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(27–36) % 护甲值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(27–36) % 闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(51–72) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(51–72) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721901",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(85–120) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104200002",
       "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(111–154) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(19–26) % 护甲值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(19–26) % 闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105200202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(206–245) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(37–50) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(43–50) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721902",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(61–84) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105200203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(147–175) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(14–18) % 护甲值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(14–18) % 闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(30–36) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(31–36) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721903",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(49–60) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104200003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(89–110) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(10–13) % 护甲值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(10–13) % 闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105200204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(118–140) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(24–29) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(24–29) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721904",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(39–48) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104200004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(71–88) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(19–23) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(20–23) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721905",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(32–38) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104200005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(58–70) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(7–9) % 护甲值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(7–9) % 闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105200205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(93–112) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(15–19) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(16–19) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721906",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(25–31) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104200006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(45–57) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(5–6) % 护甲值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(5–6) % 闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105200206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(76–91) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(12–14) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(12–14) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721907",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(19–24) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104200007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(34–44) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(3–4) % 护甲值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(3–4) % 闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105200207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(59–70) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(36–46) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(36–46) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(36–46) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(36–46) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(60–76) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(25–35) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(25–35) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(25–35) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(25–35) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(46–59) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(19–27) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(19–27) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(19–27) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(19–27) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(33–45) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(16–19) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(16–19) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(16–19) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(16–19) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(24–32) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(11–14) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(11–14) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(11–14) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(11–14) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(19–23) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(9–11) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(9–11) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(9–11) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(9–11) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(7–9) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(7–9) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(7–9) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(7–9) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(6–7) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(6–7) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(6–7) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(6–7) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+5 % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+5 % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+5 % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108200207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+5 % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51526931",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "劲风起时",
+      "source": "项链",
+      "effectPlain": "+(100–160) % 远程攻击暴击值",
+      "valueSpans": [
+        "+(100–160)"
+      ]
+    },
+    {
+      "modifierId": "51526921",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "劲风起时",
+      "source": "项链",
+      "effectPlain": "[狂风] 对投射物速度加成的 60 % 同样作用于对投射物伤害的额外加成",
+      "valueSpans": [
+        "60"
+      ]
+    },
+    {
+      "modifierId": "51526911",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "劲风起时",
+      "source": "项链",
+      "effectPlain": "击中时，淘汰生命低于 10 % 的敌人",
+      "valueSpans": [
+        "10"
+      ]
+    },
+    {
+      "modifierId": "51526711",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "厌光",
+      "source": "项链",
+      "effectPlain": "[灯塔] 法术迸发 上限 +2",
+      "valueSpans": [
+        "+2"
+      ]
+    },
+    {
+      "modifierId": "51526721",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "厌光",
+      "source": "项链",
+      "effectPlain": "激活法术迸发时，每次法术迸发额外 -5 % 技能范围",
+      "valueSpans": [
+        "-5"
+      ]
+    },
+    {
+      "modifierId": "1502023",
+      "tier": 0,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "基础词缀",
       "source": "项链",
-      "effectPlain": "+(3–4) % 元素 抗性",
+      "effectPlain": "免疫 冰结",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "1502019",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "项链",
+      "effectPlain": "造成伤害时，触发 20 级 感电 诅咒，冷却时间为 0.2 秒",
       "valueSpans": [
-        "+(3–4)"
+        "20",
+        "0.2"
+      ]
+    },
+    {
+      "modifierId": "1502016",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "项链",
+      "effectPlain": "造成伤害时，触发 20 级 易伤 诅咒，冷却时间为 0.2 秒",
+      "valueSpans": [
+        "20",
+        "0.2"
+      ]
+    },
+    {
+      "modifierId": "1502017",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "项链",
+      "effectPlain": "造成伤害时，触发 20 级 炽热 诅咒，冷却时间为 0.2 秒",
+      "valueSpans": [
+        "20",
+        "0.2"
+      ]
+    },
+    {
+      "modifierId": "1502018",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "项链",
+      "effectPlain": "造成伤害时，触发 20 级 蚀骨之寒 诅咒，冷却时间为 0.2 秒",
+      "valueSpans": [
+        "20",
+        "0.2"
+      ]
+    },
+    {
+      "modifierId": "1502020",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "项链",
+      "effectPlain": "造成伤害时，触发 20 级 邪恶侵蚀 诅咒，冷却时间为 0.2 秒",
+      "valueSpans": [
+        "20",
+        "0.2"
+      ]
+    },
+    {
+      "modifierId": "1502022",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "项链",
+      "effectPlain": "+(26–30) % 几率避免 元素异常 状态",
+      "valueSpans": [
+        "+(26–30)"
+      ]
+    },
+    {
+      "modifierId": "1502015",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "项链",
+      "effectPlain": "+(6–8) % 魔力封印 补偿",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1502011",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "项链",
+      "effectPlain": "+(8–10) % 移动速度",
+      "valueSpans": [
+        "+(8–10)"
+      ]
+    },
+    {
+      "modifierId": "1502024",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "项链",
+      "effectPlain": "拥有 邪祟 ；召唤物拥有 邪祟",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "1502013",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "项链",
+      "effectPlain": "每 27 点属性， +1 % 伤害",
+      "valueSpans": [
+        "27",
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "1502012",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "项链",
+      "effectPlain": "每拥有 1 层任意祝福， +(2–3) % 伤害",
+      "valueSpans": [
+        "+(2–3)"
+      ]
+    },
+    {
+      "modifierId": "1502014",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "项链",
+      "effectPlain": "附加 10 - 10 异常基础伤害",
+      "valueSpans": [
+        "10",
+        "10"
       ]
     },
     {
@@ -139,844 +1566,11 @@
       ]
     },
     {
-      "modifierId": "1502011",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "项链",
-      "effectPlain": "+(8–10) % 移动速度",
-      "valueSpans": [
-        "+(8–10)"
-      ]
-    },
-    {
-      "modifierId": "1502012",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "项链",
-      "effectPlain": "每拥有 1 层任意祝福， +(2–3) % 伤害",
-      "valueSpans": [
-        "+(2–3)"
-      ]
-    },
-    {
-      "modifierId": "1502013",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "项链",
-      "effectPlain": "每 27 点属性， +1 % 伤害",
-      "valueSpans": [
-        "27",
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "1502014",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "项链",
-      "effectPlain": "附加 10 - 10 异常基础伤害",
-      "valueSpans": [
-        "10",
-        "10"
-      ]
-    },
-    {
-      "modifierId": "1502015",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "项链",
-      "effectPlain": "+(6–8) % 魔力封印 补偿",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "1502016",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "项链",
-      "effectPlain": "造成伤害时，触发 20 级 易伤 诅咒，冷却时间为 0.2 秒",
-      "valueSpans": [
-        "20",
-        "0.2"
-      ]
-    },
-    {
-      "modifierId": "1502017",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "项链",
-      "effectPlain": "造成伤害时，触发 20 级 炽热 诅咒，冷却时间为 0.2 秒",
-      "valueSpans": [
-        "20",
-        "0.2"
-      ]
-    },
-    {
-      "modifierId": "1502018",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "项链",
-      "effectPlain": "造成伤害时，触发 20 级 蚀骨之寒 诅咒，冷却时间为 0.2 秒",
-      "valueSpans": [
-        "20",
-        "0.2"
-      ]
-    },
-    {
-      "modifierId": "1502019",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "项链",
-      "effectPlain": "造成伤害时，触发 20 级 感电 诅咒，冷却时间为 0.2 秒",
-      "valueSpans": [
-        "20",
-        "0.2"
-      ]
-    },
-    {
-      "modifierId": "1502020",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "项链",
-      "effectPlain": "造成伤害时，触发 20 级 邪恶侵蚀 诅咒，冷却时间为 0.2 秒",
-      "valueSpans": [
-        "20",
-        "0.2"
-      ]
-    },
-    {
-      "modifierId": "1502022",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "项链",
-      "effectPlain": "+(26–30) % 几率避免 元素异常 状态",
-      "valueSpans": [
-        "+(26–30)"
-      ]
-    },
-    {
-      "modifierId": "1502023",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "项链",
-      "effectPlain": "免疫 冰结",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "1502024",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "项链",
-      "effectPlain": "拥有 邪祟 ；召唤物拥有 邪祟",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "60062001",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "项链",
-      "effectPlain": "你可以施加 1 个额外诅咒",
-      "valueSpans": [
-        "1"
-      ]
-    },
-    {
-      "modifierId": "60062002",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "项链",
-      "effectPlain": "免疫 元素异常 状态",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "60062010",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "项链",
-      "effectPlain": "+(60–80) 攻击和法术暴击值",
-      "valueSpans": [
-        "+(60–80)"
-      ]
-    },
-    {
-      "modifierId": "60062011",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "项链",
-      "effectPlain": "+(50–70) % 伤害",
-      "valueSpans": [
-        "+(50–70)"
-      ]
-    },
-    {
-      "modifierId": "60062012",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "项链",
-      "effectPlain": "+(8–10) % 元素 抗性",
-      "valueSpans": [
-        "+(8–10)"
-      ]
-    },
-    {
-      "modifierId": "60062013",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "项链",
-      "effectPlain": "+(30–40) % 技能范围",
-      "valueSpans": [
-        "+(30–40)"
-      ]
-    },
-    {
-      "modifierId": "60062014",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "项链",
-      "effectPlain": "+(15–20) % 技能效果持续时间",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "104200001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "项链",
-      "effectPlain": "+(155–220) 最大生命",
-      "valueSpans": [
-        "+(155–220)"
-      ]
-    },
-    {
-      "modifierId": "105200201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "项链",
-      "effectPlain": "+(245–350) 最大护盾",
-      "valueSpans": [
-        "+(245–350)"
-      ]
-    },
-    {
-      "modifierId": "140200101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "项链",
-      "effectPlain": "+(27–36) % 护甲值",
-      "valueSpans": [
-        "+(27–36)"
-      ]
-    },
-    {
-      "modifierId": "140200201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "项链",
-      "effectPlain": "+(27–36) % 闪避值",
-      "valueSpans": [
-        "+(27–36)"
-      ]
-    },
-    {
-      "modifierId": "140200301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "项链",
-      "effectPlain": "+(51–72) % 伤害",
-      "valueSpans": [
-        "+(51–72)"
-      ]
-    },
-    {
-      "modifierId": "140200401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "项链",
-      "effectPlain": "+(51–72) % 召唤物伤害",
-      "valueSpans": [
-        "+(51–72)"
-      ]
-    },
-    {
-      "modifierId": "140721901",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "项链",
-      "effectPlain": "+(85–120) 最大魔力",
-      "valueSpans": [
-        "+(85–120)"
-      ]
-    },
-    {
-      "modifierId": "109200001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "项链",
-      "effectPlain": "+(43–60) 力量",
-      "valueSpans": [
-        "+(43–60)"
-      ]
-    },
-    {
-      "modifierId": "109200101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "项链",
-      "effectPlain": "+(43–60) 敏捷",
-      "valueSpans": [
-        "+(43–60)"
-      ]
-    },
-    {
-      "modifierId": "109200201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "项链",
-      "effectPlain": "+(43–60) 智慧",
-      "valueSpans": [
-        "+(43–60)"
-      ]
-    },
-    {
-      "modifierId": "116200901",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "项链",
-      "effectPlain": "魔灵 +(35–48) 初始 生长值",
-      "valueSpans": [
-        "+(35–48)"
-      ]
-    },
-    {
-      "modifierId": "130200201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "项链",
-      "effectPlain": "+(15–20) % 防御值",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "140200501",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "项链",
-      "effectPlain": "+(22–30) % 坚固 魔力封印 补偿",
-      "valueSpans": [
-        "+(22–30)"
-      ]
-    },
-    {
-      "modifierId": "140200601",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "项链",
-      "effectPlain": "+(22–30) % 灵敏 魔力封印 补偿",
-      "valueSpans": [
-        "+(22–30)"
-      ]
-    },
-    {
-      "modifierId": "140200701",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "项链",
-      "effectPlain": "+(22–30) % 能量壁垒 魔力封印 补偿",
-      "valueSpans": [
-        "+(22–30)"
-      ]
-    },
-    {
-      "modifierId": "140201101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "项链",
-      "effectPlain": "释放攻击技能时，获得 攻击激进 +(10–30) % 攻击激进 效果",
-      "valueSpans": [
-        "+(10–30)"
-      ]
-    },
-    {
-      "modifierId": "140201201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "项链",
-      "effectPlain": "释放法术技能时，获得 法术激进 +(10–30) % 法术激进 效果",
-      "valueSpans": [
-        "+(10–30)"
-      ]
-    },
-    {
-      "modifierId": "140201301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "项链",
-      "effectPlain": "拥有 邪祟 ；召唤物拥有 邪祟 +(20–30) % 腐蚀伤害 +(20–30) % 召唤物腐蚀伤害",
-      "valueSpans": [
-        "+(20–30)",
-        "+(20–30)"
-      ]
-    },
-    {
-      "modifierId": "140901901",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "项链",
-      "effectPlain": "+(23–32) % 恶化 几率",
-      "valueSpans": [
-        "+(23–32)"
-      ]
-    },
-    {
-      "modifierId": "115200601",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "项链",
-      "effectPlain": "+2 召唤召唤物的技能等级",
-      "valueSpans": [
-        "+2"
-      ]
-    },
-    {
-      "modifierId": "116200801",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "项链",
-      "effectPlain": "法术迸发 上限 +1",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "130200001",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "项链",
-      "effectPlain": "+(1–2) 主动技能等级",
-      "valueSpans": [
-        "+(1–2)"
-      ]
-    },
-    {
-      "modifierId": "130200601",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "项链",
-      "effectPlain": "拥有 战意",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "130200701",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "项链",
-      "effectPlain": "连续攻击 伤害递增 (28–40) %",
-      "valueSpans": [
-        "(28–40)"
-      ]
-    },
-    {
-      "modifierId": "140201401",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "项链",
-      "effectPlain": "你可以对敌人附着 1 个额外 纠缠 +(5–8) % 纠缠 伤害加深",
-      "valueSpans": [
-        "1",
-        "+(5–8)"
-      ]
-    },
-    {
-      "modifierId": "140901801",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "项链",
-      "effectPlain": "+(36–50) % 恶化 伤害",
-      "valueSpans": [
-        "+(36–50)"
-      ]
-    },
-    {
-      "modifierId": "108200001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "项链",
-      "effectPlain": "+(19–27) % 火焰抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "108200101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "项链",
-      "effectPlain": "+(19–27) % 冰冷抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "108200201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "项链",
-      "effectPlain": "+(19–27) % 闪电抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "108200301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "项链",
-      "effectPlain": "+(19–27) % 腐蚀抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "140200001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "项链",
-      "effectPlain": "+(33–45) % 投射物速度",
-      "valueSpans": [
-        "+(33–45)"
-      ]
-    },
-    {
-      "modifierId": "110200101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "项链",
-      "effectPlain": "+(42–60) % 暴击伤害",
-      "valueSpans": [
-        "+(42–60)"
-      ]
-    },
-    {
-      "modifierId": "110200401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "项链",
-      "effectPlain": "+(18–24) % 攻击与施法速度 +(18–24) % 召唤物攻击与施法速度",
-      "valueSpans": [
-        "+(18–24)",
-        "+(18–24)"
-      ]
-    },
-    {
-      "modifierId": "115200901",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "项链",
-      "effectPlain": "使用地面技能时， 60 % 几率获得 1 层蓄能层数",
-      "valueSpans": [
-        "60",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "116200201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "项链",
-      "effectPlain": "+(8–10) % 元素 抗性",
-      "valueSpans": [
-        "+(8–10)"
-      ]
-    },
-    {
-      "modifierId": "140200801",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "项链",
-      "effectPlain": "+(14–18) % 祝福持续时间",
-      "valueSpans": [
-        "+(14–18)"
-      ]
-    },
-    {
-      "modifierId": "140200901",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "项链",
-      "effectPlain": "+(8–10) % 全属性",
-      "valueSpans": [
-        "+(8–10)"
-      ]
-    },
-    {
-      "modifierId": "140201001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "项链",
-      "effectPlain": "每移动 5 米， 100 % 几率获得 屏障",
-      "valueSpans": [
-        "5",
-        "100"
-      ]
-    },
-    {
-      "modifierId": "120200001",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "项链",
-      "effectPlain": "每拥有 1 层任意祝福， +(5–6) % 伤害",
-      "valueSpans": [
-        "+(5–6)"
-      ]
-    },
-    {
-      "modifierId": "130200101",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "项链",
-      "effectPlain": "+(15–20) % 魔力封印 补偿",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "130200301",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "项链",
-      "effectPlain": "+(15–20) % 光环效果",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "130200401",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "项链",
-      "effectPlain": "每 12 点属性， +1 % 伤害",
-      "valueSpans": [
-        "12",
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "140902001",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "项链",
-      "effectPlain": "+(23–32) % 恶化 持续时间",
-      "valueSpans": [
-        "+(23–32)"
-      ]
-    },
-    {
-      "modifierId": "85020001",
+      "modifierId": "1502006",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "项链",
-      "effectPlain": "+(54–74) 最大生命",
-      "valueSpans": [
-        "+(54–74)"
-      ]
-    },
-    {
-      "modifierId": "85020011",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "项链",
-      "effectPlain": "+(87–117) 最大护盾",
-      "valueSpans": [
-        "+(87–117)"
-      ]
-    },
-    {
-      "modifierId": "85020021",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "项链",
-      "effectPlain": "+(5–10) % 火焰抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "85020031",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "项链",
-      "effectPlain": "+(5–10) % 冰冷抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "85020041",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "项链",
-      "effectPlain": "+(5–10) % 闪电抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "85020051",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "项链",
-      "effectPlain": "+(5–10) % 腐蚀抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "85020061",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "项链",
       "effectPlain": "+(3–4) % 元素 抗性",
       "valueSpans": [
@@ -984,238 +1578,482 @@
       ]
     },
     {
-      "modifierId": "85020071",
+      "modifierId": "1502000",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "项链",
-      "effectPlain": "+(15–20) 力量",
+      "effectPlain": "+(54–74) 最大生命",
       "valueSpans": [
-        "+(15–20)"
+        "+(54–74)"
       ]
     },
     {
-      "modifierId": "85020081",
+      "modifierId": "1502003",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "项链",
-      "effectPlain": "+(15–20) 敏捷",
+      "effectPlain": "+(5–10) % 冰冷抗性",
       "valueSpans": [
-        "+(15–20)"
+        "+(5–10)"
       ]
     },
     {
-      "modifierId": "85020091",
+      "modifierId": "1502002",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "项链",
-      "effectPlain": "+(15–20) 智慧",
+      "effectPlain": "+(5–10) % 火焰抗性",
       "valueSpans": [
-        "+(15–20)"
+        "+(5–10)"
       ]
     },
     {
-      "modifierId": "85020101",
+      "modifierId": "1502005",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "项链",
-      "effectPlain": "+(20–24) % 伤害 +(20–24) % 召唤物伤害",
+      "effectPlain": "+(5–10) % 腐蚀抗性",
       "valueSpans": [
-        "+(20–24)",
-        "+(20–24)"
+        "+(5–10)"
       ]
     },
     {
-      "modifierId": "85020111",
-      "tier": 1,
+      "modifierId": "1502004",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "项链",
-      "effectPlain": "+(8–10) % 移动速度",
+      "effectPlain": "+(5–10) % 闪电抗性",
       "valueSpans": [
-        "+(8–10)"
+        "+(5–10)"
       ]
     },
     {
-      "modifierId": "85020121",
-      "tier": 1,
+      "modifierId": "1502001",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "项链",
-      "effectPlain": "每拥有 1 层任意祝福， +(2–3) % 伤害",
+      "effectPlain": "+(87–117) 最大护盾",
       "valueSpans": [
-        "+(2–3)"
+        "+(87–117)"
       ]
     },
     {
-      "modifierId": "85020131",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
+      "modifierId": "51524011",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻影",
       "source": "项链",
-      "effectPlain": "每 27 点属性， +1 % 伤害",
+      "effectPlain": "+(100–120) 最大魔力",
       "valueSpans": [
-        "27",
+        "+(100–120)"
+      ]
+    },
+    {
+      "modifierId": "51524041",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻影",
+      "source": "项链",
+      "effectPlain": "+(16–32) % 最大魔力",
+      "valueSpans": [
+        "+(16–32)"
+      ]
+    },
+    {
+      "modifierId": "51524021",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻影",
+      "source": "项链",
+      "effectPlain": "满魔 时，每封印 (15–17) % 生命， +1 核心技能等级",
+      "valueSpans": [
+        "(15–17)",
         "+1"
       ]
     },
     {
-      "modifierId": "85020141",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "项链",
-      "effectPlain": "附加 10 - 10 异常基础伤害",
-      "valueSpans": [
-        "10",
-        "10"
-      ]
-    },
-    {
-      "modifierId": "85020151",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "项链",
-      "effectPlain": "+(6–8) % 魔力封印 补偿",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "85020161",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "项链",
-      "effectPlain": "造成伤害时，触发 20 级 易伤 诅咒，冷却时间为 0.2 秒",
-      "valueSpans": [
-        "20",
-        "0.2"
-      ]
-    },
-    {
-      "modifierId": "85020171",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "项链",
-      "effectPlain": "造成伤害时，触发 20 级 炽热 诅咒，冷却时间为 0.2 秒",
-      "valueSpans": [
-        "20",
-        "0.2"
-      ]
-    },
-    {
-      "modifierId": "85020181",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "项链",
-      "effectPlain": "造成伤害时，触发 20 级 蚀骨之寒 诅咒，冷却时间为 0.2 秒",
-      "valueSpans": [
-        "20",
-        "0.2"
-      ]
-    },
-    {
-      "modifierId": "85020191",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "项链",
-      "effectPlain": "造成伤害时，触发 20 级 感电 诅咒，冷却时间为 0.2 秒",
-      "valueSpans": [
-        "20",
-        "0.2"
-      ]
-    },
-    {
-      "modifierId": "85020201",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "项链",
-      "effectPlain": "造成伤害时，触发 20 级 邪恶侵蚀 诅咒，冷却时间为 0.2 秒",
-      "valueSpans": [
-        "20",
-        "0.2"
-      ]
-    },
-    {
-      "modifierId": "85020211",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "项链",
-      "effectPlain": "拥有 邪祟 ；召唤物拥有 邪祟",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "51210311",
+      "modifierId": "51524361",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "渎影",
+      "affixType": "幻海缠丝-劫灰",
       "source": "项链",
-      "effectPlain": "+(5–15) 敏捷",
+      "effectPlain": "(30–50) % 受到的腐蚀伤害转化为火焰伤害",
       "valueSpans": [
-        "+(5–15)"
+        "(30–50)"
       ]
     },
     {
-      "modifierId": "51210321",
+      "modifierId": "51524311",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "渎影",
+      "affixType": "幻海缠丝-劫灰",
       "source": "项链",
-      "effectPlain": "+(20–30) 最大生命",
+      "effectPlain": "+(8–12) % 最大生命、最大魔力和最大护盾",
       "valueSpans": [
-        "+(20–30)"
+        "+(8–12)"
       ]
     },
     {
-      "modifierId": "51210331",
+      "modifierId": "51524341",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "渎影",
+      "affixType": "幻海缠丝-劫灰",
       "source": "项链",
-      "effectPlain": "使用影袭技能时，有 33 % 几率 +3 幻影 数量",
+      "effectPlain": "+1 坚韧祝福 层数上限",
       "valueSpans": [
-        "33",
-        "+3"
+        "+1"
       ]
     },
     {
-      "modifierId": "51210341",
+      "modifierId": "51524331",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "渎影",
+      "affixType": "幻海缠丝-劫灰",
       "source": "项链",
-      "effectPlain": "额外 +(14–16) % 幻影 伤害",
+      "effectPlain": "-20 % 火焰抗性",
       "valueSpans": [
-        "+(14–16)"
+        "-20"
+      ]
+    },
+    {
+      "modifierId": "51524351",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻海缠丝-劫灰",
+      "source": "项链",
+      "effectPlain": "击中敌人时，触发 (10–19) 级 炽热 诅咒，冷却时间为 1 秒",
+      "valueSpans": [
+        "(10–19)",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "51524321",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻海缠丝-劫灰",
+      "source": "项链",
+      "effectPlain": "攻击和法术附加 (54–57) - (63–67) 点火焰伤害",
+      "valueSpans": [
+        "(54–57)",
+        "(63–67)"
+      ]
+    },
+    {
+      "modifierId": "51524461",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻海缠丝-厉雷",
+      "source": "项链",
+      "effectPlain": "(30–50) % 受到的腐蚀伤害转化为闪电伤害",
+      "valueSpans": [
+        "(30–50)"
+      ]
+    },
+    {
+      "modifierId": "51524411",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻海缠丝-厉雷",
+      "source": "项链",
+      "effectPlain": "+(8–12) % 最大生命、最大魔力和最大护盾",
+      "valueSpans": [
+        "+(8–12)"
+      ]
+    },
+    {
+      "modifierId": "51524441",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻海缠丝-厉雷",
+      "source": "项链",
+      "effectPlain": "+1 灵动祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51524431",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻海缠丝-厉雷",
+      "source": "项链",
+      "effectPlain": "-20 % 闪电抗性",
+      "valueSpans": [
+        "-20"
+      ]
+    },
+    {
+      "modifierId": "51524451",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻海缠丝-厉雷",
+      "source": "项链",
+      "effectPlain": "击中敌人时，触发 (10–19) 级 感电 诅咒，冷却时间为 1 秒",
+      "valueSpans": [
+        "(10–19)",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "51524421",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻海缠丝-厉雷",
+      "source": "项链",
+      "effectPlain": "攻击和法术附加 (6–9) - (71–74) 点闪电伤害",
+      "valueSpans": [
+        "(6–9)",
+        "(71–74)"
+      ]
+    },
+    {
+      "modifierId": "51524561",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻海缠丝-苦寒",
+      "source": "项链",
+      "effectPlain": "(30–50) % 受到的腐蚀伤害转化为冰冷伤害",
+      "valueSpans": [
+        "(30–50)"
+      ]
+    },
+    {
+      "modifierId": "51524511",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻海缠丝-苦寒",
+      "source": "项链",
+      "effectPlain": "+(8–12) % 最大生命、最大魔力和最大护盾",
+      "valueSpans": [
+        "+(8–12)"
+      ]
+    },
+    {
+      "modifierId": "51524541",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻海缠丝-苦寒",
+      "source": "项链",
+      "effectPlain": "+1 聚能祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51524531",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻海缠丝-苦寒",
+      "source": "项链",
+      "effectPlain": "-20 % 冰冷抗性",
+      "valueSpans": [
+        "-20"
+      ]
+    },
+    {
+      "modifierId": "51524551",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻海缠丝-苦寒",
+      "source": "项链",
+      "effectPlain": "击中敌人时，触发 (10–19) 级 蚀骨之寒 诅咒，冷却时间为 1 秒",
+      "valueSpans": [
+        "(10–19)",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "51524521",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻海缠丝-苦寒",
+      "source": "项链",
+      "effectPlain": "攻击和法术附加 (56–58) - (62–64) 点冰冷伤害",
+      "valueSpans": [
+        "(56–58)",
+        "(62–64)"
+      ]
+    },
+    {
+      "modifierId": "51524661",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻海缠丝-虚妄",
+      "source": "项链",
+      "effectPlain": "+(3–5) % 腐蚀 抗性上限",
+      "valueSpans": [
+        "+(3–5)"
+      ]
+    },
+    {
+      "modifierId": "51524611",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻海缠丝-虚妄",
+      "source": "项链",
+      "effectPlain": "+(8–12) % 最大生命、最大魔力和最大护盾",
+      "valueSpans": [
+        "+(8–12)"
+      ]
+    },
+    {
+      "modifierId": "51524651",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻海缠丝-虚妄",
+      "source": "项链",
+      "effectPlain": "击中敌人时，触发 (10–19) 级 邪恶侵蚀 诅咒，冷却时间为 1 秒",
+      "valueSpans": [
+        "(10–19)",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "51524621",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻海缠丝-虚妄",
+      "source": "项链",
+      "effectPlain": "攻击和法术附加 (57–59) - (61–63) 点腐蚀伤害",
+      "valueSpans": [
+        "(57–59)",
+        "(61–63)"
+      ]
+    },
+    {
+      "modifierId": "51524631",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻海缠丝-虚妄",
+      "source": "项链",
+      "effectPlain": "额外 +10 % 返还间隔",
+      "valueSpans": [
+        "+10"
+      ]
+    },
+    {
+      "modifierId": "51524641",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻海缠丝-虚妄",
+      "source": "项链",
+      "effectPlain": "额外 +10 % 闪避值",
+      "valueSpans": [
+        "+10"
+      ]
+    },
+    {
+      "modifierId": "51524261",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻海缠丝-铁雨",
+      "source": "项链",
+      "effectPlain": "(30–50) % 受到的腐蚀伤害转化为物理伤害",
+      "valueSpans": [
+        "(30–50)"
+      ]
+    },
+    {
+      "modifierId": "51524211",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻海缠丝-铁雨",
+      "source": "项链",
+      "effectPlain": "+(8–12) % 最大生命、最大魔力和最大护盾",
+      "valueSpans": [
+        "+(8–12)"
+      ]
+    },
+    {
+      "modifierId": "51524231",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻海缠丝-铁雨",
+      "source": "项链",
+      "effectPlain": "-16 % 生命自然回复速度",
+      "valueSpans": [
+        "-16"
+      ]
+    },
+    {
+      "modifierId": "51524251",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻海缠丝-铁雨",
+      "source": "项链",
+      "effectPlain": "击中敌人时，触发 (10–19) 级 易伤 诅咒，冷却时间为 1 秒",
+      "valueSpans": [
+        "(10–19)",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "51524221",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻海缠丝-铁雨",
+      "source": "项链",
+      "effectPlain": "攻击和法术附加 (49–54) - (62–68) 点物理伤害",
+      "valueSpans": [
+        "(49–54)",
+        "(62–68)"
+      ]
+    },
+    {
+      "modifierId": "51524241",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "幻海缠丝-铁雨",
+      "source": "项链",
+      "effectPlain": "额外 +10 % 护甲值",
+      "valueSpans": [
+        "+10"
       ]
     },
     {
@@ -1267,66 +2105,74 @@
       ]
     },
     {
-      "modifierId": "51520231",
+      "modifierId": "51525521",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "荒芜结晶",
+      "affixType": "操幕之链",
       "source": "项链",
-      "effectPlain": "+(25–36) % 护甲值",
+      "effectPlain": "+(10–15) 点敏捷与智慧",
       "valueSpans": [
-        "+(25–36)"
-      ]
-    },
-    {
-      "modifierId": "51520241",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "荒芜结晶",
-      "source": "项链",
-      "effectPlain": "每 10000 点护甲值，额外 +(3–4) % 伤害",
-      "valueSpans": [
-        "10000",
-        "+(3–4)"
-      ]
-    },
-    {
-      "modifierId": "55520251",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "荒芜结晶",
-      "source": "项链",
-      "effectPlain": "护甲值不低于 100000 点时， +(10–15) % 元素和腐蚀抗性",
-      "valueSpans": [
-        "100000",
         "+(10–15)"
       ]
     },
     {
-      "modifierId": "55520261",
+      "modifierId": "51525531",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "荒芜结晶",
+      "affixType": "操幕之链",
       "source": "项链",
-      "effectPlain": "对非物理伤害， +(10–20) % 护甲有效率",
+      "effectPlain": "+(12–30) % 腐蚀抗性",
       "valueSpans": [
-        "+(10–20)"
+        "+(12–30)"
       ]
     },
     {
-      "modifierId": "51520311",
+      "modifierId": "51525511",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "操幕之链",
+      "source": "项链",
+      "effectPlain": "+(6–20) % 最大护盾",
+      "valueSpans": [
+        "+(6–20)"
+      ]
+    },
+    {
+      "modifierId": "51525551",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "操幕之链",
+      "source": "项链",
+      "effectPlain": "每移动 3 米，获得 (5–10) 点 迷踪值",
+      "valueSpans": [
+        "3",
+        "(5–10)"
+      ]
+    },
+    {
+      "modifierId": "51525541",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "操幕之链",
+      "source": "项链",
+      "effectPlain": "迷踪 获得额外效果：每 5 点迷踪值，+1 每秒施加加剧值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51520341",
       "tier": null,
       "itemLevel": null,
       "weight": null,
       "affixType": "旋流之心",
       "source": "项链",
-      "effectPlain": "攻击和法术附加 (44–46) - (54–56) 点物理伤害",
+      "effectPlain": "(-40–-30) % 技能范围",
       "valueSpans": [
-        "(44–46)",
-        "(54–56)"
+        "(-40–-30)"
       ]
     },
     {
@@ -1354,18 +2200,6 @@
       ]
     },
     {
-      "modifierId": "51520341",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "旋流之心",
-      "source": "项链",
-      "effectPlain": "(-40–-30) % 技能范围",
-      "valueSpans": [
-        "(-40–-30)"
-      ]
-    },
-    {
       "modifierId": "51520351",
       "tier": null,
       "itemLevel": null,
@@ -1379,229 +2213,536 @@
       ]
     },
     {
-      "modifierId": "51520511",
+      "modifierId": "51520311",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "防御宗师吊坠",
+      "affixType": "旋流之心",
       "source": "项链",
-      "effectPlain": "+(70–100) 最大生命",
+      "effectPlain": "攻击和法术附加 (44–46) - (54–56) 点物理伤害",
       "valueSpans": [
-        "+(70–100)"
+        "(44–46)",
+        "(54–56)"
       ]
     },
     {
-      "modifierId": "51520521",
+      "modifierId": "51521721",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "防御宗师吊坠",
+      "affixType": "无主",
       "source": "项链",
-      "effectPlain": "+(25–30) % 从所有防具获得的 防御值",
+      "effectPlain": "+(10–12) % 攻击与施法速度",
       "valueSpans": [
-        "+(25–30)"
+        "+(10–12)"
       ]
     },
     {
-      "modifierId": "51520531",
+      "modifierId": "51521751",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "防御宗师吊坠",
+      "affixType": "无主",
       "source": "项链",
-      "effectPlain": "+(12–16) % 攻击与法术格挡率",
+      "effectPlain": "+(14–18) 全属性",
       "valueSpans": [
-        "+(12–16)"
+        "+(14–18)"
       ]
     },
     {
-      "modifierId": "51520541",
+      "modifierId": "51521711",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "防御宗师吊坠",
+      "affixType": "无主",
       "source": "项链",
-      "effectPlain": "格挡比例固定为 50 %",
+      "effectPlain": "+(209–220) 最大生命",
       "valueSpans": [
-        "50"
+        "+(209–220)"
       ]
     },
     {
-      "modifierId": "51520711",
+      "modifierId": "51521741",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "玛格努斯的心火",
+      "affixType": "无主",
       "source": "项链",
-      "effectPlain": "+(88–110) 最大生命",
+      "effectPlain": "+10 % 移动速度",
       "valueSpans": [
-        "+(88–110)"
+        "+10"
       ]
     },
     {
-      "modifierId": "51520721",
+      "modifierId": "51521731",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "玛格努斯的心火",
+      "affixType": "无主",
       "source": "项链",
-      "effectPlain": "+1 火焰技能等级",
+      "effectPlain": "+16 % 投射物速度",
+      "valueSpans": [
+        "+16"
+      ]
+    },
+    {
+      "modifierId": "51528041",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "无相禅心",
+      "source": "项链",
+      "effectPlain": "+(10–20) % 连携终结技增幅",
+      "valueSpans": [
+        "+(10–20)"
+      ]
+    },
+    {
+      "modifierId": "51528011",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "无相禅心",
+      "source": "项链",
+      "effectPlain": "+(190–220) 最大生命和最大护盾",
+      "valueSpans": [
+        "+(190–220)"
+      ]
+    },
+    {
+      "modifierId": "51528031",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "无相禅心",
+      "source": "项链",
+      "effectPlain": "+1 连携终结技可释放次数",
       "valueSpans": [
         "+1"
       ]
     },
     {
-      "modifierId": "51520731",
+      "modifierId": "51528021",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "玛格努斯的心火",
+      "affixType": "无相禅心",
       "source": "项链",
-      "effectPlain": "+(5–11) % 火焰抗性",
+      "effectPlain": "使用连携技能后，额外 (-15–-10) % 受到的伤害，持续 0.5 秒",
       "valueSpans": [
-        "+(5–11)"
+        "(-15–-10)",
+        "0.5"
       ]
     },
     {
-      "modifierId": "51520741",
+      "modifierId": "51528051",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "玛格努斯的心火",
+      "affixType": "无相禅心",
       "source": "项链",
-      "effectPlain": "+(6–7) % 火焰穿透",
+      "effectPlain": "连携终结技暴击时，获得 (1–2) 点连携点；每次技能仅能触发 1 次该效果； 法术迸发 时，该效果仅对激活迸发时的首次技能生效",
       "valueSpans": [
-        "+(6–7)"
+        "(1–2)"
       ]
     },
     {
-      "modifierId": "51520751",
+      "modifierId": "51528511",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "玛格努斯的心火",
+      "affixType": "旧怨",
       "source": "项链",
-      "effectPlain": "[真实之焰] 敌人被 点燃 时， 加剧 对其受到的持续伤害额外加成的 60 % 同样作用于你的击中火焰伤害",
+      "effectPlain": "+(10–16) % 最大生命、最大魔力和最大护盾",
       "valueSpans": [
-        "60"
+        "+(10–16)"
       ]
     },
     {
-      "modifierId": "51520811",
+      "modifierId": "51528541",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "真理",
+      "affixType": "旧怨",
       "source": "项链",
-      "effectPlain": "+(4–5) 全部技能等级",
+      "effectPlain": "+(50–80) 纠缠 暴击值",
       "valueSpans": [
-        "+(4–5)"
+        "+(50–80)"
       ]
     },
     {
-      "modifierId": "55520911",
+      "modifierId": "51528521",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "典狱官的胸针",
+      "affixType": "旧怨",
       "source": "项链",
-      "effectPlain": "+(1–2) 被动技能等级",
+      "effectPlain": "+1 纠缠 数量上限",
       "valueSpans": [
-        "+(1–2)"
+        "+1"
       ]
     },
     {
-      "modifierId": "51520921",
+      "modifierId": "51528531",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "典狱官的胸针",
+      "affixType": "旧怨",
       "source": "项链",
-      "effectPlain": "+(90–108) % 召唤物最大生命",
-      "valueSpans": [
-        "+(90–108)"
-      ]
-    },
-    {
-      "modifierId": "51520931",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "典狱官的胸针",
-      "source": "项链",
-      "effectPlain": "+(101–144) % 召唤物伤害",
-      "valueSpans": [
-        "+(101–144)"
-      ]
-    },
-    {
-      "modifierId": "51520941",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "典狱官的胸针",
-      "source": "项链",
-      "effectPlain": "你的召唤物只能造成物理伤害",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "51520951",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "典狱官的胸针",
-      "source": "项链",
-      "effectPlain": "暴击值和暴击伤害的 (50–75) % 同样作用于召唤物",
-      "valueSpans": [
-        "(50–75)"
-      ]
-    },
-    {
-      "modifierId": "51521111",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "磐岩的汪洋",
-      "source": "项链",
-      "effectPlain": "+(132–176) 最大生命",
-      "valueSpans": [
-        "+(132–176)"
-      ]
-    },
-    {
-      "modifierId": "51521121",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "磐岩的汪洋",
-      "source": "项链",
-      "effectPlain": "+(210–280) 最大护盾",
-      "valueSpans": [
-        "+(210–280)"
-      ]
-    },
-    {
-      "modifierId": "51521131",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "磐岩的汪洋",
-      "source": "项链",
-      "effectPlain": "[龟缩] 每隔 1 秒，获得 屏障 +50 % 屏障 吸收量",
+      "effectPlain": "+50 % 纠缠 持续时间",
       "valueSpans": [
         "+50"
       ]
     },
     {
-      "modifierId": "51521141",
+      "modifierId": "51525211",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "磐岩的汪洋",
+      "affixType": "母神围场",
       "source": "项链",
-      "effectPlain": "附加 (10–15) % 最大生命的护盾",
+      "effectPlain": "+(30–40) % 防御值",
       "valueSpans": [
-        "(10–15)"
+        "+(30–40)"
+      ]
+    },
+    {
+      "modifierId": "51525251",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "母神围场",
+      "source": "项链",
+      "effectPlain": "使用地面技能时， (50–100) % 几率获得 1 层蓄能层数",
+      "valueSpans": [
+        "(50–100)",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "51525231",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "母神围场",
+      "source": "项链",
+      "effectPlain": "地面数量上限的加成固定为 0",
+      "valueSpans": [
+        "0"
+      ]
+    },
+    {
+      "modifierId": "51525271",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "母神围场",
+      "source": "项链",
+      "effectPlain": "消耗满层地面蓄能 0.1 秒后，收割 周围 8 米内敌人 1.5 秒的持续伤害，冷却 2 秒",
+      "valueSpans": [
+        "0.1",
+        "8",
+        "1.5",
+        "2"
+      ]
+    },
+    {
+      "modifierId": "51525241",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "母神围场",
+      "source": "项链",
+      "effectPlain": "消耗非满层地面蓄能时，每消耗 1 地面蓄能 ，额外 +(10–12) % 加剧 效果",
+      "valueSpans": [
+        "+(10–12)"
+      ]
+    },
+    {
+      "modifierId": "51526461",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "永生挽歌",
+      "source": "项链",
+      "effectPlain": "+(20–30) % 射线长度",
+      "valueSpans": [
+        "+(20–30)"
+      ]
+    },
+    {
+      "modifierId": "51526421",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "永生挽歌",
+      "source": "项链",
+      "effectPlain": "每引导 3 次，位移技能获得1充能点数",
+      "valueSpans": [
+        "3"
+      ]
+    },
+    {
+      "modifierId": "51526451",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "永生挽歌",
+      "source": "项链",
+      "effectPlain": "静止时，额外 +(20–30) % 射线技能施法速度",
+      "valueSpans": [
+        "+(20–30)"
+      ]
+    },
+    {
+      "modifierId": "51526441",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "永生挽歌",
+      "source": "项链",
+      "effectPlain": "静止时，额外 +(60–70) % 射线技能伤害",
+      "valueSpans": [
+        "+(60–70)"
+      ]
+    },
+    {
+      "modifierId": "51526431",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "永生挽歌",
+      "source": "项链",
+      "effectPlain": "静止时，额外 -20 % 受到的元素伤害",
+      "valueSpans": [
+        "-20"
+      ]
+    },
+    {
+      "modifierId": "51527821",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "汞海极刑",
+      "source": "项链",
+      "effectPlain": "+(100–120) 最大魔力",
+      "valueSpans": [
+        "+(100–120)"
+      ]
+    },
+    {
+      "modifierId": "51527831",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "汞海极刑",
+      "source": "项链",
+      "effectPlain": "对处于 元素异常 状态下的敌人额外 +(18–24) % 元素伤害",
+      "valueSpans": [
+        "+(18–24)"
+      ]
+    },
+    {
+      "modifierId": "51525441",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "洞明",
+      "source": "项链",
+      "effectPlain": "+(19–38) % 连续攻击 几率",
+      "valueSpans": [
+        "+(19–38)"
+      ]
+    },
+    {
+      "modifierId": "51525411",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "洞明",
+      "source": "项链",
+      "effectPlain": "+(88–132) 最大生命",
+      "valueSpans": [
+        "+(88–132)"
+      ]
+    },
+    {
+      "modifierId": "51525431",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "洞明",
+      "source": "项链",
+      "effectPlain": "空手 时， +(144–202) 暴击值",
+      "valueSpans": [
+        "+(144–202)"
+      ]
+    },
+    {
+      "modifierId": "51525421",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "洞明",
+      "source": "项链",
+      "effectPlain": "空手 时，额外 +(15–21) % 伤害",
+      "valueSpans": [
+        "+(15–21)"
+      ]
+    },
+    {
+      "modifierId": "51521521",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "淬火之鸟的颈链",
+      "source": "项链",
+      "effectPlain": "(-25–-5) % 元素 抗性 -30 % 移动速度",
+      "valueSpans": [
+        "(-25–-5)",
+        "-30"
+      ]
+    },
+    {
+      "modifierId": "51521511",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "淬火之鸟的颈链",
+      "source": "项链",
+      "effectPlain": "+(8–12) % 最大生命和最大护盾",
+      "valueSpans": [
+        "+(8–12)"
+      ]
+    },
+    {
+      "modifierId": "51521541",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "淬火之鸟的颈链",
+      "source": "项链",
+      "effectPlain": "拥有 屏障 时，受到伤害触发核心技能，随后移除 屏障 核心技能替换为 20 级 屏障爆裂",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51521551",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "淬火之鸟的颈链",
+      "source": "项链",
+      "effectPlain": "额外 +20 % 屏障 吸收量 额外 -100 % 护甲值",
+      "valueSpans": [
+        "+20",
+        "-100"
+      ]
+    },
+    {
+      "modifierId": "51210321",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "渎影",
+      "source": "项链",
+      "effectPlain": "+(20–30) 最大生命",
+      "valueSpans": [
+        "+(20–30)"
+      ]
+    },
+    {
+      "modifierId": "51210311",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "渎影",
+      "source": "项链",
+      "effectPlain": "+(5–15) 敏捷",
+      "valueSpans": [
+        "+(5–15)"
+      ]
+    },
+    {
+      "modifierId": "51210331",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "渎影",
+      "source": "项链",
+      "effectPlain": "使用影袭技能时，有 33 % 几率 +3 幻影 数量",
+      "valueSpans": [
+        "33",
+        "+3"
+      ]
+    },
+    {
+      "modifierId": "51210341",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "渎影",
+      "source": "项链",
+      "effectPlain": "额外 +(14–16) % 幻影 伤害",
+      "valueSpans": [
+        "+(14–16)"
+      ]
+    },
+    {
+      "modifierId": "51527721",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "溯寒者的鸣泣",
+      "source": "项链",
+      "effectPlain": "+(15–20) % 元素抗性",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "51527731",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "溯寒者的鸣泣",
+      "source": "项链",
+      "effectPlain": "+(40–50) % 异常伤害加深",
+      "valueSpans": [
+        "+(40–50)"
+      ]
+    },
+    {
+      "modifierId": "51527711",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "溯寒者的鸣泣",
+      "source": "项链",
+      "effectPlain": "+30 % 几率造成 伤害型异常状态",
+      "valueSpans": [
+        "+30"
+      ]
+    },
+    {
+      "modifierId": "51527741",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "溯寒者的鸣泣",
+      "source": "项链",
+      "effectPlain": "免疫 冰结 免疫 减速",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51521321",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "灵佑之坠",
+      "source": "项链",
+      "effectPlain": "+25 % 最大护盾",
+      "valueSpans": [
+        "+25"
       ]
     },
     {
@@ -1614,18 +2755,6 @@
       "effectPlain": "+29 攻击和法术暴击值",
       "valueSpans": [
         "+29"
-      ]
-    },
-    {
-      "modifierId": "51521321",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "灵佑之坠",
-      "source": "项链",
-      "effectPlain": "+25 % 最大护盾",
-      "valueSpans": [
-        "+25"
       ]
     },
     {
@@ -1653,781 +2782,63 @@
       ]
     },
     {
-      "modifierId": "51521511",
+      "modifierId": "51520731",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "淬火之鸟的颈链",
+      "affixType": "玛格努斯的心火",
       "source": "项链",
-      "effectPlain": "+(8–12) % 最大生命和最大护盾",
+      "effectPlain": "+(5–11) % 火焰抗性",
       "valueSpans": [
-        "+(8–12)"
+        "+(5–11)"
       ]
     },
     {
-      "modifierId": "51521521",
+      "modifierId": "51520741",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "淬火之鸟的颈链",
+      "affixType": "玛格努斯的心火",
       "source": "项链",
-      "effectPlain": "(-25–-5) % 元素 抗性 -30 % 移动速度",
+      "effectPlain": "+(6–7) % 火焰穿透",
       "valueSpans": [
-        "(-25–-5)",
-        "-30"
+        "+(6–7)"
       ]
     },
     {
-      "modifierId": "51521541",
+      "modifierId": "51520711",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "淬火之鸟的颈链",
+      "affixType": "玛格努斯的心火",
       "source": "项链",
-      "effectPlain": "拥有 屏障 时，受到伤害触发核心技能，随后移除 屏障 核心技能替换为 20 级 屏障爆裂",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "51521551",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "淬火之鸟的颈链",
-      "source": "项链",
-      "effectPlain": "额外 +20 % 屏障 吸收量 额外 -100 % 护甲值",
+      "effectPlain": "+(88–110) 最大生命",
       "valueSpans": [
-        "+20",
-        "-100"
+        "+(88–110)"
       ]
     },
     {
-      "modifierId": "51521711",
+      "modifierId": "51520721",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "无主",
+      "affixType": "玛格努斯的心火",
       "source": "项链",
-      "effectPlain": "+(209–220) 最大生命",
-      "valueSpans": [
-        "+(209–220)"
-      ]
-    },
-    {
-      "modifierId": "51521721",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "无主",
-      "source": "项链",
-      "effectPlain": "+(10–12) % 攻击与施法速度",
-      "valueSpans": [
-        "+(10–12)"
-      ]
-    },
-    {
-      "modifierId": "51521731",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "无主",
-      "source": "项链",
-      "effectPlain": "+16 % 投射物速度",
-      "valueSpans": [
-        "+16"
-      ]
-    },
-    {
-      "modifierId": "51521741",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "无主",
-      "source": "项链",
-      "effectPlain": "+10 % 移动速度",
-      "valueSpans": [
-        "+10"
-      ]
-    },
-    {
-      "modifierId": "51521751",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "无主",
-      "source": "项链",
-      "effectPlain": "+(14–18) 全属性",
-      "valueSpans": [
-        "+(14–18)"
-      ]
-    },
-    {
-      "modifierId": "51521811",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "贤者的铁枷",
-      "source": "项链",
-      "effectPlain": "+25 全属性",
-      "valueSpans": [
-        "+25"
-      ]
-    },
-    {
-      "modifierId": "51521821",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "贤者的铁枷",
-      "source": "项链",
-      "effectPlain": "+(19–24) % 冷却回复速度",
-      "valueSpans": [
-        "+(19–24)"
-      ]
-    },
-    {
-      "modifierId": "51521831",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "贤者的铁枷",
-      "source": "项链",
-      "effectPlain": "无法回复生命",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "51521841",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "贤者的铁枷",
-      "source": "项链",
-      "effectPlain": "+(60–80) % 魔力自然回复速度",
-      "valueSpans": [
-        "+(60–80)"
-      ]
-    },
-    {
-      "modifierId": "51521851",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "贤者的铁枷",
-      "source": "项链",
-      "effectPlain": "+(12–14) % 护盾 充能 速度",
-      "valueSpans": [
-        "+(12–14)"
-      ]
-    },
-    {
-      "modifierId": "51524011",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻影",
-      "source": "项链",
-      "effectPlain": "+(100–120) 最大魔力",
-      "valueSpans": [
-        "+(100–120)"
-      ]
-    },
-    {
-      "modifierId": "51524021",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻影",
-      "source": "项链",
-      "effectPlain": "满魔 时，每封印 (15–17) % 生命， +1 核心技能等级",
-      "valueSpans": [
-        "(15–17)",
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "51524041",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻影",
-      "source": "项链",
-      "effectPlain": "+(16–32) % 最大魔力",
-      "valueSpans": [
-        "+(16–32)"
-      ]
-    },
-    {
-      "modifierId": "51524211",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻海缠丝-铁雨",
-      "source": "项链",
-      "effectPlain": "+(8–12) % 最大生命、最大魔力和最大护盾",
-      "valueSpans": [
-        "+(8–12)"
-      ]
-    },
-    {
-      "modifierId": "51524221",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻海缠丝-铁雨",
-      "source": "项链",
-      "effectPlain": "攻击和法术附加 (49–54) - (62–68) 点物理伤害",
-      "valueSpans": [
-        "(49–54)",
-        "(62–68)"
-      ]
-    },
-    {
-      "modifierId": "51524231",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻海缠丝-铁雨",
-      "source": "项链",
-      "effectPlain": "-16 % 生命自然回复速度",
-      "valueSpans": [
-        "-16"
-      ]
-    },
-    {
-      "modifierId": "51524241",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻海缠丝-铁雨",
-      "source": "项链",
-      "effectPlain": "额外 +10 % 护甲值",
-      "valueSpans": [
-        "+10"
-      ]
-    },
-    {
-      "modifierId": "51524251",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻海缠丝-铁雨",
-      "source": "项链",
-      "effectPlain": "击中敌人时，触发 (10–19) 级 易伤 诅咒，冷却时间为 1 秒",
-      "valueSpans": [
-        "(10–19)",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "51524261",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻海缠丝-铁雨",
-      "source": "项链",
-      "effectPlain": "(30–50) % 受到的腐蚀伤害转化为物理伤害",
-      "valueSpans": [
-        "(30–50)"
-      ]
-    },
-    {
-      "modifierId": "51524311",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻海缠丝-劫灰",
-      "source": "项链",
-      "effectPlain": "+(8–12) % 最大生命、最大魔力和最大护盾",
-      "valueSpans": [
-        "+(8–12)"
-      ]
-    },
-    {
-      "modifierId": "51524321",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻海缠丝-劫灰",
-      "source": "项链",
-      "effectPlain": "攻击和法术附加 (54–57) - (63–67) 点火焰伤害",
-      "valueSpans": [
-        "(54–57)",
-        "(63–67)"
-      ]
-    },
-    {
-      "modifierId": "51524331",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻海缠丝-劫灰",
-      "source": "项链",
-      "effectPlain": "-20 % 火焰抗性",
-      "valueSpans": [
-        "-20"
-      ]
-    },
-    {
-      "modifierId": "51524341",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻海缠丝-劫灰",
-      "source": "项链",
-      "effectPlain": "+1 坚韧祝福 层数上限",
+      "effectPlain": "+1 火焰技能等级",
       "valueSpans": [
         "+1"
       ]
     },
     {
-      "modifierId": "51524351",
+      "modifierId": "51520751",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "幻海缠丝-劫灰",
+      "affixType": "玛格努斯的心火",
       "source": "项链",
-      "effectPlain": "击中敌人时，触发 (10–19) 级 炽热 诅咒，冷却时间为 1 秒",
+      "effectPlain": "[真实之焰] 敌人被 点燃 时， 加剧 对其受到的持续伤害额外加成的 60 % 同样作用于你的击中火焰伤害",
       "valueSpans": [
-        "(10–19)",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "51524361",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻海缠丝-劫灰",
-      "source": "项链",
-      "effectPlain": "(30–50) % 受到的腐蚀伤害转化为火焰伤害",
-      "valueSpans": [
-        "(30–50)"
-      ]
-    },
-    {
-      "modifierId": "51524411",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻海缠丝-厉雷",
-      "source": "项链",
-      "effectPlain": "+(8–12) % 最大生命、最大魔力和最大护盾",
-      "valueSpans": [
-        "+(8–12)"
-      ]
-    },
-    {
-      "modifierId": "51524421",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻海缠丝-厉雷",
-      "source": "项链",
-      "effectPlain": "攻击和法术附加 (6–9) - (71–74) 点闪电伤害",
-      "valueSpans": [
-        "(6–9)",
-        "(71–74)"
-      ]
-    },
-    {
-      "modifierId": "51524431",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻海缠丝-厉雷",
-      "source": "项链",
-      "effectPlain": "-20 % 闪电抗性",
-      "valueSpans": [
-        "-20"
-      ]
-    },
-    {
-      "modifierId": "51524441",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻海缠丝-厉雷",
-      "source": "项链",
-      "effectPlain": "+1 灵动祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "51524451",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻海缠丝-厉雷",
-      "source": "项链",
-      "effectPlain": "击中敌人时，触发 (10–19) 级 感电 诅咒，冷却时间为 1 秒",
-      "valueSpans": [
-        "(10–19)",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "51524461",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻海缠丝-厉雷",
-      "source": "项链",
-      "effectPlain": "(30–50) % 受到的腐蚀伤害转化为闪电伤害",
-      "valueSpans": [
-        "(30–50)"
-      ]
-    },
-    {
-      "modifierId": "51524511",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻海缠丝-苦寒",
-      "source": "项链",
-      "effectPlain": "+(8–12) % 最大生命、最大魔力和最大护盾",
-      "valueSpans": [
-        "+(8–12)"
-      ]
-    },
-    {
-      "modifierId": "51524521",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻海缠丝-苦寒",
-      "source": "项链",
-      "effectPlain": "攻击和法术附加 (56–58) - (62–64) 点冰冷伤害",
-      "valueSpans": [
-        "(56–58)",
-        "(62–64)"
-      ]
-    },
-    {
-      "modifierId": "51524531",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻海缠丝-苦寒",
-      "source": "项链",
-      "effectPlain": "-20 % 冰冷抗性",
-      "valueSpans": [
-        "-20"
-      ]
-    },
-    {
-      "modifierId": "51524541",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻海缠丝-苦寒",
-      "source": "项链",
-      "effectPlain": "+1 聚能祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "51524551",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻海缠丝-苦寒",
-      "source": "项链",
-      "effectPlain": "击中敌人时，触发 (10–19) 级 蚀骨之寒 诅咒，冷却时间为 1 秒",
-      "valueSpans": [
-        "(10–19)",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "51524561",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻海缠丝-苦寒",
-      "source": "项链",
-      "effectPlain": "(30–50) % 受到的腐蚀伤害转化为冰冷伤害",
-      "valueSpans": [
-        "(30–50)"
-      ]
-    },
-    {
-      "modifierId": "51524611",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻海缠丝-虚妄",
-      "source": "项链",
-      "effectPlain": "+(8–12) % 最大生命、最大魔力和最大护盾",
-      "valueSpans": [
-        "+(8–12)"
-      ]
-    },
-    {
-      "modifierId": "51524621",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻海缠丝-虚妄",
-      "source": "项链",
-      "effectPlain": "攻击和法术附加 (57–59) - (61–63) 点腐蚀伤害",
-      "valueSpans": [
-        "(57–59)",
-        "(61–63)"
-      ]
-    },
-    {
-      "modifierId": "51524631",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻海缠丝-虚妄",
-      "source": "项链",
-      "effectPlain": "额外 +10 % 返还间隔",
-      "valueSpans": [
-        "+10"
-      ]
-    },
-    {
-      "modifierId": "51524641",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻海缠丝-虚妄",
-      "source": "项链",
-      "effectPlain": "额外 +10 % 闪避值",
-      "valueSpans": [
-        "+10"
-      ]
-    },
-    {
-      "modifierId": "51524651",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻海缠丝-虚妄",
-      "source": "项链",
-      "effectPlain": "击中敌人时，触发 (10–19) 级 邪恶侵蚀 诅咒，冷却时间为 1 秒",
-      "valueSpans": [
-        "(10–19)",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "51524661",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "幻海缠丝-虚妄",
-      "source": "项链",
-      "effectPlain": "+(3–5) % 腐蚀 抗性上限",
-      "valueSpans": [
-        "+(3–5)"
-      ]
-    },
-    {
-      "modifierId": "51525111",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "破碎日环",
-      "source": "项链",
-      "effectPlain": "+(220–264) 最大生命",
-      "valueSpans": [
-        "+(220–264)"
-      ]
-    },
-    {
-      "modifierId": "51525121",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "破碎日环",
-      "source": "项链",
-      "effectPlain": "+(9–12) % 元素抗性",
-      "valueSpans": [
-        "+(9–12)"
-      ]
-    },
-    {
-      "modifierId": "51525151",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "破碎日环",
-      "source": "项链",
-      "effectPlain": "日环",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "51525211",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "母神围场",
-      "source": "项链",
-      "effectPlain": "+(30–40) % 防御值",
-      "valueSpans": [
-        "+(30–40)"
-      ]
-    },
-    {
-      "modifierId": "51525231",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "母神围场",
-      "source": "项链",
-      "effectPlain": "地面数量上限的加成固定为 0",
-      "valueSpans": [
-        "0"
-      ]
-    },
-    {
-      "modifierId": "51525241",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "母神围场",
-      "source": "项链",
-      "effectPlain": "消耗非满层地面蓄能时，每消耗 1 地面蓄能 ，额外 +(10–12) % 加剧 效果",
-      "valueSpans": [
-        "+(10–12)"
-      ]
-    },
-    {
-      "modifierId": "51525251",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "母神围场",
-      "source": "项链",
-      "effectPlain": "使用地面技能时， (50–100) % 几率获得 1 层蓄能层数",
-      "valueSpans": [
-        "(50–100)",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "51525271",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "母神围场",
-      "source": "项链",
-      "effectPlain": "消耗满层地面蓄能 0.1 秒后，收割 周围 8 米内敌人 1.5 秒的持续伤害，冷却 2 秒",
-      "valueSpans": [
-        "0.1",
-        "8",
-        "1.5",
-        "2"
-      ]
-    },
-    {
-      "modifierId": "51525411",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "洞明",
-      "source": "项链",
-      "effectPlain": "+(88–132) 最大生命",
-      "valueSpans": [
-        "+(88–132)"
-      ]
-    },
-    {
-      "modifierId": "51525421",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "洞明",
-      "source": "项链",
-      "effectPlain": "空手 时，额外 +(15–21) % 伤害",
-      "valueSpans": [
-        "+(15–21)"
-      ]
-    },
-    {
-      "modifierId": "51525431",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "洞明",
-      "source": "项链",
-      "effectPlain": "空手 时， +(144–202) 暴击值",
-      "valueSpans": [
-        "+(144–202)"
-      ]
-    },
-    {
-      "modifierId": "51525441",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "洞明",
-      "source": "项链",
-      "effectPlain": "+(19–38) % 连续攻击 几率",
-      "valueSpans": [
-        "+(19–38)"
-      ]
-    },
-    {
-      "modifierId": "51525511",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "操幕之链",
-      "source": "项链",
-      "effectPlain": "+(6–20) % 最大护盾",
-      "valueSpans": [
-        "+(6–20)"
-      ]
-    },
-    {
-      "modifierId": "51525521",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "操幕之链",
-      "source": "项链",
-      "effectPlain": "+(10–15) 点敏捷与智慧",
-      "valueSpans": [
-        "+(10–15)"
-      ]
-    },
-    {
-      "modifierId": "51525531",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "操幕之链",
-      "source": "项链",
-      "effectPlain": "+(12–30) % 腐蚀抗性",
-      "valueSpans": [
-        "+(12–30)"
-      ]
-    },
-    {
-      "modifierId": "51525541",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "操幕之链",
-      "source": "项链",
-      "effectPlain": "迷踪 获得额外效果：每 5 点迷踪值，+1 每秒施加加剧值",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "51525551",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "操幕之链",
-      "source": "项链",
-      "effectPlain": "每移动 3 米，获得 (5–10) 点 迷踪值",
-      "valueSpans": [
-        "3",
-        "(5–10)"
+        "60"
       ]
     },
     {
@@ -2480,75 +2891,2403 @@
       ]
     },
     {
-      "modifierId": "51525701",
+      "modifierId": "51520811",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "伪神之蜕",
+      "affixType": "真理",
       "source": "项链",
-      "effectPlain": "+(6–10) % 全属性",
+      "effectPlain": "+(4–5) 全部技能等级",
       "valueSpans": [
-        "+(6–10)"
+        "+(4–5)"
       ]
     },
     {
-      "modifierId": "51526011",
+      "modifierId": "51525111",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "鼠王的百面骰",
+      "affixType": "破碎日环",
       "source": "项链",
-      "effectPlain": "+(65–75) % 暴击伤害",
+      "effectPlain": "+(220–264) 最大生命",
       "valueSpans": [
-        "+(65–75)"
+        "+(220–264)"
       ]
     },
     {
-      "modifierId": "51526021",
+      "modifierId": "51525121",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "鼠王的百面骰",
+      "affixType": "破碎日环",
       "source": "项链",
-      "effectPlain": "额外 +(6–30) % 最大伤害",
+      "effectPlain": "+(9–12) % 元素抗性",
       "valueSpans": [
-        "+(6–30)"
+        "+(9–12)"
       ]
     },
     {
-      "modifierId": "51526031",
+      "modifierId": "51525151",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "鼠王的百面骰",
+      "affixType": "破碎日环",
       "source": "项链",
-      "effectPlain": "额外 (-30–-6) % 最小伤害",
-      "valueSpans": [
-        "(-30–-6)"
-      ]
+      "effectPlain": "日环",
+      "valueSpans": []
     },
     {
-      "modifierId": "51526041",
+      "modifierId": "51521111",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "鼠王的百面骰",
+      "affixType": "磐岩的汪洋",
       "source": "项链",
-      "effectPlain": "每过 5 秒随机触发一个如下效果，持续 5 秒 暴击 幸运 伤害 不幸 伤害 幸运 暴击 不幸",
+      "effectPlain": "+(132–176) 最大生命",
       "valueSpans": [
-        "5",
-        "5"
+        "+(132–176)"
       ]
     },
     {
-      "modifierId": "51526311",
+      "modifierId": "51521121",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "磐岩的汪洋",
+      "source": "项链",
+      "effectPlain": "+(210–280) 最大护盾",
+      "valueSpans": [
+        "+(210–280)"
+      ]
+    },
+    {
+      "modifierId": "51521131",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "磐岩的汪洋",
+      "source": "项链",
+      "effectPlain": "[龟缩] 每隔 1 秒，获得 屏障 +50 % 屏障 吸收量",
+      "valueSpans": [
+        "+50"
+      ]
+    },
+    {
+      "modifierId": "51521141",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "磐岩的汪洋",
+      "source": "项链",
+      "effectPlain": "附加 (10–15) % 最大生命的护盾",
+      "valueSpans": [
+        "(10–15)"
+      ]
+    },
+    {
+      "modifierId": "85020191",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "项链",
+      "effectPlain": "造成伤害时，触发 20 级 感电 诅咒，冷却时间为 0.2 秒",
+      "valueSpans": [
+        "20",
+        "0.2"
+      ]
+    },
+    {
+      "modifierId": "85020161",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "项链",
+      "effectPlain": "造成伤害时，触发 20 级 易伤 诅咒，冷却时间为 0.2 秒",
+      "valueSpans": [
+        "20",
+        "0.2"
+      ]
+    },
+    {
+      "modifierId": "85020171",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "项链",
+      "effectPlain": "造成伤害时，触发 20 级 炽热 诅咒，冷却时间为 0.2 秒",
+      "valueSpans": [
+        "20",
+        "0.2"
+      ]
+    },
+    {
+      "modifierId": "85020181",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "项链",
+      "effectPlain": "造成伤害时，触发 20 级 蚀骨之寒 诅咒，冷却时间为 0.2 秒",
+      "valueSpans": [
+        "20",
+        "0.2"
+      ]
+    },
+    {
+      "modifierId": "85020201",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "项链",
+      "effectPlain": "造成伤害时，触发 20 级 邪恶侵蚀 诅咒，冷却时间为 0.2 秒",
+      "valueSpans": [
+        "20",
+        "0.2"
+      ]
+    },
+    {
+      "modifierId": "85020151",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "项链",
+      "effectPlain": "+(6–8) % 魔力封印 补偿",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "85020111",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "项链",
+      "effectPlain": "+(8–10) % 移动速度",
+      "valueSpans": [
+        "+(8–10)"
+      ]
+    },
+    {
+      "modifierId": "85020211",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "项链",
+      "effectPlain": "拥有 邪祟 ；召唤物拥有 邪祟",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "85020131",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "项链",
+      "effectPlain": "每 27 点属性， +1 % 伤害",
+      "valueSpans": [
+        "27",
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85020121",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "项链",
+      "effectPlain": "每拥有 1 层任意祝福， +(2–3) % 伤害",
+      "valueSpans": [
+        "+(2–3)"
+      ]
+    },
+    {
+      "modifierId": "85020141",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "项链",
+      "effectPlain": "附加 10 - 10 异常基础伤害",
+      "valueSpans": [
+        "10",
+        "10"
+      ]
+    },
+    {
+      "modifierId": "85020071",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "项链",
+      "effectPlain": "+(15–20) 力量",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85020081",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "项链",
+      "effectPlain": "+(15–20) 敏捷",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85020091",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "项链",
+      "effectPlain": "+(15–20) 智慧",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85020101",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "项链",
+      "effectPlain": "+(20–24) % 伤害 +(20–24) % 召唤物伤害",
+      "valueSpans": [
+        "+(20–24)",
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85020061",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "项链",
+      "effectPlain": "+(3–4) % 元素 抗性",
+      "valueSpans": [
+        "+(3–4)"
+      ]
+    },
+    {
+      "modifierId": "85020001",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "项链",
+      "effectPlain": "+(54–74) 最大生命",
+      "valueSpans": [
+        "+(54–74)"
+      ]
+    },
+    {
+      "modifierId": "85020031",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "项链",
+      "effectPlain": "+(5–10) % 冰冷抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "85020021",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "项链",
+      "effectPlain": "+(5–10) % 火焰抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "85020051",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "项链",
+      "effectPlain": "+(5–10) % 腐蚀抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "85020041",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "项链",
+      "effectPlain": "+(5–10) % 闪电抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "85020011",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "项链",
+      "effectPlain": "+(87–117) 最大护盾",
+      "valueSpans": [
+        "+(87–117)"
+      ]
+    },
+    {
+      "modifierId": "51527441",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "腐殖恩泽",
+      "source": "项链",
+      "effectPlain": "(-20–-10) % 魔力封印补偿",
+      "valueSpans": [
+        "(-20–-10)"
+      ]
+    },
+    {
+      "modifierId": "51527431",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "腐殖恩泽",
+      "source": "项链",
+      "effectPlain": "+(120–140) % 腐蚀增幅光环效果",
+      "valueSpans": [
+        "+(120–140)"
+      ]
+    },
+    {
+      "modifierId": "51527421",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "腐殖恩泽",
+      "source": "项链",
+      "effectPlain": "+(50–70) % 腐蚀伤害",
+      "valueSpans": [
+        "+(50–70)"
+      ]
+    },
+    {
+      "modifierId": "51527411",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "腐殖恩泽",
+      "source": "项链",
+      "effectPlain": "+(5–10) % 最大生命",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "115200680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Necklace",
+      "effectPlain": "+(3–4) 召唤召唤物的技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140901880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Necklace",
+      "effectPlain": "+(66–85) % 恶化 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Necklace",
+      "effectPlain": "+4 主动技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116200880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Necklace",
+      "effectPlain": "[灯塔] 法术迸发 上限 +2 额外 +8 % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140201480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Necklace",
+      "effectPlain": "你可以对敌人附着 1 个额外 纠缠 +(20–25) % 纠缠 伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Necklace",
+      "effectPlain": "拥有 战意 额外 +12 % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Necklace",
+      "effectPlain": "连续攻击 伤害递增 (53–68) %",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140901800",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Necklace",
+      "effectPlain": "+(51–65) % 恶化 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Necklace",
+      "effectPlain": "+3 主动技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115200600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Necklace",
+      "effectPlain": "+3 召唤召唤物的技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116200800",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Necklace",
+      "effectPlain": "[灯塔] 法术迸发 上限 +2",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140201400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Necklace",
+      "effectPlain": "你可以对敌人附着 1 个额外 纠缠 +(12–15) % 纠缠 伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Necklace",
+      "effectPlain": "拥有 战意 额外 +5 % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Necklace",
+      "effectPlain": "连续攻击 伤害递增 (36–52) %",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200001",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Necklace",
+      "effectPlain": "+(1–2) 主动技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140901801",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Necklace",
+      "effectPlain": "+(36–50) % 恶化 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115200601",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Necklace",
+      "effectPlain": "+2 召唤召唤物的技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140201401",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Necklace",
+      "effectPlain": "你可以对敌人附着 1 个额外 纠缠 +(5–8) % 纠缠 伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200601",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Necklace",
+      "effectPlain": "拥有 战意",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116200801",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Necklace",
+      "effectPlain": "法术迸发 上限 +1",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200701",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Necklace",
+      "effectPlain": "连续攻击 伤害递增 (28–40) %",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140901802",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Necklace",
+      "effectPlain": "+(26–35) % 恶化 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200702",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Necklace",
+      "effectPlain": "连续攻击 伤害递增 (24–28) %",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140901803",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 400,
+      "affixType": "至臻前缀",
+      "source": "Necklace",
+      "effectPlain": "+(21–25) % 恶化 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200703",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "Necklace",
+      "effectPlain": "连续攻击 伤害递增 (17–20) %",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Necklace",
+      "effectPlain": "+(27–34) % 光环效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Necklace",
+      "effectPlain": "+(27–34) % 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Necklace",
+      "effectPlain": "+(43–54) % 恶化 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Necklace",
+      "effectPlain": "每 6 点属性， +1 % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "120200080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Necklace",
+      "effectPlain": "每拥有 1 层任意祝福， +(9–10) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Necklace",
+      "effectPlain": "+(21–26) % 光环效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Necklace",
+      "effectPlain": "+(21–26) % 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Necklace",
+      "effectPlain": "+(33–42) % 恶化 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Necklace",
+      "effectPlain": "每 8 点属性， +1 % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "120200000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Necklace",
+      "effectPlain": "每拥有 1 层任意祝福， +(7–8) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200301",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Necklace",
+      "effectPlain": "+(15–20) % 光环效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200101",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Necklace",
+      "effectPlain": "+(15–20) % 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902001",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Necklace",
+      "effectPlain": "+(23–32) % 恶化 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200401",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Necklace",
+      "effectPlain": "每 12 点属性， +1 % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "120200001",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Necklace",
+      "effectPlain": "每拥有 1 层任意祝福， +(5–6) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200302",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Necklace",
+      "effectPlain": "+(11–14) % 光环效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200102",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Necklace",
+      "effectPlain": "+(11–14) % 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902002",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Necklace",
+      "effectPlain": "+(17–22) % 恶化 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200402",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Necklace",
+      "effectPlain": "每 16 点属性， +1 % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902003",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 400,
+      "affixType": "至臻后缀",
+      "source": "Necklace",
+      "effectPlain": "+(14–16) % 恶化 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200103",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "Necklace",
+      "effectPlain": "+(8–10) % 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200303",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "Necklace",
+      "effectPlain": "+(9–10) % 光环效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200403",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "Necklace",
+      "effectPlain": "每 24 点属性， +1 % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51520231",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "荒芜结晶",
+      "source": "项链",
+      "effectPlain": "+(25–36) % 护甲值",
+      "valueSpans": [
+        "+(25–36)"
+      ]
+    },
+    {
+      "modifierId": "55520261",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "荒芜结晶",
+      "source": "项链",
+      "effectPlain": "对非物理伤害， +(10–20) % 护甲有效率",
+      "valueSpans": [
+        "+(10–20)"
+      ]
+    },
+    {
+      "modifierId": "55520251",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "荒芜结晶",
+      "source": "项链",
+      "effectPlain": "护甲值不低于 100000 点时， +(10–15) % 元素和腐蚀抗性",
+      "valueSpans": [
+        "100000",
+        "+(10–15)"
+      ]
+    },
+    {
+      "modifierId": "51520241",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "荒芜结晶",
+      "source": "项链",
+      "effectPlain": "每 10000 点护甲值，额外 +(3–4) % 伤害",
+      "valueSpans": [
+        "10000",
+        "+(3–4)"
+      ]
+    },
+    {
+      "modifierId": "51521851",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "贤者的铁枷",
+      "source": "项链",
+      "effectPlain": "+(12–14) % 护盾 充能 速度",
+      "valueSpans": [
+        "+(12–14)"
+      ]
+    },
+    {
+      "modifierId": "51521821",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "贤者的铁枷",
+      "source": "项链",
+      "effectPlain": "+(19–24) % 冷却回复速度",
+      "valueSpans": [
+        "+(19–24)"
+      ]
+    },
+    {
+      "modifierId": "51521841",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "贤者的铁枷",
+      "source": "项链",
+      "effectPlain": "+(60–80) % 魔力自然回复速度",
+      "valueSpans": [
+        "+(60–80)"
+      ]
+    },
+    {
+      "modifierId": "51521811",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "贤者的铁枷",
+      "source": "项链",
+      "effectPlain": "+25 全属性",
+      "valueSpans": [
+        "+25"
+      ]
+    },
+    {
+      "modifierId": "51521831",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "贤者的铁枷",
+      "source": "项链",
+      "effectPlain": "无法回复生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(27–34) % 防御值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(40–51) % 坚固 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(40–51) % 灵敏 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(40–51) % 能量壁垒 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140901980",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(43–54) % 恶化 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109200080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(79–101) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109200180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(79–101) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109200280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(79–101) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140201380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "拥有 邪祟 ；召唤物拥有 邪祟 +(60–80) % 腐蚀伤害 +(60–80) % 召唤物腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140201180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "释放攻击技能时，获得 攻击激进 +(70–100) % 攻击激进 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140201280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "释放法术技能时，获得 法术激进 +(70–100) % 法术激进 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116200980",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "魔灵 +(63–81) 初始 生长值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(21–26) % 防御值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(31–39) % 坚固 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(31–39) % 灵敏 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(31–39) % 能量壁垒 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140901900",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(33–42) % 恶化 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109200000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(61–78) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109200100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(61–78) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109200200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(61–78) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140201300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "拥有 邪祟 ；召唤物拥有 邪祟 +(40–50) % 腐蚀伤害 +(40–50) % 召唤物腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140201100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "释放攻击技能时，获得 攻击激进 +(40–60) % 攻击激进 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140201200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "释放法术技能时，获得 法术激进 +(40–60) % 法术激进 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116200900",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "魔灵 +(49–62) 初始 生长值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(15–20) % 防御值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200501",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(22–30) % 坚固 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(22–30) % 灵敏 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200701",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(22–30) % 能量壁垒 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140901901",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(23–32) % 恶化 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109200001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(43–60) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109200101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(43–60) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109200201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(43–60) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140201301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "拥有 邪祟 ；召唤物拥有 邪祟 +(20–30) % 腐蚀伤害 +(20–30) % 召唤物腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140201101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "释放攻击技能时，获得 攻击激进 +(10–30) % 攻击激进 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140201201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "释放法术技能时，获得 法术激进 +(10–30) % 法术激进 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116200901",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "魔灵 +(35–48) 初始 生长值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(11–14) % 防御值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200502",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(16–21) % 坚固 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200602",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(16–21) % 灵敏 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200702",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(16–21) % 能量壁垒 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140901902",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(17–22) % 恶化 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109200002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(31–42) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109200102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(31–42) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109200202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(31–42) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116200902",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "魔灵 +(25–34) 初始 生长值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200503",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(13–15) % 坚固 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200603",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(13–15) % 灵敏 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200703",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(13–15) % 能量壁垒 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140901903",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 400,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(14–16) % 恶化 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109200003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(25–30) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109200103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(25–30) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109200203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(25–30) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 400,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(8–10) % 防御值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116200903",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 400,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "魔灵 +(20–24) 初始 生长值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200504",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(11–12) % 坚固 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200604",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(11–12) % 灵敏 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200704",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(11–12) % 能量壁垒 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109200004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(20–24) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109200104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(20–24) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109200204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(20–24) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(6–7) % 防御值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116200904",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "魔灵 +(16–19) 初始 生长值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109200005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(17–19) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109200105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(17–19) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109200205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(17–19) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(4–5) % 防御值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200505",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(9–10) % 坚固 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200605",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(9–10) % 灵敏 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200705",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(9–10) % 能量壁垒 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116200905",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "魔灵 +(13–15) 初始 生长值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109200006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(13–16) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109200106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(13–16) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109200206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(13–16) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200506",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(7–8) % 坚固 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200606",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(7–8) % 灵敏 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200706",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(7–8) % 能量壁垒 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 1350,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+3 % 防御值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116200906",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 1350,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "魔灵 +(11–12) 初始 生长值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109200007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(10–12) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109200107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(10–12) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109200207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+(10–12) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130200207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 1350,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+2 % 防御值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200507",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+6 % 坚固 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200607",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+6 % 灵敏 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200707",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "+6 % 能量壁垒 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116200907",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 1350,
+      "affixType": "进阶前缀",
+      "source": "Necklace",
+      "effectPlain": "魔灵 +(8–10) 初始 生长值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116200280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(14–17) % 元素 抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200980",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(14–17) % 全属性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(24–30) % 祝福持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110200480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(32–41) % 攻击与施法速度 +(32–41) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110200180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(79–101) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115200980",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "使用地面技能时， 100 % 几率获得 1 层蓄能层数",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140201080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "每移动 5 米， 100 % 几率获得 屏障 +58 % 屏障 吸收量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116200200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(11–13) % 元素 抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200900",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(11–13) % 全属性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200800",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(19–23) % 祝福持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110200400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(25–31) % 攻击与施法速度 +(25–31) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110200100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(61–78) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115200900",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "使用地面技能时， 80 % 几率获得 1 层蓄能层数",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140201000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "每移动 5 米， 100 % 几率获得 屏障 +25 % 屏障 吸收量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200801",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(14–18) % 祝福持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110200401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(18–24) % 攻击与施法速度 +(18–24) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110200101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(42–60) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116200201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(8–10) % 元素 抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200901",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(8–10) % 全属性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115200901",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "使用地面技能时， 60 % 几率获得 1 层蓄能层数",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140201001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "每移动 5 米， 100 % 几率获得 屏障",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200802",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(10–13) % 祝福持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110200402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(13–17) % 攻击与施法速度 +(13–17) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110200102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(35–42) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116200202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(6–7) % 元素 抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200902",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(6–7) % 全属性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115200902",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "使用地面技能时， 40 % 几率获得 1 层蓄能层数",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110200403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 400,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(10–12) % 攻击与施法速度 +(10–12) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110200103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(25–30) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200803",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(8–9) % 祝福持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116200203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 400,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+5 % 元素 抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200903",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+5 % 全属性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115200903",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 400,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "使用地面技能时， 20 % 几率获得 1 层蓄能层数",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110200104",
+      "tier": 4,
+      "itemLevel": 72,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(20–24) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110200404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(7–9) % 攻击与施法速度 +(7–9) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200904",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+4 % 全属性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200804",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+7 % 祝福持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110200105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(16–19) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110200405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(5–6) % 攻击与施法速度 +(5–6) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200905",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+3 % 全属性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200805",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+6 % 祝福持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110200106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(13–16) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200906",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+2 % 全属性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110200406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 1350,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+4 % 攻击与施法速度 +4 % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200806",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+5 % 祝福持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110200107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 1350,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+(9–10) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200907",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+1 % 全属性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110200407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 1350,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+3 % 攻击与施法速度 +3 % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140200807",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Necklace",
+      "effectPlain": "+4 % 祝福持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51528111",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "逆反",
+      "source": "项链",
+      "effectPlain": "+(30–40) 全属性",
+      "valueSpans": [
+        "+(30–40)"
+      ]
+    },
+    {
+      "modifierId": "51528121",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "逆反",
+      "source": "项链",
+      "effectPlain": "每个未安装主动技能的主动技能槽位 +1 被动技能等级",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51528131",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "逆反",
+      "source": "项链",
+      "effectPlain": "每个未安装被动技能的被动技能槽位 +1 核心技能等级",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51526361",
       "tier": null,
       "itemLevel": null,
       "weight": null,
       "affixType": "铁巢",
       "source": "项链",
-      "effectPlain": "统御值 每秒增加转变为每秒减少 使用 黑暗之门 获得的统御值变为失去统御值",
-      "valueSpans": []
+      "effectPlain": "+20 % 移动速度 +20 % 位移技能冷却回复速度",
+      "valueSpans": [
+        "+20",
+        "+20"
+      ]
     },
     {
       "modifierId": "51526321",
@@ -2606,137 +5345,14 @@
       ]
     },
     {
-      "modifierId": "51526361",
+      "modifierId": "51526311",
       "tier": null,
       "itemLevel": null,
       "weight": null,
       "affixType": "铁巢",
       "source": "项链",
-      "effectPlain": "+20 % 移动速度 +20 % 位移技能冷却回复速度",
-      "valueSpans": [
-        "+20",
-        "+20"
-      ]
-    },
-    {
-      "modifierId": "51526421",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "永生挽歌",
-      "source": "项链",
-      "effectPlain": "每引导 3 次，位移技能获得1充能点数",
-      "valueSpans": [
-        "3"
-      ]
-    },
-    {
-      "modifierId": "51526431",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "永生挽歌",
-      "source": "项链",
-      "effectPlain": "静止时，额外 -20 % 受到的元素伤害",
-      "valueSpans": [
-        "-20"
-      ]
-    },
-    {
-      "modifierId": "51526441",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "永生挽歌",
-      "source": "项链",
-      "effectPlain": "静止时，额外 +(60–70) % 射线技能伤害",
-      "valueSpans": [
-        "+(60–70)"
-      ]
-    },
-    {
-      "modifierId": "51526451",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "永生挽歌",
-      "source": "项链",
-      "effectPlain": "静止时，额外 +(20–30) % 射线技能施法速度",
-      "valueSpans": [
-        "+(20–30)"
-      ]
-    },
-    {
-      "modifierId": "51526461",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "永生挽歌",
-      "source": "项链",
-      "effectPlain": "+(20–30) % 射线长度",
-      "valueSpans": [
-        "+(20–30)"
-      ]
-    },
-    {
-      "modifierId": "51526711",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "厌光",
-      "source": "项链",
-      "effectPlain": "[灯塔] 法术迸发 上限 +2",
-      "valueSpans": [
-        "+2"
-      ]
-    },
-    {
-      "modifierId": "51526721",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "厌光",
-      "source": "项链",
-      "effectPlain": "激活法术迸发时，每次法术迸发额外 -5 % 技能范围",
-      "valueSpans": [
-        "-5"
-      ]
-    },
-    {
-      "modifierId": "51526911",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "劲风起时",
-      "source": "项链",
-      "effectPlain": "击中时，淘汰生命低于 10 % 的敌人",
-      "valueSpans": [
-        "10"
-      ]
-    },
-    {
-      "modifierId": "51526921",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "劲风起时",
-      "source": "项链",
-      "effectPlain": "[狂风] 对投射物速度加成的 60 % 同样作用于对投射物伤害的额外加成",
-      "valueSpans": [
-        "60"
-      ]
-    },
-    {
-      "modifierId": "51526931",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "劲风起时",
-      "source": "项链",
-      "effectPlain": "+(100–160) % 远程攻击暴击值",
-      "valueSpans": [
-        "+(100–160)"
-      ]
+      "effectPlain": "统御值 每秒增加转变为每秒减少 使用 黑暗之门 获得的统御值变为失去统御值",
+      "valueSpans": []
     },
     {
       "modifierId": "51527211",
@@ -2785,343 +5401,63 @@
       "valueSpans": []
     },
     {
-      "modifierId": "51527411",
+      "modifierId": "51520531",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "腐殖恩泽",
+      "affixType": "防御宗师吊坠",
       "source": "项链",
-      "effectPlain": "+(5–10) % 最大生命",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "51527421",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "腐殖恩泽",
-      "source": "项链",
-      "effectPlain": "+(50–70) % 腐蚀伤害",
-      "valueSpans": [
-        "+(50–70)"
-      ]
-    },
-    {
-      "modifierId": "51527431",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "腐殖恩泽",
-      "source": "项链",
-      "effectPlain": "+(120–140) % 腐蚀增幅光环效果",
-      "valueSpans": [
-        "+(120–140)"
-      ]
-    },
-    {
-      "modifierId": "51527441",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "腐殖恩泽",
-      "source": "项链",
-      "effectPlain": "(-20–-10) % 魔力封印补偿",
-      "valueSpans": [
-        "(-20–-10)"
-      ]
-    },
-    {
-      "modifierId": "51527511",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "风暴之心",
-      "source": "项链",
-      "effectPlain": "+(12–16) % 最大生命和最大护盾",
+      "effectPlain": "+(12–16) % 攻击与法术格挡率",
       "valueSpans": [
         "+(12–16)"
       ]
     },
     {
-      "modifierId": "51527521",
+      "modifierId": "51520521",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "风暴之心",
+      "affixType": "防御宗师吊坠",
       "source": "项链",
-      "effectPlain": "自动以自身为中心形成持续 8 秒的 风场 ，有 10 秒冷却时间 处于风场时，自身获得 风暴",
+      "effectPlain": "+(25–30) % 从所有防具获得的 防御值",
       "valueSpans": [
-        "8",
-        "10"
+        "+(25–30)"
       ]
     },
     {
-      "modifierId": "51527531",
+      "modifierId": "51520511",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "风暴之心",
+      "affixType": "防御宗师吊坠",
       "source": "项链",
-      "effectPlain": "最近每使用一次攻击直射投射物技能， +(5–6) % 风暴 效果，最多增加 10 层",
+      "effectPlain": "+(70–100) 最大生命",
       "valueSpans": [
-        "+(5–6)",
-        "10"
+        "+(70–100)"
       ]
     },
     {
-      "modifierId": "54526471",
+      "modifierId": "51520541",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "颂恶念珠",
+      "affixType": "防御宗师吊坠",
       "source": "项链",
-      "effectPlain": "+60 最大生命",
+      "effectPlain": "格挡比例固定为 50 %",
       "valueSpans": [
-        "+60"
-      ]
-    },
-    {
-      "modifierId": "54526481",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "颂恶念珠",
-      "source": "项链",
-      "effectPlain": "+(30–50) % 技能范围",
-      "valueSpans": [
-        "+(30–50)"
-      ]
-    },
-    {
-      "modifierId": "54526491",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "颂恶念珠",
-      "source": "项链",
-      "effectPlain": "对 劲敌 ，额外 +10 % 腐蚀范围伤害",
-      "valueSpans": [
-        "+10"
-      ]
-    },
-    {
-      "modifierId": "51527711",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "溯寒者的鸣泣",
-      "source": "项链",
-      "effectPlain": "+30 % 几率造成 伤害型异常状态",
-      "valueSpans": [
-        "+30"
-      ]
-    },
-    {
-      "modifierId": "51527721",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "溯寒者的鸣泣",
-      "source": "项链",
-      "effectPlain": "+(15–20) % 元素抗性",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "51527731",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "溯寒者的鸣泣",
-      "source": "项链",
-      "effectPlain": "+(40–50) % 异常伤害加深",
-      "valueSpans": [
-        "+(40–50)"
-      ]
-    },
-    {
-      "modifierId": "51527741",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "溯寒者的鸣泣",
-      "source": "项链",
-      "effectPlain": "免疫 冰结 免疫 减速",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "51527821",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "汞海极刑",
-      "source": "项链",
-      "effectPlain": "+(100–120) 最大魔力",
-      "valueSpans": [
-        "+(100–120)"
-      ]
-    },
-    {
-      "modifierId": "51527831",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "汞海极刑",
-      "source": "项链",
-      "effectPlain": "对处于 元素异常 状态下的敌人额外 +(18–24) % 元素伤害",
-      "valueSpans": [
-        "+(18–24)"
-      ]
-    },
-    {
-      "modifierId": "51527911",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "凡夫的梦",
-      "source": "项链",
-      "effectPlain": "+(190–220) 最大生命",
-      "valueSpans": [
-        "+(190–220)"
-      ]
-    },
-    {
-      "modifierId": "51527921",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "凡夫的梦",
-      "source": "项链",
-      "effectPlain": "每消耗 (900–1000) 点同种技能的贯注值，获得超凡状态，持续 4 秒",
-      "valueSpans": [
-        "(900–1000)",
-        "4"
-      ]
-    },
-    {
-      "modifierId": "51527931",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "凡夫的梦",
-      "source": "项链",
-      "effectPlain": "超凡状态下，额外 +(30–40) % 贯注速度， +(40–48) % 贯注技能范围",
-      "valueSpans": [
-        "+(30–40)",
-        "+(40–48)"
-      ]
-    },
-    {
-      "modifierId": "51527941",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "凡夫的梦",
-      "source": "项链",
-      "effectPlain": "超凡状态下，触发贯注技能时有 (30–40) % 几率额外触发一次；对贯注速度加成的 50 % 作用于额外触发几率",
-      "valueSpans": [
-        "(30–40)",
         "50"
       ]
     },
     {
-      "modifierId": "51528011",
+      "modifierId": "51528321",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "无相禅心",
+      "affixType": "霜狱雷鸣",
       "source": "项链",
-      "effectPlain": "+(190–220) 最大生命和最大护盾",
+      "effectPlain": "+(10–12) 全属性",
       "valueSpans": [
-        "+(190–220)"
-      ]
-    },
-    {
-      "modifierId": "51528021",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "无相禅心",
-      "source": "项链",
-      "effectPlain": "使用连携技能后，额外 (-15–-10) % 受到的伤害，持续 0.5 秒",
-      "valueSpans": [
-        "(-15–-10)",
-        "0.5"
-      ]
-    },
-    {
-      "modifierId": "51528031",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "无相禅心",
-      "source": "项链",
-      "effectPlain": "+1 连携终结技可释放次数",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "51528041",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "无相禅心",
-      "source": "项链",
-      "effectPlain": "+(10–20) % 连携终结技增幅",
-      "valueSpans": [
-        "+(10–20)"
-      ]
-    },
-    {
-      "modifierId": "51528051",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "无相禅心",
-      "source": "项链",
-      "effectPlain": "连携终结技暴击时，获得 (1–2) 点连携点；每次技能仅能触发 1 次该效果； 法术迸发 时，该效果仅对激活迸发时的首次技能生效",
-      "valueSpans": [
-        "(1–2)"
-      ]
-    },
-    {
-      "modifierId": "51528111",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "逆反",
-      "source": "项链",
-      "effectPlain": "+(30–40) 全属性",
-      "valueSpans": [
-        "+(30–40)"
-      ]
-    },
-    {
-      "modifierId": "51528121",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "逆反",
-      "source": "项链",
-      "effectPlain": "每个未安装主动技能的主动技能槽位 +1 被动技能等级",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "51528131",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "逆反",
-      "source": "项链",
-      "effectPlain": "每个未安装被动技能的被动技能槽位 +1 核心技能等级",
-      "valueSpans": [
-        "+1"
+        "+(10–12)"
       ]
     },
     {
@@ -3137,15 +5473,15 @@
       ]
     },
     {
-      "modifierId": "51528321",
+      "modifierId": "51528341",
       "tier": null,
       "itemLevel": null,
       "weight": null,
       "affixType": "霜狱雷鸣",
       "source": "项链",
-      "effectPlain": "+(10–12) 全属性",
+      "effectPlain": "+10 % 冰冷与闪电抗性",
       "valueSpans": [
-        "+(10–12)"
+        "+10"
       ]
     },
     {
@@ -3162,143 +5498,130 @@
       ]
     },
     {
-      "modifierId": "51528341",
+      "modifierId": "54526481",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "霜狱雷鸣",
+      "affixType": "颂恶念珠",
       "source": "项链",
-      "effectPlain": "+10 % 冰冷与闪电抗性",
+      "effectPlain": "+(30–50) % 技能范围",
+      "valueSpans": [
+        "+(30–50)"
+      ]
+    },
+    {
+      "modifierId": "54526471",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "颂恶念珠",
+      "source": "项链",
+      "effectPlain": "+60 最大生命",
+      "valueSpans": [
+        "+60"
+      ]
+    },
+    {
+      "modifierId": "54526491",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "颂恶念珠",
+      "source": "项链",
+      "effectPlain": "对 劲敌 ，额外 +10 % 腐蚀范围伤害",
       "valueSpans": [
         "+10"
       ]
     },
     {
-      "modifierId": "51528411",
+      "modifierId": "51527511",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "不轨律",
+      "affixType": "风暴之心",
       "source": "项链",
-      "effectPlain": "+(20–30) % 最大生命、最大魔力和最大护盾",
+      "effectPlain": "+(12–16) % 最大生命和最大护盾",
       "valueSpans": [
-        "+(20–30)"
+        "+(12–16)"
       ]
     },
     {
-      "modifierId": "51528421",
+      "modifierId": "51527531",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "不轨律",
+      "affixType": "风暴之心",
       "source": "项链",
-      "effectPlain": "+(20–30) % 几率避免 元素异常 状态",
+      "effectPlain": "最近每使用一次攻击直射投射物技能， +(5–6) % 风暴 效果，最多增加 10 层",
       "valueSpans": [
-        "+(20–30)"
-      ]
-    },
-    {
-      "modifierId": "51528431",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "不轨律",
-      "source": "项链",
-      "effectPlain": "每有 1 层 法术迸发 上限， +(30–40) % 伤害，最多 +320 %",
-      "valueSpans": [
-        "+(30–40)",
-        "+320"
-      ]
-    },
-    {
-      "modifierId": "51528461",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "不轨律",
-      "source": "项链",
-      "effectPlain": "封印 10 % 最大魔力，获得 欲求无厌",
-      "valueSpans": [
+        "+(5–6)",
         "10"
       ]
     },
     {
-      "modifierId": "51528511",
+      "modifierId": "51527521",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "旧怨",
+      "affixType": "风暴之心",
       "source": "项链",
-      "effectPlain": "+(10–16) % 最大生命、最大魔力和最大护盾",
+      "effectPlain": "自动以自身为中心形成持续 8 秒的 风场 ，有 10 秒冷却时间 处于风场时，自身获得 风暴",
       "valueSpans": [
-        "+(10–16)"
+        "8",
+        "10"
       ]
     },
     {
-      "modifierId": "51528521",
+      "modifierId": "51526011",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "旧怨",
+      "affixType": "鼠王的百面骰",
       "source": "项链",
-      "effectPlain": "+1 纠缠 数量上限",
+      "effectPlain": "+(65–75) % 暴击伤害",
       "valueSpans": [
-        "+1"
+        "+(65–75)"
       ]
     },
     {
-      "modifierId": "51528531",
+      "modifierId": "51526041",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "旧怨",
+      "affixType": "鼠王的百面骰",
       "source": "项链",
-      "effectPlain": "+50 % 纠缠 持续时间",
+      "effectPlain": "每过 5 秒随机触发一个如下效果，持续 5 秒 暴击 幸运 伤害 不幸 伤害 幸运 暴击 不幸",
       "valueSpans": [
-        "+50"
+        "5",
+        "5"
       ]
     },
     {
-      "modifierId": "51528541",
+      "modifierId": "51526031",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "旧怨",
+      "affixType": "鼠王的百面骰",
       "source": "项链",
-      "effectPlain": "+(50–80) 纠缠 暴击值",
+      "effectPlain": "额外 (-30–-6) % 最小伤害",
       "valueSpans": [
-        "+(50–80)"
+        "(-30–-6)"
+      ]
+    },
+    {
+      "modifierId": "51526021",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "鼠王的百面骰",
+      "source": "项链",
+      "effectPlain": "额外 +(6–30) % 最大伤害",
+      "valueSpans": [
+        "+(6–30)"
       ]
     }
   ],
   "tierVariantGroups": [
-    {
-      "skeleton": "{#} % 伤害",
-      "rolls": [
-        {
-          "modifierId": "60062011",
-          "tier": 0,
-          "itemLevel": 1,
-          "weight": 1,
-          "affixType": "侵蚀基底",
-          "valueSpans": [
-            "+(50–70)"
-          ],
-          "effectPlain": "+(50–70) % 伤害"
-        },
-        {
-          "modifierId": "140200301",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(51–72)"
-          ],
-          "effectPlain": "+(51–72) % 伤害"
-        }
-      ]
-    },
     {
       "skeleton": "{#} % 伤害 {#} % 召唤物伤害",
       "rolls": [
@@ -3337,17 +5660,6 @@
           "itemLevel": 1,
           "weight": 1,
           "affixType": "侵蚀基底",
-          "valueSpans": [
-            "+(8–10)"
-          ],
-          "effectPlain": "+(8–10) % 元素 抗性"
-        },
-        {
-          "modifierId": "116200201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶后缀",
           "valueSpans": [
             "+(8–10)"
           ],
@@ -3405,46 +5717,8 @@
       ]
     },
     {
-      "skeleton": "{#} % 全属性",
-      "rolls": [
-        {
-          "modifierId": "140200901",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶后缀",
-          "valueSpans": [
-            "+(8–10)"
-          ],
-          "effectPlain": "+(8–10) % 全属性"
-        },
-        {
-          "modifierId": "51525701",
-          "tier": null,
-          "itemLevel": null,
-          "weight": null,
-          "affixType": "伪神之蜕",
-          "valueSpans": [
-            "+(6–10)"
-          ],
-          "effectPlain": "+(6–10) % 全属性"
-        }
-      ]
-    },
-    {
       "skeleton": "{#} % 冰冷抗性",
       "rolls": [
-        {
-          "modifierId": "108200101",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 冰冷抗性"
-        },
         {
           "modifierId": "1502003",
           "tier": 2,
@@ -3508,33 +5782,6 @@
       ]
     },
     {
-      "skeleton": "{#} % 召唤物伤害",
-      "rolls": [
-        {
-          "modifierId": "140200401",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(51–72)"
-          ],
-          "effectPlain": "+(51–72) % 召唤物伤害"
-        },
-        {
-          "modifierId": "51520931",
-          "tier": null,
-          "itemLevel": null,
-          "weight": null,
-          "affixType": "典狱官的胸针",
-          "valueSpans": [
-            "+(101–144)"
-          ],
-          "effectPlain": "+(101–144) % 召唤物伤害"
-        }
-      ]
-    },
-    {
       "skeleton": "{#} % 技能范围",
       "rolls": [
         {
@@ -3573,60 +5820,6 @@
       ]
     },
     {
-      "skeleton": "{#} % 投射物速度",
-      "rolls": [
-        {
-          "modifierId": "140200001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(33–45)"
-          ],
-          "effectPlain": "+(33–45) % 投射物速度"
-        },
-        {
-          "modifierId": "51521731",
-          "tier": null,
-          "itemLevel": null,
-          "weight": null,
-          "affixType": "无主",
-          "valueSpans": [
-            "+16"
-          ],
-          "effectPlain": "+16 % 投射物速度"
-        }
-      ]
-    },
-    {
-      "skeleton": "{#} % 护甲值",
-      "rolls": [
-        {
-          "modifierId": "140200101",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(27–36)"
-          ],
-          "effectPlain": "+(27–36) % 护甲值"
-        },
-        {
-          "modifierId": "51520231",
-          "tier": null,
-          "itemLevel": null,
-          "weight": null,
-          "affixType": "荒芜结晶",
-          "valueSpans": [
-            "+(25–36)"
-          ],
-          "effectPlain": "+(25–36) % 护甲值"
-        }
-      ]
-    },
-    {
       "skeleton": "{#} % 攻击与施法速度",
       "rolls": [
         {
@@ -3656,17 +5849,6 @@
     {
       "skeleton": "{#} % 暴击伤害",
       "rolls": [
-        {
-          "modifierId": "110200101",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶后缀",
-          "valueSpans": [
-            "+(42–60)"
-          ],
-          "effectPlain": "+(42–60) % 暴击伤害"
-        },
         {
           "modifierId": "51520321",
           "tier": null,
@@ -3831,17 +6013,6 @@
       "skeleton": "{#} % 火焰抗性",
       "rolls": [
         {
-          "modifierId": "108200001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 火焰抗性"
-        },
-        {
           "modifierId": "1502002",
           "tier": 2,
           "itemLevel": 1,
@@ -3929,17 +6100,6 @@
       "skeleton": "{#} % 腐蚀抗性",
       "rolls": [
         {
-          "modifierId": "108200301",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 腐蚀抗性"
-        },
-        {
           "modifierId": "1502005",
           "tier": 2,
           "itemLevel": 1,
@@ -3978,17 +6138,6 @@
       "skeleton": "{#} % 闪电抗性",
       "rolls": [
         {
-          "modifierId": "108200201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 闪电抗性"
-        },
-        {
           "modifierId": "1502004",
           "tier": 2,
           "itemLevel": 1,
@@ -4024,46 +6173,8 @@
       ]
     },
     {
-      "skeleton": "{#} % 防御值",
-      "rolls": [
-        {
-          "modifierId": "130200201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(15–20)"
-          ],
-          "effectPlain": "+(15–20) % 防御值"
-        },
-        {
-          "modifierId": "51525211",
-          "tier": null,
-          "itemLevel": null,
-          "weight": null,
-          "affixType": "母神围场",
-          "valueSpans": [
-            "+(30–40)"
-          ],
-          "effectPlain": "+(30–40) % 防御值"
-        }
-      ]
-    },
-    {
       "skeleton": "{#} % 魔力封印 补偿",
       "rolls": [
-        {
-          "modifierId": "130200101",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻后缀",
-          "valueSpans": [
-            "+(15–20)"
-          ],
-          "effectPlain": "+(15–20) % 魔力封印 补偿"
-        },
         {
           "modifierId": "1502015",
           "tier": 1,
@@ -4141,17 +6252,6 @@
       "skeleton": "{#} 力量",
       "rolls": [
         {
-          "modifierId": "109200001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(43–60)"
-          ],
-          "effectPlain": "+(43–60) 力量"
-        },
-        {
           "modifierId": "1502007",
           "tier": 2,
           "itemLevel": 1,
@@ -4206,17 +6306,6 @@
       "skeleton": "{#} 敏捷",
       "rolls": [
         {
-          "modifierId": "109200101",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(43–60)"
-          ],
-          "effectPlain": "+(43–60) 敏捷"
-        },
-        {
           "modifierId": "1502008",
           "tier": 2,
           "itemLevel": 1,
@@ -4255,17 +6344,6 @@
       "skeleton": "{#} 智慧",
       "rolls": [
         {
-          "modifierId": "109200201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(43–60)"
-          ],
-          "effectPlain": "+(43–60) 智慧"
-        },
-        {
           "modifierId": "1502009",
           "tier": 2,
           "itemLevel": 1,
@@ -4292,17 +6370,6 @@
     {
       "skeleton": "{#} 最大护盾",
       "rolls": [
-        {
-          "modifierId": "105200201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(245–350)"
-          ],
-          "effectPlain": "+(245–350) 最大护盾"
-        },
         {
           "modifierId": "1502001",
           "tier": 2,
@@ -4352,17 +6419,6 @@
     {
       "skeleton": "{#} 最大生命",
       "rolls": [
-        {
-          "modifierId": "104200001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(155–220)"
-          ],
-          "effectPlain": "+(155–220) 最大生命"
-        },
         {
           "modifierId": "1502000",
           "tier": 2,
@@ -4512,17 +6568,6 @@
       "skeleton": "{#} 最大魔力",
       "rolls": [
         {
-          "modifierId": "140721901",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(85–120)"
-          ],
-          "effectPlain": "+(85–120) 最大魔力"
-        },
-        {
           "modifierId": "51524011",
           "tier": null,
           "itemLevel": null,
@@ -4570,35 +6615,6 @@
             "+(1–2)"
           ],
           "effectPlain": "+(1–2) 被动技能等级"
-        }
-      ]
-    },
-    {
-      "skeleton": "使用地面技能时， {#} % 几率获得 {#} 层蓄能层数",
-      "rolls": [
-        {
-          "modifierId": "115200901",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶后缀",
-          "valueSpans": [
-            "60",
-            "1"
-          ],
-          "effectPlain": "使用地面技能时， 60 % 几率获得 1 层蓄能层数"
-        },
-        {
-          "modifierId": "51525251",
-          "tier": null,
-          "itemLevel": null,
-          "weight": null,
-          "affixType": "母神围场",
-          "valueSpans": [
-            "(50–100)",
-            "1"
-          ],
-          "effectPlain": "使用地面技能时， (50–100) % 几率获得 1 层蓄能层数"
         }
       ]
     },
@@ -4658,18 +6674,6 @@
       "skeleton": "每 {#} 点属性， {#} % 伤害",
       "rolls": [
         {
-          "modifierId": "130200401",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻后缀",
-          "valueSpans": [
-            "12",
-            "+1"
-          ],
-          "effectPlain": "每 12 点属性， +1 % 伤害"
-        },
-        {
           "modifierId": "1502013",
           "tier": 1,
           "itemLevel": 1,
@@ -4698,17 +6702,6 @@
     {
       "skeleton": "每拥有 1 层任意祝福， {#} % 伤害",
       "rolls": [
-        {
-          "modifierId": "120200001",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻后缀",
-          "valueSpans": [
-            "+(5–6)"
-          ],
-          "effectPlain": "每拥有 1 层任意祝福， +(5–6) % 伤害"
-        },
         {
           "modifierId": "1502012",
           "tier": 1,
@@ -4908,5 +6901,5 @@
       ]
     }
   ],
-  "tierVariantGroupCount": 42
+  "tierVariantGroupCount": 35
 }

@@ -49,7 +49,7 @@ const props = defineProps<Props>()
 // 冰焰 吉玛｜冰结之心 冰结效果
 const FROST_SNOW_VALUES = [65, 90, 110, 130, 150] // 雪上加霜 冰结效果%
 
-const frostSnowLevel = ref<number>(5)
+const frostSnowLevel = ref<number>(3)
 
 const selectedSet = computed(() => new Set(props.selectedTraits ?? []))
 const coreSelected = computed(() => selectedSet.value.has('冰结之心'))

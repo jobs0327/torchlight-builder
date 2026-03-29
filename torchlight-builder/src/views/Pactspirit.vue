@@ -272,8 +272,9 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ref, watch } from 'vue'
+import { computed, onActivated, onMounted, ref, watch } from 'vue'
 import pactspiritJson from '@/data/pactspirit.json'
+import { useBuildStore } from '@/stores/build'
 
 type PactspiritItem = {
   id: string
@@ -339,6 +340,39 @@ const activeId = ref(items[0]?.id ?? '')
 const detailId = ref('')
 const selectedBattleIds = ref<string[]>([])
 const selectedDropIds = ref<string[]>([])
+const buildStore = useBuildStore()
+const PACTSPIRIT_SNAPSHOT_V = 1
+
+function applyPactspiritFromStore() {
+  const raw = buildStore.snapshot.pactspirit
+  if (!raw || typeof raw !== 'object') return
+  const p = raw as Record<string, unknown>
+  if (p.v !== PACTSPIRIT_SNAPSHOT_V) return
+  if (Array.isArray(p.selectedBattleIds)) {
+    selectedBattleIds.value = p.selectedBattleIds.map(x => String(x))
+  }
+  if (Array.isArray(p.selectedDropIds)) {
+    selectedDropIds.value = p.selectedDropIds.map(x => String(x))
+  }
+}
+
+applyPactspiritFromStore()
+
+watch(
+  [selectedBattleIds, selectedDropIds],
+  () => {
+    buildStore.setPactspirit({
+      v: PACTSPIRIT_SNAPSHOT_V,
+      selectedBattleIds: [...selectedBattleIds.value],
+      selectedDropIds: [...selectedDropIds.value]
+    })
+  },
+  { deep: true }
+)
+
+onMounted(applyPactspiritFromStore)
+onActivated(applyPactspiritFromStore)
+
 const selectLimitTip = ref('')
 const petKindFilter = ref<PetKindFilterId>('all')
 const dropPlayFilter = ref<DropPlayFilterId>('all')

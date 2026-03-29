@@ -36,6 +36,11 @@ const routes: RouteRecordRaw[] = [
     path: '/hero-memories',
     name: 'HeroMemories',
     component: () => import('@/views/HeroMemories.vue')
+  },
+  {
+    path: '/build-calc',
+    name: 'BuildCalc',
+    component: () => import('@/views/BuildCalc.vue')
   }
 ]
 

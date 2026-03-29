@@ -2,253 +2,187 @@
   "slug": "Two-Handed_Axe",
   "label": "Two-Handed Axe",
   "sourceUrl": "https://tlidb.com/cn/Two-Handed_Axe",
-  "fetchedAt": "2026-03-22T08:58:55Z",
-  "modifierCount": 117,
+  "fetchedAt": "2026-03-24T07:25:43Z",
+  "modifierCount": 350,
   "modifiers": [
     {
-      "modifierId": "1501300",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "双手斧",
-      "effectPlain": "攻击附加 (25–30) - (33–38) 点物理伤害",
-      "valueSpans": [
-        "(25–30)",
-        "(33–38)"
-      ]
-    },
-    {
-      "modifierId": "1501301",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "双手斧",
-      "effectPlain": "攻击附加 (24–29) - (34–39) 点火焰伤害",
-      "valueSpans": [
-        "(24–29)",
-        "(34–39)"
-      ]
-    },
-    {
-      "modifierId": "1501302",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "双手斧",
-      "effectPlain": "攻击附加 (24–29) - (34–39) 点冰冷伤害",
-      "valueSpans": [
-        "(24–29)",
-        "(34–39)"
-      ]
-    },
-    {
-      "modifierId": "1501303",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "双手斧",
-      "effectPlain": "攻击附加 (1–3) - (60–65) 点闪电伤害",
-      "valueSpans": [
-        "(1–3)",
-        "(60–65)"
-      ]
-    },
-    {
-      "modifierId": "1501304",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "双手斧",
-      "effectPlain": "攻击附加 (26–31) - (32–37) 点腐蚀伤害",
-      "valueSpans": [
-        "(26–31)",
-        "(32–37)"
-      ]
-    },
-    {
-      "modifierId": "1501305",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "双手斧",
-      "effectPlain": "+(40–48) % 物理伤害",
-      "valueSpans": [
-        "+(40–48)"
-      ]
-    },
-    {
-      "modifierId": "1501306",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "双手斧",
-      "effectPlain": "+(40–48) % 元素伤害",
-      "valueSpans": [
-        "+(40–48)"
-      ]
-    },
-    {
-      "modifierId": "1501307",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "双手斧",
-      "effectPlain": "+(40–48) % 腐蚀伤害",
-      "valueSpans": [
-        "+(40–48)"
-      ]
-    },
-    {
-      "modifierId": "1501308",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "双手斧",
-      "effectPlain": "+(40–48) % 近战伤害",
-      "valueSpans": [
-        "+(40–48)"
-      ]
-    },
-    {
-      "modifierId": "1501309",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "双手斧",
-      "effectPlain": "+(12–16) % 攻击速度",
-      "valueSpans": [
-        "+(12–16)"
-      ]
-    },
-    {
-      "modifierId": "1501310",
+      "modifierId": "160412013",
       "tier": 1,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "weight": 100,
+      "affixType": "中阶序列",
       "source": "双手斧",
-      "effectPlain": "对 创伤 状态下的敌人，额外 +(12–16) % 伤害",
+      "effectPlain": "+12 % 护甲减伤穿透",
       "valueSpans": [
-        "+(12–16)"
+        "+12"
       ]
     },
     {
-      "modifierId": "1501311",
+      "modifierId": "160420013",
       "tier": 1,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "weight": 100,
+      "affixType": "中阶序列",
       "source": "双手斧",
-      "effectPlain": "额外 +(12–18) % 斩击 伤害",
+      "effectPlain": "+16 % 全属性",
       "valueSpans": [
-        "+(12–18)"
+        "+16"
       ]
     },
     {
-      "modifierId": "1501312",
+      "modifierId": "160414013",
       "tier": 1,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "weight": 100,
+      "affixType": "中阶序列",
       "source": "双手斧",
-      "effectPlain": "+(12–16) % 元素和腐蚀抗性穿透",
+      "effectPlain": "+16 % 冰冷穿透",
       "valueSpans": [
-        "+(12–16)"
+        "+16"
       ]
     },
     {
-      "modifierId": "1501313",
+      "modifierId": "160413013",
       "tier": 1,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "weight": 100,
+      "affixType": "中阶序列",
       "source": "双手斧",
-      "effectPlain": "+(10–14) % 护甲减伤穿透",
+      "effectPlain": "+16 % 火焰穿透",
       "valueSpans": [
-        "+(10–14)"
+        "+16"
       ]
     },
     {
-      "modifierId": "1501314",
+      "modifierId": "160416013",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "双手斧",
+      "effectPlain": "+16 % 腐蚀抗性穿透",
+      "valueSpans": [
+        "+16"
+      ]
+    },
+    {
+      "modifierId": "160415013",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "双手斧",
+      "effectPlain": "+16 % 闪电穿透",
+      "valueSpans": [
+        "+16"
+      ]
+    },
+    {
+      "modifierId": "160418013",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "双手斧",
+      "effectPlain": "+20 % 该装备攻击暴击值",
+      "valueSpans": [
+        "+20"
+      ]
+    },
+    {
+      "modifierId": "160417013",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "双手斧",
+      "effectPlain": "+8 % 该装备攻击速度",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160419013",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "双手斧",
+      "effectPlain": "暴击时，额外 +20 % 伤害",
+      "valueSpans": [
+        "+20"
+      ]
+    },
+    {
+      "modifierId": "160411013",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "双手斧",
+      "effectPlain": "额外 +16 % 主手武器 伤害",
+      "valueSpans": [
+        "+16"
+      ]
+    },
+    {
+      "modifierId": "60061308",
       "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "双手斧",
-      "effectPlain": "+2 坚韧祝福 层数上限",
+      "effectPlain": "+(10–15) % 技能范围",
       "valueSpans": [
-        "+2"
+        "+(10–15)"
       ]
     },
     {
-      "modifierId": "1501315",
+      "modifierId": "60061304",
       "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "双手斧",
-      "effectPlain": "+2 灵动祝福 层数上限",
+      "effectPlain": "+(15–25) % 该装备物理伤害",
       "valueSpans": [
-        "+2"
+        "+(15–25)"
       ]
     },
     {
-      "modifierId": "1501316",
+      "modifierId": "60061306",
       "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "双手斧",
-      "effectPlain": "+2 聚能祝福 层数上限",
+      "effectPlain": "+(3–6) % 该装备攻击暴击值",
       "valueSpans": [
-        "+2"
+        "+(3–6)"
       ]
     },
     {
-      "modifierId": "1501317",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "双手斧",
-      "effectPlain": "+(48–64) % 该装备物理伤害",
-      "valueSpans": [
-        "+(48–64)"
-      ]
-    },
-    {
-      "modifierId": "1501318",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "双手斧",
-      "effectPlain": "该装备附加 (64–68) - (80–84) 点物理伤害",
-      "valueSpans": [
-        "(64–68)",
-        "(80–84)"
-      ]
-    },
-    {
-      "modifierId": "1501319",
+      "modifierId": "60061309",
       "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "双手斧",
-      "effectPlain": "暴击 幸运 (-50–-40) % 暴击值",
+      "effectPlain": "+(40–45) % 元素 伤害",
       "valueSpans": [
-        "(-50–-40)"
+        "+(40–45)"
+      ]
+    },
+    {
+      "modifierId": "60061305",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "双手斧",
+      "effectPlain": "+(5–8) % 该装备攻击速度",
+      "valueSpans": [
+        "+(5–8)"
       ]
     },
     {
@@ -291,42 +225,6 @@
       ]
     },
     {
-      "modifierId": "60061304",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "双手斧",
-      "effectPlain": "+(15–25) % 该装备物理伤害",
-      "valueSpans": [
-        "+(15–25)"
-      ]
-    },
-    {
-      "modifierId": "60061305",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "双手斧",
-      "effectPlain": "+(5–8) % 该装备攻击速度",
-      "valueSpans": [
-        "+(5–8)"
-      ]
-    },
-    {
-      "modifierId": "60061306",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "双手斧",
-      "effectPlain": "+(3–6) % 该装备攻击暴击值",
-      "valueSpans": [
-        "+(3–6)"
-      ]
-    },
-    {
       "modifierId": "60061307",
       "tier": 0,
       "itemLevel": 1,
@@ -339,80 +237,164 @@
       ]
     },
     {
-      "modifierId": "60061308",
+      "modifierId": "140130480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(282–365) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106130080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (121–123) - (149–151) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106130180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (257–259) - (333–351) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106130280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (260–262) - (346–348) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (279–281) - (327–329) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106130380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (29–31) - (577–579) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "造成持续伤害时，收割 (0.5–0.6) 秒 创伤 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131980",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "附加 1620 - 3780 基础 创伤 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140130400",
       "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "双手斧",
-      "effectPlain": "+(10–15) % 技能范围",
-      "valueSpans": [
-        "+(10–15)"
-      ]
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(217–281) % 近战伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "60061309",
+      "modifierId": "106130100",
       "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "双手斧",
-      "effectPlain": "+(40–45) % 元素 伤害",
-      "valueSpans": [
-        "+(40–45)"
-      ]
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (198–200) - (256–270) 点火焰伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "106130001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
+      "modifierId": "106130200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
       "affixType": "初阶前缀",
-      "source": "双手斧",
-      "effectPlain": "该装备附加 (71–73) - (87–89) 点物理伤害",
-      "valueSpans": [
-        "(71–73)",
-        "(87–89)"
-      ]
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (200–202) - (266–268) 点冰冷伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "106130101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
+      "modifierId": "140132100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
       "affixType": "初阶前缀",
-      "source": "双手斧",
-      "effectPlain": "该装备附加 (152–154) - (197–208) 点火焰伤害",
-      "valueSpans": [
-        "(152–154)",
-        "(197–208)"
-      ]
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (214–216) - (252–254) 点腐蚀伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "106130201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
+      "modifierId": "106130300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
       "affixType": "初阶前缀",
-      "source": "双手斧",
-      "effectPlain": "该装备附加 (154–156) - (204–206) 点冰冷伤害",
-      "valueSpans": [
-        "(154–156)",
-        "(204–206)"
-      ]
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (22–24) - (444–446) 点闪电伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "106130301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
+      "modifierId": "106130000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
       "affixType": "初阶前缀",
-      "source": "双手斧",
-      "effectPlain": "该装备附加 (17–19) - (341–343) 点闪电伤害",
-      "valueSpans": [
-        "(17–19)",
-        "(341–343)"
-      ]
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (93–95) - (113–115) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "造成持续伤害时，收割 (0.37–0.48) 秒 创伤 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131900",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "附加 1260 - 2940 基础 创伤 伤害",
+      "valueSpans": []
     },
     {
       "modifierId": "140130401",
@@ -420,37 +402,29 @@
       "itemLevel": 86,
       "weight": 100,
       "affixType": "初阶前缀",
-      "source": "双手斧",
+      "source": "Two-Handed Axe",
       "effectPlain": "+(152–216) % 近战伤害",
-      "valueSpans": [
-        "+(152–216)"
-      ]
+      "valueSpans": []
     },
     {
-      "modifierId": "140131901",
+      "modifierId": "106130101",
       "tier": 1,
       "itemLevel": 86,
       "weight": 100,
       "affixType": "初阶前缀",
-      "source": "双手斧",
-      "effectPlain": "附加 960 - 2240 基础 创伤 伤害",
-      "valueSpans": [
-        "960",
-        "2240"
-      ]
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (152–154) - (197–208) 点火焰伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "140132001",
+      "modifierId": "106130201",
       "tier": 1,
       "itemLevel": 86,
       "weight": 100,
       "affixType": "初阶前缀",
-      "source": "双手斧",
-      "effectPlain": "造成持续伤害时，收割 (0.25–0.36) 秒 创伤 伤害，该效果对同一目标有 1 秒回复时间",
-      "valueSpans": [
-        "(0.25–0.36)",
-        "1"
-      ]
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (154–156) - (204–206) 点冰冷伤害",
+      "valueSpans": []
     },
     {
       "modifierId": "140132101",
@@ -458,184 +432,619 @@
       "itemLevel": 86,
       "weight": 100,
       "affixType": "初阶前缀",
-      "source": "双手斧",
+      "source": "Two-Handed Axe",
       "effectPlain": "该装备附加 (165–167) - (193–195) 点腐蚀伤害",
-      "valueSpans": [
-        "(165–167)",
-        "(193–195)"
-      ]
+      "valueSpans": []
     },
     {
-      "modifierId": "107130001",
+      "modifierId": "106130301",
       "tier": 1,
       "itemLevel": 86,
       "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "双手斧",
-      "effectPlain": "+(49–80) % 该装备物理伤害",
-      "valueSpans": [
-        "+(49–80)"
-      ]
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (17–19) - (341–343) 点闪电伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "109130001",
+      "modifierId": "106130001",
       "tier": 1,
       "itemLevel": 86,
       "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "双手斧",
-      "effectPlain": "+(127–180) 力量",
-      "valueSpans": [
-        "+(127–180)"
-      ]
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (71–73) - (87–89) 点物理伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "109130101",
+      "modifierId": "140132001",
       "tier": 1,
       "itemLevel": 86,
       "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "双手斧",
-      "effectPlain": "+(127–180) 敏捷",
-      "valueSpans": [
-        "+(127–180)"
-      ]
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "造成持续伤害时，收割 (0.25–0.36) 秒 创伤 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
     },
     {
-      "modifierId": "109130301",
+      "modifierId": "140131901",
       "tier": 1,
       "itemLevel": 86,
       "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "双手斧",
-      "effectPlain": "+(127–180) 智慧",
-      "valueSpans": [
-        "+(127–180)"
-      ]
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "附加 960 - 2240 基础 创伤 伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "115130401",
-      "tier": 1,
+      "modifierId": "140130402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(109–151) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106130002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (42–44) - (52–54) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106130102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (59–61) - (76–82) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106130202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (59–61) - (79–81) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (63–65) - (75–77) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106130302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (6–8) - (132–134) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "造成持续伤害时，收割 (0.18–0.24) 秒 创伤 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131902",
+      "tier": 2,
+      "itemLevel": 78,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "附加 660 - 1540 基础 创伤 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140130403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(87–108) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106130003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (28–30) - (34–36) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106130103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (29–31) - (38–41) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106130203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (29–31) - (39–41) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (31–33) - (37–39) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106130303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (3–5) - (66–68) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "造成持续伤害时，收割 0.16 秒 创伤 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131903",
+      "tier": 3,
+      "itemLevel": 68,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "附加 480 - 1120 基础 创伤 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140130404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(70–86) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106130104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (10–12) - (13–16) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106130204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (10–12) - (14–16) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (11–13) - (13–15) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106130004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (18–20) - (22–24) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106130304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (1–2) - (24–26) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "造成持续伤害时，收割 0.14 秒 创伤 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131904",
+      "tier": 4,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "附加 360 - 840 基础 创伤 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140130405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(57–69) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106130305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (1–2) - (14–16) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106130205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (6–8) - (8–10) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106130105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (6–8) - (8–10) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106130005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (6–8) - (8–10) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (6–8) - (8–10) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "造成持续伤害时，收割 0.12 秒 创伤 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140130406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(44–56) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106130306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (1–2) - (10–12) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106130206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (4–6) - (6–8) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106130106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (4–6) - (6–8) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106130006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (4–6) - (6–8) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 5 - (5–7) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "造成持续伤害时，收割 0.10 秒 创伤 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140130407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(33–43) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106130007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (2–3) - (4–6) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (2–3) - (4–6) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106130107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (2–3) - (5–6) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106130207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (2–4) - (4–6) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106130307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 1 - (7–9) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "造成持续伤害时，收割 0.08 秒 创伤 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131380",
+      "tier": -1,
       "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "双手斧",
-      "effectPlain": "+(36–50) % 护甲减伤穿透",
-      "valueSpans": [
-        "+(36–50)"
-      ]
-    },
-    {
-      "modifierId": "140130901",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "双手斧",
-      "effectPlain": "+6 攻击技能等级",
-      "valueSpans": [
-        "+6"
-      ]
-    },
-    {
-      "modifierId": "140131801",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "双手斧",
-      "effectPlain": "+(43–60) % 元素和腐蚀抗性穿透",
-      "valueSpans": [
-        "+(43–60)"
-      ]
-    },
-    {
-      "modifierId": "140132201",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "双手斧",
-      "effectPlain": "+(77–110) % 该装备物理伤害 该装备附加 (53–55) - (65–67) 点物理伤害",
-      "valueSpans": [
-        "+(77–110)",
-        "(53–55)",
-        "(65–67)"
-      ]
-    },
-    {
-      "modifierId": "140132301",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "双手斧",
-      "effectPlain": "该装备附加 (59–61) - (337–339) 点元素伤害 -100 % 该装备物理伤害",
-      "valueSpans": [
-        "(59–61)",
-        "(337–339)",
-        "-100"
-      ]
-    },
-    {
-      "modifierId": "140132701",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "双手斧",
-      "effectPlain": "额外 +(43–60) % 创伤 伤害",
-      "valueSpans": [
-        "+(43–60)"
-      ]
-    },
-    {
-      "modifierId": "110130001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
+      "weight": 0,
       "affixType": "初阶后缀",
-      "source": "双手斧",
-      "effectPlain": "+(23–32) % 该装备攻击速度",
-      "valueSpans": [
-        "+(23–32)"
-      ]
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(282–365) % 元素 伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "140131001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
+      "modifierId": "140131280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
       "affixType": "初阶后缀",
-      "source": "双手斧",
-      "effectPlain": "+(22–30) % 生命返还",
-      "valueSpans": [
-        "+(22–30)"
-      ]
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(282–365) % 物理伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "140131101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
+      "modifierId": "140131480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
       "affixType": "初阶后缀",
-      "source": "双手斧",
-      "effectPlain": "+(22–30) % 护盾返还",
-      "valueSpans": [
-        "+(22–30)"
-      ]
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(282–365) % 腐蚀伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "140131201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
+      "modifierId": "140131180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
       "affixType": "初阶后缀",
-      "source": "双手斧",
-      "effectPlain": "+(152–216) % 物理伤害",
-      "valueSpans": [
-        "+(152–216)"
-      ]
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(40–51) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(40–51) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(43–54) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(217–281) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(217–281) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(217–281) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(31–39) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(31–39) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(33–42) % 该装备攻击速度",
+      "valueSpans": []
     },
     {
       "modifierId": "140131301",
@@ -643,11 +1052,19 @@
       "itemLevel": 86,
       "weight": 100,
       "affixType": "初阶后缀",
-      "source": "双手斧",
+      "source": "Two-Handed Axe",
       "effectPlain": "+(152–216) % 元素 伤害",
-      "valueSpans": [
-        "+(152–216)"
-      ]
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(152–216) % 物理伤害",
+      "valueSpans": []
     },
     {
       "modifierId": "140131401",
@@ -655,234 +1072,815 @@
       "itemLevel": 86,
       "weight": 100,
       "affixType": "初阶后缀",
-      "source": "双手斧",
+      "source": "Two-Handed Axe",
       "effectPlain": "+(152–216) % 腐蚀伤害",
-      "valueSpans": [
-        "+(152–216)"
-      ]
+      "valueSpans": []
     },
     {
-      "modifierId": "110130101",
+      "modifierId": "140131101",
       "tier": 1,
       "itemLevel": 86,
       "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "双手斧",
-      "effectPlain": "+(36–50) % 该装备攻击暴击值",
-      "valueSpans": [
-        "+(36–50)"
-      ]
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(22–30) % 护盾返还",
+      "valueSpans": []
     },
     {
-      "modifierId": "110130501",
+      "modifierId": "140131001",
       "tier": 1,
       "itemLevel": 86,
       "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "双手斧",
-      "effectPlain": "+(252–360) % 暴击值",
-      "valueSpans": [
-        "+(252–360)"
-      ]
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(22–30) % 生命返还",
+      "valueSpans": []
     },
     {
-      "modifierId": "110130601",
+      "modifierId": "110130001",
       "tier": 1,
       "itemLevel": 86,
       "weight": 100,
-      "affixType": "进阶后缀",
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(23–32) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(109–151) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(109–151) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(109–151) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(16–21) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(16–21) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(17–22) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(13–15) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(13–15) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(14–16) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(87–108) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(87–108) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(87–108) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(11–12) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(11–12) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(11–13) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(70–86) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(70–86) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(70–86) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(57–69) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(57–69) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(57–69) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(9–10) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(9–10) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(9–10) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(44–56) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(44–56) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(44–56) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(7–8) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(7–8) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(7–8) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(33–43) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(33–43) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(33–43) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+6 % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+6 % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+6 % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "1501314",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
       "source": "双手斧",
-      "effectPlain": "+(51–72) % 攻击与施法速度 +(51–72) % 召唤物攻击与施法速度",
+      "effectPlain": "+2 坚韧祝福 层数上限",
       "valueSpans": [
-        "+(51–72)",
-        "+(51–72)"
+        "+2"
       ]
     },
     {
-      "modifierId": "111130401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
+      "modifierId": "1501315",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
       "source": "双手斧",
-      "effectPlain": "+(127–180) % 暴击伤害",
+      "effectPlain": "+2 灵动祝福 层数上限",
       "valueSpans": [
-        "+(127–180)"
+        "+2"
       ]
     },
     {
-      "modifierId": "140131501",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
+      "modifierId": "1501316",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
       "source": "双手斧",
-      "effectPlain": "+(106–150) % 加剧 效果",
+      "effectPlain": "+2 聚能祝福 层数上限",
       "valueSpans": [
-        "+(106–150)"
+        "+2"
       ]
     },
     {
-      "modifierId": "140132401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
+      "modifierId": "1501319",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
       "source": "双手斧",
-      "effectPlain": "+(90–110) % 贯注速度",
+      "effectPlain": "暴击 幸运 (-50–-40) % 暴击值",
       "valueSpans": [
-        "+(90–110)"
+        "(-50–-40)"
       ]
     },
     {
-      "modifierId": "130130201",
+      "modifierId": "1501313",
       "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
       "source": "双手斧",
-      "effectPlain": "对生命造成额外 (43–60) % 伤害",
+      "effectPlain": "+(10–14) % 护甲减伤穿透",
       "valueSpans": [
-        "(43–60)"
+        "+(10–14)"
       ]
     },
     {
-      "modifierId": "140131601",
+      "modifierId": "1501312",
       "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
       "source": "双手斧",
-      "effectPlain": "+46 % 斩击 几率 额外 +(35–48) % 斩击 伤害",
+      "effectPlain": "+(12–16) % 元素和腐蚀抗性穿透",
       "valueSpans": [
-        "+46",
-        "+(35–48)"
+        "+(12–16)"
       ]
     },
     {
-      "modifierId": "140132501",
+      "modifierId": "1501317",
       "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
       "source": "双手斧",
-      "effectPlain": "+(70–90) % 贯注伤害加深",
+      "effectPlain": "+(48–64) % 该装备物理伤害",
       "valueSpans": [
-        "+(70–90)"
+        "+(48–64)"
       ]
     },
     {
-      "modifierId": "140132601",
+      "modifierId": "1501310",
       "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
       "source": "双手斧",
-      "effectPlain": "+(176–250) % 破击蓄能 回复速度",
+      "effectPlain": "对 创伤 状态下的敌人，额外 +(12–16) % 伤害",
       "valueSpans": [
-        "+(176–250)"
+        "+(12–16)"
       ]
     },
     {
-      "modifierId": "140132801",
+      "modifierId": "1501318",
       "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
       "source": "双手斧",
-      "effectPlain": "若最近释放的连携终结技至少消耗了 8 点连携点， +(80–100) % 连携伤害加深",
+      "effectPlain": "该装备附加 (64–68) - (80–84) 点物理伤害",
       "valueSpans": [
-        "8",
+        "(64–68)",
+        "(80–84)"
+      ]
+    },
+    {
+      "modifierId": "1501311",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "双手斧",
+      "effectPlain": "额外 +(12–18) % 斩击 伤害",
+      "valueSpans": [
+        "+(12–18)"
+      ]
+    },
+    {
+      "modifierId": "1501309",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "双手斧",
+      "effectPlain": "+(12–16) % 攻击速度",
+      "valueSpans": [
+        "+(12–16)"
+      ]
+    },
+    {
+      "modifierId": "1501306",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "双手斧",
+      "effectPlain": "+(40–48) % 元素伤害",
+      "valueSpans": [
+        "+(40–48)"
+      ]
+    },
+    {
+      "modifierId": "1501305",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "双手斧",
+      "effectPlain": "+(40–48) % 物理伤害",
+      "valueSpans": [
+        "+(40–48)"
+      ]
+    },
+    {
+      "modifierId": "1501307",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "双手斧",
+      "effectPlain": "+(40–48) % 腐蚀伤害",
+      "valueSpans": [
+        "+(40–48)"
+      ]
+    },
+    {
+      "modifierId": "1501308",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "双手斧",
+      "effectPlain": "+(40–48) % 近战伤害",
+      "valueSpans": [
+        "+(40–48)"
+      ]
+    },
+    {
+      "modifierId": "1501303",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "双手斧",
+      "effectPlain": "攻击附加 (1–3) - (60–65) 点闪电伤害",
+      "valueSpans": [
+        "(1–3)",
+        "(60–65)"
+      ]
+    },
+    {
+      "modifierId": "1501302",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "双手斧",
+      "effectPlain": "攻击附加 (24–29) - (34–39) 点冰冷伤害",
+      "valueSpans": [
+        "(24–29)",
+        "(34–39)"
+      ]
+    },
+    {
+      "modifierId": "1501301",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "双手斧",
+      "effectPlain": "攻击附加 (24–29) - (34–39) 点火焰伤害",
+      "valueSpans": [
+        "(24–29)",
+        "(34–39)"
+      ]
+    },
+    {
+      "modifierId": "1501300",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "双手斧",
+      "effectPlain": "攻击附加 (25–30) - (33–38) 点物理伤害",
+      "valueSpans": [
+        "(25–30)",
+        "(33–38)"
+      ]
+    },
+    {
+      "modifierId": "1501304",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "双手斧",
+      "effectPlain": "攻击附加 (26–31) - (32–37) 点腐蚀伤害",
+      "valueSpans": [
+        "(26–31)",
+        "(32–37)"
+      ]
+    },
+    {
+      "modifierId": "51210221",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "瓦拉冈的狂袭",
+      "source": "双手斧",
+      "effectPlain": "+(10–15) % 该装备攻击速度",
+      "valueSpans": [
+        "+(10–15)"
+      ]
+    },
+    {
+      "modifierId": "51210211",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "瓦拉冈的狂袭",
+      "source": "双手斧",
+      "effectPlain": "+(30–50) % 该装备物理伤害",
+      "valueSpans": [
+        "+(30–50)"
+      ]
+    },
+    {
+      "modifierId": "51210231",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "瓦拉冈的狂袭",
+      "source": "双手斧",
+      "effectPlain": "使用技能时，有 (10–20) % 概率 +(80–100) % 该次技能范围",
+      "valueSpans": [
+        "(10–20)",
         "+(80–100)"
       ]
     },
     {
-      "modifierId": "140132901",
+      "modifierId": "51210241",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "瓦拉冈的狂袭",
+      "source": "双手斧",
+      "effectPlain": "击中敌人时，触发 (5–15) 级狂猛战吼，间隔 8 秒",
+      "valueSpans": [
+        "(5–15)",
+        "8"
+      ]
+    },
+    {
+      "modifierId": "85013141",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "双手斧",
+      "effectPlain": "+1 坚韧祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85013151",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "双手斧",
+      "effectPlain": "+1 灵动祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85013161",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "双手斧",
+      "effectPlain": "+1 聚能祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85013191",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "双手斧",
+      "effectPlain": "暴击 幸运 (-80–-50) % 暴击值",
+      "valueSpans": [
+        "(-80–-50)"
+      ]
+    },
+    {
+      "modifierId": "85013171",
       "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "双手斧",
-      "effectPlain": "+(80–100) % 异常伤害加深",
-      "valueSpans": [
-        "+(80–100)"
-      ]
-    },
-    {
-      "modifierId": "85013001",
-      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "双手斧",
-      "effectPlain": "攻击附加 (10–13) - (14–19) 点物理伤害",
+      "effectPlain": "+(24–32) % 该装备物理伤害",
       "valueSpans": [
-        "(10–13)",
-        "(14–19)"
+        "+(24–32)"
       ]
     },
     {
-      "modifierId": "85013011",
-      "tier": 2,
+      "modifierId": "85013131",
+      "tier": 1,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "双手斧",
-      "effectPlain": "攻击附加 (9–14) - (15–20) 点火焰伤害",
+      "effectPlain": "+(5–7) % 护甲减伤穿透",
       "valueSpans": [
-        "(9–14)",
-        "(15–20)"
+        "+(5–7)"
       ]
     },
     {
-      "modifierId": "85013021",
-      "tier": 2,
+      "modifierId": "85013121",
+      "tier": 1,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "双手斧",
-      "effectPlain": "攻击附加 (10–13) - (14–19) 点冰冷伤害",
+      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
       "valueSpans": [
-        "(10–13)",
-        "(14–19)"
+        "+(6–8)"
       ]
     },
     {
-      "modifierId": "85013031",
-      "tier": 2,
+      "modifierId": "85013101",
+      "tier": 1,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "双手斧",
-      "effectPlain": "攻击附加 (1–2) - (28–32) 点闪电伤害",
+      "effectPlain": "对 创伤 状态下的敌人，额外 +(6–8) % 伤害",
       "valueSpans": [
-        "(1–2)",
-        "(28–32)"
+        "+(6–8)"
       ]
     },
     {
-      "modifierId": "85013041",
-      "tier": 2,
+      "modifierId": "85013181",
+      "tier": 1,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "双手斧",
-      "effectPlain": "攻击附加 (11–13) - (15–18) 点腐蚀伤害",
+      "effectPlain": "该装备附加 (32–34) - (40–42) 点物理伤害",
       "valueSpans": [
-        "(11–13)",
-        "(15–18)"
+        "(32–34)",
+        "(40–42)"
       ]
     },
     {
-      "modifierId": "85013051",
-      "tier": 2,
+      "modifierId": "85013111",
+      "tier": 1,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "双手斧",
-      "effectPlain": "+(20–24) % 物理伤害",
+      "effectPlain": "额外 +(6–8) % 斩击 伤害",
       "valueSpans": [
-        "+(20–24)"
+        "+(6–8)"
       ]
     },
     {
@@ -893,6 +1891,18 @@
       "affixType": "美梦词缀",
       "source": "双手斧",
       "effectPlain": "+(20–24) % 元素伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85013051",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "双手斧",
+      "effectPlain": "+(20–24) % 物理伤害",
       "valueSpans": [
         "+(20–24)"
       ]
@@ -934,367 +1944,1579 @@
       ]
     },
     {
-      "modifierId": "85013101",
-      "tier": 1,
+      "modifierId": "85013021",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "双手斧",
-      "effectPlain": "对 创伤 状态下的敌人，额外 +(6–8) % 伤害",
+      "effectPlain": "攻击附加 (10–13) - (14–19) 点冰冷伤害",
       "valueSpans": [
-        "+(6–8)"
+        "(10–13)",
+        "(14–19)"
       ]
     },
     {
-      "modifierId": "85013111",
-      "tier": 1,
+      "modifierId": "85013001",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "双手斧",
-      "effectPlain": "额外 +(6–8) % 斩击 伤害",
+      "effectPlain": "攻击附加 (10–13) - (14–19) 点物理伤害",
       "valueSpans": [
-        "+(6–8)"
+        "(10–13)",
+        "(14–19)"
       ]
     },
     {
-      "modifierId": "85013121",
-      "tier": 1,
+      "modifierId": "85013041",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "双手斧",
-      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
+      "effectPlain": "攻击附加 (11–13) - (15–18) 点腐蚀伤害",
       "valueSpans": [
-        "+(6–8)"
+        "(11–13)",
+        "(15–18)"
       ]
     },
     {
-      "modifierId": "85013131",
-      "tier": 1,
+      "modifierId": "85013031",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "双手斧",
-      "effectPlain": "+(5–7) % 护甲减伤穿透",
+      "effectPlain": "攻击附加 (1–2) - (28–32) 点闪电伤害",
       "valueSpans": [
-        "+(5–7)"
+        "(1–2)",
+        "(28–32)"
       ]
     },
     {
-      "modifierId": "85013141",
-      "tier": 0,
+      "modifierId": "85013011",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "双手斧",
-      "effectPlain": "+1 坚韧祝福 层数上限",
+      "effectPlain": "攻击附加 (9–14) - (15–20) 点火焰伤害",
       "valueSpans": [
-        "+1"
+        "(9–14)",
+        "(15–20)"
       ]
     },
     {
-      "modifierId": "85013151",
+      "modifierId": "140132280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(146–190) % 该装备物理伤害 该装备附加 (90–92) - (111–113) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115130480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(66–85) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(79–101) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140130980",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+8 攻击技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (100–102) - (569–571) 点元素伤害 -100 % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "额外 +(79–101) % 创伤 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132200",
       "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "双手斧",
-      "effectPlain": "+1 灵动祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(111–145) % 该装备物理伤害 该装备附加 (69–71) - (85–87) 点物理伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "85013161",
+      "modifierId": "115130400",
       "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "双手斧",
-      "effectPlain": "+1 聚能祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(51–64) % 护甲减伤穿透",
+      "valueSpans": []
     },
     {
-      "modifierId": "85013171",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "双手斧",
-      "effectPlain": "+(24–32) % 该装备物理伤害",
-      "valueSpans": [
-        "+(24–32)"
-      ]
-    },
-    {
-      "modifierId": "85013181",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "双手斧",
-      "effectPlain": "该装备附加 (32–34) - (40–42) 点物理伤害",
-      "valueSpans": [
-        "(32–34)",
-        "(40–42)"
-      ]
-    },
-    {
-      "modifierId": "85013191",
+      "modifierId": "140131800",
       "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "双手斧",
-      "effectPlain": "暴击 幸运 (-80–-50) % 暴击值",
-      "valueSpans": [
-        "(-80–-50)"
-      ]
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(61–78) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
     },
     {
-      "modifierId": "160411013",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "双手斧",
-      "effectPlain": "额外 +16 % 主手武器 伤害",
-      "valueSpans": [
-        "+16"
-      ]
-    },
-    {
-      "modifierId": "160412013",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "双手斧",
-      "effectPlain": "+12 % 护甲减伤穿透",
-      "valueSpans": [
-        "+12"
-      ]
-    },
-    {
-      "modifierId": "160413013",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "双手斧",
-      "effectPlain": "+16 % 火焰穿透",
-      "valueSpans": [
-        "+16"
-      ]
-    },
-    {
-      "modifierId": "160414013",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "双手斧",
-      "effectPlain": "+16 % 冰冷穿透",
-      "valueSpans": [
-        "+16"
-      ]
-    },
-    {
-      "modifierId": "160415013",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "双手斧",
-      "effectPlain": "+16 % 闪电穿透",
-      "valueSpans": [
-        "+16"
-      ]
-    },
-    {
-      "modifierId": "160416013",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "双手斧",
-      "effectPlain": "+16 % 腐蚀抗性穿透",
-      "valueSpans": [
-        "+16"
-      ]
-    },
-    {
-      "modifierId": "160417013",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "双手斧",
-      "effectPlain": "+8 % 该装备攻击速度",
-      "valueSpans": [
-        "+8"
-      ]
-    },
-    {
-      "modifierId": "160418013",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "双手斧",
-      "effectPlain": "+20 % 该装备攻击暴击值",
-      "valueSpans": [
-        "+20"
-      ]
-    },
-    {
-      "modifierId": "160419013",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "双手斧",
-      "effectPlain": "暴击时，额外 +20 % 伤害",
-      "valueSpans": [
-        "+20"
-      ]
-    },
-    {
-      "modifierId": "160420013",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "双手斧",
-      "effectPlain": "+16 % 全属性",
-      "valueSpans": [
-        "+16"
-      ]
-    },
-    {
-      "modifierId": "160511013",
+      "modifierId": "140130900",
       "tier": 0,
-      "itemLevel": 1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+7 攻击技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (77–79) - (438–440) 点元素伤害 -100 % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "额外 +(61–78) % 创伤 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115130401",
+      "tier": 1,
+      "itemLevel": 100,
       "weight": 100,
-      "affixType": "高阶序列",
-      "source": "双手斧",
-      "effectPlain": "攻击或者法术击败敌人时 30 % 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 250 % 的真实伤害",
-      "valueSpans": [
-        "30",
-        "6",
-        "250"
-      ]
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(36–50) % 护甲减伤穿透",
+      "valueSpans": []
     },
     {
-      "modifierId": "160512013",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 30,
-      "affixType": "高阶序列",
-      "source": "双手斧",
-      "effectPlain": "每 10 点敏捷，攻击附加 1 - 7 点闪电伤害",
-      "valueSpans": [
-        "10",
-        "1",
-        "7"
-      ]
-    },
-    {
-      "modifierId": "160513013",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 30,
-      "affixType": "高阶序列",
-      "source": "双手斧",
-      "effectPlain": "每 10 点力量，攻击附加 3 - 5 点火焰伤害",
-      "valueSpans": [
-        "10",
-        "3",
-        "5"
-      ]
-    },
-    {
-      "modifierId": "160514013",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 30,
-      "affixType": "高阶序列",
-      "source": "双手斧",
-      "effectPlain": "核心技能被 25 级的碾压辅助 额外 +25 % 近战伤害",
-      "valueSpans": [
-        "25",
-        "+25"
-      ]
-    },
-    {
-      "modifierId": "160515013",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 60,
-      "affixType": "高阶序列",
-      "source": "双手斧",
-      "effectPlain": "每 2260 点护甲值，攻击附加 2 - 2 点物理伤害",
-      "valueSpans": [
-        "2260",
-        "2",
-        "2"
-      ]
-    },
-    {
-      "modifierId": "160516013",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 60,
-      "affixType": "高阶序列",
-      "source": "双手斧",
-      "effectPlain": "+200 % 狂猛光环效果 额外 -30 % 狂猛 魔力封印 补偿",
-      "valueSpans": [
-        "+200",
-        "-30"
-      ]
-    },
-    {
-      "modifierId": "160517013",
-      "tier": 0,
-      "itemLevel": 1,
+      "modifierId": "140131801",
+      "tier": 1,
+      "itemLevel": 100,
       "weight": 100,
-      "affixType": "高阶序列",
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(43–60) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132201",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(77–110) % 该装备物理伤害 该装备附加 (53–55) - (65–67) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140130901",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+6 攻击技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132301",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (59–61) - (337–339) 点元素伤害 -100 % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132701",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "额外 +(43–60) % 创伤 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115130402",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(30–35) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131802",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(31–42) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140130902",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+5 攻击技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132302",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "该装备附加 (23–25) - (133–135) 点元素伤害 -100 % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132702",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "额外 +(31–42) % 创伤 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115130403",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(22–25) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131803",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(25–30) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115130404",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(17–20) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131804",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(20–24) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131805",
+      "tier": 5,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(17–19) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131806",
+      "tier": 6,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(13–16) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131807",
+      "tier": 7,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(10–12) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(130–160) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132980",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(150–170) % 异常伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(326–423) % 破击蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+60 % 斩击 几率 额外 +(63–81) % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130130280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "对生命造成额外 (79–101) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "若最近释放的连携终结技至少消耗了 8 点连携点， +(140–170) % 连携伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132900",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(110–130) % 异常伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(251–325) % 破击蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(96–120) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+60 % 斩击 几率 额外 +(49–62) % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130130200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "对生命造成额外 (61–78) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132800",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "若最近释放的连携终结技至少消耗了 8 点连携点， +(110–130) % 连携伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132601",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(176–250) % 破击蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132501",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(70–90) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132901",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(80–100) % 异常伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131601",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+46 % 斩击 几率 额外 +(35–48) % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130130201",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "对生命造成额外 (43–60) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132801",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "若最近释放的连携终结技至少消耗了 8 点连携点， +(80–100) % 连携伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132602",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(126–175) % 破击蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132502",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(40–60) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132902",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(60–70) % 异常伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131602",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+32 % 斩击 几率 额外 +(25–34) % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130130202",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "对生命造成额外 (31–42) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132802",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "若最近释放的连携终结技至少消耗了 8 点连携点， +(50–70) % 连携伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132603",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(101–125) % 破击蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131603",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+24 % 斩击 几率 额外 +(20–24) % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132604",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(81–100) % 破击蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131604",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+18 % 斩击 几率 额外 +(16–19) % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132605",
+      "tier": 5,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(66–80) % 破击蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131605",
+      "tier": 5,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+12 % 斩击 几率 额外 +(13–15) % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132606",
+      "tier": 6,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(51–65) % 破击蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131606",
+      "tier": 6,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+8 % 斩击 几率 额外 +(11–12) % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132607",
+      "tier": 7,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(39–50) % 破击蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131607",
+      "tier": 7,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+4 % 斩击 几率 额外 +(8–10) % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51210411",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "至高一瞥",
       "source": "双手斧",
-      "effectPlain": "+120 % 该装备物理伤害 -20 % 该装备攻击暴击值",
+      "effectPlain": "+(180–220) % 该装备物理伤害",
       "valueSpans": [
-        "+120",
-        "-20"
+        "+(180–220)"
       ]
     },
     {
-      "modifierId": "160518013",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "高阶序列",
+      "modifierId": "51210431",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "至高一瞥",
       "source": "双手斧",
-      "effectPlain": "额外 +30 % 恶化 伤害 10 % 几率额外造成 2 层 恶化",
+      "effectPlain": "+(30–40) % 该装备攻击暴击值",
       "valueSpans": [
-        "+30",
-        "10",
-        "2"
+        "+(30–40)"
       ]
     },
     {
-      "modifierId": "160519013",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "高阶序列",
+      "modifierId": "51210421",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "至高一瞥",
       "source": "双手斧",
-      "effectPlain": "+50 % 该装备元素伤害 -25 % 该装备物理伤害",
+      "effectPlain": "该装备附加 (19–23) - (27–31) 点物理伤害",
       "valueSpans": [
-        "+50",
-        "-25"
+        "(19–23)",
+        "(27–31)"
       ]
+    },
+    {
+      "modifierId": "51210451",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "至高一瞥",
+      "source": "双手斧",
+      "effectPlain": "额外 (-80–-60) % 挥击伤害；额外 +(100–120) % 斩击伤害",
+      "valueSpans": [
+        "(-80–-60)",
+        "+(100–120)"
+      ]
+    },
+    {
+      "modifierId": "107130080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(105–136) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109130080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(235–304) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109130180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(235–304) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109130380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(235–304) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(60–76) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109130000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(181–234) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109130100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(181–234) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109130300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(181–234) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(46–59) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107130000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(81–104) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109130001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(127–180) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109130101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(127–180) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109130301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(127–180) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107130001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(49–80) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107130002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(33–48) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109130002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(91–126) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109130102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(91–126) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109130302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(91–126) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107130003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(22–32) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109130003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(73–90) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109130103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(73–90) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109130303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(73–90) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109130004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(59–72) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109130104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(59–72) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109130304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(59–72) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107130004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(9–21) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109130005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(48–58) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109130105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(48–58) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109130305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(48–58) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107130005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(7–8) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109130006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(37–47) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109130106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(37–47) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109130306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(37–47) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107130006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(5–6) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109130007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(28–36) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109130107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(28–36) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109130307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(28–36) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107130007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+4 % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(150–180) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(196–254) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111130480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(235–304) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(469–608) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(66–85) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(95–122) % 攻击与施法速度 +(95–122) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(120–140) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(151–195) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111130400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(181–234) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(328–468) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(51–65) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(66–94) % 攻击与施法速度 +(66–94) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131501",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(106–150) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111130401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(127–180) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130501",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(252–360) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(36–50) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(51–72) % 攻击与施法速度 +(51–72) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(90–110) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130502",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(212–252) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(26–35) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130602",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(43–50) % 攻击与施法速度 +(43–50) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140132402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(60–80) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131502",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(76–105) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111130402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(91–126) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130503",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(151–180) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(21–25) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130603",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(31–36) % 攻击与施法速度 +(31–36) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131503",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(61–75) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111130403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(73–90) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130504",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(121–144) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(17–20) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131504",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(49–60) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111130404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(59–72) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(14–16) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131505",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(40–48) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111130405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(48–58) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130505",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(96–115) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(11–13) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131506",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(31–39) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111130406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(37–47) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130506",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(78–94) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140131507",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(24–30) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111130407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 1350,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(29–36) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110130107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Two-Handed Axe",
+      "effectPlain": "+(9–10) % 该装备攻击暴击值",
+      "valueSpans": []
     },
     {
       "modifierId": "51210111",
@@ -1306,19 +3528,6 @@
       "effectPlain": "+(100–125) % 该装备物理伤害",
       "valueSpans": [
         "+(100–125)"
-      ]
-    },
-    {
-      "modifierId": "51210121",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "阿米尼乌斯断头台",
-      "source": "双手斧",
-      "effectPlain": "该装备附加 (20–24) - (30–36) 点物理伤害",
-      "valueSpans": [
-        "(20–24)",
-        "(30–36)"
       ]
     },
     {
@@ -1358,134 +3567,142 @@
       ]
     },
     {
-      "modifierId": "51210211",
+      "modifierId": "51210121",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "瓦拉冈的狂袭",
+      "affixType": "阿米尼乌斯断头台",
       "source": "双手斧",
-      "effectPlain": "+(30–50) % 该装备物理伤害",
+      "effectPlain": "该装备附加 (20–24) - (30–36) 点物理伤害",
       "valueSpans": [
-        "+(30–50)"
+        "(20–24)",
+        "(30–36)"
       ]
     },
     {
-      "modifierId": "51210221",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "瓦拉冈的狂袭",
+      "modifierId": "160517013",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
       "source": "双手斧",
-      "effectPlain": "+(10–15) % 该装备攻击速度",
+      "effectPlain": "+120 % 该装备物理伤害 -20 % 该装备攻击暴击值",
       "valueSpans": [
-        "+(10–15)"
+        "+120",
+        "-20"
       ]
     },
     {
-      "modifierId": "51210231",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "瓦拉冈的狂袭",
+      "modifierId": "160516013",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 60,
+      "affixType": "高阶序列",
       "source": "双手斧",
-      "effectPlain": "使用技能时，有 (10–20) % 概率 +(80–100) % 该次技能范围",
+      "effectPlain": "+200 % 狂猛光环效果 额外 -30 % 狂猛 魔力封印 补偿",
       "valueSpans": [
-        "(10–20)",
-        "+(80–100)"
+        "+200",
+        "-30"
       ]
     },
     {
-      "modifierId": "51210241",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "瓦拉冈的狂袭",
+      "modifierId": "160519013",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
       "source": "双手斧",
-      "effectPlain": "击中敌人时，触发 (5–15) 级狂猛战吼，间隔 8 秒",
+      "effectPlain": "+50 % 该装备元素伤害 -25 % 该装备物理伤害",
       "valueSpans": [
-        "(5–15)",
-        "8"
+        "+50",
+        "-25"
       ]
     },
     {
-      "modifierId": "51210411",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "至高一瞥",
+      "modifierId": "160511013",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
       "source": "双手斧",
-      "effectPlain": "+(180–220) % 该装备物理伤害",
+      "effectPlain": "攻击或者法术击败敌人时 30 % 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 250 % 的真实伤害",
       "valueSpans": [
-        "+(180–220)"
+        "30",
+        "6",
+        "250"
       ]
     },
     {
-      "modifierId": "51210421",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "至高一瞥",
+      "modifierId": "160514013",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 30,
+      "affixType": "高阶序列",
       "source": "双手斧",
-      "effectPlain": "该装备附加 (19–23) - (27–31) 点物理伤害",
+      "effectPlain": "核心技能被 25 级的碾压辅助 额外 +25 % 近战伤害",
       "valueSpans": [
-        "(19–23)",
-        "(27–31)"
+        "25",
+        "+25"
       ]
     },
     {
-      "modifierId": "51210431",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "至高一瞥",
+      "modifierId": "160513013",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 30,
+      "affixType": "高阶序列",
       "source": "双手斧",
-      "effectPlain": "+(30–40) % 该装备攻击暴击值",
+      "effectPlain": "每 10 点力量，攻击附加 3 - 5 点火焰伤害",
       "valueSpans": [
-        "+(30–40)"
+        "10",
+        "3",
+        "5"
       ]
     },
     {
-      "modifierId": "51210451",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "至高一瞥",
+      "modifierId": "160512013",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 30,
+      "affixType": "高阶序列",
       "source": "双手斧",
-      "effectPlain": "额外 (-80–-60) % 挥击伤害；额外 +(100–120) % 斩击伤害",
+      "effectPlain": "每 10 点敏捷，攻击附加 1 - 7 点闪电伤害",
       "valueSpans": [
-        "(-80–-60)",
-        "+(100–120)"
+        "10",
+        "1",
+        "7"
+      ]
+    },
+    {
+      "modifierId": "160515013",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 60,
+      "affixType": "高阶序列",
+      "source": "双手斧",
+      "effectPlain": "每 2260 点护甲值，攻击附加 2 - 2 点物理伤害",
+      "valueSpans": [
+        "2260",
+        "2",
+        "2"
+      ]
+    },
+    {
+      "modifierId": "160518013",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
+      "source": "双手斧",
+      "effectPlain": "额外 +30 % 恶化 伤害 10 % 几率额外造成 2 层 恶化",
+      "valueSpans": [
+        "+30",
+        "10",
+        "2"
       ]
     }
   ],
   "tierVariantGroups": [
-    {
-      "skeleton": "{#} % 元素 伤害",
-      "rolls": [
-        {
-          "modifierId": "60061309",
-          "tier": 0,
-          "itemLevel": 1,
-          "weight": 1,
-          "affixType": "侵蚀基底",
-          "valueSpans": [
-            "+(40–45)"
-          ],
-          "effectPlain": "+(40–45) % 元素 伤害"
-        },
-        {
-          "modifierId": "140131301",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(152–216)"
-          ],
-          "effectPlain": "+(152–216) % 元素 伤害"
-        }
-      ]
-    },
     {
       "skeleton": "{#} % 元素伤害",
       "rolls": [
@@ -1516,17 +3733,6 @@
     {
       "skeleton": "{#} % 元素和腐蚀抗性穿透",
       "rolls": [
-        {
-          "modifierId": "140131801",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻前缀",
-          "valueSpans": [
-            "+(43–60)"
-          ],
-          "effectPlain": "+(43–60) % 元素和腐蚀抗性穿透"
-        },
         {
           "modifierId": "1501312",
           "tier": 1,
@@ -1581,17 +3787,6 @@
     {
       "skeleton": "{#} % 护甲减伤穿透",
       "rolls": [
-        {
-          "modifierId": "115130401",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻前缀",
-          "valueSpans": [
-            "+(36–50)"
-          ],
-          "effectPlain": "+(36–50) % 护甲减伤穿透"
-        },
         {
           "modifierId": "1501313",
           "tier": 1,
@@ -1658,17 +3853,6 @@
       "skeleton": "{#} % 物理伤害",
       "rolls": [
         {
-          "modifierId": "140131201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(152–216)"
-          ],
-          "effectPlain": "+(152–216) % 物理伤害"
-        },
-        {
           "modifierId": "1501305",
           "tier": 2,
           "itemLevel": 1,
@@ -1695,17 +3879,6 @@
     {
       "skeleton": "{#} % 腐蚀伤害",
       "rolls": [
-        {
-          "modifierId": "140131401",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(152–216)"
-          ],
-          "effectPlain": "+(152–216) % 腐蚀伤害"
-        },
         {
           "modifierId": "1501307",
           "tier": 2,
@@ -1743,17 +3916,6 @@
             "+(3–6)"
           ],
           "effectPlain": "+(3–6) % 该装备攻击暴击值"
-        },
-        {
-          "modifierId": "110130101",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶后缀",
-          "valueSpans": [
-            "+(36–50)"
-          ],
-          "effectPlain": "+(36–50) % 该装备攻击暴击值"
         },
         {
           "modifierId": "160418013",
@@ -1794,17 +3956,6 @@
           "effectPlain": "+(5–8) % 该装备攻击速度"
         },
         {
-          "modifierId": "110130001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(23–32)"
-          ],
-          "effectPlain": "+(23–32) % 该装备攻击速度"
-        },
-        {
           "modifierId": "160417013",
           "tier": 1,
           "itemLevel": 1,
@@ -1841,17 +3992,6 @@
             "+(15–25)"
           ],
           "effectPlain": "+(15–25) % 该装备物理伤害"
-        },
-        {
-          "modifierId": "107130001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(49–80)"
-          ],
-          "effectPlain": "+(49–80) % 该装备物理伤害"
         },
         {
           "modifierId": "1501317",
@@ -1913,17 +4053,6 @@
     {
       "skeleton": "{#} % 近战伤害",
       "rolls": [
-        {
-          "modifierId": "140130401",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(152–216)"
-          ],
-          "effectPlain": "+(152–216) % 近战伤害"
-        },
         {
           "modifierId": "1501308",
           "tier": 2,
@@ -2244,18 +4373,6 @@
           "effectPlain": "该装备附加 (7–10) - (14–17) 点物理伤害"
         },
         {
-          "modifierId": "106130001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "(71–73)",
-            "(87–89)"
-          ],
-          "effectPlain": "该装备附加 (71–73) - (87–89) 点物理伤害"
-        },
-        {
           "modifierId": "1501318",
           "tier": 1,
           "itemLevel": 1,
@@ -2333,5 +4450,5 @@
       ]
     }
   ],
-  "tierVariantGroupCount": 24
+  "tierVariantGroupCount": 23
 }

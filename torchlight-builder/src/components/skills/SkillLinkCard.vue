@@ -75,14 +75,20 @@
               }}</span>
             </div>
           </div>
+          <div
+            v-if="detailNarrativeText(detailPopover.skill)"
+            class="skill-detail-popover-narrative"
+          >
+            {{ detailNarrativeText(detailPopover.skill) }}
+          </div>
           <a
-            class="skill-detail-wiki"
+            class="skill-detail-wiki skill-detail-wiki--secondary"
             :href="wikiSkillPageUrl(detailPopover.skill.id)"
             target="_blank"
             rel="noopener noreferrer"
             @click.stop
           >
-            在 tlidb 查看详情 ↗
+            TLIDB 原文 ↗
           </a>
         </div>
       </div>
@@ -216,7 +222,7 @@
         <div class="selection-data-panel">
           <div class="selection-data-head">已选技能与数值</div>
           <div v-if="!hasAnySkillSelection" class="selection-data-empty">
-            在左侧图中点击节点，在此查看等级与倍率
+            在左侧图中点击节点，在此查看等级与增伤
           </div>
           <div v-else class="selection-data-list">
             <div v-if="hasMainSkillSelection" class="selection-block selection-block--main">
@@ -227,7 +233,6 @@
                 <select
                   class="selection-level-select"
                   :value="effectiveLink.mainSkillLevel"
-                  :disabled="role === 'passive'"
                   @change="onMainLevelChange"
                 >
                   <option v-for="lv in mainLevelRange" :key="`ml-${lv}`" :value="lv">
@@ -236,8 +241,8 @@
                 </select>
               </label>
               <div class="selection-stat-lines">
-                <div class="selection-stat-line">
-                  <span class="selection-stat-k">伤害倍率</span>
+                <div v-if="role !== 'passive'" class="selection-stat-line">
+                  <span class="selection-stat-k">增伤倍率</span>
                   <span class="selection-stat-v">{{ mainMultiplierDisplay }}</span>
                 </div>
                 <div
@@ -248,6 +253,16 @@
                   <span class="selection-stat-v">{{ mainBaseDamageDisplay }}</span>
                 </div>
               </div>
+              <template v-if="role === 'passive'">
+                <div
+                  v-for="row in passiveDynamicBreakdownRows"
+                  :key="row.key"
+                  class="selection-stat-line"
+                >
+                  <span class="selection-stat-k">{{ row.label }}</span>
+                  <span class="selection-stat-v">{{ row.value }}</span>
+                </div>
+              </template>
             </div>
 
             <template v-for="sIdx in 5" :key="`sd-${sIdx}`">
@@ -381,6 +396,17 @@ type SkillOption = {
   supportDamageBonusByLevel?: string[]
   /** 崇高/华贵等：T0–T2 三档增伤展示（与 wiki Tier 0/1/2 对应） */
   supportDamageBonusByTier?: string[]
+  /** 被动技能：1-40 级结构化成长（来自 passiveSkillTags.json） */
+  parsedBonusesByLevel?: Array<{
+    level: number
+    description: string
+    damageExtraPct?: number
+    critValuePct?: number
+    attackSpeedPct?: number
+    castSpeedPct?: number
+  }>
+  /** tlidb 当前赛季卡片叙述（主动/辅助）或由 Skills 页为被动拼好的成长说明 */
+  wikiCardNarrative?: string
 }
 
 type SkillLinkItem = {
@@ -402,12 +428,14 @@ type NormalizedSkillLink = {
 }
 
 const MAIN_LEVEL_MAX = 20
+const PASSIVE_MAIN_LEVEL_MAX = 40
 const SUPPORT_LEVEL_MAX = 40
 /**
  * 封印转化 / 精密 封印转化：wiki 上仅标「辅助」，但与「光环」类主技能可连携，标签交集规则会误排除，需显式放行。
  * id 与 supportSkillTags.json 一致（精密为 URL 编码形式）。
  */
 const AURA_SUPPORT_LINK_IDS: readonly string[] = ['Seal_Conversion', 'Precise%3A_Seal_Conversion']
+const PRECISE_STAND_AS_ONE_ID = 'Precise%3A_Stand_as_One'
 
 /** 新槽 / 新选技能时的默认等级（主技能上限 20） */
 const DEFAULT_MAIN_SKILL_LEVEL = 20
@@ -484,10 +512,20 @@ const emit = defineEmits<{
   (e: 'update:modelValue', value: SkillLinkItem): void
 }>()
 
-function clampMainLevel(n: unknown): number {
-  const x = Math.round(Number(n))
-  if (Number.isNaN(x) || x < 1) return 1
-  return Math.min(MAIN_LEVEL_MAX, x)
+function mainLevelMaxByRole(role: SkillRole): number {
+  return role === 'passive' ? PASSIVE_MAIN_LEVEL_MAX : MAIN_LEVEL_MAX
+}
+
+function defaultMainLevelByRole(_role: SkillRole): number {
+  return DEFAULT_MAIN_SKILL_LEVEL
+}
+
+function clampMainLevel(n: unknown, role: SkillRole): number {
+  const raw = typeof n === 'string' ? n.trim() : n
+  if (raw === '' || raw == null) return defaultMainLevelByRole(role)
+  const x = Math.round(Number(raw))
+  if (Number.isNaN(x) || x < 1) return defaultMainLevelByRole(role)
+  return Math.min(mainLevelMaxByRole(role), x)
 }
 
 function supportLevelMaxForSkillId(skillId: string): number {
@@ -498,10 +536,18 @@ function supportLevelMaxForSkillId(skillId: string): number {
   return SUPPORT_LEVEL_MAX
 }
 
+function defaultSupportLevelForSkillId(skillId: string): number {
+  return supportLevelMaxForSkillId(skillId) === 3
+    ? DEFAULT_EXCLUSIVE_TIER_LEVEL
+    : DEFAULT_SUPPORT_SKILL_LEVEL
+}
+
 function clampSupportLevelForSkillId(n: unknown, skillId: string): number {
-  const x = Math.round(Number(n))
+  const raw = typeof n === 'string' ? n.trim() : n
   const max = supportLevelMaxForSkillId(skillId)
-  if (Number.isNaN(x) || x < 1) return 1
+  if (raw === '' || raw == null) return defaultSupportLevelForSkillId(skillId)
+  const x = Math.round(Number(raw))
+  if (Number.isNaN(x) || x < 1) return defaultSupportLevelForSkillId(skillId)
   return Math.min(max, x)
 }
 
@@ -512,8 +558,7 @@ function linkWithDefaults(v: SkillLinkItem): NormalizedSkillLink {
   while (sl.length < 5) sl.push(DEFAULT_SUPPORT_SKILL_LEVEL)
   const customs = [...(v.supportExclusiveCustomBonuses ?? [])]
   while (customs.length < 5) customs.push('')
-  let ml = clampMainLevel(v.mainSkillLevel ?? DEFAULT_MAIN_SKILL_LEVEL)
-  if (props.role === 'passive') ml = 1
+  const ml = clampMainLevel(v.mainSkillLevel ?? DEFAULT_MAIN_SKILL_LEVEL, props.role)
   const normIds = ids.slice(0, 5).map(s => String(s ?? ''))
   return {
     mainSkillId: String(v.mainSkillId ?? ''),
@@ -533,7 +578,7 @@ function emitLink(partial: Partial<SkillLinkItem>) {
 const effectiveLink = computed(() => linkWithDefaults(props.modelValue))
 
 const mainLevelRange = computed(() =>
-  Array.from({ length: MAIN_LEVEL_MAX }, (_, i) => i + 1)
+  Array.from({ length: mainLevelMaxByRole(props.role) }, (_, i) => i + 1)
 )
 
 function supportLevelRangeForSlot(slotIdx: number): number[] {
@@ -572,12 +617,31 @@ const mainBaseDamageDisplay = computed(() => {
   return s.length > 0 ? s : null
 })
 
+function parsePercentFromText(text: string): number | null {
+  const m = String(text ?? '').match(/([+-]?\d+(?:\.\d+)?)\s*%/)
+  if (!m) return null
+  const n = Number(m[1])
+  return Number.isFinite(n) ? n : null
+}
+
 function supportBonusDisplay(slotIdx: number): string {
   const id = (props.modelValue.supportSkillIds[slotIdx] ?? '').trim()
-  if (!id) return '—'
+  if (!id) return props.role === 'passive' ? '0%' : '—'
+  const auraSupportCount = props.modelValue.supportSkillIds.reduce((sum, sid) => {
+    const t = String(sid ?? '').trim()
+    if (!t) return sum
+    const hit = props.supportOptions.find(o => (o.id ?? '').trim() === t)
+    const isAura = (hit?.tags ?? []).some(tag => String(tag).trim() === '光环')
+    return sum + (isAura ? 1 : 0)
+  }, 0)
+  const multiplierByAuraCount = id === PRECISE_STAND_AS_ONE_ID ? Math.max(1, auraSupportCount) : 1
   const customRaw = (effectiveLink.value.supportExclusiveCustomBonuses[slotIdx] ?? '').trim()
   if (customRaw.length > 0) {
-    if (/^\d+(\.\d+)?$/.test(customRaw)) return `${customRaw}%`
+    if (/^\d+(\.\d+)?$/.test(customRaw)) {
+      const v = Number(customRaw)
+      if (Number.isFinite(v)) return `${(v * multiplierByAuraCount).toFixed(2).replace(/\.?0+$/, '')}%`
+      return `${customRaw}%`
+    }
     return customRaw
   }
   const opt = props.supportOptions.find(o => o.id === id)
@@ -585,21 +649,115 @@ function supportBonusDisplay(slotIdx: number): string {
   const tiers = opt?.supportDamageBonusByTier
   const wikiExclusive = isWikiExclusiveSupportSkillId(id)
   if (wikiExclusive || tiers?.length === 3) {
-    if (!tiers?.length) return '—'
+    if (!tiers?.length) return props.role === 'passive' ? '0%' : '—'
     const lv = Math.min(Math.max(Math.round(lvRaw), 1), 3)
     const s = (tiers[lv - 1] ?? '').trim()
-    if (!s) return '—'
-    return s.includes('%') ? s : `${s}%`
+    if (!s) return props.role === 'passive' ? '0%' : '—'
+    const p = parsePercentFromText(s.includes('%') ? s : `${s}%`)
+    if (p == null) return s.includes('%') ? s : `${s}%`
+    const fv = p * multiplierByAuraCount
+    return `${fv.toFixed(2).replace(/\.?0+$/, '')}%`
   }
   const arr = opt?.supportDamageBonusByLevel
-  if (!arr?.length || lvRaw < 1 || lvRaw > arr.length) return '—'
+  if (!arr?.length || lvRaw < 1 || lvRaw > arr.length) {
+    return props.role === 'passive' ? '0%' : '—'
+  }
   const s = (arr[lvRaw - 1] ?? '').trim()
-  return s ? `${s}%` : '—'
+  if (s) {
+    const p = parsePercentFromText(`${s}%`)
+    if (p == null) return `${s}%`
+    const fv = p * multiplierByAuraCount
+    return `${fv.toFixed(2).replace(/\.?0+$/, '')}%`
+  }
+  return props.role === 'passive' ? '0%' : '—'
 }
+
+type ParsedPercentTerm = { label: string; pct: number }
+
+function extractPercentTermsFromDescription(description: string): ParsedPercentTerm[] {
+  const text = String(description ?? '').replace(/\s+/g, ' ').trim()
+  if (!text) return []
+  const out: ParsedPercentTerm[] = []
+  // 逐条提取「数值% + 词条名」，并在下一个「数值%」前截断，避免两条被吞成一条。
+  const re =
+    /([+-]?\d+(?:\.\d+)?)\s*%\s*([^，。；：\n]*?)(?=(?:[+-]?\d+(?:\.\d+)?\s*%)|[，。；：\n]|$)/g
+  let m: RegExpExecArray | null = null
+  while ((m = re.exec(text)) != null) {
+    const pct = Number(m[1])
+    const rawLabel = String(m[2] ?? '').trim()
+    if (!Number.isFinite(pct) || !rawLabel) continue
+    // 去掉描述性的前缀，让词条名更聚焦。
+    const label = rawLabel.replace(/^(额外|获得|提高|增加)\s*/g, '').trim()
+    if (!label) continue
+    out.push({ label, pct })
+  }
+  return out
+}
+
+const passiveMainPercentTerms = computed<ParsedPercentTerm[]>(() => {
+  if (props.role !== 'passive') return []
+  const lv = effectiveLink.value.mainSkillLevel
+  const row = mainSkillOption.value?.parsedBonusesByLevel?.find(r => r.level === lv)
+  if (!row) return []
+  const terms = extractPercentTermsFromDescription(row.description ?? '')
+  if (terms.length) return terms
+  // 兜底：如果描述为空，再回退到结构化字段。
+  const fallback: ParsedPercentTerm[] = []
+  if (typeof row.damageExtraPct === 'number' && Number.isFinite(row.damageExtraPct)) {
+    fallback.push({ label: '伤害', pct: row.damageExtraPct })
+  }
+  if (typeof row.critValuePct === 'number' && Number.isFinite(row.critValuePct)) {
+    fallback.push({ label: '暴击值', pct: row.critValuePct })
+  }
+  if (typeof row.attackSpeedPct === 'number' && Number.isFinite(row.attackSpeedPct)) {
+    fallback.push({ label: '攻击速度', pct: row.attackSpeedPct })
+  }
+  if (typeof row.castSpeedPct === 'number' && Number.isFinite(row.castSpeedPct)) {
+    fallback.push({ label: '施法速度', pct: row.castSpeedPct })
+  }
+  return fallback
+})
+
+const passiveSupportEffectMultiplier = computed(() => {
+  if (props.role !== 'passive') return 1
+  let mult = 1
+  for (let i = 0; i < 5; i++) {
+    const t = supportBonusDisplay(i)
+    const pct = parsePercentFromText(t)
+    if (pct == null) continue
+    mult *= 1 + pct / 100
+  }
+  return mult
+})
+
+const passiveDynamicBreakdownRows = computed<Array<{ key: string; label: string; value: string }>>(() => {
+  if (props.role !== 'passive') return []
+  const rows: Array<{ key: string; label: string; value: string }> = []
+  const effectMult = passiveSupportEffectMultiplier.value
+
+  // 按描述词条动态解析：不写死“伤害/暴击/攻速”等类型。
+  const terms = passiveMainPercentTerms.value
+  const merged = new Map<string, number>()
+  for (const term of terms) {
+    const key = term.label.trim()
+    if (!key) continue
+    merged.set(key, (merged.get(key) ?? 0) + term.pct)
+  }
+  for (const [label, basePct] of merged.entries()) {
+    const finalPct = basePct * effectMult
+    rows.push({
+      key: `main-${label}`,
+      label: `最终${label}（含辅助放大）`,
+      value: `${finalPct >= 0 ? '+' : ''}${finalPct.toFixed(2)}%`
+    })
+  }
+
+  return rows
+})
 
 function onMainLevelChange(e: Event) {
   const el = e.target as HTMLSelectElement
-  emitLink({ mainSkillLevel: clampMainLevel(el.value) })
+  emitLink({ mainSkillLevel: clampMainLevel(el.value, props.role) })
 }
 
 function onSupportLevelChange(slotIdx: number, e: Event) {
@@ -656,7 +814,7 @@ const mainSkillOption = computed(
   () => props.mainOptions.find(opt => opt.id === props.modelValue.mainSkillId) ?? null
 )
 
-const POPOVER_WIDTH = 280
+const POPOVER_WIDTH = 320
 /** 与锚点右侧留缝（px），避免浮层压住技能列表导致点不中；移入浮层仍可续接 hover */
 const POPOVER_GAP = 10
 
@@ -685,6 +843,22 @@ function scheduleHidePopover() {
 
 function wikiSkillPageUrl(skillId: string): string {
   return `https://tlidb.com/cn/${skillId}`
+}
+
+/** 悬停正文：优先已同步的 wiki 全文；被动无字段时用结构化成长说明兜底 */
+function detailNarrativeText(opt: SkillOption): string {
+  const w = (opt.wikiCardNarrative ?? '').trim()
+  if (w) return w
+  const rows = opt.parsedBonusesByLevel
+  if (!rows?.length) return ''
+  const sorted = [...rows].sort((a, b) => a.level - b.level)
+  const first = sorted[0]!
+  const last = sorted[sorted.length - 1]!
+  const d0 = (first.description ?? '').trim()
+  const d1 = (last.description ?? '').trim()
+  if (!d0) return ''
+  if (d0 === d1 || !d1) return d0
+  return `Lv.${first.level}：${d0}\n\nLv.${last.level}：${d1}`
 }
 
 function skillHasSpellTag(opt: SkillOption | null): boolean {
@@ -1379,6 +1553,12 @@ function resetPickerFilters() {
   line-height: 1.3;
 }
 
+.selection-stat-line--result {
+  margin-top: 4px;
+  padding-top: 6px;
+  border-top: 1px dashed rgba(255, 255, 255, 0.18);
+}
+
 .selection-stat-k {
   color: rgba(255, 255, 255, 0.5);
   flex-shrink: 0;
@@ -1844,7 +2024,7 @@ function resetPickerFilters() {
 .skill-detail-popover {
   position: fixed;
   z-index: 20000;
-  width: min(280px, calc(100vw - 16px));
+  width: min(320px, calc(100vw - 16px));
   pointer-events: auto;
 }
 
@@ -1938,12 +2118,35 @@ function resetPickerFilters() {
   color: rgba(255, 255, 255, 0.82);
 }
 
+.skill-detail-popover-narrative {
+  max-height: min(280px, 42vh);
+  overflow-y: auto;
+  padding: 8px 0 4px;
+  margin-top: 2px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 11px;
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.78);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
 .skill-detail-wiki {
   font-size: 11px;
   color: rgba(233, 69, 96, 0.95);
   text-decoration: none;
   margin-top: 2px;
   align-self: flex-start;
+}
+
+.skill-detail-wiki--secondary {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.42);
+  margin-top: 6px;
+}
+
+.skill-detail-wiki--secondary:hover {
+  color: rgba(233, 69, 96, 0.88);
 }
 
 .skill-detail-wiki:hover {

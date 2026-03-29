@@ -17,6 +17,25 @@
         <span class="summary-value summary-value--muted">{{ activeSlot.label }}</span>
       </div>
     </div>
+    <details class="persist-debug-panel">
+      <summary>持久化调试（定位写入/读取）</summary>
+      <div class="persist-debug-grid">
+        <div>最近写入结果</div>
+        <div>{{ persistenceDebug.lastWriteStatus }}</div>
+        <div>最近写入时间</div>
+        <div>{{ persistenceDebug.lastWriteAtText || '-' }}</div>
+        <div>最近读取来源</div>
+        <div>{{ persistenceDebug.lastReadSource || '-' }}</div>
+        <div>最近读取时间</div>
+        <div>{{ persistenceDebug.lastReadAtText || '-' }}</div>
+        <div>恢复后装备数量</div>
+        <div>{{ persistenceDebug.lastAppliedEquippedCount }}</div>
+        <div>standalone payload 长度</div>
+        <div>{{ persistenceDebug.standalonePayloadSize }}</div>
+        <div>build fallback payload 长度</div>
+        <div>{{ persistenceDebug.buildFallbackPayloadSize }}</div>
+      </div>
+    </details>
 
     <div class="equipment-layout">
       <aside
@@ -215,7 +234,7 @@
                     target="_blank"
                     rel="noopener noreferrer"
                   >TLIDB 高塔序列</a>）。六槽为最多
-                  <strong>3</strong> 前缀 + <strong>3</strong> 后缀（初阶 / 进阶 / 至臻），至臻与进阶各至多 <strong>2</strong> 条。左侧已选效果顺序为：基础 → 梦语 → 高塔序列 →
+                  <strong>3</strong> 前缀 + <strong>3</strong> 后缀（初阶 / 进阶 / 至臻），至臻与进阶各至多 <strong>2</strong> 条。左侧已选效果顺序为：基底 → 基础 → 梦语 → 高塔序列 →
                   六槽词缀。在右侧列表点选加入；移除请在左侧对应词条旁点击 ×。侵蚀基底等其它类型不占槽，请仅作参考。
                 </p>
               </div>
@@ -570,7 +589,7 @@
                   <span class="picker-item-body">
                     <span class="picker-crafted-effect">{{ row.effectPlain }}</span>
                     <span class="picker-crafted-meta">
-                      <span v-if="row.tier != null" class="picker-crafted-tier">T{{ row.tier }}</span>
+                      <span v-if="row.tier != null" class="picker-crafted-tier">{{ craftedTierLabel(row.tier) }}</span>
                       <span class="picker-crafted-atype">{{ craftedAffixTypeDisplay(row.affixType) }}</span>
                       <span v-if="row.itemLevel != null" class="picker-crafted-ilvl">ilvl {{ row.itemLevel }}</span>
                       <span v-if="row.weight != null" class="picker-crafted-w">权重 {{ row.weight }}</span>
@@ -707,11 +726,13 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ref, watch } from 'vue'
+import { computed, onActivated, onMounted, ref, watch } from 'vue'
+import { useBuildStore } from '@/stores/build'
 import legendaryGearJson from '@/data/equipment/legendaryGear.json'
 import towerSequenceAffixesJson from '@/data/equipment/towerSequenceAffixes.json'
 import EffectLineRollPicker from '@/components/equipment/EffectLineRollPicker.vue'
 import { parseEffectLineRolls } from '@/utils/effectLineRolls'
+import { buildCraftedDisplayLinesAndRemoveMeta } from '@/utils/weaponPhysicalFromEquipment'
 import { resolveCraftedGearBaseIconUrl } from '@/utils/craftedGearBaseIcon'
 import { resolveLegendaryGearIconUrl } from '@/utils/legendaryGearIcon'
 
@@ -742,6 +763,8 @@ type TowerSequenceModifierRow = CraftedModifier & {
   towerSequence: true
 }
 
+type CraftedTierFilterId = 'all' | 't0plus' | 't0' | 't1' | 't2'
+
 type TowerSequenceAffixJsonFile = {
   kind?: string
   modifiers?: Array<
@@ -760,6 +783,7 @@ type CraftedWhiteBasePickerRow = {
   cdnIconUrl?: string
   requiredLevel?: number | null
   slotKind?: string
+  baseEffectLines?: string[]
 }
 
 function craftedBaseRowIconSrc(row: CraftedWhiteBasePickerRow): string {
@@ -801,6 +825,7 @@ type CraftedGearBaseItem = {
   iconAlt?: string
   requiredLevel?: number | null
   slotKind?: string
+  baseEffectLines?: string[]
 }
 
 type CraftedGearBasesFile = {
@@ -873,6 +898,8 @@ type EquippedItem = {
   craftedGearBaseId?: string
   /** 自制：基底中文名 */
   craftedGearBaseName?: string
+  /** 自制：基底自带词条（物理/暴击值/攻速等） */
+  craftedBaseEffectLines?: string[]
 }
 
 /** 列表行：护甲四格可带主属性标签；戒指位可带戒指/灵戒标签 */
@@ -956,6 +983,15 @@ const CRAFTED_TOWER_SEQUENCE_AFFIX_MAX = 1
 function craftedAffixTypeDisplay(affixType: string): string {
   const hit = CRAFTED_STANDARD_AFFIX_TYPES.find(x => x.typeId === affixType)
   return hit?.label ?? affixType
+}
+
+function craftedTierLabel(tier: number | null | undefined): string {
+  if (tier == null) return ''
+  if (tier < 0) return 'T0+'
+  if (tier === 0) return 'T0'
+  if (tier === 1) return 'T1'
+  if (tier === 2) return 'T2'
+  return `T${tier}`
 }
 
 /** 占用「3 前缀 + 3 后缀」打造槽位的词缀类型（与 JSON affixType 一致） */
@@ -1345,8 +1381,8 @@ const weaponTypeFilter = ref<string>('all')
 const craftedAffixTypeFilter = ref<string>('all')
 /** 打造基底网格：默认展开；从「全部类型」选到具体类型时自动收起，可手动展开/收起 */
 const craftedBaseGridCollapsed = ref(false)
-/** 自制：T 阶，与数据中的 tier 一致 */
-const craftedTierFilter = ref<number | 'all'>('all')
+/** 自制打造 T 档：TLIDB 维度 T0+ / T0 / T1 / T2 */
+const craftedTierFilter = ref<CraftedTierFilterId>('all')
 /** 自制：词缀池子类 slug（与 craftedAffixes/*.json 对应） */
 const craftedAffixCategorySlug = ref<string | null>(null)
 /** 自制：打造基底 id（TLIDB Item 页 href，如 Brute's_Helm） */
@@ -1393,7 +1429,7 @@ type EquippedEffectBlock = {
   lines: string[]
   blockKind?: 'crafted' | 'legendary'
   /** 与 lines 下标一一对应，仅自制装备有值 */
-  craftedLineRemoveMeta?: CraftedEffectLineRemoveMeta[]
+  craftedLineRemoveMeta?: Array<CraftedEffectLineRemoveMeta | null>
 }
 
 const equippedEffectsBlocks = computed((): EquippedEffectBlock[] => {
@@ -1402,32 +1438,12 @@ const equippedEffectsBlocks = computed((): EquippedEffectBlock[] => {
   equipped.value.forEach((eq, index) => {
     if (!eq) return
     if (eq.kind === 'crafted') {
-      const basic = eq.craftedBasicAffixes ?? []
-      const dream = eq.craftedDreamAffixes ?? []
-      const tower = eq.craftedTowerSequenceAffixes ?? []
-      const affs = eq.craftedAffixes ?? []
-      const lines: string[] = []
-      const craftedLineRemoveMeta: CraftedEffectLineRemoveMeta[] = []
-      for (const a of basic) {
-        lines.push(`[${craftedAffixTypeDisplay(a.affixType)}] ${a.effectPlain}`)
-        craftedLineRemoveMeta.push({ modifierId: a.modifierId, pool: 'basic' })
-      }
-      for (const a of dream) {
-        lines.push(`[${craftedAffixTypeDisplay(a.affixType)}] ${a.effectPlain}`)
-        craftedLineRemoveMeta.push({ modifierId: a.modifierId, pool: 'dream' })
-      }
-      for (const a of tower) {
-        const tag = a.affixType === '高阶序列' ? '高塔序列·高阶' : '高塔序列·中阶'
-        lines.push(`[${tag}] ${a.effectPlain}`)
-        craftedLineRemoveMeta.push({ modifierId: a.modifierId, pool: 'tower' })
-      }
-      for (const a of affs) {
-        lines.push(`[${craftedAffixTypeDisplay(a.affixType)}] ${a.effectPlain}`)
-        craftedLineRemoveMeta.push({ modifierId: a.modifierId, pool: 'craft' })
-      }
+      const { lines, craftedLineRemoveMeta } = buildCraftedDisplayLinesAndRemoveMeta(
+        eq as unknown as Record<string, unknown>
+      )
       out.push({
         slotIndex: index,
-        itemId: eq.id,
+        itemId: String(eq.id ?? '').trim(),
         slotLabel: EQUIPMENT_SLOTS[index]!.label,
         itemName: eq.name,
         lines,
@@ -1442,7 +1458,7 @@ const equippedEffectsBlocks = computed((): EquippedEffectBlock[] => {
       : []
     out.push({
       slotIndex: index,
-      itemId: eq.id,
+      itemId: String(eq.id ?? '').trim(),
       slotLabel: EQUIPMENT_SLOTS[index]!.label,
       itemName: eq.name,
       lines,
@@ -1614,7 +1630,10 @@ const craftedWhiteBaseRowsForActiveSlot = computed((): CraftedWhiteBasePickerRow
           iconUrl: b.iconUrl,
           cdnIconUrl: b.cdnIconUrl,
           requiredLevel: b.requiredLevel ?? undefined,
-          slotKind: b.slotKind
+          slotKind: b.slotKind,
+          baseEffectLines: Array.isArray(b.baseEffectLines)
+            ? b.baseEffectLines.map(x => String(x).trim()).filter(Boolean)
+            : undefined
         })
       }
     } else {
@@ -1800,13 +1819,15 @@ const craftedAffixTypeTabs = computed((): { id: string; label: string }[] => {
   return tabs
 })
 
-const craftedTierTabs = computed((): { id: number | 'all'; label: string }[] => {
-  const set = new Set<number>()
-  for (const r of craftedModifierRowsForActiveSlot.value) {
-    if (r.tier != null) set.add(r.tier)
-  }
-  const sorted = [...set].sort((a, b) => a - b)
-  return [{ id: 'all', label: '全部 T 阶' }, ...sorted.map(t => ({ id: t, label: `T${t}` }))]
+const craftedTierTabs = computed((): { id: CraftedTierFilterId; label: string }[] => {
+  // 与 TLIDB 打造页维度对齐：始终展示 T0+ / T0 / T1 / T2 四档
+  return [
+    { id: 'all', label: '全部 T 档' },
+    { id: 't0plus', label: 'T0+' },
+    { id: 't0', label: 'T0' },
+    { id: 't1', label: 'T1' },
+    { id: 't2', label: 'T2' }
+  ]
 })
 
 const isCraftedAffixFilterTowerSequence = computed(
@@ -1821,7 +1842,14 @@ const filteredCraftedModifierRows = computed((): CraftedModifierRow[] => {
     list = list.filter(r => r.affixType === craftedAffixTypeFilter.value)
   }
   if (craftedTierFilter.value !== 'all') {
-    list = list.filter(r => r.tier === craftedTierFilter.value)
+    list = list.filter(r => {
+      if (r.tier == null) return false
+      if (craftedTierFilter.value === 't0plus') return r.tier < 0
+      if (craftedTierFilter.value === 't0') return r.tier === 0
+      if (craftedTierFilter.value === 't1') return r.tier === 1
+      if (craftedTierFilter.value === 't2') return r.tier === 2
+      return true
+    })
   }
   const q = pickerQuery.value.trim().toLowerCase()
   if (q) list = list.filter(r => r.effectPlain.toLowerCase().includes(q))
@@ -1868,6 +1896,37 @@ function towerSequenceRowIsEquipped(row: TowerSequenceModifierRow): boolean {
   return (eq?.craftedTowerSequenceAffixes ?? []).some(a => a.modifierId === row.modifierId)
 }
 
+function inferCraftedPropertyPickFromSlug(slotId: EquipmentSlotId, slug: string) {
+  if (ARMOR_STAT_FILTER_SLOT_IDS.has(slotId)) {
+    if (slug.startsWith('STR_')) return { armor: 'str' as const, ring: null, weapon: null }
+    if (slug.startsWith('DEX_')) return { armor: 'dex' as const, ring: null, weapon: null }
+    if (slug.startsWith('INT_')) return { armor: 'int' as const, ring: null, weapon: null }
+  }
+  if (RING_KIND_FILTER_SLOT_IDS.has(slotId)) {
+    if (slug === 'Ring') return { armor: null, ring: 'ring' as const, weapon: null }
+    if (slug === 'Spirit_Ring') return { armor: null, ring: 'spirit_ring' as const, weapon: null }
+  }
+  if (slotId === 'weapon_main' || slotId === 'weapon_off') {
+    return { armor: null, ring: null, weapon: slug }
+  }
+  return { armor: null, ring: null, weapon: null }
+}
+
+function restoreCraftedPickerStateFromSelectedEquipped() {
+  if (equipmentKind.value !== 'crafted') return
+  const slotId = activeSlot.value.id
+  const cur = equipped.value[selectedSlotIndex.value]
+  if (!cur || cur.kind !== 'crafted') return
+  const slug = cur.craftedAffixCategorySlug ?? cur.craftedWeaponCategorySlug
+  if (!slug) return
+  const pick = inferCraftedPropertyPickFromSlug(slotId, slug)
+  if (pick.armor) craftedArmorStatPick.value = pick.armor
+  if (pick.ring) craftedRingKindPick.value = pick.ring
+  if (pick.weapon) craftedWeaponCategoryPick.value = pick.weapon
+  craftedAffixCategorySlug.value = cur.craftedAffixCategorySlug ?? slug
+  craftedGearBaseId.value = cur.craftedGearBaseId ?? null
+}
+
 watch(selectedSlotIndex, () => {
   pickerQuery.value = ''
   craftedBaseSearchQuery.value = ''
@@ -1881,9 +1940,15 @@ watch(selectedSlotIndex, () => {
   craftedTierFilter.value = 'all'
   craftedAffixRuleHint.value = null
   craftedBaseGridCollapsed.value = false
+  restoreCraftedPickerStateFromSelectedEquipped()
 })
 
 watch(equipmentKind, (next, prev) => {
+  if (skipNextEquipmentKindReset.value) {
+    skipNextEquipmentKindReset.value = false
+    return
+  }
+  if (applyingEquipmentFromStore.value) return
   if (prev != null && next != null && prev !== next) {
     equipped.value = Array.from({ length: EQUIPMENT_SLOTS.length }, () => null)
     effectRollSelections.value = {}
@@ -1900,6 +1965,7 @@ watch(equipmentKind, (next, prev) => {
   craftedTierFilter.value = 'all'
   craftedAffixRuleHint.value = null
   craftedBaseGridCollapsed.value = false
+  restoreCraftedPickerStateFromSelectedEquipped()
 })
 
 watch(craftedAffixTypeFilter, (v, prev) => {
@@ -1927,6 +1993,32 @@ watch(
     if (!ready) {
       craftedAffixCategorySlug.value = null
       craftedGearBaseId.value = null
+      return
+    }
+    if (
+      craftedAffixCategorySlug.value &&
+      craftedGearBaseId.value &&
+      rows.some(
+        r =>
+          r.affixCategorySlug === craftedAffixCategorySlug.value &&
+          r.baseId === craftedGearBaseId.value
+      )
+    ) {
+      return
+    }
+    const cur = equipped.value[selectedSlotIndex.value]
+    if (
+      cur?.kind === 'crafted' &&
+      cur.craftedAffixCategorySlug &&
+      cur.craftedGearBaseId &&
+      rows.some(
+        r =>
+          r.affixCategorySlug === cur.craftedAffixCategorySlug &&
+          r.baseId === cur.craftedGearBaseId
+      )
+    ) {
+      craftedAffixCategorySlug.value = cur.craftedAffixCategorySlug
+      craftedGearBaseId.value = cur.craftedGearBaseId
       return
     }
     craftedAffixCategorySlug.value = null
@@ -2041,6 +2133,7 @@ function syncCraftedEquippedWithCurrentBase(row: CraftedWhiteBasePickerRow) {
       craftedGearBaseName: row.name,
       craftedAffixCategorySlug: slug,
       craftedGearBaseId: baseId,
+      craftedBaseEffectLines: row.baseEffectLines,
       iconUrl: iconUrl ?? cur.iconUrl
     }
     if (slotId === 'weapon_main' || slotId === 'weapon_off') {
@@ -2059,6 +2152,7 @@ function syncCraftedEquippedWithCurrentBase(row: CraftedWhiteBasePickerRow) {
     craftedAffixCategorySlug: slug,
     craftedGearBaseId: baseId,
     craftedGearBaseName: row.name,
+    craftedBaseEffectLines: row.baseEffectLines,
     iconUrl
   }
   if (slotId === 'weapon_main' || slotId === 'weapon_off') {
@@ -2168,6 +2262,8 @@ function equipCraftedModifier(row: CraftedModifierRow) {
     craftedAffixCategorySlug: row.sourceSlug,
     craftedGearBaseId: craftedGearBaseId.value ?? (cur?.kind === 'crafted' ? cur.craftedGearBaseId : undefined),
     craftedGearBaseName: baseRow?.name ?? (cur?.kind === 'crafted' ? cur.craftedGearBaseName : undefined),
+    craftedBaseEffectLines:
+      baseRow?.baseEffectLines ?? (cur?.kind === 'crafted' ? cur.craftedBaseEffectLines : undefined),
     iconUrl: baseRow
       ? resolveCraftedGearBaseIconUrl({
           id: baseRow.baseId,
@@ -2240,6 +2336,8 @@ function equipTowerSequenceModifier(row: TowerSequenceModifierRow) {
     craftedAffixCategorySlug: row.sourceSlug,
     craftedGearBaseId: craftedGearBaseId.value ?? (cur?.kind === 'crafted' ? cur.craftedGearBaseId : undefined),
     craftedGearBaseName: baseRow?.name ?? (cur?.kind === 'crafted' ? cur.craftedGearBaseName : undefined),
+    craftedBaseEffectLines:
+      baseRow?.baseEffectLines ?? (cur?.kind === 'crafted' ? cur.craftedBaseEffectLines : undefined),
     iconUrl: baseRow
       ? resolveCraftedGearBaseIconUrl({
           id: baseRow.baseId,
@@ -2279,6 +2377,212 @@ function clearSlotAt(index: number) {
   next[index] = null
   equipped.value = next
 }
+
+const buildStore = useBuildStore()
+const EQUIPMENT_SNAPSHOT_V = 1
+const EQUIPMENT_LOCAL_STORAGE_KEY = 'torchlight:equipment:v1:standalone'
+const BUILD_EQUIPMENT_FALLBACK_KEY = 'torchlight:build:v1:equipment'
+const applyingEquipmentFromStore = ref(false)
+const skipNextEquipmentKindReset = ref(false)
+const persistenceDebug = ref({
+  lastWriteStatus: 'init',
+  lastWriteAtText: '',
+  lastReadSource: '',
+  lastReadAtText: '',
+  lastAppliedEquippedCount: 0,
+  standalonePayloadSize: 0,
+  buildFallbackPayloadSize: 0
+})
+
+function createEquipmentSnapshotPayload() {
+  return {
+    v: EQUIPMENT_SNAPSHOT_V,
+    savedAt: Date.now(),
+    equipmentKind: equipmentKind.value,
+    selectedSlotIndex: selectedSlotIndex.value,
+    equipped: JSON.parse(JSON.stringify(equipped.value)),
+    effectRollSelections: { ...effectRollSelections.value }
+  }
+}
+
+function compactEquippedForPersistence(list: (EquippedItem | null)[]) {
+  return list.map(item => {
+    if (!item) return null
+    if (item.kind === 'legendary') {
+      return {
+        kind: 'legendary' as const,
+        id: item.id,
+        requiredLevel: item.requiredLevel ?? undefined
+      }
+    }
+    return {
+      kind: 'crafted' as const,
+      id: item.id,
+      craftedAffixCategorySlug: item.craftedAffixCategorySlug ?? undefined,
+      craftedWeaponCategorySlug: item.craftedWeaponCategorySlug ?? undefined,
+      craftedGearBaseId: item.craftedGearBaseId ?? undefined,
+      craftedGearBaseName: item.craftedGearBaseName ?? undefined,
+      craftedBaseEffectLines: item.craftedBaseEffectLines ?? undefined,
+      craftedAffixes: item.craftedAffixes ?? undefined,
+      craftedBasicAffixes: item.craftedBasicAffixes ?? undefined,
+      craftedDreamAffixes: item.craftedDreamAffixes ?? undefined,
+      craftedTowerSequenceAffixes: item.craftedTowerSequenceAffixes ?? undefined
+    }
+  })
+}
+
+function createEquipmentSnapshotPayloadCompact() {
+  return {
+    v: EQUIPMENT_SNAPSHOT_V,
+    savedAt: Date.now(),
+    equipmentKind: equipmentKind.value,
+    selectedSlotIndex: selectedSlotIndex.value,
+    equipped: compactEquippedForPersistence(equipped.value),
+    effectRollSelections: { ...effectRollSelections.value }
+  }
+}
+
+function writeEquipmentStandaloneStorage() {
+  let payload = JSON.stringify(createEquipmentSnapshotPayload())
+  let standaloneOk = false
+  let fallbackOk = false
+  try {
+    localStorage.setItem(EQUIPMENT_LOCAL_STORAGE_KEY, payload)
+    standaloneOk = true
+  } catch {
+    try {
+      payload = JSON.stringify(createEquipmentSnapshotPayloadCompact())
+      localStorage.setItem(EQUIPMENT_LOCAL_STORAGE_KEY, payload)
+      standaloneOk = true
+    } catch {
+      // ignore standalone persistence failure
+    }
+  }
+  try {
+    localStorage.setItem(BUILD_EQUIPMENT_FALLBACK_KEY, payload)
+    fallbackOk = true
+  } catch {
+    try {
+      payload = JSON.stringify(createEquipmentSnapshotPayloadCompact())
+      localStorage.setItem(BUILD_EQUIPMENT_FALLBACK_KEY, payload)
+      fallbackOk = true
+    } catch {
+      // ignore build fallback persistence failure
+    }
+  }
+  persistenceDebug.value.lastWriteStatus =
+    standaloneOk && fallbackOk ? 'ok(standalone+build)' : standaloneOk ? 'ok(standalone)' : fallbackOk ? 'ok(build)' : 'failed'
+  persistenceDebug.value.lastWriteAtText = new Date().toLocaleString()
+  persistenceDebug.value.standalonePayloadSize = payload.length
+  persistenceDebug.value.buildFallbackPayloadSize = payload.length
+}
+
+function readEquipmentStandaloneStorage(): Record<string, unknown> | null {
+  try {
+    const raw = localStorage.getItem(EQUIPMENT_LOCAL_STORAGE_KEY)
+    if (!raw) return null
+    persistenceDebug.value.standalonePayloadSize = raw.length
+    const p = JSON.parse(raw)
+    if (p && typeof p === 'object' && !Array.isArray(p)) return p as Record<string, unknown>
+  } catch {
+    // ignore invalid standalone payload
+  }
+  return null
+}
+
+function readBuildEquipmentFallbackStorage(): Record<string, unknown> | null {
+  try {
+    const raw = localStorage.getItem(BUILD_EQUIPMENT_FALLBACK_KEY)
+    if (!raw) return null
+    persistenceDebug.value.buildFallbackPayloadSize = raw.length
+    const p = JSON.parse(raw)
+    if (p && typeof p === 'object' && !Array.isArray(p)) return p as Record<string, unknown>
+  } catch {
+    // ignore invalid build fallback payload
+  }
+  return null
+}
+
+function parsePayloadSavedAt(payload: Record<string, unknown> | null): number {
+  const v = payload?.savedAt
+  return typeof v === 'number' && Number.isFinite(v) ? v : 0
+}
+
+function parsePayloadEquippedCount(payload: Record<string, unknown> | null): number {
+  const arr = payload?.equipped
+  if (!Array.isArray(arr)) return 0
+  return arr.reduce((acc, item) => acc + (item == null ? 0 : 1), 0)
+}
+
+function applyEquipmentFromStore() {
+  const storeRaw = buildStore.snapshot.equipment
+  const storeObj =
+    storeRaw && typeof storeRaw === 'object' ? (storeRaw as Record<string, unknown>) : null
+  const buildFallbackObj = readBuildEquipmentFallbackStorage()
+  const fallbackObj = readEquipmentStandaloneStorage()
+  const candidates = [storeObj, buildFallbackObj, fallbackObj].filter(
+    (x): x is Record<string, unknown> => !!x && x.v === EQUIPMENT_SNAPSHOT_V
+  )
+  const o =
+    candidates.sort((a, b) => {
+      const dt = parsePayloadSavedAt(b) - parsePayloadSavedAt(a)
+      if (dt !== 0) return dt
+      return parsePayloadEquippedCount(b) - parsePayloadEquippedCount(a)
+    })[0] ?? null
+  if (!o) return
+  persistenceDebug.value.lastReadSource =
+    o === storeObj ? 'buildStore.snapshot' : o === buildFallbackObj ? BUILD_EQUIPMENT_FALLBACK_KEY : EQUIPMENT_LOCAL_STORAGE_KEY
+  persistenceDebug.value.lastReadAtText = new Date().toLocaleString()
+  if (
+    o.equipmentKind === 'legendary' ||
+    o.equipmentKind === 'crafted' ||
+    o.equipmentKind === null
+  ) {
+    // equipmentKind watch 默认会在类型切换时清空装备；恢复流程中需要跳过这一次。
+    skipNextEquipmentKindReset.value = true
+  }
+  applyingEquipmentFromStore.value = true
+  try {
+    if (o.equipmentKind === 'legendary' || o.equipmentKind === 'crafted' || o.equipmentKind === null) {
+      equipmentKind.value = o.equipmentKind
+    }
+    if (typeof o.selectedSlotIndex === 'number') {
+      selectedSlotIndex.value = Math.min(
+        Math.max(0, o.selectedSlotIndex),
+        EQUIPMENT_SLOTS.length - 1
+      )
+    }
+    if (Array.isArray(o.equipped) && o.equipped.length === EQUIPMENT_SLOTS.length) {
+      equipped.value = o.equipped.map((x: unknown) =>
+        x === null ? null : (JSON.parse(JSON.stringify(x)) as EquippedItem)
+      )
+      persistenceDebug.value.lastAppliedEquippedCount = equipped.value.filter(Boolean).length
+    }
+    if (o.effectRollSelections && typeof o.effectRollSelections === 'object') {
+      effectRollSelections.value = { ...(o.effectRollSelections as Record<string, string>) }
+    }
+  } finally {
+    applyingEquipmentFromStore.value = false
+  }
+}
+
+applyEquipmentFromStore()
+restoreCraftedPickerStateFromSelectedEquipped()
+
+watch(
+  [equipmentKind, selectedSlotIndex, equipped, effectRollSelections],
+  () => {
+    // 先写独立装备快照，避免任何后续 guard/异常导致本页数据丢失。
+    writeEquipmentStandaloneStorage()
+    if (applyingEquipmentFromStore.value) return
+    const payload = createEquipmentSnapshotPayload()
+    buildStore.setEquipment(payload)
+  },
+  { deep: true }
+)
+
+onMounted(applyEquipmentFromStore)
+onActivated(applyEquipmentFromStore)
 </script>
 
 <style scoped>
@@ -2409,6 +2713,28 @@ function clearSlotAt(index: number) {
   font-size: 14px;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.88);
+}
+
+.persist-debug-panel {
+  margin: 0 0 12px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 8px 10px;
+  font-size: 12px;
+}
+
+.persist-debug-panel summary {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.84);
+}
+
+.persist-debug-grid {
+  margin-top: 8px;
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  gap: 6px 10px;
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .equipment-layout {

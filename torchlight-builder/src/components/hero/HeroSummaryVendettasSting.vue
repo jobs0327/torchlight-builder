@@ -148,11 +148,11 @@ const MAOBUKE_CRIT_THRESHOLD = [5, 4, 3, 2.5, 2]
 // 命悬一线：灵动祝福上限层数
 const MINGXUAN_CAP = [6, 7, 8, 9, 10]
 
-const shuangrenLevel = ref<number>(5)
-const xiushouLevel = ref<number>(5)
-const jiyingLevel = ref<number>(5)
-const maobukeLevel = ref<number>(5)
-const mingxuanLevel = ref<number>(5)
+const shuangrenLevel = ref<number>(3)
+const xiushouLevel = ref<number>(3)
+const jiyingLevel = ref<number>(3)
+const maobukeLevel = ref<number>(3)
+const mingxuanLevel = ref<number>(3)
 
 const isDualWield = ref<boolean>(true)
 const sameWeaponType = ref<boolean>(true)

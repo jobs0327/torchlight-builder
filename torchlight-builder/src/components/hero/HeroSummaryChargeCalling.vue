@@ -85,12 +85,12 @@ const SELF_DEStruct_DAMAGE_PER_PICKUP = 3
 const LIFE_SHIELD_THRESHOLD = [70, 60, 50, 45, 40]
 const LIFE_SHIELD_BONUS_PER_THRESHOLD = 1
 
-const pickupTraitLevel = ref<number>(5)
+const pickupTraitLevel = ref<number>(3)
 const pickupCount = ref<number>(10)
 
-const sabotageTraitLevel = ref<number>(5)
+const sabotageTraitLevel = ref<number>(3)
 
-const sacrificeTraitLevel = ref<number>(5)
+const sacrificeTraitLevel = ref<number>(3)
 const lifeOrShieldValue = ref<number>(500)
 
 const pickupDamageBonusPct = computed(() => {

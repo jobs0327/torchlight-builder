@@ -2,6 +2,7 @@ import { defineStore } from 'pinia'
 import { ref, computed } from 'vue'
 import type { ProfessionTalentTree, ProfessionTalentNode } from '@/data/talents/meta/professionTalentData'
 import professionTreesJson from '@/data/talents/profession_trees.json'
+import { LEVELS } from '@/data/talents/meta/professionTalentData'
 import { GOD_NAMES } from '@/types'
 
 function stripHtml(text: string): string {
@@ -42,13 +43,19 @@ export const useProfessionTalentStore = defineStore('professionTalent', () => {
   const toastMessage = ref<string>('')
   let toastTimer: number | null = null
 
-  function pushToast(message: string) {
+  function pushToast(message: string, durationMs = 2200) {
     toastMessage.value = message
     if (toastTimer) window.clearTimeout(toastTimer)
     toastTimer = window.setTimeout(() => {
       toastMessage.value = ''
       toastTimer = null
-    }, 2200)
+    }, durationMs)
+  }
+
+  /** 与天赋树 UI 层级刻度一致：列索引 → 「第 N 层」（N 为总点数门槛） */
+  function layerLabelForCol(col: number): string {
+    const idx = Math.min(Math.max(col, 0), LEVELS.length - 1)
+    return `第 ${LEVELS[idx]} 层`
   }
 
   const totalAllocatedPoints = computed(() => 
@@ -123,14 +130,32 @@ export const useProfessionTalentStore = defineStore('professionTalent', () => {
       tree.coreTalents.find(n => n.id === nodeId)
     if (!node || node.currentPoints <= 0) return false
 
-    const hasAllocatedChildren = tree.nodes.some(n =>
-      n.connections.includes(nodeId) &&
-      n.currentPoints > 0 &&
-      // 只把「在纵向后面的」节点视为后续节点，避免双向连接导致互相锁死
-      n.position.col > (node.position.col ?? 0)
+    const myCol = node.position?.col ?? 0
+    const blockers = tree.nodes.filter(
+      n =>
+        n.connections.includes(nodeId) &&
+        n.currentPoints > 0 &&
+        // 只把「在纵向后面的」节点视为后续节点，避免双向连接导致互相锁死
+        (n.position?.col ?? 0) > myCol
     )
-    // 规则：当前节点作为「前置节点」时，只要后续有已分配点的节点，就完全不能取消加点
-    if (hasAllocatedChildren) return false
+    // 规则：当前节点作为「前置」时，只要更右侧仍有已加点的依赖节点，就不能撤回本节点
+    if (blockers.length > 0) {
+      const sorted = [...blockers].sort(
+        (a, b) => (a.position?.col ?? 0) - (b.position?.col ?? 0)
+      )
+      const maxShow = 4
+      const parts = sorted.slice(0, maxShow).map(n => {
+        const layer = layerLabelForCol(n.position?.col ?? 0)
+        return `${layer}「${n.name}」`
+      })
+      const more =
+        sorted.length > maxShow ? ` 等共 ${sorted.length} 个` : ''
+      pushToast(
+        `无法取消「${node.name}」：更后层仍有天赋以其为前置且已加点。请先撤回：${parts.join('、')}${more}。`,
+        4500
+      )
+      return false
+    }
 
     // 神格树退点：不额外施加“必须保留某列至少 1 个”等限制（按用户最新需求）
 
@@ -238,6 +263,37 @@ export const useProfessionTalentStore = defineStore('professionTalent', () => {
     return 'DESELECTED'
   }
 
+  /**
+   * 从 build 快照恢复职业天赋树（localStorage 持久化后刷新页面时调用）。
+   * 仅合并与存档中 id 对应的节点点数与选中态，避免数据结构升级时整页崩溃。
+   */
+  function applyFromPersistedBuild(talent: {
+    professionTreesFull?: unknown
+  }) {
+    const full = talent.professionTreesFull
+    if (!Array.isArray(full)) return
+    for (const st of full as ProfessionTalentTree[]) {
+      if (!st || typeof st.id !== 'string') continue
+      const live = trees.value.find(x => x.id === st.id)
+      if (!live) continue
+      live.isSelected = !!st.isSelected
+      live.allocatedPoints = typeof st.allocatedPoints === 'number' ? st.allocatedPoints : 0
+      for (const n of st.nodes ?? []) {
+        const ln = live.nodes.find(x => x.id === n.id)
+        if (ln && typeof n.currentPoints === 'number') ln.currentPoints = n.currentPoints
+      }
+      for (const c of st.coreTalents ?? []) {
+        const lc = live.coreTalents.find(x => x.id === c.id)
+        if (lc && typeof c.currentPoints === 'number') lc.currentPoints = c.currentPoints
+      }
+    }
+    selectedProfessionOrder.value = trees.value
+      .filter(t => t.isSelected && !t.isGodRoot)
+      .map(t => t.id)
+    const firstSel = trees.value.find(t => t.isSelected)
+    if (firstSel) activeTreeId.value = firstSel.id
+  }
+
   function getAllocatedEffects(): string[] {
     const effectCounter = new Map<string, number>()
 
@@ -335,6 +391,35 @@ export const useProfessionTalentStore = defineStore('professionTalent', () => {
     return merged
   }
 
+  /**
+   * 已加点天赋/核心的效果原文列表（每点每条各出现一次，不做数值合并与「 xN」后缀）。
+   * 供伤害转化等需按条解析的模块使用，避免 getAllocatedEffects 把「5% … 转化为 …」误并入其它统计。
+   */
+  function getAllocatedEffectRawLines(): string[] {
+    const out: string[] = []
+    for (const tree of trees.value) {
+      for (const node of tree.nodes) {
+        if (node.currentPoints <= 0) continue
+        for (let i = 0; i < node.currentPoints; i++) {
+          for (const effect of node.effects) {
+            const clean = stripHtml(effect).trim()
+            if (clean) out.push(clean)
+          }
+        }
+      }
+      for (const core of tree.coreTalents) {
+        if (core.currentPoints <= 0) continue
+        for (let i = 0; i < core.currentPoints; i++) {
+          for (const effect of core.effects) {
+            const clean = stripHtml(effect).trim()
+            if (clean) out.push(clean)
+          }
+        }
+      }
+    }
+    return out
+  }
+
   return {
     trees,
     activeTreeId,
@@ -342,11 +427,13 @@ export const useProfessionTalentStore = defineStore('professionTalent', () => {
     totalAllocatedPoints,
     toastMessage,
     selectedProfessionOrder,
+    applyFromPersistedBuild,
     allocateNode,
     deallocateNode,
     resetTree,
     setActiveTree,
     deselectTree,
-    getAllocatedEffects
+    getAllocatedEffects,
+    getAllocatedEffectRawLines
   }
 })

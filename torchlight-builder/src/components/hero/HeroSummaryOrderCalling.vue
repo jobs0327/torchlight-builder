@@ -103,16 +103,16 @@ const CONSUMED_LIFE_MAX_STACKS = 20
 // 背水一战：根据已损失的生命额外伤害，至多额外 (+25/+32/+40/+50/+60)% 伤害
 const BACKWATER_MAX_EXTRA = [25, 32, 40, 50, 60]
 
-const firstOverloadTraitLevel = ref<number>(5)
+const firstOverloadTraitLevel = ref<number>(3)
 const isFirstOverload = ref<boolean>(true)
 
-const tongYuTraitLevel = ref<number>(5)
+const tongYuTraitLevel = ref<number>(3)
 const tongYuValue = ref<number>(50)
 
-const consumeLifeTraitLevel = ref<number>(5)
+const consumeLifeTraitLevel = ref<number>(3)
 const consumedLifePctLastSecond = ref<number>(20) // 例如 20% => 4 次消耗
 
-const backwaterTraitLevel = ref<number>(5)
+const backwaterTraitLevel = ref<number>(3)
 const lostLifePct = ref<number>(50)
 
 const firstOverloadMultiplier = computed(() => {

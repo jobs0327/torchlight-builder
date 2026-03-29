@@ -63,8 +63,8 @@ const FLAME_YUHUO_PER = [6, 7, 8, 9, 10] // 狱火沉沦 每秒伤害%
 const FLAME_SKIRT_FIRE = [30, 35, 40, 45, 50] // 裙下之臣 敌人额外受到火焰伤害
 
 const flameSeconds = ref<number>(10)
-const flameYuhuoLevel = ref<number>(5)
-const flameSkirtLevel = ref<number>(5)
+const flameYuhuoLevel = ref<number>(3)
+const flameSkirtLevel = ref<number>(3)
 
 const selectedSet = computed(() => new Set(props.selectedTraits ?? []))
 const coreSelected = computed(() => selectedSet.value.has('欢愉之焰'))

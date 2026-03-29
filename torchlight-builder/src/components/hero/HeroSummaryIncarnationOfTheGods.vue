@@ -115,10 +115,10 @@ const rLayers = ref<number>(4) // 坚韧祝福（默认 4 层）
 // 默认情况下当前层数较低，按“未触及层数上限”处理更符合预期
 const cappedTypes = ref<number>(0)
 
-const shenquanLevel = ref<number>(5)
-const shenliLevel = ref<number>(5)
-const shenyuLevel = ref<number>(5)
-const huashenLevel = ref<number>(5)
+const shenquanLevel = ref<number>(3)
+const shenliLevel = ref<number>(3)
+const shenyuLevel = ref<number>(3)
+const huashenLevel = ref<number>(3)
 
 const totalBlessings = computed(() => Math.max(0, (qLayers.value || 0) + (mLayers.value || 0) + (rLayers.value || 0)))
 

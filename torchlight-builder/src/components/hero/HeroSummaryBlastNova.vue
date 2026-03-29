@@ -109,11 +109,11 @@ const BLAST_DOG_PER = [4, 4.8, 5.5, 6.3, 7] // 狂暴猎犬 每颗炸弹
 
 const blastAttackSpeedPct = ref<number>(100)
 const blastCastSpeedPct = ref<number>(100)
-const blastCoverLevel = ref<number>(5)
-const blastStormLevel = ref<number>(5)
-const blastFakeLevel = ref<number>(5)
-const blastRadiationLevel = ref<number>(5)
-const blastDogLevel = ref<number>(5)
+const blastCoverLevel = ref<number>(3)
+const blastStormLevel = ref<number>(3)
+const blastFakeLevel = ref<number>(3)
+const blastRadiationLevel = ref<number>(3)
+const blastDogLevel = ref<number>(3)
 const blastBombCount = ref<number>(10)
 const blastNear = ref<boolean>(true)
 

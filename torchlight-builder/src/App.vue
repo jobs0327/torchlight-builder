@@ -12,6 +12,7 @@
         <router-link to="/equipment" class="nav-link">装备</router-link>
         <router-link to="/pactspirit" class="nav-link">契灵</router-link>
         <router-link to="/hero-memories" class="nav-link">追忆</router-link>
+        <router-link to="/build-calc" class="nav-link">数据计算</router-link>
       </nav>
     </header>
     <main class="app-main">
@@ -21,6 +22,43 @@
 </template>
 
 <script setup lang="ts">
+import { watch } from 'vue'
+import { useBuildStore } from '@/stores/build'
+import { useTalentStore } from '@/stores/talent'
+import { useProfessionTalentStore } from '@/stores/professionTalent'
+
+const buildStore = useBuildStore()
+const talentStore = useTalentStore()
+const professionStore = useProfessionTalentStore()
+
+function syncTalentIntoBuild() {
+  buildStore.setTalent({
+    nodeIds: Array.from(talentStore.allocatedNodes),
+    profession: professionStore.trees.map(t => ({
+      treeId: t.id,
+      allocatedPoints: t.allocatedPoints,
+      selected: !!t.isSelected
+    })),
+    professionTreesFull: JSON.parse(JSON.stringify(professionStore.trees))
+  })
+}
+
+watch(
+  () =>
+    `${Array.from(talentStore.allocatedNodes)
+      .sort()
+      .join(',')}|${JSON.stringify(
+      professionStore.trees.map(t => ({
+        id: t.id,
+        ap: t.allocatedPoints,
+        sel: t.isSelected,
+        n: t.nodes.map(x => [x.id, x.currentPoints]),
+        c: t.coreTalents.map(x => [x.id, x.currentPoints])
+      }))
+    )}`,
+  syncTalentIntoBuild,
+  { immediate: true }
+)
 </script>
 
 <style scoped>

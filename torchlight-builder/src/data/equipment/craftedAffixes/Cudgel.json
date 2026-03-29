@@ -2,181 +2,1276 @@
   "slug": "Cudgel",
   "label": "Cudgel",
   "sourceUrl": "https://tlidb.com/cn/Cudgel",
-  "fetchedAt": "2026-03-22T08:59:03Z",
-  "modifierCount": 101,
+  "fetchedAt": "2026-03-24T07:25:58Z",
+  "modifierCount": 308,
   "modifiers": [
     {
-      "modifierId": "1501400",
-      "tier": 2,
+      "modifierId": "160412014",
+      "tier": 1,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "weight": 100,
+      "affixType": "中阶序列",
       "source": "武杖",
-      "effectPlain": "攻击附加 (25–30) - (33–38) 点物理伤害",
+      "effectPlain": "+12 % 护甲减伤穿透",
       "valueSpans": [
-        "(25–30)",
-        "(33–38)"
+        "+12"
       ]
     },
     {
-      "modifierId": "1501401",
-      "tier": 2,
+      "modifierId": "160420014",
+      "tier": 1,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "weight": 100,
+      "affixType": "中阶序列",
       "source": "武杖",
-      "effectPlain": "攻击附加 (24–29) - (34–39) 点火焰伤害",
+      "effectPlain": "+16 % 全属性",
       "valueSpans": [
-        "(24–29)",
-        "(34–39)"
+        "+16"
       ]
     },
     {
-      "modifierId": "1501402",
-      "tier": 2,
+      "modifierId": "160414014",
+      "tier": 1,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "weight": 100,
+      "affixType": "中阶序列",
       "source": "武杖",
-      "effectPlain": "攻击附加 (24–29) - (34–39) 点冰冷伤害",
+      "effectPlain": "+16 % 冰冷穿透",
       "valueSpans": [
-        "(24–29)",
-        "(34–39)"
+        "+16"
       ]
     },
     {
-      "modifierId": "1501403",
-      "tier": 2,
+      "modifierId": "160413014",
+      "tier": 1,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "weight": 100,
+      "affixType": "中阶序列",
       "source": "武杖",
-      "effectPlain": "攻击附加 (1–3) - (60–65) 点闪电伤害",
+      "effectPlain": "+16 % 火焰穿透",
       "valueSpans": [
-        "(1–3)",
-        "(60–65)"
+        "+16"
       ]
     },
     {
-      "modifierId": "1501404",
-      "tier": 2,
+      "modifierId": "160416014",
+      "tier": 1,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "weight": 100,
+      "affixType": "中阶序列",
       "source": "武杖",
-      "effectPlain": "攻击附加 (26–31) - (32–37) 点腐蚀伤害",
+      "effectPlain": "+16 % 腐蚀抗性穿透",
       "valueSpans": [
-        "(26–31)",
-        "(32–37)"
+        "+16"
       ]
     },
     {
-      "modifierId": "1501405",
-      "tier": 2,
+      "modifierId": "160415014",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "武杖",
+      "effectPlain": "+16 % 闪电穿透",
+      "valueSpans": [
+        "+16"
+      ]
+    },
+    {
+      "modifierId": "160418014",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "武杖",
+      "effectPlain": "+20 % 该装备攻击暴击值",
+      "valueSpans": [
+        "+20"
+      ]
+    },
+    {
+      "modifierId": "160417014",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "武杖",
+      "effectPlain": "+8 % 该装备攻击速度",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160419014",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "武杖",
+      "effectPlain": "暴击时，额外 +20 % 伤害",
+      "valueSpans": [
+        "+20"
+      ]
+    },
+    {
+      "modifierId": "160411014",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "武杖",
+      "effectPlain": "额外 +16 % 主手武器 伤害",
+      "valueSpans": [
+        "+16"
+      ]
+    },
+    {
+      "modifierId": "60061403",
+      "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "武杖",
-      "effectPlain": "+(40–48) % 物理伤害",
+      "effectPlain": "+(18–24) % 施法速度",
+      "valueSpans": [
+        "+(18–24)"
+      ]
+    },
+    {
+      "modifierId": "60061409",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "武杖",
+      "effectPlain": "+(1–2) 辅助技能等级",
+      "valueSpans": [
+        "+(1–2)"
+      ]
+    },
+    {
+      "modifierId": "60061404",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "武杖",
+      "effectPlain": "+(35–45) % 法术伤害",
+      "valueSpans": [
+        "+(35–45)"
+      ]
+    },
+    {
+      "modifierId": "60061406",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "武杖",
+      "effectPlain": "+(40–48) % 暴击伤害",
       "valueSpans": [
         "+(40–48)"
       ]
     },
     {
-      "modifierId": "1501406",
-      "tier": 2,
+      "modifierId": "60061405",
+      "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "武杖",
-      "effectPlain": "+(40–48) % 元素伤害",
+      "effectPlain": "+(50–60) % 法术暴击值",
       "valueSpans": [
-        "+(40–48)"
+        "+(50–60)"
       ]
     },
     {
-      "modifierId": "1501407",
-      "tier": 2,
+      "modifierId": "60061407",
+      "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "武杖",
-      "effectPlain": "+(40–48) % 腐蚀伤害",
+      "effectPlain": "+(8–15) % 冷却回复速度",
       "valueSpans": [
-        "+(40–48)"
+        "+(8–15)"
       ]
     },
     {
-      "modifierId": "1501408",
-      "tier": 2,
+      "modifierId": "60061402",
+      "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "武杖",
-      "effectPlain": "+(40–48) % 近战伤害",
+      "effectPlain": "伤害穿透 (8–12) % 元素 抗性",
       "valueSpans": [
-        "+(40–48)"
+        "(8–12)"
       ]
     },
     {
-      "modifierId": "1501409",
-      "tier": 2,
+      "modifierId": "60061401",
+      "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "武杖",
-      "effectPlain": "+(12–16) % 攻击速度",
+      "effectPlain": "击败时， +(6–12) % 几率获得 1 层 聚能祝福",
       "valueSpans": [
-        "+(12–16)"
+        "+(6–12)"
       ]
     },
     {
-      "modifierId": "1501410",
+      "modifierId": "60061408",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "武杖",
+      "effectPlain": "附加 (7–12) % 元素 伤害的腐蚀伤害",
+      "valueSpans": [
+        "(7–12)"
+      ]
+    },
+    {
+      "modifierId": "140140480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(282–365) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (121–123) - (149–151) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (257–259) - (333–351) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (260–262) - (346–348) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (279–281) - (327–329) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (29–31) - (577–579) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140140400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(217–281) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (198–200) - (256–270) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (200–202) - (266–268) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (214–216) - (252–254) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (22–24) - (444–446) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (93–95) - (113–115) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140140401",
       "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "武杖",
-      "effectPlain": "额外 +(12–16) % 攻击伤害",
-      "valueSpans": [
-        "+(12–16)"
-      ]
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(152–216) % 近战伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "1501411",
+      "modifierId": "106140101",
       "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "武杖",
-      "effectPlain": "引导时， 额外 +(12–16) % 伤害",
-      "valueSpans": [
-        "+(12–16)"
-      ]
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (152–154) - (197–208) 点火焰伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "1501412",
+      "modifierId": "106140201",
       "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "武杖",
-      "effectPlain": "+(12–16) % 元素和腐蚀抗性穿透",
-      "valueSpans": [
-        "+(12–16)"
-      ]
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (154–156) - (204–206) 点冰冷伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "1501413",
+      "modifierId": "106140401",
       "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (165–167) - (193–195) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (17–19) - (341–343) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (71–73) - (87–89) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140140402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(109–151) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (42–44) - (52–54) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (59–61) - (76–82) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (59–61) - (79–81) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (63–65) - (75–77) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (6–8) - (132–134) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140140403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(87–108) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (28–30) - (34–36) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (29–31) - (38–41) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (29–31) - (39–41) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (31–33) - (37–39) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (3–5) - (66–68) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140140404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(70–86) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (10–12) - (13–16) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (10–12) - (14–16) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (11–13) - (13–15) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (18–20) - (22–24) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (1–2) - (24–26) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140140405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(57–69) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (1–2) - (14–16) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (6–8) - (8–10) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (6–8) - (8–10) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (6–8) - (8–10) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (6–8) - (8–10) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140140406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(44–56) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (1–2) - (10–12) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (4–6) - (6–8) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (4–6) - (6–8) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (4–6) - (6–8) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 5 - (5–7) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140140407",
+      "tier": 7,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "武杖",
-      "effectPlain": "+(10–14) % 护甲减伤穿透",
-      "valueSpans": [
-        "+(10–14)"
-      ]
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(33–43) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (2–3) - (4–6) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (2–3) - (4–6) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (2–3) - (5–6) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (2–4) - (4–6) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106140307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 1 - (7–9) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(282–365) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(282–365) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(282–365) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140140880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(40–51) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(40–51) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(43–54) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(217–281) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(217–281) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(217–281) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140140804",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(31–39) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(31–39) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(33–42) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(152–216) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(152–216) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(152–216) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140140805",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(22–30) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(22–30) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(23–32) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(109–151) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(109–151) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(109–151) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140140806",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(16–21) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(16–21) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(17–22) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140140807",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(13–15) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(13–15) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(14–16) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(87–108) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(87–108) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(87–108) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(11–12) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(11–13) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(70–86) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(70–86) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(70–86) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(57–69) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(57–69) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(57–69) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(9–10) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(9–10) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(44–56) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(44–56) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(44–56) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(7–8) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(7–8) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(33–43) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(33–43) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(33–43) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+6 % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+6 % 该装备攻击速度",
+      "valueSpans": []
     },
     {
       "modifierId": "1501414",
@@ -215,6 +1310,42 @@
       ]
     },
     {
+      "modifierId": "1501419",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "武杖",
+      "effectPlain": "暴击 幸运 (-50–-40) % 暴击值",
+      "valueSpans": [
+        "(-50–-40)"
+      ]
+    },
+    {
+      "modifierId": "1501413",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "武杖",
+      "effectPlain": "+(10–14) % 护甲减伤穿透",
+      "valueSpans": [
+        "+(10–14)"
+      ]
+    },
+    {
+      "modifierId": "1501412",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "武杖",
+      "effectPlain": "+(12–16) % 元素和腐蚀抗性穿透",
+      "valueSpans": [
+        "+(12–16)"
+      ]
+    },
+    {
       "modifierId": "1501417",
       "tier": 1,
       "itemLevel": 1,
@@ -224,6 +1355,18 @@
       "effectPlain": "+(48–64) % 该装备物理伤害",
       "valueSpans": [
         "+(48–64)"
+      ]
+    },
+    {
+      "modifierId": "1501411",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "武杖",
+      "effectPlain": "引导时， 额外 +(12–16) % 伤害",
+      "valueSpans": [
+        "+(12–16)"
       ]
     },
     {
@@ -240,607 +1383,261 @@
       ]
     },
     {
-      "modifierId": "1501419",
-      "tier": 0,
+      "modifierId": "1501410",
+      "tier": 1,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "基础词缀",
       "source": "武杖",
-      "effectPlain": "暴击 幸运 (-50–-40) % 暴击值",
+      "effectPlain": "额外 +(12–16) % 攻击伤害",
       "valueSpans": [
-        "(-50–-40)"
+        "+(12–16)"
       ]
     },
     {
-      "modifierId": "60061401",
-      "tier": 0,
+      "modifierId": "1501409",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "侵蚀基底",
+      "affixType": "基础词缀",
       "source": "武杖",
-      "effectPlain": "击败时， +(6–12) % 几率获得 1 层 聚能祝福",
+      "effectPlain": "+(12–16) % 攻击速度",
       "valueSpans": [
-        "+(6–12)"
+        "+(12–16)"
       ]
     },
     {
-      "modifierId": "60061402",
-      "tier": 0,
+      "modifierId": "1501406",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "侵蚀基底",
+      "affixType": "基础词缀",
       "source": "武杖",
-      "effectPlain": "伤害穿透 (8–12) % 元素 抗性",
-      "valueSpans": [
-        "(8–12)"
-      ]
-    },
-    {
-      "modifierId": "60061403",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "武杖",
-      "effectPlain": "+(18–24) % 施法速度",
-      "valueSpans": [
-        "+(18–24)"
-      ]
-    },
-    {
-      "modifierId": "60061404",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "武杖",
-      "effectPlain": "+(35–45) % 法术伤害",
-      "valueSpans": [
-        "+(35–45)"
-      ]
-    },
-    {
-      "modifierId": "60061405",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "武杖",
-      "effectPlain": "+(50–60) % 法术暴击值",
-      "valueSpans": [
-        "+(50–60)"
-      ]
-    },
-    {
-      "modifierId": "60061406",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "武杖",
-      "effectPlain": "+(40–48) % 暴击伤害",
+      "effectPlain": "+(40–48) % 元素伤害",
       "valueSpans": [
         "+(40–48)"
       ]
     },
     {
-      "modifierId": "60061407",
+      "modifierId": "1501405",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "武杖",
+      "effectPlain": "+(40–48) % 物理伤害",
+      "valueSpans": [
+        "+(40–48)"
+      ]
+    },
+    {
+      "modifierId": "1501407",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "武杖",
+      "effectPlain": "+(40–48) % 腐蚀伤害",
+      "valueSpans": [
+        "+(40–48)"
+      ]
+    },
+    {
+      "modifierId": "1501408",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "武杖",
+      "effectPlain": "+(40–48) % 近战伤害",
+      "valueSpans": [
+        "+(40–48)"
+      ]
+    },
+    {
+      "modifierId": "1501403",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "武杖",
+      "effectPlain": "攻击附加 (1–3) - (60–65) 点闪电伤害",
+      "valueSpans": [
+        "(1–3)",
+        "(60–65)"
+      ]
+    },
+    {
+      "modifierId": "1501402",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "武杖",
+      "effectPlain": "攻击附加 (24–29) - (34–39) 点冰冷伤害",
+      "valueSpans": [
+        "(24–29)",
+        "(34–39)"
+      ]
+    },
+    {
+      "modifierId": "1501401",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "武杖",
+      "effectPlain": "攻击附加 (24–29) - (34–39) 点火焰伤害",
+      "valueSpans": [
+        "(24–29)",
+        "(34–39)"
+      ]
+    },
+    {
+      "modifierId": "1501400",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "武杖",
+      "effectPlain": "攻击附加 (25–30) - (33–38) 点物理伤害",
+      "valueSpans": [
+        "(25–30)",
+        "(33–38)"
+      ]
+    },
+    {
+      "modifierId": "1501404",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "武杖",
+      "effectPlain": "攻击附加 (26–31) - (32–37) 点腐蚀伤害",
+      "valueSpans": [
+        "(26–31)",
+        "(32–37)"
+      ]
+    },
+    {
+      "modifierId": "85014141",
       "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "侵蚀基底",
+      "affixType": "美梦词缀",
       "source": "武杖",
-      "effectPlain": "+(8–15) % 冷却回复速度",
+      "effectPlain": "+1 坚韧祝福 层数上限",
       "valueSpans": [
-        "+(8–15)"
+        "+1"
       ]
     },
     {
-      "modifierId": "60061408",
+      "modifierId": "85014151",
       "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "侵蚀基底",
+      "affixType": "美梦词缀",
       "source": "武杖",
-      "effectPlain": "附加 (7–12) % 元素 伤害的腐蚀伤害",
+      "effectPlain": "+1 灵动祝福 层数上限",
       "valueSpans": [
-        "(7–12)"
+        "+1"
       ]
     },
     {
-      "modifierId": "60061409",
+      "modifierId": "85014161",
       "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "侵蚀基底",
+      "affixType": "美梦词缀",
       "source": "武杖",
-      "effectPlain": "+(1–2) 辅助技能等级",
+      "effectPlain": "+1 聚能祝福 层数上限",
       "valueSpans": [
-        "+(1–2)"
+        "+1"
       ]
     },
     {
-      "modifierId": "106140001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "武杖",
-      "effectPlain": "该装备附加 (71–73) - (87–89) 点物理伤害",
-      "valueSpans": [
-        "(71–73)",
-        "(87–89)"
-      ]
-    },
-    {
-      "modifierId": "106140101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "武杖",
-      "effectPlain": "该装备附加 (152–154) - (197–208) 点火焰伤害",
-      "valueSpans": [
-        "(152–154)",
-        "(197–208)"
-      ]
-    },
-    {
-      "modifierId": "106140201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "武杖",
-      "effectPlain": "该装备附加 (154–156) - (204–206) 点冰冷伤害",
-      "valueSpans": [
-        "(154–156)",
-        "(204–206)"
-      ]
-    },
-    {
-      "modifierId": "106140301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "武杖",
-      "effectPlain": "该装备附加 (17–19) - (341–343) 点闪电伤害",
-      "valueSpans": [
-        "(17–19)",
-        "(341–343)"
-      ]
-    },
-    {
-      "modifierId": "106140401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "武杖",
-      "effectPlain": "该装备附加 (165–167) - (193–195) 点腐蚀伤害",
-      "valueSpans": [
-        "(165–167)",
-        "(193–195)"
-      ]
-    },
-    {
-      "modifierId": "140140401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "武杖",
-      "effectPlain": "+(152–216) % 近战伤害",
-      "valueSpans": [
-        "+(152–216)"
-      ]
-    },
-    {
-      "modifierId": "107140001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "武杖",
-      "effectPlain": "+(49–80) % 该装备物理伤害",
-      "valueSpans": [
-        "+(49–80)"
-      ]
-    },
-    {
-      "modifierId": "109140001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "武杖",
-      "effectPlain": "+(127–180) 力量",
-      "valueSpans": [
-        "+(127–180)"
-      ]
-    },
-    {
-      "modifierId": "109140101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "武杖",
-      "effectPlain": "+(127–180) 敏捷",
-      "valueSpans": [
-        "+(127–180)"
-      ]
-    },
-    {
-      "modifierId": "109140201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "武杖",
-      "effectPlain": "+(127–180) 智慧",
-      "valueSpans": [
-        "+(127–180)"
-      ]
-    },
-    {
-      "modifierId": "115140501",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "武杖",
-      "effectPlain": "+(36–50) % 护甲减伤穿透",
-      "valueSpans": [
-        "+(36–50)"
-      ]
-    },
-    {
-      "modifierId": "130140101",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "武杖",
-      "effectPlain": "+(43–60) % 元素和腐蚀抗性穿透",
-      "valueSpans": [
-        "+(43–60)"
-      ]
-    },
-    {
-      "modifierId": "140140901",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "武杖",
-      "effectPlain": "+6 攻击技能等级",
-      "valueSpans": [
-        "+6"
-      ]
-    },
-    {
-      "modifierId": "140141501",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "武杖",
-      "effectPlain": "+(77–110) % 该装备物理伤害 该装备附加 (53–55) - (65–67) 点物理伤害",
-      "valueSpans": [
-        "+(77–110)",
-        "(53–55)",
-        "(65–67)"
-      ]
-    },
-    {
-      "modifierId": "140141601",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "武杖",
-      "effectPlain": "该装备附加 (59–61) - (337–339) 点元素伤害 -100 % 该装备物理伤害",
-      "valueSpans": [
-        "(59–61)",
-        "(337–339)",
-        "-100"
-      ]
-    },
-    {
-      "modifierId": "110140001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "武杖",
-      "effectPlain": "+(23–32) % 该装备攻击速度",
-      "valueSpans": [
-        "+(23–32)"
-      ]
-    },
-    {
-      "modifierId": "140140805",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "武杖",
-      "effectPlain": "+(22–30) % 护盾返还",
-      "valueSpans": [
-        "+(22–30)"
-      ]
-    },
-    {
-      "modifierId": "140141101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "武杖",
-      "effectPlain": "+(22–30) % 生命返还",
-      "valueSpans": [
-        "+(22–30)"
-      ]
-    },
-    {
-      "modifierId": "140141201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "武杖",
-      "effectPlain": "+(152–216) % 物理伤害",
-      "valueSpans": [
-        "+(152–216)"
-      ]
-    },
-    {
-      "modifierId": "140141301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "武杖",
-      "effectPlain": "+(152–216) % 元素 伤害",
-      "valueSpans": [
-        "+(152–216)"
-      ]
-    },
-    {
-      "modifierId": "140141401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "武杖",
-      "effectPlain": "+(152–216) % 腐蚀伤害",
-      "valueSpans": [
-        "+(152–216)"
-      ]
-    },
-    {
-      "modifierId": "110140101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "武杖",
-      "effectPlain": "+(36–50) % 该装备攻击暴击值",
-      "valueSpans": [
-        "+(36–50)"
-      ]
-    },
-    {
-      "modifierId": "110140501",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "武杖",
-      "effectPlain": "+(252–360) % 暴击值",
-      "valueSpans": [
-        "+(252–360)"
-      ]
-    },
-    {
-      "modifierId": "110140601",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "武杖",
-      "effectPlain": "+(51–72) % 攻击与施法速度 +(51–72) % 召唤物攻击与施法速度",
-      "valueSpans": [
-        "+(51–72)",
-        "+(51–72)"
-      ]
-    },
-    {
-      "modifierId": "111140501",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "武杖",
-      "effectPlain": "+(127–180) % 暴击伤害",
-      "valueSpans": [
-        "+(127–180)"
-      ]
-    },
-    {
-      "modifierId": "140140301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "武杖",
-      "effectPlain": "+(106–150) % 加剧 效果",
-      "valueSpans": [
-        "+(106–150)"
-      ]
-    },
-    {
-      "modifierId": "140141701",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "武杖",
-      "effectPlain": "+(90–110) % 贯注速度",
-      "valueSpans": [
-        "+(90–110)"
-      ]
-    },
-    {
-      "modifierId": "116140101",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "武杖",
-      "effectPlain": "+(1–2) 引导层数上限",
-      "valueSpans": [
-        "+(1–2)"
-      ]
-    },
-    {
-      "modifierId": "130140201",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "武杖",
-      "effectPlain": "对生命造成额外 (43–60) % 伤害",
-      "valueSpans": [
-        "(43–60)"
-      ]
-    },
-    {
-      "modifierId": "140141001",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "武杖",
-      "effectPlain": "+(1–2) 引导层数下限",
-      "valueSpans": [
-        "+(1–2)"
-      ]
-    },
-    {
-      "modifierId": "140141801",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "武杖",
-      "effectPlain": "+(70–90) % 贯注伤害加深",
-      "valueSpans": [
-        "+(70–90)"
-      ]
-    },
-    {
-      "modifierId": "140141901",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "武杖",
-      "effectPlain": "+(176–250) % 破击蓄能 回复速度",
-      "valueSpans": [
-        "+(176–250)"
-      ]
-    },
-    {
-      "modifierId": "140142001",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "武杖",
-      "effectPlain": "+46 % 斩击 几率 额外 +(35–48) % 斩击 伤害",
-      "valueSpans": [
-        "+46",
-        "+(35–48)"
-      ]
-    },
-    {
-      "modifierId": "85014001",
-      "tier": 2,
+      "modifierId": "85014191",
+      "tier": 0,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "武杖",
-      "effectPlain": "攻击附加 (10–13) - (14–19) 点物理伤害",
+      "effectPlain": "暴击 幸运 (-80–-50) % 暴击值",
       "valueSpans": [
-        "(10–13)",
-        "(14–19)"
+        "(-80–-50)"
       ]
     },
     {
-      "modifierId": "85014011",
-      "tier": 2,
+      "modifierId": "85026171",
+      "tier": 1,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "武杖",
-      "effectPlain": "攻击附加 (9–14) - (15–20) 点火焰伤害",
+      "effectPlain": "+(24–32) % 该装备物理伤害",
       "valueSpans": [
-        "(9–14)",
-        "(15–20)"
+        "+(24–32)"
       ]
     },
     {
-      "modifierId": "85014021",
-      "tier": 2,
+      "modifierId": "85014131",
+      "tier": 1,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "武杖",
-      "effectPlain": "攻击附加 (10–13) - (14–19) 点冰冷伤害",
+      "effectPlain": "+(5–7) % 护甲减伤穿透",
       "valueSpans": [
-        "(10–13)",
-        "(14–19)"
+        "+(5–7)"
       ]
     },
     {
-      "modifierId": "85014031",
-      "tier": 2,
+      "modifierId": "85014121",
+      "tier": 1,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "武杖",
-      "effectPlain": "攻击附加 (1–2) - (28–32) 点闪电伤害",
+      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
       "valueSpans": [
-        "(1–2)",
-        "(28–32)"
+        "+(6–8)"
       ]
     },
     {
-      "modifierId": "85014041",
-      "tier": 2,
+      "modifierId": "85014111",
+      "tier": 1,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "武杖",
-      "effectPlain": "攻击附加 (11–13) - (15–18) 点腐蚀伤害",
+      "effectPlain": "引导时， 额外 +(6–8) % 伤害",
       "valueSpans": [
-        "(11–13)",
-        "(15–18)"
+        "+(6–8)"
       ]
     },
     {
-      "modifierId": "85014051",
-      "tier": 2,
+      "modifierId": "85014181",
+      "tier": 1,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "武杖",
-      "effectPlain": "+(20–24) % 物理伤害",
+      "effectPlain": "该装备附加 (32–34) - (40–42) 点物理伤害",
       "valueSpans": [
-        "+(20–24)"
+        "(32–34)",
+        "(40–42)"
+      ]
+    },
+    {
+      "modifierId": "85014101",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "武杖",
+      "effectPlain": "额外 +(6–8) % 攻击伤害",
+      "valueSpans": [
+        "+(6–8)"
       ]
     },
     {
@@ -851,6 +1648,18 @@
       "affixType": "美梦词缀",
       "source": "武杖",
       "effectPlain": "+(20–24) % 元素伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85014051",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "武杖",
+      "effectPlain": "+(20–24) % 物理伤害",
       "valueSpans": [
         "+(20–24)"
       ]
@@ -892,244 +1701,1467 @@
       ]
     },
     {
-      "modifierId": "85014101",
-      "tier": 1,
+      "modifierId": "85014021",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "武杖",
-      "effectPlain": "额外 +(6–8) % 攻击伤害",
+      "effectPlain": "攻击附加 (10–13) - (14–19) 点冰冷伤害",
       "valueSpans": [
-        "+(6–8)"
+        "(10–13)",
+        "(14–19)"
       ]
     },
     {
-      "modifierId": "85014111",
-      "tier": 1,
+      "modifierId": "85014001",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "武杖",
-      "effectPlain": "引导时， 额外 +(6–8) % 伤害",
+      "effectPlain": "攻击附加 (10–13) - (14–19) 点物理伤害",
       "valueSpans": [
-        "+(6–8)"
+        "(10–13)",
+        "(14–19)"
       ]
     },
     {
-      "modifierId": "85014121",
-      "tier": 1,
+      "modifierId": "85014041",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "武杖",
-      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
+      "effectPlain": "攻击附加 (11–13) - (15–18) 点腐蚀伤害",
       "valueSpans": [
-        "+(6–8)"
+        "(11–13)",
+        "(15–18)"
       ]
     },
     {
-      "modifierId": "85014131",
-      "tier": 1,
+      "modifierId": "85014031",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "武杖",
-      "effectPlain": "+(5–7) % 护甲减伤穿透",
+      "effectPlain": "攻击附加 (1–2) - (28–32) 点闪电伤害",
       "valueSpans": [
-        "+(5–7)"
+        "(1–2)",
+        "(28–32)"
       ]
     },
     {
-      "modifierId": "85014141",
+      "modifierId": "85014011",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "武杖",
+      "effectPlain": "攻击附加 (9–14) - (15–20) 点火焰伤害",
+      "valueSpans": [
+        "(9–14)",
+        "(15–20)"
+      ]
+    },
+    {
+      "modifierId": "140141580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(146–190) % 该装备物理伤害 该装备附加 (90–92) - (111–113) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115140580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(66–85) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130140180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(79–101) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140140980",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Cudgel",
+      "effectPlain": "+8 攻击技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (100–102) - (569–571) 点元素伤害 -100 % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(111–145) % 该装备物理伤害 该装备附加 (69–71) - (85–87) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115140500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(51–64) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130140100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(61–78) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140140900",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Cudgel",
+      "effectPlain": "+7 攻击技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (77–79) - (438–440) 点元素伤害 -100 % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115140501",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(36–50) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130140101",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(43–60) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141501",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(77–110) % 该装备物理伤害 该装备附加 (53–55) - (65–67) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140140901",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Cudgel",
+      "effectPlain": "+6 攻击技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141601",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (59–61) - (337–339) 点元素伤害 -100 % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115140502",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(30–35) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130140102",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(31–42) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140140902",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Cudgel",
+      "effectPlain": "+5 攻击技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141602",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Cudgel",
+      "effectPlain": "该装备附加 (23–25) - (133–135) 点元素伤害 -100 % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115140503",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(22–25) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130140103",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 400,
+      "affixType": "至臻前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(25–30) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115140504",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(17–20) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(130–160) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141980",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(326–423) % 破击蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116140180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(4–5) 引导层数上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(4–5) 引导层数下限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140142080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "+60 % 斩击 几率 额外 +(63–81) % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130140280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "对生命造成额外 (79–101) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141900",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(251–325) % 破击蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116140100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(3–4) 引导层数上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(3–4) 引导层数下限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141800",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(96–120) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140142000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "+60 % 斩击 几率 额外 +(49–62) % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130140200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "对生命造成额外 (61–78) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141901",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(176–250) % 破击蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116140101",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(1–2) 引导层数上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141001",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(1–2) 引导层数下限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141801",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(70–90) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140142001",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "+46 % 斩击 几率 额外 +(35–48) % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130140201",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "对生命造成额外 (43–60) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141902",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(126–175) % 破击蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141802",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(40–60) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140142002",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "+32 % 斩击 几率 额外 +(25–34) % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130140202",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "对生命造成额外 (31–42) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141903",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(101–125) % 破击蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140142003",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "+24 % 斩击 几率 额外 +(20–24) % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141904",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(81–100) % 破击蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140142004",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "+18 % 斩击 几率 额外 +(16–19) % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141905",
+      "tier": 5,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(66–80) % 破击蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140142005",
+      "tier": 5,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "+12 % 斩击 几率 额外 +(13–15) % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141906",
+      "tier": 6,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(51–65) % 破击蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140142006",
+      "tier": 6,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "+8 % 斩击 几率 额外 +(11–12) % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141907",
+      "tier": 7,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(39–50) % 破击蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140142007",
+      "tier": 7,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻后缀",
+      "source": "Cudgel",
+      "effectPlain": "+4 % 斩击 几率 额外 +(8–10) % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107140080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(105–136) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109140080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(235–304) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109140180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(235–304) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109140280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(235–304) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105140080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(60–76) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109140000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(181–234) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109140100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(181–234) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109140200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(181–234) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105140000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(46–59) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107140000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(81–104) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109140001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(127–180) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109140101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(127–180) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109140201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(127–180) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107140001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(49–80) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107140002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(33–48) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109140002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(91–126) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109140102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(91–126) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109140202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(91–126) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107140003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(22–32) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109140003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(73–90) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109140103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(73–90) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109140203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(73–90) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109140004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(59–72) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109140104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(59–72) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109140204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(59–72) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107140004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(9–21) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109140005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(48–58) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109140105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(48–58) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109140205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(48–58) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107140005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(7–8) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109140006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(37–47) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109140106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(37–47) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109140206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(37–47) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107140006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(5–6) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109140007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(28–36) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109140107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(28–36) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109140207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+(28–36) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107140007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Cudgel",
+      "effectPlain": "+4 % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(150–180) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140140380",
+      "tier": -1,
+      "itemLevel": 1000,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(196–254) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111140580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(235–304) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(469–608) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(66–85) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(95–122) % 攻击与施法速度 +(95–122) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(120–140) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140140300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(151–195) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111140500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(181–234) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(328–468) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(51–65) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(66–94) % 攻击与施法速度 +(66–94) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140140301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(106–150) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111140501",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(127–180) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140501",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(252–360) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(36–50) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(51–72) % 攻击与施法速度 +(51–72) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141701",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(90–110) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140502",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(212–252) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(26–35) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140602",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(43–50) % 攻击与施法速度 +(43–50) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140141702",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(60–80) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140140302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(76–105) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111140502",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(91–126) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140503",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(151–180) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(21–25) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140603",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(31–36) % 攻击与施法速度 +(31–36) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140140303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(61–75) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111140503",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(73–90) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140504",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(121–144) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(17–20) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140140304",
+      "tier": 4,
+      "itemLevel": 72,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(49–60) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111140504",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(59–72) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(14–16) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140140305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(40–48) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111140505",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(48–58) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140505",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(96–115) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(11–13) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140140306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(31–39) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111140506",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(37–47) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140506",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(78–94) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140140307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(24–30) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111140507",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 1350,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(29–36) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110140107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Cudgel",
+      "effectPlain": "+(9–10) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "160517014",
       "tier": 0,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
+      "weight": 100,
+      "affixType": "高阶序列",
       "source": "武杖",
-      "effectPlain": "+1 坚韧祝福 层数上限",
+      "effectPlain": "+120 % 该装备物理伤害 -20 % 该装备攻击暴击值",
       "valueSpans": [
-        "+1"
+        "+120",
+        "-20"
       ]
     },
     {
-      "modifierId": "85014151",
+      "modifierId": "160516014",
       "tier": 0,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
+      "weight": 60,
+      "affixType": "高阶序列",
       "source": "武杖",
-      "effectPlain": "+1 灵动祝福 层数上限",
+      "effectPlain": "+200 % 狂猛光环效果 额外 -30 % 狂猛 魔力封印 补偿",
       "valueSpans": [
-        "+1"
+        "+200",
+        "-30"
       ]
     },
     {
-      "modifierId": "85014161",
+      "modifierId": "160519014",
       "tier": 0,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "武杖",
-      "effectPlain": "+1 聚能祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "85014181",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "武杖",
-      "effectPlain": "该装备附加 (32–34) - (40–42) 点物理伤害",
-      "valueSpans": [
-        "(32–34)",
-        "(40–42)"
-      ]
-    },
-    {
-      "modifierId": "85014191",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "武杖",
-      "effectPlain": "暴击 幸运 (-80–-50) % 暴击值",
-      "valueSpans": [
-        "(-80–-50)"
-      ]
-    },
-    {
-      "modifierId": "85026171",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "武杖",
-      "effectPlain": "+(24–32) % 该装备物理伤害",
-      "valueSpans": [
-        "+(24–32)"
-      ]
-    },
-    {
-      "modifierId": "160411014",
-      "tier": 1,
-      "itemLevel": 1,
       "weight": 100,
-      "affixType": "中阶序列",
+      "affixType": "高阶序列",
       "source": "武杖",
-      "effectPlain": "额外 +16 % 主手武器 伤害",
+      "effectPlain": "+50 % 该装备元素伤害 -25 % 该装备物理伤害",
       "valueSpans": [
-        "+16"
-      ]
-    },
-    {
-      "modifierId": "160412014",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "武杖",
-      "effectPlain": "+12 % 护甲减伤穿透",
-      "valueSpans": [
-        "+12"
-      ]
-    },
-    {
-      "modifierId": "160413014",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "武杖",
-      "effectPlain": "+16 % 火焰穿透",
-      "valueSpans": [
-        "+16"
-      ]
-    },
-    {
-      "modifierId": "160414014",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "武杖",
-      "effectPlain": "+16 % 冰冷穿透",
-      "valueSpans": [
-        "+16"
-      ]
-    },
-    {
-      "modifierId": "160415014",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "武杖",
-      "effectPlain": "+16 % 闪电穿透",
-      "valueSpans": [
-        "+16"
-      ]
-    },
-    {
-      "modifierId": "160416014",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "武杖",
-      "effectPlain": "+16 % 腐蚀抗性穿透",
-      "valueSpans": [
-        "+16"
-      ]
-    },
-    {
-      "modifierId": "160417014",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "武杖",
-      "effectPlain": "+8 % 该装备攻击速度",
-      "valueSpans": [
-        "+8"
-      ]
-    },
-    {
-      "modifierId": "160418014",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "武杖",
-      "effectPlain": "+20 % 该装备攻击暴击值",
-      "valueSpans": [
-        "+20"
-      ]
-    },
-    {
-      "modifierId": "160419014",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "武杖",
-      "effectPlain": "暴击时，额外 +20 % 伤害",
-      "valueSpans": [
-        "+20"
-      ]
-    },
-    {
-      "modifierId": "160420014",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "武杖",
-      "effectPlain": "+16 % 全属性",
-      "valueSpans": [
-        "+16"
+        "+50",
+        "-25"
       ]
     },
     {
@@ -1147,17 +3179,16 @@
       ]
     },
     {
-      "modifierId": "160512014",
+      "modifierId": "160514014",
       "tier": 0,
       "itemLevel": 1,
       "weight": 30,
       "affixType": "高阶序列",
       "source": "武杖",
-      "effectPlain": "每 10 点敏捷，攻击附加 1 - 7 点闪电伤害",
+      "effectPlain": "核心技能被 25 级的碾压辅助 额外 +25 % 近战伤害",
       "valueSpans": [
-        "10",
-        "1",
-        "7"
+        "25",
+        "+25"
       ]
     },
     {
@@ -1175,16 +3206,17 @@
       ]
     },
     {
-      "modifierId": "160514014",
+      "modifierId": "160512014",
       "tier": 0,
       "itemLevel": 1,
       "weight": 30,
       "affixType": "高阶序列",
       "source": "武杖",
-      "effectPlain": "核心技能被 25 级的碾压辅助 额外 +25 % 近战伤害",
+      "effectPlain": "每 10 点敏捷，攻击附加 1 - 7 点闪电伤害",
       "valueSpans": [
-        "25",
-        "+25"
+        "10",
+        "1",
+        "7"
       ]
     },
     {
@@ -1202,32 +3234,6 @@
       ]
     },
     {
-      "modifierId": "160516014",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 60,
-      "affixType": "高阶序列",
-      "source": "武杖",
-      "effectPlain": "+200 % 狂猛光环效果 额外 -30 % 狂猛 魔力封印 补偿",
-      "valueSpans": [
-        "+200",
-        "-30"
-      ]
-    },
-    {
-      "modifierId": "160517014",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "高阶序列",
-      "source": "武杖",
-      "effectPlain": "+120 % 该装备物理伤害 -20 % 该装备攻击暴击值",
-      "valueSpans": [
-        "+120",
-        "-20"
-      ]
-    },
-    {
       "modifierId": "160518014",
       "tier": 0,
       "itemLevel": 1,
@@ -1239,19 +3245,6 @@
         "+30",
         "10",
         "2"
-      ]
-    },
-    {
-      "modifierId": "160519014",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "高阶序列",
-      "source": "武杖",
-      "effectPlain": "+50 % 该装备元素伤害 -25 % 该装备物理伤害",
-      "valueSpans": [
-        "+50",
-        "-25"
       ]
     }
   ],
@@ -1287,17 +3280,6 @@
       "skeleton": "{#} % 元素和腐蚀抗性穿透",
       "rolls": [
         {
-          "modifierId": "130140101",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻前缀",
-          "valueSpans": [
-            "+(43–60)"
-          ],
-          "effectPlain": "+(43–60) % 元素和腐蚀抗性穿透"
-        },
-        {
           "modifierId": "1501412",
           "tier": 1,
           "itemLevel": 1,
@@ -1324,17 +3306,6 @@
     {
       "skeleton": "{#} % 护甲减伤穿透",
       "rolls": [
-        {
-          "modifierId": "115140501",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻前缀",
-          "valueSpans": [
-            "+(36–50)"
-          ],
-          "effectPlain": "+(36–50) % 护甲减伤穿透"
-        },
         {
           "modifierId": "1501413",
           "tier": 1,
@@ -1398,46 +3369,8 @@
       ]
     },
     {
-      "skeleton": "{#} % 暴击伤害",
-      "rolls": [
-        {
-          "modifierId": "60061406",
-          "tier": 0,
-          "itemLevel": 1,
-          "weight": 1,
-          "affixType": "侵蚀基底",
-          "valueSpans": [
-            "+(40–48)"
-          ],
-          "effectPlain": "+(40–48) % 暴击伤害"
-        },
-        {
-          "modifierId": "111140501",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶后缀",
-          "valueSpans": [
-            "+(127–180)"
-          ],
-          "effectPlain": "+(127–180) % 暴击伤害"
-        }
-      ]
-    },
-    {
       "skeleton": "{#} % 物理伤害",
       "rolls": [
-        {
-          "modifierId": "140141201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(152–216)"
-          ],
-          "effectPlain": "+(152–216) % 物理伤害"
-        },
         {
           "modifierId": "1501405",
           "tier": 2,
@@ -1466,17 +3399,6 @@
       "skeleton": "{#} % 腐蚀伤害",
       "rolls": [
         {
-          "modifierId": "140141401",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(152–216)"
-          ],
-          "effectPlain": "+(152–216) % 腐蚀伤害"
-        },
-        {
           "modifierId": "1501407",
           "tier": 2,
           "itemLevel": 1,
@@ -1501,73 +3423,8 @@
       ]
     },
     {
-      "skeleton": "{#} % 该装备攻击暴击值",
-      "rolls": [
-        {
-          "modifierId": "110140101",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶后缀",
-          "valueSpans": [
-            "+(36–50)"
-          ],
-          "effectPlain": "+(36–50) % 该装备攻击暴击值"
-        },
-        {
-          "modifierId": "160418014",
-          "tier": 1,
-          "itemLevel": 1,
-          "weight": 100,
-          "affixType": "中阶序列",
-          "valueSpans": [
-            "+20"
-          ],
-          "effectPlain": "+20 % 该装备攻击暴击值"
-        }
-      ]
-    },
-    {
-      "skeleton": "{#} % 该装备攻击速度",
-      "rolls": [
-        {
-          "modifierId": "110140001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(23–32)"
-          ],
-          "effectPlain": "+(23–32) % 该装备攻击速度"
-        },
-        {
-          "modifierId": "160417014",
-          "tier": 1,
-          "itemLevel": 1,
-          "weight": 100,
-          "affixType": "中阶序列",
-          "valueSpans": [
-            "+8"
-          ],
-          "effectPlain": "+8 % 该装备攻击速度"
-        }
-      ]
-    },
-    {
       "skeleton": "{#} % 该装备物理伤害",
       "rolls": [
-        {
-          "modifierId": "107140001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(49–80)"
-          ],
-          "effectPlain": "+(49–80) % 该装备物理伤害"
-        },
         {
           "modifierId": "1501417",
           "tier": 1,
@@ -1595,17 +3452,6 @@
     {
       "skeleton": "{#} % 近战伤害",
       "rolls": [
-        {
-          "modifierId": "140140401",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(152–216)"
-          ],
-          "effectPlain": "+(152–216) % 近战伤害"
-        },
         {
           "modifierId": "1501408",
           "tier": 2,
@@ -1914,18 +3760,6 @@
       "skeleton": "该装备附加 {#} - {#} 点物理伤害",
       "rolls": [
         {
-          "modifierId": "106140001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "(71–73)",
-            "(87–89)"
-          ],
-          "effectPlain": "该装备附加 (71–73) - (87–89) 点物理伤害"
-        },
-        {
           "modifierId": "1501418",
           "tier": 1,
           "itemLevel": 1,
@@ -1979,5 +3813,5 @@
       ]
     }
   ],
-  "tierVariantGroupCount": 23
+  "tierVariantGroupCount": 20
 }

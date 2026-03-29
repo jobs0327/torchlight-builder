@@ -103,7 +103,7 @@ const noEnemies5m = ref<boolean>(true)
 // 拥抱世界吧：
 // 每有 1% 火焰/冰冷/闪电抗性 -> 对应魔灵 +1% 强化技能使用几率（合计受最大值上限影响）
 const EMBRACE_WORLD_MAX = [28, 36, 44, 52, 60]
-const embraceWorldLevel = ref<number>(5)
+const embraceWorldLevel = ref<number>(3)
 
 const resFirePct = ref<number>(30)
 const resColdPct = ref<number>(30)

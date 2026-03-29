@@ -245,8 +245,11 @@ function onReset() {
 <style scoped>
 .talent-page {
   display: flex;
-  height: 100vh;
+  height: 100%;
+  min-height: 0;
   background: #0f0f1a;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .talent-sidebar {
@@ -424,41 +427,44 @@ function onReset() {
   flex: 1;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  min-height: 0;
 }
 
 .god-overview {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 16px;
-  padding: 20px 24px 0;
+  gap: 10px;
+  padding: 10px 14px 0;
+  flex-shrink: 0;
 }
 
 .god-card {
-  width: 180px;
+  width: 158px;
   background: rgba(15, 23, 42, 0.9);
-  border-radius: 10px;
-  padding: 12px 10px;
+  border-radius: 8px;
+  padding: 8px 8px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
 }
 
 .god-card-header {
-  padding-bottom: 8px;
+  padding-bottom: 6px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .god-card-title {
-  font-size: 14px;
+  font-size: 12px;
   color: #e5e7eb;
   text-align: center;
 }
 
 .god-card-body {
-  margin-top: 8px;
+  margin-top: 6px;
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 4px;
 }
 
 .god-panel-btn {
@@ -466,14 +472,14 @@ function onReset() {
   flex-direction: column;
   align-items: center;
   gap: 2px;
-  padding: 6px 4px;
-  border-radius: 8px;
+  padding: 4px 4px;
+  border-radius: 6px;
   background: rgba(0, 0, 0, 0.3);
   border: 1px solid rgba(255, 255, 255, 0.1);
   cursor: pointer;
   transition: all 0.2s ease;
   color: #e5e7eb;
-  font-size: 12px;
+  font-size: 11px;
   position: relative;
 }
 
@@ -484,8 +490,8 @@ function onReset() {
 }
 
 .god-panel-name {
-  font-size: 12px;
-  padding-right: 16px;
+  font-size: 11px;
+  padding-right: 14px;
 }
 
 .god-panel-close {
@@ -493,14 +499,14 @@ function onReset() {
   top: 50%;
   right: 6px;
   transform: translateY(-50%);
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   border-radius: 6px;
   border: none;
   background: transparent;
   color: rgba(255, 255, 255, 0.85);
-  font-size: 14px;
-  line-height: 14px;
+  font-size: 12px;
+  line-height: 12px;
   padding: 0;
   cursor: pointer;
   display: flex;
@@ -514,14 +520,15 @@ function onReset() {
 }
 
 .god-panel-points {
-  font-size: 11px;
+  font-size: 10px;
   color: #facc15;
 }
 
 .talent-tree-container {
   flex: 1;
   position: relative;
-  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .no-tree {

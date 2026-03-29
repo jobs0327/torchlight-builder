@@ -2,962 +2,31 @@
   "slug": "Scepter",
   "label": "Scepter",
   "sourceUrl": "https://tlidb.com/cn/Scepter",
-  "fetchedAt": "2026-03-22T08:58:29Z",
-  "modifierCount": 98,
+  "fetchedAt": "2026-03-24T07:25:19Z",
+  "modifierCount": 282,
   "modifiers": [
     {
-      "modifierId": "1503400",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "魔杖",
-      "effectPlain": "+(15–20) 力量",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "1503401",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "魔杖",
-      "effectPlain": "+(15–20) 敏捷",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "1503402",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "魔杖",
-      "effectPlain": "+(15–20) 智慧",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "1503403",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "魔杖",
-      "effectPlain": "+(20–24) % 物理伤害",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "1503404",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "魔杖",
-      "effectPlain": "+(20–24) % 元素伤害",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "1503405",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "魔杖",
-      "effectPlain": "+(20–24) % 腐蚀伤害",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "1503406",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "魔杖",
-      "effectPlain": "+(20–24) % 法术伤害",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "1503407",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "魔杖",
-      "effectPlain": "+(10–14) % 加剧 效果",
-      "valueSpans": [
-        "+(10–14)"
-      ]
-    },
-    {
-      "modifierId": "1503408",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "魔杖",
-      "effectPlain": "+(8–10) % 收割 时间",
-      "valueSpans": [
-        "+(8–10)"
-      ]
-    },
-    {
-      "modifierId": "1503409",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "魔杖",
-      "effectPlain": "+(15–20) % 收割 回复速度",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "1503410",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "魔杖",
-      "effectPlain": "额外 +(6–8) % 持续伤害",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "1503411",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "魔杖",
-      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "1503412",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "魔杖",
-      "effectPlain": "+1 灵动祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "1503413",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "魔杖",
-      "effectPlain": "+(6–8) % 迷踪 效果",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "1503414",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "魔杖",
-      "effectPlain": "+1 聚能祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "1503415",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "魔杖",
-      "effectPlain": "+1 坚韧祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "60063401",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "魔杖",
-      "effectPlain": "使用核心法术技能时， +(5–8) % 几率额外触发一次",
-      "valueSpans": [
-        "+(5–8)"
-      ]
-    },
-    {
-      "modifierId": "60063402",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "魔杖",
-      "effectPlain": "击败时， +(4–8) % 几率获得 1 层 聚能祝福",
-      "valueSpans": [
-        "+(4–8)"
-      ]
-    },
-    {
-      "modifierId": "60063403",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "魔杖",
-      "effectPlain": "伤害穿透 (5–8) % 元素 抗性",
-      "valueSpans": [
-        "(5–8)"
-      ]
-    },
-    {
-      "modifierId": "60063404",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "魔杖",
-      "effectPlain": "+(10–16) % 施法速度",
-      "valueSpans": [
-        "+(10–16)"
-      ]
-    },
-    {
-      "modifierId": "60063405",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "魔杖",
-      "effectPlain": "+(20–30) % 法术伤害",
-      "valueSpans": [
-        "+(20–30)"
-      ]
-    },
-    {
-      "modifierId": "60063406",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "魔杖",
-      "effectPlain": "+(30–40) % 法术暴击值",
-      "valueSpans": [
-        "+(30–40)"
-      ]
-    },
-    {
-      "modifierId": "60063407",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "魔杖",
-      "effectPlain": "+(25–32) % 暴击伤害",
-      "valueSpans": [
-        "+(25–32)"
-      ]
-    },
-    {
-      "modifierId": "60063408",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "魔杖",
-      "effectPlain": "+(6–10) % 冷却回复速度",
-      "valueSpans": [
-        "+(6–10)"
-      ]
-    },
-    {
-      "modifierId": "60063409",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "魔杖",
-      "effectPlain": "附加 (5–8) % 元素 伤害的腐蚀伤害",
-      "valueSpans": [
-        "(5–8)"
-      ]
-    },
-    {
-      "modifierId": "104340001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "魔杖",
-      "effectPlain": "+(127–180) 最大魔力",
-      "valueSpans": [
-        "+(127–180)"
-      ]
-    },
-    {
-      "modifierId": "107340601",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "魔杖",
-      "effectPlain": "+(77–108) % 持续伤害",
-      "valueSpans": [
-        "+(77–108)"
-      ]
-    },
-    {
-      "modifierId": "116340201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "魔杖",
-      "effectPlain": "+(120–144) 每秒施加 加剧 值",
-      "valueSpans": [
-        "+(120–144)"
-      ]
-    },
-    {
-      "modifierId": "130340301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "魔杖",
-      "effectPlain": "造成持续伤害时， 收割 (0.13–0.18) 秒持续伤害，该效果对同一目标有 1 秒回复时间",
-      "valueSpans": [
-        "(0.13–0.18)",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "140340701",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "魔杖",
-      "effectPlain": "+(232–330) 最大生命",
-      "valueSpans": [
-        "+(232–330)"
-      ]
-    },
-    {
-      "modifierId": "140340801",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "魔杖",
-      "effectPlain": "+(369–525) 最大护盾",
-      "valueSpans": [
-        "+(369–525)"
-      ]
-    },
-    {
-      "modifierId": "109340001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "魔杖",
-      "effectPlain": "+(64–90) 智慧",
-      "valueSpans": [
-        "+(64–90)"
-      ]
-    },
-    {
-      "modifierId": "109340301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "魔杖",
-      "effectPlain": "+(64–90) 力量",
-      "valueSpans": [
-        "+(64–90)"
-      ]
-    },
-    {
-      "modifierId": "109340401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "魔杖",
-      "effectPlain": "+(64–90) 敏捷",
-      "valueSpans": [
-        "+(64–90)"
-      ]
-    },
-    {
-      "modifierId": "115340201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "魔杖",
-      "effectPlain": "+2 物理技能等级",
-      "valueSpans": [
-        "+2"
-      ]
-    },
-    {
-      "modifierId": "115340301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "魔杖",
-      "effectPlain": "+2 闪电技能等级",
-      "valueSpans": [
-        "+2"
-      ]
-    },
-    {
-      "modifierId": "115340401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "魔杖",
-      "effectPlain": "+2 冰冷技能等级",
-      "valueSpans": [
-        "+2"
-      ]
-    },
-    {
-      "modifierId": "115340501",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "魔杖",
-      "effectPlain": "+2 火焰技能等级",
-      "valueSpans": [
-        "+2"
-      ]
-    },
-    {
-      "modifierId": "115340601",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "魔杖",
-      "effectPlain": "+2 腐蚀技能等级",
-      "valueSpans": [
-        "+2"
-      ]
-    },
-    {
-      "modifierId": "110340801",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "魔杖",
-      "effectPlain": "+2 地面蓄能 层数上限",
-      "valueSpans": [
-        "+2"
-      ]
-    },
-    {
-      "modifierId": "130340001",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "魔杖",
-      "effectPlain": "+3 法术技能等级",
-      "valueSpans": [
-        "+3"
-      ]
-    },
-    {
-      "modifierId": "130340101",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "魔杖",
-      "effectPlain": "+(22–30) % 元素和腐蚀抗性穿透",
-      "valueSpans": [
-        "+(22–30)"
-      ]
-    },
-    {
-      "modifierId": "130340201",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "魔杖",
-      "effectPlain": "对生命造成额外 (22–30) % 伤害",
-      "valueSpans": [
-        "(22–30)"
-      ]
-    },
-    {
-      "modifierId": "110340301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "魔杖",
-      "effectPlain": "+(18–24) % 护盾 充能 速度",
-      "valueSpans": [
-        "+(18–24)"
-      ]
-    },
-    {
-      "modifierId": "115341001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "魔杖",
-      "effectPlain": "附加 56 - 67 基础 凋零 伤害",
-      "valueSpans": [
-        "56",
-        "67"
-      ]
-    },
-    {
-      "modifierId": "116340301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "魔杖",
-      "effectPlain": "+(54–75) % 加剧 效果",
-      "valueSpans": [
-        "+(54–75)"
-      ]
-    },
-    {
-      "modifierId": "140340001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "魔杖",
-      "effectPlain": "附加 480 - 1120 基础 创伤 伤害",
-      "valueSpans": [
-        "480",
-        "1120"
-      ]
-    },
-    {
-      "modifierId": "140340101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "魔杖",
-      "effectPlain": "附加 350 - 650 基础 点燃 伤害",
-      "valueSpans": [
-        "350",
-        "650"
-      ]
-    },
-    {
-      "modifierId": "140340901",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "魔杖",
-      "effectPlain": "+(78–108) % 物理伤害",
-      "valueSpans": [
-        "+(78–108)"
-      ]
-    },
-    {
-      "modifierId": "140341001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "魔杖",
-      "effectPlain": "+(78–108) % 元素 伤害",
-      "valueSpans": [
-        "+(78–108)"
-      ]
-    },
-    {
-      "modifierId": "140341101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "魔杖",
-      "effectPlain": "+(77–108) % 腐蚀伤害",
-      "valueSpans": [
-        "+(77–108)"
-      ]
-    },
-    {
-      "modifierId": "110340101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "魔杖",
-      "effectPlain": "+(26–36) % 施法速度 +(26–36) % 召唤物施法速度",
-      "valueSpans": [
-        "+(26–36)",
-        "+(26–36)"
-      ]
-    },
-    {
-      "modifierId": "140340301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "魔杖",
-      "effectPlain": "+(36–48) % 点燃 持续时间",
-      "valueSpans": [
-        "+(36–48)"
-      ]
-    },
-    {
-      "modifierId": "140340401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "魔杖",
-      "effectPlain": "+(36–48) % 创伤 持续时间",
-      "valueSpans": [
-        "+(36–48)"
-      ]
-    },
-    {
-      "modifierId": "140340501",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "魔杖",
-      "effectPlain": "+(36–48) % 凋零 持续时间",
-      "valueSpans": [
-        "+(36–48)"
-      ]
-    },
-    {
-      "modifierId": "140340601",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "魔杖",
-      "effectPlain": "+(54–75) % 收割 时间",
-      "valueSpans": [
-        "+(54–75)"
-      ]
-    },
-    {
-      "modifierId": "140341401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "魔杖",
-      "effectPlain": "+(45–54) % 贯注速度",
-      "valueSpans": [
-        "+(45–54)"
-      ]
-    },
-    {
-      "modifierId": "140340201",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "魔杖",
-      "effectPlain": "+(89–125) % 收割 回复速度",
-      "valueSpans": [
-        "+(89–125)"
-      ]
-    },
-    {
-      "modifierId": "140341201",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "魔杖",
-      "effectPlain": "+1 地面数量上限 额外 +1 % 伤害",
-      "valueSpans": [
-        "+1",
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "140341501",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "魔杖",
-      "effectPlain": "+(35–45) % 贯注伤害加深",
-      "valueSpans": [
-        "+(35–45)"
-      ]
-    },
-    {
-      "modifierId": "140341601",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "魔杖",
-      "effectPlain": "若最近释放的连携终结技至少消耗了 8 点连携点， +(40–50) % 连携伤害加深",
-      "valueSpans": [
-        "8",
-        "+(40–50)"
-      ]
-    },
-    {
-      "modifierId": "140341701",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "魔杖",
-      "effectPlain": "+(40–50) % 异常伤害加深",
-      "valueSpans": [
-        "+(40–50)"
-      ]
-    },
-    {
-      "modifierId": "85034001",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "魔杖",
-      "effectPlain": "+(15–20) 力量",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "85034011",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "魔杖",
-      "effectPlain": "+(15–20) 敏捷",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "85034021",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "魔杖",
-      "effectPlain": "+(15–20) 智慧",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "85034031",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "魔杖",
-      "effectPlain": "+(20–24) % 物理伤害",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "85034041",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "魔杖",
-      "effectPlain": "+(20–24) % 元素伤害",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "85034051",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "魔杖",
-      "effectPlain": "+(20–24) % 腐蚀伤害",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "85034061",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "魔杖",
-      "effectPlain": "+(20–24) % 法术伤害",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "85034071",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "魔杖",
-      "effectPlain": "+(10–14) % 加剧 效果",
-      "valueSpans": [
-        "+(10–14)"
-      ]
-    },
-    {
-      "modifierId": "85034081",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "魔杖",
-      "effectPlain": "+(8–10) % 收割 时间",
-      "valueSpans": [
-        "+(8–10)"
-      ]
-    },
-    {
-      "modifierId": "85034091",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "魔杖",
-      "effectPlain": "+(15–20) % 收割 回复速度",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "85034101",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "魔杖",
-      "effectPlain": "额外 +(6–8) % 持续伤害",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "85034111",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "魔杖",
-      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "85034121",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "魔杖",
-      "effectPlain": "+1 灵动祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "85034131",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "魔杖",
-      "effectPlain": "+(6–8) % 迷踪 效果",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "85034141",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "魔杖",
-      "effectPlain": "+1 聚能祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "85034151",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "魔杖",
-      "effectPlain": "+1 坚韧祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "160441034",
+      "modifierId": "160445034",
       "tier": 1,
       "itemLevel": 1,
       "weight": 100,
       "affixType": "中阶序列",
       "source": "魔杖",
-      "effectPlain": "额外 +8 % 持续伤害",
+      "effectPlain": "+10 % 移动速度",
       "valueSpans": [
-        "+8"
+        "+10"
+      ]
+    },
+    {
+      "modifierId": "160446034",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "魔杖",
+      "effectPlain": "+12 % 异常状态 持续时间",
+      "valueSpans": [
+        "+12"
       ]
     },
     {
@@ -998,27 +67,27 @@
       ]
     },
     {
-      "modifierId": "160445034",
+      "modifierId": "160450034",
       "tier": 1,
       "itemLevel": 1,
       "weight": 100,
       "affixType": "中阶序列",
       "source": "魔杖",
-      "effectPlain": "+10 % 移动速度",
+      "effectPlain": "+8 % 全属性",
       "valueSpans": [
-        "+10"
+        "+8"
       ]
     },
     {
-      "modifierId": "160446034",
+      "modifierId": "160448034",
       "tier": 1,
       "itemLevel": 1,
       "weight": 100,
       "affixType": "中阶序列",
       "source": "魔杖",
-      "effectPlain": "+12 % 异常状态 持续时间",
+      "effectPlain": "+8 % 迷踪 效果",
       "valueSpans": [
-        "+12"
+        "+8"
       ]
     },
     {
@@ -1035,18 +104,6 @@
       ]
     },
     {
-      "modifierId": "160448034",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "魔杖",
-      "effectPlain": "+8 % 迷踪 效果",
-      "valueSpans": [
-        "+8"
-      ]
-    },
-    {
       "modifierId": "160449034",
       "tier": 1,
       "itemLevel": 1,
@@ -1059,66 +116,2754 @@
       ]
     },
     {
-      "modifierId": "160450034",
+      "modifierId": "160441034",
       "tier": 1,
       "itemLevel": 1,
       "weight": 100,
       "affixType": "中阶序列",
       "source": "魔杖",
-      "effectPlain": "+8 % 全属性",
+      "effectPlain": "额外 +8 % 持续伤害",
       "valueSpans": [
         "+8"
       ]
     },
     {
-      "modifierId": "160561034",
+      "modifierId": "60063404",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "魔杖",
+      "effectPlain": "+(10–16) % 施法速度",
+      "valueSpans": [
+        "+(10–16)"
+      ]
+    },
+    {
+      "modifierId": "60063405",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "魔杖",
+      "effectPlain": "+(20–30) % 法术伤害",
+      "valueSpans": [
+        "+(20–30)"
+      ]
+    },
+    {
+      "modifierId": "60063407",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "魔杖",
+      "effectPlain": "+(25–32) % 暴击伤害",
+      "valueSpans": [
+        "+(25–32)"
+      ]
+    },
+    {
+      "modifierId": "60063406",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "魔杖",
+      "effectPlain": "+(30–40) % 法术暴击值",
+      "valueSpans": [
+        "+(30–40)"
+      ]
+    },
+    {
+      "modifierId": "60063408",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "魔杖",
+      "effectPlain": "+(6–10) % 冷却回复速度",
+      "valueSpans": [
+        "+(6–10)"
+      ]
+    },
+    {
+      "modifierId": "60063403",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "魔杖",
+      "effectPlain": "伤害穿透 (5–8) % 元素 抗性",
+      "valueSpans": [
+        "(5–8)"
+      ]
+    },
+    {
+      "modifierId": "60063401",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "魔杖",
+      "effectPlain": "使用核心法术技能时， +(5–8) % 几率额外触发一次",
+      "valueSpans": [
+        "+(5–8)"
+      ]
+    },
+    {
+      "modifierId": "60063402",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "魔杖",
+      "effectPlain": "击败时， +(4–8) % 几率获得 1 层 聚能祝福",
+      "valueSpans": [
+        "+(4–8)"
+      ]
+    },
+    {
+      "modifierId": "60063409",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "魔杖",
+      "effectPlain": "附加 (5–8) % 元素 伤害的腐蚀伤害",
+      "valueSpans": [
+        "(5–8)"
+      ]
+    },
+    {
+      "modifierId": "107340680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(141–183) % 持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116340280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(200–220) 每秒施加 加剧 值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104340080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(235–304) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(430–558) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(684–887) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130340380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "造成持续伤害时， 收割 (0.25–0.3) 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107340600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(109–140) % 持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116340200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(150–188) 每秒施加 加剧 值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104340000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(181–234) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(331–429) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340800",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(526–683) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130340300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "造成持续伤害时， 收割 (0.19–0.24) 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116340201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(120–144) 每秒施加 加剧 值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104340001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(127–180) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340701",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(232–330) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340801",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(369–525) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107340601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(77–108) % 持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130340301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "造成持续伤害时， 收割 (0.13–0.18) 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116340202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(101–115) 每秒施加 加剧 值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340702",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(166–231) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340802",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(264–368) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107340602",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(55–76) % 持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104340002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(91–126) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130340302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "造成持续伤害时， 收割 (0.09–0.12) 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340703",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(133–165) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340803",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(211–263) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107340603",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(44–54) % 持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104340003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(73–90) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116340203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 400,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(85–100) 每秒施加 加剧 值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130340303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "造成持续伤害时， 收割 0.08 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340704",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(107–132) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340804",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(169–210) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107340604",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(36–43) % 持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104340004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(59–72) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116340204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(65–84) 每秒施加 加剧 值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130340304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "造成持续伤害时， 收割 0.07 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340805",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(138–168) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107340605",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(29–35) % 持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104340005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(48–58) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340705",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(87–106) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130340305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "造成持续伤害时， 收割 0.06 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340806",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(106–137) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107340606",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(23–28) % 持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104340006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(37–47) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340706",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(67–86) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130340306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "造成持续伤害时， 收割 0.05 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107340607",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(17–22) % 持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104340007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(28–36) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340707",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(51–66) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340807",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(80–105) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130340307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Scepter",
+      "effectPlain": "造成持续伤害时， 收割 0.04 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(141–183) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340980",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(141–183) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(141–183) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110340380",
+      "tier": -1,
+      "itemLevel": 1000,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(32–41) % 护盾 充能 速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116340380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(99–127) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "附加 595 - 1105 基础 点燃 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "附加 810 - 1890 基础 创伤 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115341080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "附加 95 - 115 基础 凋零 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(109–140) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340900",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(109–140) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(109–140) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110340300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(25–31) % 护盾 充能 速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116340300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(76–98) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "附加 455 - 845 基础 点燃 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "附加 630 - 1470 基础 创伤 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115341000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "附加 72 - 88 基础 凋零 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110340301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(18–24) % 护盾 充能 速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116340301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(54–75) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(77–108) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(78–108) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340901",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(78–108) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "附加 350 - 650 基础 点燃 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "附加 480 - 1120 基础 创伤 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115341001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "附加 56 - 67 基础 凋零 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110340302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(13–17) % 护盾 充能 速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116340302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(39–53) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(55–76) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(56–77) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340902",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(56–77) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340102",
+      "tier": 2,
+      "itemLevel": 78,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "附加 245 - 455 基础 点燃 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340002",
+      "tier": 2,
+      "itemLevel": 78,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "附加 330 - 770 基础 创伤 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115341002",
+      "tier": 2,
+      "itemLevel": 78,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "附加 38 - 46 基础 凋零 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110340303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(10–12) % 护盾 充能 速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116340303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(31–38) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(40–55) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340903",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(40–55) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(44–54) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340103",
+      "tier": 3,
+      "itemLevel": 68,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "附加 175 - 325 基础 点燃 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340003",
+      "tier": 3,
+      "itemLevel": 68,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "附加 240 - 560 基础 创伤 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115341003",
+      "tier": 3,
+      "itemLevel": 68,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "附加 28 - 35 基础 凋零 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116340304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(25–30) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(27–39) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340904",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(27–39) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(36–43) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110340304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(7–9) % 护盾 充能 速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340104",
+      "tier": 4,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "附加 125 - 235 基础 点燃 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340004",
+      "tier": 4,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "附加 180 - 420 基础 创伤 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115341004",
+      "tier": 4,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "附加 21 - 25 基础 凋零 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(18–26) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340905",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(18–26) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(29–35) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110340305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(5–6) % 护盾 充能 速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(13–17) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340906",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(13–17) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(23–28) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110340306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+4 % 护盾 充能 速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(17–22) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(8–12) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340907",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(8–12) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110340307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+3 % 护盾 充能 速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "1503413",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+(6–8) % 迷踪 效果",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1503415",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+1 坚韧祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "1503412",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+1 灵动祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "1503414",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+1 聚能祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "1503409",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+(15–20) % 收割 回复速度",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "1503411",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1503410",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "额外 +(6–8) % 持续伤害",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1503407",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+(10–14) % 加剧 效果",
+      "valueSpans": [
+        "+(10–14)"
+      ]
+    },
+    {
+      "modifierId": "1503400",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+(15–20) 力量",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "1503401",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+(15–20) 敏捷",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "1503402",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+(15–20) 智慧",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "1503404",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+(20–24) % 元素伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "1503406",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+(20–24) % 法术伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "1503403",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+(20–24) % 物理伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "1503405",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+(20–24) % 腐蚀伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "1503408",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "魔杖",
+      "effectPlain": "+(8–10) % 收割 时间",
+      "valueSpans": [
+        "+(8–10)"
+      ]
+    },
+    {
+      "modifierId": "51340841",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "无上权柄",
+      "source": "魔杖",
+      "effectPlain": "引导层数到达上限时，获得 1 层 王权 ，最多10层",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51340871",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "无上权柄",
+      "source": "魔杖",
+      "effectPlain": "法术附加 (46–48) - (55–60) 点冰冷，火焰，闪电和物理伤害",
+      "valueSpans": [
+        "(46–48)",
+        "(55–60)"
+      ]
+    },
+    {
+      "modifierId": "85034131",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+(6–8) % 迷踪 效果",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "85034151",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+1 坚韧祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85034121",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+1 灵动祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85034141",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+1 聚能祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85034091",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+(15–20) % 收割 回复速度",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85034111",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "85034101",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "额外 +(6–8) % 持续伤害",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "85034071",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+(10–14) % 加剧 效果",
+      "valueSpans": [
+        "+(10–14)"
+      ]
+    },
+    {
+      "modifierId": "85034001",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+(15–20) 力量",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85034011",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+(15–20) 敏捷",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85034021",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+(15–20) 智慧",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85034041",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+(20–24) % 元素伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85034061",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+(20–24) % 法术伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85034031",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+(20–24) % 物理伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85034051",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+(20–24) % 腐蚀伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85034081",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "魔杖",
+      "effectPlain": "+(8–10) % 收割 时间",
+      "valueSpans": [
+        "+(8–10)"
+      ]
+    },
+    {
+      "modifierId": "130340180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Scepter",
+      "effectPlain": "+(40–51) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130340080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Scepter",
+      "effectPlain": "+(4–5) 法术技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110340880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Scepter",
+      "effectPlain": "+4 地面蓄能 层数上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130340280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Scepter",
+      "effectPlain": "对生命造成额外 (40–51) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130340100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Scepter",
+      "effectPlain": "+(28–39) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130340000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Scepter",
+      "effectPlain": "+(3–4) 法术技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110340800",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Scepter",
+      "effectPlain": "+3 地面蓄能 层数上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130340200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Scepter",
+      "effectPlain": "对生命造成额外 (31–39) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130340101",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Scepter",
+      "effectPlain": "+(22–30) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110340801",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Scepter",
+      "effectPlain": "+2 地面蓄能 层数上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130340001",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Scepter",
+      "effectPlain": "+3 法术技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130340201",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Scepter",
+      "effectPlain": "对生命造成额外 (22–30) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130340102",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Scepter",
+      "effectPlain": "+(18–21) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110340802",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Scepter",
+      "effectPlain": "+1 地面蓄能 层数上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130340002",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Scepter",
+      "effectPlain": "+2 法术技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130340202",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Scepter",
+      "effectPlain": "对生命造成额外 (16–21) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130340103",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "Scepter",
+      "effectPlain": "+(13–15) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130340203",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "Scepter",
+      "effectPlain": "对生命造成额外 (12–15) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Scepter",
+      "effectPlain": "+(164–211) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Scepter",
+      "effectPlain": "+(65–80) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Scepter",
+      "effectPlain": "+(70–85) % 异常伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Scepter",
+      "effectPlain": "+1 地面数量上限 额外 +10 % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Scepter",
+      "effectPlain": "若最近释放的连携终结技至少消耗了 8 点连携点， +(70–85) % 连携伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Scepter",
+      "effectPlain": "+(126–163) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Scepter",
+      "effectPlain": "+(48–60) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Scepter",
+      "effectPlain": "+(55–65) % 异常伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Scepter",
+      "effectPlain": "+1 地面数量上限 额外 +5 % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Scepter",
+      "effectPlain": "若最近释放的连携终结技至少消耗了 8 点连携点， +(55–65) % 连携伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341501",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Scepter",
+      "effectPlain": "+(35–45) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341701",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Scepter",
+      "effectPlain": "+(40–50) % 异常伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340201",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Scepter",
+      "effectPlain": "+(89–125) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341201",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Scepter",
+      "effectPlain": "+1 地面数量上限 额外 +1 % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341601",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Scepter",
+      "effectPlain": "若最近释放的连携终结技至少消耗了 8 点连携点， +(40–50) % 连携伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341502",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Scepter",
+      "effectPlain": "+(20–30) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341702",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Scepter",
+      "effectPlain": "+(25–35) % 异常伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340202",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Scepter",
+      "effectPlain": "+(64–88) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341202",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Scepter",
+      "effectPlain": "+1 地面数量上限 额外 -10 % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341602",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Scepter",
+      "effectPlain": "若最近释放的连携终结技至少消耗了 8 点连携点， +(25–35) % 连携伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340203",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "Scepter",
+      "effectPlain": "+(51–63) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109340380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(118–152) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109340480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(118–152) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109340080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(118–152) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115340480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(3–4) 冰冷技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115340580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(3–4) 火焰技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115340280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(3–4) 物理技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115340680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(3–4) 腐蚀技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115340380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(3–4) 闪电技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115340400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(2–3) 冰冷技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115340500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(2–3) 火焰技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115340200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(2–3) 物理技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115340600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(2–3) 腐蚀技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115340300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(2–3) 闪电技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109340300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(91–117) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109340400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(91–117) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109340000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(91–117) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109340301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(64–90) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109340401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(64–90) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109340001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(64–90) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115340401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+2 冰冷技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115340501",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+2 火焰技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115340201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+2 物理技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115340601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+2 腐蚀技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115340301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+2 闪电技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109340302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(46–63) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109340402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(46–63) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109340002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(46–63) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109340303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(37–45) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109340403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(37–45) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109340003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(37–45) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109340304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(30–36) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109340404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(30–36) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109340004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(30–36) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109340305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(24–29) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109340405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(24–29) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109340005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(24–29) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109340306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(19–23) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109340406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(19–23) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109340006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(19–23) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109340307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(15–18) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109340407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(15–18) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109340007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Scepter",
+      "effectPlain": "+(15–18) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110340180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(48–61) % 施法速度 +(48–61) % 召唤物施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(65–80) % 凋零 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(65–80) % 创伤 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(65–80) % 点燃 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(75–90) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(99–127) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110340100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(37–47) % 施法速度 +(37–47) % 召唤物施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(50–62) % 凋零 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(50–62) % 创伤 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(50–62) % 点燃 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(60–70) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(76–98) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110340101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(26–36) % 施法速度 +(26–36) % 召唤物施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340501",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(36–48) % 凋零 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(36–48) % 创伤 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(36–48) % 点燃 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(45–54) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(54–75) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110340102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(19–25) % 施法速度 +(19–25) % 召唤物施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340502",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(26–34) % 凋零 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(26–34) % 创伤 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(26–34) % 点燃 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140341402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(30–40) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340602",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(39–53) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340603",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(31–38) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340604",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(25–30) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340605",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(21–24) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340606",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(16–20) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140340607",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Scepter",
+      "effectPlain": "+(13–15) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "160568034",
       "tier": 0,
       "itemLevel": 1,
       "weight": 100,
       "affixType": "高阶序列",
       "source": "魔杖",
-      "effectPlain": "攻击或者法术击败敌人时 15 % 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 250 % 的真实伤害",
+      "effectPlain": "+1 坚韧祝福 层数上限 -1 聚能祝福 层数上限 +1 灵动祝福 层数上限",
       "valueSpans": [
-        "15",
-        "6",
-        "250"
-      ]
-    },
-    {
-      "modifierId": "160562034",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 30,
-      "affixType": "高阶序列",
-      "source": "魔杖",
-      "effectPlain": "移动时，触发 30 级黑洞，间隔 1.5 秒",
-      "valueSpans": [
-        "30",
-        "1.5"
-      ]
-    },
-    {
-      "modifierId": "160563034",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 30,
-      "affixType": "高阶序列",
-      "source": "魔杖",
-      "effectPlain": "核心技能被 25 级催化剂辅助",
-      "valueSpans": [
-        "25"
-      ]
-    },
-    {
-      "modifierId": "160564034",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 60,
-      "affixType": "高阶序列",
-      "source": "魔杖",
-      "effectPlain": "造成伤害时，敌人每有一种 异常状态 ，额外 +8 % 异常伤害（叠乘）",
-      "valueSpans": [
-        "+8"
+        "+1",
+        "-1",
+        "+1"
       ]
     },
     {
@@ -1132,6 +2877,18 @@
       "valueSpans": [
         "+120",
         "-20"
+      ]
+    },
+    {
+      "modifierId": "160567034",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
+      "source": "魔杖",
+      "effectPlain": "+160 每秒施加 加剧 值",
+      "valueSpans": [
+        "+160"
       ]
     },
     {
@@ -1150,53 +2907,55 @@
       ]
     },
     {
-      "modifierId": "160567034",
+      "modifierId": "160561034",
       "tier": 0,
       "itemLevel": 1,
       "weight": 100,
       "affixType": "高阶序列",
       "source": "魔杖",
-      "effectPlain": "+160 每秒施加 加剧 值",
+      "effectPlain": "攻击或者法术击败敌人时 15 % 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 250 % 的真实伤害",
       "valueSpans": [
-        "+160"
+        "15",
+        "6",
+        "250"
       ]
     },
     {
-      "modifierId": "160568034",
+      "modifierId": "160563034",
       "tier": 0,
       "itemLevel": 1,
-      "weight": 100,
+      "weight": 30,
       "affixType": "高阶序列",
       "source": "魔杖",
-      "effectPlain": "+1 坚韧祝福 层数上限 -1 聚能祝福 层数上限 +1 灵动祝福 层数上限",
+      "effectPlain": "核心技能被 25 级催化剂辅助",
       "valueSpans": [
-        "+1",
-        "-1",
-        "+1"
+        "25"
       ]
     },
     {
-      "modifierId": "51340871",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "无上权柄",
+      "modifierId": "160562034",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 30,
+      "affixType": "高阶序列",
       "source": "魔杖",
-      "effectPlain": "法术附加 (46–48) - (55–60) 点冰冷，火焰，闪电和物理伤害",
+      "effectPlain": "移动时，触发 30 级黑洞，间隔 1.5 秒",
       "valueSpans": [
-        "(46–48)",
-        "(55–60)"
+        "30",
+        "1.5"
       ]
     },
     {
-      "modifierId": "51340841",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "无上权柄",
+      "modifierId": "160564034",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 60,
+      "affixType": "高阶序列",
       "source": "魔杖",
-      "effectPlain": "引导层数到达上限时，获得 1 层 王权 ，最多10层",
-      "valueSpans": []
+      "effectPlain": "造成伤害时，敌人每有一种 异常状态 ，额外 +8 % 异常伤害（叠乘）",
+      "valueSpans": [
+        "+8"
+      ]
     }
   ],
   "tierVariantGroups": [
@@ -1231,17 +2990,6 @@
       "skeleton": "{#} % 元素和腐蚀抗性穿透",
       "rolls": [
         {
-          "modifierId": "130340101",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻前缀",
-          "valueSpans": [
-            "+(22–30)"
-          ],
-          "effectPlain": "+(22–30) % 元素和腐蚀抗性穿透"
-        },
-        {
           "modifierId": "1503411",
           "tier": 1,
           "itemLevel": 1,
@@ -1269,17 +3017,6 @@
       "skeleton": "{#} % 加剧 效果",
       "rolls": [
         {
-          "modifierId": "116340301",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(54–75)"
-          ],
-          "effectPlain": "+(54–75) % 加剧 效果"
-        },
-        {
           "modifierId": "1503407",
           "tier": 2,
           "itemLevel": 1,
@@ -1306,17 +3043,6 @@
     {
       "skeleton": "{#} % 收割 回复速度",
       "rolls": [
-        {
-          "modifierId": "140340201",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻后缀",
-          "valueSpans": [
-            "+(89–125)"
-          ],
-          "effectPlain": "+(89–125) % 收割 回复速度"
-        },
         {
           "modifierId": "1503409",
           "tier": 1,
@@ -1355,17 +3081,6 @@
     {
       "skeleton": "{#} % 收割 时间",
       "rolls": [
-        {
-          "modifierId": "140340601",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶后缀",
-          "valueSpans": [
-            "+(54–75)"
-          ],
-          "effectPlain": "+(54–75) % 收割 时间"
-        },
         {
           "modifierId": "160444034",
           "tier": 1,
@@ -1443,17 +3158,6 @@
       "skeleton": "{#} % 物理伤害",
       "rolls": [
         {
-          "modifierId": "140340901",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(78–108)"
-          ],
-          "effectPlain": "+(78–108) % 物理伤害"
-        },
-        {
           "modifierId": "1503403",
           "tier": 2,
           "itemLevel": 1,
@@ -1480,17 +3184,6 @@
     {
       "skeleton": "{#} % 腐蚀伤害",
       "rolls": [
-        {
-          "modifierId": "140341101",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(77–108)"
-          ],
-          "effectPlain": "+(77–108) % 腐蚀伤害"
-        },
         {
           "modifierId": "1503405",
           "tier": 2,
@@ -1557,17 +3250,6 @@
       "skeleton": "{#} 力量",
       "rolls": [
         {
-          "modifierId": "109340301",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(64–90)"
-          ],
-          "effectPlain": "+(64–90) 力量"
-        },
-        {
           "modifierId": "1503400",
           "tier": 2,
           "itemLevel": 1,
@@ -1622,17 +3304,6 @@
       "skeleton": "{#} 敏捷",
       "rolls": [
         {
-          "modifierId": "109340401",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(64–90)"
-          ],
-          "effectPlain": "+(64–90) 敏捷"
-        },
-        {
           "modifierId": "1503401",
           "tier": 2,
           "itemLevel": 1,
@@ -1660,17 +3331,6 @@
       "skeleton": "{#} 智慧",
       "rolls": [
         {
-          "modifierId": "109340001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(64–90)"
-          ],
-          "effectPlain": "+(64–90) 智慧"
-        },
-        {
           "modifierId": "1503402",
           "tier": 2,
           "itemLevel": 1,
@@ -1691,33 +3351,6 @@
             "+(15–20)"
           ],
           "effectPlain": "+(15–20) 智慧"
-        }
-      ]
-    },
-    {
-      "skeleton": "{#} 每秒施加 加剧 值",
-      "rolls": [
-        {
-          "modifierId": "160567034",
-          "tier": 0,
-          "itemLevel": 1,
-          "weight": 100,
-          "affixType": "高阶序列",
-          "valueSpans": [
-            "+160"
-          ],
-          "effectPlain": "+160 每秒施加 加剧 值"
-        },
-        {
-          "modifierId": "116340201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(120–144)"
-          ],
-          "effectPlain": "+(120–144) 每秒施加 加剧 值"
         }
       ]
     },
@@ -1814,5 +3447,5 @@
       ]
     }
   ],
-  "tierVariantGroupCount": 17
+  "tierVariantGroupCount": 16
 }

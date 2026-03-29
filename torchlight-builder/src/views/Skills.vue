@@ -230,8 +230,8 @@
           :title="`被动技能 ${selectedSlot.index + 1}`"
           role="passive"
           :model-value="passiveSkills[selectedSlot.index]"
-          @update:model-value="passiveSkills[selectedSlot.index] = $event"
-          :main-options="passiveSkillOptions"
+          @update:model-value="onPassiveSkillUpdate(selectedSlot.index, $event)"
+          :main-options="passiveMainOptionsForSelectedSlot"
           :support-options="supportSkillOptions"
           :tag-whitelist="supportSkillTags"
           :main-tag-whitelist="passiveMainTagWhitelist"
@@ -242,8 +242,9 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, onActivated, onMounted, ref, watch } from 'vue'
 import SkillLinkCard from '@/components/skills/SkillLinkCard.vue'
+import { useBuildStore } from '@/stores/build'
 import activeSkillTagsData from '@/data/skills/activeSkillTags.json'
 // 数据由 sync_support_skill_tags.py 从 tlidb 生成
 import supportSkillTagsData from '@/data/skills/supportSkillTags.json'
@@ -269,6 +270,17 @@ type SkillOption = {
   supportDamageBonusByLevel?: string[]
   /** 崇高/华贵：T0–T2 三档增伤（与 wiki Tier 0/1/2 一致） */
   supportDamageBonusByTier?: string[]
+  /** 被动技能：1-40 级结构化成长（来自 passiveSkillTags.json） */
+  parsedBonusesByLevel?: Array<{
+    level: number
+    description: string
+    damageExtraPct?: number
+    critValuePct?: number
+    attackSpeedPct?: number
+    castSpeedPct?: number
+  }>
+  /** 与 tlidb 技能页当前赛季卡片一致的简介/详情等全文（主动、辅助由 sync_skill_page_stats 写入） */
+  wikiCardNarrative?: string
 }
 
 type SkillLinkItem = {
@@ -349,6 +361,31 @@ function normalizeLevelStringArray(
   return out
 }
 
+function wikiNarrativeFromJsonItem(item: unknown): string | undefined {
+  const s = String((item as { wikiCardNarrative?: unknown }).wikiCardNarrative ?? '').trim()
+  return s.length ? s : undefined
+}
+
+/** 被动：用 growth 首末级说明拼成悬停详情（数据已来自 tlidb 同步） */
+function passiveNarrativeFromGrowth(item: unknown): string | undefined {
+  const raw = (item as { growthDescriptionByLevel?: unknown }).growthDescriptionByLevel
+  if (!Array.isArray(raw) || raw.length === 0) return undefined
+  const rows: { level: number; description: string }[] = []
+  for (const x of raw) {
+    if (!x || typeof x !== 'object') continue
+    const o = x as Record<string, unknown>
+    const level = Number(o.level)
+    const description = String(o.description ?? '').trim()
+    if (Number.isFinite(level) && description) rows.push({ level, description })
+  }
+  if (!rows.length) return undefined
+  rows.sort((a, b) => a.level - b.level)
+  const first = rows[0]!
+  const last = rows[rows.length - 1]!
+  if (first.description === last.description) return first.description
+  return `Lv.${first.level}：${first.description}\n\nLv.${last.level}：${last.description}`
+}
+
 function normalizeSupportDamageBonusByTier(item: unknown): string[] | undefined {
   if (!item || typeof item !== 'object') return undefined
   const raw = (item as Record<string, unknown>).supportDamageBonusByTier
@@ -368,7 +405,8 @@ const activeSkillOptionsFromData: SkillOption[] = (activeSkillTagsData.activeSki
   tags: Array.isArray(item.tags) ? item.tags.map(tag => String(tag)) : [],
   statRows: normalizeStatRows(item),
   damageMultiplierByLevel: normalizeLevelStringArray(item, 'damageMultiplierByLevel', 20),
-  skillBaseDamageByLevel: normalizeLevelStringArray(item, 'skillBaseDamageByLevel', 20)
+  skillBaseDamageByLevel: normalizeLevelStringArray(item, 'skillBaseDamageByLevel', 20),
+  wikiCardNarrative: wikiNarrativeFromJsonItem(item)
 }))
 
 function mapSupportJsonToOptions(rawList: unknown, extraTags: string[] = []): SkillOption[] {
@@ -394,7 +432,8 @@ function mapSupportJsonToOptions(rawList: unknown, extraTags: string[] = []): Sk
         'supportDamageBonusByLevel',
         40
       ),
-      supportDamageBonusByTier: normalizeSupportDamageBonusByTier(item)
+      supportDamageBonusByTier: normalizeSupportDamageBonusByTier(item),
+      wikiCardNarrative: wikiNarrativeFromJsonItem(item)
     }
   })
 }
@@ -412,11 +451,47 @@ const supportSkillOptionsFromData: SkillOption[] = [
 const passiveSkillOptionsFromData: SkillOption[] = (passiveSkillTagsData.passiveSkills ?? []).map(item => ({
   id: String(item.id ?? ''),
   name: String(item.name ?? ''),
-  iconUrl: item.localIconUrl ? String(item.localIconUrl) : item.iconUrl ? String(item.iconUrl) : '',
+  iconUrl: (item as { localIconUrl?: unknown; iconUrl?: unknown }).localIconUrl
+    ? String((item as { localIconUrl?: unknown }).localIconUrl)
+    : (item as { iconUrl?: unknown }).iconUrl
+      ? String((item as { iconUrl?: unknown }).iconUrl)
+      : '',
   tags: Array.isArray(item.tags) ? item.tags.map(tag => String(tag)) : [],
   statRows: normalizeStatRows(item),
   damageMultiplierByLevel: normalizeLevelStringArray(item, 'damageMultiplierByLevel', 20),
-  skillBaseDamageByLevel: normalizeLevelStringArray(item, 'skillBaseDamageByLevel', 20)
+  skillBaseDamageByLevel: normalizeLevelStringArray(item, 'skillBaseDamageByLevel', 20),
+  parsedBonusesByLevel: Array.isArray((item as { parsedBonusesByLevel?: unknown }).parsedBonusesByLevel)
+    ? ((item as { parsedBonusesByLevel: unknown[] }).parsedBonusesByLevel
+        .map(x => {
+          if (!x || typeof x !== 'object') return null
+          const o = x as Record<string, unknown>
+          const level = Number(o.level)
+          const description = String(o.description ?? '').trim()
+          if (!Number.isFinite(level) || !description) return null
+          return {
+            level,
+            description,
+            damageExtraPct:
+              typeof o.damageExtraPct === 'number' && Number.isFinite(o.damageExtraPct)
+                ? o.damageExtraPct
+                : undefined,
+            critValuePct:
+              typeof o.critValuePct === 'number' && Number.isFinite(o.critValuePct)
+                ? o.critValuePct
+                : undefined,
+            attackSpeedPct:
+              typeof o.attackSpeedPct === 'number' && Number.isFinite(o.attackSpeedPct)
+                ? o.attackSpeedPct
+                : undefined,
+            castSpeedPct:
+              typeof o.castSpeedPct === 'number' && Number.isFinite(o.castSpeedPct)
+                ? o.castSpeedPct
+                : undefined
+          }
+        })
+        .filter(Boolean) as SkillOption['parsedBonusesByLevel'])
+    : undefined,
+  wikiCardNarrative: passiveNarrativeFromGrowth(item) ?? wikiNarrativeFromJsonItem(item)
 }))
 
 function createEmptySkillLink(): SkillLinkItem {
@@ -429,10 +504,102 @@ function createEmptySkillLink(): SkillLinkItem {
   }
 }
 
+function supportLevelMaxBySkillId(skillId: string): number {
+  const id = String(skillId ?? '').trim()
+  if (!id) return 40
+  const opt = supportSkillOptionsFromData.find(o => o.id === id)
+  return opt?.supportDamageBonusByTier?.length === 3 ? 3 : 40
+}
+
+function normalizeLoadedSkillLink(raw: unknown, role: SlotRole): SkillLinkItem {
+  const base = createEmptySkillLink()
+  if (!raw || typeof raw !== 'object') return base
+  const v = raw as SkillLinkItem
+  const mainSkillId = String(v.mainSkillId ?? '').trim()
+
+  // 主技能默认等级：主动/被动默认 20（被动可后续手改到 1-40）
+  const rawMainLv = Number(v.mainSkillLevel)
+  const normalizedMainLv = Number.isFinite(rawMainLv) && rawMainLv >= 1 ? Math.floor(rawMainLv) : 20
+  const mainSkillLevel =
+    role === 'passive' && normalizedMainLv === 1
+      ? 20 // 兼容旧版本被动等级被强制写成 1 的历史数据
+      : normalizedMainLv
+
+  const supportSkillIds = Array.from({ length: 5 }, (_, i) => String(v.supportSkillIds?.[i] ?? '').trim())
+  const supportSkillLevels = Array.from({ length: 5 }, (_, i) => {
+    const sid = supportSkillIds[i] ?? ''
+    const max = supportLevelMaxBySkillId(sid)
+    const rawLv = Number(v.supportSkillLevels?.[i])
+    if (Number.isFinite(rawLv) && rawLv >= 1) return Math.min(Math.floor(rawLv), max)
+    return max === 3 ? 3 : 20
+  })
+  const supportExclusiveCustomBonuses = Array.from(
+    { length: 5 },
+    (_, i) => String(v.supportExclusiveCustomBonuses?.[i] ?? '')
+  )
+
+  return {
+    ...base,
+    mainSkillId,
+    mainSkillLevel: role === 'core' || role === 'active' || role === 'passive' ? mainSkillLevel : 20,
+    supportSkillIds,
+    supportSkillLevels,
+    supportExclusiveCustomBonuses
+  }
+}
+
 const coreSkill = ref<SkillLinkItem>(createEmptySkillLink())
 const activeSkills = ref<SkillLinkItem[]>(Array.from({ length: 4 }, createEmptySkillLink))
 const passiveSkills = ref<SkillLinkItem[]>(Array.from({ length: 4 }, createEmptySkillLink))
 const selectedSlot = ref<{ role: SlotRole; index: number }>({ role: 'core', index: 0 })
+
+const buildStore = useBuildStore()
+const SKILLS_SNAPSHOT_V = 1
+
+function applySkillsFromStore() {
+  const raw = buildStore.snapshot.skills
+  if (!raw || typeof raw !== 'object') return
+  const s = raw as Record<string, unknown>
+  if (s.v !== SKILLS_SNAPSHOT_V) return
+  if (s.core && typeof s.core === 'object') {
+    coreSkill.value = normalizeLoadedSkillLink(s.core, 'core')
+  }
+  if (Array.isArray(s.active) && s.active.length === 4) {
+    activeSkills.value = s.active.map(x => normalizeLoadedSkillLink(x, 'active'))
+  }
+  if (Array.isArray(s.passive) && s.passive.length === 4) {
+    passiveSkills.value = s.passive.map(x => normalizeLoadedSkillLink(x, 'passive'))
+    dedupePassiveMainSkillIds()
+  }
+  if (s.selectedSlot && typeof s.selectedSlot === 'object') {
+    const ss = s.selectedSlot as { role?: SlotRole; index?: number }
+    if (ss.role === 'core' || ss.role === 'active' || ss.role === 'passive') {
+      selectedSlot.value = {
+        role: ss.role,
+        index: typeof ss.index === 'number' && ss.index >= 0 ? ss.index : 0
+      }
+    }
+  }
+}
+
+applySkillsFromStore()
+
+watch(
+  [coreSkill, activeSkills, passiveSkills, selectedSlot],
+  () => {
+    buildStore.setSkills({
+      v: SKILLS_SNAPSHOT_V,
+      core: JSON.parse(JSON.stringify(coreSkill.value)),
+      active: JSON.parse(JSON.stringify(activeSkills.value)),
+      passive: JSON.parse(JSON.stringify(passiveSkills.value)),
+      selectedSlot: JSON.parse(JSON.stringify(selectedSlot.value))
+    })
+  },
+  { deep: true }
+)
+
+onMounted(applySkillsFromStore)
+onActivated(applySkillsFromStore)
 
 const activeSkillOptions: SkillOption[] = activeSkillOptionsFromData
 const supportSkillOptions: SkillOption[] = supportSkillOptionsFromData
@@ -440,6 +607,17 @@ const supportSkillOptions: SkillOption[] = supportSkillOptionsFromData
 const passiveSkillOptions: SkillOption[] = passiveSkillOptionsFromData
 /** 被动主技能 Tag 筛选与 tlidb 列表一致 */
 const passiveMainTagWhitelist: string[] = passiveSkillTags
+
+const passiveMainOptionsForSelectedSlot = computed(() => {
+  if (selectedSlot.value.role !== 'passive') return passiveSkillOptions
+  const currentIndex = selectedSlot.value.index
+  const occupied = new Set(
+    passiveSkills.value
+      .map((item, idx) => (idx === currentIndex ? '' : (item.mainSkillId ?? '').trim()))
+      .filter(Boolean)
+  )
+  return passiveSkillOptions.filter(opt => !occupied.has((opt.id ?? '').trim()))
+})
 
 const allSkillNodes = computed(() => [coreSkill.value, ...activeSkills.value, ...passiveSkills.value])
 
@@ -462,6 +640,36 @@ const selectedPanelTitle = computed(() => {
 
 function selectSlot(role: SlotRole, index: number) {
   selectedSlot.value = { role, index }
+}
+
+function dedupePassiveMainSkillIds() {
+  const seen = new Set<string>()
+  let changed = false
+  const next = passiveSkills.value.map(item => {
+    const id = (item.mainSkillId ?? '').trim()
+    if (!id) return item
+    if (!seen.has(id)) {
+      seen.add(id)
+      return item
+    }
+    changed = true
+    return { ...item, mainSkillId: '' }
+  })
+  if (changed) {
+    passiveSkills.value = next
+  }
+}
+
+function onPassiveSkillUpdate(index: number, next: SkillLinkItem) {
+  const pickedId = (next.mainSkillId ?? '').trim()
+  if (
+    pickedId &&
+    passiveSkills.value.some((item, idx) => idx !== index && (item.mainSkillId ?? '').trim() === pickedId)
+  ) {
+    // 已被其他被动槽位占用：忽略本次重复选择
+    return
+  }
+  passiveSkills.value[index] = next
 }
 
 function getSkillDisplayName(skillId: string, options: SkillOption[]) {

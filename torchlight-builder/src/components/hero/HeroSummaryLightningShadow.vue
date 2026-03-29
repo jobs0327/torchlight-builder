@@ -79,9 +79,9 @@ const LS_WILD_MAX = [80, 90, 100, 110, 120] // 野性电光上限
 const LS_RUSH_PER = [1, 1.5, 2, 2.5, 3] // 猫驰电掣 每段伤害
 
 const lsMoveSpeedPct = ref<number>(100)
-const lsCoatLevel = ref<number>(5)
-const lsWildLevel = ref<number>(5)
-const lsRushLevel = ref<number>(5)
+const lsCoatLevel = ref<number>(3)
+const lsWildLevel = ref<number>(3)
+const lsRushLevel = ref<number>(3)
 const lsShockLayersApplied = ref<number>(40)
 
 const lightningTotalParalysis = computed(() => {

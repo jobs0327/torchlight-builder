@@ -2,1022 +2,67 @@
   "slug": "DEX_Helmet",
   "label": "DEX Helmet",
   "sourceUrl": "https://tlidb.com/cn/DEX_Helmet",
-  "fetchedAt": "2026-03-22T08:56:52Z",
-  "modifierCount": 130,
+  "fetchedAt": "2026-03-24T07:23:49Z",
+  "modifierCount": 371,
   "modifiers": [
     {
-      "modifierId": "1507100",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "55422021",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "万雷颚骨",
       "source": "敏捷头部",
-      "effectPlain": "+(54–74) 最大生命",
+      "effectPlain": "+(1500–2000) 该装备闪避值",
       "valueSpans": [
-        "+(54–74)"
+        "+(1500–2000)"
       ]
     },
     {
-      "modifierId": "1507101",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "51422051",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "万雷颚骨",
       "source": "敏捷头部",
-      "effectPlain": "+(760–960) 闪避值",
+      "effectPlain": "+(65–80) % 麻痹 效果",
       "valueSpans": [
-        "+(760–960)"
+        "+(65–80)"
       ]
     },
     {
-      "modifierId": "1507102",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "51422041",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "万雷颚骨",
       "source": "敏捷头部",
-      "effectPlain": "+(5–10) % 火焰抗性",
+      "effectPlain": "+30 % 麻痹 持续时间",
       "valueSpans": [
-        "+(5–10)"
+        "+30"
       ]
     },
     {
-      "modifierId": "1507103",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "55422031",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "万雷颚骨",
       "source": "敏捷头部",
-      "effectPlain": "+(5–10) % 冰冷抗性",
+      "effectPlain": "额外 +10 % 闪电伤害",
       "valueSpans": [
-        "+(5–10)"
+        "+10"
       ]
     },
     {
-      "modifierId": "1507104",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "51420461",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "传奇战士护目镜",
       "source": "敏捷头部",
-      "effectPlain": "+(5–10) % 闪电抗性",
+      "effectPlain": "+(80–100) 最大生命",
       "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "1507105",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(5–10) % 腐蚀抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "1507106",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(15–20) 力量",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "1507107",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(15–20) 敏捷",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "1507108",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(15–20) 智慧",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "1507109",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(20–24) % 技能范围",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "1507110",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透 召唤物 +(6–8) % 元素和腐蚀抗性穿透",
-      "valueSpans": [
-        "+(6–8)",
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "1507111",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(5–7) % 护甲减伤穿透 召唤物 +(5–7) % 护甲减伤穿透",
-      "valueSpans": [
-        "+(5–7)",
-        "+(5–7)"
-      ]
-    },
-    {
-      "modifierId": "1507112",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(6–8) % 魔力封印 补偿",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "1507113",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(7–8) % 光环效果",
-      "valueSpans": [
-        "+(7–8)"
-      ]
-    },
-    {
-      "modifierId": "1507114",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(3–5) % 元素 抗性上限",
-      "valueSpans": [
-        "+(3–5)"
-      ]
-    },
-    {
-      "modifierId": "1507115",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "敏捷头部",
-      "effectPlain": "(16–20) % 受到的物理伤害转化为闪电伤害",
-      "valueSpans": [
-        "(16–20)"
-      ]
-    },
-    {
-      "modifierId": "1507116",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "敏捷头部",
-      "effectPlain": "(36–45) % 受到的腐蚀伤害转化为闪电伤害",
-      "valueSpans": [
-        "(36–45)"
-      ]
-    },
-    {
-      "modifierId": "1507117",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "敏捷头部",
-      "effectPlain": "造成伤害时，施加 闪电渗透 ，对每个敌人拥有 1 秒间隔时间 召唤物造成伤害时，施加 闪电渗透 ，对每个敌人拥有 1 秒间隔时间",
-      "valueSpans": [
-        "1",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "1507118",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "敏捷头部",
-      "effectPlain": "拥有 邪祟 ；召唤物拥有 邪祟",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "60067101",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷头部",
-      "effectPlain": "+1 聚能祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "60067102",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷头部",
-      "effectPlain": "+(10–15) % 魔力封印 补偿",
-      "valueSpans": [
-        "+(10–15)"
-      ]
-    },
-    {
-      "modifierId": "60067103",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷头部",
-      "effectPlain": "造成伤害时，触发 (15–20) 级 胆怯 诅咒，冷却时间为 0.3 秒",
-      "valueSpans": [
-        "(15–20)",
-        "0.3"
-      ]
-    },
-    {
-      "modifierId": "60067104",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷头部",
-      "effectPlain": "造成伤害时，触发 (15–20) 级 苦痛纠缠 诅咒，冷却时间为 0.3 秒",
-      "valueSpans": [
-        "(15–20)",
-        "0.3"
-      ]
-    },
-    {
-      "modifierId": "60067105",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷头部",
-      "effectPlain": "免疫 致盲 免疫 瘫痪",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "60067106",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷头部",
-      "effectPlain": "+(15–20) % 最大护盾",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "60067107",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷头部",
-      "effectPlain": "+(15–20) % 最大生命",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "60067109",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷头部",
-      "effectPlain": "+(30–50) % 该装备闪避值",
-      "valueSpans": [
-        "+(30–50)"
-      ]
-    },
-    {
-      "modifierId": "60067110",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷头部",
-      "effectPlain": "+(50–70) % 伤害",
-      "valueSpans": [
-        "+(50–70)"
-      ]
-    },
-    {
-      "modifierId": "104710001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(154–220) 最大生命",
-      "valueSpans": [
-        "+(154–220)"
-      ]
-    },
-    {
-      "modifierId": "105710001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(2017–2880) 该装备闪避值",
-      "valueSpans": [
-        "+(2017–2880)"
-      ]
-    },
-    {
-      "modifierId": "140710101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(51–72) % 伤害",
-      "valueSpans": [
-        "+(51–72)"
-      ]
-    },
-    {
-      "modifierId": "140710201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(51–72) % 召唤物伤害",
-      "valueSpans": [
-        "+(51–72)"
-      ]
-    },
-    {
-      "modifierId": "140721401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(85–120) 最大魔力",
-      "valueSpans": [
-        "+(85–120)"
-      ]
-    },
-    {
-      "modifierId": "105710201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(10–13) % 格挡比例",
-      "valueSpans": [
-        "+(10–13)"
-      ]
-    },
-    {
-      "modifierId": "109710001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(43–60) 敏捷",
-      "valueSpans": [
-        "+(43–60)"
-      ]
-    },
-    {
-      "modifierId": "109710301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(43–60) 智慧",
-      "valueSpans": [
-        "+(43–60)"
-      ]
-    },
-    {
-      "modifierId": "109710401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(43–60) 力量",
-      "valueSpans": [
-        "+(43–60)"
-      ]
-    },
-    {
-      "modifierId": "140710301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(33–45) % 投射物速度",
-      "valueSpans": [
-        "+(33–45)"
-      ]
-    },
-    {
-      "modifierId": "140710801",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "敏捷头部",
-      "effectPlain": "击败时， +(37–50) % 几率获得 1 层 灵动祝福",
-      "valueSpans": [
-        "+(37–50)"
-      ]
-    },
-    {
-      "modifierId": "140711001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(43–60) % 屏障 吸收量",
-      "valueSpans": [
-        "+(43–60)"
-      ]
-    },
-    {
-      "modifierId": "115710201",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "敏捷头部",
-      "effectPlain": "(16–20) % 受到的物理伤害转化为闪电伤害",
-      "valueSpans": [
-        "(16–20)"
-      ]
-    },
-    {
-      "modifierId": "116710601",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "敏捷头部",
-      "effectPlain": "法术迸发 上限 +1",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "116710801",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "敏捷头部",
-      "effectPlain": "+1 地面蓄能 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "130710001",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(15–20) % 魔力封印 补偿",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "130710501",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "敏捷头部",
-      "effectPlain": "周围 敌人造成的伤害额外 (-15–-12) %",
-      "valueSpans": [
-        "(-15–-12)"
-      ]
-    },
-    {
-      "modifierId": "140711101",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "敏捷头部",
-      "effectPlain": "至少拥有 50000 点闪避值时， 额外 -40 % 受到的持续伤害",
-      "valueSpans": [
-        "50000",
-        "-40"
-      ]
-    },
-    {
-      "modifierId": "140711201",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "敏捷头部",
-      "effectPlain": "(36–45) % 受到的腐蚀伤害转化为闪电伤害",
-      "valueSpans": [
-        "(36–45)"
-      ]
-    },
-    {
-      "modifierId": "140722701",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "敏捷头部",
-      "effectPlain": "(15–20) % 的伤害优先抵扣魔力",
-      "valueSpans": [
-        "(15–20)"
-      ]
-    },
-    {
-      "modifierId": "104710101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "敏捷头部",
-      "effectPlain": "每秒自然回复 (85–120) 生命",
-      "valueSpans": [
-        "(85–120)"
-      ]
-    },
-    {
-      "modifierId": "108710001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(19–27) % 火焰抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "108710101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(19–27) % 冰冷抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "108710201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(19–27) % 闪电抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "108710301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(19–27) % 腐蚀抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "110710001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(87–120) % 暴击值",
-      "valueSpans": [
-        "+(87–120)"
-      ]
-    },
-    {
-      "modifierId": "111710301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(36–50) % 加剧 效果",
-      "valueSpans": [
-        "+(36–50)"
-      ]
-    },
-    {
-      "modifierId": "110710101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(44–60) % 暴击伤害",
-      "valueSpans": [
-        "+(44–60)"
-      ]
-    },
-    {
-      "modifierId": "111710001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(35–48) % 技能范围 +(35–48) % 召唤物技能范围",
-      "valueSpans": [
-        "+(35–48)",
-        "+(35–48)"
-      ]
-    },
-    {
-      "modifierId": "140710401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(18–24) % 攻击与施法速度 +(18–24) % 召唤物攻击与施法速度",
-      "valueSpans": [
-        "+(18–24)",
-        "+(18–24)"
-      ]
-    },
-    {
-      "modifierId": "140710501",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(36–50) % 收割 时间",
-      "valueSpans": [
-        "+(36–50)"
-      ]
-    },
-    {
-      "modifierId": "140710901",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(14–18) % 闪避值 +(78–110) 最大生命",
-      "valueSpans": [
-        "+(14–18)",
-        "+(78–110)"
-      ]
-    },
-    {
-      "modifierId": "140711401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(26–36) % 贯注速度",
-      "valueSpans": [
-        "+(26–36)"
-      ]
-    },
-    {
-      "modifierId": "130710101",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(6–9) 辅助技能等级",
-      "valueSpans": [
-        "+(6–9)"
-      ]
-    },
-    {
-      "modifierId": "140710001",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "敏捷头部",
-      "effectPlain": "额外 +(18–24) % 周围 敌人受到的伤害",
-      "valueSpans": [
-        "+(18–24)"
-      ]
-    },
-    {
-      "modifierId": "140710601",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(59–83) % 收割 回复速度",
-      "valueSpans": [
-        "+(59–83)"
-      ]
-    },
-    {
-      "modifierId": "140710701",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(40–50) % 麻痹 效果",
-      "valueSpans": [
-        "+(40–50)"
-      ]
-    },
-    {
-      "modifierId": "140711301",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(30–45) % 几率避免 元素异常 状态",
-      "valueSpans": [
-        "+(30–45)"
-      ]
-    },
-    {
-      "modifierId": "85071001",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(54–74) 最大生命",
-      "valueSpans": [
-        "+(54–74)"
-      ]
-    },
-    {
-      "modifierId": "85071011",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(760–960) 闪避值",
-      "valueSpans": [
-        "+(760–960)"
-      ]
-    },
-    {
-      "modifierId": "85071021",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(5–10) % 火焰抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "85071031",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(5–10) % 冰冷抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "85071041",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(5–10) % 闪电抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "85071051",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(5–10) % 腐蚀抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "85071061",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(15–20) 力量",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "85071071",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(15–20) 敏捷",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "85071081",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(15–20) 智慧",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "85071091",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(20–24) % 技能范围",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "85071101",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透 召唤物 +(6–8) % 元素和腐蚀抗性穿透",
-      "valueSpans": [
-        "+(6–8)",
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "85071111",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(5–7) % 护甲减伤穿透 召唤物 +(5–7) % 护甲减伤穿透",
-      "valueSpans": [
-        "+(5–7)",
-        "+(5–7)"
-      ]
-    },
-    {
-      "modifierId": "85071121",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(6–8) % 魔力封印 补偿",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "85071131",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(7–8) % 光环效果",
-      "valueSpans": [
-        "+(7–8)"
-      ]
-    },
-    {
-      "modifierId": "85071141",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷头部",
-      "effectPlain": "+(3–5) % 元素 抗性上限",
-      "valueSpans": [
-        "+(3–5)"
-      ]
-    },
-    {
-      "modifierId": "85071151",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷头部",
-      "effectPlain": "(16–20) % 受到的物理伤害转化为闪电伤害",
-      "valueSpans": [
-        "(16–20)"
-      ]
-    },
-    {
-      "modifierId": "85071161",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷头部",
-      "effectPlain": "(36–45) % 受到的腐蚀伤害转化为闪电伤害",
-      "valueSpans": [
-        "(36–45)"
-      ]
-    },
-    {
-      "modifierId": "85071171",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷头部",
-      "effectPlain": "周围 15 米内的敌人拥有 软弱",
-      "valueSpans": [
-        "15"
+        "+(80–100)"
       ]
     },
     {
@@ -1070,87 +115,1432 @@
       ]
     },
     {
-      "modifierId": "51420461",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "传奇战士护目镜",
+      "modifierId": "60067102",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
       "source": "敏捷头部",
-      "effectPlain": "+(80–100) 最大生命",
+      "effectPlain": "+(10–15) % 魔力封印 补偿",
       "valueSpans": [
-        "+(80–100)"
+        "+(10–15)"
       ]
     },
     {
-      "modifierId": "52420511",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "机械领主",
+      "modifierId": "60067106",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
       "source": "敏捷头部",
-      "effectPlain": "+(10–20) % 元素抗性",
+      "effectPlain": "+(15–20) % 最大护盾",
       "valueSpans": [
-        "+(10–20)"
+        "+(15–20)"
       ]
     },
     {
-      "modifierId": "51420521",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "机械领主",
+      "modifierId": "60067107",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
       "source": "敏捷头部",
-      "effectPlain": "智械召唤物最大数量上限固定为 2",
+      "effectPlain": "+(15–20) % 最大生命",
       "valueSpans": [
-        "2"
+        "+(15–20)"
       ]
     },
     {
-      "modifierId": "52420531",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "机械领主",
+      "modifierId": "60067109",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
       "source": "敏捷头部",
-      "effectPlain": "召唤物 +(20–30) % 体型",
+      "effectPlain": "+(30–50) % 该装备闪避值",
       "valueSpans": [
-        "+(20–30)"
+        "+(30–50)"
       ]
     },
     {
-      "modifierId": "52420541",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "机械领主",
+      "modifierId": "60067110",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
       "source": "敏捷头部",
-      "effectPlain": "智械召唤物附加 (120–160) % 物理伤害的火焰，冰冷和闪电伤害",
+      "effectPlain": "+(50–70) % 伤害",
       "valueSpans": [
-        "(120–160)"
+        "+(50–70)"
       ]
     },
     {
-      "modifierId": "52420551",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "机械领主",
+      "modifierId": "60067101",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
       "source": "敏捷头部",
-      "effectPlain": "智械召唤物造成伤害时，淘汰生命值低于 (12–18) % 的敌人",
+      "effectPlain": "+1 聚能祝福 层数上限",
       "valueSpans": [
-        "(12–18)"
+        "+1"
       ]
     },
     {
-      "modifierId": "51420611",
+      "modifierId": "60067105",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "敏捷头部",
+      "effectPlain": "免疫 致盲 免疫 瘫痪",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "60067103",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "敏捷头部",
+      "effectPlain": "造成伤害时，触发 (15–20) 级 胆怯 诅咒，冷却时间为 0.3 秒",
+      "valueSpans": [
+        "(15–20)",
+        "0.3"
+      ]
+    },
+    {
+      "modifierId": "60067104",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "敏捷头部",
+      "effectPlain": "造成伤害时，触发 (15–20) 级 苦痛纠缠 诅咒，冷却时间为 0.3 秒",
+      "valueSpans": [
+        "(15–20)",
+        "0.3"
+      ]
+    },
+    {
+      "modifierId": "80324041",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "敞开心扉",
+      "affixType": "倒吊的半面",
       "source": "敏捷头部",
-      "effectPlain": "+(1500–2592) 该装备闪避值",
+      "effectPlain": "(-1–1) 全部技能等级",
       "valueSpans": [
-        "+(1500–2592)"
+        "(-1–1)"
+      ]
+    },
+    {
+      "modifierId": "80324031",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "倒吊的半面",
+      "source": "敏捷头部",
+      "effectPlain": "+200 最大生命",
+      "valueSpans": [
+        "+200"
+      ]
+    },
+    {
+      "modifierId": "80324021",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "倒吊的半面",
+      "source": "敏捷头部",
+      "effectPlain": "周围 没有敌人时， +10 % 几率避免伤害 周围 只有 1 个敌人时， +10 % 受伤缓冲",
+      "valueSpans": [
+        "+10",
+        "1",
+        "+10"
+      ]
+    },
+    {
+      "modifierId": "80324011",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "倒吊的半面",
+      "source": "敏捷头部",
+      "effectPlain": "周围 至少有 1 个敌人时， +30 % 光环效果 周围 没有敌人时， +30 % 移动速度",
+      "valueSpans": [
+        "1",
+        "+30",
+        "+30"
+      ]
+    },
+    {
+      "modifierId": "140721480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(157–203) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104710080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(287–372) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105710080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(3745–4867) 该装备闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(95–122) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(95–122) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(121–156) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104710000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(221–286) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105710000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(2881–3744) 该装备闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(73–94) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(73–94) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104710001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(154–220) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105710001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(2017–2880) 该装备闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(51–72) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(51–72) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(85–120) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104710002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(129–154) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105710002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(1441–2016) 该装备闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(37–50) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(37–50) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(61–84) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105710003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(1153–1440) 该装备闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(30–36) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(30–36) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(49–60) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104710003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(92–110) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(24–29) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(24–29) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(39–48) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104710004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(74–88) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105710004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(923–1152) 该装备闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(20–23) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(20–23) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(32–38) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104710005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(59–70) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105710005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(750–922) 该装备闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(15–19) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(15–19) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(25–31) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104710006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(48–57) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105710006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(577–749) 该装备闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(12–14) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(12–14) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(19–24) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104710007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(37–44) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105710007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(433–576) 该装备闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110710080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(157–203) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(36–46) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(36–46) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(36–46) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(36–46) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111710380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(66–85) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104710180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "每秒自然回复 (157–203) 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110710000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(121–156) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(25–35) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(25–35) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(25–35) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(25–35) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111710300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(51–65) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104710100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "每秒自然回复 (121–156) 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(19–27) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(19–27) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(19–27) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(19–27) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111710301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(36–50) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110710001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(87–120) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104710101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "每秒自然回复 (85–120) 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(16–19) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(16–19) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(16–19) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(16–19) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111710302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(26–35) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110710002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(62–86) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104710102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "每秒自然回复 (61–84) 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(11–14) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(11–14) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(11–14) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(11–14) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111710303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(21–25) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110710003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(45–61) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104710103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "每秒自然回复 (49–60) 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111710304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(17–20) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110710004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(30–44) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(9–11) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(9–11) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(9–11) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(9–11) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104710104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "每秒自然回复 (39–48) 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110710005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(20–29) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(7–9) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(7–9) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(7–9) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(7–9) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104710105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "每秒自然回复 (32–38) 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110710006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(14–19) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(6–7) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(6–7) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(6–7) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(6–7) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104710106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "每秒自然回复 (25–31) 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+5 % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+5 % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+5 % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108710207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+5 % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104710107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "每秒自然回复 (19–24) 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "1507115",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷头部",
+      "effectPlain": "(16–20) % 受到的物理伤害转化为闪电伤害",
+      "valueSpans": [
+        "(16–20)"
+      ]
+    },
+    {
+      "modifierId": "1507116",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷头部",
+      "effectPlain": "(36–45) % 受到的腐蚀伤害转化为闪电伤害",
+      "valueSpans": [
+        "(36–45)"
+      ]
+    },
+    {
+      "modifierId": "1507114",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(3–5) % 元素 抗性上限",
+      "valueSpans": [
+        "+(3–5)"
+      ]
+    },
+    {
+      "modifierId": "1507111",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(5–7) % 护甲减伤穿透 召唤物 +(5–7) % 护甲减伤穿透",
+      "valueSpans": [
+        "+(5–7)",
+        "+(5–7)"
+      ]
+    },
+    {
+      "modifierId": "1507110",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透 召唤物 +(6–8) % 元素和腐蚀抗性穿透",
+      "valueSpans": [
+        "+(6–8)",
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1507112",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(6–8) % 魔力封印 补偿",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1507113",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(7–8) % 光环效果",
+      "valueSpans": [
+        "+(7–8)"
+      ]
+    },
+    {
+      "modifierId": "1507118",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷头部",
+      "effectPlain": "拥有 邪祟 ；召唤物拥有 邪祟",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "1507117",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷头部",
+      "effectPlain": "造成伤害时，施加 闪电渗透 ，对每个敌人拥有 1 秒间隔时间 召唤物造成伤害时，施加 闪电渗透 ，对每个敌人拥有 1 秒间隔时间",
+      "valueSpans": [
+        "1",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "1507106",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(15–20) 力量",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "1507107",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(15–20) 敏捷",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "1507108",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(15–20) 智慧",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "1507109",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(20–24) % 技能范围",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "1507100",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(54–74) 最大生命",
+      "valueSpans": [
+        "+(54–74)"
+      ]
+    },
+    {
+      "modifierId": "1507103",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(5–10) % 冰冷抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "1507102",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(5–10) % 火焰抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "1507105",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(5–10) % 腐蚀抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "1507104",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(5–10) % 闪电抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "1507101",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(760–960) 闪避值",
+      "valueSpans": [
+        "+(760–960)"
       ]
     },
     {
@@ -1166,15 +1556,15 @@
       ]
     },
     {
-      "modifierId": "52420651",
+      "modifierId": "51420611",
       "tier": null,
       "itemLevel": null,
       "weight": null,
       "affixType": "敞开心扉",
       "source": "敏捷头部",
-      "effectPlain": "拥有 战意 额外 +12 % 伤害",
+      "effectPlain": "+(1500–2592) 该装备闪避值",
       "valueSpans": [
-        "+12"
+        "+(1500–2592)"
       ]
     },
     {
@@ -1190,6 +1580,128 @@
       ]
     },
     {
+      "modifierId": "52420651",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "敞开心扉",
+      "source": "敏捷头部",
+      "effectPlain": "拥有 战意 额外 +12 % 伤害",
+      "valueSpans": [
+        "+12"
+      ]
+    },
+    {
+      "modifierId": "51424811",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "无脚鸟的悲啼",
+      "source": "敏捷头部",
+      "effectPlain": "+(100–120) 敏捷",
+      "valueSpans": [
+        "+(100–120)"
+      ]
+    },
+    {
+      "modifierId": "51424851",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "无脚鸟的悲啼",
+      "source": "敏捷头部",
+      "effectPlain": "如果装备了鞋子，额外 -10 % 伤害和召唤物伤害",
+      "valueSpans": [
+        "-10"
+      ]
+    },
+    {
+      "modifierId": "51424831",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "无脚鸟的悲啼",
+      "source": "敏捷头部",
+      "effectPlain": "每 +1 % 闪电抗性， -1 % 腐蚀抗性",
+      "valueSpans": [
+        "+1",
+        "-1"
+      ]
+    },
+    {
+      "modifierId": "51424821",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "无脚鸟的悲啼",
+      "source": "敏捷头部",
+      "effectPlain": "每 +2 % 闪电抗性， +3 % 闪电穿透",
+      "valueSpans": [
+        "+2",
+        "+3"
+      ]
+    },
+    {
+      "modifierId": "52420511",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "机械领主",
+      "source": "敏捷头部",
+      "effectPlain": "+(10–20) % 元素抗性",
+      "valueSpans": [
+        "+(10–20)"
+      ]
+    },
+    {
+      "modifierId": "52420531",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "机械领主",
+      "source": "敏捷头部",
+      "effectPlain": "召唤物 +(20–30) % 体型",
+      "valueSpans": [
+        "+(20–30)"
+      ]
+    },
+    {
+      "modifierId": "51420521",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "机械领主",
+      "source": "敏捷头部",
+      "effectPlain": "智械召唤物最大数量上限固定为 2",
+      "valueSpans": [
+        "2"
+      ]
+    },
+    {
+      "modifierId": "52420551",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "机械领主",
+      "source": "敏捷头部",
+      "effectPlain": "智械召唤物造成伤害时，淘汰生命值低于 (12–18) % 的敌人",
+      "valueSpans": [
+        "(12–18)"
+      ]
+    },
+    {
+      "modifierId": "52420541",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "机械领主",
+      "source": "敏捷头部",
+      "effectPlain": "智械召唤物附加 (120–160) % 物理伤害的火焰，冰冷和闪电伤害",
+      "valueSpans": [
+        "(120–160)"
+      ]
+    },
+    {
       "modifierId": "51421221",
       "tier": null,
       "itemLevel": null,
@@ -1199,6 +1711,28 @@
       "effectPlain": "+(187–242) 最大生命",
       "valueSpans": [
         "+(187–242)"
+      ]
+    },
+    {
+      "modifierId": "51421251",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "盲眼之视",
+      "source": "敏捷头部",
+      "effectPlain": "免疫 致盲",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51421241",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "盲眼之视",
+      "source": "敏捷头部",
+      "effectPlain": "对于投射物速度的加成的 (50–70) % 同样作用于投射物伤害",
+      "valueSpans": [
+        "(50–70)"
       ]
     },
     {
@@ -1214,86 +1748,892 @@
       ]
     },
     {
-      "modifierId": "51421241",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "盲眼之视",
+      "modifierId": "85071151",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
       "source": "敏捷头部",
-      "effectPlain": "对于投射物速度的加成的 (50–70) % 同样作用于投射物伤害",
+      "effectPlain": "(16–20) % 受到的物理伤害转化为闪电伤害",
       "valueSpans": [
-        "(50–70)"
+        "(16–20)"
       ]
     },
     {
-      "modifierId": "51421251",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "盲眼之视",
+      "modifierId": "85071161",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
       "source": "敏捷头部",
-      "effectPlain": "免疫 致盲",
+      "effectPlain": "(36–45) % 受到的腐蚀伤害转化为闪电伤害",
+      "valueSpans": [
+        "(36–45)"
+      ]
+    },
+    {
+      "modifierId": "85071141",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(3–5) % 元素 抗性上限",
+      "valueSpans": [
+        "+(3–5)"
+      ]
+    },
+    {
+      "modifierId": "85071111",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(5–7) % 护甲减伤穿透 召唤物 +(5–7) % 护甲减伤穿透",
+      "valueSpans": [
+        "+(5–7)",
+        "+(5–7)"
+      ]
+    },
+    {
+      "modifierId": "85071101",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透 召唤物 +(6–8) % 元素和腐蚀抗性穿透",
+      "valueSpans": [
+        "+(6–8)",
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "85071121",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(6–8) % 魔力封印 补偿",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "85071131",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(7–8) % 光环效果",
+      "valueSpans": [
+        "+(7–8)"
+      ]
+    },
+    {
+      "modifierId": "85071171",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷头部",
+      "effectPlain": "周围 15 米内的敌人拥有 软弱",
+      "valueSpans": [
+        "15"
+      ]
+    },
+    {
+      "modifierId": "85071061",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(15–20) 力量",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85071071",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(15–20) 敏捷",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85071081",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(15–20) 智慧",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85071091",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(20–24) % 技能范围",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85071001",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(54–74) 最大生命",
+      "valueSpans": [
+        "+(54–74)"
+      ]
+    },
+    {
+      "modifierId": "85071031",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(5–10) % 冰冷抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "85071021",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(5–10) % 火焰抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "85071051",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(5–10) % 腐蚀抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "85071041",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(5–10) % 闪电抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "85071011",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷头部",
+      "effectPlain": "+(760–960) 闪避值",
+      "valueSpans": [
+        "+(760–960)"
+      ]
+    },
+    {
+      "modifierId": "140722780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "(27–34) % 的伤害优先抵扣魔力",
       "valueSpans": []
     },
     {
-      "modifierId": "55422021",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "万雷颚骨",
-      "source": "敏捷头部",
-      "effectPlain": "+(1500–2000) 该装备闪避值",
-      "valueSpans": [
-        "+(1500–2000)"
-      ]
+      "modifierId": "115710280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "(27–35) % 受到的物理伤害转化为闪电伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "55422031",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "万雷颚骨",
-      "source": "敏捷头部",
-      "effectPlain": "额外 +10 % 闪电伤害",
-      "valueSpans": [
-        "+10"
-      ]
+      "modifierId": "140711280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "(63–77) % 受到的腐蚀伤害转化为闪电伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "51422041",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "万雷颚骨",
-      "source": "敏捷头部",
-      "effectPlain": "+30 % 麻痹 持续时间",
-      "valueSpans": [
-        "+30"
-      ]
+      "modifierId": "130710080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(27–34) % 魔力封印 补偿",
+      "valueSpans": []
     },
     {
-      "modifierId": "51422051",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "万雷颚骨",
-      "source": "敏捷头部",
-      "effectPlain": "+(65–80) % 麻痹 效果",
-      "valueSpans": [
-        "+(65–80)"
-      ]
+      "modifierId": "116710880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+1 地面蓄能 层数上限 +69 % 地面蓄能 回复速度",
+      "valueSpans": []
     },
     {
-      "modifierId": "51422111",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "蚀髓",
-      "source": "敏捷头部",
-      "effectPlain": "+150 最大生命和最大护盾",
-      "valueSpans": [
-        "+150"
-      ]
+      "modifierId": "130710580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "周围 敌人造成的伤害额外 (-25–-21) %",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116710680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "法术迸发 上限 +1 法术迸发 释放的技能额外 +13 % 击中伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140711180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "至少拥有 50000 点闪避值时， 额外 -50 % 受到的持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115710200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "(21–26) % 受到的物理伤害转化为闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "(21–26) % 的伤害优先抵扣魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140711200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "(46–60) % 受到的腐蚀伤害转化为闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130710000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(21–26) % 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116710800",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+1 地面蓄能 层数上限 +30 % 地面蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130710500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "周围 敌人造成的伤害额外 (-20–-16) %",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116710600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "法术迸发 上限 +1 法术迸发 释放的技能额外 +10 % 击中伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140711100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "至少拥有 50000 点闪避值时， 额外 -45 % 受到的持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722701",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "(15–20) % 的伤害优先抵扣魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115710201",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "(16–20) % 受到的物理伤害转化为闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140711201",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "(36–45) % 受到的腐蚀伤害转化为闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130710001",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(15–20) % 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116710801",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+1 地面蓄能 层数上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130710501",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "周围 敌人造成的伤害额外 (-15–-12) %",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "116710601",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "法术迸发 上限 +1",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140711101",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "至少拥有 50000 点闪避值时， 额外 -40 % 受到的持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722702",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "(11–14) % 的伤害优先抵扣魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115710202",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "(12–15) % 受到的物理伤害转化为闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140711202",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "(27–35) % 受到的腐蚀伤害转化为闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130710002",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(11–14) % 魔力封印 补偿",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130710502",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "周围 敌人造成的伤害额外 (-11–-9) %",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140711102",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "至少拥有 50000 点闪避值时， 额外 -35 % 受到的持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722703",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "(8–10) % 的伤害优先抵扣魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115710203",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "(8–9) % 受到的物理伤害转化为闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140711103",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "至少拥有 50000 点闪避值时， 额外 -30 % 受到的持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722704",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "(6–7) % 的伤害优先抵扣魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140711104",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "至少拥有 50000 点闪避值时， 额外 -25 % 受到的持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722705",
+      "tier": 5,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "(4–5) % 的伤害优先抵扣魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140711105",
+      "tier": 5,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "至少拥有 50000 点闪避值时， 额外 -20 % 受到的持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722706",
+      "tier": 6,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "3 % 的伤害优先抵扣魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140711106",
+      "tier": 6,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "至少拥有 50000 点闪避值时， 额外 -15 % 受到的持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722707",
+      "tier": 7,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "2 % 的伤害优先抵扣魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140711107",
+      "tier": 7,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "至少拥有 50000 点闪避值时， 额外 -10 % 受到的持续伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(109–140) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130710180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(12–13) 辅助技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(66–80) % 麻痹 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140711380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(71–85) % 几率避免 元素异常 状态",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "额外 +(32–41) % 周围 敌人受到的伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130710100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(10–11) 辅助技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140711300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(50–68) % 几率避免 元素异常 状态",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(51–65) % 麻痹 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(84–108) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "额外 +(25–31) % 周围 敌人受到的伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140711301",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(30–45) % 几率避免 元素异常 状态",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710701",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(40–50) % 麻痹 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710601",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(59–83) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130710101",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(6–9) 辅助技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710001",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "额外 +(18–24) % 周围 敌人受到的伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140711302",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(21–27) % 几率避免 元素异常 状态",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710702",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(30–38) % 麻痹 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710602",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(43–58) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130710102",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(4–5) 辅助技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710002",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "额外 +(13–17) % 周围 敌人受到的伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710703",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(22–28) % 麻痹 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710603",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(34–42) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710704",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(15–20) % 麻痹 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710705",
+      "tier": 5,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(11–14) % 麻痹 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710706",
+      "tier": 6,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(9–10) % 麻痹 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710707",
+      "tier": 7,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(7–8) % 麻痹 效果",
+      "valueSpans": []
     },
     {
       "modifierId": "51422121",
@@ -1305,18 +2645,6 @@
       "effectPlain": "+(10–20) % 技能范围",
       "valueSpans": [
         "+(10–20)"
-      ]
-    },
-    {
-      "modifierId": "51422131",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "蚀髓",
-      "source": "敏捷头部",
-      "effectPlain": "-40 % 地面蓄能 回复速度",
-      "valueSpans": [
-        "-40"
       ]
     },
     {
@@ -1332,6 +2660,30 @@
       ]
     },
     {
+      "modifierId": "51422111",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "蚀髓",
+      "source": "敏捷头部",
+      "effectPlain": "+150 最大生命和最大护盾",
+      "valueSpans": [
+        "+150"
+      ]
+    },
+    {
+      "modifierId": "51422131",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "蚀髓",
+      "source": "敏捷头部",
+      "effectPlain": "-40 % 地面蓄能 回复速度",
+      "valueSpans": [
+        "-40"
+      ]
+    },
+    {
       "modifierId": "51422151",
       "tier": null,
       "itemLevel": null,
@@ -1342,6 +2694,1098 @@
       "valueSpans": [
         "+20",
         "2"
+      ]
+    },
+    {
+      "modifierId": "105710280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(18–22) % 格挡比例",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(60–76) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140711080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(79–101) % 屏障 吸收量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109710480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(79–101) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109710080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(79–101) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109710380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(79–101) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "击败时， +(66–85) % 几率获得 1 层 灵动祝福",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105710200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(14–17) % 格挡比例",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(46–59) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140711000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(61–78) % 屏障 吸收量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109710400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(61–78) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109710000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(61–78) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109710300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(61–78) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710800",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "击败时， +(51–65) % 几率获得 1 层 灵动祝福",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105710201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(10–13) % 格挡比例",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(33–45) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140711001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(43–60) % 屏障 吸收量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109710401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(43–60) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109710001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(43–60) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109710301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(43–60) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710801",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "击败时， +(37–50) % 几率获得 1 层 灵动祝福",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(24–32) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140711002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(31–42) % 屏障 吸收量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109710402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(31–42) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109710002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(31–42) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109710302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(31–42) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105710202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(8–9) % 格挡比例",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710802",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "击败时， +(27–36) % 几率获得 1 层 灵动祝福",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(17–23) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140711003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(25–30) % 屏障 吸收量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109710403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(25–30) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109710003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(25–30) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109710303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(25–30) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710803",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "击败时， +(19–26) % 几率获得 1 层 灵动祝福",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(12–16) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140711004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(20–24) % 屏障 吸收量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109710404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(20–24) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109710004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(20–24) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109710304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(20–24) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710804",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "击败时， +(13–18) % 几率获得 1 层 灵动祝福",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140711005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(17–19) % 屏障 吸收量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109710405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(17–19) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109710005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(17–19) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109710305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(17–19) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(8–11) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710805",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "击败时， +(9–12) % 几率获得 1 层 灵动祝福",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140711006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(13–16) % 屏障 吸收量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109710406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(13–16) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109710006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(13–16) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109710306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(13–16) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(6–7) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710806",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "击败时， +(6–8) % 几率获得 1 层 灵动祝福",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140711007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(10–12) % 屏障 吸收量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109710407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(10–12) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109710007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(10–12) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109710307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(10–12) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(4–5) % 投射物速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710807",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Helmet",
+      "effectPlain": "击败时， +(4–5) % 几率获得 1 层 灵动祝福",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710980",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(24–30) % 闪避值 +(144–186) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(32–41) % 攻击与施法速度 +(32–41) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140711480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(48–61) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111710080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(63–81) % 技能范围 +(63–81) % 召唤物技能范围",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(66–85) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110710180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(79–101) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111710280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "击败时， (16–20) % 几率获得 屏障",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710900",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(19–23) % 闪避值 +(111–143) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(25–31) % 攻击与施法速度 +(25–31) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140711400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(37–47) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111710000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(49–62) % 技能范围 +(49–62) % 召唤物技能范围",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(51–65) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110710100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(61–78) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111710200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "击败时， (11–15) % 几率获得 屏障",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710901",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(14–18) % 闪避值 +(78–110) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(18–24) % 攻击与施法速度 +(18–24) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140711401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(26–36) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111710001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(35–48) % 技能范围 +(35–48) % 召唤物技能范围",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710501",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(36–50) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110710101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(44–60) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710902",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(10–13) % 闪避值 +(56–77) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(13–17) % 攻击与施法速度 +(13–17) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140711402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(19–25) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111710002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(25–34) % 技能范围 +(25–34) % 召唤物技能范围",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710502",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(26–35) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110710102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(32–43) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(10–12) % 攻击与施法速度 +(10–12) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710903",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(10–13) % 闪避值 +(45–55) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111710003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(20–24) % 技能范围 +(20–24) % 召唤物技能范围",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710503",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(21–25) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110710103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(23–31) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111710004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(16–19) % 技能范围 +(16–19) % 召唤物技能范围",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110710104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(16–22) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710504",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(17–20) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(7–9) % 攻击与施法速度 +(7–9) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710904",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+7 % 闪避值 +(36–44) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110710105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(11–15) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111710005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(13–15) % 技能范围 +(13–15) % 召唤物技能范围",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710505",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(14–16) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(5–6) % 攻击与施法速度 +(5–6) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710905",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+6 % 闪避值 +(30–35) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111710006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(11–12) % 技能范围 +(11–12) % 召唤物技能范围",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710506",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(11–13) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110710106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(7–10) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+4 % 攻击与施法速度 +4 % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710906",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+5 % 闪避值 +(23–29) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110710107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(5–6) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710507",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+(9–10) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+3 % 攻击与施法速度 +3 % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140710907",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "DEX Helmet",
+      "effectPlain": "+4 % 闪避值 +(18–22) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51423131",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "追猎海妖之眼",
+      "source": "敏捷头部",
+      "effectPlain": "+(15–23) % 投射物速度",
+      "valueSpans": [
+        "+(15–23)"
       ]
     },
     {
@@ -1369,15 +3813,15 @@
       ]
     },
     {
-      "modifierId": "51423131",
+      "modifierId": "51423151",
       "tier": null,
       "itemLevel": null,
       "weight": null,
       "affixType": "追猎海妖之眼",
       "source": "敏捷头部",
-      "effectPlain": "+(15–23) % 投射物速度",
+      "effectPlain": "击败 劲敌 时，有 50 % 概率淘汰 10 米内非 劲敌",
       "valueSpans": [
-        "+(15–23)"
+        "50"
       ]
     },
     {
@@ -1395,15 +3839,15 @@
       ]
     },
     {
-      "modifierId": "51423151",
+      "modifierId": "51424021",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "追猎海妖之眼",
+      "affixType": "飞光破晓",
       "source": "敏捷头部",
-      "effectPlain": "击败 劲敌 时，有 50 % 概率淘汰 10 米内非 劲敌",
+      "effectPlain": "+(8–16) % 冰冷抗性",
       "valueSpans": [
-        "50"
+        "+(8–16)"
       ]
     },
     {
@@ -1419,15 +3863,15 @@
       ]
     },
     {
-      "modifierId": "51424021",
+      "modifierId": "51424061",
       "tier": null,
       "itemLevel": null,
       "weight": null,
       "affixType": "飞光破晓",
       "source": "敏捷头部",
-      "effectPlain": "+(8–16) % 冰冷抗性",
+      "effectPlain": "击中时，有 25 % 几率造成一层 减速",
       "valueSpans": [
-        "+(8–16)"
+        "25"
       ]
     },
     {
@@ -1466,150 +3910,9 @@
         "20",
         "4"
       ]
-    },
-    {
-      "modifierId": "51424061",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "飞光破晓",
-      "source": "敏捷头部",
-      "effectPlain": "击中时，有 25 % 几率造成一层 减速",
-      "valueSpans": [
-        "25"
-      ]
-    },
-    {
-      "modifierId": "51424811",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "无脚鸟的悲啼",
-      "source": "敏捷头部",
-      "effectPlain": "+(100–120) 敏捷",
-      "valueSpans": [
-        "+(100–120)"
-      ]
-    },
-    {
-      "modifierId": "51424821",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "无脚鸟的悲啼",
-      "source": "敏捷头部",
-      "effectPlain": "每 +2 % 闪电抗性， +3 % 闪电穿透",
-      "valueSpans": [
-        "+2",
-        "+3"
-      ]
-    },
-    {
-      "modifierId": "51424831",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "无脚鸟的悲啼",
-      "source": "敏捷头部",
-      "effectPlain": "每 +1 % 闪电抗性， -1 % 腐蚀抗性",
-      "valueSpans": [
-        "+1",
-        "-1"
-      ]
-    },
-    {
-      "modifierId": "51424851",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "无脚鸟的悲啼",
-      "source": "敏捷头部",
-      "effectPlain": "如果装备了鞋子，额外 -10 % 伤害和召唤物伤害",
-      "valueSpans": [
-        "-10"
-      ]
-    },
-    {
-      "modifierId": "80324011",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "倒吊的半面",
-      "source": "敏捷头部",
-      "effectPlain": "周围 至少有 1 个敌人时， +30 % 光环效果 周围 没有敌人时， +30 % 移动速度",
-      "valueSpans": [
-        "1",
-        "+30",
-        "+30"
-      ]
-    },
-    {
-      "modifierId": "80324021",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "倒吊的半面",
-      "source": "敏捷头部",
-      "effectPlain": "周围 没有敌人时， +10 % 几率避免伤害 周围 只有 1 个敌人时， +10 % 受伤缓冲",
-      "valueSpans": [
-        "+10",
-        "1",
-        "+10"
-      ]
-    },
-    {
-      "modifierId": "80324031",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "倒吊的半面",
-      "source": "敏捷头部",
-      "effectPlain": "+200 最大生命",
-      "valueSpans": [
-        "+200"
-      ]
-    },
-    {
-      "modifierId": "80324041",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "倒吊的半面",
-      "source": "敏捷头部",
-      "effectPlain": "(-1–1) 全部技能等级",
-      "valueSpans": [
-        "(-1–1)"
-      ]
     }
   ],
   "tierVariantGroups": [
-    {
-      "skeleton": "{#} % 伤害",
-      "rolls": [
-        {
-          "modifierId": "60067110",
-          "tier": 0,
-          "itemLevel": 1,
-          "weight": 1,
-          "affixType": "侵蚀基底",
-          "valueSpans": [
-            "+(50–70)"
-          ],
-          "effectPlain": "+(50–70) % 伤害"
-        },
-        {
-          "modifierId": "140710101",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(51–72)"
-          ],
-          "effectPlain": "+(51–72) % 伤害"
-        }
-      ]
-    },
     {
       "skeleton": "{#} % 元素 抗性上限",
       "rolls": [
@@ -1697,17 +4000,6 @@
       "skeleton": "{#} % 冰冷抗性",
       "rolls": [
         {
-          "modifierId": "108710101",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 冰冷抗性"
-        },
-        {
           "modifierId": "1507103",
           "tier": 2,
           "itemLevel": 1,
@@ -1766,17 +4058,6 @@
             "(16–20)"
           ],
           "effectPlain": "(16–20) % 受到的物理伤害转化为闪电伤害"
-        },
-        {
-          "modifierId": "115710201",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻前缀",
-          "valueSpans": [
-            "(16–20)"
-          ],
-          "effectPlain": "(16–20) % 受到的物理伤害转化为闪电伤害"
         }
       ]
     },
@@ -1800,17 +4081,6 @@
           "itemLevel": 1,
           "weight": 1,
           "affixType": "美梦词缀",
-          "valueSpans": [
-            "(36–45)"
-          ],
-          "effectPlain": "(36–45) % 受到的腐蚀伤害转化为闪电伤害"
-        },
-        {
-          "modifierId": "140711201",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻前缀",
           "valueSpans": [
             "(36–45)"
           ],
@@ -1857,33 +4127,6 @@
       ]
     },
     {
-      "skeleton": "{#} % 投射物速度",
-      "rolls": [
-        {
-          "modifierId": "140710301",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(33–45)"
-          ],
-          "effectPlain": "+(33–45) % 投射物速度"
-        },
-        {
-          "modifierId": "51423131",
-          "tier": null,
-          "itemLevel": null,
-          "weight": null,
-          "affixType": "追猎海妖之眼",
-          "valueSpans": [
-            "+(15–23)"
-          ],
-          "effectPlain": "+(15–23) % 投射物速度"
-        }
-      ]
-    },
-    {
       "skeleton": "{#} % 护甲减伤穿透 召唤物 {#} % 护甲减伤穿透",
       "rolls": [
         {
@@ -1916,17 +4159,6 @@
       "skeleton": "{#} % 火焰抗性",
       "rolls": [
         {
-          "modifierId": "108710001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 火焰抗性"
-        },
-        {
           "modifierId": "1507102",
           "tier": 2,
           "itemLevel": 1,
@@ -1953,17 +4185,6 @@
     {
       "skeleton": "{#} % 腐蚀抗性",
       "rolls": [
-        {
-          "modifierId": "108710301",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 腐蚀抗性"
-        },
         {
           "modifierId": "1507105",
           "tier": 2,
@@ -2003,17 +4224,6 @@
       "skeleton": "{#} % 闪电抗性",
       "rolls": [
         {
-          "modifierId": "108710201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 闪电抗性"
-        },
-        {
           "modifierId": "1507104",
           "tier": 2,
           "itemLevel": 1,
@@ -2052,17 +4262,6 @@
           "effectPlain": "+(10–15) % 魔力封印 补偿"
         },
         {
-          "modifierId": "130710001",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻前缀",
-          "valueSpans": [
-            "+(15–20)"
-          ],
-          "effectPlain": "+(15–20) % 魔力封印 补偿"
-        },
-        {
           "modifierId": "1507112",
           "tier": 1,
           "itemLevel": 1,
@@ -2087,46 +4286,8 @@
       ]
     },
     {
-      "skeleton": "{#} % 麻痹 效果",
-      "rolls": [
-        {
-          "modifierId": "140710701",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻后缀",
-          "valueSpans": [
-            "+(40–50)"
-          ],
-          "effectPlain": "+(40–50) % 麻痹 效果"
-        },
-        {
-          "modifierId": "51422051",
-          "tier": null,
-          "itemLevel": null,
-          "weight": null,
-          "affixType": "万雷颚骨",
-          "valueSpans": [
-            "+(65–80)"
-          ],
-          "effectPlain": "+(65–80) % 麻痹 效果"
-        }
-      ]
-    },
-    {
       "skeleton": "{#} 力量",
       "rolls": [
-        {
-          "modifierId": "109710401",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(43–60)"
-          ],
-          "effectPlain": "+(43–60) 力量"
-        },
         {
           "modifierId": "1507106",
           "tier": 2,
@@ -2152,46 +4313,8 @@
       ]
     },
     {
-      "skeleton": "{#} 地面蓄能 层数上限",
-      "rolls": [
-        {
-          "modifierId": "116710801",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻前缀",
-          "valueSpans": [
-            "+1"
-          ],
-          "effectPlain": "+1 地面蓄能 层数上限"
-        },
-        {
-          "modifierId": "51422141",
-          "tier": null,
-          "itemLevel": null,
-          "weight": null,
-          "affixType": "蚀髓",
-          "valueSpans": [
-            "+1"
-          ],
-          "effectPlain": "+1 地面蓄能 层数上限"
-        }
-      ]
-    },
-    {
       "skeleton": "{#} 敏捷",
       "rolls": [
-        {
-          "modifierId": "109710001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(43–60)"
-          ],
-          "effectPlain": "+(43–60) 敏捷"
-        },
         {
           "modifierId": "1507107",
           "tier": 2,
@@ -2231,17 +4354,6 @@
       "skeleton": "{#} 智慧",
       "rolls": [
         {
-          "modifierId": "109710301",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(43–60)"
-          ],
-          "effectPlain": "+(43–60) 智慧"
-        },
-        {
           "modifierId": "1507108",
           "tier": 2,
           "itemLevel": 1,
@@ -2268,17 +4380,6 @@
     {
       "skeleton": "{#} 最大生命",
       "rolls": [
-        {
-          "modifierId": "104710001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(154–220)"
-          ],
-          "effectPlain": "+(154–220) 最大生命"
-        },
         {
           "modifierId": "1507100",
           "tier": 2,
@@ -2362,17 +4463,6 @@
       "skeleton": "{#} 该装备闪避值",
       "rolls": [
         {
-          "modifierId": "105710001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(2017–2880)"
-          ],
-          "effectPlain": "+(2017–2880) 该装备闪避值"
-        },
-        {
           "modifierId": "51420611",
           "tier": null,
           "itemLevel": null,
@@ -2422,34 +4512,7 @@
           "effectPlain": "+(760–960) 闪避值"
         }
       ]
-    },
-    {
-      "skeleton": "周围 敌人造成的伤害额外 {#} %",
-      "rolls": [
-        {
-          "modifierId": "130710501",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻前缀",
-          "valueSpans": [
-            "(-15–-12)"
-          ],
-          "effectPlain": "周围 敌人造成的伤害额外 (-15–-12) %"
-        },
-        {
-          "modifierId": "52420661",
-          "tier": null,
-          "itemLevel": null,
-          "weight": null,
-          "affixType": "敞开心扉",
-          "valueSpans": [
-            "+(10–20)"
-          ],
-          "effectPlain": "周围 敌人造成的伤害额外 +(10–20) %"
-        }
-      ]
     }
   ],
-  "tierVariantGroupCount": 23
+  "tierVariantGroupCount": 18
 }

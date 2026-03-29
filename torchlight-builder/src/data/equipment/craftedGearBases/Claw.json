@@ -3,7 +3,7 @@
   "categorySlug": "Claw",
   "categoryLabel": "Claw",
   "sourceUrl": "https://tlidb.com/cn/Claw",
-  "fetchedAt": "2026-03-22T11:44:06Z",
+  "fetchedAt": "2026-03-24T09:13:46Z",
   "baseCount": 20,
   "bases": [
     {
@@ -13,6 +13,11 @@
       "iconAlt": "IconEquipWeaponClawNorm001128",
       "requiredLevel": 1,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "6 - 6 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_001_128.webp"
     },
     {
@@ -22,6 +27,11 @@
       "iconAlt": "IconEquipWeaponClawNorm002128",
       "requiredLevel": 2,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "7 - 7 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_002_128.webp"
     },
     {
@@ -31,6 +41,11 @@
       "iconAlt": "IconEquipWeaponClawNorm003128",
       "requiredLevel": 4,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "8 - 8 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_003_128.webp"
     },
     {
@@ -40,6 +55,11 @@
       "iconAlt": "IconEquipWeaponClawNorm004128",
       "requiredLevel": 9,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "10 - 10 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_004_128.webp"
     },
     {
@@ -49,6 +69,11 @@
       "iconAlt": "IconEquipWeaponClawNorm005128",
       "requiredLevel": 14,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "13 - 13 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_005_128.webp"
     },
     {
@@ -58,6 +83,11 @@
       "iconAlt": "IconEquipWeaponClawNorm001128",
       "requiredLevel": 19,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "16 - 16 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_001_128.webp"
     },
     {
@@ -67,6 +97,11 @@
       "iconAlt": "IconEquipWeaponClawNorm002128",
       "requiredLevel": 24,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "20 - 20 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_002_128.webp"
     },
     {
@@ -76,6 +111,11 @@
       "iconAlt": "IconEquipWeaponClawNorm003128",
       "requiredLevel": 29,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "25 - 25 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_003_128.webp"
     },
     {
@@ -85,6 +125,11 @@
       "iconAlt": "IconEquipWeaponClawNorm004128",
       "requiredLevel": 34,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "30 - 30 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_004_128.webp"
     },
     {
@@ -94,6 +139,11 @@
       "iconAlt": "IconEquipWeaponClawNorm005128",
       "requiredLevel": 39,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "35 - 35 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_005_128.webp"
     },
     {
@@ -103,6 +153,11 @@
       "iconAlt": "IconEquipWeaponClawNorm001128",
       "requiredLevel": 44,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "41 - 41 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_001_128.webp"
     },
     {
@@ -112,6 +167,11 @@
       "iconAlt": "IconEquipWeaponClawNorm002128",
       "requiredLevel": 49,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "49 - 49 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_002_128.webp"
     },
     {
@@ -121,6 +181,11 @@
       "iconAlt": "IconEquipWeaponClawNorm003128",
       "requiredLevel": 54,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "57 - 57 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_003_128.webp"
     },
     {
@@ -130,6 +195,11 @@
       "iconAlt": "IconEquipWeaponClawNorm004128",
       "requiredLevel": 59,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "73 - 73 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_004_128.webp"
     },
     {
@@ -139,6 +209,11 @@
       "iconAlt": "IconEquipWeaponClawNorm005128",
       "requiredLevel": 64,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "89 - 89 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_005_128.webp"
     },
     {
@@ -148,6 +223,11 @@
       "iconAlt": "IconEquipWeaponClawNorm001128",
       "requiredLevel": 68,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "109 - 109 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_001_128.webp"
     },
     {
@@ -157,6 +237,11 @@
       "iconAlt": "IconEquipWeaponClawNorm005128",
       "requiredLevel": 72,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "130 - 130 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_005_128.webp"
     },
     {
@@ -166,6 +251,11 @@
       "iconAlt": "IconEquipWeaponClawNorm001128",
       "requiredLevel": 82,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "142 - 142 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_001_128.webp"
     },
     {
@@ -175,6 +265,11 @@
       "iconAlt": "IconEquipWeaponClawNorm001128",
       "requiredLevel": 84,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "154 - 154 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_001_128.webp"
     },
     {
@@ -184,6 +279,11 @@
       "iconAlt": "IconEquipWeaponClawNorm001128",
       "requiredLevel": 86,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "178 - 178 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Claw_Norm_001_128.webp"
     }
   ]

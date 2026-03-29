@@ -32,6 +32,7 @@ import argparse
 import json
 import re
 import time
+import hashlib
 from datetime import datetime, timezone
 from html import unescape
 from pathlib import Path
@@ -63,6 +64,15 @@ ROW_RE = re.compile(
     r"<tr[^>]*>\s*<td>(.*?)</td>\s*<td>(.*?)</td>\s*<td>(.*?)</td>\s*</tr>",
     re.S | re.I,
 )
+
+# 打造页（前缀/后缀）行：Tier | Modifier | Lv | Weight | Library
+# TLIDB 该表常省略 </td>，形如 <tr ...><td>a<td>b<td>c...
+CRAFT_ROW_RE = re.compile(
+    r"<tr[^>]*>\s*<td>(.*?)<td>(.*?)<td>(.*?)<td>(.*?)<td>(.*?)(?=<tr|</tbody>)",
+    re.S | re.I,
+)
+
+CRAFT_TIER_TOKEN_RE = re.compile(r"^\s*(\d+)\s*(\+)?\s*$")
 
 
 def fetch_html(url: str) -> str:
@@ -154,6 +164,187 @@ def strip_inline_html(fragment: str) -> str:
     t = t.replace("\u00a0", " ")
     t = re.sub(r"\s+", " ", t).strip()
     return t
+
+
+def _normalize_for_id(text: str) -> str:
+    t = strip_inline_html(text)
+    t = t.replace("—", "-").replace("–", "-")
+    t = re.sub(r"\s+", " ", t).strip()
+    return t
+
+
+def parse_craft_tier_token(raw: str) -> int | None:
+    """
+    TLIDB 打造 Tier token：
+      - "0+" 记为 -1（用于在前端映射为 T0+）
+      - "0"/"1"/"2"... 记为对应整数
+    """
+    t = strip_inline_html(raw)
+    m = CRAFT_TIER_TOKEN_RE.match(t)
+    if not m:
+        return None
+    base = int(m.group(1))
+    if m.group(2):
+        # 0+ / 1+（理论上主要是 0+）
+        return -(base + 1)
+    return base
+
+
+def map_craft_library_to_affix_type(library_text: str, section_kind: str) -> str:
+    lib = strip_inline_html(library_text)
+    sec = section_kind.strip().lower()
+    is_prefix = sec == "prefix"
+    if "初阶词缀" in lib:
+        return "初阶前缀" if is_prefix else "初阶后缀"
+    if "进阶词缀" in lib:
+        return "进阶前缀" if is_prefix else "进阶后缀"
+    if "至臻词缀" in lib:
+        return "至臻前缀" if is_prefix else "至臻后缀"
+    # 回退：保留原始库名，避免直接丢弃
+    return lib
+
+
+def slice_craft_section(page_html: str) -> str | None:
+    """
+    截取「打造」块：
+    优先从 “Show Only T0” 附近向前找最近表格容器，再向后截到下一主分栏。
+    """
+    anchor = page_html.find("Show Only T0")
+    if anchor < 0:
+        anchor = page_html.find("单手剑 打造")
+    if anchor < 0:
+        anchor = page_html.find("打造")
+    if anchor < 0:
+        return None
+
+    start = page_html.rfind("<div", 0, anchor)
+    if start < 0:
+        start = max(0, anchor - 12000)
+
+    end_markers = ['<div id="', '<h4 class="m-1">', '<h3 class="m-1">']
+    end = -1
+    for m in end_markers:
+        j = page_html.find(m, anchor + 50)
+        if j >= 0 and (end < 0 or j < end):
+            end = j
+    if end < 0:
+        end = min(len(page_html), anchor + 30000)
+    return page_html[start:end]
+
+
+def parse_craft_rows_from_section(section_html: str, source_label: str) -> list[dict[str, object]]:
+    """
+    解析打造区的前缀 / 后缀表，产出完整 tier 档位。
+    modifierId 在打造表中通常不提供，使用稳定哈希生成 synthetic id。
+    """
+    rows: list[dict[str, object]] = []
+
+    # 优先按表格顺序切块：第 1 张视作前缀，第 2 张视作后缀（与 TLIDB 打造区一致）
+    table_iter = list(
+        re.finditer(
+            r"(<table[^>]*class=\"[^\"]*table[^\"]*\"[^>]*>.*?</table>)",
+            section_html,
+            re.S | re.I,
+        )
+    )
+    blocks: list[tuple[str, str]] = []
+    if table_iter:
+        if len(table_iter) >= 1:
+            blocks.append(("prefix", table_iter[0].group(1)))
+        if len(table_iter) >= 2:
+            blocks.append(("suffix", table_iter[1].group(1)))
+    else:
+        # 回退：找不到表格时尽力按整体 prefix 解析
+        blocks.append(("prefix", section_html))
+
+    for section_kind, block in blocks:
+        for m in CRAFT_ROW_RE.finditer(block):
+            tier_raw, modifier_raw, lv_raw, weight_raw, lib_raw = m.groups()
+            tier = parse_craft_tier_token(tier_raw)
+            if tier is None:
+                continue
+            effect = strip_inline_html(modifier_raw)
+            if not effect:
+                continue
+
+            lv_txt = strip_inline_html(lv_raw)
+            wt_txt = strip_inline_html(weight_raw)
+            item_level = int(lv_txt) if lv_txt.isdigit() else None
+            weight = int(wt_txt) if wt_txt.isdigit() else None
+
+            affix_type = map_craft_library_to_affix_type(lib_raw, section_kind)
+            if affix_type not in {
+                "初阶前缀",
+                "初阶后缀",
+                "进阶前缀",
+                "进阶后缀",
+                "至臻前缀",
+                "至臻后缀",
+            }:
+                continue
+
+            mid_m = MODIFIER_ID_RE.search(modifier_raw)
+            if mid_m:
+                modifier_id = mid_m.group(1)
+            else:
+                stable_key = f"{source_label}|{affix_type}|{tier}|{item_level}|{weight}|{_normalize_for_id(effect)}"
+                modifier_id = "craft_" + hashlib.sha1(stable_key.encode("utf-8")).hexdigest()[:16]
+            rows.append(
+                {
+                    "modifierId": modifier_id,
+                    "tier": tier,
+                    "itemLevel": item_level,
+                    "weight": weight,
+                    "affixType": affix_type,
+                    "source": source_label,
+                    "effectPlain": effect,
+                    "valueSpans": [],
+                }
+            )
+    return rows
+
+
+def merge_modifier_rows(
+    base_rows: list[dict[str, object]], craft_rows: list[dict[str, object]]
+) -> list[dict[str, object]]:
+    """
+    合并「词缀 tab」与「打造表」：
+    - 非六槽类型（基础/美梦/侵蚀等）保留 base_rows
+    - 六槽类型（初阶/进阶/至臻 前后缀）优先使用打造表的完整 tier
+    - 对六槽行做去重（affixType + effect + tier + level + weight）
+    """
+    six_slot = {
+        "初阶前缀",
+        "初阶后缀",
+        "进阶前缀",
+        "进阶后缀",
+        "至臻前缀",
+        "至臻后缀",
+    }
+    kept_base = [r for r in base_rows if str(r.get("affixType") or "") not in six_slot]
+
+    dedup: dict[tuple[object, ...], dict[str, object]] = {}
+    for r in craft_rows:
+        key = (
+            str(r.get("affixType") or ""),
+            _normalize_for_id(str(r.get("effectPlain") or "")),
+            r.get("tier"),
+            r.get("itemLevel"),
+            r.get("weight"),
+        )
+        dedup[key] = r
+
+    merged = kept_base + list(dedup.values())
+    merged.sort(
+        key=lambda x: (
+            str(x.get("affixType") or ""),
+            x.get("tier") is None,
+            x.get("tier") if x.get("tier") is not None else 999,
+            str(x.get("effectPlain") or ""),
+            str(x.get("modifierId") or ""),
+        )
+    )
+    return merged
 
 
 def slice_affix_tab_html(page_html: str) -> str | None:
@@ -275,6 +466,10 @@ def sync_one_category(slug: str, label: str) -> dict[str, object] | None:
             "tierVariantGroupCount": 0,
         }
     rows = parse_affix_rows(affix)
+    craft_section = slice_craft_section(html)
+    craft_rows = parse_craft_rows_from_section(craft_section, label) if craft_section else []
+    if craft_rows:
+        rows = merge_modifier_rows(rows, craft_rows)
     tier_groups = build_tier_roll_index(rows)
     return {
         "slug": slug,

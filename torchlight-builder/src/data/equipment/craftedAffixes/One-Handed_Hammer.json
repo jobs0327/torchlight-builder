@@ -2,214 +2,197 @@
   "slug": "One-Handed_Hammer",
   "label": "One-Handed Hammer",
   "sourceUrl": "https://tlidb.com/cn/One-Handed_Hammer",
-  "fetchedAt": "2026-03-22T08:58:05Z",
-  "modifierCount": 120,
+  "fetchedAt": "2026-03-24T07:25:00Z",
+  "modifierCount": 327,
   "modifiers": [
     {
-      "modifierId": "1500400",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "单手锤",
-      "effectPlain": "攻击附加 (10–13) - (14–19) 点物理伤害",
-      "valueSpans": [
-        "(10–13)",
-        "(14–19)"
-      ]
-    },
-    {
-      "modifierId": "1500401",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "单手锤",
-      "effectPlain": "攻击附加 (9–14) - (15–20) 点火焰伤害",
-      "valueSpans": [
-        "(9–14)",
-        "(15–20)"
-      ]
-    },
-    {
-      "modifierId": "1500402",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "单手锤",
-      "effectPlain": "攻击附加 (10–13) - (14–19) 点冰冷伤害",
-      "valueSpans": [
-        "(10–13)",
-        "(14–19)"
-      ]
-    },
-    {
-      "modifierId": "1500403",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "单手锤",
-      "effectPlain": "攻击附加 (1–2) - (28–32) 点闪电伤害",
-      "valueSpans": [
-        "(1–2)",
-        "(28–32)"
-      ]
-    },
-    {
-      "modifierId": "1500404",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "单手锤",
-      "effectPlain": "攻击附加 (11–13) - (15–18) 点腐蚀伤害",
-      "valueSpans": [
-        "(11–13)",
-        "(15–18)"
-      ]
-    },
-    {
-      "modifierId": "1500405",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "单手锤",
-      "effectPlain": "+(20–24) % 物理伤害",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "1500406",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "单手锤",
-      "effectPlain": "+(20–24) % 元素伤害",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "1500407",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "单手锤",
-      "effectPlain": "+(20–24) % 腐蚀伤害",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "1500408",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "单手锤",
-      "effectPlain": "+(20–24) % 近战伤害",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "1500409",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "单手锤",
-      "effectPlain": "+(6–8) % 攻击速度",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "1500410",
+      "modifierId": "160410004",
       "tier": 1,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "weight": 100,
+      "affixType": "中阶序列",
       "source": "单手锤",
-      "effectPlain": "消耗 破击蓄能 时，该次技能额外 +(12–16) % 伤害",
+      "effectPlain": "+10 % 全属性",
       "valueSpans": [
-        "+(12–16)"
+        "+10"
       ]
     },
     {
-      "modifierId": "1500411",
+      "modifierId": "160408004",
       "tier": 1,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "weight": 100,
+      "affixType": "中阶序列",
       "source": "单手锤",
-      "effectPlain": "造成伤害时，淘汰生命值低于 (5–7) % 的敌人",
+      "effectPlain": "+20 % 该装备攻击暴击值",
       "valueSpans": [
-        "(5–7)"
+        "+20"
       ]
     },
     {
-      "modifierId": "1500412",
+      "modifierId": "160402004",
       "tier": 1,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "weight": 100,
+      "affixType": "中阶序列",
       "source": "单手锤",
-      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
+      "effectPlain": "+6 % 护甲减伤穿透",
       "valueSpans": [
-        "+(6–8)"
+        "+6"
       ]
     },
     {
-      "modifierId": "1500413",
+      "modifierId": "160404004",
       "tier": 1,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "weight": 100,
+      "affixType": "中阶序列",
       "source": "单手锤",
-      "effectPlain": "+(5–7) % 护甲减伤穿透",
+      "effectPlain": "+8 % 冰冷穿透",
       "valueSpans": [
-        "+(5–7)"
+        "+8"
       ]
     },
     {
-      "modifierId": "1500414",
+      "modifierId": "160403004",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "单手锤",
+      "effectPlain": "+8 % 火焰穿透",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160406004",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "单手锤",
+      "effectPlain": "+8 % 腐蚀抗性穿透",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160407004",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "单手锤",
+      "effectPlain": "+8 % 该装备攻击速度",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160405004",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "单手锤",
+      "effectPlain": "+8 % 闪电穿透",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160409004",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "单手锤",
+      "effectPlain": "暴击时，额外 +10 % 伤害",
+      "valueSpans": [
+        "+10"
+      ]
+    },
+    {
+      "modifierId": "160401004",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "单手锤",
+      "effectPlain": "额外 +8 % 主手武器 伤害",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "60060407",
       "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "单手锤",
-      "effectPlain": "+1 坚韧祝福 层数上限",
+      "effectPlain": "+(10–15) % 技能范围",
       "valueSpans": [
-        "+1"
+        "+(10–15)"
       ]
     },
     {
-      "modifierId": "1500415",
+      "modifierId": "60060404",
       "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "单手锤",
-      "effectPlain": "+1 灵动祝福 层数上限",
+      "effectPlain": "+(15–25) % 该装备物理伤害",
       "valueSpans": [
-        "+1"
+        "+(15–25)"
       ]
     },
     {
-      "modifierId": "1500416",
+      "modifierId": "60060409",
       "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "单手锤",
-      "effectPlain": "+1 聚能祝福 层数上限",
+      "effectPlain": "+(25–30) % 元素 伤害",
+      "valueSpans": [
+        "+(25–30)"
+      ]
+    },
+    {
+      "modifierId": "60060406",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "单手锤",
+      "effectPlain": "+(3–6) % 该装备攻击暴击值",
+      "valueSpans": [
+        "+(3–6)"
+      ]
+    },
+    {
+      "modifierId": "60060405",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "单手锤",
+      "effectPlain": "+(5–8) % 该装备攻击速度",
+      "valueSpans": [
+        "+(5–8)"
+      ]
+    },
+    {
+      "modifierId": "60060408",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "单手锤",
+      "effectPlain": "+1 核心技能等级",
       "valueSpans": [
         "+1"
       ]
@@ -252,128 +235,197 @@
       ]
     },
     {
-      "modifierId": "60060404",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
+      "modifierId": "51260621",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "冰封之志",
       "source": "单手锤",
-      "effectPlain": "+(15–25) % 该装备物理伤害",
-      "valueSpans": [
-        "+(15–25)"
-      ]
-    },
-    {
-      "modifierId": "60060405",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "单手锤",
-      "effectPlain": "+(5–8) % 该装备攻击速度",
-      "valueSpans": [
-        "+(5–8)"
-      ]
-    },
-    {
-      "modifierId": "60060406",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "单手锤",
-      "effectPlain": "+(3–6) % 该装备攻击暴击值",
-      "valueSpans": [
-        "+(3–6)"
-      ]
-    },
-    {
-      "modifierId": "60060407",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "单手锤",
-      "effectPlain": "+(10–15) % 技能范围",
+      "effectPlain": "+(10–15) % 该装备攻击速度",
       "valueSpans": [
         "+(10–15)"
       ]
     },
     {
-      "modifierId": "60060408",
+      "modifierId": "51260641",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "冰封之志",
+      "source": "单手锤",
+      "effectPlain": "+(10–15) 冰结值 上限",
+      "valueSpans": [
+        "+(10–15)"
+      ]
+    },
+    {
+      "modifierId": "51260631",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "冰封之志",
+      "source": "单手锤",
+      "effectPlain": "+(50–70) % 冰冷伤害",
+      "valueSpans": [
+        "+(50–70)"
+      ]
+    },
+    {
+      "modifierId": "51260651",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "冰封之志",
+      "source": "单手锤",
+      "effectPlain": "100 % 物理伤害转化为冰冷伤害",
+      "valueSpans": [
+        "100"
+      ]
+    },
+    {
+      "modifierId": "51260661",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "冰封之志",
+      "source": "单手锤",
+      "effectPlain": "击中冰结的敌人触发 冻裂 ，该效果有 1 秒间隔时间",
+      "valueSpans": [
+        "1"
+      ]
+    },
+    {
+      "modifierId": "51260611",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "冰封之志",
+      "source": "单手锤",
+      "effectPlain": "该装备附加 (15–18) - (24–27) 点物理伤害",
+      "valueSpans": [
+        "(15–18)",
+        "(24–27)"
+      ]
+    },
+    {
+      "modifierId": "140040480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(141–183) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106040280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (209–211) - (271–285) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106040180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (209–211) - (271–285) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (226–228) - (266–268) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106040380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (24–26) - (468–470) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106040080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (61–63) - (75–77) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140040400",
       "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "单手锤",
-      "effectPlain": "+1 核心技能等级",
-      "valueSpans": [
-        "+1"
-      ]
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(109–140) % 近战伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "60060409",
+      "modifierId": "106040100",
       "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "单手锤",
-      "effectPlain": "+(25–30) % 元素 伤害",
-      "valueSpans": [
-        "+(25–30)"
-      ]
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (161–163) - (208–220) 点火焰伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "106040001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
+      "modifierId": "106040200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
       "affixType": "初阶前缀",
-      "source": "单手锤",
-      "effectPlain": "该装备附加 (36–38) - (44–46) 点物理伤害",
-      "valueSpans": [
-        "(36–38)",
-        "(44–46)"
-      ]
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (162–164) - (216–218) 点冰冷伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "106040101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
+      "modifierId": "140041700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
       "affixType": "初阶前缀",
-      "source": "单手锤",
-      "effectPlain": "该装备附加 (123–125) - (160–169) 点火焰伤害",
-      "valueSpans": [
-        "(123–125)",
-        "(160–169)"
-      ]
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (174–176) - (204–206) 点腐蚀伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "106040201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
+      "modifierId": "106040300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
       "affixType": "初阶前缀",
-      "source": "单手锤",
-      "effectPlain": "该装备附加 (125–127) - (165–167) 点冰冷伤害",
-      "valueSpans": [
-        "(125–127)",
-        "(165–167)"
-      ]
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (18–20) - (360–362) 点闪电伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "106040301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
+      "modifierId": "106040000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
       "affixType": "初阶前缀",
-      "source": "单手锤",
-      "effectPlain": "该装备附加 (14–16) - (276–278) 点闪电伤害",
-      "valueSpans": [
-        "(14–16)",
-        "(276–278)"
-      ]
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (47–49) - (57–59) 点物理伤害",
+      "valueSpans": []
     },
     {
       "modifierId": "140040401",
@@ -381,11 +433,29 @@
       "itemLevel": 86,
       "weight": 100,
       "affixType": "初阶前缀",
-      "source": "单手锤",
+      "source": "One-Handed Hammer",
       "effectPlain": "+(77–108) % 近战伤害",
-      "valueSpans": [
-        "+(77–108)"
-      ]
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106040101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (123–125) - (160–169) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106040201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (125–127) - (165–167) 点冰冷伤害",
+      "valueSpans": []
     },
     {
       "modifierId": "140041701",
@@ -393,135 +463,509 @@
       "itemLevel": 86,
       "weight": 100,
       "affixType": "初阶前缀",
-      "source": "单手锤",
+      "source": "One-Handed Hammer",
       "effectPlain": "该装备附加 (133–135) - (157–159) 点腐蚀伤害",
-      "valueSpans": [
-        "(133–135)",
-        "(157–159)"
-      ]
+      "valueSpans": []
     },
     {
-      "modifierId": "107040001",
+      "modifierId": "106040301",
       "tier": 1,
       "itemLevel": 86,
       "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "单手锤",
-      "effectPlain": "+(56–100) % 该装备物理伤害",
-      "valueSpans": [
-        "+(56–100)"
-      ]
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (14–16) - (276–278) 点闪电伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "109040001",
+      "modifierId": "106040001",
       "tier": 1,
       "itemLevel": 86,
       "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "单手锤",
-      "effectPlain": "+(64–90) 力量",
-      "valueSpans": [
-        "+(64–90)"
-      ]
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (36–38) - (44–46) 点物理伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "109040101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "单手锤",
-      "effectPlain": "+(64–90) 智慧",
-      "valueSpans": [
-        "+(64–90)"
-      ]
+      "modifierId": "140040402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(55–76) % 近战伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "109040301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "单手锤",
-      "effectPlain": "+(64–90) 敏捷",
-      "valueSpans": [
-        "+(64–90)"
-      ]
+      "modifierId": "106040002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (21–23) - (25–27) 点物理伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "115040501",
-      "tier": 1,
+      "modifierId": "106040102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (47–49) - (62–67) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106040202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (48–50) - (64–66) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041702",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (51–53) - (61–63) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106040302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (5–7) - (107–109) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140040403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(44–54) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106040003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (13–15) - (17–19) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106040103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (23–25) - (30–33) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106040203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (23–25) - (31–33) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041703",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (25–27) - (29–31) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106040303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (2–4) - (52–54) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140040404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(36–43) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106040304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (1–2) - (20–22) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106040104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (8–10) - (11–14) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106040204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (8–10) - (12–14) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106040004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (9–11) - (11–13) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041704",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (9–11) - (11–13) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140040405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(29–35) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106040305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (1–2) - (10–12) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106040205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (4–6) - (6–8) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106040105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (4–6) - (6–8) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106040005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (4–6) - (6–8) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041705",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 5 - (5–7) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140040406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(23–28) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106040306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (1–2) - (9–11) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106040206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (3–5) - (5–7) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106040106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (3–5) - (5–7) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041706",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 4 - (4–6) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106040006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 4 - (5–7) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140040407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(17–22) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106040207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (1–2) - (3–6) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106040107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (1–2) - (3–6) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041707",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (1–2) - (3–6) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106040307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 1 - (5–7) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106040007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 3 - (3–4) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041380",
+      "tier": -1,
       "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "单手锤",
-      "effectPlain": "+(18–25) % 护甲减伤穿透",
-      "valueSpans": [
-        "+(18–25)"
-      ]
-    },
-    {
-      "modifierId": "119040001",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "单手锤",
-      "effectPlain": "+(22–30) % 元素和腐蚀抗性穿透",
-      "valueSpans": [
-        "+(22–30)"
-      ]
-    },
-    {
-      "modifierId": "130040101",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "单手锤",
-      "effectPlain": "+3 攻击技能等级",
-      "valueSpans": [
-        "+3"
-      ]
-    },
-    {
-      "modifierId": "140041801",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "单手锤",
-      "effectPlain": "该装备附加 (47–49) - (272–274) 点元素伤害 -100 % 该装备物理伤害",
-      "valueSpans": [
-        "(47–49)",
-        "(272–274)",
-        "-100"
-      ]
-    },
-    {
-      "modifierId": "110040001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
+      "weight": 0,
       "affixType": "初阶后缀",
-      "source": "单手锤",
-      "effectPlain": "静止 0.1 秒后，额外 +(55–63) % 攻击伤害；额外 -20 % 攻击速度",
-      "valueSpans": [
-        "+(55–63)",
-        "-20"
-      ]
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(141–183) % 元素 伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "140040801",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
+      "modifierId": "140041280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
       "affixType": "初阶后缀",
-      "source": "单手锤",
-      "effectPlain": "+(14–18) % 生命返还",
-      "valueSpans": [
-        "+(14–18)"
-      ]
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(141–183) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(141–183) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140040980",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(24–30) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140040880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(24–30) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "静止 0.1 秒后，额外 +(75–90) % 攻击伤害；额外 -20 % 攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(109–140) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(109–140) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(109–140) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140040900",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(19–23) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140040800",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(19–23) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "静止 0.1 秒后，额外 +(64–74) % 攻击伤害；额外 -20 % 攻击速度",
+      "valueSpans": []
     },
     {
       "modifierId": "140040901",
@@ -529,23 +973,19 @@
       "itemLevel": 86,
       "weight": 100,
       "affixType": "初阶后缀",
-      "source": "单手锤",
+      "source": "One-Handed Hammer",
       "effectPlain": "+(14–18) % 护盾返还",
-      "valueSpans": [
-        "+(14–18)"
-      ]
+      "valueSpans": []
     },
     {
-      "modifierId": "140041201",
+      "modifierId": "140040801",
       "tier": 1,
       "itemLevel": 86,
       "weight": 100,
       "affixType": "初阶后缀",
-      "source": "单手锤",
-      "effectPlain": "+(77–108) % 物理伤害",
-      "valueSpans": [
-        "+(77–108)"
-      ]
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(14–18) % 生命返还",
+      "valueSpans": []
     },
     {
       "modifierId": "140041301",
@@ -553,11 +993,19 @@
       "itemLevel": 86,
       "weight": 100,
       "affixType": "初阶后缀",
-      "source": "单手锤",
+      "source": "One-Handed Hammer",
       "effectPlain": "+(77–108) % 元素 伤害",
-      "valueSpans": [
-        "+(77–108)"
-      ]
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(77–108) % 物理伤害",
+      "valueSpans": []
     },
     {
       "modifierId": "140041401",
@@ -565,179 +1013,530 @@
       "itemLevel": 86,
       "weight": 100,
       "affixType": "初阶后缀",
-      "source": "单手锤",
+      "source": "One-Handed Hammer",
       "effectPlain": "+(77–108) % 腐蚀伤害",
-      "valueSpans": [
-        "+(77–108)"
-      ]
+      "valueSpans": []
     },
     {
-      "modifierId": "110040101",
+      "modifierId": "110040001",
       "tier": 1,
       "itemLevel": 86,
       "weight": 100,
-      "affixType": "进阶后缀",
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "静止 0.1 秒后，额外 +(55–63) % 攻击伤害；额外 -20 % 攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140040902",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(10–13) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140040802",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(10–13) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(55–76) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(55–76) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(55–76) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "静止 0.1 秒后，额外 +(39–52) % 攻击伤害；额外 -20 % 攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(44–54) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(44–54) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(44–54) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140040903",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(8–9) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140040803",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(8–9) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "静止 0.1 秒后，额外 +(33–38) % 攻击伤害；额外 (-16–-15) % 攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(36–43) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(36–43) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(36–43) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140040904",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+7 % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140040804",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+7 % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "静止 0.1 秒后，额外 +(25–32) % 攻击伤害；额外 (-14–-13) % 攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(29–35) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(29–35) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(29–35) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140040905",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+6 % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140040805",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+6 % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "静止 0.1 秒后，额外 +(21–24) % 攻击伤害；额外 (-12–-11) % 攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(23–28) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(23–28) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(23–28) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140040906",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+5 % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140040806",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+5 % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "静止 0.1 秒后，额外 +(16–20) % 攻击伤害；额外 (-10–-9) % 攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(17–22) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(17–22) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(17–22) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140040907",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+4 % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140040807",
+      "tier": 7,
+      "itemLevel": 58,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+4 % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "静止 0.1 秒后，额外 +(13–15) % 攻击伤害；额外 (-8–-7) % 攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "1500414",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
       "source": "单手锤",
-      "effectPlain": "+(36–50) % 该装备攻击暴击值",
+      "effectPlain": "+1 坚韧祝福 层数上限",
       "valueSpans": [
-        "+(36–50)"
+        "+1"
       ]
     },
     {
-      "modifierId": "110040601",
+      "modifierId": "1500415",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "单手锤",
+      "effectPlain": "+1 灵动祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "1500416",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "单手锤",
+      "effectPlain": "+1 聚能祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "1500413",
       "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
       "source": "单手锤",
-      "effectPlain": "+(128–180) % 暴击值",
+      "effectPlain": "+(5–7) % 护甲减伤穿透",
       "valueSpans": [
-        "+(128–180)"
+        "+(5–7)"
       ]
     },
     {
-      "modifierId": "110040701",
+      "modifierId": "1500412",
       "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
       "source": "单手锤",
-      "effectPlain": "+(26–36) % 攻击与施法速度 +(26–36) % 召唤物攻击与施法速度",
+      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
       "valueSpans": [
-        "+(26–36)",
-        "+(26–36)"
+        "+(6–8)"
       ]
     },
     {
-      "modifierId": "111040401",
+      "modifierId": "1500410",
       "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
       "source": "单手锤",
-      "effectPlain": "+(64–90) % 暴击伤害",
+      "effectPlain": "消耗 破击蓄能 时，该次技能额外 +(12–16) % 伤害",
       "valueSpans": [
-        "+(64–90)"
+        "+(12–16)"
       ]
     },
     {
-      "modifierId": "140041501",
+      "modifierId": "1500411",
       "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
       "source": "单手锤",
-      "effectPlain": "+(54–75) % 加剧 效果",
+      "effectPlain": "造成伤害时，淘汰生命值低于 (5–7) % 的敌人",
       "valueSpans": [
-        "+(54–75)"
+        "(5–7)"
       ]
     },
     {
-      "modifierId": "140041901",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "单手锤",
-      "effectPlain": "+(45–54) % 贯注速度",
-      "valueSpans": [
-        "+(45–54)"
-      ]
-    },
-    {
-      "modifierId": "130040501",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "单手锤",
-      "effectPlain": "+(29–40) % 几率造成双倍伤害",
-      "valueSpans": [
-        "+(29–40)"
-      ]
-    },
-    {
-      "modifierId": "140041601",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "单手锤",
-      "effectPlain": "+(89–125) % 破击蓄能 回复速度",
-      "valueSpans": [
-        "+(89–125)"
-      ]
-    },
-    {
-      "modifierId": "140042001",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "单手锤",
-      "effectPlain": "+(35–45) % 贯注伤害加深",
-      "valueSpans": [
-        "+(35–45)"
-      ]
-    },
-    {
-      "modifierId": "140042101",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "单手锤",
-      "effectPlain": "+23 % 斩击 几率 额外 +(16–22) % 斩击 伤害",
-      "valueSpans": [
-        "+23",
-        "+(16–22)"
-      ]
-    },
-    {
-      "modifierId": "140042301",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "单手锤",
-      "effectPlain": "若最近释放的连携终结技至少消耗了 8 点连携点， +(40–50) % 连携伤害加深",
-      "valueSpans": [
-        "8",
-        "+(40–50)"
-      ]
-    },
-    {
-      "modifierId": "85004001",
+      "modifierId": "1500406",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "单手锤",
-      "effectPlain": "攻击附加 (10–13) - (14–19) 点物理伤害",
+      "effectPlain": "+(20–24) % 元素伤害",
       "valueSpans": [
-        "(10–13)",
-        "(14–19)"
+        "+(20–24)"
       ]
     },
     {
-      "modifierId": "85004011",
+      "modifierId": "1500405",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "单手锤",
-      "effectPlain": "攻击附加 (9–14) - (15–20) 点火焰伤害",
+      "effectPlain": "+(20–24) % 物理伤害",
       "valueSpans": [
-        "(9–14)",
-        "(15–20)"
+        "+(20–24)"
       ]
     },
     {
-      "modifierId": "85004021",
+      "modifierId": "1500407",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
+      "source": "单手锤",
+      "effectPlain": "+(20–24) % 腐蚀伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "1500408",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "单手锤",
+      "effectPlain": "+(20–24) % 近战伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "1500409",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "单手锤",
+      "effectPlain": "+(6–8) % 攻击速度",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1500402",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
       "source": "单手锤",
       "effectPlain": "攻击附加 (10–13) - (14–19) 点冰冷伤害",
       "valueSpans": [
@@ -746,24 +1545,24 @@
       ]
     },
     {
-      "modifierId": "85004031",
+      "modifierId": "1500400",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "单手锤",
-      "effectPlain": "攻击附加 (1–2) - (28–32) 点闪电伤害",
+      "effectPlain": "攻击附加 (10–13) - (14–19) 点物理伤害",
       "valueSpans": [
-        "(1–2)",
-        "(28–32)"
+        "(10–13)",
+        "(14–19)"
       ]
     },
     {
-      "modifierId": "85004041",
+      "modifierId": "1500404",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "单手锤",
       "effectPlain": "攻击附加 (11–13) - (15–18) 点腐蚀伤害",
       "valueSpans": [
@@ -772,450 +1571,29 @@
       ]
     },
     {
-      "modifierId": "85004051",
+      "modifierId": "1500403",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "单手锤",
-      "effectPlain": "+(20–24) % 物理伤害",
+      "effectPlain": "攻击附加 (1–2) - (28–32) 点闪电伤害",
       "valueSpans": [
-        "+(20–24)"
+        "(1–2)",
+        "(28–32)"
       ]
     },
     {
-      "modifierId": "85004061",
+      "modifierId": "1500401",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "单手锤",
-      "effectPlain": "+(20–24) % 元素伤害",
+      "effectPlain": "攻击附加 (9–14) - (15–20) 点火焰伤害",
       "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "85004071",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "单手锤",
-      "effectPlain": "+(20–24) % 腐蚀伤害",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "85004081",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "单手锤",
-      "effectPlain": "+(20–24) % 近战伤害",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "85004091",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "单手锤",
-      "effectPlain": "+(6–8) % 攻击速度",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "85004101",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "单手锤",
-      "effectPlain": "消耗 破击蓄能 时，该次技能额外 +(12–16) % 伤害",
-      "valueSpans": [
-        "+(12–16)"
-      ]
-    },
-    {
-      "modifierId": "85004111",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "单手锤",
-      "effectPlain": "造成伤害时，淘汰生命值低于 (5–7) % 的敌人",
-      "valueSpans": [
-        "(5–7)"
-      ]
-    },
-    {
-      "modifierId": "85004121",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "单手锤",
-      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "85004131",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "单手锤",
-      "effectPlain": "+(5–7) % 护甲减伤穿透",
-      "valueSpans": [
-        "+(5–7)"
-      ]
-    },
-    {
-      "modifierId": "85004141",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "单手锤",
-      "effectPlain": "+1 坚韧祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "85004151",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "单手锤",
-      "effectPlain": "+1 灵动祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "85004161",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "单手锤",
-      "effectPlain": "+1 聚能祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "160401004",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "单手锤",
-      "effectPlain": "额外 +8 % 主手武器 伤害",
-      "valueSpans": [
-        "+8"
-      ]
-    },
-    {
-      "modifierId": "160402004",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "单手锤",
-      "effectPlain": "+6 % 护甲减伤穿透",
-      "valueSpans": [
-        "+6"
-      ]
-    },
-    {
-      "modifierId": "160403004",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "单手锤",
-      "effectPlain": "+8 % 火焰穿透",
-      "valueSpans": [
-        "+8"
-      ]
-    },
-    {
-      "modifierId": "160404004",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "单手锤",
-      "effectPlain": "+8 % 冰冷穿透",
-      "valueSpans": [
-        "+8"
-      ]
-    },
-    {
-      "modifierId": "160405004",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "单手锤",
-      "effectPlain": "+8 % 闪电穿透",
-      "valueSpans": [
-        "+8"
-      ]
-    },
-    {
-      "modifierId": "160406004",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "单手锤",
-      "effectPlain": "+8 % 腐蚀抗性穿透",
-      "valueSpans": [
-        "+8"
-      ]
-    },
-    {
-      "modifierId": "160407004",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "单手锤",
-      "effectPlain": "+8 % 该装备攻击速度",
-      "valueSpans": [
-        "+8"
-      ]
-    },
-    {
-      "modifierId": "160408004",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "单手锤",
-      "effectPlain": "+20 % 该装备攻击暴击值",
-      "valueSpans": [
-        "+20"
-      ]
-    },
-    {
-      "modifierId": "160409004",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "单手锤",
-      "effectPlain": "暴击时，额外 +10 % 伤害",
-      "valueSpans": [
-        "+10"
-      ]
-    },
-    {
-      "modifierId": "160410004",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "单手锤",
-      "effectPlain": "+10 % 全属性",
-      "valueSpans": [
-        "+10"
-      ]
-    },
-    {
-      "modifierId": "160501004",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "高阶序列",
-      "source": "单手锤",
-      "effectPlain": "攻击或者法术击败敌人时 15 % 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 250 % 的真实伤害",
-      "valueSpans": [
-        "15",
-        "6",
-        "250"
-      ]
-    },
-    {
-      "modifierId": "160502004",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 30,
-      "affixType": "高阶序列",
-      "source": "单手锤",
-      "effectPlain": "每 10 点敏捷，攻击附加 1 - 3 点闪电伤害",
-      "valueSpans": [
-        "10",
-        "1",
-        "3"
-      ]
-    },
-    {
-      "modifierId": "160503004",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 30,
-      "affixType": "高阶序列",
-      "source": "单手锤",
-      "effectPlain": "每 10 点力量，攻击附加 2 - 2 点火焰伤害",
-      "valueSpans": [
-        "10",
-        "2",
-        "2"
-      ]
-    },
-    {
-      "modifierId": "160504004",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 30,
-      "affixType": "高阶序列",
-      "source": "单手锤",
-      "effectPlain": "核心技能被 25 级的碾压辅助",
-      "valueSpans": [
-        "25"
-      ]
-    },
-    {
-      "modifierId": "160505004",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 60,
-      "affixType": "高阶序列",
-      "source": "单手锤",
-      "effectPlain": "每 2260 点护甲值，攻击附加 1 - 1 点物理伤害",
-      "valueSpans": [
-        "2260",
-        "1",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "160506004",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 60,
-      "affixType": "高阶序列",
-      "source": "单手锤",
-      "effectPlain": "+120 % 狂猛光环效果 额外 -20 % 狂猛 魔力封印 补偿",
-      "valueSpans": [
-        "+120",
-        "-20"
-      ]
-    },
-    {
-      "modifierId": "160507004",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "高阶序列",
-      "source": "单手锤",
-      "effectPlain": "+80 % 该装备物理伤害 -20 % 该装备攻击暴击值",
-      "valueSpans": [
-        "+80",
-        "-20"
-      ]
-    },
-    {
-      "modifierId": "160508004",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "高阶序列",
-      "source": "单手锤",
-      "effectPlain": "额外 +15 % 恶化 伤害 10 % 几率额外造成 1 层 恶化",
-      "valueSpans": [
-        "+15",
-        "10",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "160509004",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "高阶序列",
-      "source": "单手锤",
-      "effectPlain": "+25 % 该装备元素伤害 -25 % 该装备物理伤害",
-      "valueSpans": [
-        "+25",
-        "-25"
-      ]
-    },
-    {
-      "modifierId": "51260211",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "炽热真言",
-      "source": "单手锤",
-      "effectPlain": "+1 火焰技能等级",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "51260221",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "炽热真言",
-      "source": "单手锤",
-      "effectPlain": "该装备附加 (8–10) - (16–20) 点火焰伤害",
-      "valueSpans": [
-        "(8–10)",
-        "(16–20)"
-      ]
-    },
-    {
-      "modifierId": "51260231",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "炽热真言",
-      "source": "单手锤",
-      "effectPlain": "法术附加 (6–7) - (10–12) 点火焰伤害",
-      "valueSpans": [
-        "(6–7)",
-        "(10–12)"
-      ]
-    },
-    {
-      "modifierId": "51260241",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "炽热真言",
-      "source": "单手锤",
-      "effectPlain": "+(60–80) % 火焰伤害",
-      "valueSpans": [
-        "+(60–80)"
-      ]
-    },
-    {
-      "modifierId": "51260251",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "炽热真言",
-      "source": "单手锤",
-      "effectPlain": "+(40–60) % 火焰技能范围",
-      "valueSpans": [
-        "+(40–60)"
+        "(9–14)",
+        "(15–20)"
       ]
     },
     {
@@ -1275,137 +1653,15 @@
       "valueSpans": []
     },
     {
-      "modifierId": "51260511",
+      "modifierId": "51260721",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "钢铁凝滞",
+      "affixType": "灵魂交错",
       "source": "单手锤",
-      "effectPlain": "+(120–140) % 该装备物理伤害",
+      "effectPlain": "+(120–150) % 召唤物伤害",
       "valueSpans": [
-        "+(120–140)"
-      ]
-    },
-    {
-      "modifierId": "51260521",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "钢铁凝滞",
-      "source": "单手锤",
-      "effectPlain": "该装备附加 (42–45) - (72–75) 点物理伤害",
-      "valueSpans": [
-        "(42–45)",
-        "(72–75)"
-      ]
-    },
-    {
-      "modifierId": "51260531",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "钢铁凝滞",
-      "source": "单手锤",
-      "effectPlain": "消耗 破击蓄能 时，该次技能额外 +(30–40) % 范围伤害",
-      "valueSpans": [
-        "+(30–40)"
-      ]
-    },
-    {
-      "modifierId": "51260541",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "钢铁凝滞",
-      "source": "单手锤",
-      "effectPlain": "+50 % 技能范围",
-      "valueSpans": [
-        "+50"
-      ]
-    },
-    {
-      "modifierId": "52260551",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "钢铁凝滞",
-      "source": "单手锤",
-      "effectPlain": "破击蓄能 回复速度固定为默认值的 150 %",
-      "valueSpans": [
-        "150"
-      ]
-    },
-    {
-      "modifierId": "51260611",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "冰封之志",
-      "source": "单手锤",
-      "effectPlain": "该装备附加 (15–18) - (24–27) 点物理伤害",
-      "valueSpans": [
-        "(15–18)",
-        "(24–27)"
-      ]
-    },
-    {
-      "modifierId": "51260621",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "冰封之志",
-      "source": "单手锤",
-      "effectPlain": "+(10–15) % 该装备攻击速度",
-      "valueSpans": [
-        "+(10–15)"
-      ]
-    },
-    {
-      "modifierId": "51260631",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "冰封之志",
-      "source": "单手锤",
-      "effectPlain": "+(50–70) % 冰冷伤害",
-      "valueSpans": [
-        "+(50–70)"
-      ]
-    },
-    {
-      "modifierId": "51260641",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "冰封之志",
-      "source": "单手锤",
-      "effectPlain": "+(10–15) 冰结值 上限",
-      "valueSpans": [
-        "+(10–15)"
-      ]
-    },
-    {
-      "modifierId": "51260651",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "冰封之志",
-      "source": "单手锤",
-      "effectPlain": "100 % 物理伤害转化为冰冷伤害",
-      "valueSpans": [
-        "100"
-      ]
-    },
-    {
-      "modifierId": "51260661",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "冰封之志",
-      "source": "单手锤",
-      "effectPlain": "击中冰结的敌人触发 冻裂 ，该效果有 1 秒间隔时间",
-      "valueSpans": [
-        "1"
+        "+(120–150)"
       ]
     },
     {
@@ -1421,15 +1677,15 @@
       ]
     },
     {
-      "modifierId": "51260721",
+      "modifierId": "51260741",
       "tier": null,
       "itemLevel": null,
       "weight": null,
       "affixType": "灵魂交错",
       "source": "单手锤",
-      "effectPlain": "+(120–150) % 召唤物伤害",
+      "effectPlain": "+(20–30) % 召唤物持续时间",
       "valueSpans": [
-        "+(120–150)"
+        "+(20–30)"
       ]
     },
     {
@@ -1440,18 +1696,6 @@
       "affixType": "灵魂交错",
       "source": "单手锤",
       "effectPlain": "+(20–30) % 召唤物最大生命",
-      "valueSpans": [
-        "+(20–30)"
-      ]
-    },
-    {
-      "modifierId": "51260741",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "灵魂交错",
-      "source": "单手锤",
-      "effectPlain": "+(20–30) % 召唤物持续时间",
       "valueSpans": [
         "+(20–30)"
       ]
@@ -1479,36 +1723,1762 @@
       "valueSpans": [
         "3"
       ]
+    },
+    {
+      "modifierId": "51260251",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "炽热真言",
+      "source": "单手锤",
+      "effectPlain": "+(40–60) % 火焰技能范围",
+      "valueSpans": [
+        "+(40–60)"
+      ]
+    },
+    {
+      "modifierId": "51260241",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "炽热真言",
+      "source": "单手锤",
+      "effectPlain": "+(60–80) % 火焰伤害",
+      "valueSpans": [
+        "+(60–80)"
+      ]
+    },
+    {
+      "modifierId": "51260211",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "炽热真言",
+      "source": "单手锤",
+      "effectPlain": "+1 火焰技能等级",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51260231",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "炽热真言",
+      "source": "单手锤",
+      "effectPlain": "法术附加 (6–7) - (10–12) 点火焰伤害",
+      "valueSpans": [
+        "(6–7)",
+        "(10–12)"
+      ]
+    },
+    {
+      "modifierId": "51260221",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "炽热真言",
+      "source": "单手锤",
+      "effectPlain": "该装备附加 (8–10) - (16–20) 点火焰伤害",
+      "valueSpans": [
+        "(8–10)",
+        "(16–20)"
+      ]
+    },
+    {
+      "modifierId": "85004141",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "单手锤",
+      "effectPlain": "+1 坚韧祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85004151",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "单手锤",
+      "effectPlain": "+1 灵动祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85004161",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "单手锤",
+      "effectPlain": "+1 聚能祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85004131",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "单手锤",
+      "effectPlain": "+(5–7) % 护甲减伤穿透",
+      "valueSpans": [
+        "+(5–7)"
+      ]
+    },
+    {
+      "modifierId": "85004121",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "单手锤",
+      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "85004101",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "单手锤",
+      "effectPlain": "消耗 破击蓄能 时，该次技能额外 +(12–16) % 伤害",
+      "valueSpans": [
+        "+(12–16)"
+      ]
+    },
+    {
+      "modifierId": "85004111",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "单手锤",
+      "effectPlain": "造成伤害时，淘汰生命值低于 (5–7) % 的敌人",
+      "valueSpans": [
+        "(5–7)"
+      ]
+    },
+    {
+      "modifierId": "85004061",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "单手锤",
+      "effectPlain": "+(20–24) % 元素伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85004051",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "单手锤",
+      "effectPlain": "+(20–24) % 物理伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85004071",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "单手锤",
+      "effectPlain": "+(20–24) % 腐蚀伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85004081",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "单手锤",
+      "effectPlain": "+(20–24) % 近战伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85004091",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "单手锤",
+      "effectPlain": "+(6–8) % 攻击速度",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "85004021",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "单手锤",
+      "effectPlain": "攻击附加 (10–13) - (14–19) 点冰冷伤害",
+      "valueSpans": [
+        "(10–13)",
+        "(14–19)"
+      ]
+    },
+    {
+      "modifierId": "85004001",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "单手锤",
+      "effectPlain": "攻击附加 (10–13) - (14–19) 点物理伤害",
+      "valueSpans": [
+        "(10–13)",
+        "(14–19)"
+      ]
+    },
+    {
+      "modifierId": "85004041",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "单手锤",
+      "effectPlain": "攻击附加 (11–13) - (15–18) 点腐蚀伤害",
+      "valueSpans": [
+        "(11–13)",
+        "(15–18)"
+      ]
+    },
+    {
+      "modifierId": "85004031",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "单手锤",
+      "effectPlain": "攻击附加 (1–2) - (28–32) 点闪电伤害",
+      "valueSpans": [
+        "(1–2)",
+        "(28–32)"
+      ]
+    },
+    {
+      "modifierId": "85004011",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "单手锤",
+      "effectPlain": "攻击附加 (9–14) - (15–20) 点火焰伤害",
+      "valueSpans": [
+        "(9–14)",
+        "(15–20)"
+      ]
+    },
+    {
+      "modifierId": "115040580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(34–42) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "119040080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(40–51) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130040180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(4–5) 攻击技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (81–83) - (463–465) 点元素伤害 -100 % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115040500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(26–32) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "119040000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(31–39) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130040100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(3–4) 攻击技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041800",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (62–64) - (356–358) 点元素伤害 -100 % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115040501",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(18–25) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "119040001",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(22–30) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130040101",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+3 攻击技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041801",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (47–49) - (272–274) 点元素伤害 -100 % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115040502",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(15–17) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "119040002",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(16–21) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130040102",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+2 攻击技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041802",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "该装备附加 (18–20) - (107–109) 点元素伤害 -100 % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115040503",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(11–12) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "119040003",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 400,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(12–15) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115040504",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(9–10) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(164–211) % 破击蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130040580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(53–68) % 几率造成双倍伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140042080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(65–80) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140042180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+30 % 斩击 几率 额外 +(30–37) % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140042380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "若最近释放的连携终结技至少消耗了 8 点连携点， +(70–85) % 连携伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(126–163) % 破击蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130040500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(41–52) % 几率造成双倍伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140042000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(48–60) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140042100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+30 % 斩击 几率 额外 +(23–29) % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140042300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "若最近释放的连携终结技至少消耗了 8 点连携点， +(55–65) % 连携伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130040501",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(29–40) % 几率造成双倍伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140042001",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(35–45) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041601",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(89–125) % 破击蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140042101",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+23 % 斩击 几率 额外 +(16–22) % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140042301",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "若最近释放的连携终结技至少消耗了 8 点连携点， +(40–50) % 连携伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140042002",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(20–30) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130040502",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(21–28) % 几率造成双倍伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041602",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(64–88) % 破击蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140042102",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+16 % 斩击 几率 额外 +(12–15) % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140042302",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "若最近释放的连携终结技至少消耗了 8 点连携点， +(25–35) % 连携伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130040503",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(17–20) % 几率造成双倍伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041603",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(51–63) % 破击蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140042103",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+12 % 斩击 几率 额外 +(10–11) % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041604",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(41–50) % 破击蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140042104",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+9 % 斩击 几率 额外 +(8–9) % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041605",
+      "tier": 5,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(34–40) % 破击蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140042105",
+      "tier": 5,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+6 % 斩击 几率 额外 +7 % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041606",
+      "tier": 6,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(26–33) % 破击蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140042106",
+      "tier": 6,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+4 % 斩击 几率 额外 +(5–6) % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041607",
+      "tier": 7,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(20–25) % 破击蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140042107",
+      "tier": 7,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+2 % 斩击 几率 额外 +4 % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109040080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(118–152) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109040380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(118–152) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109040180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(118–152) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107040080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(131–169) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107040000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(101–130) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109040000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(91–117) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109040300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(91–117) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109040100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(91–117) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107040001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(56–100) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109040001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(64–90) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109040301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(64–90) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109040101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(64–90) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107040002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(46–55) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109040002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(46–63) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109040302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(46–63) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109040102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(46–63) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107040003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(36–45) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109040003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(37–45) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109040303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(37–45) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109040103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(37–45) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107040004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(26–35) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109040004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(30–36) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109040304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(30–36) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109040104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(30–36) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107040005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(16–25) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109040005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(24–29) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109040305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(24–29) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109040105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(24–29) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107040006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(11–15) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109040006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(19–23) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109040306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(19–23) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109040106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(19–23) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109040007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(15–18) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109040307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(15–18) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109040107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(15–18) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107040007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(9–10) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111040480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(118–152) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(235–304) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(48–61) % 攻击与施法速度 +(48–61) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(66–85) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041980",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(75–90) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(99–127) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(166–234) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(33–47) % 攻击与施法速度 +(33–47) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(47–64) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041900",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(60–70) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(76–98) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111040400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(91–117) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(128–180) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040701",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(26–36) % 攻击与施法速度 +(26–36) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(36–50) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041901",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(45–54) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041501",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(54–75) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111040401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(64–90) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040602",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(107–126) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040702",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(21–25) % 攻击与施法速度 +(21–25) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(30–35) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041902",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(30–40) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041502",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(39–53) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111040402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(46–63) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040703",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(15–18) % 攻击与施法速度 +(15–18) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(22–25) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041503",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(31–38) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111040403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(37–45) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040603",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(77–90) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(17–20) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041504",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(25–30) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111040404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(30–36) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040604",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(61–72) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(14–16) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041505",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(21–24) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111040405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(24–29) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040605",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(48–58) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(11–13) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041506",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(16–20) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111040406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(19–23) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040606",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(40–47) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140041507",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(13–15) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111040407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 1350,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(15–18) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110040107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Hammer",
+      "effectPlain": "+(9–10) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51260511",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "钢铁凝滞",
+      "source": "单手锤",
+      "effectPlain": "+(120–140) % 该装备物理伤害",
+      "valueSpans": [
+        "+(120–140)"
+      ]
+    },
+    {
+      "modifierId": "51260541",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "钢铁凝滞",
+      "source": "单手锤",
+      "effectPlain": "+50 % 技能范围",
+      "valueSpans": [
+        "+50"
+      ]
+    },
+    {
+      "modifierId": "51260531",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "钢铁凝滞",
+      "source": "单手锤",
+      "effectPlain": "消耗 破击蓄能 时，该次技能额外 +(30–40) % 范围伤害",
+      "valueSpans": [
+        "+(30–40)"
+      ]
+    },
+    {
+      "modifierId": "52260551",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "钢铁凝滞",
+      "source": "单手锤",
+      "effectPlain": "破击蓄能 回复速度固定为默认值的 150 %",
+      "valueSpans": [
+        "150"
+      ]
+    },
+    {
+      "modifierId": "51260521",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "钢铁凝滞",
+      "source": "单手锤",
+      "effectPlain": "该装备附加 (42–45) - (72–75) 点物理伤害",
+      "valueSpans": [
+        "(42–45)",
+        "(72–75)"
+      ]
+    },
+    {
+      "modifierId": "160506004",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 60,
+      "affixType": "高阶序列",
+      "source": "单手锤",
+      "effectPlain": "+120 % 狂猛光环效果 额外 -20 % 狂猛 魔力封印 补偿",
+      "valueSpans": [
+        "+120",
+        "-20"
+      ]
+    },
+    {
+      "modifierId": "160509004",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
+      "source": "单手锤",
+      "effectPlain": "+25 % 该装备元素伤害 -25 % 该装备物理伤害",
+      "valueSpans": [
+        "+25",
+        "-25"
+      ]
+    },
+    {
+      "modifierId": "160507004",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
+      "source": "单手锤",
+      "effectPlain": "+80 % 该装备物理伤害 -20 % 该装备攻击暴击值",
+      "valueSpans": [
+        "+80",
+        "-20"
+      ]
+    },
+    {
+      "modifierId": "160501004",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
+      "source": "单手锤",
+      "effectPlain": "攻击或者法术击败敌人时 15 % 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 250 % 的真实伤害",
+      "valueSpans": [
+        "15",
+        "6",
+        "250"
+      ]
+    },
+    {
+      "modifierId": "160504004",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 30,
+      "affixType": "高阶序列",
+      "source": "单手锤",
+      "effectPlain": "核心技能被 25 级的碾压辅助",
+      "valueSpans": [
+        "25"
+      ]
+    },
+    {
+      "modifierId": "160503004",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 30,
+      "affixType": "高阶序列",
+      "source": "单手锤",
+      "effectPlain": "每 10 点力量，攻击附加 2 - 2 点火焰伤害",
+      "valueSpans": [
+        "10",
+        "2",
+        "2"
+      ]
+    },
+    {
+      "modifierId": "160502004",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 30,
+      "affixType": "高阶序列",
+      "source": "单手锤",
+      "effectPlain": "每 10 点敏捷，攻击附加 1 - 3 点闪电伤害",
+      "valueSpans": [
+        "10",
+        "1",
+        "3"
+      ]
+    },
+    {
+      "modifierId": "160505004",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 60,
+      "affixType": "高阶序列",
+      "source": "单手锤",
+      "effectPlain": "每 2260 点护甲值，攻击附加 1 - 1 点物理伤害",
+      "valueSpans": [
+        "2260",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "160508004",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
+      "source": "单手锤",
+      "effectPlain": "额外 +15 % 恶化 伤害 10 % 几率额外造成 1 层 恶化",
+      "valueSpans": [
+        "+15",
+        "10",
+        "1"
+      ]
     }
   ],
   "tierVariantGroups": [
-    {
-      "skeleton": "{#} % 元素 伤害",
-      "rolls": [
-        {
-          "modifierId": "60060409",
-          "tier": 0,
-          "itemLevel": 1,
-          "weight": 1,
-          "affixType": "侵蚀基底",
-          "valueSpans": [
-            "+(25–30)"
-          ],
-          "effectPlain": "+(25–30) % 元素 伤害"
-        },
-        {
-          "modifierId": "140041301",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(77–108)"
-          ],
-          "effectPlain": "+(77–108) % 元素 伤害"
-        }
-      ]
-    },
     {
       "skeleton": "{#} % 元素伤害",
       "rolls": [
@@ -1539,17 +3509,6 @@
     {
       "skeleton": "{#} % 元素和腐蚀抗性穿透",
       "rolls": [
-        {
-          "modifierId": "119040001",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻前缀",
-          "valueSpans": [
-            "+(22–30)"
-          ],
-          "effectPlain": "+(22–30) % 元素和腐蚀抗性穿透"
-        },
         {
           "modifierId": "1500412",
           "tier": 1,
@@ -1616,17 +3575,6 @@
       "skeleton": "{#} % 护甲减伤穿透",
       "rolls": [
         {
-          "modifierId": "115040501",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻前缀",
-          "valueSpans": [
-            "+(18–25)"
-          ],
-          "effectPlain": "+(18–25) % 护甲减伤穿透"
-        },
-        {
           "modifierId": "1500413",
           "tier": 1,
           "itemLevel": 1,
@@ -1692,17 +3640,6 @@
       "skeleton": "{#} % 物理伤害",
       "rolls": [
         {
-          "modifierId": "140041201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(77–108)"
-          ],
-          "effectPlain": "+(77–108) % 物理伤害"
-        },
-        {
           "modifierId": "1500405",
           "tier": 2,
           "itemLevel": 1,
@@ -1729,17 +3666,6 @@
     {
       "skeleton": "{#} % 腐蚀伤害",
       "rolls": [
-        {
-          "modifierId": "140041401",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(77–108)"
-          ],
-          "effectPlain": "+(77–108) % 腐蚀伤害"
-        },
         {
           "modifierId": "1500407",
           "tier": 2,
@@ -1777,17 +3703,6 @@
             "+(3–6)"
           ],
           "effectPlain": "+(3–6) % 该装备攻击暴击值"
-        },
-        {
-          "modifierId": "110040101",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶后缀",
-          "valueSpans": [
-            "+(36–50)"
-          ],
-          "effectPlain": "+(36–50) % 该装备攻击暴击值"
         },
         {
           "modifierId": "160408004",
@@ -1855,17 +3770,6 @@
           "effectPlain": "+(15–25) % 该装备物理伤害"
         },
         {
-          "modifierId": "107040001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(56–100)"
-          ],
-          "effectPlain": "+(56–100) % 该装备物理伤害"
-        },
-        {
           "modifierId": "51260411",
           "tier": null,
           "itemLevel": null,
@@ -1892,17 +3796,6 @@
     {
       "skeleton": "{#} % 近战伤害",
       "rolls": [
-        {
-          "modifierId": "140040401",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(77–108)"
-          ],
-          "effectPlain": "+(77–108) % 近战伤害"
-        },
         {
           "modifierId": "1500408",
           "tier": 2,
@@ -2181,35 +4074,6 @@
       ]
     },
     {
-      "skeleton": "该装备附加 {#} - {#} 点火焰伤害",
-      "rolls": [
-        {
-          "modifierId": "106040101",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "(123–125)",
-            "(160–169)"
-          ],
-          "effectPlain": "该装备附加 (123–125) - (160–169) 点火焰伤害"
-        },
-        {
-          "modifierId": "51260221",
-          "tier": null,
-          "itemLevel": null,
-          "weight": null,
-          "affixType": "炽热真言",
-          "valueSpans": [
-            "(8–10)",
-            "(16–20)"
-          ],
-          "effectPlain": "该装备附加 (8–10) - (16–20) 点火焰伤害"
-        }
-      ]
-    },
-    {
       "skeleton": "该装备附加 {#} - {#} 点物理伤害",
       "rolls": [
         {
@@ -2223,18 +4087,6 @@
             "(8–10)"
           ],
           "effectPlain": "该装备附加 (2–4) - (8–10) 点物理伤害"
-        },
-        {
-          "modifierId": "106040001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "(36–38)",
-            "(44–46)"
-          ],
-          "effectPlain": "该装备附加 (36–38) - (44–46) 点物理伤害"
         },
         {
           "modifierId": "51260521",
@@ -2290,5 +4142,5 @@
       ]
     }
   ],
-  "tierVariantGroupCount": 24
+  "tierVariantGroupCount": 22
 }

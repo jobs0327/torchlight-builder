@@ -2,253 +2,187 @@
   "slug": "Crossbow",
   "label": "Crossbow",
   "sourceUrl": "https://tlidb.com/cn/Crossbow",
-  "fetchedAt": "2026-03-22T08:59:18Z",
-  "modifierCount": 116,
+  "fetchedAt": "2026-03-24T07:26:08Z",
+  "modifierCount": 332,
   "modifiers": [
     {
-      "modifierId": "1502900",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "弩",
-      "effectPlain": "攻击附加 (25–30) - (33–38) 点物理伤害",
-      "valueSpans": [
-        "(25–30)",
-        "(33–38)"
-      ]
-    },
-    {
-      "modifierId": "1502901",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "弩",
-      "effectPlain": "攻击附加 (24–29) - (34–39) 点火焰伤害",
-      "valueSpans": [
-        "(24–29)",
-        "(34–39)"
-      ]
-    },
-    {
-      "modifierId": "1502902",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "弩",
-      "effectPlain": "攻击附加 (24–29) - (34–39) 点冰冷伤害",
-      "valueSpans": [
-        "(24–29)",
-        "(34–39)"
-      ]
-    },
-    {
-      "modifierId": "1502903",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "弩",
-      "effectPlain": "攻击附加 (1–3) - (60–65) 点闪电伤害",
-      "valueSpans": [
-        "(1–3)",
-        "(60–65)"
-      ]
-    },
-    {
-      "modifierId": "1502904",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "弩",
-      "effectPlain": "攻击附加 (26–31) - (32–37) 点腐蚀伤害",
-      "valueSpans": [
-        "(26–31)",
-        "(32–37)"
-      ]
-    },
-    {
-      "modifierId": "1502905",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "弩",
-      "effectPlain": "+(40–48) % 物理伤害",
-      "valueSpans": [
-        "+(40–48)"
-      ]
-    },
-    {
-      "modifierId": "1502906",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "弩",
-      "effectPlain": "+(40–48) % 元素伤害",
-      "valueSpans": [
-        "+(40–48)"
-      ]
-    },
-    {
-      "modifierId": "1502907",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "弩",
-      "effectPlain": "+(40–48) % 腐蚀伤害",
-      "valueSpans": [
-        "+(40–48)"
-      ]
-    },
-    {
-      "modifierId": "1502908",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "弩",
-      "effectPlain": "+(40–48) % 远程伤害",
-      "valueSpans": [
-        "+(40–48)"
-      ]
-    },
-    {
-      "modifierId": "1502909",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "弩",
-      "effectPlain": "+(12–16) % 攻击速度",
-      "valueSpans": [
-        "+(12–16)"
-      ]
-    },
-    {
-      "modifierId": "1502910",
+      "modifierId": "160412029",
       "tier": 1,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "weight": 100,
+      "affixType": "中阶序列",
       "source": "弩",
-      "effectPlain": "+2 投射物数量",
+      "effectPlain": "+12 % 护甲减伤穿透",
       "valueSpans": [
-        "+2"
+        "+12"
       ]
     },
     {
-      "modifierId": "1502911",
+      "modifierId": "160420029",
       "tier": 1,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "weight": 100,
+      "affixType": "中阶序列",
       "source": "弩",
-      "effectPlain": "+2 直射投射物 穿透 次数",
+      "effectPlain": "+16 % 全属性",
       "valueSpans": [
-        "+2"
+        "+16"
       ]
     },
     {
-      "modifierId": "1502912",
+      "modifierId": "160414029",
       "tier": 1,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "weight": 100,
+      "affixType": "中阶序列",
       "source": "弩",
-      "effectPlain": "+(12–16) % 元素和腐蚀抗性穿透",
+      "effectPlain": "+16 % 冰冷穿透",
       "valueSpans": [
-        "+(12–16)"
+        "+16"
       ]
     },
     {
-      "modifierId": "1502913",
+      "modifierId": "160413029",
       "tier": 1,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "weight": 100,
+      "affixType": "中阶序列",
       "source": "弩",
-      "effectPlain": "+(10–14) % 护甲减伤穿透",
+      "effectPlain": "+16 % 火焰穿透",
       "valueSpans": [
-        "+(10–14)"
+        "+16"
       ]
     },
     {
-      "modifierId": "1502914",
+      "modifierId": "160416029",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "弩",
+      "effectPlain": "+16 % 腐蚀抗性穿透",
+      "valueSpans": [
+        "+16"
+      ]
+    },
+    {
+      "modifierId": "160415029",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "弩",
+      "effectPlain": "+16 % 闪电穿透",
+      "valueSpans": [
+        "+16"
+      ]
+    },
+    {
+      "modifierId": "160418029",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "弩",
+      "effectPlain": "+20 % 该装备攻击暴击值",
+      "valueSpans": [
+        "+20"
+      ]
+    },
+    {
+      "modifierId": "160417029",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "弩",
+      "effectPlain": "+8 % 该装备攻击速度",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160419029",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "弩",
+      "effectPlain": "暴击时，额外 +20 % 伤害",
+      "valueSpans": [
+        "+20"
+      ]
+    },
+    {
+      "modifierId": "160411029",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "弩",
+      "effectPlain": "额外 +16 % 主手武器 伤害",
+      "valueSpans": [
+        "+16"
+      ]
+    },
+    {
+      "modifierId": "60062904",
       "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "弩",
-      "effectPlain": "+2 坚韧祝福 层数上限",
+      "effectPlain": "+(15–25) % 该装备物理伤害",
       "valueSpans": [
-        "+2"
+        "+(15–25)"
       ]
     },
     {
-      "modifierId": "1502915",
+      "modifierId": "60062906",
       "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "弩",
-      "effectPlain": "+2 灵动祝福 层数上限",
+      "effectPlain": "+(3–6) % 该装备攻击暴击值",
       "valueSpans": [
-        "+2"
+        "+(3–6)"
       ]
     },
     {
-      "modifierId": "1502916",
+      "modifierId": "60062908",
       "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "弩",
-      "effectPlain": "+2 聚能祝福 层数上限",
+      "effectPlain": "+(40–45) % 元素 伤害",
       "valueSpans": [
-        "+2"
+        "+(40–45)"
       ]
     },
     {
-      "modifierId": "1502917",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "弩",
-      "effectPlain": "+(48–64) % 该装备物理伤害",
-      "valueSpans": [
-        "+(48–64)"
-      ]
-    },
-    {
-      "modifierId": "1502918",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "弩",
-      "effectPlain": "该装备附加 (64–68) - (80–84) 点物理伤害",
-      "valueSpans": [
-        "(64–68)",
-        "(80–84)"
-      ]
-    },
-    {
-      "modifierId": "1502919",
+      "modifierId": "60062905",
       "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "弩",
-      "effectPlain": "暴击 幸运 (-50–-40) % 暴击值",
+      "effectPlain": "+(5–8) % 该装备攻击速度",
       "valueSpans": [
-        "(-50–-40)"
+        "+(5–8)"
+      ]
+    },
+    {
+      "modifierId": "60062909",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "弩",
+      "effectPlain": "+(8–12) % 几率造成双倍 创伤 伤害",
+      "valueSpans": [
+        "+(8–12)"
       ]
     },
     {
@@ -291,42 +225,6 @@
       ]
     },
     {
-      "modifierId": "60062904",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "弩",
-      "effectPlain": "+(15–25) % 该装备物理伤害",
-      "valueSpans": [
-        "+(15–25)"
-      ]
-    },
-    {
-      "modifierId": "60062905",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "弩",
-      "effectPlain": "+(5–8) % 该装备攻击速度",
-      "valueSpans": [
-        "+(5–8)"
-      ]
-    },
-    {
-      "modifierId": "60062906",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "弩",
-      "effectPlain": "+(3–6) % 该装备攻击暴击值",
-      "valueSpans": [
-        "+(3–6)"
-      ]
-    },
-    {
       "modifierId": "60062907",
       "tier": 0,
       "itemLevel": 1,
@@ -339,93 +237,164 @@
       ]
     },
     {
-      "modifierId": "60062908",
+      "modifierId": "140290480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(282–365) % 投射物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (121–123) - (149–151) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (257–259) - (333–351) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (260–262) - (346–348) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (279–281) - (327–329) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (29–31) - (577–579) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140292180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "造成持续伤害时，收割 (0.5–0.6) 秒 创伤 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291980",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "附加 1620 - 3780 基础 创伤 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140290400",
       "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "弩",
-      "effectPlain": "+(40–45) % 元素 伤害",
-      "valueSpans": [
-        "+(40–45)"
-      ]
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(197–281) % 投射物伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "60062909",
+      "modifierId": "106290100",
       "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "弩",
-      "effectPlain": "+(8–12) % 几率造成双倍 创伤 伤害",
-      "valueSpans": [
-        "+(8–12)"
-      ]
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (198–200) - (256–270) 点火焰伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "106290001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
+      "modifierId": "106290200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
       "affixType": "初阶前缀",
-      "source": "弩",
-      "effectPlain": "该装备附加 (71–73) - (87–89) 点物理伤害",
-      "valueSpans": [
-        "(71–73)",
-        "(87–89)"
-      ]
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (200–202) - (266–268) 点冰冷伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "106290101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
+      "modifierId": "106290400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
       "affixType": "初阶前缀",
-      "source": "弩",
-      "effectPlain": "该装备附加 (152–154) - (197–208) 点火焰伤害",
-      "valueSpans": [
-        "(152–154)",
-        "(197–208)"
-      ]
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (214–216) - (252–254) 点腐蚀伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "106290201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
+      "modifierId": "106290300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
       "affixType": "初阶前缀",
-      "source": "弩",
-      "effectPlain": "该装备附加 (154–156) - (204–206) 点冰冷伤害",
-      "valueSpans": [
-        "(154–156)",
-        "(204–206)"
-      ]
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (22–24) - (444–446) 点闪电伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "106290301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
+      "modifierId": "106290000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
       "affixType": "初阶前缀",
-      "source": "弩",
-      "effectPlain": "该装备附加 (17–19) - (341–343) 点闪电伤害",
-      "valueSpans": [
-        "(17–19)",
-        "(341–343)"
-      ]
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (93–95) - (113–115) 点物理伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "106290401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
+      "modifierId": "140292100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
       "affixType": "初阶前缀",
-      "source": "弩",
-      "effectPlain": "该装备附加 (165–167) - (193–195) 点腐蚀伤害",
-      "valueSpans": [
-        "(165–167)",
-        "(193–195)"
-      ]
+      "source": "Crossbow",
+      "effectPlain": "造成持续伤害时，收割 (0.37–0.48) 秒 创伤 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291900",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "附加 1260 - 2940 基础 创伤 伤害",
+      "valueSpans": []
     },
     {
       "modifierId": "140290401",
@@ -433,24 +402,59 @@
       "itemLevel": 86,
       "weight": 100,
       "affixType": "初阶前缀",
-      "source": "弩",
+      "source": "Crossbow",
       "effectPlain": "+(152–216) % 投射物伤害",
-      "valueSpans": [
-        "+(152–216)"
-      ]
+      "valueSpans": []
     },
     {
-      "modifierId": "140291901",
+      "modifierId": "106290101",
       "tier": 1,
       "itemLevel": 86,
       "weight": 100,
       "affixType": "初阶前缀",
-      "source": "弩",
-      "effectPlain": "附加 960 - 2240 基础 创伤 伤害",
-      "valueSpans": [
-        "960",
-        "2240"
-      ]
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (152–154) - (197–208) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (154–156) - (204–206) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (165–167) - (193–195) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (17–19) - (341–343) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (71–73) - (87–89) 点物理伤害",
+      "valueSpans": []
     },
     {
       "modifierId": "140292101",
@@ -458,197 +462,589 @@
       "itemLevel": 86,
       "weight": 100,
       "affixType": "初阶前缀",
-      "source": "弩",
+      "source": "Crossbow",
       "effectPlain": "造成持续伤害时，收割 (0.25–0.36) 秒 创伤 伤害，该效果对同一目标有 1 秒回复时间",
-      "valueSpans": [
-        "(0.25–0.36)",
-        "1"
-      ]
+      "valueSpans": []
     },
     {
-      "modifierId": "107290001",
+      "modifierId": "140291901",
       "tier": 1,
       "itemLevel": 86,
       "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "弩",
-      "effectPlain": "+(49–80) % 该装备物理伤害",
-      "valueSpans": [
-        "+(49–80)"
-      ]
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "附加 960 - 2240 基础 创伤 伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "109290001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "弩",
-      "effectPlain": "+(127–180) 敏捷",
-      "valueSpans": [
-        "+(127–180)"
-      ]
+      "modifierId": "140290402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(127–151) % 投射物伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "109290101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "弩",
-      "effectPlain": "+(127–180) 力量",
-      "valueSpans": [
-        "+(127–180)"
-      ]
+      "modifierId": "106290002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (42–44) - (52–54) 点物理伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "109290301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "弩",
-      "effectPlain": "+(127–180) 智慧",
-      "valueSpans": [
-        "+(127–180)"
-      ]
+      "modifierId": "106290102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (59–61) - (76–82) 点火焰伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "115290501",
-      "tier": 1,
+      "modifierId": "106290202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (59–61) - (79–81) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (63–65) - (75–77) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (6–8) - (132–134) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140292102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "造成持续伤害时，收割 (0.18–0.24) 秒 创伤 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291902",
+      "tier": 2,
+      "itemLevel": 78,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "附加 660 - 1540 基础 创伤 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140290403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(91–108) % 投射物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (28–30) - (34–36) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (29–31) - (38–41) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (29–31) - (39–41) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 400,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (31–33) - (37–39) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (3–5) - (66–68) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140292103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "造成持续伤害时，收割 0.16 秒 创伤 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291903",
+      "tier": 3,
+      "itemLevel": 68,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "附加 480 - 1120 基础 创伤 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140290404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(73–86) % 投射物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (10–12) - (13–16) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (10–12) - (14–16) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (11–13) - (13–15) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (18–20) - (22–24) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (1–2) - (24–26) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140292104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "造成持续伤害时，收割 0.14 秒 创伤 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291904",
+      "tier": 4,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "附加 360 - 840 基础 创伤 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140290405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(58–69) % 投射物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (1–2) - (14–16) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (6–8) - (8–10) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (6–8) - (8–10) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (6–8) - (8–10) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (6–8) - (8–10) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140292105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "造成持续伤害时，收割 0.12 秒 创伤 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140290406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(47–56) % 投射物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (1–2) - (10–12) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (4–6) - (6–8) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (4–6) - (6–8) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (4–6) - (6–8) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 1350,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 5 - (5–7) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140292106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "造成持续伤害时，收割 0.10 秒 创伤 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140290407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(36–43) % 投射物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (2–3) - (4–6) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 1350,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (2–3) - (4–6) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (2–3) - (5–6) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (2–4) - (4–6) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106290307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 1 - (7–9) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140292107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "造成持续伤害时，收割 0.08 秒 创伤 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291380",
+      "tier": -1,
       "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "弩",
-      "effectPlain": "+(36–50) % 护甲减伤穿透",
-      "valueSpans": [
-        "+(36–50)"
-      ]
-    },
-    {
-      "modifierId": "140290901",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "弩",
-      "effectPlain": "+6 攻击技能等级",
-      "valueSpans": [
-        "+6"
-      ]
-    },
-    {
-      "modifierId": "140291801",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "弩",
-      "effectPlain": "+(43–60) % 元素和腐蚀抗性穿透",
-      "valueSpans": [
-        "+(43–60)"
-      ]
-    },
-    {
-      "modifierId": "140292201",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "弩",
-      "effectPlain": "+(77–110) % 该装备物理伤害 该装备附加 (53–55) - (65–67) 点物理伤害",
-      "valueSpans": [
-        "+(77–110)",
-        "(53–55)",
-        "(65–67)"
-      ]
-    },
-    {
-      "modifierId": "140292601",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "弩",
-      "effectPlain": "额外 +(43–60) % 创伤 伤害",
-      "valueSpans": [
-        "+(43–60)"
-      ]
-    },
-    {
-      "modifierId": "140292701",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "弩",
-      "effectPlain": "+(58–80) % 击退 距离 额外 +10 % 伤害",
-      "valueSpans": [
-        "+(58–80)",
-        "+10"
-      ]
-    },
-    {
-      "modifierId": "149292301",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "弩",
-      "effectPlain": "该装备附加 (59–61) - (337–339) 点元素伤害 -100 % 该装备物理伤害",
-      "valueSpans": [
-        "(59–61)",
-        "(337–339)",
-        "-100"
-      ]
-    },
-    {
-      "modifierId": "110290101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
+      "weight": 0,
       "affixType": "初阶后缀",
-      "source": "弩",
-      "effectPlain": "+(23–32) % 该装备攻击速度",
-      "valueSpans": [
-        "+(23–32)"
-      ]
+      "source": "Crossbow",
+      "effectPlain": "+(282–365) % 元素 伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "140291001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
+      "modifierId": "140291280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
       "affixType": "初阶后缀",
-      "source": "弩",
-      "effectPlain": "+(22–30) % 生命返还",
-      "valueSpans": [
-        "+(22–30)"
-      ]
+      "source": "Crossbow",
+      "effectPlain": "+(282–365) % 物理伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "140291101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
+      "modifierId": "140291480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
       "affixType": "初阶后缀",
-      "source": "弩",
-      "effectPlain": "+(22–30) % 护盾返还",
-      "valueSpans": [
-        "+(22–30)"
-      ]
+      "source": "Crossbow",
+      "effectPlain": "+(282–365) % 腐蚀伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "140291201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
+      "modifierId": "140291180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
       "affixType": "初阶后缀",
-      "source": "弩",
-      "effectPlain": "+(152–216) % 物理伤害",
-      "valueSpans": [
-        "+(152–216)"
-      ]
+      "source": "Crossbow",
+      "effectPlain": "+(40–51) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(40–51) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(43–54) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(217–281) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(217–281) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(217–281) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(31–39) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(31–39) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(33–42) % 该装备攻击速度",
+      "valueSpans": []
     },
     {
       "modifierId": "140291301",
@@ -656,11 +1052,19 @@
       "itemLevel": 86,
       "weight": 100,
       "affixType": "初阶后缀",
-      "source": "弩",
+      "source": "Crossbow",
       "effectPlain": "+(152–216) % 元素 伤害",
-      "valueSpans": [
-        "+(152–216)"
-      ]
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(152–216) % 物理伤害",
+      "valueSpans": []
     },
     {
       "modifierId": "140291401",
@@ -668,196 +1072,887 @@
       "itemLevel": 86,
       "weight": 100,
       "affixType": "初阶后缀",
-      "source": "弩",
+      "source": "Crossbow",
       "effectPlain": "+(152–216) % 腐蚀伤害",
-      "valueSpans": [
-        "+(152–216)"
-      ]
+      "valueSpans": []
     },
     {
-      "modifierId": "110290201",
+      "modifierId": "140291101",
       "tier": 1,
       "itemLevel": 86,
       "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "弩",
-      "effectPlain": "+(36–50) % 该装备攻击暴击值",
-      "valueSpans": [
-        "+(36–50)"
-      ]
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(22–30) % 护盾返还",
+      "valueSpans": []
     },
     {
-      "modifierId": "110290601",
+      "modifierId": "140291001",
       "tier": 1,
       "itemLevel": 86,
       "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "弩",
-      "effectPlain": "+(252–360) % 暴击值",
-      "valueSpans": [
-        "+(252–360)"
-      ]
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(22–30) % 生命返还",
+      "valueSpans": []
     },
     {
-      "modifierId": "110290701",
+      "modifierId": "110290101",
       "tier": 1,
       "itemLevel": 86,
       "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "弩",
-      "effectPlain": "+(51–72) % 攻击与施法速度 +(51–72) % 召唤物攻击与施法速度",
-      "valueSpans": [
-        "+(51–72)",
-        "+(51–72)"
-      ]
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(23–32) % 该装备攻击速度",
+      "valueSpans": []
     },
     {
-      "modifierId": "111290401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "弩",
-      "effectPlain": "+(127–180) % 暴击伤害",
-      "valueSpans": [
-        "+(127–180)"
-      ]
-    },
-    {
-      "modifierId": "140291501",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "弩",
-      "effectPlain": "+(106–150) % 加剧 效果",
-      "valueSpans": [
-        "+(106–150)"
-      ]
-    },
-    {
-      "modifierId": "140292301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "弩",
-      "effectPlain": "+(90–110) % 贯注速度",
-      "valueSpans": [
-        "+(90–110)"
-      ]
-    },
-    {
-      "modifierId": "130290101",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "弩",
-      "effectPlain": "对生命造成额外 (43–60) % 伤害",
-      "valueSpans": [
-        "(43–60)"
-      ]
-    },
-    {
-      "modifierId": "140292401",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "弩",
-      "effectPlain": "+(70–90) % 贯注伤害加深",
-      "valueSpans": [
-        "+(70–90)"
-      ]
-    },
-    {
-      "modifierId": "140292801",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "弩",
-      "effectPlain": "+(80–100) % 异常伤害加深",
-      "valueSpans": [
-        "+(80–100)"
-      ]
-    },
-    {
-      "modifierId": "85029001",
+      "modifierId": "140291302",
       "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(109–151) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(109–151) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(109–151) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(16–21) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(16–21) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(17–22) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(13–15) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(13–15) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(14–16) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(87–108) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(87–108) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(87–108) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(11–12) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(11–12) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(11–13) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(70–86) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(70–86) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(70–86) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(57–69) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(57–69) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(57–69) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(9–10) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(9–10) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(9–10) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(44–56) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(44–56) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(44–56) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(7–8) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(7–8) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(7–8) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(33–43) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(33–43) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(33–43) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+6 % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+6 % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+6 % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51330311",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "原野回响",
+      "source": "弩",
+      "effectPlain": "+(100–130) % 该装备物理伤害",
+      "valueSpans": [
+        "+(100–130)"
+      ]
+    },
+    {
+      "modifierId": "51330321",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "原野回响",
+      "source": "弩",
+      "effectPlain": "+(10–15) % 该装备攻击速度",
+      "valueSpans": [
+        "+(10–15)"
+      ]
+    },
+    {
+      "modifierId": "51330351",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "原野回响",
+      "source": "弩",
+      "effectPlain": "+(60–70) % 投射物伤害",
+      "valueSpans": [
+        "+(60–70)"
+      ]
+    },
+    {
+      "modifierId": "51330341",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "原野回响",
+      "source": "弩",
+      "effectPlain": "击中时，失去 (3–5) 生命",
+      "valueSpans": [
+        "(3–5)"
+      ]
+    },
+    {
+      "modifierId": "51330331",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "原野回响",
+      "source": "弩",
+      "effectPlain": "击败时，回复 5 % 生命",
+      "valueSpans": [
+        "5"
+      ]
+    },
+    {
+      "modifierId": "51330621",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "喑哑",
+      "source": "弩",
+      "effectPlain": "+(10–12) % 该装备攻击暴击值",
+      "valueSpans": [
+        "+(10–12)"
+      ]
+    },
+    {
+      "modifierId": "51330631",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "喑哑",
+      "source": "弩",
+      "effectPlain": "+(8–10) % 该装备攻击速度",
+      "valueSpans": [
+        "+(8–10)"
+      ]
+    },
+    {
+      "modifierId": "51330611",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "喑哑",
+      "source": "弩",
+      "effectPlain": "+30 % 该装备物理伤害",
+      "valueSpans": [
+        "+30"
+      ]
+    },
+    {
+      "modifierId": "51330651",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "喑哑",
+      "source": "弩",
+      "effectPlain": "至少拥有 100000 点闪避值时， 暴击值增加 600",
+      "valueSpans": [
+        "100000",
+        "600"
+      ]
+    },
+    {
+      "modifierId": "51330641",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "喑哑",
+      "source": "弩",
+      "effectPlain": "至少拥有 100000 点闪避值时， 附加 36 % 物理伤害的闪电伤害",
+      "valueSpans": [
+        "100000",
+        "36"
+      ]
+    },
+    {
+      "modifierId": "1502914",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "弩",
+      "effectPlain": "+2 坚韧祝福 层数上限",
+      "valueSpans": [
+        "+2"
+      ]
+    },
+    {
+      "modifierId": "1502915",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "弩",
+      "effectPlain": "+2 灵动祝福 层数上限",
+      "valueSpans": [
+        "+2"
+      ]
+    },
+    {
+      "modifierId": "1502916",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "弩",
+      "effectPlain": "+2 聚能祝福 层数上限",
+      "valueSpans": [
+        "+2"
+      ]
+    },
+    {
+      "modifierId": "1502919",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "弩",
+      "effectPlain": "暴击 幸运 (-50–-40) % 暴击值",
+      "valueSpans": [
+        "(-50–-40)"
+      ]
+    },
+    {
+      "modifierId": "1502913",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "弩",
+      "effectPlain": "+(10–14) % 护甲减伤穿透",
+      "valueSpans": [
+        "+(10–14)"
+      ]
+    },
+    {
+      "modifierId": "1502912",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "弩",
+      "effectPlain": "+(12–16) % 元素和腐蚀抗性穿透",
+      "valueSpans": [
+        "+(12–16)"
+      ]
+    },
+    {
+      "modifierId": "1502917",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "弩",
+      "effectPlain": "+(48–64) % 该装备物理伤害",
+      "valueSpans": [
+        "+(48–64)"
+      ]
+    },
+    {
+      "modifierId": "1502910",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "弩",
+      "effectPlain": "+2 投射物数量",
+      "valueSpans": [
+        "+2"
+      ]
+    },
+    {
+      "modifierId": "1502911",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "弩",
+      "effectPlain": "+2 直射投射物 穿透 次数",
+      "valueSpans": [
+        "+2"
+      ]
+    },
+    {
+      "modifierId": "1502918",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "弩",
+      "effectPlain": "该装备附加 (64–68) - (80–84) 点物理伤害",
+      "valueSpans": [
+        "(64–68)",
+        "(80–84)"
+      ]
+    },
+    {
+      "modifierId": "1502909",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "弩",
+      "effectPlain": "+(12–16) % 攻击速度",
+      "valueSpans": [
+        "+(12–16)"
+      ]
+    },
+    {
+      "modifierId": "1502906",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "弩",
+      "effectPlain": "+(40–48) % 元素伤害",
+      "valueSpans": [
+        "+(40–48)"
+      ]
+    },
+    {
+      "modifierId": "1502905",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "弩",
+      "effectPlain": "+(40–48) % 物理伤害",
+      "valueSpans": [
+        "+(40–48)"
+      ]
+    },
+    {
+      "modifierId": "1502907",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "弩",
+      "effectPlain": "+(40–48) % 腐蚀伤害",
+      "valueSpans": [
+        "+(40–48)"
+      ]
+    },
+    {
+      "modifierId": "1502908",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "弩",
+      "effectPlain": "+(40–48) % 远程伤害",
+      "valueSpans": [
+        "+(40–48)"
+      ]
+    },
+    {
+      "modifierId": "1502903",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "弩",
+      "effectPlain": "攻击附加 (1–3) - (60–65) 点闪电伤害",
+      "valueSpans": [
+        "(1–3)",
+        "(60–65)"
+      ]
+    },
+    {
+      "modifierId": "1502902",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "弩",
+      "effectPlain": "攻击附加 (24–29) - (34–39) 点冰冷伤害",
+      "valueSpans": [
+        "(24–29)",
+        "(34–39)"
+      ]
+    },
+    {
+      "modifierId": "1502901",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "弩",
+      "effectPlain": "攻击附加 (24–29) - (34–39) 点火焰伤害",
+      "valueSpans": [
+        "(24–29)",
+        "(34–39)"
+      ]
+    },
+    {
+      "modifierId": "1502900",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "弩",
+      "effectPlain": "攻击附加 (25–30) - (33–38) 点物理伤害",
+      "valueSpans": [
+        "(25–30)",
+        "(33–38)"
+      ]
+    },
+    {
+      "modifierId": "1502904",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "弩",
+      "effectPlain": "攻击附加 (26–31) - (32–37) 点腐蚀伤害",
+      "valueSpans": [
+        "(26–31)",
+        "(32–37)"
+      ]
+    },
+    {
+      "modifierId": "85029141",
+      "tier": 0,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "弩",
-      "effectPlain": "攻击附加 (10–13) - (14–19) 点物理伤害",
+      "effectPlain": "+1 坚韧祝福 层数上限",
       "valueSpans": [
-        "(10–13)",
-        "(14–19)"
+        "+1"
       ]
     },
     {
-      "modifierId": "85029011",
-      "tier": 2,
+      "modifierId": "85029151",
+      "tier": 0,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "弩",
-      "effectPlain": "攻击附加 (9–14) - (15–20) 点火焰伤害",
+      "effectPlain": "+1 灵动祝福 层数上限",
       "valueSpans": [
-        "(9–14)",
-        "(15–20)"
+        "+1"
       ]
     },
     {
-      "modifierId": "85029021",
-      "tier": 2,
+      "modifierId": "85029161",
+      "tier": 0,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "弩",
-      "effectPlain": "攻击附加 (10–13) - (14–19) 点冰冷伤害",
+      "effectPlain": "+1 聚能祝福 层数上限",
       "valueSpans": [
-        "(10–13)",
-        "(14–19)"
+        "+1"
       ]
     },
     {
-      "modifierId": "85029031",
-      "tier": 2,
+      "modifierId": "85029191",
+      "tier": 0,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "弩",
-      "effectPlain": "攻击附加 (1–2) - (28–32) 点闪电伤害",
+      "effectPlain": "暴击 幸运 (-80–-50) % 暴击值",
       "valueSpans": [
-        "(1–2)",
-        "(28–32)"
+        "(-80–-50)"
       ]
     },
     {
-      "modifierId": "85029041",
-      "tier": 2,
+      "modifierId": "85029171",
+      "tier": 1,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "弩",
-      "effectPlain": "攻击附加 (11–13) - (15–18) 点腐蚀伤害",
+      "effectPlain": "+(24–32) % 该装备物理伤害",
       "valueSpans": [
-        "(11–13)",
-        "(15–18)"
+        "+(24–32)"
       ]
     },
     {
-      "modifierId": "85029051",
-      "tier": 2,
+      "modifierId": "85029131",
+      "tier": 1,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "弩",
-      "effectPlain": "+(20–24) % 物理伤害",
+      "effectPlain": "+(5–7) % 护甲减伤穿透",
       "valueSpans": [
-        "+(20–24)"
+        "+(5–7)"
+      ]
+    },
+    {
+      "modifierId": "85029121",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "弩",
+      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "85029101",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "弩",
+      "effectPlain": "+1 投射物数量",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85029111",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "弩",
+      "effectPlain": "+1 直射投射物 穿透 次数",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85029181",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "弩",
+      "effectPlain": "该装备附加 (32–34) - (40–42) 点物理伤害",
+      "valueSpans": [
+        "(32–34)",
+        "(40–42)"
       ]
     },
     {
@@ -868,6 +1963,18 @@
       "affixType": "美梦词缀",
       "source": "弩",
       "effectPlain": "+(20–24) % 元素伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85029051",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "弩",
+      "effectPlain": "+(20–24) % 物理伤害",
       "valueSpans": [
         "+(20–24)"
       ]
@@ -909,438 +2016,1339 @@
       ]
     },
     {
-      "modifierId": "85029101",
-      "tier": 1,
+      "modifierId": "85029021",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "弩",
-      "effectPlain": "+1 投射物数量",
+      "effectPlain": "攻击附加 (10–13) - (14–19) 点冰冷伤害",
       "valueSpans": [
-        "+1"
+        "(10–13)",
+        "(14–19)"
       ]
     },
     {
-      "modifierId": "85029111",
-      "tier": 1,
+      "modifierId": "85029001",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "弩",
-      "effectPlain": "+1 直射投射物 穿透 次数",
+      "effectPlain": "攻击附加 (10–13) - (14–19) 点物理伤害",
       "valueSpans": [
-        "+1"
+        "(10–13)",
+        "(14–19)"
       ]
     },
     {
-      "modifierId": "85029121",
-      "tier": 1,
+      "modifierId": "85029041",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "弩",
-      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
+      "effectPlain": "攻击附加 (11–13) - (15–18) 点腐蚀伤害",
       "valueSpans": [
-        "+(6–8)"
+        "(11–13)",
+        "(15–18)"
       ]
     },
     {
-      "modifierId": "85029131",
-      "tier": 1,
+      "modifierId": "85029031",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "弩",
-      "effectPlain": "+(5–7) % 护甲减伤穿透",
+      "effectPlain": "攻击附加 (1–2) - (28–32) 点闪电伤害",
       "valueSpans": [
-        "+(5–7)"
+        "(1–2)",
+        "(28–32)"
       ]
     },
     {
-      "modifierId": "85029141",
-      "tier": 0,
+      "modifierId": "85029011",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "弩",
-      "effectPlain": "+1 坚韧祝福 层数上限",
+      "effectPlain": "攻击附加 (9–14) - (15–20) 点火焰伤害",
       "valueSpans": [
-        "+1"
+        "(9–14)",
+        "(15–20)"
       ]
     },
     {
-      "modifierId": "85029151",
+      "modifierId": "140292780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(105–135) % 击退 距离 额外 +20 % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140292280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(146–190) % 该装备物理伤害 该装备附加 (90–92) - (111–113) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115290580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(66–85) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(79–101) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140290980",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "+8 攻击技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "149292380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (100–102) - (569–571) 点元素伤害 -100 % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140292680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "额外 +(79–101) % 创伤 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140292200",
       "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "弩",
-      "effectPlain": "+1 灵动祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(111–145) % 该装备物理伤害 该装备附加 (69–71) - (85–87) 点物理伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "85029161",
+      "modifierId": "115290500",
       "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "弩",
-      "effectPlain": "+1 聚能祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(51–64) % 护甲减伤穿透",
+      "valueSpans": []
     },
     {
-      "modifierId": "85029171",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "弩",
-      "effectPlain": "+(24–32) % 该装备物理伤害",
-      "valueSpans": [
-        "+(24–32)"
-      ]
-    },
-    {
-      "modifierId": "85029181",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "弩",
-      "effectPlain": "该装备附加 (32–34) - (40–42) 点物理伤害",
-      "valueSpans": [
-        "(32–34)",
-        "(40–42)"
-      ]
-    },
-    {
-      "modifierId": "85029191",
+      "modifierId": "140291800",
       "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "弩",
-      "effectPlain": "暴击 幸运 (-80–-50) % 暴击值",
-      "valueSpans": [
-        "(-80–-50)"
-      ]
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(61–78) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
     },
     {
-      "modifierId": "160411029",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "弩",
-      "effectPlain": "额外 +16 % 主手武器 伤害",
-      "valueSpans": [
-        "+16"
-      ]
-    },
-    {
-      "modifierId": "160412029",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "弩",
-      "effectPlain": "+12 % 护甲减伤穿透",
-      "valueSpans": [
-        "+12"
-      ]
-    },
-    {
-      "modifierId": "160413029",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "弩",
-      "effectPlain": "+16 % 火焰穿透",
-      "valueSpans": [
-        "+16"
-      ]
-    },
-    {
-      "modifierId": "160414029",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "弩",
-      "effectPlain": "+16 % 冰冷穿透",
-      "valueSpans": [
-        "+16"
-      ]
-    },
-    {
-      "modifierId": "160415029",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "弩",
-      "effectPlain": "+16 % 闪电穿透",
-      "valueSpans": [
-        "+16"
-      ]
-    },
-    {
-      "modifierId": "160416029",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "弩",
-      "effectPlain": "+16 % 腐蚀抗性穿透",
-      "valueSpans": [
-        "+16"
-      ]
-    },
-    {
-      "modifierId": "160417029",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "弩",
-      "effectPlain": "+8 % 该装备攻击速度",
-      "valueSpans": [
-        "+8"
-      ]
-    },
-    {
-      "modifierId": "160418029",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "弩",
-      "effectPlain": "+20 % 该装备攻击暴击值",
-      "valueSpans": [
-        "+20"
-      ]
-    },
-    {
-      "modifierId": "160419029",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "弩",
-      "effectPlain": "暴击时，额外 +20 % 伤害",
-      "valueSpans": [
-        "+20"
-      ]
-    },
-    {
-      "modifierId": "160420029",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "中阶序列",
-      "source": "弩",
-      "effectPlain": "+16 % 全属性",
-      "valueSpans": [
-        "+16"
-      ]
-    },
-    {
-      "modifierId": "160531029",
+      "modifierId": "140292700",
       "tier": 0,
-      "itemLevel": 1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(81–104) % 击退 距离 额外 +14 % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140290900",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "+7 攻击技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "149292300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (77–79) - (438–440) 点元素伤害 -100 % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140292600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "额外 +(61–78) % 创伤 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115290501",
+      "tier": 1,
+      "itemLevel": 100,
       "weight": 100,
-      "affixType": "高阶序列",
-      "source": "弩",
-      "effectPlain": "攻击或者法术击败敌人时 30 % 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 250 % 的真实伤害",
-      "valueSpans": [
-        "30",
-        "6",
-        "250"
-      ]
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(36–50) % 护甲减伤穿透",
+      "valueSpans": []
     },
     {
-      "modifierId": "160532029",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 30,
-      "affixType": "高阶序列",
-      "source": "弩",
-      "effectPlain": "每 10 点敏捷，攻击附加 1 - 7 点闪电伤害",
-      "valueSpans": [
-        "10",
-        "1",
-        "7"
-      ]
-    },
-    {
-      "modifierId": "160533029",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 30,
-      "affixType": "高阶序列",
-      "source": "弩",
-      "effectPlain": "每 10 点力量，攻击附加 3 - 5 点火焰伤害",
-      "valueSpans": [
-        "10",
-        "3",
-        "5"
-      ]
-    },
-    {
-      "modifierId": "160534029",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 30,
-      "affixType": "高阶序列",
-      "source": "弩",
-      "effectPlain": "核心技能被 25 级的散射辅助 额外 +25 % 投射物伤害",
-      "valueSpans": [
-        "25",
-        "+25"
-      ]
-    },
-    {
-      "modifierId": "160535029",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 60,
-      "affixType": "高阶序列",
-      "source": "弩",
-      "effectPlain": "攻击直射投射物达到最大飞行距离后，会返回自身，并且可以再次击中路径上的敌人 额外 -30 % 投射物伤害",
-      "valueSpans": [
-        "-30"
-      ]
-    },
-    {
-      "modifierId": "160536029",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 60,
-      "affixType": "高阶序列",
-      "source": "弩",
-      "effectPlain": "+200 % 精准投射光环效果 额外 -30 % 精准投射 魔力封印 补偿",
-      "valueSpans": [
-        "+200",
-        "-30"
-      ]
-    },
-    {
-      "modifierId": "160537029",
-      "tier": 0,
-      "itemLevel": 1,
+      "modifierId": "140291801",
+      "tier": 1,
+      "itemLevel": 100,
       "weight": 100,
-      "affixType": "高阶序列",
-      "source": "弩",
-      "effectPlain": "+80 % 该装备物理伤害 -20 % 该装备攻击暴击值",
-      "valueSpans": [
-        "+80",
-        "-20"
-      ]
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(43–60) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
     },
     {
-      "modifierId": "160538029",
-      "tier": 0,
-      "itemLevel": 1,
+      "modifierId": "140292701",
+      "tier": 1,
+      "itemLevel": 100,
       "weight": 100,
-      "affixType": "高阶序列",
-      "source": "弩",
-      "effectPlain": "额外 +30 % 恶化 伤害 10 % 几率额外造成 2 层 恶化",
-      "valueSpans": [
-        "+30",
-        "10",
-        "2"
-      ]
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(58–80) % 击退 距离 额外 +10 % 伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "160539029",
-      "tier": 0,
-      "itemLevel": 1,
+      "modifierId": "140292201",
+      "tier": 1,
+      "itemLevel": 100,
       "weight": 100,
-      "affixType": "高阶序列",
-      "source": "弩",
-      "effectPlain": "+50 % 该装备元素伤害 -25 % 该装备物理伤害",
-      "valueSpans": [
-        "+50",
-        "-25"
-      ]
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(77–110) % 该装备物理伤害 该装备附加 (53–55) - (65–67) 点物理伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "51330311",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "原野回响",
-      "source": "弩",
-      "effectPlain": "+(100–130) % 该装备物理伤害",
-      "valueSpans": [
-        "+(100–130)"
-      ]
+      "modifierId": "140290901",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "+6 攻击技能等级",
+      "valueSpans": []
     },
     {
-      "modifierId": "51330321",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "原野回响",
-      "source": "弩",
-      "effectPlain": "+(10–15) % 该装备攻击速度",
-      "valueSpans": [
-        "+(10–15)"
-      ]
+      "modifierId": "149292301",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (59–61) - (337–339) 点元素伤害 -100 % 该装备物理伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "51330331",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "原野回响",
-      "source": "弩",
-      "effectPlain": "击败时，回复 5 % 生命",
-      "valueSpans": [
-        "5"
-      ]
+      "modifierId": "140292601",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "额外 +(43–60) % 创伤 伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "51330341",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "原野回响",
-      "source": "弩",
-      "effectPlain": "击中时，失去 (3–5) 生命",
-      "valueSpans": [
-        "(3–5)"
-      ]
+      "modifierId": "115290502",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(30–35) % 护甲减伤穿透",
+      "valueSpans": []
     },
     {
-      "modifierId": "51330351",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "原野回响",
-      "source": "弩",
-      "effectPlain": "+(60–70) % 投射物伤害",
-      "valueSpans": [
-        "+(60–70)"
-      ]
+      "modifierId": "140291802",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(31–42) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
     },
     {
-      "modifierId": "51330511",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "雷尔夫的野心",
-      "source": "弩",
-      "effectPlain": "该装备附加 (15–17) - (23–25) 点物理伤害",
-      "valueSpans": [
-        "(15–17)",
-        "(23–25)"
-      ]
+      "modifierId": "140290902",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "+5 攻击技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "149292302",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "该装备附加 (23–25) - (133–135) 点元素伤害 -100 % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140292602",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "额外 +(31–42) % 创伤 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115290503",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(22–25) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291803",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(25–30) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115290504",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(17–20) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291804",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(20–24) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291805",
+      "tier": 5,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(17–19) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291806",
+      "tier": 6,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(13–16) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291807",
+      "tier": 7,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(10–12) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140292480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(130–160) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140292880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(150–170) % 异常伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130290180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Crossbow",
+      "effectPlain": "对生命造成额外 (79–101) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140292800",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(110–130) % 异常伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140292400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(96–120) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130290100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Crossbow",
+      "effectPlain": "对生命造成额外 (61–78) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140292401",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(70–90) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140292801",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(80–100) % 异常伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130290101",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Crossbow",
+      "effectPlain": "对生命造成额外 (43–60) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140292402",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(40–60) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140292802",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(60–70) % 异常伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130290102",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Crossbow",
+      "effectPlain": "对生命造成额外 (31–42) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107290080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(105–136) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109290180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(235–304) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109290080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(235–304) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109290380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(235–304) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(60–76) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109290100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(181–234) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109290000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(181–234) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109290300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(181–234) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(46–59) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107290000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(81–104) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109290101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(127–180) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109290001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(127–180) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109290301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(127–180) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107290001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(49–80) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107290002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(33–48) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109290102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(91–126) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109290002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(91–126) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109290302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(91–126) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107290003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(22–32) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109290103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(73–90) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109290003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(73–90) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109290303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(73–90) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109290104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(59–72) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109290004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(59–72) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109290304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(59–72) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107290004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(9–21) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109290105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(48–58) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109290005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(48–58) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109290305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(48–58) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107290005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(7–8) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109290106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(37–47) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109290006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(37–47) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109290306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(37–47) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107290006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(5–6) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109290107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(28–36) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109290007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(28–36) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109290307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+(28–36) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107290007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Crossbow",
+      "effectPlain": "+4 % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140292380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(150–180) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(196–254) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111290480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(235–304) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(469–608) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(66–85) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(95–122) % 攻击与施法速度 +(95–122) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140292300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(120–140) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(151–195) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111290400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(181–234) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(328–468) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(51–65) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(66–94) % 攻击与施法速度 +(66–94) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291501",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(106–150) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111290401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(127–180) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(252–360) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(36–50) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290701",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(51–72) % 攻击与施法速度 +(51–72) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140292301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(90–110) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290602",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(212–252) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(26–35) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290702",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(43–50) % 攻击与施法速度 +(43–50) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140292302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(60–80) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291502",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(76–105) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111290402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(91–126) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290603",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(151–180) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(21–25) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290703",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(31–36) % 攻击与施法速度 +(31–36) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291503",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(61–75) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111290403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(73–90) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290604",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(121–144) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(17–20) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291504",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(49–60) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111290404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(59–72) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(14–16) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291505",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(40–48) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111290405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(48–58) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290605",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(96–115) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(11–13) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291506",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(31–39) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111290406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(37–47) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290606",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(78–94) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140291507",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(24–30) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111290407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 1350,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(29–36) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110290207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Crossbow",
+      "effectPlain": "+(9–10) % 该装备攻击暴击值",
+      "valueSpans": []
     },
     {
       "modifierId": "51330521",
@@ -1377,96 +3385,140 @@
       ]
     },
     {
-      "modifierId": "51330611",
+      "modifierId": "51330511",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "喑哑",
+      "affixType": "雷尔夫的野心",
       "source": "弩",
-      "effectPlain": "+30 % 该装备物理伤害",
+      "effectPlain": "该装备附加 (15–17) - (23–25) 点物理伤害",
       "valueSpans": [
-        "+30"
+        "(15–17)",
+        "(23–25)"
       ]
     },
     {
-      "modifierId": "51330621",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "喑哑",
+      "modifierId": "160536029",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 60,
+      "affixType": "高阶序列",
       "source": "弩",
-      "effectPlain": "+(10–12) % 该装备攻击暴击值",
+      "effectPlain": "+200 % 精准投射光环效果 额外 -30 % 精准投射 魔力封印 补偿",
       "valueSpans": [
-        "+(10–12)"
+        "+200",
+        "-30"
       ]
     },
     {
-      "modifierId": "51330631",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "喑哑",
+      "modifierId": "160539029",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
       "source": "弩",
-      "effectPlain": "+(8–10) % 该装备攻击速度",
+      "effectPlain": "+50 % 该装备元素伤害 -25 % 该装备物理伤害",
       "valueSpans": [
-        "+(8–10)"
+        "+50",
+        "-25"
       ]
     },
     {
-      "modifierId": "51330641",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "喑哑",
+      "modifierId": "160537029",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
       "source": "弩",
-      "effectPlain": "至少拥有 100000 点闪避值时， 附加 36 % 物理伤害的闪电伤害",
+      "effectPlain": "+80 % 该装备物理伤害 -20 % 该装备攻击暴击值",
       "valueSpans": [
-        "100000",
-        "36"
+        "+80",
+        "-20"
       ]
     },
     {
-      "modifierId": "51330651",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "喑哑",
+      "modifierId": "160531029",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
       "source": "弩",
-      "effectPlain": "至少拥有 100000 点闪避值时， 暴击值增加 600",
+      "effectPlain": "攻击或者法术击败敌人时 30 % 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 250 % 的真实伤害",
       "valueSpans": [
-        "100000",
-        "600"
+        "30",
+        "6",
+        "250"
+      ]
+    },
+    {
+      "modifierId": "160535029",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 60,
+      "affixType": "高阶序列",
+      "source": "弩",
+      "effectPlain": "攻击直射投射物达到最大飞行距离后，会返回自身，并且可以再次击中路径上的敌人 额外 -30 % 投射物伤害",
+      "valueSpans": [
+        "-30"
+      ]
+    },
+    {
+      "modifierId": "160534029",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 30,
+      "affixType": "高阶序列",
+      "source": "弩",
+      "effectPlain": "核心技能被 25 级的散射辅助 额外 +25 % 投射物伤害",
+      "valueSpans": [
+        "25",
+        "+25"
+      ]
+    },
+    {
+      "modifierId": "160533029",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 30,
+      "affixType": "高阶序列",
+      "source": "弩",
+      "effectPlain": "每 10 点力量，攻击附加 3 - 5 点火焰伤害",
+      "valueSpans": [
+        "10",
+        "3",
+        "5"
+      ]
+    },
+    {
+      "modifierId": "160532029",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 30,
+      "affixType": "高阶序列",
+      "source": "弩",
+      "effectPlain": "每 10 点敏捷，攻击附加 1 - 7 点闪电伤害",
+      "valueSpans": [
+        "10",
+        "1",
+        "7"
+      ]
+    },
+    {
+      "modifierId": "160538029",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
+      "source": "弩",
+      "effectPlain": "额外 +30 % 恶化 伤害 10 % 几率额外造成 2 层 恶化",
+      "valueSpans": [
+        "+30",
+        "10",
+        "2"
       ]
     }
   ],
   "tierVariantGroups": [
-    {
-      "skeleton": "{#} % 元素 伤害",
-      "rolls": [
-        {
-          "modifierId": "60062908",
-          "tier": 0,
-          "itemLevel": 1,
-          "weight": 1,
-          "affixType": "侵蚀基底",
-          "valueSpans": [
-            "+(40–45)"
-          ],
-          "effectPlain": "+(40–45) % 元素 伤害"
-        },
-        {
-          "modifierId": "140291301",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(152–216)"
-          ],
-          "effectPlain": "+(152–216) % 元素 伤害"
-        }
-      ]
-    },
     {
       "skeleton": "{#} % 元素伤害",
       "rolls": [
@@ -1498,17 +3550,6 @@
       "skeleton": "{#} % 元素和腐蚀抗性穿透",
       "rolls": [
         {
-          "modifierId": "140291801",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻前缀",
-          "valueSpans": [
-            "+(43–60)"
-          ],
-          "effectPlain": "+(43–60) % 元素和腐蚀抗性穿透"
-        },
-        {
           "modifierId": "1502912",
           "tier": 1,
           "itemLevel": 1,
@@ -1533,46 +3574,8 @@
       ]
     },
     {
-      "skeleton": "{#} % 投射物伤害",
-      "rolls": [
-        {
-          "modifierId": "140290401",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(152–216)"
-          ],
-          "effectPlain": "+(152–216) % 投射物伤害"
-        },
-        {
-          "modifierId": "51330351",
-          "tier": null,
-          "itemLevel": null,
-          "weight": null,
-          "affixType": "原野回响",
-          "valueSpans": [
-            "+(60–70)"
-          ],
-          "effectPlain": "+(60–70) % 投射物伤害"
-        }
-      ]
-    },
-    {
       "skeleton": "{#} % 护甲减伤穿透",
       "rolls": [
-        {
-          "modifierId": "115290501",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻前缀",
-          "valueSpans": [
-            "+(36–50)"
-          ],
-          "effectPlain": "+(36–50) % 护甲减伤穿透"
-        },
         {
           "modifierId": "1502913",
           "tier": 1,
@@ -1639,17 +3642,6 @@
       "skeleton": "{#} % 物理伤害",
       "rolls": [
         {
-          "modifierId": "140291201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(152–216)"
-          ],
-          "effectPlain": "+(152–216) % 物理伤害"
-        },
-        {
           "modifierId": "1502905",
           "tier": 2,
           "itemLevel": 1,
@@ -1676,17 +3668,6 @@
     {
       "skeleton": "{#} % 腐蚀伤害",
       "rolls": [
-        {
-          "modifierId": "140291401",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(152–216)"
-          ],
-          "effectPlain": "+(152–216) % 腐蚀伤害"
-        },
         {
           "modifierId": "1502907",
           "tier": 2,
@@ -1726,17 +3707,6 @@
           "effectPlain": "+(3–6) % 该装备攻击暴击值"
         },
         {
-          "modifierId": "110290201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶后缀",
-          "valueSpans": [
-            "+(36–50)"
-          ],
-          "effectPlain": "+(36–50) % 该装备攻击暴击值"
-        },
-        {
           "modifierId": "160418029",
           "tier": 1,
           "itemLevel": 1,
@@ -1773,17 +3743,6 @@
             "+(5–8)"
           ],
           "effectPlain": "+(5–8) % 该装备攻击速度"
-        },
-        {
-          "modifierId": "110290101",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(23–32)"
-          ],
-          "effectPlain": "+(23–32) % 该装备攻击速度"
         },
         {
           "modifierId": "160417029",
@@ -1844,17 +3803,6 @@
             "+(15–25)"
           ],
           "effectPlain": "+(15–25) % 该装备物理伤害"
-        },
-        {
-          "modifierId": "107290001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(49–80)"
-          ],
-          "effectPlain": "+(49–80) % 该装备物理伤害"
         },
         {
           "modifierId": "1502917",
@@ -2252,18 +4200,6 @@
           "effectPlain": "该装备附加 (7–10) - (14–17) 点物理伤害"
         },
         {
-          "modifierId": "106290001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "(71–73)",
-            "(87–89)"
-          ],
-          "effectPlain": "该装备附加 (71–73) - (87–89) 点物理伤害"
-        },
-        {
           "modifierId": "1502918",
           "tier": 1,
           "itemLevel": 1,
@@ -2302,5 +4238,5 @@
       ]
     }
   ],
-  "tierVariantGroupCount": 24
+  "tierVariantGroupCount": 22
 }

@@ -3,7 +3,7 @@
   "categorySlug": "Fire_Cannon",
   "categoryLabel": "Fire Canon",
   "sourceUrl": "https://tlidb.com/cn/Fire_Cannon",
-  "fetchedAt": "2026-03-22T11:45:51Z",
+  "fetchedAt": "2026-03-24T09:15:34Z",
   "baseCount": 20,
   "bases": [
     {
@@ -13,6 +13,11 @@
       "iconAlt": "IconEquipWeaponCannonNorm001128",
       "requiredLevel": 1,
       "slotKind": "双手",
+      "baseEffectLines": [
+        "7 - 7 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_001_128.webp"
     },
     {
@@ -22,6 +27,11 @@
       "iconAlt": "IconEquipWeaponCannonNorm002128",
       "requiredLevel": 2,
       "slotKind": "双手",
+      "baseEffectLines": [
+        "8 - 8 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_002_128.webp"
     },
     {
@@ -31,6 +41,11 @@
       "iconAlt": "IconEquipWeaponCannonNorm003128",
       "requiredLevel": 4,
       "slotKind": "双手",
+      "baseEffectLines": [
+        "10 - 10 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_003_128.webp"
     },
     {
@@ -40,6 +55,11 @@
       "iconAlt": "IconEquipWeaponCannonNorm004128",
       "requiredLevel": 9,
       "slotKind": "双手",
+      "baseEffectLines": [
+        "12 - 12 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_004_128.webp"
     },
     {
@@ -49,6 +69,11 @@
       "iconAlt": "IconEquipWeaponCannonNorm005128",
       "requiredLevel": 14,
       "slotKind": "双手",
+      "baseEffectLines": [
+        "16 - 16 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_005_128.webp"
     },
     {
@@ -58,6 +83,11 @@
       "iconAlt": "IconEquipWeaponCannonNorm001128",
       "requiredLevel": 19,
       "slotKind": "双手",
+      "baseEffectLines": [
+        "20 - 20 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_001_128.webp"
     },
     {
@@ -67,6 +97,11 @@
       "iconAlt": "IconEquipWeaponCannonNorm002128",
       "requiredLevel": 24,
       "slotKind": "双手",
+      "baseEffectLines": [
+        "25 - 25 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_002_128.webp"
     },
     {
@@ -76,6 +111,11 @@
       "iconAlt": "IconEquipWeaponCannonNorm003128",
       "requiredLevel": 29,
       "slotKind": "双手",
+      "baseEffectLines": [
+        "31 - 31 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_003_128.webp"
     },
     {
@@ -85,6 +125,11 @@
       "iconAlt": "IconEquipWeaponCannonNorm004128",
       "requiredLevel": 34,
       "slotKind": "双手",
+      "baseEffectLines": [
+        "37 - 37 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_004_128.webp"
     },
     {
@@ -94,6 +139,11 @@
       "iconAlt": "IconEquipWeaponCannonNorm005128",
       "requiredLevel": 39,
       "slotKind": "双手",
+      "baseEffectLines": [
+        "43 - 43 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_005_128.webp"
     },
     {
@@ -103,6 +153,11 @@
       "iconAlt": "IconEquipWeaponCannonNorm001128",
       "requiredLevel": 44,
       "slotKind": "双手",
+      "baseEffectLines": [
+        "50 - 50 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_001_128.webp"
     },
     {
@@ -112,6 +167,11 @@
       "iconAlt": "IconEquipWeaponCannonNorm002128",
       "requiredLevel": 49,
       "slotKind": "双手",
+      "baseEffectLines": [
+        "60 - 60 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_002_128.webp"
     },
     {
@@ -121,6 +181,11 @@
       "iconAlt": "IconEquipWeaponCannonNorm003128",
       "requiredLevel": 54,
       "slotKind": "双手",
+      "baseEffectLines": [
+        "70 - 70 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_003_128.webp"
     },
     {
@@ -130,6 +195,11 @@
       "iconAlt": "IconEquipWeaponCannonNorm004128",
       "requiredLevel": 59,
       "slotKind": "双手",
+      "baseEffectLines": [
+        "90 - 90 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_004_128.webp"
     },
     {
@@ -139,6 +209,11 @@
       "iconAlt": "IconEquipWeaponCannonNorm005128",
       "requiredLevel": 64,
       "slotKind": "双手",
+      "baseEffectLines": [
+        "110 - 110 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_005_128.webp"
     },
     {
@@ -148,6 +223,11 @@
       "iconAlt": "IconEquipWeaponCannonNorm001128",
       "requiredLevel": 68,
       "slotKind": "双手",
+      "baseEffectLines": [
+        "135 - 135 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_001_128.webp"
     },
     {
@@ -157,6 +237,11 @@
       "iconAlt": "IconEquipWeaponCannonNorm005128",
       "requiredLevel": 72,
       "slotKind": "双手",
+      "baseEffectLines": [
+        "160 - 160 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_005_128.webp"
     },
     {
@@ -166,6 +251,11 @@
       "iconAlt": "IconEquipWeaponCannonNorm001128",
       "requiredLevel": 82,
       "slotKind": "双手",
+      "baseEffectLines": [
+        "175 - 175 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_001_128.webp"
     },
     {
@@ -175,6 +265,11 @@
       "iconAlt": "IconEquipWeaponCannonNorm001128",
       "requiredLevel": 84,
       "slotKind": "双手",
+      "baseEffectLines": [
+        "190 - 190 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_001_128.webp"
     },
     {
@@ -184,6 +279,11 @@
       "iconAlt": "IconEquipWeaponCannonNorm001128",
       "requiredLevel": 86,
       "slotKind": "双手",
+      "baseEffectLines": [
+        "220 - 220 物理伤害",
+        "500 暴击值",
+        "1.5 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Cannon_Norm_001_128.webp"
     }
   ]

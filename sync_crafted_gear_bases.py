@@ -235,6 +235,38 @@ def parse_slot_kind_after_row(row_end: int, item_html: str) -> str | None:
     return None
 
 
+def parse_base_effect_lines_after_row(row_end: int, item_html: str) -> list[str]:
+    """提取基底卡片中的基础属性行（如 物理伤害/暴击值/攻击速度/施法速度）。"""
+    tail_full = item_html[row_end : row_end + 2400]
+    next_card = tail_full.find('<div class="col"><div class="d-flex border-top rounded">')
+    tail = tail_full[:next_card] if next_card > 0 else tail_full
+    texts: list[str] = []
+    # 该区块常见形态：<span data-modifier-id="...">...</span>
+    for frag in re.findall(r'<span[^>]*data-modifier-id="[^"]+"[^>]*>(.*?)</span>', tail, flags=re.S | re.I):
+        t = strip_inline_html(frag)
+        if t:
+            texts.append(t)
+    # 兜底：抓一些短 div 文本（避免漏掉未标注 modifier-id 的站点变体）
+    texts.extend(strip_inline_html(x) for x in re.findall(r"<div>(.*?)</div>", tail, flags=re.S | re.I))
+    out: list[str] = []
+    for t in texts:
+        if not t:
+            continue
+        if "需求等级" in t:
+            continue
+        if re.search(r"(物理伤害|暴击值|攻击速度|施法速度)", t) and re.search(r"\d", t):
+            out.append(t)
+    # 去重并保序
+    dedup: list[str] = []
+    seen: set[str] = set()
+    for x in out:
+        if x in seen:
+            continue
+        seen.add(x)
+        dedup.append(x)
+    return dedup
+
+
 def parse_base_items(item_html: str) -> list[dict[str, object]]:
     rows: list[dict[str, object]] = []
     for m in BASE_ITEM_ROW_RE.finditer(item_html):
@@ -255,6 +287,7 @@ def parse_base_items(item_html: str) -> list[dict[str, object]]:
             req_level = int(req_m.group(1))
 
         slot_kind = parse_slot_kind_after_row(m.end(), item_html)
+        base_effect_lines = parse_base_effect_lines_after_row(m.end(), item_html)
 
         rows.append(
             {
@@ -264,6 +297,7 @@ def parse_base_items(item_html: str) -> list[dict[str, object]]:
                 "iconAlt": icon_alt,
                 "requiredLevel": req_level,
                 **({"slotKind": slot_kind} if slot_kind else {}),
+                **({"baseEffectLines": base_effect_lines} if base_effect_lines else {}),
             }
         )
     return rows

@@ -2,164 +2,1405 @@
   "slug": "Ring",
   "label": "Ring",
   "sourceUrl": "https://tlidb.com/cn/Ring",
-  "fetchedAt": "2026-03-22T08:59:58Z",
-  "modifierCount": 208,
+  "fetchedAt": "2026-03-24T07:26:52Z",
+  "modifierCount": 457,
   "modifiers": [
     {
-      "modifierId": "1502100",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "54526801",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "万法之心",
       "source": "戒指",
-      "effectPlain": "+(54–74) 最大生命",
+      "effectPlain": "+(73–146) 最大护盾",
       "valueSpans": [
-        "+(54–74)"
+        "+(73–146)"
       ]
     },
     {
-      "modifierId": "1502101",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "54526841",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "万法之心",
       "source": "戒指",
-      "effectPlain": "+(87–117) 最大护盾",
+      "effectPlain": "+1 聚能祝福 层数上限",
       "valueSpans": [
-        "+(87–117)"
+        "+1"
       ]
     },
     {
-      "modifierId": "1502102",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "54526821",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "万法之心",
       "source": "戒指",
-      "effectPlain": "+(5–10) % 火焰抗性",
+      "effectPlain": "每 0.5 秒获得 1 层 聚能祝福 ；如果最近没有暴击，则改为失去 聚能祝福",
       "valueSpans": [
-        "+(5–10)"
+        "0.5"
       ]
     },
     {
-      "modifierId": "1502103",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "54526831",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "万法之心",
       "source": "戒指",
-      "effectPlain": "+(5–10) % 冰冷抗性",
+      "effectPlain": "聚能祝福 达到上限时，额外 +(7–10) % 法术伤害",
       "valueSpans": [
-        "+(5–10)"
+        "+(7–10)"
       ]
     },
     {
-      "modifierId": "1502104",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "51512311",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "不冻之冰",
       "source": "戒指",
-      "effectPlain": "+(5–10) % 闪电抗性",
+      "effectPlain": "+(20–24) % 最大生命和最大护盾",
       "valueSpans": [
-        "+(5–10)"
+        "+(20–24)"
       ]
     },
     {
-      "modifierId": "1502105",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "51512351",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "不冻之冰",
       "source": "戒指",
-      "effectPlain": "+(5–10) % 腐蚀抗性",
+      "effectPlain": "+(35–42) % 冰冷与腐蚀抗性",
       "valueSpans": [
-        "+(5–10)"
+        "+(35–42)"
       ]
     },
     {
-      "modifierId": "1502106",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "55512331",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "不冻之冰",
       "source": "戒指",
-      "effectPlain": "+(15–20) 力量",
+      "effectPlain": "+10 防护技能等级",
       "valueSpans": [
-        "+(15–20)"
+        "+10"
       ]
     },
     {
-      "modifierId": "1502107",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "55512341",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "不冻之冰",
       "source": "戒指",
-      "effectPlain": "+(15–20) 敏捷",
+      "effectPlain": "击中敌人时， +(50–80) % 几率触发 30 级寒冰盾，冷却4秒",
       "valueSpans": [
-        "+(15–20)"
+        "+(50–80)",
+        "30"
       ]
     },
     {
-      "modifierId": "1502108",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "55512361",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "不冻之冰",
       "source": "戒指",
-      "effectPlain": "+(15–20) 智慧",
+      "effectPlain": "无法造成 冰结",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51512211",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "不燃之火",
+      "source": "戒指",
+      "effectPlain": "+(20–24) % 最大生命和最大护盾",
       "valueSpans": [
-        "+(15–20)"
+        "+(20–24)"
       ]
     },
     {
-      "modifierId": "1502109",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "51512251",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "不燃之火",
       "source": "戒指",
-      "effectPlain": "+(6–8) % 攻击和施法速度",
+      "effectPlain": "+(35–42) % 火焰与闪电抗性",
       "valueSpans": [
-        "+(6–8)"
+        "+(35–42)"
       ]
     },
     {
-      "modifierId": "1502110",
-      "tier": 1,
+      "modifierId": "55512231",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "不燃之火",
+      "source": "戒指",
+      "effectPlain": "+(3–5) 激发技能等级",
+      "valueSpans": [
+        "+(3–5)"
+      ]
+    },
+    {
+      "modifierId": "51512241",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "不燃之火",
+      "source": "戒指",
+      "effectPlain": "击中敌人时， +(50–80) % 几率触发 30 级公牛之怒，冷却4秒",
+      "valueSpans": [
+        "+(50–80)",
+        "30"
+      ]
+    },
+    {
+      "modifierId": "51512261",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "不燃之火",
+      "source": "戒指",
+      "effectPlain": "无法造成 点燃",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51512821",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "世界流转",
+      "source": "戒指",
+      "effectPlain": "+(7–10) % 攻击和施法速度",
+      "valueSpans": [
+        "+(7–10)"
+      ]
+    },
+    {
+      "modifierId": "51512811",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "世界流转",
+      "source": "戒指",
+      "effectPlain": "+66 最大生命",
+      "valueSpans": [
+        "+66"
+      ]
+    },
+    {
+      "modifierId": "51512841",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "世界流转",
+      "source": "戒指",
+      "effectPlain": "轮流获得以下增益，每种增益持续 8 秒： 额外 +(35–50) % 腐蚀伤害 额外 +(35–50) % 元素伤害 额外 +(35–50) % 物理伤害",
+      "valueSpans": [
+        "8",
+        "+(35–50)",
+        "+(35–50)",
+        "+(35–50)"
+      ]
+    },
+    {
+      "modifierId": "60062113",
+      "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "戒指",
-      "effectPlain": "+(8–10) % 移动速度",
+      "effectPlain": "+(15–25) % 最大护盾",
+      "valueSpans": [
+        "+(15–25)"
+      ]
+    },
+    {
+      "modifierId": "60062112",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "戒指",
+      "effectPlain": "+(15–25) % 最大生命",
+      "valueSpans": [
+        "+(15–25)"
+      ]
+    },
+    {
+      "modifierId": "60062111",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "戒指",
+      "effectPlain": "+(50–70) % 伤害",
+      "valueSpans": [
+        "+(50–70)"
+      ]
+    },
+    {
+      "modifierId": "60062106",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "戒指",
+      "effectPlain": "+(8–10) % 力量",
       "valueSpans": [
         "+(8–10)"
       ]
     },
     {
-      "modifierId": "1502111",
-      "tier": 1,
+      "modifierId": "60062107",
+      "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "戒指",
-      "effectPlain": "释放轰炸技能时，有 +(20–25) % 概率该次轰炸技能总波次+1",
+      "effectPlain": "+(8–10) % 敏捷",
       "valueSpans": [
-        "+(20–25)"
+        "+(8–10)"
       ]
     },
     {
-      "modifierId": "1502112",
-      "tier": 1,
+      "modifierId": "60062108",
+      "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "戒指",
-      "effectPlain": "+(15–20) % 战意 效果",
+      "effectPlain": "+(8–10) % 智慧",
       "valueSpans": [
-        "+(15–20)"
+        "+(8–10)"
       ]
+    },
+    {
+      "modifierId": "60062102",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "戒指",
+      "effectPlain": "+5 % 移动速度",
+      "valueSpans": [
+        "+5"
+      ]
+    },
+    {
+      "modifierId": "60062101",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "戒指",
+      "effectPlain": "+5 % 获得经验值",
+      "valueSpans": [
+        "+5"
+      ]
+    },
+    {
+      "modifierId": "60062104",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "戒指",
+      "effectPlain": "免疫 创伤 免疫 凋零",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51511721",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "冰结雷光",
+      "source": "戒指",
+      "effectPlain": "+(36–43) % 元素 伤害",
+      "valueSpans": [
+        "+(36–43)"
+      ]
+    },
+    {
+      "modifierId": "51511711",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "冰结雷光",
+      "source": "戒指",
+      "effectPlain": "+(7–11) 点敏捷与智慧",
+      "valueSpans": [
+        "+(7–11)"
+      ]
+    },
+    {
+      "modifierId": "51511731",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "冰结雷光",
+      "source": "戒指",
+      "effectPlain": "+3 % 冰冷与闪电抗性",
+      "valueSpans": [
+        "+3"
+      ]
+    },
+    {
+      "modifierId": "51511741",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "冰结雷光",
+      "source": "戒指",
+      "effectPlain": "50 % 闪电伤害转化为冰冷伤害",
+      "valueSpans": [
+        "50"
+      ]
+    },
+    {
+      "modifierId": "51511751",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "冰结雷光",
+      "source": "戒指",
+      "effectPlain": "击中敌人时，附加一层 减速 ，持续 2 秒",
+      "valueSpans": [
+        "2"
+      ]
+    },
+    {
+      "modifierId": "140722080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(157–203) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104210080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(287–372) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105210280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(456–592) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(48–61) % 护甲值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(48–61) % 闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(95–122) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(121–156) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104210000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(221–286) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105210200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(319–455) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(37–47) % 护甲值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(37–47) % 闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(73–94) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104210001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(155–220) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105210201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(245–350) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(27–36) % 护甲值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(27–36) % 闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(51–72) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(85–120) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104210002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(111–154) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(19–26) % 护甲值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(19–26) % 闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105210202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(206–245) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(37–50) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(61–84) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105210203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(147–175) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(14–18) % 护甲值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(14–18) % 闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(30–36) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(49–60) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104210003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(89–110) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(10–13) % 护甲值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(10–13) % 闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105210204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(118–140) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(24–29) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(39–48) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104210004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(71–88) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(20–23) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(32–38) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104210005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(58–70) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(7–9) % 护甲值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(7–9) % 闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105210205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(93–112) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(15–19) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(25–31) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104210006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(45–57) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(5–6) % 护甲值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(5–6) % 闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105210206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(76–91) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(12–14) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(19–24) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104210007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(34–44) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(3–4) % 护甲值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(3–4) % 闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105210207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(59–70) 最大护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110210080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(157–203) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(36–46) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(36–46) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(36–46) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(36–46) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110210000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(121–156) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(25–35) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(25–35) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(25–35) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(25–35) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(19–27) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(19–27) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(19–27) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(19–27) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110210001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(87–120) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(16–19) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(16–19) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(16–19) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(16–19) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110210002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(62–86) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(11–14) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(11–14) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(11–14) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(11–14) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110210003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 400,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(45–61) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110210004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(30–44) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(9–11) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(9–11) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(9–11) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(9–11) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110210005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(20–29) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(7–9) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(7–9) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(7–9) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(7–9) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110210006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 1350,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(14–19) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(6–7) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(6–7) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(6–7) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(6–7) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+5 % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+5 % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+5 % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108210207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "Ring",
+      "effectPlain": "+5 % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51513111",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "勾指怪谈",
+      "source": "戒指",
+      "effectPlain": "+10 % 最大生命和最大护盾",
+      "valueSpans": [
+        "+10"
+      ]
+    },
+    {
+      "modifierId": "51513121",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "勾指怪谈",
+      "source": "戒指",
+      "effectPlain": "+10 % 迷踪 效果",
+      "valueSpans": [
+        "+10"
+      ]
+    },
+    {
+      "modifierId": "51513141",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "勾指怪谈",
+      "source": "戒指",
+      "effectPlain": "装备在左侧戒指槽位时，失去 迷踪 1 秒后获得 迷踪",
+      "valueSpans": [
+        "1"
+      ]
+    },
+    {
+      "modifierId": "51513161",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "勾指怪谈",
+      "source": "戒指",
+      "effectPlain": "迷踪 获得额外效果：每 1 点迷踪值， +2% 持续伤害",
+      "valueSpans": []
     },
     {
       "modifierId": "1502113",
@@ -196,6 +1437,16 @@
       "valueSpans": [
         "+1"
       ]
+    },
+    {
+      "modifierId": "1502122",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "戒指",
+      "effectPlain": "免疫诅咒",
+      "valueSpans": []
     },
     {
       "modifierId": "1502116",
@@ -237,48 +1488,6 @@
       ]
     },
     {
-      "modifierId": "1502120",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "戒指",
-      "effectPlain": "免疫 创伤",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "1502121",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "戒指",
-      "effectPlain": "免疫 凋零",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "1502122",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "戒指",
-      "effectPlain": "免疫诅咒",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "1502123",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "戒指",
-      "effectPlain": "附加 (18–20) % 物理伤害的火焰伤害",
-      "valueSpans": [
-        "(18–20)"
-      ]
-    },
-    {
       "modifierId": "1502124",
       "tier": 0,
       "itemLevel": 1,
@@ -291,13 +1500,13 @@
       ]
     },
     {
-      "modifierId": "1502125",
+      "modifierId": "1502123",
       "tier": 0,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "基础词缀",
       "source": "戒指",
-      "effectPlain": "附加 (18–20) % 物理伤害的闪电伤害",
+      "effectPlain": "附加 (18–20) % 物理伤害的火焰伤害",
       "valueSpans": [
         "(18–20)"
       ]
@@ -315,13 +1524,59 @@
       ]
     },
     {
-      "modifierId": "1502127",
+      "modifierId": "1502125",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "戒指",
+      "effectPlain": "附加 (18–20) % 物理伤害的闪电伤害",
+      "valueSpans": [
+        "(18–20)"
+      ]
+    },
+    {
+      "modifierId": "1502112",
       "tier": 1,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "基础词缀",
       "source": "戒指",
-      "effectPlain": "释放法术技能时，获得 法术激进",
+      "effectPlain": "+(15–20) % 战意 效果",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "1502110",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "戒指",
+      "effectPlain": "+(8–10) % 移动速度",
+      "valueSpans": [
+        "+(8–10)"
+      ]
+    },
+    {
+      "modifierId": "1502121",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "戒指",
+      "effectPlain": "免疫 凋零",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "1502120",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "戒指",
+      "effectPlain": "免疫 创伤",
       "valueSpans": []
     },
     {
@@ -335,786 +1590,21 @@
       "valueSpans": []
     },
     {
-      "modifierId": "60062101",
-      "tier": 0,
+      "modifierId": "1502127",
+      "tier": 1,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "侵蚀基底",
+      "affixType": "基础词缀",
       "source": "戒指",
-      "effectPlain": "+5 % 获得经验值",
-      "valueSpans": [
-        "+5"
-      ]
-    },
-    {
-      "modifierId": "60062102",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "戒指",
-      "effectPlain": "+5 % 移动速度",
-      "valueSpans": [
-        "+5"
-      ]
-    },
-    {
-      "modifierId": "60062104",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "戒指",
-      "effectPlain": "免疫 创伤 免疫 凋零",
+      "effectPlain": "释放法术技能时，获得 法术激进",
       "valueSpans": []
     },
     {
-      "modifierId": "60062106",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "戒指",
-      "effectPlain": "+(8–10) % 力量",
-      "valueSpans": [
-        "+(8–10)"
-      ]
-    },
-    {
-      "modifierId": "60062107",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "戒指",
-      "effectPlain": "+(8–10) % 敏捷",
-      "valueSpans": [
-        "+(8–10)"
-      ]
-    },
-    {
-      "modifierId": "60062108",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "戒指",
-      "effectPlain": "+(8–10) % 智慧",
-      "valueSpans": [
-        "+(8–10)"
-      ]
-    },
-    {
-      "modifierId": "60062111",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "戒指",
-      "effectPlain": "+(50–70) % 伤害",
-      "valueSpans": [
-        "+(50–70)"
-      ]
-    },
-    {
-      "modifierId": "60062112",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "戒指",
-      "effectPlain": "+(15–25) % 最大生命",
-      "valueSpans": [
-        "+(15–25)"
-      ]
-    },
-    {
-      "modifierId": "60062113",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "戒指",
-      "effectPlain": "+(15–25) % 最大护盾",
-      "valueSpans": [
-        "+(15–25)"
-      ]
-    },
-    {
-      "modifierId": "104210001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "戒指",
-      "effectPlain": "+(155–220) 最大生命",
-      "valueSpans": [
-        "+(155–220)"
-      ]
-    },
-    {
-      "modifierId": "105210201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "戒指",
-      "effectPlain": "+(245–350) 最大护盾",
-      "valueSpans": [
-        "+(245–350)"
-      ]
-    },
-    {
-      "modifierId": "140210101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "戒指",
-      "effectPlain": "+(27–36) % 护甲值",
-      "valueSpans": [
-        "+(27–36)"
-      ]
-    },
-    {
-      "modifierId": "140210201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "戒指",
-      "effectPlain": "+(27–36) % 闪避值",
-      "valueSpans": [
-        "+(27–36)"
-      ]
-    },
-    {
-      "modifierId": "140210301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "戒指",
-      "effectPlain": "+(51–72) % 伤害",
-      "valueSpans": [
-        "+(51–72)"
-      ]
-    },
-    {
-      "modifierId": "140722001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "戒指",
-      "effectPlain": "+(85–120) 最大魔力",
-      "valueSpans": [
-        "+(85–120)"
-      ]
-    },
-    {
-      "modifierId": "104210101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "戒指",
-      "effectPlain": "+(12–15) % 攻击与法术格挡率",
-      "valueSpans": [
-        "+(12–15)"
-      ]
-    },
-    {
-      "modifierId": "106210401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "戒指",
-      "effectPlain": "攻击和法术附加 (44–46) - (54–56) 点物理伤害",
-      "valueSpans": [
-        "(44–46)",
-        "(54–56)"
-      ]
-    },
-    {
-      "modifierId": "106210501",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "戒指",
-      "effectPlain": "攻击和法术附加 (42–44) - (54–59) 点火焰伤害",
-      "valueSpans": [
-        "(42–44)",
-        "(54–59)"
-      ]
-    },
-    {
-      "modifierId": "106210601",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "戒指",
-      "effectPlain": "攻击和法术附加 (42–44) - (56–58) 点冰冷伤害",
-      "valueSpans": [
-        "(42–44)",
-        "(56–58)"
-      ]
-    },
-    {
-      "modifierId": "106210701",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "戒指",
-      "effectPlain": "攻击和法术附加 (4–6) - (94–96) 点闪电伤害",
-      "valueSpans": [
-        "(4–6)",
-        "(94–96)"
-      ]
-    },
-    {
-      "modifierId": "109210001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "戒指",
-      "effectPlain": "+(43–60) 力量",
-      "valueSpans": [
-        "+(43–60)"
-      ]
-    },
-    {
-      "modifierId": "109210101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "戒指",
-      "effectPlain": "+(43–60) 敏捷",
-      "valueSpans": [
-        "+(43–60)"
-      ]
-    },
-    {
-      "modifierId": "109210201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "戒指",
-      "effectPlain": "+(43–60) 智慧",
-      "valueSpans": [
-        "+(43–60)"
-      ]
-    },
-    {
-      "modifierId": "140210501",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "戒指",
-      "effectPlain": "攻击和法术附加 (42–44) - (56–58) 点腐蚀伤害",
-      "valueSpans": [
-        "(42–44)",
-        "(56–58)"
-      ]
-    },
-    {
-      "modifierId": "140902201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "戒指",
-      "effectPlain": "+(23–32) % 恶化 几率",
-      "valueSpans": [
-        "+(23–32)"
-      ]
-    },
-    {
-      "modifierId": "115210801",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "戒指",
-      "effectPlain": "+1 坚韧祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "115210901",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "戒指",
-      "effectPlain": "+1 灵动祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "115211001",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "戒指",
-      "effectPlain": "+1 聚能祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "115211301",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "戒指",
-      "effectPlain": "+10 % 最大魔力， +80 技能消耗",
-      "valueSpans": [
-        "+10",
-        "+80"
-      ]
-    },
-    {
-      "modifierId": "140210401",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "戒指",
-      "effectPlain": "+(15–20) % 元素和腐蚀抗性穿透",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "140210901",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "戒指",
-      "effectPlain": "+(13–17) % 护甲减伤穿透",
-      "valueSpans": [
-        "+(13–17)"
-      ]
-    },
-    {
-      "modifierId": "140902101",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "戒指",
-      "effectPlain": "+(36–50) % 恶化 伤害",
-      "valueSpans": [
-        "+(36–50)"
-      ]
-    },
-    {
-      "modifierId": "108210001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "戒指",
-      "effectPlain": "+(19–27) % 火焰抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "108210101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "戒指",
-      "effectPlain": "+(19–27) % 冰冷抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "108210201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "戒指",
-      "effectPlain": "+(19–27) % 闪电抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "108210301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "戒指",
-      "effectPlain": "+(19–27) % 腐蚀抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "110210001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "戒指",
-      "effectPlain": "+(87–120) % 暴击值",
-      "valueSpans": [
-        "+(87–120)"
-      ]
-    },
-    {
-      "modifierId": "111210001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "戒指",
-      "effectPlain": "+(35–50) % 收割 时间",
-      "valueSpans": [
-        "+(35–50)"
-      ]
-    },
-    {
-      "modifierId": "111210101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "戒指",
-      "effectPlain": "+(36–50) % 加剧 效果",
-      "valueSpans": [
-        "+(36–50)"
-      ]
-    },
-    {
-      "modifierId": "115211101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "戒指",
-      "effectPlain": "+(37–50) % 地面蓄能 回复速度",
-      "valueSpans": [
-        "+(37–50)"
-      ]
-    },
-    {
-      "modifierId": "130210301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "戒指",
-      "effectPlain": "+(44–60) % 暴击伤害",
-      "valueSpans": [
-        "+(44–60)"
-      ]
-    },
-    {
-      "modifierId": "140210801",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "戒指",
-      "effectPlain": "+(26–36) % 贯注速度",
-      "valueSpans": [
-        "+(26–36)"
-      ]
-    },
-    {
-      "modifierId": "140211001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "戒指",
-      "effectPlain": "+1 点连携起手技获得的连携点 额外 +(1–2) % 伤害",
-      "valueSpans": [
-        "+1",
-        "+(1–2)"
-      ]
-    },
-    {
-      "modifierId": "140211201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "戒指",
-      "effectPlain": "+(15–20) 冰结值 上限",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "140722101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "戒指",
-      "effectPlain": "+(23–32) % 最大魔力",
-      "valueSpans": [
-        "+(23–32)"
-      ]
-    },
-    {
-      "modifierId": "140902701",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "戒指",
-      "effectPlain": "每移动 5 米， 100 % 几率获得 屏障",
-      "valueSpans": [
-        "5",
-        "100"
-      ]
-    },
-    {
-      "modifierId": "111210301",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "戒指",
-      "effectPlain": "+(59–83) % 收割 回复速度",
-      "valueSpans": [
-        "+(59–83)"
-      ]
-    },
-    {
-      "modifierId": "130210401",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "戒指",
-      "effectPlain": "+(9–12) % 元素 抗性 +(9–12) % 腐蚀抗性",
-      "valueSpans": [
-        "+(9–12)",
-        "+(9–12)"
-      ]
-    },
-    {
-      "modifierId": "130210601",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "戒指",
-      "effectPlain": "+(36–50) % 战意 效果",
-      "valueSpans": [
-        "+(36–50)"
-      ]
-    },
-    {
-      "modifierId": "140210601",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "戒指",
-      "effectPlain": "+(19–26) % 几率造成双倍伤害",
-      "valueSpans": [
-        "+(19–26)"
-      ]
-    },
-    {
-      "modifierId": "140210701",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "戒指",
-      "effectPlain": "额外 +(18–23) % 主手武器 伤害",
-      "valueSpans": [
-        "+(18–23)"
-      ]
-    },
-    {
-      "modifierId": "140211101",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "戒指",
-      "effectPlain": "对 冰封 的敌人额外 +(18–23) % 伤害",
-      "valueSpans": [
-        "+(18–23)"
-      ]
-    },
-    {
-      "modifierId": "140902301",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "戒指",
-      "effectPlain": "+(23–32) % 恶化 持续时间",
-      "valueSpans": [
-        "+(23–32)"
-      ]
-    },
-    {
-      "modifierId": "85021001",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "戒指",
-      "effectPlain": "+(54–74) 最大生命",
-      "valueSpans": [
-        "+(54–74)"
-      ]
-    },
-    {
-      "modifierId": "85021011",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "戒指",
-      "effectPlain": "+(87–117) 最大护盾",
-      "valueSpans": [
-        "+(87–117)"
-      ]
-    },
-    {
-      "modifierId": "85021021",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "戒指",
-      "effectPlain": "+(5–10) % 火焰抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "85021031",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "戒指",
-      "effectPlain": "+(5–10) % 冰冷抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "85021041",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "戒指",
-      "effectPlain": "+(5–10) % 闪电抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "85021051",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "戒指",
-      "effectPlain": "+(5–10) % 腐蚀抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "85021061",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "戒指",
-      "effectPlain": "+(15–20) 力量",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "85021071",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "戒指",
-      "effectPlain": "+(15–20) 敏捷",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "85021081",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "戒指",
-      "effectPlain": "+(15–20) 智慧",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "85021091",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "戒指",
-      "effectPlain": "+(6–8) % 攻击和施法速度",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "85021101",
+      "modifierId": "1502111",
       "tier": 1,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "戒指",
-      "effectPlain": "+(8–10) % 移动速度",
-      "valueSpans": [
-        "+(8–10)"
-      ]
-    },
-    {
-      "modifierId": "85021111",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "戒指",
       "effectPlain": "释放轰炸技能时，有 +(20–25) % 概率该次轰炸技能总波次+1",
       "valueSpans": [
@@ -1122,15 +1612,703 @@
       ]
     },
     {
-      "modifierId": "85021121",
-      "tier": 1,
+      "modifierId": "1502106",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "戒指",
-      "effectPlain": "+(15–20) % 战意 效果",
+      "effectPlain": "+(15–20) 力量",
       "valueSpans": [
         "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "1502107",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "戒指",
+      "effectPlain": "+(15–20) 敏捷",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "1502108",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "戒指",
+      "effectPlain": "+(15–20) 智慧",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "1502100",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "戒指",
+      "effectPlain": "+(54–74) 最大生命",
+      "valueSpans": [
+        "+(54–74)"
+      ]
+    },
+    {
+      "modifierId": "1502103",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "戒指",
+      "effectPlain": "+(5–10) % 冰冷抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "1502102",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "戒指",
+      "effectPlain": "+(5–10) % 火焰抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "1502105",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "戒指",
+      "effectPlain": "+(5–10) % 腐蚀抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "1502104",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "戒指",
+      "effectPlain": "+(5–10) % 闪电抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "1502109",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "戒指",
+      "effectPlain": "+(6–8) % 攻击和施法速度",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1502101",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "戒指",
+      "effectPlain": "+(87–117) 最大护盾",
+      "valueSpans": [
+        "+(87–117)"
+      ]
+    },
+    {
+      "modifierId": "51511911",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "孤胆",
+      "source": "戒指",
+      "effectPlain": "+(25–30) 最大魔力",
+      "valueSpans": [
+        "+(25–30)"
+      ]
+    },
+    {
+      "modifierId": "51511931",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "孤胆",
+      "source": "戒指",
+      "effectPlain": "如果只装备了一个戒指，则核心技能被 (1–7) 级附加冰冷伤害辅助",
+      "valueSpans": [
+        "(1–7)"
+      ]
+    },
+    {
+      "modifierId": "51511921",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "孤胆",
+      "source": "戒指",
+      "effectPlain": "如果只装备了一个戒指，则核心技能被 (1–7) 级附加火焰伤害辅助",
+      "valueSpans": [
+        "(1–7)"
+      ]
+    },
+    {
+      "modifierId": "51511951",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "孤胆",
+      "source": "戒指",
+      "effectPlain": "如果只装备了一个戒指，则核心技能被 (1–7) 级附加腐蚀伤害辅助",
+      "valueSpans": [
+        "(1–7)"
+      ]
+    },
+    {
+      "modifierId": "51511941",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "孤胆",
+      "source": "戒指",
+      "effectPlain": "如果只装备了一个戒指，则核心技能被 (1–7) 级附加闪电伤害辅助",
+      "valueSpans": [
+        "(1–7)"
+      ]
+    },
+    {
+      "modifierId": "51528211",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "崇光",
+      "source": "戒指",
+      "effectPlain": "+1 射线技能等级",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51528221",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "崇光",
+      "source": "戒指",
+      "effectPlain": "+1 射线条数",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "80617021",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "时之逝",
+      "source": "戒指",
+      "effectPlain": "+10 % 冷却回复速度 -30 % 异常状态 持续时间",
+      "valueSpans": [
+        "+10",
+        "-30"
+      ]
+    },
+    {
+      "modifierId": "80617031",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "时之逝",
+      "source": "戒指",
+      "effectPlain": "最近每造成 1 种 异常状态 或 控制类状态 ，额外 +3 % 伤害（叠乘）",
+      "valueSpans": [
+        "+3"
+      ]
+    },
+    {
+      "modifierId": "80617011",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "时之逝",
+      "source": "戒指",
+      "effectPlain": "每秒消耗 10 % 当前生命与护盾",
+      "valueSpans": [
+        "10"
+      ]
+    },
+    {
+      "modifierId": "54526541",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "污秽祝祷",
+      "source": "戒指",
+      "effectPlain": "+1 坚韧祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "54526501",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "污秽祝祷",
+      "source": "戒指",
+      "effectPlain": "+1 灵动祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "54526581",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "污秽祝祷",
+      "source": "戒指",
+      "effectPlain": "+1 聚能祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "54526571",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "污秽祝祷",
+      "source": "戒指",
+      "effectPlain": "造成伤害时，获得一层 坚韧祝福 ，间隔 1 秒",
+      "valueSpans": [
+        "1"
+      ]
+    },
+    {
+      "modifierId": "54526531",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "污秽祝祷",
+      "source": "戒指",
+      "effectPlain": "造成伤害时，获得一层 灵动祝福 ，间隔 1 秒",
+      "valueSpans": [
+        "1"
+      ]
+    },
+    {
+      "modifierId": "54526591",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "污秽祝祷",
+      "source": "戒指",
+      "effectPlain": "造成伤害时，获得一层 聚能祝福 ，间隔 1 秒",
+      "valueSpans": [
+        "1"
+      ]
+    },
+    {
+      "modifierId": "51533421",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "泥偶的断指",
+      "source": "戒指",
+      "effectPlain": "+10 % 地面技能范围",
+      "valueSpans": [
+        "+10"
+      ]
+    },
+    {
+      "modifierId": "51533441",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "泥偶的断指",
+      "source": "戒指",
+      "effectPlain": "+20 最大生命",
+      "valueSpans": [
+        "+20"
+      ]
+    },
+    {
+      "modifierId": "51533411",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "泥偶的断指",
+      "source": "戒指",
+      "effectPlain": "使用地面技能后， +80 % 法术伤害，持续 2 秒",
+      "valueSpans": [
+        "+80",
+        "2"
+      ]
+    },
+    {
+      "modifierId": "51533431",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "泥偶的断指",
+      "source": "戒指",
+      "effectPlain": "受到地面持续伤害的敌人免疫 异常状态",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51511111",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "混乱终焉",
+      "source": "戒指",
+      "effectPlain": "+(11–12) 全属性",
+      "valueSpans": [
+        "+(11–12)"
+      ]
+    },
+    {
+      "modifierId": "51511121",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "混乱终焉",
+      "source": "戒指",
+      "effectPlain": "+8 % 最大生命",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "51511131",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "混乱终焉",
+      "source": "戒指",
+      "effectPlain": "+9 % 最大护盾",
+      "valueSpans": [
+        "+9"
+      ]
+    },
+    {
+      "modifierId": "51512611",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "清净幻痛",
+      "source": "戒指",
+      "effectPlain": "+(50–70) % 持续伤害",
+      "valueSpans": [
+        "+(50–70)"
+      ]
+    },
+    {
+      "modifierId": "51512621",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "清净幻痛",
+      "source": "戒指",
+      "effectPlain": "+(5–10) % 技能效果持续时间",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "51512641",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "清净幻痛",
+      "source": "戒指",
+      "effectPlain": "+(5–6) % 火焰与冰冷抗性",
+      "valueSpans": [
+        "+(5–6)"
+      ]
+    },
+    {
+      "modifierId": "51512631",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "清净幻痛",
+      "source": "戒指",
+      "effectPlain": "周围 10 米内敌人加剧值达到上限时，收割其具有的 0.25 秒持续伤害，该效果对同一目标有 (2–5) 秒回复时间",
+      "valueSpans": [
+        "10",
+        "0.25",
+        "(2–5)"
+      ]
+    },
+    {
+      "modifierId": "51510131",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "火焰降生",
+      "source": "戒指",
+      "effectPlain": "每 1 等级， +1 %火焰伤害",
+      "valueSpans": [
+        "1",
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "51510111",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "火焰降生",
+      "source": "戒指",
+      "effectPlain": "每 1 等级， +5 最大生命",
+      "valueSpans": [
+        "1",
+        "+5"
+      ]
+    },
+    {
+      "modifierId": "51510141",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "火焰降生",
+      "source": "戒指",
+      "effectPlain": "每秒自然回复 (30–40) 生命",
+      "valueSpans": [
+        "(30–40)"
+      ]
+    },
+    {
+      "modifierId": "51511241",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "灼热指骨",
+      "source": "戒指",
+      "effectPlain": "+(10–15) % 点燃 几率",
+      "valueSpans": [
+        "+(10–15)"
+      ]
+    },
+    {
+      "modifierId": "51511211",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "灼热指骨",
+      "source": "戒指",
+      "effectPlain": "+120 % 火焰伤害",
+      "valueSpans": [
+        "+120"
+      ]
+    },
+    {
+      "modifierId": "51511251",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "灼热指骨",
+      "source": "戒指",
+      "effectPlain": "无法造成收割",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51510261",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "狂怒之心",
+      "source": "戒指",
+      "effectPlain": "(-1–1) 灵动祝福 层数上限",
+      "valueSpans": [
+        "(-1–1)"
+      ]
+    },
+    {
+      "modifierId": "51510231",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "狂怒之心",
+      "source": "戒指",
+      "effectPlain": "+(10–20) % 攻击暴击伤害",
+      "valueSpans": [
+        "+(10–20)"
+      ]
+    },
+    {
+      "modifierId": "51510241",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "狂怒之心",
+      "source": "戒指",
+      "effectPlain": "暴击时， +(60–100) % 几率获得一层 灵动祝福 ，间隔 0.1 秒",
+      "valueSpans": [
+        "+(60–100)",
+        "0.1"
+      ]
+    },
+    {
+      "modifierId": "51510251",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "狂怒之心",
+      "source": "戒指",
+      "effectPlain": "每有1层 灵动祝福 ， -24 % 暴击值，最多叠加 4 次",
+      "valueSpans": [
+        "-24",
+        "4"
+      ]
+    },
+    {
+      "modifierId": "55510261",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "狂怒之心",
+      "source": "戒指",
+      "effectPlain": "灵动祝福 达到上限时， +(160–200) 攻击和法术暴击值",
+      "valueSpans": [
+        "+(160–200)"
+      ]
+    },
+    {
+      "modifierId": "51511811",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "独活",
+      "source": "戒指",
+      "effectPlain": "+(60–70) 最大生命",
+      "valueSpans": [
+        "+(60–70)"
+      ]
+    },
+    {
+      "modifierId": "51511841",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "独活",
+      "source": "戒指",
+      "effectPlain": "如果只装备了一个戒指， +(10–20) % 生命返还",
+      "valueSpans": [
+        "+(10–20)"
+      ]
+    },
+    {
+      "modifierId": "51511821",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "独活",
+      "source": "戒指",
+      "effectPlain": "如果只装备了一个戒指， +35 % 受伤缓冲",
+      "valueSpans": [
+        "+35"
+      ]
+    },
+    {
+      "modifierId": "51511851",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "独活",
+      "source": "戒指",
+      "effectPlain": "如果只装备了一个戒指， -99 % 生命自然回复速度",
+      "valueSpans": [
+        "-99"
+      ]
+    },
+    {
+      "modifierId": "51511831",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "独活",
+      "source": "戒指",
+      "effectPlain": "如果只装备了一个戒指，额外 -20 % 返还间隔",
+      "valueSpans": [
+        "-20"
+      ]
+    },
+    {
+      "modifierId": "51511611",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "破厄雷狱",
+      "source": "戒指",
+      "effectPlain": "+(10–15) % 最大生命和最大护盾",
+      "valueSpans": [
+        "+(10–15)"
+      ]
+    },
+    {
+      "modifierId": "51511641",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "破厄雷狱",
+      "source": "戒指",
+      "effectPlain": "-20 % 雷霆贯注 魔力封印 补偿",
+      "valueSpans": [
+        "-20"
+      ]
+    },
+    {
+      "modifierId": "51511631",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "破厄雷狱",
+      "source": "戒指",
+      "effectPlain": "最近雷霆贯注每造成一次击中， +2 % 闪电伤害",
+      "valueSpans": [
+        "+2"
+      ]
+    },
+    {
+      "modifierId": "51511651",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "破厄雷狱",
+      "source": "戒指",
+      "effectPlain": "额外 +(25–30) % 雷霆贯注伤害",
+      "valueSpans": [
+        "+(25–30)"
+      ]
+    },
+    {
+      "modifierId": "51511621",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "破厄雷狱",
+      "source": "戒指",
+      "effectPlain": "额外 -80 % 主动技能伤害",
+      "valueSpans": [
+        "-80"
       ]
     },
     {
@@ -1209,18 +2387,6 @@
       ]
     },
     {
-      "modifierId": "85021201",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "戒指",
-      "effectPlain": "附加 (18–20) % 物理伤害的火焰伤害",
-      "valueSpans": [
-        "(18–20)"
-      ]
-    },
-    {
       "modifierId": "85021211",
       "tier": 0,
       "itemLevel": 1,
@@ -1233,13 +2399,13 @@
       ]
     },
     {
-      "modifierId": "85021221",
+      "modifierId": "85021201",
       "tier": 0,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "戒指",
-      "effectPlain": "附加 (18–20) % 物理伤害的闪电伤害",
+      "effectPlain": "附加 (18–20) % 物理伤害的火焰伤害",
       "valueSpans": [
         "(18–20)"
       ]
@@ -1257,15 +2423,39 @@
       ]
     },
     {
-      "modifierId": "85021241",
+      "modifierId": "85021221",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "戒指",
+      "effectPlain": "附加 (18–20) % 物理伤害的闪电伤害",
+      "valueSpans": [
+        "(18–20)"
+      ]
+    },
+    {
+      "modifierId": "85021121",
       "tier": 1,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "戒指",
-      "effectPlain": "造成伤害时，施加 火焰渗透 ，对每个敌人拥有 2 秒间隔时间",
+      "effectPlain": "+(15–20) % 战意 效果",
       "valueSpans": [
-        "2"
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85021101",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "戒指",
+      "effectPlain": "+(8–10) % 移动速度",
+      "valueSpans": [
+        "+(8–10)"
       ]
     },
     {
@@ -1276,6 +2466,18 @@
       "affixType": "美梦词缀",
       "source": "戒指",
       "effectPlain": "造成伤害时，施加 冰冷渗透 ，对每个敌人拥有 2 秒间隔时间",
+      "valueSpans": [
+        "2"
+      ]
+    },
+    {
+      "modifierId": "85021241",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "戒指",
+      "effectPlain": "造成伤害时，施加 火焰渗透 ，对每个敌人拥有 2 秒间隔时间",
       "valueSpans": [
         "2"
       ]
@@ -1293,969 +2495,776 @@
       ]
     },
     {
-      "modifierId": "51510111",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "火焰降生",
+      "modifierId": "85021111",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
       "source": "戒指",
-      "effectPlain": "每 1 等级， +5 最大生命",
-      "valueSpans": [
-        "1",
-        "+5"
-      ]
-    },
-    {
-      "modifierId": "51510131",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "火焰降生",
-      "source": "戒指",
-      "effectPlain": "每 1 等级， +1 %火焰伤害",
-      "valueSpans": [
-        "1",
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "51510141",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "火焰降生",
-      "source": "戒指",
-      "effectPlain": "每秒自然回复 (30–40) 生命",
-      "valueSpans": [
-        "(30–40)"
-      ]
-    },
-    {
-      "modifierId": "51510231",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "狂怒之心",
-      "source": "戒指",
-      "effectPlain": "+(10–20) % 攻击暴击伤害",
-      "valueSpans": [
-        "+(10–20)"
-      ]
-    },
-    {
-      "modifierId": "51510241",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "狂怒之心",
-      "source": "戒指",
-      "effectPlain": "暴击时， +(60–100) % 几率获得一层 灵动祝福 ，间隔 0.1 秒",
-      "valueSpans": [
-        "+(60–100)",
-        "0.1"
-      ]
-    },
-    {
-      "modifierId": "51510251",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "狂怒之心",
-      "source": "戒指",
-      "effectPlain": "每有1层 灵动祝福 ， -24 % 暴击值，最多叠加 4 次",
-      "valueSpans": [
-        "-24",
-        "4"
-      ]
-    },
-    {
-      "modifierId": "55510261",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "狂怒之心",
-      "source": "戒指",
-      "effectPlain": "灵动祝福 达到上限时， +(160–200) 攻击和法术暴击值",
-      "valueSpans": [
-        "+(160–200)"
-      ]
-    },
-    {
-      "modifierId": "51510261",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "狂怒之心",
-      "source": "戒指",
-      "effectPlain": "(-1–1) 灵动祝福 层数上限",
-      "valueSpans": [
-        "(-1–1)"
-      ]
-    },
-    {
-      "modifierId": "51510921",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "躁动冰河",
-      "source": "戒指",
-      "effectPlain": "+(30–40) 智慧",
-      "valueSpans": [
-        "+(30–40)"
-      ]
-    },
-    {
-      "modifierId": "51510931",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "躁动冰河",
-      "source": "戒指",
-      "effectPlain": "+(20–25) % 冰冷抗性",
+      "effectPlain": "释放轰炸技能时，有 +(20–25) % 概率该次轰炸技能总波次+1",
       "valueSpans": [
         "+(20–25)"
       ]
     },
     {
-      "modifierId": "51510941",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "躁动冰河",
+      "modifierId": "85021061",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
       "source": "戒指",
-      "effectPlain": "+(10–15) 冰结值 上限",
+      "effectPlain": "+(15–20) 力量",
       "valueSpans": [
-        "+(10–15)"
+        "+(15–20)"
       ]
     },
     {
-      "modifierId": "51510951",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "躁动冰河",
+      "modifierId": "85021071",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
       "source": "戒指",
-      "effectPlain": "击败被 冰封 的敌人时 (10–15) % 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 (80–100) % 的真实伤害",
+      "effectPlain": "+(15–20) 敏捷",
       "valueSpans": [
-        "(10–15)",
-        "6",
-        "(80–100)"
+        "+(15–20)"
       ]
     },
     {
-      "modifierId": "51511111",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "混乱终焉",
+      "modifierId": "85021081",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
       "source": "戒指",
-      "effectPlain": "+(11–12) 全属性",
+      "effectPlain": "+(15–20) 智慧",
       "valueSpans": [
-        "+(11–12)"
+        "+(15–20)"
       ]
     },
     {
-      "modifierId": "51511121",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "混乱终焉",
+      "modifierId": "85021001",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
       "source": "戒指",
-      "effectPlain": "+8 % 最大生命",
+      "effectPlain": "+(54–74) 最大生命",
       "valueSpans": [
-        "+8"
+        "+(54–74)"
       ]
     },
     {
-      "modifierId": "51511131",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "混乱终焉",
+      "modifierId": "85021031",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
       "source": "戒指",
-      "effectPlain": "+9 % 最大护盾",
-      "valueSpans": [
-        "+9"
-      ]
-    },
-    {
-      "modifierId": "51511211",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "灼热指骨",
-      "source": "戒指",
-      "effectPlain": "+120 % 火焰伤害",
-      "valueSpans": [
-        "+120"
-      ]
-    },
-    {
-      "modifierId": "51511241",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "灼热指骨",
-      "source": "戒指",
-      "effectPlain": "+(10–15) % 点燃 几率",
-      "valueSpans": [
-        "+(10–15)"
-      ]
-    },
-    {
-      "modifierId": "51511251",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "灼热指骨",
-      "source": "戒指",
-      "effectPlain": "无法造成收割",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "51511611",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "破厄雷狱",
-      "source": "戒指",
-      "effectPlain": "+(10–15) % 最大生命和最大护盾",
-      "valueSpans": [
-        "+(10–15)"
-      ]
-    },
-    {
-      "modifierId": "51511621",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "破厄雷狱",
-      "source": "戒指",
-      "effectPlain": "额外 -80 % 主动技能伤害",
-      "valueSpans": [
-        "-80"
-      ]
-    },
-    {
-      "modifierId": "51511631",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "破厄雷狱",
-      "source": "戒指",
-      "effectPlain": "最近雷霆贯注每造成一次击中， +2 % 闪电伤害",
-      "valueSpans": [
-        "+2"
-      ]
-    },
-    {
-      "modifierId": "51511641",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "破厄雷狱",
-      "source": "戒指",
-      "effectPlain": "-20 % 雷霆贯注 魔力封印 补偿",
-      "valueSpans": [
-        "-20"
-      ]
-    },
-    {
-      "modifierId": "51511651",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "破厄雷狱",
-      "source": "戒指",
-      "effectPlain": "额外 +(25–30) % 雷霆贯注伤害",
-      "valueSpans": [
-        "+(25–30)"
-      ]
-    },
-    {
-      "modifierId": "51511711",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "冰结雷光",
-      "source": "戒指",
-      "effectPlain": "+(7–11) 点敏捷与智慧",
-      "valueSpans": [
-        "+(7–11)"
-      ]
-    },
-    {
-      "modifierId": "51511721",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "冰结雷光",
-      "source": "戒指",
-      "effectPlain": "+(36–43) % 元素 伤害",
-      "valueSpans": [
-        "+(36–43)"
-      ]
-    },
-    {
-      "modifierId": "51511731",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "冰结雷光",
-      "source": "戒指",
-      "effectPlain": "+3 % 冰冷与闪电抗性",
-      "valueSpans": [
-        "+3"
-      ]
-    },
-    {
-      "modifierId": "51511741",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "冰结雷光",
-      "source": "戒指",
-      "effectPlain": "50 % 闪电伤害转化为冰冷伤害",
-      "valueSpans": [
-        "50"
-      ]
-    },
-    {
-      "modifierId": "51511751",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "冰结雷光",
-      "source": "戒指",
-      "effectPlain": "击中敌人时，附加一层 减速 ，持续 2 秒",
-      "valueSpans": [
-        "2"
-      ]
-    },
-    {
-      "modifierId": "51511811",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "独活",
-      "source": "戒指",
-      "effectPlain": "+(60–70) 最大生命",
-      "valueSpans": [
-        "+(60–70)"
-      ]
-    },
-    {
-      "modifierId": "51511821",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "独活",
-      "source": "戒指",
-      "effectPlain": "如果只装备了一个戒指， +35 % 受伤缓冲",
-      "valueSpans": [
-        "+35"
-      ]
-    },
-    {
-      "modifierId": "51511831",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "独活",
-      "source": "戒指",
-      "effectPlain": "如果只装备了一个戒指，额外 -20 % 返还间隔",
-      "valueSpans": [
-        "-20"
-      ]
-    },
-    {
-      "modifierId": "51511841",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "独活",
-      "source": "戒指",
-      "effectPlain": "如果只装备了一个戒指， +(10–20) % 生命返还",
-      "valueSpans": [
-        "+(10–20)"
-      ]
-    },
-    {
-      "modifierId": "51511851",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "独活",
-      "source": "戒指",
-      "effectPlain": "如果只装备了一个戒指， -99 % 生命自然回复速度",
-      "valueSpans": [
-        "-99"
-      ]
-    },
-    {
-      "modifierId": "51511911",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "孤胆",
-      "source": "戒指",
-      "effectPlain": "+(25–30) 最大魔力",
-      "valueSpans": [
-        "+(25–30)"
-      ]
-    },
-    {
-      "modifierId": "51511921",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "孤胆",
-      "source": "戒指",
-      "effectPlain": "如果只装备了一个戒指，则核心技能被 (1–7) 级附加火焰伤害辅助",
-      "valueSpans": [
-        "(1–7)"
-      ]
-    },
-    {
-      "modifierId": "51511931",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "孤胆",
-      "source": "戒指",
-      "effectPlain": "如果只装备了一个戒指，则核心技能被 (1–7) 级附加冰冷伤害辅助",
-      "valueSpans": [
-        "(1–7)"
-      ]
-    },
-    {
-      "modifierId": "51511941",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "孤胆",
-      "source": "戒指",
-      "effectPlain": "如果只装备了一个戒指，则核心技能被 (1–7) 级附加闪电伤害辅助",
-      "valueSpans": [
-        "(1–7)"
-      ]
-    },
-    {
-      "modifierId": "51511951",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "孤胆",
-      "source": "戒指",
-      "effectPlain": "如果只装备了一个戒指，则核心技能被 (1–7) 级附加腐蚀伤害辅助",
-      "valueSpans": [
-        "(1–7)"
-      ]
-    },
-    {
-      "modifierId": "52512011",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "钢铁涓流",
-      "source": "戒指",
-      "effectPlain": "+(60–70) % 近战伤害",
-      "valueSpans": [
-        "+(60–70)"
-      ]
-    },
-    {
-      "modifierId": "52512021",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "钢铁涓流",
-      "source": "戒指",
-      "effectPlain": "+(60–70) % 坚固 魔力封印 补偿",
-      "valueSpans": [
-        "+(60–70)"
-      ]
-    },
-    {
-      "modifierId": "52512031",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "钢铁涓流",
-      "source": "戒指",
-      "effectPlain": "对非物理伤害， +(8–12) % 护甲有效率",
-      "valueSpans": [
-        "+(8–12)"
-      ]
-    },
-    {
-      "modifierId": "51512211",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "不燃之火",
-      "source": "戒指",
-      "effectPlain": "+(20–24) % 最大生命和最大护盾",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "55512231",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "不燃之火",
-      "source": "戒指",
-      "effectPlain": "+(3–5) 激发技能等级",
-      "valueSpans": [
-        "+(3–5)"
-      ]
-    },
-    {
-      "modifierId": "51512241",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "不燃之火",
-      "source": "戒指",
-      "effectPlain": "击中敌人时， +(50–80) % 几率触发 30 级公牛之怒，冷却4秒",
-      "valueSpans": [
-        "+(50–80)",
-        "30"
-      ]
-    },
-    {
-      "modifierId": "51512251",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "不燃之火",
-      "source": "戒指",
-      "effectPlain": "+(35–42) % 火焰与闪电抗性",
-      "valueSpans": [
-        "+(35–42)"
-      ]
-    },
-    {
-      "modifierId": "51512261",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "不燃之火",
-      "source": "戒指",
-      "effectPlain": "无法造成 点燃",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "51512311",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "不冻之冰",
-      "source": "戒指",
-      "effectPlain": "+(20–24) % 最大生命和最大护盾",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "55512331",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "不冻之冰",
-      "source": "戒指",
-      "effectPlain": "+10 防护技能等级",
-      "valueSpans": [
-        "+10"
-      ]
-    },
-    {
-      "modifierId": "55512341",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "不冻之冰",
-      "source": "戒指",
-      "effectPlain": "击中敌人时， +(50–80) % 几率触发 30 级寒冰盾，冷却4秒",
-      "valueSpans": [
-        "+(50–80)",
-        "30"
-      ]
-    },
-    {
-      "modifierId": "51512351",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "不冻之冰",
-      "source": "戒指",
-      "effectPlain": "+(35–42) % 冰冷与腐蚀抗性",
-      "valueSpans": [
-        "+(35–42)"
-      ]
-    },
-    {
-      "modifierId": "55512361",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "不冻之冰",
-      "source": "戒指",
-      "effectPlain": "无法造成 冰结",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "51512411",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "风息之引",
-      "source": "戒指",
-      "effectPlain": "+40 % 防御值",
-      "valueSpans": [
-        "+40"
-      ]
-    },
-    {
-      "modifierId": "51512431",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "风息之引",
-      "source": "戒指",
-      "effectPlain": "+(10–12) % 元素 抗性",
-      "valueSpans": [
-        "+(10–12)"
-      ]
-    },
-    {
-      "modifierId": "51512441",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "风息之引",
-      "source": "戒指",
-      "effectPlain": "(-20–-10) % 移动速度",
-      "valueSpans": [
-        "(-20–-10)"
-      ]
-    },
-    {
-      "modifierId": "51512451",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "风息之引",
-      "source": "戒指",
-      "effectPlain": "装备在左侧戒指槽位时， +(2–4) 引导上限",
-      "valueSpans": [
-        "+(2–4)"
-      ]
-    },
-    {
-      "modifierId": "51512461",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "风息之引",
-      "source": "戒指",
-      "effectPlain": "装备在右侧戒指槽位时，引导时， +(8–12) % 几率避免伤害",
-      "valueSpans": [
-        "+(8–12)"
-      ]
-    },
-    {
-      "modifierId": "51512511",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "风息之散",
-      "source": "戒指",
-      "effectPlain": "+40 % 防御值",
-      "valueSpans": [
-        "+40"
-      ]
-    },
-    {
-      "modifierId": "51512531",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "风息之散",
-      "source": "戒指",
-      "effectPlain": "+(10–12) % 元素 抗性",
-      "valueSpans": [
-        "+(10–12)"
-      ]
-    },
-    {
-      "modifierId": "51512541",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "风息之散",
-      "source": "戒指",
-      "effectPlain": "(-20–-10) % 冷却回复速度",
-      "valueSpans": [
-        "(-20–-10)"
-      ]
-    },
-    {
-      "modifierId": "51512551",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "风息之散",
-      "source": "戒指",
-      "effectPlain": "装备在左侧戒指槽位时， +(1–4) 引导下限",
-      "valueSpans": [
-        "+(1–4)"
-      ]
-    },
-    {
-      "modifierId": "51512561",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "风息之散",
-      "source": "戒指",
-      "effectPlain": "装备在右侧戒指槽位时，引导时， +(30–50) % 几率造成双倍伤害",
-      "valueSpans": [
-        "+(30–50)"
-      ]
-    },
-    {
-      "modifierId": "51512611",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "清净幻痛",
-      "source": "戒指",
-      "effectPlain": "+(50–70) % 持续伤害",
-      "valueSpans": [
-        "+(50–70)"
-      ]
-    },
-    {
-      "modifierId": "51512621",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "清净幻痛",
-      "source": "戒指",
-      "effectPlain": "+(5–10) % 技能效果持续时间",
+      "effectPlain": "+(5–10) % 冰冷抗性",
       "valueSpans": [
         "+(5–10)"
       ]
     },
     {
-      "modifierId": "51512631",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "清净幻痛",
+      "modifierId": "85021021",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
       "source": "戒指",
-      "effectPlain": "周围 10 米内敌人加剧值达到上限时，收割其具有的 0.25 秒持续伤害，该效果对同一目标有 (2–5) 秒回复时间",
+      "effectPlain": "+(5–10) % 火焰抗性",
       "valueSpans": [
-        "10",
-        "0.25",
-        "(2–5)"
+        "+(5–10)"
       ]
     },
     {
-      "modifierId": "51512641",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "清净幻痛",
+      "modifierId": "85021051",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
       "source": "戒指",
-      "effectPlain": "+(5–6) % 火焰与冰冷抗性",
+      "effectPlain": "+(5–10) % 腐蚀抗性",
       "valueSpans": [
-        "+(5–6)"
+        "+(5–10)"
       ]
     },
     {
-      "modifierId": "51512811",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "世界流转",
+      "modifierId": "85021041",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
       "source": "戒指",
-      "effectPlain": "+66 最大生命",
+      "effectPlain": "+(5–10) % 闪电抗性",
       "valueSpans": [
-        "+66"
+        "+(5–10)"
       ]
     },
     {
-      "modifierId": "51512821",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "世界流转",
+      "modifierId": "85021091",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
       "source": "戒指",
-      "effectPlain": "+(7–10) % 攻击和施法速度",
+      "effectPlain": "+(6–8) % 攻击和施法速度",
       "valueSpans": [
-        "+(7–10)"
+        "+(6–8)"
       ]
     },
     {
-      "modifierId": "51512841",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "世界流转",
+      "modifierId": "85021011",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
       "source": "戒指",
-      "effectPlain": "轮流获得以下增益，每种增益持续 8 秒： 额外 +(35–50) % 腐蚀伤害 额外 +(35–50) % 元素伤害 额外 +(35–50) % 物理伤害",
+      "effectPlain": "+(87–117) 最大护盾",
       "valueSpans": [
-        "8",
-        "+(35–50)",
-        "+(35–50)",
-        "+(35–50)"
+        "+(87–117)"
       ]
     },
     {
-      "modifierId": "51533411",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "泥偶的断指",
-      "source": "戒指",
-      "effectPlain": "使用地面技能后， +80 % 法术伤害，持续 2 秒",
-      "valueSpans": [
-        "+80",
-        "2"
-      ]
-    },
-    {
-      "modifierId": "51533421",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "泥偶的断指",
-      "source": "戒指",
-      "effectPlain": "+10 % 地面技能范围",
-      "valueSpans": [
-        "+10"
-      ]
-    },
-    {
-      "modifierId": "51533431",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "泥偶的断指",
-      "source": "戒指",
-      "effectPlain": "受到地面持续伤害的敌人免疫 异常状态",
+      "modifierId": "140210980",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+(23–29) % 护甲减伤穿透",
       "valueSpans": []
     },
     {
-      "modifierId": "51533441",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "泥偶的断指",
-      "source": "戒指",
-      "effectPlain": "+20 最大生命",
-      "valueSpans": [
-        "+20"
-      ]
-    },
-    {
-      "modifierId": "51513111",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "勾指怪谈",
-      "source": "戒指",
-      "effectPlain": "+10 % 最大生命和最大护盾",
-      "valueSpans": [
-        "+10"
-      ]
-    },
-    {
-      "modifierId": "51513121",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "勾指怪谈",
-      "source": "戒指",
-      "effectPlain": "+10 % 迷踪 效果",
-      "valueSpans": [
-        "+10"
-      ]
-    },
-    {
-      "modifierId": "51513141",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "勾指怪谈",
-      "source": "戒指",
-      "effectPlain": "装备在左侧戒指槽位时，失去 迷踪 1 秒后获得 迷踪",
-      "valueSpans": [
-        "1"
-      ]
-    },
-    {
-      "modifierId": "51513161",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "勾指怪谈",
-      "source": "戒指",
-      "effectPlain": "迷踪 获得额外效果：每 1 点迷踪值， +2% 持续伤害",
+      "modifierId": "140210480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+(27–34) % 元素和腐蚀抗性穿透",
       "valueSpans": []
     },
     {
-      "modifierId": "80617011",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "时之逝",
-      "source": "戒指",
-      "effectPlain": "每秒消耗 10 % 当前生命与护盾",
-      "valueSpans": [
-        "10"
-      ]
+      "modifierId": "140902180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+(66–85) % 恶化 伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "80617021",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "时之逝",
-      "source": "戒指",
-      "effectPlain": "+10 % 冷却回复速度 -30 % 异常状态 持续时间",
-      "valueSpans": [
-        "+10",
-        "-30"
-      ]
+      "modifierId": "115210880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+1 坚韧祝福 层数上限 额外 +13 % 伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "80617031",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "时之逝",
-      "source": "戒指",
-      "effectPlain": "最近每造成 1 种 异常状态 或 控制类状态 ，额外 +3 % 伤害（叠乘）",
-      "valueSpans": [
-        "+3"
-      ]
+      "modifierId": "115210980",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+1 灵动祝福 层数上限 额外 +13 % 伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "80618011",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "誓之时",
-      "source": "戒指",
-      "effectPlain": "每秒回复 10 % 已损生命和护盾",
-      "valueSpans": [
-        "10"
-      ]
+      "modifierId": "115211080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+1 聚能祝福 层数上限 额外 +13 % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115211380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+18 % 最大魔力， +(121–140) 技能消耗",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210900",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+(18–22) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+(21–26) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+(51–65) % 恶化 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115210800",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+1 坚韧祝福 层数上限 额外 +5 % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115210900",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+1 灵动祝福 层数上限 额外 +5 % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115211000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+1 聚能祝福 层数上限 额外 +5 % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115211300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+15 % 最大魔力， +(100–120) 技能消耗",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210901",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+(13–17) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210401",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+(15–20) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902101",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+(36–50) % 恶化 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115210801",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+1 坚韧祝福 层数上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115210901",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+1 灵动祝福 层数上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115211001",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+1 聚能祝福 层数上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115211301",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+10 % 最大魔力， +80 技能消耗",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210902",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+(10–12) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210402",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+(11–14) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902102",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+(26–35) % 恶化 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115211302",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+8 % 最大魔力， +(40–60) 技能消耗",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902103",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 400,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+(21–25) % 恶化 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210403",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+(8–10) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210903",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+(8–9) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210404",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+(6–7) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210405",
+      "tier": 5,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+(4–5) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210406",
+      "tier": 6,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+3 % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210407",
+      "tier": 7,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻前缀",
+      "source": "Ring",
+      "effectPlain": "+2 % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111210380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "+(109–140) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130210480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "+(17–20) % 元素 抗性 +(17–20) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "+(35–44) % 几率造成双倍伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "+(43–54) % 恶化 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130210680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "+(66–85) % 战意 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140211180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "对 冰封 的敌人额外 +(34–39) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "额外 +(34–39) % 主手武器 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130210400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "+(13–16) % 元素 抗性 +(13–16) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "+(27–34) % 几率造成双倍伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "+(33–42) % 恶化 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130210600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "+(51–65) % 战意 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111210300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "+(84–108) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140211100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "对 冰封 的敌人额外 +(25–30) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "额外 +(25–30) % 主手武器 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210601",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "+(19–26) % 几率造成双倍伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902301",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "+(23–32) % 恶化 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130210601",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "+(36–50) % 战意 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111210301",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "+(59–83) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130210401",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "+(9–12) % 元素 抗性 +(9–12) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140211101",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "对 冰封 的敌人额外 +(18–23) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210701",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "额外 +(18–23) % 主手武器 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210602",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "+(14–18) % 几率造成双倍伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902302",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "+(17–22) % 恶化 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130210602",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "+(26–35) % 战意 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111210302",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "+(43–58) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130210402",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "+(7–8) % 元素 抗性 +(7–8) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140211102",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "对 冰封 的敌人额外 +(10–15) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210702",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "额外 +(10–15) % 主手武器 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210603",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "+(10–13) % 几率造成双倍伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902303",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 400,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "+(14–16) % 恶化 持续时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130210603",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "+(21–25) % 战意 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111210303",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "Ring",
+      "effectPlain": "+(34–42) % 收割 回复速度",
+      "valueSpans": []
     },
     {
       "modifierId": "80618021",
@@ -2283,75 +3292,1459 @@
       ]
     },
     {
-      "modifierId": "54526501",
+      "modifierId": "80618011",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "污秽祝祷",
+      "affixType": "誓之时",
       "source": "戒指",
-      "effectPlain": "+1 灵动祝福 层数上限",
+      "effectPlain": "每秒回复 10 % 已损生命和护盾",
       "valueSpans": [
-        "+1"
+        "10"
       ]
     },
     {
-      "modifierId": "54526531",
+      "modifierId": "51510941",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "污秽祝祷",
+      "affixType": "躁动冰河",
       "source": "戒指",
-      "effectPlain": "造成伤害时，获得一层 灵动祝福 ，间隔 1 秒",
+      "effectPlain": "+(10–15) 冰结值 上限",
       "valueSpans": [
-        "1"
+        "+(10–15)"
       ]
     },
     {
-      "modifierId": "54526581",
+      "modifierId": "51510931",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "污秽祝祷",
+      "affixType": "躁动冰河",
       "source": "戒指",
-      "effectPlain": "+1 聚能祝福 层数上限",
+      "effectPlain": "+(20–25) % 冰冷抗性",
       "valueSpans": [
-        "+1"
+        "+(20–25)"
       ]
     },
     {
-      "modifierId": "54526591",
+      "modifierId": "51510921",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "污秽祝祷",
+      "affixType": "躁动冰河",
       "source": "戒指",
-      "effectPlain": "造成伤害时，获得一层 聚能祝福 ，间隔 1 秒",
+      "effectPlain": "+(30–40) 智慧",
       "valueSpans": [
-        "1"
+        "+(30–40)"
       ]
     },
     {
-      "modifierId": "54526541",
+      "modifierId": "51510951",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "污秽祝祷",
+      "affixType": "躁动冰河",
+      "source": "戒指",
+      "effectPlain": "击败被 冰封 的敌人时 (10–15) % 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 (80–100) % 的真实伤害",
+      "valueSpans": [
+        "(10–15)",
+        "6",
+        "(80–100)"
+      ]
+    },
+    {
+      "modifierId": "104210180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(21–25) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(43–54) % 恶化 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109210080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(79–101) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109210180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(79–101) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109210280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(79–101) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (71–73) - (93–99) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (72–74) - (96–98) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (72–74) - (96–98) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (76–78) - (93–95) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (8–10) - (161–163) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104210100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(16–20) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(33–42) % 恶化 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109210000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(61–78) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109210100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(61–78) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109210200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(61–78) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (54–56) - (71–76) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (55–57) - (73–75) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (55–57) - (73–75) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (58–60) - (71–73) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (6–8) - (123–125) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104210101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(12–15) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(23–32) % 恶化 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109210001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(43–60) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109210101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(43–60) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109210201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(43–60) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210501",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (42–44) - (54–59) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (42–44) - (56–58) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210501",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (42–44) - (56–58) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (44–46) - (54–56) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210701",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (4–6) - (94–96) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(17–22) % 恶化 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109210002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(31–42) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109210102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(31–42) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109210202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(31–42) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104210102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(9–11) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210502",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (25–27) - (32–36) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210602",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (25–27) - (33–35) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210502",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (25–27) - (33–35) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (26–28) - (32–34) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210702",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (2–4) - (56–58) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 400,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(14–16) % 恶化 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109210003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(25–30) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109210103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(25–30) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109210203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(25–30) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104210103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(7–8) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210503",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (16–18) - (21–24) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210603",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (16–18) - (22–24) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210503",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (16–18) - (22–24) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (17–19) - (21–23) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210703",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (1–3) - (37–39) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109210004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(20–24) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109210104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(20–24) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109210204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(20–24) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210504",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (10–12) - (13–16) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210604",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (10–12) - (14–16) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210504",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (10–12) - (14–16) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (11–13) - (13–15) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210704",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (1–2) - (24–26) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109210005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(17–19) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109210105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(17–19) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109210205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(17–19) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210705",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (1–2) - (14–16) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210605",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (6–8) - (8–10) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210505",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (6–8) - (8–10) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (6–8) - (8–10) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210505",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (6–8) - (8–10) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109210006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(13–16) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109210106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(13–16) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109210206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(13–16) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210706",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (1–2) - (10–12) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210606",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (4–6) - (6–8) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210506",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (4–6) - (6–8) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (4–6) - (6–8) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210506",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (4–6) - (6–8) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109210007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(10–12) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109210107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(10–12) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109210207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "+(10–12) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210607",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (2–3) - (5–6) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210507",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (2–3) - (5–6) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (2–3) - (5–6) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210507",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 (2–3) - (5–6) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106210707",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "Ring",
+      "effectPlain": "攻击和法术附加 1 - (7–9) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140211280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(30–32) 冰结值 上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(43–54) % 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(48–61) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111210180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(66–85) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115211180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(66–85) % 地面蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111210080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(66–85) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130210380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(79–101) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140211080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+1 点连携起手技获得的连携点 额外 +(7–9) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "每移动 5 米， 100 % 几率获得 屏障 +58 % 屏障 吸收量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140211200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(23–26) 冰结值 上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(33–42) % 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210800",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(37–47) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111210000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(46–65) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111210100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(51–65) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115211100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(51–65) % 地面蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130210300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(61–78) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140211000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+1 点连携起手技获得的连携点 额外 +(3–5) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "每移动 5 米， 100 % 几率获得 屏障 +25 % 屏障 吸收量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140211201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(15–20) 冰结值 上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(23–32) % 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210801",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(26–36) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111210001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(35–50) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111210101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(36–50) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115211101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(37–50) % 地面蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130210301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(44–60) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140211001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+1 点连携起手技获得的连携点 额外 +(1–2) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140902701",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "每移动 5 米， 100 % 几率获得 屏障",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140211202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(11–14) 冰结值 上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(17–22) % 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140210802",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(19–25) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111210102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(26–35) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115211102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(27–36) % 地面蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111210002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(29–35) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130210302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(32–43) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140211002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+1 点连携起手技获得的连携点 额外 (-5–-3) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(14–16) % 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115211103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 400,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(19–26) % 地面蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111210103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(21–25) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111210003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(21–25) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140211203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(8–10) 冰结值 上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(11–13) % 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115211104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(13–18) % 地面蓄能 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130210304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(16–22) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111210104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(17–20) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140211204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(6–7) 冰结值 上限",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130210305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(11–15) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(9–10) % 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+(7–8) % 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140722107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "Ring",
+      "effectPlain": "+6 % 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "52512021",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "钢铁涓流",
+      "source": "戒指",
+      "effectPlain": "+(60–70) % 坚固 魔力封印 补偿",
+      "valueSpans": [
+        "+(60–70)"
+      ]
+    },
+    {
+      "modifierId": "52512011",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "钢铁涓流",
+      "source": "戒指",
+      "effectPlain": "+(60–70) % 近战伤害",
+      "valueSpans": [
+        "+(60–70)"
+      ]
+    },
+    {
+      "modifierId": "52512031",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "钢铁涓流",
+      "source": "戒指",
+      "effectPlain": "对非物理伤害， +(8–12) % 护甲有效率",
+      "valueSpans": [
+        "+(8–12)"
+      ]
+    },
+    {
+      "modifierId": "51513211",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "银霜",
+      "source": "戒指",
+      "effectPlain": "+(20–30) 智慧",
+      "valueSpans": [
+        "+(20–30)"
+      ]
+    },
+    {
+      "modifierId": "51513231",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "银霜",
+      "source": "戒指",
+      "effectPlain": "+10 % 冰冷抗性",
+      "valueSpans": [
+        "+10"
+      ]
+    },
+    {
+      "modifierId": "51513221",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "银霜",
+      "source": "戒指",
+      "effectPlain": "额外 +(5–8) % 冰冷伤害",
+      "valueSpans": [
+        "+(5–8)"
+      ]
+    },
+    {
+      "modifierId": "54526731",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "顽石之心",
       "source": "戒指",
       "effectPlain": "+1 坚韧祝福 层数上限",
       "valueSpans": [
         "+1"
-      ]
-    },
-    {
-      "modifierId": "54526571",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "污秽祝祷",
-      "source": "戒指",
-      "effectPlain": "造成伤害时，获得一层 坚韧祝福 ，间隔 1 秒",
-      "valueSpans": [
-        "1"
       ]
     },
     {
@@ -2393,154 +4786,127 @@
       ]
     },
     {
-      "modifierId": "54526731",
+      "modifierId": "51512441",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "顽石之心",
+      "affixType": "风息之引",
       "source": "戒指",
-      "effectPlain": "+1 坚韧祝福 层数上限",
+      "effectPlain": "(-20–-10) % 移动速度",
       "valueSpans": [
-        "+1"
+        "(-20–-10)"
       ]
     },
     {
-      "modifierId": "54526801",
+      "modifierId": "51512431",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "万法之心",
+      "affixType": "风息之引",
       "source": "戒指",
-      "effectPlain": "+(73–146) 最大护盾",
+      "effectPlain": "+(10–12) % 元素 抗性",
       "valueSpans": [
-        "+(73–146)"
+        "+(10–12)"
       ]
     },
     {
-      "modifierId": "54526821",
+      "modifierId": "51512411",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "万法之心",
+      "affixType": "风息之引",
       "source": "戒指",
-      "effectPlain": "每 0.5 秒获得 1 层 聚能祝福 ；如果最近没有暴击，则改为失去 聚能祝福",
+      "effectPlain": "+40 % 防御值",
       "valueSpans": [
-        "0.5"
+        "+40"
       ]
     },
     {
-      "modifierId": "54526831",
+      "modifierId": "51512461",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "万法之心",
+      "affixType": "风息之引",
       "source": "戒指",
-      "effectPlain": "聚能祝福 达到上限时，额外 +(7–10) % 法术伤害",
+      "effectPlain": "装备在右侧戒指槽位时，引导时， +(8–12) % 几率避免伤害",
       "valueSpans": [
-        "+(7–10)"
+        "+(8–12)"
       ]
     },
     {
-      "modifierId": "54526841",
+      "modifierId": "51512451",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "万法之心",
+      "affixType": "风息之引",
       "source": "戒指",
-      "effectPlain": "+1 聚能祝福 层数上限",
+      "effectPlain": "装备在左侧戒指槽位时， +(2–4) 引导上限",
       "valueSpans": [
-        "+1"
+        "+(2–4)"
       ]
     },
     {
-      "modifierId": "51513211",
+      "modifierId": "51512541",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "银霜",
+      "affixType": "风息之散",
       "source": "戒指",
-      "effectPlain": "+(20–30) 智慧",
+      "effectPlain": "(-20–-10) % 冷却回复速度",
       "valueSpans": [
-        "+(20–30)"
+        "(-20–-10)"
       ]
     },
     {
-      "modifierId": "51513221",
+      "modifierId": "51512531",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "银霜",
+      "affixType": "风息之散",
       "source": "戒指",
-      "effectPlain": "额外 +(5–8) % 冰冷伤害",
+      "effectPlain": "+(10–12) % 元素 抗性",
       "valueSpans": [
-        "+(5–8)"
+        "+(10–12)"
       ]
     },
     {
-      "modifierId": "51513231",
+      "modifierId": "51512511",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "银霜",
+      "affixType": "风息之散",
       "source": "戒指",
-      "effectPlain": "+10 % 冰冷抗性",
+      "effectPlain": "+40 % 防御值",
       "valueSpans": [
-        "+10"
+        "+40"
       ]
     },
     {
-      "modifierId": "51528211",
+      "modifierId": "51512561",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "崇光",
+      "affixType": "风息之散",
       "source": "戒指",
-      "effectPlain": "+1 射线技能等级",
+      "effectPlain": "装备在右侧戒指槽位时，引导时， +(30–50) % 几率造成双倍伤害",
       "valueSpans": [
-        "+1"
+        "+(30–50)"
       ]
     },
     {
-      "modifierId": "51528221",
+      "modifierId": "51512551",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "崇光",
+      "affixType": "风息之散",
       "source": "戒指",
-      "effectPlain": "+1 射线条数",
+      "effectPlain": "装备在左侧戒指槽位时， +(1–4) 引导下限",
       "valueSpans": [
-        "+1"
+        "+(1–4)"
       ]
     }
   ],
   "tierVariantGroups": [
-    {
-      "skeleton": "{#} % 伤害",
-      "rolls": [
-        {
-          "modifierId": "60062111",
-          "tier": 0,
-          "itemLevel": 1,
-          "weight": 1,
-          "affixType": "侵蚀基底",
-          "valueSpans": [
-            "+(50–70)"
-          ],
-          "effectPlain": "+(50–70) % 伤害"
-        },
-        {
-          "modifierId": "140210301",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(51–72)"
-          ],
-          "effectPlain": "+(51–72) % 伤害"
-        }
-      ]
-    },
     {
       "skeleton": "{#} % 元素 抗性",
       "rolls": [
@@ -2571,17 +4937,6 @@
     {
       "skeleton": "{#} % 冰冷抗性",
       "rolls": [
-        {
-          "modifierId": "108210101",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 冰冷抗性"
-        },
         {
           "modifierId": "1502103",
           "tier": 2,
@@ -2631,17 +4986,6 @@
     {
       "skeleton": "{#} % 战意 效果",
       "rolls": [
-        {
-          "modifierId": "130210601",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻后缀",
-          "valueSpans": [
-            "+(36–50)"
-          ],
-          "effectPlain": "+(36–50) % 战意 效果"
-        },
         {
           "modifierId": "1502112",
           "tier": 1,
@@ -2811,17 +5155,6 @@
       "skeleton": "{#} % 火焰抗性",
       "rolls": [
         {
-          "modifierId": "108210001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 火焰抗性"
-        },
-        {
           "modifierId": "1502102",
           "tier": 2,
           "itemLevel": 1,
@@ -2898,17 +5231,6 @@
       "skeleton": "{#} % 腐蚀抗性",
       "rolls": [
         {
-          "modifierId": "108210301",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 腐蚀抗性"
-        },
-        {
           "modifierId": "1502105",
           "tier": 2,
           "itemLevel": 1,
@@ -2935,17 +5257,6 @@
     {
       "skeleton": "{#} % 闪电抗性",
       "rolls": [
-        {
-          "modifierId": "108210201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 闪电抗性"
-        },
         {
           "modifierId": "1502104",
           "tier": 2,
@@ -2998,46 +5309,8 @@
       ]
     },
     {
-      "skeleton": "{#} 冰结值 上限",
-      "rolls": [
-        {
-          "modifierId": "140211201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶后缀",
-          "valueSpans": [
-            "+(15–20)"
-          ],
-          "effectPlain": "+(15–20) 冰结值 上限"
-        },
-        {
-          "modifierId": "51510941",
-          "tier": null,
-          "itemLevel": null,
-          "weight": null,
-          "affixType": "躁动冰河",
-          "valueSpans": [
-            "+(10–15)"
-          ],
-          "effectPlain": "+(10–15) 冰结值 上限"
-        }
-      ]
-    },
-    {
       "skeleton": "{#} 力量",
       "rolls": [
-        {
-          "modifierId": "109210001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(43–60)"
-          ],
-          "effectPlain": "+(43–60) 力量"
-        },
         {
           "modifierId": "1502106",
           "tier": 2,
@@ -3088,17 +5361,6 @@
           "effectPlain": "+1 坚韧祝福 层数上限"
         },
         {
-          "modifierId": "115210801",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻前缀",
-          "valueSpans": [
-            "+1"
-          ],
-          "effectPlain": "+1 坚韧祝福 层数上限"
-        },
-        {
           "modifierId": "54526541",
           "tier": null,
           "itemLevel": null,
@@ -3126,17 +5388,6 @@
       "skeleton": "{#} 敏捷",
       "rolls": [
         {
-          "modifierId": "109210101",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(43–60)"
-          ],
-          "effectPlain": "+(43–60) 敏捷"
-        },
-        {
           "modifierId": "1502107",
           "tier": 2,
           "itemLevel": 1,
@@ -3163,17 +5414,6 @@
     {
       "skeleton": "{#} 智慧",
       "rolls": [
-        {
-          "modifierId": "109210201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(43–60)"
-          ],
-          "effectPlain": "+(43–60) 智慧"
-        },
         {
           "modifierId": "1502108",
           "tier": 2,
@@ -3224,17 +5464,6 @@
       "skeleton": "{#} 最大护盾",
       "rolls": [
         {
-          "modifierId": "105210201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(245–350)"
-          ],
-          "effectPlain": "+(245–350) 最大护盾"
-        },
-        {
           "modifierId": "1502101",
           "tier": 2,
           "itemLevel": 1,
@@ -3272,17 +5501,6 @@
     {
       "skeleton": "{#} 最大生命",
       "rolls": [
-        {
-          "modifierId": "104210001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(155–220)"
-          ],
-          "effectPlain": "+(155–220) 最大生命"
-        },
         {
           "modifierId": "1502100",
           "tier": 2,
@@ -3341,33 +5559,6 @@
       ]
     },
     {
-      "skeleton": "{#} 最大魔力",
-      "rolls": [
-        {
-          "modifierId": "140722001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(85–120)"
-          ],
-          "effectPlain": "+(85–120) 最大魔力"
-        },
-        {
-          "modifierId": "51511911",
-          "tier": null,
-          "itemLevel": null,
-          "weight": null,
-          "affixType": "孤胆",
-          "valueSpans": [
-            "+(25–30)"
-          ],
-          "effectPlain": "+(25–30) 最大魔力"
-        }
-      ]
-    },
-    {
       "skeleton": "{#} 灵动祝福 层数上限",
       "rolls": [
         {
@@ -3387,17 +5578,6 @@
           "itemLevel": 1,
           "weight": 1,
           "affixType": "美梦词缀",
-          "valueSpans": [
-            "+1"
-          ],
-          "effectPlain": "+1 灵动祝福 层数上限"
-        },
-        {
-          "modifierId": "115210901",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻前缀",
           "valueSpans": [
             "+1"
           ],
@@ -3447,17 +5627,6 @@
           "itemLevel": 1,
           "weight": 1,
           "affixType": "美梦词缀",
-          "valueSpans": [
-            "+1"
-          ],
-          "effectPlain": "+1 聚能祝福 层数上限"
-        },
-        {
-          "modifierId": "115211001",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻前缀",
           "valueSpans": [
             "+1"
           ],
@@ -3710,5 +5879,5 @@
       ]
     }
   ],
-  "tierVariantGroupCount": 31
+  "tierVariantGroupCount": 28
 }

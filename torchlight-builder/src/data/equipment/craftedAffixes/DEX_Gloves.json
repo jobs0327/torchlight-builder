@@ -2,79 +2,1482 @@
   "slug": "DEX_Gloves",
   "label": "DEX Gloves",
   "sourceUrl": "https://tlidb.com/cn/DEX_Gloves",
-  "fetchedAt": "2026-03-22T08:57:25Z",
-  "modifierCount": 136,
+  "fetchedAt": "2026-03-24T07:24:18Z",
+  "modifierCount": 344,
   "modifiers": [
     {
-      "modifierId": "1504100",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "51435621",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "仇弑袖剑",
       "source": "敏捷手套",
-      "effectPlain": "+(54–74) 最大生命",
+      "effectPlain": "+(20–30) 敏捷",
       "valueSpans": [
-        "+(54–74)"
+        "+(20–30)"
       ]
     },
     {
-      "modifierId": "1504101",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "51435611",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "仇弑袖剑",
       "source": "敏捷手套",
-      "effectPlain": "+(760–960) 闪避值",
+      "effectPlain": "+(50–60) 最大生命",
       "valueSpans": [
-        "+(760–960)"
+        "+(50–60)"
       ]
     },
     {
-      "modifierId": "1504102",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "51435631",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "仇弑袖剑",
       "source": "敏捷手套",
-      "effectPlain": "+(5–10) % 火焰抗性",
+      "effectPlain": "如果最近移动了超过 10 米， +(40–80) % 近战伤害",
       "valueSpans": [
-        "+(5–10)"
+        "10",
+        "+(40–80)"
       ]
     },
     {
-      "modifierId": "1504103",
-      "tier": 2,
+      "modifierId": "60064106",
+      "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "敏捷手套",
-      "effectPlain": "+(5–10) % 冰冷抗性",
+      "effectPlain": "+(12–15) % 攻击速度",
       "valueSpans": [
-        "+(5–10)"
+        "+(12–15)"
       ]
     },
     {
-      "modifierId": "1504104",
-      "tier": 2,
+      "modifierId": "60064107",
+      "tier": 0,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "基础词缀",
+      "affixType": "侵蚀基底",
       "source": "敏捷手套",
-      "effectPlain": "+(5–10) % 闪电抗性",
+      "effectPlain": "+(12–15) % 施法速度",
       "valueSpans": [
-        "+(5–10)"
+        "+(12–15)"
       ]
     },
     {
-      "modifierId": "1504105",
+      "modifierId": "60064113",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "敏捷手套",
+      "effectPlain": "+(30–50) % 该装备闪避值",
+      "valueSpans": [
+        "+(30–50)"
+      ]
+    },
+    {
+      "modifierId": "60064114",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "敏捷手套",
+      "effectPlain": "+(50–70) % 伤害",
+      "valueSpans": [
+        "+(50–70)"
+      ]
+    },
+    {
+      "modifierId": "60064101",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "敏捷手套",
+      "effectPlain": "+1 坚韧祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "60064115",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "敏捷手套",
+      "effectPlain": "使用近战技能时，获得一层 强硬",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "60064110",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "敏捷手套",
+      "effectPlain": "击中时， +(15–20) % 几率造成 瘫痪",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "60064108",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "敏捷手套",
+      "effectPlain": "击中时， +(15–20) % 几率造成 致盲",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "60064109",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "敏捷手套",
+      "effectPlain": "击中时， +(15–20) % 几率附加 标记",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "60064117",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "敏捷手套",
+      "effectPlain": "收割时，获得一层 折磨",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "60064112",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "敏捷手套",
+      "effectPlain": "暴击 幸运 (-150–-120) 暴击值",
+      "valueSpans": [
+        "(-150–-120)"
+      ]
+    },
+    {
+      "modifierId": "60064111",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "敏捷手套",
+      "effectPlain": "造成伤害时，淘汰生命值低于 15 % 的敌人",
+      "valueSpans": [
+        "15"
+      ]
+    },
+    {
+      "modifierId": "60064116",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "敏捷手套",
+      "effectPlain": "造成法术伤害时，施加 软弱",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51432711",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "刑求之触",
+      "source": "敏捷手套",
+      "effectPlain": "+(1500–2000) 该装备闪避值 +(300–400) 该装备护盾",
+      "valueSpans": [
+        "+(1500–2000)",
+        "+(300–400)"
+      ]
+    },
+    {
+      "modifierId": "51432721",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "刑求之触",
+      "source": "敏捷手套",
+      "effectPlain": "+(8–12) % 受伤缓冲",
+      "valueSpans": [
+        "+(8–12)"
+      ]
+    },
+    {
+      "modifierId": "51432741",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "刑求之触",
+      "source": "敏捷手套",
+      "effectPlain": "周围 10 米内敌人加剧值达到上限时，收割其具有的 (1.3–1.5) 秒持续伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": [
+        "10",
+        "(1.3–1.5)",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "51432751",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "刑求之触",
+      "source": "敏捷手套",
+      "effectPlain": "收割 时，清除敌人的加剧值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51432731",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "刑求之触",
+      "source": "敏捷手套",
+      "effectPlain": "每 +4 % 加剧 效果， +1 每秒施加 加剧 值",
+      "valueSpans": [
+        "+4",
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "140723080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(157–203) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104410080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(287–372) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105410080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(3745–4867) 该装备闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140412780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(79–100) % 暴击伤害减免",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(95–122) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(95–122) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140723000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(121–156) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104410000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(221–286) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105410000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(2881–3744) 该装备闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140412700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(61–78) % 暴击伤害减免",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(73–94) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(73–94) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104410001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(155–220) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105410001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(2017–2880) 该装备闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140412701",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(43–60) % 暴击伤害减免",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(51–72) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(51–72) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140723001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(85–120) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104410002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(111–154) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105410002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(1441–2016) 该装备闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140412702",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(31–42) % 暴击伤害减免",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(37–50) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(37–50) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140723002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(61–84) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105410003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(1153–1440) 该装备闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140412703",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(25–30) % 暴击伤害减免",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(30–36) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(30–36) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140723003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(49–60) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104410003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(89–110) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140412704",
+      "tier": 4,
+      "itemLevel": 72,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(19–24) % 暴击伤害减免",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(24–29) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(24–29) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140723004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(39–48) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104410004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(71–88) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105410004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(923–1152) 该装备闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(20–23) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(20–23) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140723005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(32–38) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104410005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(58–70) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105410005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(750–922) 该装备闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(15–19) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(15–19) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140723006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(25–31) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104410006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(45–57) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105410006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(577–749) 该装备闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(12–14) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(12–14) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140723007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(19–24) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104410007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(34–44) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105410007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(433–576) 该装备闪避值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110410080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(157–203) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(36–46) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(36–46) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(36–46) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(36–46) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(66–85) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104410180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "每秒自然回复 (157–203) 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110410000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(111–156) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(25–35) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(25–35) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(25–35) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(25–35) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(51–65) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104410100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "每秒自然回复 (121–156) 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(19–27) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(19–27) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(19–27) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(19–27) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(36–50) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110410001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(85–120) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104410101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "每秒自然回复 (85–120) 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(16–19) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(16–19) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(16–19) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(16–19) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(26–35) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110410002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(71–84) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104410102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "每秒自然回复 (61–84) 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(11–14) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(11–14) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(11–14) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(11–14) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(21–25) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110410003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(51–60) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104410103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "每秒自然回复 (49–60) 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(17–20) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110410004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(41–48) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(9–11) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(9–11) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(9–11) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(9–11) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104410104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "每秒自然回复 (39–48) 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(14–16) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110410005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(32–38) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(7–9) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(7–9) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(7–9) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(7–9) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104410105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "每秒自然回复 (32–38) 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(11–13) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110410006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(26–31) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(6–7) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(6–7) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(6–7) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(6–7) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104410106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "每秒自然回复 (25–31) 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110410007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(20–24) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(9–10) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+5 % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+5 % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+5 % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108410207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+5 % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104410107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "每秒自然回复 (19–24) 生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "1504115",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷手套",
+      "effectPlain": "+(3–5) % 元素 抗性上限",
+      "valueSpans": [
+        "+(3–5)"
+      ]
+    },
+    {
+      "modifierId": "1504112",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷手套",
+      "effectPlain": "+(5–7) % 护甲减伤穿透 召唤物 +(5–7) % 护甲减伤穿透",
+      "valueSpans": [
+        "+(5–7)",
+        "+(5–7)"
+      ]
+    },
+    {
+      "modifierId": "1504111",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷手套",
+      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透 召唤物 +(6–8) % 元素和腐蚀抗性穿透",
+      "valueSpans": [
+        "+(6–8)",
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1504113",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷手套",
+      "effectPlain": "+(6–8) % 魔力封印 补偿",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1504114",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷手套",
+      "effectPlain": "+(7–8) % 光环效果",
+      "valueSpans": [
+        "+(7–8)"
+      ]
+    },
+    {
+      "modifierId": "1504110",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "敏捷手套",
+      "effectPlain": "造成伤害时， +100 % 几率使目标 瘫痪",
+      "valueSpans": [
+        "+100"
+      ]
+    },
+    {
+      "modifierId": "1504116",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "基础词缀",
       "source": "敏捷手套",
-      "effectPlain": "+(5–10) % 腐蚀抗性",
+      "effectPlain": "+(12–20) % 暴击伤害减免",
       "valueSpans": [
-        "+(5–10)"
+        "+(12–20)"
       ]
     },
     {
@@ -126,659 +1529,11 @@
       ]
     },
     {
-      "modifierId": "1504110",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "敏捷手套",
-      "effectPlain": "造成伤害时， +100 % 几率使目标 瘫痪",
-      "valueSpans": [
-        "+100"
-      ]
-    },
-    {
-      "modifierId": "1504111",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透 召唤物 +(6–8) % 元素和腐蚀抗性穿透",
-      "valueSpans": [
-        "+(6–8)",
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "1504112",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(5–7) % 护甲减伤穿透 召唤物 +(5–7) % 护甲减伤穿透",
-      "valueSpans": [
-        "+(5–7)",
-        "+(5–7)"
-      ]
-    },
-    {
-      "modifierId": "1504113",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(6–8) % 魔力封印 补偿",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "1504114",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(7–8) % 光环效果",
-      "valueSpans": [
-        "+(7–8)"
-      ]
-    },
-    {
-      "modifierId": "1504115",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(3–5) % 元素 抗性上限",
-      "valueSpans": [
-        "+(3–5)"
-      ]
-    },
-    {
-      "modifierId": "1504116",
+      "modifierId": "1504100",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "基础词缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(12–20) % 暴击伤害减免",
-      "valueSpans": [
-        "+(12–20)"
-      ]
-    },
-    {
-      "modifierId": "60064101",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷手套",
-      "effectPlain": "+1 坚韧祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "60064106",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷手套",
-      "effectPlain": "+(12–15) % 攻击速度",
-      "valueSpans": [
-        "+(12–15)"
-      ]
-    },
-    {
-      "modifierId": "60064107",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷手套",
-      "effectPlain": "+(12–15) % 施法速度",
-      "valueSpans": [
-        "+(12–15)"
-      ]
-    },
-    {
-      "modifierId": "60064108",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷手套",
-      "effectPlain": "击中时， +(15–20) % 几率造成 致盲",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "60064109",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷手套",
-      "effectPlain": "击中时， +(15–20) % 几率附加 标记",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "60064110",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷手套",
-      "effectPlain": "击中时， +(15–20) % 几率造成 瘫痪",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "60064111",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷手套",
-      "effectPlain": "造成伤害时，淘汰生命值低于 15 % 的敌人",
-      "valueSpans": [
-        "15"
-      ]
-    },
-    {
-      "modifierId": "60064112",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷手套",
-      "effectPlain": "暴击 幸运 (-150–-120) 暴击值",
-      "valueSpans": [
-        "(-150–-120)"
-      ]
-    },
-    {
-      "modifierId": "60064113",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷手套",
-      "effectPlain": "+(30–50) % 该装备闪避值",
-      "valueSpans": [
-        "+(30–50)"
-      ]
-    },
-    {
-      "modifierId": "60064114",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷手套",
-      "effectPlain": "+(50–70) % 伤害",
-      "valueSpans": [
-        "+(50–70)"
-      ]
-    },
-    {
-      "modifierId": "60064115",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷手套",
-      "effectPlain": "使用近战技能时，获得一层 强硬",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "60064116",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷手套",
-      "effectPlain": "造成法术伤害时，施加 软弱",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "60064117",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "敏捷手套",
-      "effectPlain": "收割时，获得一层 折磨",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "104410001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(155–220) 最大生命",
-      "valueSpans": [
-        "+(155–220)"
-      ]
-    },
-    {
-      "modifierId": "105410001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(2017–2880) 该装备闪避值",
-      "valueSpans": [
-        "+(2017–2880)"
-      ]
-    },
-    {
-      "modifierId": "140410001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(51–72) % 伤害",
-      "valueSpans": [
-        "+(51–72)"
-      ]
-    },
-    {
-      "modifierId": "140411001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(51–72) % 召唤物伤害",
-      "valueSpans": [
-        "+(51–72)"
-      ]
-    },
-    {
-      "modifierId": "140412701",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(43–60) % 暴击伤害减免",
-      "valueSpans": [
-        "+(43–60)"
-      ]
-    },
-    {
-      "modifierId": "140723001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(85–120) 最大魔力",
-      "valueSpans": [
-        "+(85–120)"
-      ]
-    },
-    {
-      "modifierId": "140410401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "敏捷手套",
-      "effectPlain": "攻击和法术附加 (44–46) - (54–56) 点物理伤害",
-      "valueSpans": [
-        "(44–46)",
-        "(54–56)"
-      ]
-    },
-    {
-      "modifierId": "140410501",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "敏捷手套",
-      "effectPlain": "攻击和法术附加 (42–44) - (54–59) 点火焰伤害",
-      "valueSpans": [
-        "(42–44)",
-        "(54–59)"
-      ]
-    },
-    {
-      "modifierId": "140410601",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "敏捷手套",
-      "effectPlain": "攻击和法术附加 (42–44) - (56–58) 点冰冷伤害",
-      "valueSpans": [
-        "(42–44)",
-        "(56–58)"
-      ]
-    },
-    {
-      "modifierId": "140410701",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "敏捷手套",
-      "effectPlain": "攻击和法术附加 (4–6) - (94–96) 点闪电伤害",
-      "valueSpans": [
-        "(4–6)",
-        "(94–96)"
-      ]
-    },
-    {
-      "modifierId": "140411701",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "敏捷手套",
-      "effectPlain": "附加 (9–12) % 物理伤害的闪电伤害",
-      "valueSpans": [
-        "(9–12)"
-      ]
-    },
-    {
-      "modifierId": "140411801",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "敏捷手套",
-      "effectPlain": "附加 (9–12) % 闪电伤害的腐蚀伤害",
-      "valueSpans": [
-        "(9–12)"
-      ]
-    },
-    {
-      "modifierId": "140411901",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "敏捷手套",
-      "effectPlain": "攻击和法术附加 (42–44) - (56–58) 点腐蚀伤害",
-      "valueSpans": [
-        "(42–44)",
-        "(56–58)"
-      ]
-    },
-    {
-      "modifierId": "140411301",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "敏捷手套",
-      "effectPlain": "+2 主动技能等级",
-      "valueSpans": [
-        "+2"
-      ]
-    },
-    {
-      "modifierId": "140412001",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "敏捷手套",
-      "effectPlain": "至少拥有 8 层 坚韧祝福 时，额外 +(6–8) % 火焰伤害， +(12–15) % 火焰穿透",
-      "valueSpans": [
-        "8",
-        "+(6–8)",
-        "+(12–15)"
-      ]
-    },
-    {
-      "modifierId": "140412101",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "敏捷手套",
-      "effectPlain": "至少拥有 8 层 灵动祝福 时，额外 +(6–8) % 闪电伤害， +(12–15) % 闪电穿透",
-      "valueSpans": [
-        "8",
-        "+(6–8)",
-        "+(12–15)"
-      ]
-    },
-    {
-      "modifierId": "140412201",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "敏捷手套",
-      "effectPlain": "至少拥有 8 层 聚能祝福 时，额外 +(6–8) % 冰冷伤害， +(12–15) % 冰冷穿透",
-      "valueSpans": [
-        "8",
-        "+(6–8)",
-        "+(12–15)"
-      ]
-    },
-    {
-      "modifierId": "140412301",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "敏捷手套",
-      "effectPlain": "具有 (1–8) 个召唤物时，额外 +(21–25) % 召唤物伤害",
-      "valueSpans": [
-        "(1–8)",
-        "+(21–25)"
-      ]
-    },
-    {
-      "modifierId": "104410101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "敏捷手套",
-      "effectPlain": "每秒自然回复 (85–120) 生命",
-      "valueSpans": [
-        "(85–120)"
-      ]
-    },
-    {
-      "modifierId": "108410001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(19–27) % 火焰抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "108410101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(19–27) % 冰冷抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "108410201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(19–27) % 闪电抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "108410301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(19–27) % 腐蚀抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "110410001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(85–120) % 暴击值",
-      "valueSpans": [
-        "+(85–120)"
-      ]
-    },
-    {
-      "modifierId": "140411101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(36–50) % 加剧 效果",
-      "valueSpans": [
-        "+(36–50)"
-      ]
-    },
-    {
-      "modifierId": "110410101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(44–60) % 暴击伤害",
-      "valueSpans": [
-        "+(44–60)"
-      ]
-    },
-    {
-      "modifierId": "110410201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(17–24) % 攻击与施法速度 +(17–24) % 召唤物攻击与施法速度",
-      "valueSpans": [
-        "+(17–24)",
-        "+(17–24)"
-      ]
-    },
-    {
-      "modifierId": "140410801",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(37–50) % 收割 时间",
-      "valueSpans": [
-        "+(37–50)"
-      ]
-    },
-    {
-      "modifierId": "140411201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(35–48) % 技能范围 +(35–48) % 召唤物技能范围",
-      "valueSpans": [
-        "+(35–48)",
-        "+(35–48)"
-      ]
-    },
-    {
-      "modifierId": "140411601",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(59–83) % 收割 回复速度",
-      "valueSpans": [
-        "+(59–83)"
-      ]
-    },
-    {
-      "modifierId": "140412401",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "敏捷手套",
-      "effectPlain": "+1 弹射 次数 每 弹射 1 次，额外 +(4–5) % 伤害（叠乘）",
-      "valueSpans": [
-        "+1",
-        "+(4–5)"
-      ]
-    },
-    {
-      "modifierId": "140412501",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "敏捷手套",
-      "effectPlain": "拥有 战意 时，额外 +(21–25) % 伤害",
-      "valueSpans": [
-        "+(21–25)"
-      ]
-    },
-    {
-      "modifierId": "140412601",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(12–15) % 迷踪 效果 失去 迷踪 1 秒后获得 迷踪",
-      "valueSpans": [
-        "+(12–15)",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "85041001",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
       "source": "敏捷手套",
       "effectPlain": "+(54–74) 最大生命",
       "valueSpans": [
@@ -786,35 +1541,11 @@
       ]
     },
     {
-      "modifierId": "85041011",
+      "modifierId": "1504103",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(760–960) 闪避值",
-      "valueSpans": [
-        "+(760–960)"
-      ]
-    },
-    {
-      "modifierId": "85041021",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(5–10) % 火焰抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "85041031",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "敏捷手套",
       "effectPlain": "+(5–10) % 冰冷抗性",
       "valueSpans": [
@@ -822,23 +1553,23 @@
       ]
     },
     {
-      "modifierId": "85041041",
+      "modifierId": "1504102",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "敏捷手套",
-      "effectPlain": "+(5–10) % 闪电抗性",
+      "effectPlain": "+(5–10) % 火焰抗性",
       "valueSpans": [
         "+(5–10)"
       ]
     },
     {
-      "modifierId": "85041051",
+      "modifierId": "1504105",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "敏捷手套",
       "effectPlain": "+(5–10) % 腐蚀抗性",
       "valueSpans": [
@@ -846,222 +1577,109 @@
       ]
     },
     {
-      "modifierId": "85041061",
+      "modifierId": "1504104",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "敏捷手套",
-      "effectPlain": "+(15–20) 力量",
+      "effectPlain": "+(5–10) % 闪电抗性",
       "valueSpans": [
-        "+(15–20)"
+        "+(5–10)"
       ]
     },
     {
-      "modifierId": "85041071",
+      "modifierId": "1504101",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "敏捷手套",
-      "effectPlain": "+(15–20) 敏捷",
+      "effectPlain": "+(760–960) 闪避值",
       "valueSpans": [
-        "+(15–20)"
+        "+(760–960)"
       ]
     },
     {
-      "modifierId": "85041081",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(15–20) 智慧",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "85041091",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(20–24) % 技能范围",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "85041101",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷手套",
-      "effectPlain": "造成伤害时， +100 % 几率使目标 瘫痪",
-      "valueSpans": [
-        "+100"
-      ]
-    },
-    {
-      "modifierId": "85041111",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透 召唤物 +(6–8) % 元素和腐蚀抗性穿透",
-      "valueSpans": [
-        "+(6–8)",
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "85041121",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(5–7) % 护甲减伤穿透 召唤物 +(5–7) % 护甲减伤穿透",
-      "valueSpans": [
-        "+(5–7)",
-        "+(5–7)"
-      ]
-    },
-    {
-      "modifierId": "85041131",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(6–8) % 魔力封印 补偿",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "85041141",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(7–8) % 光环效果",
-      "valueSpans": [
-        "+(7–8)"
-      ]
-    },
-    {
-      "modifierId": "85041151",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "敏捷手套",
-      "effectPlain": "+(3–5) % 元素 抗性上限",
-      "valueSpans": [
-        "+(3–5)"
-      ]
-    },
-    {
-      "modifierId": "51430511",
+      "modifierId": "51433321",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "狂猎者护腕",
+      "affixType": "断海",
       "source": "敏捷手套",
-      "effectPlain": "+(30–40) % 投射物伤害",
+      "effectPlain": "+(40–70) 最大生命",
       "valueSpans": [
-        "+(30–40)"
+        "+(40–70)"
       ]
     },
     {
-      "modifierId": "51430521",
+      "modifierId": "51433331",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "狂猎者护腕",
+      "affixType": "断海",
       "source": "敏捷手套",
-      "effectPlain": "+(10–20) % 攻击与施法速度",
+      "effectPlain": "+(6–10) % 攻击速度",
       "valueSpans": [
-        "+(10–20)"
+        "+(6–10)"
       ]
     },
     {
-      "modifierId": "51430531",
+      "modifierId": "51433311",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "狂猎者护腕",
+      "affixType": "断海",
       "source": "敏捷手套",
-      "effectPlain": "+(60–70) % 暴击值",
+      "effectPlain": "核心技能被 (15–20) 级的怒斩辅助",
       "valueSpans": [
-        "+(60–70)"
+        "(15–20)"
       ]
     },
     {
-      "modifierId": "51430911",
+      "modifierId": "51434421",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "灵猫手套",
+      "affixType": "暴君的凶焰",
       "source": "敏捷手套",
-      "effectPlain": "+(200–250) 最大生命",
+      "effectPlain": "+(20–25) % 火焰抗性",
       "valueSpans": [
-        "+(200–250)"
+        "+(20–25)"
       ]
     },
     {
-      "modifierId": "51430921",
+      "modifierId": "51434411",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "灵猫手套",
+      "affixType": "暴君的凶焰",
       "source": "敏捷手套",
-      "effectPlain": "+(8–10) % 攻击与施法速度",
+      "effectPlain": "攻击附加 60 - 80 点火焰伤害",
       "valueSpans": [
-        "+(8–10)"
+        "60",
+        "80"
       ]
     },
     {
-      "modifierId": "54430941",
+      "modifierId": "51434441",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "灵猫手套",
+      "affixType": "暴君的凶焰",
       "source": "敏捷手套",
-      "effectPlain": "每有 1 层 灵动祝福 ， +(4–6) % 元素伤害",
-      "valueSpans": [
-        "+(4–6)"
-      ]
+      "effectPlain": "无法触发激发技能",
+      "valueSpans": []
     },
     {
-      "modifierId": "51430941",
+      "modifierId": "51434431",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "灵猫手套",
+      "affixType": "暴君的凶焰",
       "source": "敏捷手套",
-      "effectPlain": "+(40–50) % 灵动祝福 持续时间",
-      "valueSpans": [
-        "+(40–50)"
-      ]
-    },
-    {
-      "modifierId": "51430951",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "灵猫手套",
-      "source": "敏捷手套",
-      "effectPlain": "击败时， +50 % 几率获得 1 层 灵动祝福",
-      "valueSpans": [
-        "+50"
-      ]
+      "effectPlain": "暴击 幸运",
+      "valueSpans": []
     },
     {
       "modifierId": "51431111",
@@ -1088,18 +1706,6 @@
       ]
     },
     {
-      "modifierId": "51431131",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "混沌深渊",
-      "source": "敏捷手套",
-      "effectPlain": "造成伤害时，敌人每有一层 凋零 ，额外 +(1.5–2) % 受到的伤害（叠乘）",
-      "valueSpans": [
-        "+(1.5–2)"
-      ]
-    },
-    {
       "modifierId": "55431141",
       "tier": null,
       "itemLevel": null,
@@ -1123,6 +1729,160 @@
       "valueSpans": [
         "(8–10)",
         "0.5"
+      ]
+    },
+    {
+      "modifierId": "51431131",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "混沌深渊",
+      "source": "敏捷手套",
+      "effectPlain": "造成伤害时，敌人每有一层 凋零 ，额外 +(1.5–2) % 受到的伤害（叠乘）",
+      "valueSpans": [
+        "+(1.5–2)"
+      ]
+    },
+    {
+      "modifierId": "51430911",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "灵猫手套",
+      "source": "敏捷手套",
+      "effectPlain": "+(200–250) 最大生命",
+      "valueSpans": [
+        "+(200–250)"
+      ]
+    },
+    {
+      "modifierId": "51430941",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "灵猫手套",
+      "source": "敏捷手套",
+      "effectPlain": "+(40–50) % 灵动祝福 持续时间",
+      "valueSpans": [
+        "+(40–50)"
+      ]
+    },
+    {
+      "modifierId": "51430921",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "灵猫手套",
+      "source": "敏捷手套",
+      "effectPlain": "+(8–10) % 攻击与施法速度",
+      "valueSpans": [
+        "+(8–10)"
+      ]
+    },
+    {
+      "modifierId": "51430951",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "灵猫手套",
+      "source": "敏捷手套",
+      "effectPlain": "击败时， +50 % 几率获得 1 层 灵动祝福",
+      "valueSpans": [
+        "+50"
+      ]
+    },
+    {
+      "modifierId": "54430941",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "灵猫手套",
+      "source": "敏捷手套",
+      "effectPlain": "每有 1 层 灵动祝福 ， +(4–6) % 元素伤害",
+      "valueSpans": [
+        "+(4–6)"
+      ]
+    },
+    {
+      "modifierId": "51431721",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "灼眼战腕",
+      "source": "敏捷手套",
+      "effectPlain": "+25 % 点燃 几率",
+      "valueSpans": [
+        "+25"
+      ]
+    },
+    {
+      "modifierId": "51431731",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "灼眼战腕",
+      "source": "敏捷手套",
+      "effectPlain": "击中 点燃 状态下的敌人时，附加 致盲",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51431751",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "灼眼战腕",
+      "source": "敏捷手套",
+      "effectPlain": "额外 +20 % 对 致盲 敌人造成的伤害",
+      "valueSpans": [
+        "+20"
+      ]
+    },
+    {
+      "modifierId": "51431741",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "灼眼战腕",
+      "source": "敏捷手套",
+      "effectPlain": "额外 -12 % 来自 致盲 敌人的伤害",
+      "valueSpans": [
+        "-12"
+      ]
+    },
+    {
+      "modifierId": "51430521",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "狂猎者护腕",
+      "source": "敏捷手套",
+      "effectPlain": "+(10–20) % 攻击与施法速度",
+      "valueSpans": [
+        "+(10–20)"
+      ]
+    },
+    {
+      "modifierId": "51430511",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "狂猎者护腕",
+      "source": "敏捷手套",
+      "effectPlain": "+(30–40) % 投射物伤害",
+      "valueSpans": [
+        "+(30–40)"
+      ]
+    },
+    {
+      "modifierId": "51430531",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "狂猎者护腕",
+      "source": "敏捷手套",
+      "effectPlain": "+(60–70) % 暴击值",
+      "valueSpans": [
+        "+(60–70)"
       ]
     },
     {
@@ -1186,174 +1946,557 @@
       ]
     },
     {
-      "modifierId": "51431511",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "雷霆操纵者",
+      "modifierId": "85041151",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
       "source": "敏捷手套",
-      "effectPlain": "+(2400–2600) 该装备闪避值",
+      "effectPlain": "+(3–5) % 元素 抗性上限",
       "valueSpans": [
-        "+(2400–2600)"
+        "+(3–5)"
       ]
     },
     {
-      "modifierId": "51431521",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "雷霆操纵者",
+      "modifierId": "85041121",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
       "source": "敏捷手套",
-      "effectPlain": "对 麻痹 的敌人，额外 +(30–40) % 闪电伤害 敌人至少拥有 (6–10) 层 麻痹 时，额外 +(30–40) % 对其造成的最大闪电伤害",
+      "effectPlain": "+(5–7) % 护甲减伤穿透 召唤物 +(5–7) % 护甲减伤穿透",
       "valueSpans": [
-        "+(30–40)",
-        "(6–10)",
-        "+(30–40)"
+        "+(5–7)",
+        "+(5–7)"
       ]
     },
     {
-      "modifierId": "51431531",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "雷霆操纵者",
+      "modifierId": "85041111",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
       "source": "敏捷手套",
-      "effectPlain": "+(25–30) % 闪电抗性",
+      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透 召唤物 +(6–8) % 元素和腐蚀抗性穿透",
       "valueSpans": [
-        "+(25–30)"
+        "+(6–8)",
+        "+(6–8)"
       ]
     },
     {
-      "modifierId": "51431541",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "雷霆操纵者",
+      "modifierId": "85041131",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
       "source": "敏捷手套",
-      "effectPlain": "额外施加 (2–4) 层 麻痹",
+      "effectPlain": "+(6–8) % 魔力封印 补偿",
       "valueSpans": [
-        "(2–4)"
+        "+(6–8)"
       ]
     },
     {
-      "modifierId": "51431551",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "雷霆操纵者",
+      "modifierId": "85041141",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
       "source": "敏捷手套",
-      "effectPlain": "闪电伤害暴击时，额外 +(20–30) % 麻痹 效果，持续 2 秒",
+      "effectPlain": "+(7–8) % 光环效果",
       "valueSpans": [
-        "+(20–30)",
-        "2"
+        "+(7–8)"
       ]
     },
     {
-      "modifierId": "51431721",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "灼眼战腕",
+      "modifierId": "85041101",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
       "source": "敏捷手套",
-      "effectPlain": "+25 % 点燃 几率",
+      "effectPlain": "造成伤害时， +100 % 几率使目标 瘫痪",
       "valueSpans": [
-        "+25"
+        "+100"
       ]
     },
     {
-      "modifierId": "51431731",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "灼眼战腕",
+      "modifierId": "85041061",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
       "source": "敏捷手套",
-      "effectPlain": "击中 点燃 状态下的敌人时，附加 致盲",
+      "effectPlain": "+(15–20) 力量",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85041071",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷手套",
+      "effectPlain": "+(15–20) 敏捷",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85041081",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷手套",
+      "effectPlain": "+(15–20) 智慧",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85041091",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷手套",
+      "effectPlain": "+(20–24) % 技能范围",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85041001",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷手套",
+      "effectPlain": "+(54–74) 最大生命",
+      "valueSpans": [
+        "+(54–74)"
+      ]
+    },
+    {
+      "modifierId": "85041031",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷手套",
+      "effectPlain": "+(5–10) % 冰冷抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "85041021",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷手套",
+      "effectPlain": "+(5–10) % 火焰抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "85041051",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷手套",
+      "effectPlain": "+(5–10) % 腐蚀抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "85041041",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷手套",
+      "effectPlain": "+(5–10) % 闪电抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "85041011",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "敏捷手套",
+      "effectPlain": "+(760–960) 闪避值",
+      "valueSpans": [
+        "+(760–960)"
+      ]
+    },
+    {
+      "modifierId": "140411380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+4 主动技能等级",
       "valueSpans": []
     },
     {
-      "modifierId": "51431741",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "灼眼战腕",
-      "source": "敏捷手套",
-      "effectPlain": "额外 -12 % 来自 致盲 敌人的伤害",
-      "valueSpans": [
-        "-12"
-      ]
+      "modifierId": "140412380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "具有 (1–8) 个召唤物时，额外 +(31–36) % 召唤物伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "51431751",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "灼眼战腕",
-      "source": "敏捷手套",
-      "effectPlain": "额外 +20 % 对 致盲 敌人造成的伤害",
-      "valueSpans": [
-        "+20"
-      ]
+      "modifierId": "140412080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "至少拥有 8 层 坚韧祝福 时，额外 +(11–12) % 火焰伤害， +(19–20) % 火焰穿透",
+      "valueSpans": []
     },
     {
-      "modifierId": "51432711",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "刑求之触",
-      "source": "敏捷手套",
-      "effectPlain": "+(1500–2000) 该装备闪避值 +(300–400) 该装备护盾",
-      "valueSpans": [
-        "+(1500–2000)",
-        "+(300–400)"
-      ]
+      "modifierId": "140412180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "至少拥有 8 层 灵动祝福 时，额外 +(11–12) % 闪电伤害， +(19–20) % 闪电穿透",
+      "valueSpans": []
     },
     {
-      "modifierId": "51432721",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "刑求之触",
-      "source": "敏捷手套",
-      "effectPlain": "+(8–12) % 受伤缓冲",
-      "valueSpans": [
-        "+(8–12)"
-      ]
+      "modifierId": "140412280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "至少拥有 8 层 聚能祝福 时，额外 +(11–12) % 冰冷伤害， +(19–20) % 冰冷穿透",
+      "valueSpans": []
     },
     {
-      "modifierId": "51432731",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "刑求之触",
-      "source": "敏捷手套",
-      "effectPlain": "每 +4 % 加剧 效果， +1 每秒施加 加剧 值",
-      "valueSpans": [
-        "+4",
-        "+1"
-      ]
+      "modifierId": "140411300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+3 主动技能等级",
+      "valueSpans": []
     },
     {
-      "modifierId": "51432741",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "刑求之触",
-      "source": "敏捷手套",
-      "effectPlain": "周围 10 米内敌人加剧值达到上限时，收割其具有的 (1.3–1.5) 秒持续伤害，该效果对同一目标有 1 秒回复时间",
-      "valueSpans": [
-        "10",
-        "(1.3–1.5)",
-        "1"
-      ]
+      "modifierId": "140412300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "具有 (1–8) 个召唤物时，额外 +(26–30) % 召唤物伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "51432751",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "刑求之触",
-      "source": "敏捷手套",
-      "effectPlain": "收割 时，清除敌人的加剧值",
+      "modifierId": "140412000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "至少拥有 8 层 坚韧祝福 时，额外 +(9–10) % 火焰伤害， +(16–18) % 火焰穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140412100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "至少拥有 8 层 灵动祝福 时，额外 +(9–10) % 闪电伤害， +(16–18) % 闪电穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140412200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "至少拥有 8 层 聚能祝福 时，额外 +(9–10) % 冰冷伤害， +(16–18) % 冰冷穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411301",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+2 主动技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140412301",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "具有 (1–8) 个召唤物时，额外 +(21–25) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140412001",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "至少拥有 8 层 坚韧祝福 时，额外 +(6–8) % 火焰伤害， +(12–15) % 火焰穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140412101",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "至少拥有 8 层 灵动祝福 时，额外 +(6–8) % 闪电伤害， +(12–15) % 闪电穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140412201",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "至少拥有 8 层 聚能祝福 时，额外 +(6–8) % 冰冷伤害， +(12–15) % 冰冷穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140412302",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "具有 (1–8) 个召唤物时，额外 +(15–20) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140412002",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "至少拥有 8 层 坚韧祝福 时，额外 +(3–5) % 火焰伤害， +(9–11) % 火焰穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140412102",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "至少拥有 8 层 灵动祝福 时，额外 +(3–5) % 闪电伤害， +(9–11) % 闪电穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140412202",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "至少拥有 8 层 聚能祝福 时，额外 +(3–5) % 冰冷伤害， +(9–11) % 冰冷穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(109–140) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140412680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(21–25) % 迷踪 效果 失去 迷踪 1 秒后获得 迷踪",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140412480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+1 弹射 次数 每 弹射 1 次，额外 +7 % 伤害（叠乘）",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140412580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "拥有 战意 时，额外 +(31–36) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140412600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(16–20) % 迷踪 效果 失去 迷踪 1 秒后获得 迷踪",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(84–108) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140412400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+1 弹射 次数 每 弹射 1 次，额外 +6 % 伤害（叠乘）",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140412500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "拥有 战意 时，额外 +(26–30) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140412601",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(12–15) % 迷踪 效果 失去 迷踪 1 秒后获得 迷踪",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411601",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(59–83) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140412401",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+1 弹射 次数 每 弹射 1 次，额外 +(4–5) % 伤害（叠乘）",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140412501",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "拥有 战意 时，额外 +(21–25) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411602",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(43–58) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140412602",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(8–10) % 迷踪 效果 失去 迷踪 1 秒后获得 迷踪",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140412402",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+1 弹射 次数 每 弹射 1 次，额外 +(2–3) % 伤害（叠乘）",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140412502",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "拥有 战意 时，额外 +(15–20) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411603",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(34–42) % 收割 回复速度",
       "valueSpans": []
     },
     {
@@ -1393,145 +2536,914 @@
       ]
     },
     {
-      "modifierId": "51433311",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "断海",
-      "source": "敏捷手套",
-      "effectPlain": "核心技能被 (15–20) 级的怒斩辅助",
-      "valueSpans": [
-        "(15–20)"
-      ]
-    },
-    {
-      "modifierId": "51433321",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "断海",
-      "source": "敏捷手套",
-      "effectPlain": "+(40–70) 最大生命",
-      "valueSpans": [
-        "+(40–70)"
-      ]
-    },
-    {
-      "modifierId": "51433331",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "断海",
-      "source": "敏捷手套",
-      "effectPlain": "+(6–10) % 攻击速度",
-      "valueSpans": [
-        "+(6–10)"
-      ]
-    },
-    {
-      "modifierId": "51433811",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "雷尔夫的旧律",
-      "source": "敏捷手套",
-      "effectPlain": "+(2880–3456) 该装备闪避值",
-      "valueSpans": [
-        "+(2880–3456)"
-      ]
-    },
-    {
-      "modifierId": "51433821",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "雷尔夫的旧律",
-      "source": "敏捷手套",
-      "effectPlain": "+(20–30) % 祝福持续时间",
-      "valueSpans": [
-        "+(20–30)"
-      ]
-    },
-    {
-      "modifierId": "51433831",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "雷尔夫的旧律",
-      "source": "敏捷手套",
-      "effectPlain": "每有 1 层 灵动祝福 ，额外 +(15–16) % 闪电伤害",
-      "valueSpans": [
-        "+(15–16)"
-      ]
-    },
-    {
-      "modifierId": "51433841",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "雷尔夫的旧律",
-      "source": "敏捷手套",
-      "effectPlain": "每有 1 层 灵动祝福 ，伤害穿透 1 % 元素 抗性",
-      "valueSpans": [
-        "1"
-      ]
-    },
-    {
-      "modifierId": "51434411",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "暴君的凶焰",
-      "source": "敏捷手套",
-      "effectPlain": "攻击附加 60 - 80 点火焰伤害",
-      "valueSpans": [
-        "60",
-        "80"
-      ]
-    },
-    {
-      "modifierId": "51434421",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "暴君的凶焰",
-      "source": "敏捷手套",
-      "effectPlain": "+(20–25) % 火焰抗性",
-      "valueSpans": [
-        "+(20–25)"
-      ]
-    },
-    {
-      "modifierId": "51434431",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "暴君的凶焰",
-      "source": "敏捷手套",
-      "effectPlain": "暴击 幸运",
+      "modifierId": "140410580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (71–73) - (93–99) 点火焰伤害",
       "valueSpans": []
     },
     {
-      "modifierId": "51434441",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "暴君的凶焰",
-      "source": "敏捷手套",
-      "effectPlain": "无法触发激发技能",
+      "modifierId": "140410680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (72–74) - (96–98) 点冰冷伤害",
       "valueSpans": []
     },
     {
-      "modifierId": "51434511",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "迷鸟的归栖",
-      "source": "敏捷手套",
-      "effectPlain": "+(1880–3456) 该装备闪避值",
-      "valueSpans": [
-        "+(1880–3456)"
-      ]
+      "modifierId": "140411980",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (72–74) - (96–98) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (76–78) - (93–95) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (8–10) - (161–163) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "附加 (17–20) % 物理伤害的闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "附加 (17–20) % 闪电伤害的腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (54–56) - (71–76) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (55–57) - (73–75) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411900",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (55–57) - (73–75) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (58–60) - (71–73) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (6–8) - (123–125) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "附加 (13–16) % 物理伤害的闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411800",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "附加 (13–16) % 闪电伤害的腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410501",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (42–44) - (54–59) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (42–44) - (56–58) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411901",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (42–44) - (56–58) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (44–46) - (54–56) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410701",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (4–6) - (94–96) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411701",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "附加 (9–12) % 物理伤害的闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411801",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "附加 (9–12) % 闪电伤害的腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410502",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (25–27) - (32–36) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410602",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (25–27) - (33–35) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411902",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (25–27) - (33–35) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (26–28) - (32–34) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410702",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (2–4) - (56–58) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411702",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "附加 (7–8) % 物理伤害的闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411802",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "附加 (7–8) % 闪电伤害的腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410503",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (16–18) - (21–24) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410603",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (16–18) - (22–24) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411903",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (16–18) - (22–24) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (17–19) - (21–23) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410703",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (1–3) - (37–39) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411703",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "附加 6 % 物理伤害的闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411803",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "附加 6 % 闪电伤害的腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410504",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (10–12) - (13–16) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410604",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (10–12) - (14–16) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411904",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (10–12) - (14–16) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (11–13) - (13–15) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410704",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (1–2) - (24–26) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411704",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "附加 5 % 物理伤害的闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411804",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "附加 5 % 闪电伤害的腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410705",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (1–2) - (14–16) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410605",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (6–8) - (8–10) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410505",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (6–8) - (8–10) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (6–8) - (8–10) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411905",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (6–8) - (8–10) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411705",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "附加 4 % 物理伤害的闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411805",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "附加 4 % 闪电伤害的腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410706",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (1–2) - (10–12) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410606",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (4–6) - (6–8) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410506",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (4–6) - (6–8) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (4–6) - (6–8) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411906",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (4–6) - (6–8) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411706",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "附加 3 % 物理伤害的闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411806",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "附加 3 % 闪电伤害的腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410607",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (2–3) - (5–6) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410507",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (2–3) - (5–6) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (2–3) - (5–6) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411907",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 (2–3) - (5–6) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410707",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "攻击和法术附加 1 - (7–9) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411707",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "附加 2 % 物理伤害的闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411807",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "DEX Gloves",
+      "effectPlain": "附加 2 % 闪电伤害的腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110410280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(32–41) % 攻击与施法速度 +(32–41) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(63–81) % 技能范围 +(63–81) % 召唤物技能范围",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(66–85) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110410180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(79–101) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110410200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(22–31) % 攻击与施法速度 +(22–31) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(49–62) % 技能范围 +(49–62) % 召唤物技能范围",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410800",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(51–65) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110410100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(61–78) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110410201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(17–24) % 攻击与施法速度 +(17–24) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(35–48) % 技能范围 +(35–48) % 召唤物技能范围",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410801",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(37–50) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110410101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(44–60) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110410202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(14–17) % 攻击与施法速度 +(14–17) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(25–34) % 技能范围 +(25–34) % 召唤物技能范围",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410802",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(27–36) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110410102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(32–43) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110410203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(10–12) % 攻击与施法速度 +(10–12) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140410803",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(19–26) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(20–24) % 技能范围 +(20–24) % 召唤物技能范围",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110410103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(23–31) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(16–19) % 技能范围 +(16–19) % 召唤物技能范围",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110410104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(16–22) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110410105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(11–15) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(13–15) % 技能范围 +(13–15) % 召唤物技能范围",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(11–12) % 技能范围 +(11–12) % 召唤物技能范围",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110410106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(7–10) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110410107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(5–6) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140411207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "DEX Gloves",
+      "effectPlain": "+(8–10) % 技能范围 +(8–10) % 召唤物技能范围",
+      "valueSpans": []
     },
     {
       "modifierId": "51434521",
@@ -1543,6 +3455,18 @@
       "effectPlain": "(-1–1) 攻击投射物技能等级",
       "valueSpans": [
         "(-1–1)"
+      ]
+    },
+    {
+      "modifierId": "51434511",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "迷鸟的归栖",
+      "source": "敏捷手套",
+      "effectPlain": "+(1880–3456) 该装备闪避值",
+      "valueSpans": [
+        "+(1880–3456)"
       ]
     },
     {
@@ -1566,18 +3490,6 @@
       "valueSpans": []
     },
     {
-      "modifierId": "51435311",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "金刚护手",
-      "source": "敏捷手套",
-      "effectPlain": "+(2440–2880) 该装备闪避值",
-      "valueSpans": [
-        "+(2440–2880)"
-      ]
-    },
-    {
       "modifierId": "51435321",
       "tier": null,
       "itemLevel": null,
@@ -1590,15 +3502,15 @@
       ]
     },
     {
-      "modifierId": "51435331",
+      "modifierId": "51435311",
       "tier": null,
       "itemLevel": null,
       "weight": null,
       "affixType": "金刚护手",
       "source": "敏捷手套",
-      "effectPlain": "连携终结技 +(25–30) % 生命返还 和 护盾返还",
+      "effectPlain": "+(2440–2880) 该装备闪避值",
       "valueSpans": [
-        "+(25–30)"
+        "+(2440–2880)"
       ]
     },
     {
@@ -1614,71 +3526,130 @@
       ]
     },
     {
-      "modifierId": "51435611",
+      "modifierId": "51435331",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "仇弑袖剑",
+      "affixType": "金刚护手",
       "source": "敏捷手套",
-      "effectPlain": "+(50–60) 最大生命",
+      "effectPlain": "连携终结技 +(25–30) % 生命返还 和 护盾返还",
       "valueSpans": [
-        "+(50–60)"
+        "+(25–30)"
       ]
     },
     {
-      "modifierId": "51435621",
+      "modifierId": "51433821",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "仇弑袖剑",
+      "affixType": "雷尔夫的旧律",
       "source": "敏捷手套",
-      "effectPlain": "+(20–30) 敏捷",
+      "effectPlain": "+(20–30) % 祝福持续时间",
       "valueSpans": [
         "+(20–30)"
       ]
     },
     {
-      "modifierId": "51435631",
+      "modifierId": "51433811",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "仇弑袖剑",
+      "affixType": "雷尔夫的旧律",
       "source": "敏捷手套",
-      "effectPlain": "如果最近移动了超过 10 米， +(40–80) % 近战伤害",
+      "effectPlain": "+(2880–3456) 该装备闪避值",
       "valueSpans": [
-        "10",
-        "+(40–80)"
+        "+(2880–3456)"
+      ]
+    },
+    {
+      "modifierId": "51433841",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "雷尔夫的旧律",
+      "source": "敏捷手套",
+      "effectPlain": "每有 1 层 灵动祝福 ，伤害穿透 1 % 元素 抗性",
+      "valueSpans": [
+        "1"
+      ]
+    },
+    {
+      "modifierId": "51433831",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "雷尔夫的旧律",
+      "source": "敏捷手套",
+      "effectPlain": "每有 1 层 灵动祝福 ，额外 +(15–16) % 闪电伤害",
+      "valueSpans": [
+        "+(15–16)"
+      ]
+    },
+    {
+      "modifierId": "51431511",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "雷霆操纵者",
+      "source": "敏捷手套",
+      "effectPlain": "+(2400–2600) 该装备闪避值",
+      "valueSpans": [
+        "+(2400–2600)"
+      ]
+    },
+    {
+      "modifierId": "51431531",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "雷霆操纵者",
+      "source": "敏捷手套",
+      "effectPlain": "+(25–30) % 闪电抗性",
+      "valueSpans": [
+        "+(25–30)"
+      ]
+    },
+    {
+      "modifierId": "51431521",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "雷霆操纵者",
+      "source": "敏捷手套",
+      "effectPlain": "对 麻痹 的敌人，额外 +(30–40) % 闪电伤害 敌人至少拥有 (6–10) 层 麻痹 时，额外 +(30–40) % 对其造成的最大闪电伤害",
+      "valueSpans": [
+        "+(30–40)",
+        "(6–10)",
+        "+(30–40)"
+      ]
+    },
+    {
+      "modifierId": "51431551",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "雷霆操纵者",
+      "source": "敏捷手套",
+      "effectPlain": "闪电伤害暴击时，额外 +(20–30) % 麻痹 效果，持续 2 秒",
+      "valueSpans": [
+        "+(20–30)",
+        "2"
+      ]
+    },
+    {
+      "modifierId": "51431541",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "雷霆操纵者",
+      "source": "敏捷手套",
+      "effectPlain": "额外施加 (2–4) 层 麻痹",
+      "valueSpans": [
+        "(2–4)"
       ]
     }
   ],
   "tierVariantGroups": [
-    {
-      "skeleton": "{#} % 伤害",
-      "rolls": [
-        {
-          "modifierId": "60064114",
-          "tier": 0,
-          "itemLevel": 1,
-          "weight": 1,
-          "affixType": "侵蚀基底",
-          "valueSpans": [
-            "+(50–70)"
-          ],
-          "effectPlain": "+(50–70) % 伤害"
-        },
-        {
-          "modifierId": "140410001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(51–72)"
-          ],
-          "effectPlain": "+(51–72) % 伤害"
-        }
-      ]
-    },
     {
       "skeleton": "{#} % 元素 抗性上限",
       "rolls": [
@@ -1765,17 +3736,6 @@
     {
       "skeleton": "{#} % 冰冷抗性",
       "rolls": [
-        {
-          "modifierId": "108410101",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 冰冷抗性"
-        },
         {
           "modifierId": "1504103",
           "tier": 2,
@@ -1949,100 +3909,8 @@
       ]
     },
     {
-      "skeleton": "{#} % 暴击伤害",
-      "rolls": [
-        {
-          "modifierId": "110410101",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶后缀",
-          "valueSpans": [
-            "+(44–60)"
-          ],
-          "effectPlain": "+(44–60) % 暴击伤害"
-        },
-        {
-          "modifierId": "51433011",
-          "tier": null,
-          "itemLevel": null,
-          "weight": null,
-          "affixType": "趋光之翼",
-          "valueSpans": [
-            "+(25–60)"
-          ],
-          "effectPlain": "+(25–60) % 暴击伤害"
-        }
-      ]
-    },
-    {
-      "skeleton": "{#} % 暴击伤害减免",
-      "rolls": [
-        {
-          "modifierId": "140412701",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(43–60)"
-          ],
-          "effectPlain": "+(43–60) % 暴击伤害减免"
-        },
-        {
-          "modifierId": "1504116",
-          "tier": 2,
-          "itemLevel": 1,
-          "weight": 1,
-          "affixType": "基础词缀",
-          "valueSpans": [
-            "+(12–20)"
-          ],
-          "effectPlain": "+(12–20) % 暴击伤害减免"
-        }
-      ]
-    },
-    {
-      "skeleton": "{#} % 暴击值",
-      "rolls": [
-        {
-          "modifierId": "110410001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(85–120)"
-          ],
-          "effectPlain": "+(85–120) % 暴击值"
-        },
-        {
-          "modifierId": "51430531",
-          "tier": null,
-          "itemLevel": null,
-          "weight": null,
-          "affixType": "狂猎者护腕",
-          "valueSpans": [
-            "+(60–70)"
-          ],
-          "effectPlain": "+(60–70) % 暴击值"
-        }
-      ]
-    },
-    {
       "skeleton": "{#} % 火焰抗性",
       "rolls": [
-        {
-          "modifierId": "108410001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 火焰抗性"
-        },
         {
           "modifierId": "1504102",
           "tier": 2,
@@ -2082,17 +3950,6 @@
       "skeleton": "{#} % 腐蚀抗性",
       "rolls": [
         {
-          "modifierId": "108410301",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 腐蚀抗性"
-        },
-        {
           "modifierId": "1504105",
           "tier": 2,
           "itemLevel": 1,
@@ -2119,17 +3976,6 @@
     {
       "skeleton": "{#} % 闪电抗性",
       "rolls": [
-        {
-          "modifierId": "108410201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 闪电抗性"
-        },
         {
           "modifierId": "1504104",
           "tier": 2,
@@ -2288,17 +4134,6 @@
       "skeleton": "{#} 最大生命",
       "rolls": [
         {
-          "modifierId": "104410001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(155–220)"
-          ],
-          "effectPlain": "+(155–220) 最大生命"
-        },
-        {
           "modifierId": "1504100",
           "tier": 2,
           "itemLevel": 1,
@@ -2391,17 +4226,6 @@
     {
       "skeleton": "{#} 该装备闪避值",
       "rolls": [
-        {
-          "modifierId": "105410001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(2017–2880)"
-          ],
-          "effectPlain": "+(2017–2880) 该装备闪避值"
-        },
         {
           "modifierId": "51431411",
           "tier": null,
@@ -2514,5 +4338,5 @@
       ]
     }
   ],
-  "tierVariantGroupCount": 24
+  "tierVariantGroupCount": 20
 }

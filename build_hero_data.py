@@ -177,13 +177,34 @@ def _parse_trait_page(slug: str) -> Dict:
     }
 
 
+def _load_burst_skill_overrides() -> Dict[str, Dict]:
+    """重新爬取时保留 burstSkill（如怒火爆裂面板数值），避免被覆盖。"""
+    if not os.path.isfile(OUT_FILE):
+        return {}
+    try:
+        old = json.load(open(OUT_FILE, "r", encoding="utf-8"))
+    except Exception:
+        return {}
+    out: Dict[str, Dict] = {}
+    for h in old:
+        hid = h.get("id")
+        bs = h.get("burstSkill")
+        if hid and isinstance(bs, dict) and bs:
+            out[str(hid)] = bs
+    return out
+
+
 def main() -> None:
+    burst_overrides = _load_burst_skill_overrides()
     heroes = _parse_hero_index()
     os.makedirs(FRONTEND_DATA_DIR, exist_ok=True)
 
     for h in heroes:
         detail = _parse_trait_page(h["slug"])
         h.update(detail)
+        hid = h.get("id")
+        if hid and hid in burst_overrides:
+            h["burstSkill"] = burst_overrides[hid]
 
     # 头像与特性图标使用本地 public/assets/heroes（需配合 sync_hero_assets.py 拉取文件）
     try:

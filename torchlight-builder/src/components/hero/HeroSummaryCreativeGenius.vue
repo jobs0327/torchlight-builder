@@ -85,8 +85,8 @@ const CG_INSPIRE_HIT = [10, 15, 20, 25, 30] // 灵感狂潮：法术迸发释放
 const CG_SIGNAL_VALUES = [60, 60, 75, 75, 90] // 危机创造：奇思讯号 承受法术伤害
 const CG_ENTROPY_VALUES = [4, 6, 8, 10, 12] // 妙想熵增法则：每层迸发上限 妙想素回复%
 
-const cgInspireLevel = ref<number>(5)
-const cgSignalLevel = ref<number>(5)
+const cgInspireLevel = ref<number>(3)
+const cgSignalLevel = ref<number>(3)
 
 function calcCgBurstBonus(inspireLv: number, signalLv: number): number {
   const inspire = CG_INSPIRE_HIT[Math.min(Math.max(inspireLv, 1), 5) - 1] || 0
@@ -103,7 +103,7 @@ const cgBurstCurrentBonus = computed(() => {
 })
 
 const cgBaseBurstLimit = ref<number>(3)
-const cgEntropyLevel = ref<number>(5)
+const cgEntropyLevel = ref<number>(3)
 
 const cgEffectiveBurstLimit = computed(() => {
   if (!coreSelected.value) return 0

@@ -73,9 +73,9 @@ const WIND_SIGHT_VALUES = [-4, 2, 8, 14, 20]
 const WIND_COMBO_VALUES = [-18, -12, -6, 0, 6]
 
 const windMoveSpeedPct = ref<number>(100)
-const windYouxingLevel = ref<number>(5)
-const windSightLevel = ref<number>(5)
-const windComboLevel = ref<number>(5)
+const windYouxingLevel = ref<number>(3)
+const windSightLevel = ref<number>(3)
+const windComboLevel = ref<number>(3)
 
 function calcWindBonus(
   movePct: number,

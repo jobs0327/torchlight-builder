@@ -3,7 +3,7 @@
   "categorySlug": "Scepter",
   "categoryLabel": "Scepter",
   "sourceUrl": "https://tlidb.com/cn/Scepter",
-  "fetchedAt": "2026-03-22T11:44:47Z",
+  "fetchedAt": "2026-03-24T09:14:42Z",
   "baseCount": 20,
   "bases": [
     {
@@ -13,6 +13,10 @@
       "iconAlt": "IconEquipWeaponWandNorm001128",
       "requiredLevel": 1,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "500 暴击值",
+        "1.2 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
     },
     {
@@ -22,6 +26,10 @@
       "iconAlt": "IconEquipWeaponWandNorm002128",
       "requiredLevel": 2,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "500 暴击值",
+        "1.2 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_002_128.webp"
     },
     {
@@ -31,6 +39,10 @@
       "iconAlt": "IconEquipWeaponWandNorm003128",
       "requiredLevel": 4,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "500 暴击值",
+        "1.2 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_003_128.webp"
     },
     {
@@ -40,6 +52,10 @@
       "iconAlt": "IconEquipWeaponWandNorm004128",
       "requiredLevel": 9,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "500 暴击值",
+        "1.2 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_004_128.webp"
     },
     {
@@ -49,6 +65,10 @@
       "iconAlt": "IconEquipWeaponWandNorm005128",
       "requiredLevel": 14,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "500 暴击值",
+        "1.2 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_005_128.webp"
     },
     {
@@ -58,6 +78,10 @@
       "iconAlt": "IconEquipWeaponWandNorm001128",
       "requiredLevel": 19,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "500 暴击值",
+        "1.2 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
     },
     {
@@ -67,6 +91,10 @@
       "iconAlt": "IconEquipWeaponWandNorm002128",
       "requiredLevel": 24,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "500 暴击值",
+        "1.2 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_002_128.webp"
     },
     {
@@ -76,6 +104,10 @@
       "iconAlt": "IconEquipWeaponWandNorm003128",
       "requiredLevel": 29,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "500 暴击值",
+        "1.2 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_003_128.webp"
     },
     {
@@ -85,6 +117,10 @@
       "iconAlt": "IconEquipWeaponWandNorm004128",
       "requiredLevel": 34,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "500 暴击值",
+        "1.2 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_004_128.webp"
     },
     {
@@ -94,6 +130,10 @@
       "iconAlt": "IconEquipWeaponWandNorm005128",
       "requiredLevel": 39,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "500 暴击值",
+        "1.2 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_005_128.webp"
     },
     {
@@ -103,6 +143,10 @@
       "iconAlt": "IconEquipWeaponWandNorm001128",
       "requiredLevel": 44,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "500 暴击值",
+        "1.2 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
     },
     {
@@ -112,6 +156,10 @@
       "iconAlt": "IconEquipWeaponWandNorm005128",
       "requiredLevel": 49,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "500 暴击值",
+        "1.2 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_005_128.webp"
     },
     {
@@ -121,6 +169,10 @@
       "iconAlt": "IconEquipWeaponWandNorm001128",
       "requiredLevel": 54,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "500 暴击值",
+        "1.2 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
     },
     {
@@ -130,6 +182,10 @@
       "iconAlt": "IconEquipWeaponWandNorm002128",
       "requiredLevel": 59,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "500 暴击值",
+        "1.2 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_002_128.webp"
     },
     {
@@ -139,6 +195,10 @@
       "iconAlt": "IconEquipWeaponWandNorm003128",
       "requiredLevel": 64,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "500 暴击值",
+        "1.2 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_003_128.webp"
     },
     {
@@ -148,6 +208,10 @@
       "iconAlt": "IconEquipWeaponWandNorm004128",
       "requiredLevel": 68,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "500 暴击值",
+        "1.2 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_004_128.webp"
     },
     {
@@ -157,6 +221,10 @@
       "iconAlt": "IconEquipWeaponWandNorm005128",
       "requiredLevel": 72,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "500 暴击值",
+        "1.2 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_005_128.webp"
     },
     {
@@ -166,6 +234,10 @@
       "iconAlt": "IconEquipWeaponWandNorm001128",
       "requiredLevel": 82,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "500 暴击值",
+        "1.2 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
     },
     {
@@ -175,6 +247,10 @@
       "iconAlt": "IconEquipWeaponWandNorm001128",
       "requiredLevel": 84,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "500 暴击值",
+        "1.2 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
     },
     {
@@ -184,6 +260,10 @@
       "iconAlt": "IconEquipWeaponWandNorm001128",
       "requiredLevel": 86,
       "slotKind": "单手",
+      "baseEffectLines": [
+        "500 暴击值",
+        "1.2 攻击速度"
+      ],
       "cdnIconUrl": "https://cdn.tlidb.com/UI/Textures/Common/Icon/EquipCommon/Weapon/128/Icon_Equip_Weapon_Wand_Norm_001_128.webp"
     }
   ]

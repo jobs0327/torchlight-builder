@@ -2,79 +2,1585 @@
   "slug": "INT_Gloves",
   "label": "INT Gloves",
   "sourceUrl": "https://tlidb.com/cn/INT_Gloves",
-  "fetchedAt": "2026-03-22T08:57:30Z",
-  "modifierCount": 134,
+  "fetchedAt": "2026-03-24T07:24:24Z",
+  "modifierCount": 348,
   "modifiers": [
     {
-      "modifierId": "1504200",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "51434931",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "仇恶之手",
       "source": "智慧手套",
-      "effectPlain": "+(87–117) 最大护盾",
+      "effectPlain": "+(20–30) % 暴击伤害",
       "valueSpans": [
-        "+(87–117)"
+        "+(20–30)"
       ]
     },
     {
-      "modifierId": "1504201",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "51434921",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "仇恶之手",
       "source": "智慧手套",
-      "effectPlain": "+(4–6) % 护盾 充能 速度",
+      "effectPlain": "+(30–40) % 暴击值",
       "valueSpans": [
-        "+(4–6)"
+        "+(30–40)"
       ]
     },
     {
-      "modifierId": "1504202",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "51434911",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "仇恶之手",
       "source": "智慧手套",
-      "effectPlain": "+(5–10) % 火焰抗性",
+      "effectPlain": "+(50–60) % 该装备护盾",
       "valueSpans": [
-        "+(5–10)"
+        "+(50–60)"
       ]
     },
     {
-      "modifierId": "1504203",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "51434941",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "仇恶之手",
       "source": "智慧手套",
-      "effectPlain": "+(5–10) % 冰冷抗性",
+      "effectPlain": "如果最近有暴击，额外 +(35–45) % 恶化 伤害",
       "valueSpans": [
-        "+(5–10)"
+        "+(35–45)"
       ]
     },
     {
-      "modifierId": "1504204",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "modifierId": "51433921",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "伊斯拉菲尔的旧律",
       "source": "智慧手套",
-      "effectPlain": "+(5–10) % 闪电抗性",
+      "effectPlain": "+(20–30) % 祝福持续时间",
       "valueSpans": [
-        "+(5–10)"
+        "+(20–30)"
       ]
     },
     {
-      "modifierId": "1504205",
+      "modifierId": "51433911",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "伊斯拉菲尔的旧律",
+      "source": "智慧手套",
+      "effectPlain": "+(340–408) 该装备护盾",
+      "valueSpans": [
+        "+(340–408)"
+      ]
+    },
+    {
+      "modifierId": "51433941",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "伊斯拉菲尔的旧律",
+      "source": "智慧手套",
+      "effectPlain": "每有 1 层 聚能祝福 ， +(1–3) % 暴击伤害",
+      "valueSpans": [
+        "+(1–3)"
+      ]
+    },
+    {
+      "modifierId": "51433931",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "伊斯拉菲尔的旧律",
+      "source": "智慧手套",
+      "effectPlain": "每有 1 层 聚能祝福 ，额外 +(13–14) % 冰冷伤害",
+      "valueSpans": [
+        "+(13–14)"
+      ]
+    },
+    {
+      "modifierId": "60064206",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "智慧手套",
+      "effectPlain": "+(12–15) % 攻击速度",
+      "valueSpans": [
+        "+(12–15)"
+      ]
+    },
+    {
+      "modifierId": "60064207",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "智慧手套",
+      "effectPlain": "+(12–15) % 施法速度",
+      "valueSpans": [
+        "+(12–15)"
+      ]
+    },
+    {
+      "modifierId": "60064213",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "智慧手套",
+      "effectPlain": "+(30–50) % 该装备护盾",
+      "valueSpans": [
+        "+(30–50)"
+      ]
+    },
+    {
+      "modifierId": "60064214",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "智慧手套",
+      "effectPlain": "+(50–70) % 伤害",
+      "valueSpans": [
+        "+(50–70)"
+      ]
+    },
+    {
+      "modifierId": "60064201",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "智慧手套",
+      "effectPlain": "+1 坚韧祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "60064215",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "智慧手套",
+      "effectPlain": "使用近战技能时，获得一层 强硬",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "60064210",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "智慧手套",
+      "effectPlain": "击中时， +(15–20) % 几率造成 瘫痪",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "60064208",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "智慧手套",
+      "effectPlain": "击中时， +(15–20) % 几率造成 致盲",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "60064209",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "智慧手套",
+      "effectPlain": "击中时， +(15–20) % 几率附加 标记",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "60064217",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "智慧手套",
+      "effectPlain": "收割时，获得一层 折磨",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "60064212",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "智慧手套",
+      "effectPlain": "暴击 幸运 (-150–-120) 暴击值",
+      "valueSpans": [
+        "(-150–-120)"
+      ]
+    },
+    {
+      "modifierId": "60064211",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "智慧手套",
+      "effectPlain": "造成伤害时，淘汰生命值低于 15 % 的敌人",
+      "valueSpans": [
+        "15"
+      ]
+    },
+    {
+      "modifierId": "60064216",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "智慧手套",
+      "effectPlain": "造成法术伤害时，施加 软弱",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51430731",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "冰火交融",
+      "source": "智慧手套",
+      "effectPlain": "+(20–25) % 火焰和冰冷抗性",
+      "valueSpans": [
+        "+(20–25)"
+      ]
+    },
+    {
+      "modifierId": "51430761",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "冰火交融",
+      "source": "智慧手套",
+      "effectPlain": "如果最近使用过冰冷技能， +(75–100) % 火焰伤害",
+      "valueSpans": [
+        "+(75–100)"
+      ]
+    },
+    {
+      "modifierId": "51430751",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "冰火交融",
+      "source": "智慧手套",
+      "effectPlain": "如果最近使用过火焰技能， +(75–100) % 冰冷伤害",
+      "valueSpans": [
+        "+(75–100)"
+      ]
+    },
+    {
+      "modifierId": "104420380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(157–203) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(287–372) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105420080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(443–575) 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(79–100) % 暴击伤害减免",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104420480",
+      "tier": -1,
+      "itemLevel": 1000,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(79–101) % 魔力自然回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105420180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(87–112) % 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(95–122) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(95–122) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104420300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(121–156) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(221–286) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105420000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(341–442) 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(61–78) % 暴击伤害减免",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104420400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(61–78) % 魔力自然回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105420100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(61–86) % 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(73–94) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(73–94) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721501",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(155–220) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105420001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(239–340) 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422701",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(43–60) % 暴击伤害减免",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104420401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(43–60) % 魔力自然回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105420101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(47–66) % 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(51–72) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(51–72) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104420301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(85–120) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721502",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(111–154) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105420002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(171–238) 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422702",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(31–42) % 暴击伤害减免",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104420402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(31–42) % 魔力自然回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(37–50) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(37–50) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105420102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(39–46) % 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104420302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(61–84) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105420003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(137–170) 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422703",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(25–30) % 暴击伤害减免",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104420403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(25–30) % 魔力自然回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105420103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(28–33) % 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(30–36) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(30–36) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104420303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(49–60) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721503",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(89–110) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105420004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(110–136) 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422704",
+      "tier": 4,
+      "itemLevel": 72,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(19–24) % 暴击伤害减免",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104420404",
+      "tier": 4,
+      "itemLevel": 72,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(20–24) % 魔力自然回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105420104",
+      "tier": 4,
+      "itemLevel": 72,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(23–26) % 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(24–29) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(24–29) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104420304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(39–48) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721504",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(71–88) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104420405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(17–19) % 魔力自然回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(20–23) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(20–23) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105420105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(21–22) % 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104420305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(32–38) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721505",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(58–70) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105420005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(89–109) 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104420406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(13–16) % 魔力自然回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(15–19) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(15–19) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105420106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(18–20) % 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104420306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(25–31) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721506",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(45–57) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105420006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(69–88) 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104420407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(10–12) % 魔力自然回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(12–14) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(12–14) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "104420307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(19–24) 最大魔力",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140721507",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(34–44) 最大生命",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105420007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(52–68) 该装备护盾",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110420080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(157–203) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(36–46) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(36–46) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(36–46) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(36–46) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(66–85) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110420000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(111–156) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(25–35) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(25–35) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(25–35) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(25–35) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(51–65) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(19–27) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(19–27) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(19–27) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(19–27) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(36–50) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110420001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(85–120) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(16–19) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(16–19) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(16–19) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(16–19) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(26–35) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110420002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(71–84) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(11–14) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(11–14) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(11–14) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(11–14) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(21–25) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110420003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(51–60) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(17–20) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110420004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(41–48) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(9–11) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(9–11) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(9–11) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(9–11) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(14–16) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110420005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(32–38) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(7–9) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(7–9) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(7–9) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(7–9) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(11–13) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110420006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(26–31) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(6–7) % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(6–7) % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(6–7) % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(6–7) % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(9–10) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+5 % 冰冷抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+5 % 火焰抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+5 % 腐蚀抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "108420207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+5 % 闪电抗性",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "1504215",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧手套",
+      "effectPlain": "+(3–5) % 元素 抗性上限",
+      "valueSpans": [
+        "+(3–5)"
+      ]
+    },
+    {
+      "modifierId": "1504212",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧手套",
+      "effectPlain": "+(5–7) % 护甲减伤穿透 召唤物 +(5–7) % 护甲减伤穿透",
+      "valueSpans": [
+        "+(5–7)",
+        "+(5–7)"
+      ]
+    },
+    {
+      "modifierId": "1504211",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧手套",
+      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透 召唤物 +(6–8) % 元素和腐蚀抗性穿透",
+      "valueSpans": [
+        "+(6–8)",
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1504213",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧手套",
+      "effectPlain": "+(6–8) % 魔力封印 补偿",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1504214",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧手套",
+      "effectPlain": "+(7–8) % 光环效果",
+      "valueSpans": [
+        "+(7–8)"
+      ]
+    },
+    {
+      "modifierId": "1504210",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "智慧手套",
+      "effectPlain": "造成伤害时， +100 % 几率使目标 瘫痪",
+      "valueSpans": [
+        "+100"
+      ]
+    },
+    {
+      "modifierId": "1504216",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "基础词缀",
       "source": "智慧手套",
-      "effectPlain": "+(5–10) % 腐蚀抗性",
+      "effectPlain": "+(12–20) % 暴击伤害减免",
       "valueSpans": [
-        "+(5–10)"
+        "+(12–20)"
       ]
     },
     {
@@ -126,683 +1632,11 @@
       ]
     },
     {
-      "modifierId": "1504210",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "智慧手套",
-      "effectPlain": "造成伤害时， +100 % 几率使目标 瘫痪",
-      "valueSpans": [
-        "+100"
-      ]
-    },
-    {
-      "modifierId": "1504211",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "智慧手套",
-      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透 召唤物 +(6–8) % 元素和腐蚀抗性穿透",
-      "valueSpans": [
-        "+(6–8)",
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "1504212",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "智慧手套",
-      "effectPlain": "+(5–7) % 护甲减伤穿透 召唤物 +(5–7) % 护甲减伤穿透",
-      "valueSpans": [
-        "+(5–7)",
-        "+(5–7)"
-      ]
-    },
-    {
-      "modifierId": "1504213",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "智慧手套",
-      "effectPlain": "+(6–8) % 魔力封印 补偿",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "1504214",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "智慧手套",
-      "effectPlain": "+(7–8) % 光环效果",
-      "valueSpans": [
-        "+(7–8)"
-      ]
-    },
-    {
-      "modifierId": "1504215",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "智慧手套",
-      "effectPlain": "+(3–5) % 元素 抗性上限",
-      "valueSpans": [
-        "+(3–5)"
-      ]
-    },
-    {
-      "modifierId": "1504216",
+      "modifierId": "1504201",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "基础词缀",
-      "source": "智慧手套",
-      "effectPlain": "+(12–20) % 暴击伤害减免",
-      "valueSpans": [
-        "+(12–20)"
-      ]
-    },
-    {
-      "modifierId": "60064201",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "智慧手套",
-      "effectPlain": "+1 坚韧祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "60064206",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "智慧手套",
-      "effectPlain": "+(12–15) % 攻击速度",
-      "valueSpans": [
-        "+(12–15)"
-      ]
-    },
-    {
-      "modifierId": "60064207",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "智慧手套",
-      "effectPlain": "+(12–15) % 施法速度",
-      "valueSpans": [
-        "+(12–15)"
-      ]
-    },
-    {
-      "modifierId": "60064208",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "智慧手套",
-      "effectPlain": "击中时， +(15–20) % 几率造成 致盲",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "60064209",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "智慧手套",
-      "effectPlain": "击中时， +(15–20) % 几率附加 标记",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "60064210",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "智慧手套",
-      "effectPlain": "击中时， +(15–20) % 几率造成 瘫痪",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "60064211",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "智慧手套",
-      "effectPlain": "造成伤害时，淘汰生命值低于 15 % 的敌人",
-      "valueSpans": [
-        "15"
-      ]
-    },
-    {
-      "modifierId": "60064212",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "智慧手套",
-      "effectPlain": "暴击 幸运 (-150–-120) 暴击值",
-      "valueSpans": [
-        "(-150–-120)"
-      ]
-    },
-    {
-      "modifierId": "60064213",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "智慧手套",
-      "effectPlain": "+(30–50) % 该装备护盾",
-      "valueSpans": [
-        "+(30–50)"
-      ]
-    },
-    {
-      "modifierId": "60064214",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "智慧手套",
-      "effectPlain": "+(50–70) % 伤害",
-      "valueSpans": [
-        "+(50–70)"
-      ]
-    },
-    {
-      "modifierId": "60064215",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "智慧手套",
-      "effectPlain": "使用近战技能时，获得一层 强硬",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "60064216",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "智慧手套",
-      "effectPlain": "造成法术伤害时，施加 软弱",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "60064217",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "智慧手套",
-      "effectPlain": "收割时，获得一层 折磨",
-      "valueSpans": []
-    },
-    {
-      "modifierId": "104420301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "智慧手套",
-      "effectPlain": "+(85–120) 最大魔力",
-      "valueSpans": [
-        "+(85–120)"
-      ]
-    },
-    {
-      "modifierId": "104420401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "智慧手套",
-      "effectPlain": "+(43–60) % 魔力自然回复速度",
-      "valueSpans": [
-        "+(43–60)"
-      ]
-    },
-    {
-      "modifierId": "105420001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "智慧手套",
-      "effectPlain": "+(239–340) 该装备护盾",
-      "valueSpans": [
-        "+(239–340)"
-      ]
-    },
-    {
-      "modifierId": "105420101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "智慧手套",
-      "effectPlain": "+(47–66) % 该装备护盾",
-      "valueSpans": [
-        "+(47–66)"
-      ]
-    },
-    {
-      "modifierId": "140420001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "智慧手套",
-      "effectPlain": "+(51–72) % 伤害",
-      "valueSpans": [
-        "+(51–72)"
-      ]
-    },
-    {
-      "modifierId": "140421001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "智慧手套",
-      "effectPlain": "+(51–72) % 召唤物伤害",
-      "valueSpans": [
-        "+(51–72)"
-      ]
-    },
-    {
-      "modifierId": "140422701",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "智慧手套",
-      "effectPlain": "+(43–60) % 暴击伤害减免",
-      "valueSpans": [
-        "+(43–60)"
-      ]
-    },
-    {
-      "modifierId": "140721501",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "智慧手套",
-      "effectPlain": "+(155–220) 最大生命",
-      "valueSpans": [
-        "+(155–220)"
-      ]
-    },
-    {
-      "modifierId": "140420401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "智慧手套",
-      "effectPlain": "攻击和法术附加 (44–46) - (54–56) 点物理伤害",
-      "valueSpans": [
-        "(44–46)",
-        "(54–56)"
-      ]
-    },
-    {
-      "modifierId": "140420501",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "智慧手套",
-      "effectPlain": "攻击和法术附加 (42–44) - (54–59) 点火焰伤害",
-      "valueSpans": [
-        "(42–44)",
-        "(54–59)"
-      ]
-    },
-    {
-      "modifierId": "140420601",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "智慧手套",
-      "effectPlain": "攻击和法术附加 (42–44) - (56–58) 点冰冷伤害",
-      "valueSpans": [
-        "(42–44)",
-        "(56–58)"
-      ]
-    },
-    {
-      "modifierId": "140420701",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "智慧手套",
-      "effectPlain": "攻击和法术附加 (4–6) - (94–96) 点闪电伤害",
-      "valueSpans": [
-        "(4–6)",
-        "(94–96)"
-      ]
-    },
-    {
-      "modifierId": "140421701",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "智慧手套",
-      "effectPlain": "附加 (9–12) % 物理伤害的冰冷伤害",
-      "valueSpans": [
-        "(9–12)"
-      ]
-    },
-    {
-      "modifierId": "140421801",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "智慧手套",
-      "effectPlain": "附加 (9–12) % 冰冷伤害的腐蚀伤害",
-      "valueSpans": [
-        "(9–12)"
-      ]
-    },
-    {
-      "modifierId": "140421901",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "智慧手套",
-      "effectPlain": "攻击和法术附加 (42–44) - (56–58) 点腐蚀伤害",
-      "valueSpans": [
-        "(42–44)",
-        "(56–58)"
-      ]
-    },
-    {
-      "modifierId": "140421301",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "智慧手套",
-      "effectPlain": "+2 主动技能等级",
-      "valueSpans": [
-        "+2"
-      ]
-    },
-    {
-      "modifierId": "140422001",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "智慧手套",
-      "effectPlain": "至少拥有 8 层 坚韧祝福 时，额外 +(6–8) % 火焰伤害， +(12–15) % 火焰穿透",
-      "valueSpans": [
-        "8",
-        "+(6–8)",
-        "+(12–15)"
-      ]
-    },
-    {
-      "modifierId": "140422101",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "智慧手套",
-      "effectPlain": "至少拥有 8 层 灵动祝福 时，额外 +(6–8) % 闪电伤害， +(12–15) % 闪电穿透",
-      "valueSpans": [
-        "8",
-        "+(6–8)",
-        "+(12–15)"
-      ]
-    },
-    {
-      "modifierId": "140422201",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "智慧手套",
-      "effectPlain": "至少拥有 8 层 聚能祝福 时，额外 +(6–8) % 冰冷伤害， +(12–15) % 冰冷穿透",
-      "valueSpans": [
-        "8",
-        "+(6–8)",
-        "+(12–15)"
-      ]
-    },
-    {
-      "modifierId": "140422301",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "智慧手套",
-      "effectPlain": "具有 (1–8) 个召唤物时，额外 +(21–25) % 召唤物伤害",
-      "valueSpans": [
-        "(1–8)",
-        "+(21–25)"
-      ]
-    },
-    {
-      "modifierId": "108420001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "智慧手套",
-      "effectPlain": "+(19–27) % 火焰抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "108420101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "智慧手套",
-      "effectPlain": "+(19–27) % 冰冷抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "108420201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "智慧手套",
-      "effectPlain": "+(19–27) % 闪电抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "108420301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "智慧手套",
-      "effectPlain": "+(19–27) % 腐蚀抗性",
-      "valueSpans": [
-        "+(19–27)"
-      ]
-    },
-    {
-      "modifierId": "110420001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "智慧手套",
-      "effectPlain": "+(85–120) % 暴击值",
-      "valueSpans": [
-        "+(85–120)"
-      ]
-    },
-    {
-      "modifierId": "140421101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "智慧手套",
-      "effectPlain": "+(36–50) % 加剧 效果",
-      "valueSpans": [
-        "+(36–50)"
-      ]
-    },
-    {
-      "modifierId": "110420101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "智慧手套",
-      "effectPlain": "+(44–60) % 暴击伤害",
-      "valueSpans": [
-        "+(44–60)"
-      ]
-    },
-    {
-      "modifierId": "110420201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "智慧手套",
-      "effectPlain": "+(17–24) % 攻击与施法速度 +(17–24) % 召唤物攻击与施法速度",
-      "valueSpans": [
-        "+(17–24)",
-        "+(17–24)"
-      ]
-    },
-    {
-      "modifierId": "140420801",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "智慧手套",
-      "effectPlain": "+(37–50) % 收割 时间",
-      "valueSpans": [
-        "+(37–50)"
-      ]
-    },
-    {
-      "modifierId": "140421201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "智慧手套",
-      "effectPlain": "+(35–48) % 技能范围 +(35–48) % 召唤物技能范围",
-      "valueSpans": [
-        "+(35–48)",
-        "+(35–48)"
-      ]
-    },
-    {
-      "modifierId": "140421601",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "智慧手套",
-      "effectPlain": "+(59–83) % 收割 回复速度",
-      "valueSpans": [
-        "+(59–83)"
-      ]
-    },
-    {
-      "modifierId": "140422401",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "智慧手套",
-      "effectPlain": "+1 弹射 次数 每 弹射 1 次，额外 +(4–5) % 伤害（叠乘）",
-      "valueSpans": [
-        "+1",
-        "+(4–5)"
-      ]
-    },
-    {
-      "modifierId": "140422501",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "智慧手套",
-      "effectPlain": "拥有 战意 时，额外 +(21–25) % 伤害",
-      "valueSpans": [
-        "+(21–25)"
-      ]
-    },
-    {
-      "modifierId": "140422601",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "智慧手套",
-      "effectPlain": "+(12–15) % 迷踪 效果 失去 迷踪 1 秒后获得 迷踪",
-      "valueSpans": [
-        "+(12–15)",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "85042001",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "智慧手套",
-      "effectPlain": "+(87–117) 最大护盾",
-      "valueSpans": [
-        "+(87–117)"
-      ]
-    },
-    {
-      "modifierId": "85042011",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
       "source": "智慧手套",
       "effectPlain": "+(4–6) % 护盾 充能 速度",
       "valueSpans": [
@@ -810,23 +1644,11 @@
       ]
     },
     {
-      "modifierId": "85042021",
+      "modifierId": "1504203",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "智慧手套",
-      "effectPlain": "+(5–10) % 火焰抗性",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "85042031",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "智慧手套",
       "effectPlain": "+(5–10) % 冰冷抗性",
       "valueSpans": [
@@ -834,23 +1656,23 @@
       ]
     },
     {
-      "modifierId": "85042041",
+      "modifierId": "1504202",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "智慧手套",
-      "effectPlain": "+(5–10) % 闪电抗性",
+      "effectPlain": "+(5–10) % 火焰抗性",
       "valueSpans": [
         "+(5–10)"
       ]
     },
     {
-      "modifierId": "85042051",
+      "modifierId": "1504205",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "智慧手套",
       "effectPlain": "+(5–10) % 腐蚀抗性",
       "valueSpans": [
@@ -858,161 +1680,138 @@
       ]
     },
     {
-      "modifierId": "85042061",
+      "modifierId": "1504204",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "智慧手套",
-      "effectPlain": "+(15–20) 力量",
+      "effectPlain": "+(5–10) % 闪电抗性",
       "valueSpans": [
-        "+(15–20)"
+        "+(5–10)"
       ]
     },
     {
-      "modifierId": "85042071",
+      "modifierId": "1504200",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "智慧手套",
-      "effectPlain": "+(15–20) 敏捷",
+      "effectPlain": "+(87–117) 最大护盾",
       "valueSpans": [
-        "+(15–20)"
+        "+(87–117)"
       ]
     },
     {
-      "modifierId": "85042081",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "智慧手套",
-      "effectPlain": "+(15–20) 智慧",
-      "valueSpans": [
-        "+(15–20)"
-      ]
-    },
-    {
-      "modifierId": "85042091",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "智慧手套",
-      "effectPlain": "+(20–24) % 技能范围",
-      "valueSpans": [
-        "+(20–24)"
-      ]
-    },
-    {
-      "modifierId": "85042101",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "智慧手套",
-      "effectPlain": "造成伤害时， +100 % 几率使目标 瘫痪",
-      "valueSpans": [
-        "+100"
-      ]
-    },
-    {
-      "modifierId": "85042111",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "智慧手套",
-      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透 召唤物 +(6–8) % 元素和腐蚀抗性穿透",
-      "valueSpans": [
-        "+(6–8)",
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "85042121",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "智慧手套",
-      "effectPlain": "+(5–7) % 护甲减伤穿透 召唤物 +(5–7) % 护甲减伤穿透",
-      "valueSpans": [
-        "+(5–7)",
-        "+(5–7)"
-      ]
-    },
-    {
-      "modifierId": "85042131",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "智慧手套",
-      "effectPlain": "+(6–8) % 魔力封印 补偿",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "85042141",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "智慧手套",
-      "effectPlain": "+(7–8) % 光环效果",
-      "valueSpans": [
-        "+(7–8)"
-      ]
-    },
-    {
-      "modifierId": "85042151",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "智慧手套",
-      "effectPlain": "+(3–5) % 元素 抗性上限",
-      "valueSpans": [
-        "+(3–5)"
-      ]
-    },
-    {
-      "modifierId": "51430731",
+      "modifierId": "51435031",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "冰火交融",
+      "affixType": "大法师之手",
       "source": "智慧手套",
-      "effectPlain": "+(20–25) % 火焰和冰冷抗性",
+      "effectPlain": "(15–20) % 的伤害优先抵扣魔力",
       "valueSpans": [
-        "+(20–25)"
+        "(15–20)"
       ]
     },
     {
-      "modifierId": "51430751",
+      "modifierId": "51435021",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "冰火交融",
+      "affixType": "大法师之手",
       "source": "智慧手套",
-      "effectPlain": "如果最近使用过火焰技能， +(75–100) % 冰冷伤害",
+      "effectPlain": "+(20–27) % 冰冷抗性",
       "valueSpans": [
-        "+(75–100)"
+        "+(20–27)"
       ]
     },
     {
-      "modifierId": "51430761",
+      "modifierId": "51435011",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "冰火交融",
+      "affixType": "大法师之手",
       "source": "智慧手套",
-      "effectPlain": "如果最近使用过冰冷技能， +(75–100) % 火焰伤害",
+      "effectPlain": "+(272–340) 该装备护盾",
       "valueSpans": [
-        "+(75–100)"
+        "+(272–340)"
+      ]
+    },
+    {
+      "modifierId": "51435051",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "大法师之手",
+      "source": "智慧手套",
+      "effectPlain": "每有 (75–100) 最大魔力，额外 +1 % 法术伤害，至多 100 %",
+      "valueSpans": [
+        "(75–100)",
+        "+1",
+        "100"
+      ]
+    },
+    {
+      "modifierId": "51435041",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "大法师之手",
+      "source": "智慧手套",
+      "effectPlain": "额外 +(30–35) % 最大魔力 技能消耗固定为 (1–100)",
+      "valueSpans": [
+        "+(30–35)",
+        "(1–100)"
+      ]
+    },
+    {
+      "modifierId": "51434231",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "孤誓之握",
+      "source": "智慧手套",
+      "effectPlain": "+(30–35) 力量",
+      "valueSpans": [
+        "+(30–35)"
+      ]
+    },
+    {
+      "modifierId": "51434221",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "孤誓之握",
+      "source": "智慧手套",
+      "effectPlain": "+(30–35) 智慧",
+      "valueSpans": [
+        "+(30–35)"
+      ]
+    },
+    {
+      "modifierId": "51434211",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "孤誓之握",
+      "source": "智慧手套",
+      "effectPlain": "+(40–80) 该装备护盾",
+      "valueSpans": [
+        "+(40–80)"
+      ]
+    },
+    {
+      "modifierId": "51434241",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "孤誓之握",
+      "source": "智慧手套",
+      "effectPlain": "自身只受 1 个光环影响时，额外 +(25–30) % 近战物理伤害",
+      "valueSpans": [
+        "+(25–30)"
       ]
     },
     {
@@ -1040,18 +1839,6 @@
       ]
     },
     {
-      "modifierId": "51431041",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "寒冰法脉",
-      "source": "智慧手套",
-      "effectPlain": "击败 冰结 状态下的敌人时，回复技能和位移技能 - 20 % 当前冷却时间",
-      "valueSpans": [
-        "20"
-      ]
-    },
-    {
       "modifierId": "51431051",
       "tier": null,
       "itemLevel": null,
@@ -1064,6 +1851,18 @@
       ]
     },
     {
+      "modifierId": "51431041",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "寒冰法脉",
+      "source": "智慧手套",
+      "effectPlain": "击败 冰结 状态下的敌人时，回复技能和位移技能 - 20 % 当前冷却时间",
+      "valueSpans": [
+        "20"
+      ]
+    },
+    {
       "modifierId": "51431061",
       "tier": null,
       "itemLevel": null,
@@ -1073,131 +1872,6 @@
       "effectPlain": "魔力消耗的 50 % 转换为生命消耗",
       "valueSpans": [
         "50"
-      ]
-    },
-    {
-      "modifierId": "51431321",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "贤者的洞察",
-      "source": "智慧手套",
-      "effectPlain": "+(150–350) 该装备护盾",
-      "valueSpans": [
-        "+(150–350)"
-      ]
-    },
-    {
-      "modifierId": "51431331",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "贤者的洞察",
-      "source": "智慧手套",
-      "effectPlain": "(-1–1) 法术技能等级",
-      "valueSpans": [
-        "(-1–1)"
-      ]
-    },
-    {
-      "modifierId": "51431341",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "贤者的洞察",
-      "source": "智慧手套",
-      "effectPlain": "法术击中造成火焰伤害时， -15 % 目标冰冷、闪电、腐蚀抗性，持续 3 秒",
-      "valueSpans": [
-        "-15",
-        "3"
-      ]
-    },
-    {
-      "modifierId": "51431361",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "贤者的洞察",
-      "source": "智慧手套",
-      "effectPlain": "法术击中造成冰冷伤害时， -15 % 目标火焰、闪电、腐蚀抗性，持续 3 秒",
-      "valueSpans": [
-        "-15",
-        "3"
-      ]
-    },
-    {
-      "modifierId": "51431371",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "贤者的洞察",
-      "source": "智慧手套",
-      "effectPlain": "法术击中造成闪电伤害时， -15 % 目标火焰、冰冷、腐蚀抗性，持续 3 秒",
-      "valueSpans": [
-        "-15",
-        "3"
-      ]
-    },
-    {
-      "modifierId": "51431381",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "贤者的洞察",
-      "source": "智慧手套",
-      "effectPlain": "法术击中造成腐蚀伤害时， -15 % 目标火焰、冰冷、闪电抗性，持续 3 秒",
-      "valueSpans": [
-        "-15",
-        "3"
-      ]
-    },
-    {
-      "modifierId": "51431811",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "暴君的铁腕",
-      "source": "智慧手套",
-      "effectPlain": "+(90–120) 智慧",
-      "valueSpans": [
-        "+(90–120)"
-      ]
-    },
-    {
-      "modifierId": "51431821",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "暴君的铁腕",
-      "source": "智慧手套",
-      "effectPlain": "+(160–200) 最大魔力",
-      "valueSpans": [
-        "+(160–200)"
-      ]
-    },
-    {
-      "modifierId": "51431831",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "暴君的铁腕",
-      "source": "智慧手套",
-      "effectPlain": "每秒自然回复 (2–3) % 魔力",
-      "valueSpans": [
-        "(2–3)"
-      ]
-    },
-    {
-      "modifierId": "51431841",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "暴君的铁腕",
-      "source": "智慧手套",
-      "effectPlain": "最近每消耗 (880–900) 魔力， +5 % 暴击值和暴击伤害",
-      "valueSpans": [
-        "(880–900)",
-        "+5"
       ]
     },
     {
@@ -1237,6 +1911,18 @@
       ]
     },
     {
+      "modifierId": "52432971",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "掌中虚海",
+      "source": "智慧手套",
+      "effectPlain": "回复技能 -80 % 回复效果",
+      "valueSpans": [
+        "-80"
+      ]
+    },
+    {
       "modifierId": "51432941",
       "tier": null,
       "itemLevel": null,
@@ -1262,75 +1948,52 @@
       ]
     },
     {
-      "modifierId": "52432971",
+      "modifierId": "51431821",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "掌中虚海",
+      "affixType": "暴君的铁腕",
       "source": "智慧手套",
-      "effectPlain": "回复技能 -80 % 回复效果",
+      "effectPlain": "+(160–200) 最大魔力",
       "valueSpans": [
-        "-80"
+        "+(160–200)"
       ]
     },
     {
-      "modifierId": "51433911",
+      "modifierId": "51431811",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "伊斯拉菲尔的旧律",
+      "affixType": "暴君的铁腕",
       "source": "智慧手套",
-      "effectPlain": "+(340–408) 该装备护盾",
+      "effectPlain": "+(90–120) 智慧",
       "valueSpans": [
-        "+(340–408)"
+        "+(90–120)"
       ]
     },
     {
-      "modifierId": "51433921",
+      "modifierId": "51431841",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "伊斯拉菲尔的旧律",
+      "affixType": "暴君的铁腕",
       "source": "智慧手套",
-      "effectPlain": "+(20–30) % 祝福持续时间",
+      "effectPlain": "最近每消耗 (880–900) 魔力， +5 % 暴击值和暴击伤害",
       "valueSpans": [
-        "+(20–30)"
+        "(880–900)",
+        "+5"
       ]
     },
     {
-      "modifierId": "51433931",
+      "modifierId": "51431831",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "伊斯拉菲尔的旧律",
+      "affixType": "暴君的铁腕",
       "source": "智慧手套",
-      "effectPlain": "每有 1 层 聚能祝福 ，额外 +(13–14) % 冰冷伤害",
+      "effectPlain": "每秒自然回复 (2–3) % 魔力",
       "valueSpans": [
-        "+(13–14)"
-      ]
-    },
-    {
-      "modifierId": "51433941",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "伊斯拉菲尔的旧律",
-      "source": "智慧手套",
-      "effectPlain": "每有 1 层 聚能祝福 ， +(1–3) % 暴击伤害",
-      "valueSpans": [
-        "+(1–3)"
-      ]
-    },
-    {
-      "modifierId": "51434011",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "殉永恒者",
-      "source": "智慧手套",
-      "effectPlain": "-20 % 创伤 几率",
-      "valueSpans": [
-        "-20"
+        "(2–3)"
       ]
     },
     {
@@ -1346,18 +2009,6 @@
       ]
     },
     {
-      "modifierId": "51434031",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "殉永恒者",
-      "source": "智慧手套",
-      "effectPlain": "额外 (-20–-15) % 受到的物理伤害",
-      "valueSpans": [
-        "(-20–-15)"
-      ]
-    },
-    {
       "modifierId": "51434041",
       "tier": null,
       "itemLevel": null,
@@ -1367,6 +2018,18 @@
       "effectPlain": "+(94–100) % 收割 回复速度",
       "valueSpans": [
         "+(94–100)"
+      ]
+    },
+    {
+      "modifierId": "51434011",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "殉永恒者",
+      "source": "智慧手套",
+      "effectPlain": "-20 % 创伤 几率",
+      "valueSpans": [
+        "-20"
       ]
     },
     {
@@ -1383,114 +2046,64 @@
       ]
     },
     {
-      "modifierId": "51435011",
+      "modifierId": "51434031",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "大法师之手",
+      "affixType": "殉永恒者",
       "source": "智慧手套",
-      "effectPlain": "+(272–340) 该装备护盾",
+      "effectPlain": "额外 (-20–-15) % 受到的物理伤害",
       "valueSpans": [
-        "+(272–340)"
+        "(-20–-15)"
       ]
     },
     {
-      "modifierId": "51435021",
+      "modifierId": "51435431",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "大法师之手",
+      "affixType": "真知之握",
       "source": "智慧手套",
-      "effectPlain": "+(20–27) % 冰冷抗性",
+      "effectPlain": "+ (10–20) % 法术 元素 伤害",
       "valueSpans": [
-        "+(20–27)"
+        "(10–20)"
       ]
     },
     {
-      "modifierId": "51435031",
+      "modifierId": "51435411",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "大法师之手",
+      "affixType": "真知之握",
       "source": "智慧手套",
-      "effectPlain": "(15–20) % 的伤害优先抵扣魔力",
+      "effectPlain": "+(5–10) % 元素抗性",
       "valueSpans": [
-        "(15–20)"
+        "+(5–10)"
       ]
     },
     {
-      "modifierId": "51435041",
+      "modifierId": "51435421",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "大法师之手",
+      "affixType": "真知之握",
       "source": "智慧手套",
-      "effectPlain": "额外 +(30–35) % 最大魔力 技能消耗固定为 (1–100)",
+      "effectPlain": "12 米内敌人元素抗性 +20 %",
       "valueSpans": [
-        "+(30–35)",
-        "(1–100)"
+        "+20"
       ]
     },
     {
-      "modifierId": "51435051",
+      "modifierId": "51435441",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "大法师之手",
+      "affixType": "真知之握",
       "source": "智慧手套",
-      "effectPlain": "每有 (75–100) 最大魔力，额外 +1 % 法术伤害，至多 100 %",
+      "effectPlain": "[入木三分] 造成火焰、闪电、冰冷伤害时，分别施加 火焰渗透 、 闪电渗透 、 冰冷渗透 造成伤害时，敌人每有一种渗透效果，额外 +8 % 元素伤害 额外 +12 % 法术伤害",
       "valueSpans": [
-        "(75–100)",
-        "+1",
-        "100"
-      ]
-    },
-    {
-      "modifierId": "51434211",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "孤誓之握",
-      "source": "智慧手套",
-      "effectPlain": "+(40–80) 该装备护盾",
-      "valueSpans": [
-        "+(40–80)"
-      ]
-    },
-    {
-      "modifierId": "51434221",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "孤誓之握",
-      "source": "智慧手套",
-      "effectPlain": "+(30–35) 智慧",
-      "valueSpans": [
-        "+(30–35)"
-      ]
-    },
-    {
-      "modifierId": "51434231",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "孤誓之握",
-      "source": "智慧手套",
-      "effectPlain": "+(30–35) 力量",
-      "valueSpans": [
-        "+(30–35)"
-      ]
-    },
-    {
-      "modifierId": "51434241",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "孤誓之握",
-      "source": "智慧手套",
-      "effectPlain": "自身只受 1 个光环影响时，额外 +(25–30) % 近战物理伤害",
-      "valueSpans": [
-        "+(25–30)"
+        "+8",
+        "+12"
       ]
     },
     {
@@ -1542,131 +2155,1547 @@
       ]
     },
     {
-      "modifierId": "51434911",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "仇恶之手",
+      "modifierId": "85042151",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
       "source": "智慧手套",
-      "effectPlain": "+(50–60) % 该装备护盾",
+      "effectPlain": "+(3–5) % 元素 抗性上限",
       "valueSpans": [
-        "+(50–60)"
+        "+(3–5)"
       ]
     },
     {
-      "modifierId": "51434921",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "仇恶之手",
+      "modifierId": "85042121",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
       "source": "智慧手套",
-      "effectPlain": "+(30–40) % 暴击值",
+      "effectPlain": "+(5–7) % 护甲减伤穿透 召唤物 +(5–7) % 护甲减伤穿透",
       "valueSpans": [
-        "+(30–40)"
+        "+(5–7)",
+        "+(5–7)"
       ]
     },
     {
-      "modifierId": "51434931",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "仇恶之手",
+      "modifierId": "85042111",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
       "source": "智慧手套",
-      "effectPlain": "+(20–30) % 暴击伤害",
+      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透 召唤物 +(6–8) % 元素和腐蚀抗性穿透",
       "valueSpans": [
-        "+(20–30)"
+        "+(6–8)",
+        "+(6–8)"
       ]
     },
     {
-      "modifierId": "51434941",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "仇恶之手",
+      "modifierId": "85042131",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
       "source": "智慧手套",
-      "effectPlain": "如果最近有暴击，额外 +(35–45) % 恶化 伤害",
+      "effectPlain": "+(6–8) % 魔力封印 补偿",
       "valueSpans": [
-        "+(35–45)"
+        "+(6–8)"
       ]
     },
     {
-      "modifierId": "51435411",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "真知之握",
+      "modifierId": "85042141",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
       "source": "智慧手套",
-      "effectPlain": "+(5–10) % 元素抗性",
+      "effectPlain": "+(7–8) % 光环效果",
+      "valueSpans": [
+        "+(7–8)"
+      ]
+    },
+    {
+      "modifierId": "85042101",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧手套",
+      "effectPlain": "造成伤害时， +100 % 几率使目标 瘫痪",
+      "valueSpans": [
+        "+100"
+      ]
+    },
+    {
+      "modifierId": "85042061",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧手套",
+      "effectPlain": "+(15–20) 力量",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85042071",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧手套",
+      "effectPlain": "+(15–20) 敏捷",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85042081",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧手套",
+      "effectPlain": "+(15–20) 智慧",
+      "valueSpans": [
+        "+(15–20)"
+      ]
+    },
+    {
+      "modifierId": "85042091",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧手套",
+      "effectPlain": "+(20–24) % 技能范围",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85042011",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧手套",
+      "effectPlain": "+(4–6) % 护盾 充能 速度",
+      "valueSpans": [
+        "+(4–6)"
+      ]
+    },
+    {
+      "modifierId": "85042031",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧手套",
+      "effectPlain": "+(5–10) % 冰冷抗性",
       "valueSpans": [
         "+(5–10)"
       ]
     },
     {
-      "modifierId": "51435421",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "真知之握",
+      "modifierId": "85042021",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
       "source": "智慧手套",
-      "effectPlain": "12 米内敌人元素抗性 +20 %",
+      "effectPlain": "+(5–10) % 火焰抗性",
       "valueSpans": [
-        "+20"
+        "+(5–10)"
       ]
     },
     {
-      "modifierId": "51435431",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "真知之握",
+      "modifierId": "85042051",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
       "source": "智慧手套",
-      "effectPlain": "+ (10–20) % 法术 元素 伤害",
+      "effectPlain": "+(5–10) % 腐蚀抗性",
       "valueSpans": [
-        "(10–20)"
+        "+(5–10)"
       ]
     },
     {
-      "modifierId": "51435441",
+      "modifierId": "85042041",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧手套",
+      "effectPlain": "+(5–10) % 闪电抗性",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "85042001",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "智慧手套",
+      "effectPlain": "+(87–117) 最大护盾",
+      "valueSpans": [
+        "+(87–117)"
+      ]
+    },
+    {
+      "modifierId": "140421380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+4 主动技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "INT Gloves",
+      "effectPlain": "具有 (1–8) 个召唤物时，额外 +(31–36) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "INT Gloves",
+      "effectPlain": "至少拥有 8 层 坚韧祝福 时，额外 +(11–12) % 火焰伤害， +(19–20) % 火焰穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "INT Gloves",
+      "effectPlain": "至少拥有 8 层 灵动祝福 时，额外 +(11–12) % 闪电伤害， +(19–20) % 闪电穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "INT Gloves",
+      "effectPlain": "至少拥有 8 层 聚能祝福 时，额外 +(11–12) % 冰冷伤害， +(19–20) % 冰冷穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+3 主动技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "INT Gloves",
+      "effectPlain": "具有 (1–8) 个召唤物时，额外 +(26–30) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "INT Gloves",
+      "effectPlain": "至少拥有 8 层 坚韧祝福 时，额外 +(9–10) % 火焰伤害， +(16–18) % 火焰穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "INT Gloves",
+      "effectPlain": "至少拥有 8 层 灵动祝福 时，额外 +(9–10) % 闪电伤害， +(16–18) % 闪电穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "INT Gloves",
+      "effectPlain": "至少拥有 8 层 聚能祝福 时，额外 +(9–10) % 冰冷伤害， +(16–18) % 冰冷穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421301",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "INT Gloves",
+      "effectPlain": "+2 主动技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422301",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "INT Gloves",
+      "effectPlain": "具有 (1–8) 个召唤物时，额外 +(21–25) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422001",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "INT Gloves",
+      "effectPlain": "至少拥有 8 层 坚韧祝福 时，额外 +(6–8) % 火焰伤害， +(12–15) % 火焰穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422101",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "INT Gloves",
+      "effectPlain": "至少拥有 8 层 灵动祝福 时，额外 +(6–8) % 闪电伤害， +(12–15) % 闪电穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422201",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻前缀",
+      "source": "INT Gloves",
+      "effectPlain": "至少拥有 8 层 聚能祝福 时，额外 +(6–8) % 冰冷伤害， +(12–15) % 冰冷穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422302",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "INT Gloves",
+      "effectPlain": "具有 (1–8) 个召唤物时，额外 +(15–20) % 召唤物伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422002",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "INT Gloves",
+      "effectPlain": "至少拥有 8 层 坚韧祝福 时，额外 +(3–5) % 火焰伤害， +(9–11) % 火焰穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422102",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "INT Gloves",
+      "effectPlain": "至少拥有 8 层 灵动祝福 时，额外 +(3–5) % 闪电伤害， +(9–11) % 闪电穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422202",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "INT Gloves",
+      "effectPlain": "至少拥有 8 层 聚能祝福 时，额外 +(3–5) % 冰冷伤害， +(9–11) % 冰冷穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(109–140) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(21–25) % 迷踪 效果 失去 迷踪 1 秒后获得 迷踪",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+1 弹射 次数 每 弹射 1 次，额外 +7 % 伤害（叠乘）",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "INT Gloves",
+      "effectPlain": "拥有 战意 时，额外 +(31–36) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(16–20) % 迷踪 效果 失去 迷踪 1 秒后获得 迷踪",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(84–108) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+1 弹射 次数 每 弹射 1 次，额外 +6 % 伤害（叠乘）",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "INT Gloves",
+      "effectPlain": "拥有 战意 时，额外 +(26–30) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422601",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(12–15) % 迷踪 效果 失去 迷踪 1 秒后获得 迷踪",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421601",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(59–83) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422401",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+1 弹射 次数 每 弹射 1 次，额外 +(4–5) % 伤害（叠乘）",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422501",
+      "tier": 1,
+      "itemLevel": 100,
+      "weight": 100,
+      "affixType": "至臻后缀",
+      "source": "INT Gloves",
+      "effectPlain": "拥有 战意 时，额外 +(21–25) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421602",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(43–58) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422602",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(8–10) % 迷踪 效果 失去 迷踪 1 秒后获得 迷踪",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422402",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+1 弹射 次数 每 弹射 1 次，额外 +(2–3) % 伤害（叠乘）",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140422502",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "INT Gloves",
+      "effectPlain": "拥有 战意 时，额外 +(15–20) % 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421603",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(34–42) % 收割 回复速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "51431331",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "真知之握",
+      "affixType": "贤者的洞察",
       "source": "智慧手套",
-      "effectPlain": "[入木三分] 造成火焰、闪电、冰冷伤害时，分别施加 火焰渗透 、 闪电渗透 、 冰冷渗透 造成伤害时，敌人每有一种渗透效果，额外 +8 % 元素伤害 额外 +12 % 法术伤害",
+      "effectPlain": "(-1–1) 法术技能等级",
       "valueSpans": [
-        "+8",
-        "+12"
+        "(-1–1)"
       ]
+    },
+    {
+      "modifierId": "51431321",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "贤者的洞察",
+      "source": "智慧手套",
+      "effectPlain": "+(150–350) 该装备护盾",
+      "valueSpans": [
+        "+(150–350)"
+      ]
+    },
+    {
+      "modifierId": "51431361",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "贤者的洞察",
+      "source": "智慧手套",
+      "effectPlain": "法术击中造成冰冷伤害时， -15 % 目标火焰、闪电、腐蚀抗性，持续 3 秒",
+      "valueSpans": [
+        "-15",
+        "3"
+      ]
+    },
+    {
+      "modifierId": "51431341",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "贤者的洞察",
+      "source": "智慧手套",
+      "effectPlain": "法术击中造成火焰伤害时， -15 % 目标冰冷、闪电、腐蚀抗性，持续 3 秒",
+      "valueSpans": [
+        "-15",
+        "3"
+      ]
+    },
+    {
+      "modifierId": "51431381",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "贤者的洞察",
+      "source": "智慧手套",
+      "effectPlain": "法术击中造成腐蚀伤害时， -15 % 目标火焰、冰冷、闪电抗性，持续 3 秒",
+      "valueSpans": [
+        "-15",
+        "3"
+      ]
+    },
+    {
+      "modifierId": "51431371",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "贤者的洞察",
+      "source": "智慧手套",
+      "effectPlain": "法术击中造成闪电伤害时， -15 % 目标火焰、冰冷、腐蚀抗性，持续 3 秒",
+      "valueSpans": [
+        "-15",
+        "3"
+      ]
+    },
+    {
+      "modifierId": "140420580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (71–73) - (93–99) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (72–74) - (96–98) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421980",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (72–74) - (96–98) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (76–78) - (93–95) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (8–10) - (161–163) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "附加 (17–20) % 冰冷伤害的腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "附加 (17–20) % 物理伤害的冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (54–56) - (71–76) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (55–57) - (73–75) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421900",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (55–57) - (73–75) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (58–60) - (71–73) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (6–8) - (123–125) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421800",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "附加 (13–16) % 冰冷伤害的腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "附加 (13–16) % 物理伤害的冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420501",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (42–44) - (54–59) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (42–44) - (56–58) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421901",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (42–44) - (56–58) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (44–46) - (54–56) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420701",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (4–6) - (94–96) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421801",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "附加 (9–12) % 冰冷伤害的腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421701",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "附加 (9–12) % 物理伤害的冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420502",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (25–27) - (32–36) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420602",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (25–27) - (33–35) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421902",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (25–27) - (33–35) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (26–28) - (32–34) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420702",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (2–4) - (56–58) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421802",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "附加 (7–8) % 冰冷伤害的腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421702",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "附加 (7–8) % 物理伤害的冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420503",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (16–18) - (21–24) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420603",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (16–18) - (22–24) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421903",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (16–18) - (22–24) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (17–19) - (21–23) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420703",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (1–3) - (37–39) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421803",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "附加 6 % 冰冷伤害的腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421703",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "附加 6 % 物理伤害的冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420504",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (10–12) - (13–16) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420604",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (10–12) - (14–16) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421904",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (10–12) - (14–16) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (11–13) - (13–15) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420704",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (1–2) - (24–26) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421804",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "附加 5 % 冰冷伤害的腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421704",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "附加 5 % 物理伤害的冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420705",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (1–2) - (14–16) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420605",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (6–8) - (8–10) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420505",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (6–8) - (8–10) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (6–8) - (8–10) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421905",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (6–8) - (8–10) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421805",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "附加 4 % 冰冷伤害的腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421705",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "附加 4 % 物理伤害的冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420706",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (1–2) - (10–12) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420606",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (4–6) - (6–8) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420506",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (4–6) - (6–8) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (4–6) - (6–8) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421906",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (4–6) - (6–8) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421806",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "附加 3 % 冰冷伤害的腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421706",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "附加 3 % 物理伤害的冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420607",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (2–3) - (5–6) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420507",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (2–3) - (5–6) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (2–3) - (5–6) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421907",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 (2–3) - (5–6) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420707",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "攻击和法术附加 1 - (7–9) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421807",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "附加 2 % 冰冷伤害的腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421707",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "INT Gloves",
+      "effectPlain": "附加 2 % 物理伤害的冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110420280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(32–41) % 攻击与施法速度 +(32–41) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(63–81) % 技能范围 +(63–81) % 召唤物技能范围",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(66–85) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110420180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(79–101) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110420200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(22–31) % 攻击与施法速度 +(22–31) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(49–62) % 技能范围 +(49–62) % 召唤物技能范围",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420800",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(51–65) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110420100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(61–78) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110420201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(17–24) % 攻击与施法速度 +(17–24) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(35–48) % 技能范围 +(35–48) % 召唤物技能范围",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420801",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(37–50) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110420101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(44–60) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110420202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(14–17) % 攻击与施法速度 +(14–17) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(25–34) % 技能范围 +(25–34) % 召唤物技能范围",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420802",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(27–36) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110420102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(32–43) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110420203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(10–12) % 攻击与施法速度 +(10–12) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140420803",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(19–26) % 收割 时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(20–24) % 技能范围 +(20–24) % 召唤物技能范围",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110420103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(23–31) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(16–19) % 技能范围 +(16–19) % 召唤物技能范围",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110420104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(16–22) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110420105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(11–15) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(13–15) % 技能范围 +(13–15) % 召唤物技能范围",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(11–12) % 技能范围 +(11–12) % 召唤物技能范围",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110420106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(7–10) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110420107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(5–6) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140421207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "INT Gloves",
+      "effectPlain": "+(8–10) % 技能范围 +(8–10) % 召唤物技能范围",
+      "valueSpans": []
     }
   ],
   "tierVariantGroups": [
-    {
-      "skeleton": "{#} % 伤害",
-      "rolls": [
-        {
-          "modifierId": "60064214",
-          "tier": 0,
-          "itemLevel": 1,
-          "weight": 1,
-          "affixType": "侵蚀基底",
-          "valueSpans": [
-            "+(50–70)"
-          ],
-          "effectPlain": "+(50–70) % 伤害"
-        },
-        {
-          "modifierId": "140420001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(51–72)"
-          ],
-          "effectPlain": "+(51–72) % 伤害"
-        }
-      ]
-    },
     {
       "skeleton": "{#} % 元素 抗性上限",
       "rolls": [
@@ -1780,17 +3809,6 @@
     {
       "skeleton": "{#} % 冰冷抗性",
       "rolls": [
-        {
-          "modifierId": "108420101",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 冰冷抗性"
-        },
         {
           "modifierId": "1504203",
           "tier": 2,
@@ -1910,127 +3928,8 @@
       ]
     },
     {
-      "skeleton": "{#} % 收割 回复速度",
-      "rolls": [
-        {
-          "modifierId": "140421601",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻后缀",
-          "valueSpans": [
-            "+(59–83)"
-          ],
-          "effectPlain": "+(59–83) % 收割 回复速度"
-        },
-        {
-          "modifierId": "51434041",
-          "tier": null,
-          "itemLevel": null,
-          "weight": null,
-          "affixType": "殉永恒者",
-          "valueSpans": [
-            "+(94–100)"
-          ],
-          "effectPlain": "+(94–100) % 收割 回复速度"
-        }
-      ]
-    },
-    {
-      "skeleton": "{#} % 暴击伤害",
-      "rolls": [
-        {
-          "modifierId": "110420101",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶后缀",
-          "valueSpans": [
-            "+(44–60)"
-          ],
-          "effectPlain": "+(44–60) % 暴击伤害"
-        },
-        {
-          "modifierId": "51434931",
-          "tier": null,
-          "itemLevel": null,
-          "weight": null,
-          "affixType": "仇恶之手",
-          "valueSpans": [
-            "+(20–30)"
-          ],
-          "effectPlain": "+(20–30) % 暴击伤害"
-        }
-      ]
-    },
-    {
-      "skeleton": "{#} % 暴击伤害减免",
-      "rolls": [
-        {
-          "modifierId": "140422701",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(43–60)"
-          ],
-          "effectPlain": "+(43–60) % 暴击伤害减免"
-        },
-        {
-          "modifierId": "1504216",
-          "tier": 2,
-          "itemLevel": 1,
-          "weight": 1,
-          "affixType": "基础词缀",
-          "valueSpans": [
-            "+(12–20)"
-          ],
-          "effectPlain": "+(12–20) % 暴击伤害减免"
-        }
-      ]
-    },
-    {
-      "skeleton": "{#} % 暴击值",
-      "rolls": [
-        {
-          "modifierId": "110420001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(85–120)"
-          ],
-          "effectPlain": "+(85–120) % 暴击值"
-        },
-        {
-          "modifierId": "51434921",
-          "tier": null,
-          "itemLevel": null,
-          "weight": null,
-          "affixType": "仇恶之手",
-          "valueSpans": [
-            "+(30–40)"
-          ],
-          "effectPlain": "+(30–40) % 暴击值"
-        }
-      ]
-    },
-    {
       "skeleton": "{#} % 火焰抗性",
       "rolls": [
-        {
-          "modifierId": "108420001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 火焰抗性"
-        },
         {
           "modifierId": "1504202",
           "tier": 2,
@@ -2058,17 +3957,6 @@
     {
       "skeleton": "{#} % 腐蚀抗性",
       "rolls": [
-        {
-          "modifierId": "108420301",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 腐蚀抗性"
-        },
         {
           "modifierId": "1504205",
           "tier": 2,
@@ -2108,17 +3996,6 @@
           "effectPlain": "+(30–50) % 该装备护盾"
         },
         {
-          "modifierId": "105420101",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(47–66)"
-          ],
-          "effectPlain": "+(47–66) % 该装备护盾"
-        },
-        {
           "modifierId": "51434911",
           "tier": null,
           "itemLevel": null,
@@ -2134,17 +4011,6 @@
     {
       "skeleton": "{#} % 闪电抗性",
       "rolls": [
-        {
-          "modifierId": "108420201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(19–27)"
-          ],
-          "effectPlain": "+(19–27) % 闪电抗性"
-        },
         {
           "modifierId": "1504204",
           "tier": 2,
@@ -2338,46 +4204,8 @@
       ]
     },
     {
-      "skeleton": "{#} 最大魔力",
-      "rolls": [
-        {
-          "modifierId": "104420301",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(85–120)"
-          ],
-          "effectPlain": "+(85–120) 最大魔力"
-        },
-        {
-          "modifierId": "51431821",
-          "tier": null,
-          "itemLevel": null,
-          "weight": null,
-          "affixType": "暴君的铁腕",
-          "valueSpans": [
-            "+(160–200)"
-          ],
-          "effectPlain": "+(160–200) 最大魔力"
-        }
-      ]
-    },
-    {
       "skeleton": "{#} 该装备护盾",
       "rolls": [
-        {
-          "modifierId": "105420001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(239–340)"
-          ],
-          "effectPlain": "+(239–340) 该装备护盾"
-        },
         {
           "modifierId": "51431321",
           "tier": null,
@@ -2463,5 +4291,5 @@
       ]
     }
   ],
-  "tierVariantGroupCount": 25
+  "tierVariantGroupCount": 19
 }

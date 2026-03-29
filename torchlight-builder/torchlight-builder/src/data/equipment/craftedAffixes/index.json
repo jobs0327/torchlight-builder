@@ -1,0 +1,15 @@
+{
+  "kind": "craftedAffixIndex",
+  "sourceIndexUrl": "https://tlidb.com/cn/Legendary_Gear",
+  "fetchedAt": "2026-03-24T07:20:52Z",
+  "categoryCount": 1,
+  "categories": [
+    {
+      "slug": "One-Handed_Sword",
+      "label": "One-Handed Sword",
+      "file": "craftedAffixes/One-Handed_Sword.json",
+      "modifierCount": 119,
+      "tierVariantGroupCount": 23
+    }
+  ]
+}

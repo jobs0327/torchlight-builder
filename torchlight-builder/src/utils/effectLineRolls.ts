@@ -99,6 +99,13 @@ export function parseEffectLineRolls(line: string): EffectRollSegment[] | null {
   const trimmed = line.trim()
   if (!trimmed) return null
 
+  // 武器白字「最小 - 最大 物理伤害」：中间减号是 DPS 面板的固定格式，不是可调数值区间。
+  // 若被 SPACED_PAIR_RE 当成 (lo-hi) 区间代入，会变成「6 物理伤害」等，导致 weaponPhysicalFromEquipment 无法解析白字。
+  const withoutLineTag = trimmed.replace(/^\[[^\]]+\]\s*/, '')
+  if (/^\d+(?:\.\d+)?\s*-\s*\d+(?:\.\d+)?\s*物理伤害\s*$/.test(withoutLineTag)) {
+    return null
+  }
+
   const paren = collectParenRanges(trimmed)
   const pairs = collectSpacedPairRanges(trimmed, paren)
   const all = [...paren, ...pairs].sort((x, y) => x.start - y.start)
@@ -131,4 +138,30 @@ export function parseEffectLineRolls(line: string): EffectRollSegment[] | null {
 
   if (!segments.some(s => s.type === 'pick')) return null
   return segments
+}
+
+/**
+ * 将一行词条按装备页 `EffectLineRollPicker` 的规则代入下拉选中值（无选择时用区间首项，与 UI 一致）。
+ */
+export function resolveEffectLineWithRollPicks(
+  line: string,
+  pickKeyPrefix: string,
+  selections: Record<string, string>
+): string {
+  const segs = parseEffectLineRolls(line)
+  if (!segs) return line
+  let pickIdx = 0
+  let out = ''
+  for (const s of segs) {
+    if (s.type === 'text') {
+      out += s.text
+    } else {
+      const k = `${pickKeyPrefix}#${pickIdx}`
+      pickIdx++
+      const cur = selections[k]
+      const v = cur !== undefined && s.options.includes(cur) ? cur : (s.options[0] ?? '')
+      out += v
+    }
+  }
+  return out
 }

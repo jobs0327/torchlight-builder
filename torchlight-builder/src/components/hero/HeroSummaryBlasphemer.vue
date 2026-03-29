@@ -65,7 +65,7 @@ const selectedSet = computed(() => new Set(props.selectedTraits ?? []))
 const coreSelected = computed(() => selectedSet.value.has('渎神'))
 const corrosionSelected = computed(() => selectedSet.value.has('污秽洗礼'))
 
-const corrosionLevel = ref<number>(5) // 污秽洗礼等级
+const corrosionLevel = ref<number>(3) // 污秽洗礼等级
 const targetMaxHp = ref<number>(10000)
 const killCount = ref<number>(1)
 

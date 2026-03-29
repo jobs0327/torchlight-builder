@@ -2,84 +2,1542 @@
   "slug": "One-Handed_Sword",
   "label": "One-Handed Sword",
   "sourceUrl": "https://tlidb.com/cn/One-Handed_Sword",
-  "fetchedAt": "2026-03-22T08:58:01Z",
-  "modifierCount": 119,
+  "fetchedAt": "2026-03-24T07:24:56Z",
+  "modifierCount": 344,
   "modifiers": [
     {
-      "modifierId": "1500600",
-      "tier": 2,
+      "modifierId": "160410006",
+      "tier": 1,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "weight": 100,
+      "affixType": "中阶序列",
       "source": "单手剑",
-      "effectPlain": "攻击附加 (10–13) - (14–19) 点物理伤害",
+      "effectPlain": "+10 % 全属性",
       "valueSpans": [
-        "(10–13)",
-        "(14–19)"
+        "+10"
       ]
     },
     {
-      "modifierId": "1500601",
-      "tier": 2,
+      "modifierId": "160408006",
+      "tier": 1,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "weight": 100,
+      "affixType": "中阶序列",
       "source": "单手剑",
-      "effectPlain": "攻击附加 (9–14) - (15–20) 点火焰伤害",
+      "effectPlain": "+20 % 该装备攻击暴击值",
       "valueSpans": [
-        "(9–14)",
-        "(15–20)"
+        "+20"
       ]
     },
     {
-      "modifierId": "1500602",
-      "tier": 2,
+      "modifierId": "160402006",
+      "tier": 1,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "weight": 100,
+      "affixType": "中阶序列",
       "source": "单手剑",
-      "effectPlain": "攻击附加 (10–13) - (14–19) 点冰冷伤害",
+      "effectPlain": "+6 % 护甲减伤穿透",
       "valueSpans": [
-        "(10–13)",
-        "(14–19)"
+        "+6"
       ]
     },
     {
-      "modifierId": "1500603",
-      "tier": 2,
+      "modifierId": "160404006",
+      "tier": 1,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "weight": 100,
+      "affixType": "中阶序列",
       "source": "单手剑",
-      "effectPlain": "攻击附加 (1–2) - (28–32) 点闪电伤害",
+      "effectPlain": "+8 % 冰冷穿透",
       "valueSpans": [
-        "(1–2)",
-        "(28–32)"
+        "+8"
       ]
     },
     {
-      "modifierId": "1500604",
-      "tier": 2,
+      "modifierId": "160403006",
+      "tier": 1,
       "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
+      "weight": 100,
+      "affixType": "中阶序列",
       "source": "单手剑",
-      "effectPlain": "攻击附加 (11–13) - (15–18) 点腐蚀伤害",
+      "effectPlain": "+8 % 火焰穿透",
       "valueSpans": [
-        "(11–13)",
-        "(15–18)"
+        "+8"
       ]
     },
     {
-      "modifierId": "1500605",
+      "modifierId": "160406006",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "单手剑",
+      "effectPlain": "+8 % 腐蚀抗性穿透",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160407006",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "单手剑",
+      "effectPlain": "+8 % 该装备攻击速度",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160405006",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "单手剑",
+      "effectPlain": "+8 % 闪电穿透",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "160409006",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "单手剑",
+      "effectPlain": "暴击时，额外 +10 % 伤害",
+      "valueSpans": [
+        "+10"
+      ]
+    },
+    {
+      "modifierId": "160401006",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "中阶序列",
+      "source": "单手剑",
+      "effectPlain": "额外 +8 % 主手武器 伤害",
+      "valueSpans": [
+        "+8"
+      ]
+    },
+    {
+      "modifierId": "51240111",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "临别索求",
+      "source": "单手剑",
+      "effectPlain": "+(100–130) % 该装备物理伤害",
+      "valueSpans": [
+        "+(100–130)"
+      ]
+    },
+    {
+      "modifierId": "51240151",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "临别索求",
+      "source": "单手剑",
+      "effectPlain": "+(110–144) % 连续攻击 几率",
+      "valueSpans": [
+        "+(110–144)"
+      ]
+    },
+    {
+      "modifierId": "51240141",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "临别索求",
+      "source": "单手剑",
+      "effectPlain": "+(15–25) % 该装备攻击速度",
+      "valueSpans": [
+        "+(15–25)"
+      ]
+    },
+    {
+      "modifierId": "52240131",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "临别索求",
+      "source": "单手剑",
+      "effectPlain": "+(25–35) % 该装备攻击暴击值",
+      "valueSpans": [
+        "+(25–35)"
+      ]
+    },
+    {
+      "modifierId": "51240181",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "临别索求",
+      "source": "单手剑",
+      "effectPlain": "击败时，消耗 (1–2) % 生命和魔力",
+      "valueSpans": [
+        "(1–2)"
+      ]
+    },
+    {
+      "modifierId": "51240161",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "临别索求",
+      "source": "单手剑",
+      "effectPlain": "连续攻击 伤害递增 (40–60) %",
+      "valueSpans": [
+        "(40–60)"
+      ]
+    },
+    {
+      "modifierId": "60060608",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "单手剑",
+      "effectPlain": "+(10–15) % 技能范围",
+      "valueSpans": [
+        "+(10–15)"
+      ]
+    },
+    {
+      "modifierId": "60060604",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "单手剑",
+      "effectPlain": "+(15–25) % 该装备物理伤害",
+      "valueSpans": [
+        "+(15–25)"
+      ]
+    },
+    {
+      "modifierId": "60060606",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "单手剑",
+      "effectPlain": "+(3–6) % 该装备攻击暴击值",
+      "valueSpans": [
+        "+(3–6)"
+      ]
+    },
+    {
+      "modifierId": "60060605",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "单手剑",
+      "effectPlain": "+(5–8) % 该装备攻击速度",
+      "valueSpans": [
+        "+(5–8)"
+      ]
+    },
+    {
+      "modifierId": "60060607",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "单手剑",
+      "effectPlain": "+1 近战技能等级",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "60060609",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "单手剑",
+      "effectPlain": "伤害穿透 (5–8) % 元素 抗性",
+      "valueSpans": [
+        "(5–8)"
+      ]
+    },
+    {
+      "modifierId": "60060602",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "单手剑",
+      "effectPlain": "击败时， +(4–8) % 几率获得 1 层 坚韧祝福",
+      "valueSpans": [
+        "+(4–8)"
+      ]
+    },
+    {
+      "modifierId": "60060601",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "单手剑",
+      "effectPlain": "击败时， +(5–10) % 几率获得 1 层 灵动祝福",
+      "valueSpans": [
+        "+(5–10)"
+      ]
+    },
+    {
+      "modifierId": "60060603",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "侵蚀基底",
+      "source": "单手剑",
+      "effectPlain": "该装备附加 (2–4) - (8–10) 点物理伤害",
+      "valueSpans": [
+        "(2–4)",
+        "(8–10)"
+      ]
+    },
+    {
+      "modifierId": "140060480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(141–183) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (209–211) - (271–285) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (209–211) - (271–285) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (226–228) - (266–268) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (24–26) - (468–470) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (61–63) - (75–77) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "造成持续伤害时，收割 (0.25–0.3) 秒 点燃 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061380",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "附加 595 - 1105 基础 点燃 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(109–140) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (161–163) - (208–220) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (162–164) - (216–218) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (174–176) - (204–206) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (18–20) - (360–362) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (47–49) - (57–59) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "造成持续伤害时，收割 (0.19–0.24) 秒 点燃 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061300",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "附加 455 - 845 基础 点燃 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(77–108) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (123–125) - (160–169) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (125–127) - (165–167) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (133–135) - (157–159) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (14–16) - (276–278) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (36–38) - (44–46) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "造成持续伤害时，收割 (0.13–0.18) 秒 点燃 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061301",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "附加 350 - 650 基础 点燃 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060402",
       "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(55–76) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (21–23) - (25–27) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (47–49) - (62–67) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (48–50) - (64–66) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (51–53) - (61–63) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060302",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (5–7) - (107–109) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "造成持续伤害时，收割 (0.09–0.12) 秒 点燃 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061302",
+      "tier": 2,
+      "itemLevel": 78,
+      "weight": 200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "附加 245 - 455 基础 点燃 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(44–54) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (13–15) - (17–19) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (23–25) - (30–33) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (23–25) - (31–33) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (25–27) - (29–31) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060303",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (2–4) - (52–54) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "造成持续伤害时，收割 0.08 秒 点燃 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061303",
+      "tier": 3,
+      "itemLevel": 68,
+      "weight": 800,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "附加 175 - 325 基础 点燃 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(36–43) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060304",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (1–2) - (20–22) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (8–10) - (11–14) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (8–10) - (12–14) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (9–11) - (11–13) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (9–11) - (11–13) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "造成持续伤害时，收割 0.07 秒 点燃 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061304",
+      "tier": 4,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "附加 125 - 235 基础 点燃 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(29–35) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060305",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (1–2) - (10–12) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (4–6) - (6–8) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (4–6) - (6–8) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (4–6) - (6–8) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 5 - (5–7) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "造成持续伤害时，收割 0.06 秒 点燃 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(23–28) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060306",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (1–2) - (9–11) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (3–5) - (5–7) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (3–5) - (5–7) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 4 - (4–6) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 4 - (5–7) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "造成持续伤害时，收割 0.05 秒 点燃 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(17–22) % 近战伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (1–2) - (3–6) 点冰冷伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (1–2) - (3–6) 点火焰伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (1–2) - (3–6) 点腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060307",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 1 - (5–7) 点闪电伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "106060007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 3 - (3–4) 点物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "造成持续伤害时，收割 0.04 秒 点燃 伤害，该效果对同一目标有 1 秒回复时间",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060980",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(141–183) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(141–183) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(141–183) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(24–30) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(24–30) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(43–54) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060900",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(109–140) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060800",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(109–140) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(109–140) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(19–23) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(19–23) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(29–41) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060701",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(14–18) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(14–18) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(23–32) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060901",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(77–108) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060801",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(77–108) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(77–108) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060702",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(10–13) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060602",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(10–13) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(19–22) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060902",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(55–76) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060802",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(55–76) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(55–76) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(14–16) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060903",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(44–54) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060803",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(44–54) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(44–54) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060703",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(8–9) % 护盾返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060603",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(8–9) % 生命返还",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(11–13) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060904",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(36–43) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060804",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(36–43) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(36–43) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060905",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(29–35) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060805",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(29–35) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(29–35) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(9–10) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060906",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(23–28) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060806",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(23–28) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(23–28) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(7–8) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060907",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(17–22) % 元素 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060807",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(17–22) % 物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(17–22) % 腐蚀伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "初阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(5–6) % 该装备攻击速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "1500614",
+      "tier": 0,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "基础词缀",
       "source": "单手剑",
-      "effectPlain": "+(20–24) % 物理伤害",
+      "effectPlain": "+1 坚韧祝福 层数上限",
       "valueSpans": [
-        "+(20–24)"
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "1500615",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "单手剑",
+      "effectPlain": "+1 灵动祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "1500616",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "单手剑",
+      "effectPlain": "+1 聚能祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "1500610",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "单手剑",
+      "effectPlain": "+(26–32) % 连续攻击 几率",
+      "valueSpans": [
+        "+(26–32)"
+      ]
+    },
+    {
+      "modifierId": "1500613",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "单手剑",
+      "effectPlain": "+(5–7) % 护甲减伤穿透",
+      "valueSpans": [
+        "+(5–7)"
+      ]
+    },
+    {
+      "modifierId": "1500612",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "单手剑",
+      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "1500611",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "单手剑",
+      "effectPlain": "连续攻击 伤害递增 (10–16) %",
+      "valueSpans": [
+        "(10–16)"
       ]
     },
     {
@@ -90,6 +1548,18 @@
       "affixType": "基础词缀",
       "source": "单手剑",
       "effectPlain": "+(20–24) % 元素伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "1500605",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "单手剑",
+      "effectPlain": "+(20–24) % 物理伤害",
       "valueSpans": [
         "+(20–24)"
       ]
@@ -131,687 +1601,11 @@
       ]
     },
     {
-      "modifierId": "1500610",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "单手剑",
-      "effectPlain": "+(26–32) % 连续攻击 几率",
-      "valueSpans": [
-        "+(26–32)"
-      ]
-    },
-    {
-      "modifierId": "1500611",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "单手剑",
-      "effectPlain": "连续攻击 伤害递增 (10–16) %",
-      "valueSpans": [
-        "(10–16)"
-      ]
-    },
-    {
-      "modifierId": "1500612",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "单手剑",
-      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
-      "valueSpans": [
-        "+(6–8)"
-      ]
-    },
-    {
-      "modifierId": "1500613",
-      "tier": 1,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "单手剑",
-      "effectPlain": "+(5–7) % 护甲减伤穿透",
-      "valueSpans": [
-        "+(5–7)"
-      ]
-    },
-    {
-      "modifierId": "1500614",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "单手剑",
-      "effectPlain": "+1 坚韧祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "1500615",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "单手剑",
-      "effectPlain": "+1 灵动祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "1500616",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "基础词缀",
-      "source": "单手剑",
-      "effectPlain": "+1 聚能祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "60060601",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "单手剑",
-      "effectPlain": "击败时， +(5–10) % 几率获得 1 层 灵动祝福",
-      "valueSpans": [
-        "+(5–10)"
-      ]
-    },
-    {
-      "modifierId": "60060602",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "单手剑",
-      "effectPlain": "击败时， +(4–8) % 几率获得 1 层 坚韧祝福",
-      "valueSpans": [
-        "+(4–8)"
-      ]
-    },
-    {
-      "modifierId": "60060603",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "单手剑",
-      "effectPlain": "该装备附加 (2–4) - (8–10) 点物理伤害",
-      "valueSpans": [
-        "(2–4)",
-        "(8–10)"
-      ]
-    },
-    {
-      "modifierId": "60060604",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "单手剑",
-      "effectPlain": "+(15–25) % 该装备物理伤害",
-      "valueSpans": [
-        "+(15–25)"
-      ]
-    },
-    {
-      "modifierId": "60060605",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "单手剑",
-      "effectPlain": "+(5–8) % 该装备攻击速度",
-      "valueSpans": [
-        "+(5–8)"
-      ]
-    },
-    {
-      "modifierId": "60060606",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "单手剑",
-      "effectPlain": "+(3–6) % 该装备攻击暴击值",
-      "valueSpans": [
-        "+(3–6)"
-      ]
-    },
-    {
-      "modifierId": "60060607",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "单手剑",
-      "effectPlain": "+1 近战技能等级",
-      "valueSpans": [
-        "+1"
-      ]
-    },
-    {
-      "modifierId": "60060608",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "单手剑",
-      "effectPlain": "+(10–15) % 技能范围",
-      "valueSpans": [
-        "+(10–15)"
-      ]
-    },
-    {
-      "modifierId": "60060609",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "侵蚀基底",
-      "source": "单手剑",
-      "effectPlain": "伤害穿透 (5–8) % 元素 抗性",
-      "valueSpans": [
-        "(5–8)"
-      ]
-    },
-    {
-      "modifierId": "106060001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "单手剑",
-      "effectPlain": "该装备附加 (36–38) - (44–46) 点物理伤害",
-      "valueSpans": [
-        "(36–38)",
-        "(44–46)"
-      ]
-    },
-    {
-      "modifierId": "106060101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "单手剑",
-      "effectPlain": "该装备附加 (123–125) - (160–169) 点火焰伤害",
-      "valueSpans": [
-        "(123–125)",
-        "(160–169)"
-      ]
-    },
-    {
-      "modifierId": "106060201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "单手剑",
-      "effectPlain": "该装备附加 (125–127) - (165–167) 点冰冷伤害",
-      "valueSpans": [
-        "(125–127)",
-        "(165–167)"
-      ]
-    },
-    {
-      "modifierId": "106060301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "单手剑",
-      "effectPlain": "该装备附加 (14–16) - (276–278) 点闪电伤害",
-      "valueSpans": [
-        "(14–16)",
-        "(276–278)"
-      ]
-    },
-    {
-      "modifierId": "106060401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "单手剑",
-      "effectPlain": "该装备附加 (133–135) - (157–159) 点腐蚀伤害",
-      "valueSpans": [
-        "(133–135)",
-        "(157–159)"
-      ]
-    },
-    {
-      "modifierId": "140060401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "单手剑",
-      "effectPlain": "+(77–108) % 近战伤害",
-      "valueSpans": [
-        "+(77–108)"
-      ]
-    },
-    {
-      "modifierId": "140061301",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "单手剑",
-      "effectPlain": "附加 350 - 650 基础 点燃 伤害",
-      "valueSpans": [
-        "350",
-        "650"
-      ]
-    },
-    {
-      "modifierId": "140061401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶前缀",
-      "source": "单手剑",
-      "effectPlain": "造成持续伤害时，收割 (0.13–0.18) 秒 点燃 伤害，该效果对同一目标有 1 秒回复时间",
-      "valueSpans": [
-        "(0.13–0.18)",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "107060001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "单手剑",
-      "effectPlain": "+(56–100) % 该装备物理伤害",
-      "valueSpans": [
-        "+(56–100)"
-      ]
-    },
-    {
-      "modifierId": "109060001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "单手剑",
-      "effectPlain": "+(64–90) 力量",
-      "valueSpans": [
-        "+(64–90)"
-      ]
-    },
-    {
-      "modifierId": "109060101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "单手剑",
-      "effectPlain": "+(64–90) 敏捷",
-      "valueSpans": [
-        "+(64–90)"
-      ]
-    },
-    {
-      "modifierId": "109060201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶前缀",
-      "source": "单手剑",
-      "effectPlain": "+(64–90) 智慧",
-      "valueSpans": [
-        "+(64–90)"
-      ]
-    },
-    {
-      "modifierId": "115060601",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "单手剑",
-      "effectPlain": "+(18–25) % 护甲减伤穿透",
-      "valueSpans": [
-        "+(18–25)"
-      ]
-    },
-    {
-      "modifierId": "119060101",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "单手剑",
-      "effectPlain": "+3 攻击技能等级",
-      "valueSpans": [
-        "+3"
-      ]
-    },
-    {
-      "modifierId": "130060101",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "单手剑",
-      "effectPlain": "+(22–30) % 元素和腐蚀抗性穿透",
-      "valueSpans": [
-        "+(22–30)"
-      ]
-    },
-    {
-      "modifierId": "140060501",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "单手剑",
-      "effectPlain": "连续攻击 伤害递增 (43–60) %",
-      "valueSpans": [
-        "(43–60)"
-      ]
-    },
-    {
-      "modifierId": "140061501",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "单手剑",
-      "effectPlain": "该装备附加 (47–49) - (272–274) 点元素伤害 -100 % 该装备物理伤害",
-      "valueSpans": [
-        "(47–49)",
-        "(272–274)",
-        "-100"
-      ]
-    },
-    {
-      "modifierId": "140062001",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻前缀",
-      "source": "单手剑",
-      "effectPlain": "额外 +(22–30) % 点燃 伤害",
-      "valueSpans": [
-        "+(22–30)"
-      ]
-    },
-    {
-      "modifierId": "110060001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "单手剑",
-      "effectPlain": "+(23–32) % 该装备攻击速度",
-      "valueSpans": [
-        "+(23–32)"
-      ]
-    },
-    {
-      "modifierId": "140060601",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "单手剑",
-      "effectPlain": "+(14–18) % 生命返还",
-      "valueSpans": [
-        "+(14–18)"
-      ]
-    },
-    {
-      "modifierId": "140060701",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "单手剑",
-      "effectPlain": "+(14–18) % 护盾返还",
-      "valueSpans": [
-        "+(14–18)"
-      ]
-    },
-    {
-      "modifierId": "140060801",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "单手剑",
-      "effectPlain": "+(77–108) % 物理伤害",
-      "valueSpans": [
-        "+(77–108)"
-      ]
-    },
-    {
-      "modifierId": "140060901",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "单手剑",
-      "effectPlain": "+(77–108) % 元素 伤害",
-      "valueSpans": [
-        "+(77–108)"
-      ]
-    },
-    {
-      "modifierId": "140061001",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "初阶后缀",
-      "source": "单手剑",
-      "effectPlain": "+(77–108) % 腐蚀伤害",
-      "valueSpans": [
-        "+(77–108)"
-      ]
-    },
-    {
-      "modifierId": "110060101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "单手剑",
-      "effectPlain": "+(52–72) % 连续攻击 几率",
-      "valueSpans": [
-        "+(52–72)"
-      ]
-    },
-    {
-      "modifierId": "110060201",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "单手剑",
-      "effectPlain": "+(36–50) % 该装备攻击暴击值",
-      "valueSpans": [
-        "+(36–50)"
-      ]
-    },
-    {
-      "modifierId": "110060601",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "单手剑",
-      "effectPlain": "+(128–180) % 暴击值",
-      "valueSpans": [
-        "+(128–180)"
-      ]
-    },
-    {
-      "modifierId": "110060701",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "单手剑",
-      "effectPlain": "+(26–36) % 攻击与施法速度 +(26–36) % 召唤物攻击与施法速度",
-      "valueSpans": [
-        "+(26–36)",
-        "+(26–36)"
-      ]
-    },
-    {
-      "modifierId": "111060401",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "单手剑",
-      "effectPlain": "+(64–90) % 暴击伤害",
-      "valueSpans": [
-        "+(64–90)"
-      ]
-    },
-    {
-      "modifierId": "140061101",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "单手剑",
-      "effectPlain": "+(54–75) % 加剧 效果",
-      "valueSpans": [
-        "+(54–75)"
-      ]
-    },
-    {
-      "modifierId": "140061601",
-      "tier": 1,
-      "itemLevel": 86,
-      "weight": 100,
-      "affixType": "进阶后缀",
-      "source": "单手剑",
-      "effectPlain": "+(45–54) % 贯注速度",
-      "valueSpans": [
-        "+(45–54)"
-      ]
-    },
-    {
-      "modifierId": "130060501",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "单手剑",
-      "effectPlain": "+(29–40) % 几率造成双倍伤害",
-      "valueSpans": [
-        "+(29–40)"
-      ]
-    },
-    {
-      "modifierId": "140061201",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "单手剑",
-      "effectPlain": "+23 % 斩击 几率 额外 +(16–22) % 斩击 伤害",
-      "valueSpans": [
-        "+23",
-        "+(16–22)"
-      ]
-    },
-    {
-      "modifierId": "140061701",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "单手剑",
-      "effectPlain": "+(35–45) % 贯注伤害加深",
-      "valueSpans": [
-        "+(35–45)"
-      ]
-    },
-    {
-      "modifierId": "140061801",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "单手剑",
-      "effectPlain": "+2 幻影 数量 额外 -5 % 幻影 伤害",
-      "valueSpans": [
-        "+2",
-        "-5"
-      ]
-    },
-    {
-      "modifierId": "140061901",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "单手剑",
-      "effectPlain": "若最近释放的连携终结技至少消耗了 8 点连携点， +(40–50) % 连携伤害加深",
-      "valueSpans": [
-        "8",
-        "+(40–50)"
-      ]
-    },
-    {
-      "modifierId": "140062101",
-      "tier": 1,
-      "itemLevel": 100,
-      "weight": 100,
-      "affixType": "至臻后缀",
-      "source": "单手剑",
-      "effectPlain": "+(40–50) % 异常伤害加深",
-      "valueSpans": [
-        "+(40–50)"
-      ]
-    },
-    {
-      "modifierId": "85006001",
+      "modifierId": "1500602",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "单手剑",
-      "effectPlain": "攻击附加 (10–13) - (14–19) 点物理伤害",
-      "valueSpans": [
-        "(10–13)",
-        "(14–19)"
-      ]
-    },
-    {
-      "modifierId": "85006011",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "单手剑",
-      "effectPlain": "攻击附加 (9–14) - (15–20) 点火焰伤害",
-      "valueSpans": [
-        "(9–14)",
-        "(15–20)"
-      ]
-    },
-    {
-      "modifierId": "85006021",
-      "tier": 2,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "单手剑",
       "effectPlain": "攻击附加 (10–13) - (14–19) 点冰冷伤害",
       "valueSpans": [
@@ -820,24 +1614,24 @@
       ]
     },
     {
-      "modifierId": "85006031",
+      "modifierId": "1500600",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "单手剑",
-      "effectPlain": "攻击附加 (1–2) - (28–32) 点闪电伤害",
+      "effectPlain": "攻击附加 (10–13) - (14–19) 点物理伤害",
       "valueSpans": [
-        "(1–2)",
-        "(28–32)"
+        "(10–13)",
+        "(14–19)"
       ]
     },
     {
-      "modifierId": "85006041",
+      "modifierId": "1500604",
       "tier": 2,
       "itemLevel": 1,
       "weight": 1,
-      "affixType": "美梦词缀",
+      "affixType": "基础词缀",
       "source": "单手剑",
       "effectPlain": "攻击附加 (11–13) - (15–18) 点腐蚀伤害",
       "valueSpans": [
@@ -846,15 +1640,174 @@
       ]
     },
     {
-      "modifierId": "85006051",
+      "modifierId": "1500603",
       "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "单手剑",
+      "effectPlain": "攻击附加 (1–2) - (28–32) 点闪电伤害",
+      "valueSpans": [
+        "(1–2)",
+        "(28–32)"
+      ]
+    },
+    {
+      "modifierId": "1500601",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "基础词缀",
+      "source": "单手剑",
+      "effectPlain": "攻击附加 (9–14) - (15–20) 点火焰伤害",
+      "valueSpans": [
+        "(9–14)",
+        "(15–20)"
+      ]
+    },
+    {
+      "modifierId": "51240941",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "立誓",
+      "source": "单手剑",
+      "effectPlain": "+(11–13) % 该装备攻击速度",
+      "valueSpans": [
+        "+(11–13)"
+      ]
+    },
+    {
+      "modifierId": "51240971",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "立誓",
+      "source": "单手剑",
+      "effectPlain": "+100 % 攻击技能魔力消耗",
+      "valueSpans": [
+        "+100"
+      ]
+    },
+    {
+      "modifierId": "51240951",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "立誓",
+      "source": "单手剑",
+      "effectPlain": "+40 % 该装备元素伤害",
+      "valueSpans": [
+        "+40"
+      ]
+    },
+    {
+      "modifierId": "51240961",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "立誓",
+      "source": "单手剑",
+      "effectPlain": "攻击技能额外 +20 % 元素伤害",
+      "valueSpans": [
+        "+20"
+      ]
+    },
+    {
+      "modifierId": "51240911",
+      "tier": null,
+      "itemLevel": null,
+      "weight": null,
+      "affixType": "立誓",
+      "source": "单手剑",
+      "effectPlain": "该装备附加 (25–26) - (33–36) 点火焰伤害",
+      "valueSpans": [
+        "(25–26)",
+        "(33–36)"
+      ]
+    },
+    {
+      "modifierId": "85006141",
+      "tier": 0,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "单手剑",
-      "effectPlain": "+(20–24) % 物理伤害",
+      "effectPlain": "+1 坚韧祝福 层数上限",
       "valueSpans": [
-        "+(20–24)"
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85006151",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "单手剑",
+      "effectPlain": "+1 灵动祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85006161",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "单手剑",
+      "effectPlain": "+1 聚能祝福 层数上限",
+      "valueSpans": [
+        "+1"
+      ]
+    },
+    {
+      "modifierId": "85006101",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "单手剑",
+      "effectPlain": "+(26–32) % 连续攻击 几率",
+      "valueSpans": [
+        "+(26–32)"
+      ]
+    },
+    {
+      "modifierId": "85006131",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "单手剑",
+      "effectPlain": "+(5–7) % 护甲减伤穿透",
+      "valueSpans": [
+        "+(5–7)"
+      ]
+    },
+    {
+      "modifierId": "85006121",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "单手剑",
+      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
+      "valueSpans": [
+        "+(6–8)"
+      ]
+    },
+    {
+      "modifierId": "85006111",
+      "tier": 1,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "单手剑",
+      "effectPlain": "连续攻击 伤害递增 (10–16) %",
+      "valueSpans": [
+        "(10–16)"
       ]
     },
     {
@@ -865,6 +1818,18 @@
       "affixType": "美梦词缀",
       "source": "单手剑",
       "effectPlain": "+(20–24) % 元素伤害",
+      "valueSpans": [
+        "+(20–24)"
+      ]
+    },
+    {
+      "modifierId": "85006051",
+      "tier": 2,
+      "itemLevel": 1,
+      "weight": 1,
+      "affixType": "美梦词缀",
+      "source": "单手剑",
+      "effectPlain": "+(20–24) % 物理伤害",
       "valueSpans": [
         "+(20–24)"
       ]
@@ -906,401 +1871,639 @@
       ]
     },
     {
-      "modifierId": "85006101",
-      "tier": 1,
+      "modifierId": "85006021",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "单手剑",
-      "effectPlain": "+(26–32) % 连续攻击 几率",
+      "effectPlain": "攻击附加 (10–13) - (14–19) 点冰冷伤害",
       "valueSpans": [
-        "+(26–32)"
+        "(10–13)",
+        "(14–19)"
       ]
     },
     {
-      "modifierId": "85006111",
-      "tier": 1,
+      "modifierId": "85006001",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "单手剑",
-      "effectPlain": "连续攻击 伤害递增 (10–16) %",
+      "effectPlain": "攻击附加 (10–13) - (14–19) 点物理伤害",
       "valueSpans": [
-        "(10–16)"
+        "(10–13)",
+        "(14–19)"
       ]
     },
     {
-      "modifierId": "85006121",
-      "tier": 1,
+      "modifierId": "85006041",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "单手剑",
-      "effectPlain": "+(6–8) % 元素和腐蚀抗性穿透",
+      "effectPlain": "攻击附加 (11–13) - (15–18) 点腐蚀伤害",
       "valueSpans": [
-        "+(6–8)"
+        "(11–13)",
+        "(15–18)"
       ]
     },
     {
-      "modifierId": "85006131",
-      "tier": 1,
+      "modifierId": "85006031",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "单手剑",
-      "effectPlain": "+(5–7) % 护甲减伤穿透",
+      "effectPlain": "攻击附加 (1–2) - (28–32) 点闪电伤害",
       "valueSpans": [
-        "+(5–7)"
+        "(1–2)",
+        "(28–32)"
       ]
     },
     {
-      "modifierId": "85006141",
-      "tier": 0,
+      "modifierId": "85006011",
+      "tier": 2,
       "itemLevel": 1,
       "weight": 1,
       "affixType": "美梦词缀",
       "source": "单手剑",
-      "effectPlain": "+1 坚韧祝福 层数上限",
+      "effectPlain": "攻击附加 (9–14) - (15–20) 点火焰伤害",
       "valueSpans": [
-        "+1"
+        "(9–14)",
+        "(15–20)"
       ]
     },
     {
-      "modifierId": "85006151",
+      "modifierId": "115060680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(34–42) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130060180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(40–51) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "119060180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(4–5) 攻击技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (81–83) - (463–465) 点元素伤害 -100 % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "连续攻击 伤害递增 (79–101) %",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140062080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "额外 +(40–50) % 点燃 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115060600",
       "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "单手剑",
-      "effectPlain": "+1 灵动祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(26–32) % 护甲减伤穿透",
+      "valueSpans": []
     },
     {
-      "modifierId": "85006161",
+      "modifierId": "130060100",
       "tier": 0,
-      "itemLevel": 1,
-      "weight": 1,
-      "affixType": "美梦词缀",
-      "source": "单手剑",
-      "effectPlain": "+1 聚能祝福 层数上限",
-      "valueSpans": [
-        "+1"
-      ]
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(28–39) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
     },
     {
-      "modifierId": "160401006",
+      "modifierId": "119060100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(3–4) 攻击技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (62–64) - (356–358) 点元素伤害 -100 % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "连续攻击 伤害递增 (61–78) %",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140062000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "额外 +(31–39) % 点燃 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115060601",
       "tier": 1,
-      "itemLevel": 1,
+      "itemLevel": 100,
       "weight": 100,
-      "affixType": "中阶序列",
-      "source": "单手剑",
-      "effectPlain": "额外 +8 % 主手武器 伤害",
-      "valueSpans": [
-        "+8"
-      ]
+      "affixType": "至臻前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(18–25) % 护甲减伤穿透",
+      "valueSpans": []
     },
     {
-      "modifierId": "160402006",
+      "modifierId": "130060101",
       "tier": 1,
-      "itemLevel": 1,
+      "itemLevel": 100,
       "weight": 100,
-      "affixType": "中阶序列",
-      "source": "单手剑",
-      "effectPlain": "+6 % 护甲减伤穿透",
-      "valueSpans": [
-        "+6"
-      ]
+      "affixType": "至臻前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(22–30) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
     },
     {
-      "modifierId": "160403006",
+      "modifierId": "119060101",
       "tier": 1,
-      "itemLevel": 1,
+      "itemLevel": 100,
       "weight": 100,
-      "affixType": "中阶序列",
-      "source": "单手剑",
-      "effectPlain": "+8 % 火焰穿透",
-      "valueSpans": [
-        "+8"
-      ]
+      "affixType": "至臻前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+3 攻击技能等级",
+      "valueSpans": []
     },
     {
-      "modifierId": "160404006",
+      "modifierId": "140061501",
       "tier": 1,
-      "itemLevel": 1,
+      "itemLevel": 100,
       "weight": 100,
-      "affixType": "中阶序列",
-      "source": "单手剑",
-      "effectPlain": "+8 % 冰冷穿透",
-      "valueSpans": [
-        "+8"
-      ]
+      "affixType": "至臻前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (47–49) - (272–274) 点元素伤害 -100 % 该装备物理伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "160405006",
+      "modifierId": "140060501",
       "tier": 1,
-      "itemLevel": 1,
+      "itemLevel": 100,
       "weight": 100,
-      "affixType": "中阶序列",
-      "source": "单手剑",
-      "effectPlain": "+8 % 闪电穿透",
-      "valueSpans": [
-        "+8"
-      ]
+      "affixType": "至臻前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "连续攻击 伤害递增 (43–60) %",
+      "valueSpans": []
     },
     {
-      "modifierId": "160406006",
+      "modifierId": "140062001",
       "tier": 1,
-      "itemLevel": 1,
+      "itemLevel": 100,
       "weight": 100,
-      "affixType": "中阶序列",
-      "source": "单手剑",
-      "effectPlain": "+8 % 腐蚀抗性穿透",
-      "valueSpans": [
-        "+8"
-      ]
+      "affixType": "至臻前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "额外 +(22–30) % 点燃 伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "160407006",
+      "modifierId": "115060602",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(15–17) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130060102",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(18–21) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "119060102",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+2 攻击技能等级",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061502",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "该装备附加 (18–20) - (107–109) 点元素伤害 -100 % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060502",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "连续攻击 伤害递增 (31–42) %",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140062002",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "额外 +(16–21) % 点燃 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115060603",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(11–12) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130060103",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 400,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(13–15) % 元素和腐蚀抗性穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140060503",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "连续攻击 伤害递增 (25–30) %",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "115060604",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(9–10) % 护甲减伤穿透",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130060580",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(53–68) % 几率造成双倍伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(65–80) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140062180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(70–85) % 异常伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061880",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+2 幻影 数量 额外 +(30–40) % 幻影 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+30 % 斩击 几率 额外 +(30–37) % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061980",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "若最近释放的连携终结技至少消耗了 8 点连携点， +(70–85) % 连携伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130060500",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(41–52) % 几率造成双倍伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(48–60) % 贯注伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140062100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(55–65) % 异常伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061800",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+2 幻影 数量 额外 +(10–15) % 幻影 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+30 % 斩击 几率 额外 +(23–29) % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061900",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "若最近释放的连携终结技至少消耗了 8 点连携点， +(55–65) % 连携伤害加深",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "130060501",
       "tier": 1,
-      "itemLevel": 1,
+      "itemLevel": 100,
       "weight": 100,
-      "affixType": "中阶序列",
-      "source": "单手剑",
-      "effectPlain": "+8 % 该装备攻击速度",
-      "valueSpans": [
-        "+8"
-      ]
+      "affixType": "至臻后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(29–40) % 几率造成双倍伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "160408006",
+      "modifierId": "140061701",
       "tier": 1,
-      "itemLevel": 1,
+      "itemLevel": 100,
       "weight": 100,
-      "affixType": "中阶序列",
-      "source": "单手剑",
-      "effectPlain": "+20 % 该装备攻击暴击值",
-      "valueSpans": [
-        "+20"
-      ]
+      "affixType": "至臻后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(35–45) % 贯注伤害加深",
+      "valueSpans": []
     },
     {
-      "modifierId": "160409006",
+      "modifierId": "140062101",
       "tier": 1,
-      "itemLevel": 1,
+      "itemLevel": 100,
       "weight": 100,
-      "affixType": "中阶序列",
-      "source": "单手剑",
-      "effectPlain": "暴击时，额外 +10 % 伤害",
-      "valueSpans": [
-        "+10"
-      ]
+      "affixType": "至臻后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(40–50) % 异常伤害加深",
+      "valueSpans": []
     },
     {
-      "modifierId": "160410006",
+      "modifierId": "140061801",
       "tier": 1,
-      "itemLevel": 1,
+      "itemLevel": 100,
       "weight": 100,
-      "affixType": "中阶序列",
-      "source": "单手剑",
-      "effectPlain": "+10 % 全属性",
-      "valueSpans": [
-        "+10"
-      ]
+      "affixType": "至臻后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+2 幻影 数量 额外 -5 % 幻影 伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "160501006",
-      "tier": 0,
-      "itemLevel": 1,
+      "modifierId": "140061201",
+      "tier": 1,
+      "itemLevel": 100,
       "weight": 100,
-      "affixType": "高阶序列",
-      "source": "单手剑",
-      "effectPlain": "攻击或者法术击败敌人时 15 % 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 250 % 的真实伤害",
-      "valueSpans": [
-        "15",
-        "6",
-        "250"
-      ]
+      "affixType": "至臻后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+23 % 斩击 几率 额外 +(16–22) % 斩击 伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "160502006",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 30,
-      "affixType": "高阶序列",
-      "source": "单手剑",
-      "effectPlain": "每 10 点敏捷，攻击附加 1 - 3 点闪电伤害",
-      "valueSpans": [
-        "10",
-        "1",
-        "3"
-      ]
-    },
-    {
-      "modifierId": "160503006",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 30,
-      "affixType": "高阶序列",
-      "source": "单手剑",
-      "effectPlain": "每 10 点力量，攻击附加 2 - 2 点火焰伤害",
-      "valueSpans": [
-        "10",
-        "2",
-        "2"
-      ]
-    },
-    {
-      "modifierId": "160504006",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 30,
-      "affixType": "高阶序列",
-      "source": "单手剑",
-      "effectPlain": "核心技能被 25 级的碾压辅助",
-      "valueSpans": [
-        "25"
-      ]
-    },
-    {
-      "modifierId": "160505006",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 60,
-      "affixType": "高阶序列",
-      "source": "单手剑",
-      "effectPlain": "每 2260 点护甲值，攻击附加 1 - 1 点物理伤害",
-      "valueSpans": [
-        "2260",
-        "1",
-        "1"
-      ]
-    },
-    {
-      "modifierId": "160506006",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 60,
-      "affixType": "高阶序列",
-      "source": "单手剑",
-      "effectPlain": "+120 % 狂猛光环效果 额外 -20 % 狂猛 魔力封印 补偿",
-      "valueSpans": [
-        "+120",
-        "-20"
-      ]
-    },
-    {
-      "modifierId": "160507006",
-      "tier": 0,
-      "itemLevel": 1,
+      "modifierId": "140061901",
+      "tier": 1,
+      "itemLevel": 100,
       "weight": 100,
-      "affixType": "高阶序列",
-      "source": "单手剑",
-      "effectPlain": "+80 % 该装备物理伤害 -20 % 该装备攻击暴击值",
-      "valueSpans": [
-        "+80",
-        "-20"
-      ]
+      "affixType": "至臻后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "若最近释放的连携终结技至少消耗了 8 点连携点， +(40–50) % 连携伤害加深",
+      "valueSpans": []
     },
     {
-      "modifierId": "160508006",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "高阶序列",
-      "source": "单手剑",
-      "effectPlain": "额外 +15 % 恶化 伤害 10 % 几率额外造成 1 层 恶化",
-      "valueSpans": [
-        "+15",
-        "10",
-        "1"
-      ]
+      "modifierId": "140061702",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(20–30) % 贯注伤害加深",
+      "valueSpans": []
     },
     {
-      "modifierId": "160509006",
-      "tier": 0,
-      "itemLevel": 1,
-      "weight": 100,
-      "affixType": "高阶序列",
-      "source": "单手剑",
-      "effectPlain": "+25 % 该装备元素伤害 -25 % 该装备物理伤害",
-      "valueSpans": [
-        "+25",
-        "-25"
-      ]
+      "modifierId": "130060502",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(21–28) % 几率造成双倍伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "51240111",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "临别索求",
-      "source": "单手剑",
-      "effectPlain": "+(100–130) % 该装备物理伤害",
-      "valueSpans": [
-        "+(100–130)"
-      ]
+      "modifierId": "140062102",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(25–35) % 异常伤害加深",
+      "valueSpans": []
     },
     {
-      "modifierId": "52240131",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "临别索求",
-      "source": "单手剑",
-      "effectPlain": "+(25–35) % 该装备攻击暴击值",
-      "valueSpans": [
-        "+(25–35)"
-      ]
+      "modifierId": "140061202",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+16 % 斩击 几率 额外 +(12–15) % 斩击 伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "51240141",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "临别索求",
-      "source": "单手剑",
-      "effectPlain": "+(15–25) % 该装备攻击速度",
-      "valueSpans": [
-        "+(15–25)"
-      ]
+      "modifierId": "140061902",
+      "tier": 2,
+      "itemLevel": 100,
+      "weight": 200,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "若最近释放的连携终结技至少消耗了 8 点连携点， +(25–35) % 连携伤害加深",
+      "valueSpans": []
     },
     {
-      "modifierId": "51240151",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "临别索求",
-      "source": "单手剑",
-      "effectPlain": "+(110–144) % 连续攻击 几率",
-      "valueSpans": [
-        "+(110–144)"
-      ]
+      "modifierId": "130060503",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(17–20) % 几率造成双倍伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "51240161",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "临别索求",
-      "source": "单手剑",
-      "effectPlain": "连续攻击 伤害递增 (40–60) %",
-      "valueSpans": [
-        "(40–60)"
-      ]
+      "modifierId": "140061203",
+      "tier": 3,
+      "itemLevel": 100,
+      "weight": 800,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+12 % 斩击 几率 额外 +(10–11) % 斩击 伤害",
+      "valueSpans": []
     },
     {
-      "modifierId": "51240181",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "临别索求",
-      "source": "单手剑",
-      "effectPlain": "击败时，消耗 (1–2) % 生命和魔力",
-      "valueSpans": [
-        "(1–2)"
-      ]
+      "modifierId": "140061204",
+      "tier": 4,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+9 % 斩击 几率 额外 +(8–9) % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061205",
+      "tier": 5,
+      "itemLevel": 100,
+      "weight": 3200,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+6 % 斩击 几率 额外 +7 % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061206",
+      "tier": 6,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+4 % 斩击 几率 额外 +(5–6) % 斩击 伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061207",
+      "tier": 7,
+      "itemLevel": 100,
+      "weight": 6250,
+      "affixType": "至臻后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+2 % 斩击 几率 额外 +4 % 斩击 伤害",
+      "valueSpans": []
     },
     {
       "modifierId": "51240511",
@@ -1312,19 +2515,6 @@
       "effectPlain": "+(75–120) % 该装备物理伤害",
       "valueSpans": [
         "+(75–120)"
-      ]
-    },
-    {
-      "modifierId": "51240521",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "虚握之恨",
-      "source": "单手剑",
-      "effectPlain": "该装备附加 (24–27) - (36–40) 点物理伤害",
-      "valueSpans": [
-        "(24–27)",
-        "(36–40)"
       ]
     },
     {
@@ -1365,17 +2555,917 @@
       ]
     },
     {
-      "modifierId": "51240811",
+      "modifierId": "51240521",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "雷枝",
+      "affixType": "虚握之恨",
       "source": "单手剑",
-      "effectPlain": "该装备附加 (1–2) - (90–96) 点闪电伤害",
+      "effectPlain": "该装备附加 (24–27) - (36–40) 点物理伤害",
       "valueSpans": [
-        "(1–2)",
-        "(90–96)"
+        "(24–27)",
+        "(36–40)"
       ]
+    },
+    {
+      "modifierId": "109060080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(118–152) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109060180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(118–152) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109060280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(118–152) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107060080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(131–169) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105060080",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(30–37) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107060000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(101–130) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "105060000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(23–29) % 攻击与法术格挡率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109060000",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(91–117) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109060100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(91–117) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109060200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(91–117) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107060001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(56–100) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109060001",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(64–90) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109060101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(64–90) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109060201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(64–90) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107060002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(46–55) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109060002",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(46–63) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109060102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(46–63) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109060202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(46–63) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107060003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(36–45) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109060003",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(37–45) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109060103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(37–45) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109060203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(37–45) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107060004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(26–35) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109060004",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(30–36) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109060104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(30–36) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109060204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(30–36) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107060005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(16–25) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109060005",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(24–29) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109060105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(24–29) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109060205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(24–29) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107060006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(11–15) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109060006",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(19–23) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109060106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(19–23) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109060206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(19–23) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109060007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(15–18) 力量",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109060107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(15–18) 敏捷",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "109060207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(15–18) 智慧",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "107060007",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶前缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(9–10) % 该装备物理伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111060480",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(118–152) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(235–304) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060780",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(48–61) % 攻击与施法速度 +(48–61) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060280",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(66–85) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061680",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(75–90) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(95–122) % 连续攻击 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061180",
+      "tier": -1,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(99–127) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(166–234) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060700",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(33–47) % 攻击与施法速度 +(33–47) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060200",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(47–64) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061600",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(60–70) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(73–94) % 连续攻击 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061100",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(76–98) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111060400",
+      "tier": 0,
+      "itemLevel": 100,
+      "weight": 0,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(91–117) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(128–180) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060701",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(26–36) % 攻击与施法速度 +(26–36) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060201",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(36–50) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061601",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(45–54) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(52–72) % 连续攻击 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061101",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(54–75) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111060401",
+      "tier": 1,
+      "itemLevel": 86,
+      "weight": 100,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(64–90) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060602",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(107–126) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060702",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(21–25) % 攻击与施法速度 +(21–25) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060202",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(30–35) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061602",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(30–40) % 贯注速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(38–51) % 连续攻击 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061102",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(39–53) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111060402",
+      "tier": 2,
+      "itemLevel": 82,
+      "weight": 200,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(46–63) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060703",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(15–18) % 攻击与施法速度 +(15–18) % 召唤物攻击与施法速度",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060203",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(22–25) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(27–37) % 连续攻击 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061103",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(31–38) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111060403",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 400,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(37–45) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060603",
+      "tier": 3,
+      "itemLevel": 76,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(77–90) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060204",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(17–20) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(18–26) % 连续攻击 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061104",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(25–30) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111060404",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(30–36) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060604",
+      "tier": 4,
+      "itemLevel": 68,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(61–72) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(13–17) % 连续攻击 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060205",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(14–16) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061105",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(21–24) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111060405",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 800,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(24–29) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060605",
+      "tier": 5,
+      "itemLevel": 58,
+      "weight": 3200,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(48–58) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060206",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(11–13) % 该装备攻击暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(16–20) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111060406",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 1350,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(19–23) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060606",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(40–47) % 暴击值",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060106",
+      "tier": 6,
+      "itemLevel": 40,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(9–12) % 连续攻击 几率",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "140061107",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(13–15) % 加剧 效果",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "111060407",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 1350,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(15–18) % 暴击伤害",
+      "valueSpans": []
+    },
+    {
+      "modifierId": "110060207",
+      "tier": 7,
+      "itemLevel": 1,
+      "weight": 6250,
+      "affixType": "进阶后缀",
+      "source": "One-Handed Sword",
+      "effectPlain": "+(9–10) % 该装备攻击暴击值",
+      "valueSpans": []
     },
     {
       "modifierId": "51240821",
@@ -1387,18 +3477,6 @@
       "effectPlain": "+(20–30) % 该装备攻击暴击值",
       "valueSpans": [
         "+(20–30)"
-      ]
-    },
-    {
-      "modifierId": "51240831",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "雷枝",
-      "source": "单手剑",
-      "effectPlain": "攻击时有 50 % 几率触发 闪电连锁",
-      "valueSpans": [
-        "50"
       ]
     },
     {
@@ -1414,64 +3492,149 @@
       ]
     },
     {
-      "modifierId": "51240911",
+      "modifierId": "51240831",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "立誓",
+      "affixType": "雷枝",
       "source": "单手剑",
-      "effectPlain": "该装备附加 (25–26) - (33–36) 点火焰伤害",
+      "effectPlain": "攻击时有 50 % 几率触发 闪电连锁",
       "valueSpans": [
-        "(25–26)",
-        "(33–36)"
+        "50"
       ]
     },
     {
-      "modifierId": "51240941",
+      "modifierId": "51240811",
       "tier": null,
       "itemLevel": null,
       "weight": null,
-      "affixType": "立誓",
+      "affixType": "雷枝",
       "source": "单手剑",
-      "effectPlain": "+(11–13) % 该装备攻击速度",
+      "effectPlain": "该装备附加 (1–2) - (90–96) 点闪电伤害",
       "valueSpans": [
-        "+(11–13)"
+        "(1–2)",
+        "(90–96)"
       ]
     },
     {
-      "modifierId": "51240951",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "立誓",
+      "modifierId": "160506006",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 60,
+      "affixType": "高阶序列",
       "source": "单手剑",
-      "effectPlain": "+40 % 该装备元素伤害",
+      "effectPlain": "+120 % 狂猛光环效果 额外 -20 % 狂猛 魔力封印 补偿",
       "valueSpans": [
-        "+40"
+        "+120",
+        "-20"
       ]
     },
     {
-      "modifierId": "51240961",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "立誓",
+      "modifierId": "160509006",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
       "source": "单手剑",
-      "effectPlain": "攻击技能额外 +20 % 元素伤害",
+      "effectPlain": "+25 % 该装备元素伤害 -25 % 该装备物理伤害",
       "valueSpans": [
-        "+20"
+        "+25",
+        "-25"
       ]
     },
     {
-      "modifierId": "51240971",
-      "tier": null,
-      "itemLevel": null,
-      "weight": null,
-      "affixType": "立誓",
+      "modifierId": "160507006",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
       "source": "单手剑",
-      "effectPlain": "+100 % 攻击技能魔力消耗",
+      "effectPlain": "+80 % 该装备物理伤害 -20 % 该装备攻击暴击值",
       "valueSpans": [
-        "+100"
+        "+80",
+        "-20"
+      ]
+    },
+    {
+      "modifierId": "160501006",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
+      "source": "单手剑",
+      "effectPlain": "攻击或者法术击败敌人时 15 % 几率爆炸，对半径 6 米内的敌人造成被击败的敌人最大生命 250 % 的真实伤害",
+      "valueSpans": [
+        "15",
+        "6",
+        "250"
+      ]
+    },
+    {
+      "modifierId": "160504006",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 30,
+      "affixType": "高阶序列",
+      "source": "单手剑",
+      "effectPlain": "核心技能被 25 级的碾压辅助",
+      "valueSpans": [
+        "25"
+      ]
+    },
+    {
+      "modifierId": "160503006",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 30,
+      "affixType": "高阶序列",
+      "source": "单手剑",
+      "effectPlain": "每 10 点力量，攻击附加 2 - 2 点火焰伤害",
+      "valueSpans": [
+        "10",
+        "2",
+        "2"
+      ]
+    },
+    {
+      "modifierId": "160502006",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 30,
+      "affixType": "高阶序列",
+      "source": "单手剑",
+      "effectPlain": "每 10 点敏捷，攻击附加 1 - 3 点闪电伤害",
+      "valueSpans": [
+        "10",
+        "1",
+        "3"
+      ]
+    },
+    {
+      "modifierId": "160505006",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 60,
+      "affixType": "高阶序列",
+      "source": "单手剑",
+      "effectPlain": "每 2260 点护甲值，攻击附加 1 - 1 点物理伤害",
+      "valueSpans": [
+        "2260",
+        "1",
+        "1"
+      ]
+    },
+    {
+      "modifierId": "160508006",
+      "tier": 0,
+      "itemLevel": 1,
+      "weight": 100,
+      "affixType": "高阶序列",
+      "source": "单手剑",
+      "effectPlain": "额外 +15 % 恶化 伤害 10 % 几率额外造成 1 层 恶化",
+      "valueSpans": [
+        "+15",
+        "10",
+        "1"
       ]
     }
   ],
@@ -1507,17 +3670,6 @@
       "skeleton": "{#} % 元素和腐蚀抗性穿透",
       "rolls": [
         {
-          "modifierId": "130060101",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻前缀",
-          "valueSpans": [
-            "+(22–30)"
-          ],
-          "effectPlain": "+(22–30) % 元素和腐蚀抗性穿透"
-        },
-        {
           "modifierId": "1500612",
           "tier": 1,
           "itemLevel": 1,
@@ -1544,17 +3696,6 @@
     {
       "skeleton": "{#} % 护甲减伤穿透",
       "rolls": [
-        {
-          "modifierId": "115060601",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻前缀",
-          "valueSpans": [
-            "+(18–25)"
-          ],
-          "effectPlain": "+(18–25) % 护甲减伤穿透"
-        },
         {
           "modifierId": "1500613",
           "tier": 1,
@@ -1621,17 +3762,6 @@
       "skeleton": "{#} % 物理伤害",
       "rolls": [
         {
-          "modifierId": "140060801",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(77–108)"
-          ],
-          "effectPlain": "+(77–108) % 物理伤害"
-        },
-        {
           "modifierId": "1500605",
           "tier": 2,
           "itemLevel": 1,
@@ -1658,17 +3788,6 @@
     {
       "skeleton": "{#} % 腐蚀伤害",
       "rolls": [
-        {
-          "modifierId": "140061001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(77–108)"
-          ],
-          "effectPlain": "+(77–108) % 腐蚀伤害"
-        },
         {
           "modifierId": "1500607",
           "tier": 2,
@@ -1706,17 +3825,6 @@
             "+(3–6)"
           ],
           "effectPlain": "+(3–6) % 该装备攻击暴击值"
-        },
-        {
-          "modifierId": "110060201",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶后缀",
-          "valueSpans": [
-            "+(36–50)"
-          ],
-          "effectPlain": "+(36–50) % 该装备攻击暴击值"
         },
         {
           "modifierId": "160408006",
@@ -1768,17 +3876,6 @@
           "effectPlain": "+(5–8) % 该装备攻击速度"
         },
         {
-          "modifierId": "110060001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶后缀",
-          "valueSpans": [
-            "+(23–32)"
-          ],
-          "effectPlain": "+(23–32) % 该装备攻击速度"
-        },
-        {
           "modifierId": "160407006",
           "tier": 1,
           "itemLevel": 1,
@@ -1828,17 +3925,6 @@
           "effectPlain": "+(15–25) % 该装备物理伤害"
         },
         {
-          "modifierId": "107060001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶前缀",
-          "valueSpans": [
-            "+(56–100)"
-          ],
-          "effectPlain": "+(56–100) % 该装备物理伤害"
-        },
-        {
           "modifierId": "51240111",
           "tier": null,
           "itemLevel": null,
@@ -1866,17 +3952,6 @@
       "skeleton": "{#} % 近战伤害",
       "rolls": [
         {
-          "modifierId": "140060401",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "+(77–108)"
-          ],
-          "effectPlain": "+(77–108) % 近战伤害"
-        },
-        {
           "modifierId": "1500608",
           "tier": 2,
           "itemLevel": 1,
@@ -1903,17 +3978,6 @@
     {
       "skeleton": "{#} % 连续攻击 几率",
       "rolls": [
-        {
-          "modifierId": "110060101",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "进阶后缀",
-          "valueSpans": [
-            "+(52–72)"
-          ],
-          "effectPlain": "+(52–72) % 连续攻击 几率"
-        },
         {
           "modifierId": "1500610",
           "tier": 1,
@@ -2176,35 +4240,6 @@
       ]
     },
     {
-      "skeleton": "该装备附加 {#} - {#} 点火焰伤害",
-      "rolls": [
-        {
-          "modifierId": "106060101",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "(123–125)",
-            "(160–169)"
-          ],
-          "effectPlain": "该装备附加 (123–125) - (160–169) 点火焰伤害"
-        },
-        {
-          "modifierId": "51240911",
-          "tier": null,
-          "itemLevel": null,
-          "weight": null,
-          "affixType": "立誓",
-          "valueSpans": [
-            "(25–26)",
-            "(33–36)"
-          ],
-          "effectPlain": "该装备附加 (25–26) - (33–36) 点火焰伤害"
-        }
-      ]
-    },
-    {
       "skeleton": "该装备附加 {#} - {#} 点物理伤害",
       "rolls": [
         {
@@ -2218,18 +4253,6 @@
             "(8–10)"
           ],
           "effectPlain": "该装备附加 (2–4) - (8–10) 点物理伤害"
-        },
-        {
-          "modifierId": "106060001",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "(36–38)",
-            "(44–46)"
-          ],
-          "effectPlain": "该装备附加 (36–38) - (44–46) 点物理伤害"
         },
         {
           "modifierId": "51240521",
@@ -2246,48 +4269,8 @@
       ]
     },
     {
-      "skeleton": "该装备附加 {#} - {#} 点闪电伤害",
-      "rolls": [
-        {
-          "modifierId": "106060301",
-          "tier": 1,
-          "itemLevel": 86,
-          "weight": 100,
-          "affixType": "初阶前缀",
-          "valueSpans": [
-            "(14–16)",
-            "(276–278)"
-          ],
-          "effectPlain": "该装备附加 (14–16) - (276–278) 点闪电伤害"
-        },
-        {
-          "modifierId": "51240811",
-          "tier": null,
-          "itemLevel": null,
-          "weight": null,
-          "affixType": "雷枝",
-          "valueSpans": [
-            "(1–2)",
-            "(90–96)"
-          ],
-          "effectPlain": "该装备附加 (1–2) - (90–96) 点闪电伤害"
-        }
-      ]
-    },
-    {
       "skeleton": "连续攻击 伤害递增 {#} %",
       "rolls": [
-        {
-          "modifierId": "140060501",
-          "tier": 1,
-          "itemLevel": 100,
-          "weight": 100,
-          "affixType": "至臻前缀",
-          "valueSpans": [
-            "(43–60)"
-          ],
-          "effectPlain": "连续攻击 伤害递增 (43–60) %"
-        },
         {
           "modifierId": "1500611",
           "tier": 1,
@@ -2324,5 +4307,5 @@
       ]
     }
   ],
-  "tierVariantGroupCount": 23
+  "tierVariantGroupCount": 21
 }

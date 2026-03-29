@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 逐页请求 tlidb 技能详情（当前赛季首张卡片），解析「标签 + 数值」行，写入
-activeSkillTags.json / supportSkillTags.json 中每条技能的 statRows 字段。
+activeSkillTags.json / supportSkillTags.json 中每条技能的 statRows 字段；
+并写入 wikiCardNarrative（卡片内简介/详情等叙述纯文本，供前端悬停展示）。
 
 主动技能：damageMultiplierByLevel 长度 20（1–20 级）；法术等带「点」基础伤害时另有
 skillBaseDamageByLevel（同长度，如 8-14、每秒 3 点等展示串）。纯武器倍率技能不写后者。
@@ -74,6 +75,40 @@ def extract_current_popup_card_html(html: str) -> str:
         if j < 0:
             return html[start:]
         return html[start:j]
+
+
+def extract_wiki_card_narrative_plain(card_html: str) -> str:
+    """
+    从当前赛季 popup 卡片取出「简介 / 详情」等叙述正文（去掉表格与已单独解析的 stat 行），
+    供前端悬停卡片展示，替代跳转 tlidb。
+    """
+    if not card_html or not card_html.strip():
+        return ""
+    t = card_html.strip()
+    # extract_current_popup_card_html 有时从属性片段起剪，去掉残缺开标签
+    if t.startswith("class=") or t.startswith('class="'):
+        gt = t.find(">")
+        if gt >= 0:
+            t = t[gt + 1 :]
+    t = t.lstrip()
+    t = re.sub(r"<table[^>]*DataTable[^>]*>[\s\S]*?</table>", " ", t, flags=re.I)
+    t = re.sub(
+        r'<div class="d-flex justify-content-center">\s*<div>[^<]*</div>\s*'
+        r'<div class="ps-2">[^<]*</div>\s*</div>',
+        " ",
+        t,
+        flags=re.I | re.S,
+    )
+    plain = unescape(t)
+    plain = re.sub(r"<br\s*/?>", "\n", plain, flags=re.I)
+    plain = re.sub(r"</p\s*>", "\n", plain, flags=re.I)
+    plain = re.sub(r"<[^>]+>", " ", plain)
+    plain = plain.replace("&nbsp;", " ").replace("&#160;", " ")
+    plain = re.sub(r"[\t\xa0]+", " ", plain)
+    plain = re.sub(r" *\n *", "\n", plain)
+    plain = re.sub(r" {2,}", " ", plain)
+    plain = re.sub(r"\n{3,}", "\n\n", plain)
+    return plain.strip()
 
 
 def extract_stat_rows(card_html: str) -> list[dict[str, str]]:
@@ -247,8 +282,18 @@ def _normalize_support_bonus_cell(raw: str) -> str:
     return s
 
 
+def _pick_support_growth_value_column(header_plain: list[str]) -> int:
+    """
+    成长表为多列时：第一列一般为 level，第二列（下标 1）为「被辅助技能」主效果数值列
+    （与旧版两列「level / 值」语义一致；tlidb 多列表常在第 2 列给「额外伤害」等）。
+    """
+    if len(header_plain) <= 1:
+        return 1
+    return 1
+
+
 def extract_support_damage_bonus_by_level(html: str) -> list[str] | None:
-    """辅助技能 1–40 级：成长区仅两列 level / 数值 的 DataTable。"""
+    """辅助技能 1–40 级：成长区 DataTable，支持 2 列（level/值）或多列表头。"""
     anchor = html.find("成长 /40")
     if anchor < 0:
         anchor = html.find("成长/40")
@@ -266,10 +311,25 @@ def extract_support_damage_bonus_by_level(html: str) -> list[str] | None:
     table_html = rest[:end]
     tr_pat = re.compile(r"<tr>.*?</tr>", re.S | re.I)
     td_pat = re.compile(r"<td[^>]*>(.*?)</td>", re.S | re.I)
+    th_pat = re.compile(r"<th[^>]*>(.*?)</th>", re.S | re.I)
+    trs = tr_pat.findall(table_html)
+    if not trs:
+        return None
+
+    value_col = 1
+    data_trs = trs
+    first_tr = trs[0]
+    ths = th_pat.findall(first_tr)
+    if ths:
+        header_plain = [_td_plain_text(h) for h in ths]
+        if len(header_plain) > 2:
+            value_col = _pick_support_growth_value_column(header_plain)
+        data_trs = trs[1:]
+
     pairs: dict[int, str] = {}
-    for tr in tr_pat.findall(table_html):
+    for tr in data_trs:
         tds = td_pat.findall(tr)
-        if len(tds) != 2:
+        if len(tds) < 2:
             continue
         lv_s = _td_plain_text(tds[0])
         if not lv_s.isdigit():
@@ -277,9 +337,13 @@ def extract_support_damage_bonus_by_level(html: str) -> list[str] | None:
         lv = int(lv_s)
         if not 1 <= lv <= 40:
             continue
-        val = _normalize_support_bonus_cell(tds[1])
+        if len(tds) == 2:
+            cell_idx = 1
+        else:
+            cell_idx = value_col if value_col < len(tds) else 1
+        val = _normalize_support_bonus_cell(tds[cell_idx])
         if not val:
-            return None
+            continue
         pairs[lv] = val
     if len(pairs) != 40:
         return None
@@ -374,15 +438,29 @@ def extract_support_flat_bonus_percent_from_card(card_html: str) -> str | None:
     专属辅助等：无标准 1–40 成长表时，从当前赛季卡片描述中取固定「额外伤害」百分比。
     匹配：被辅助技能额外 <span class="text-mod">+20</span>% 伤害
     """
-    m = re.search(
+    patterns = [
         r"被辅助技能额外\s*"
         r'<span[^>]*class="[^"]*text-mod[^"]*"[^>]*>\s*\+?\s*'
         r"([0-9]+(?:\.[0-9]+)?)\s*</span>\s*%",
-        card_html,
-        re.S | re.I,
+        r"被辅助技能[\s\S]{0,200}?"
+        r'<span[^>]*class="[^"]*text-mod[^"]*"[^>]*>\s*\+?\s*'
+        r"([0-9]+(?:\.[0-9]+)?)\s*</span>\s*%",
+        r"额外\s*"
+        r'<span[^>]*text-mod[^>]*>\s*\+?\s*([0-9]+(?:\.[0-9]+)?)\s*</span>\s*%\s*'
+        r"伤害",
+    ]
+    for pat in patterns:
+        m = re.search(pat, card_html, re.S | re.I)
+        if m:
+            return m.group(1).strip()
+    plain = re.sub(r"<[^>]+>", " ", unescape(card_html))
+    plain = re.sub(r"\s+", " ", plain)
+    m2 = re.search(
+        r"被辅助技能[^\d]{0,80}额外\s*\+?\s*([0-9]+(?:\.[0-9]+)?)\s*%",
+        plain,
     )
-    if m:
-        return m.group(1).strip()
+    if m2:
+        return m2.group(1).strip()
     return None
 
 
@@ -398,15 +476,18 @@ def stat_rows_for_skill(skill_id: str) -> list[dict[str, str]] | None:
 
 def active_skill_extended_stats(
     skill_id: str,
-) -> tuple[list[dict[str, str]] | None, list[str] | None, list[str] | None]:
-    """statRows、damageMultiplierByLevel（20）、skillBaseDamageByLevel（20，可选）。"""
+) -> tuple[
+    list[dict[str, str]] | None, list[str] | None, list[str] | None, str
+]:
+    """statRows、damageMultiplierByLevel（20）、skillBaseDamageByLevel（20，可选）、wiki 卡片叙述。"""
     html = fetch_html(skill_id)
     if html is None:
-        return None, None, None
+        return None, None, None, ""
     card = extract_current_popup_card_html(html)
     stat_rows = extract_stat_rows(card) if card else []
+    narrative = extract_wiki_card_narrative_plain(card) if card else ""
     mult_list, base_list = extract_active_level_curves(html)
-    return stat_rows, mult_list, base_list
+    return stat_rows, mult_list, base_list, narrative
 
 
 def _is_wiki_exclusive_support_id(skill_id: str) -> bool:
@@ -419,17 +500,21 @@ def _is_wiki_exclusive_support_id(skill_id: str) -> bool:
 
 def support_skill_extended_stats(
     skill_id: str,
-) -> tuple[list[dict[str, str]] | None, list[str] | None, list[str] | None]:
+) -> tuple[
+    list[dict[str, str]] | None, list[str] | None, list[str] | None, str
+]:
     """
     statRows；
     supportDamageBonusByLevel（40 项）与普通辅助；
-    supportDamageBonusByTier（3 项）与专属辅助 T0–T2，二者最多填其一。
+    supportDamageBonusByTier（3 项）与专属辅助 T0–T2，二者最多填其一；
+    wiki 卡片叙述纯文本。
     """
     html = fetch_html(skill_id)
     if html is None:
-        return None, None, None
+        return None, None, None, ""
     card = extract_current_popup_card_html(html)
     stat_rows = extract_stat_rows(card) if card else []
+    narrative = extract_wiki_card_narrative_plain(card) if card else ""
     bonus_by_level: list[str] | None = None
     bonus_by_tier: list[str] | None = None
 
@@ -447,7 +532,7 @@ def support_skill_extended_stats(
             flat_pct = extract_support_flat_bonus_percent_from_card(card)
             if flat_pct:
                 bonus_by_level = [flat_pct] * 40
-    return stat_rows, bonus_by_level, bonus_by_tier
+    return stat_rows, bonus_by_level, bonus_by_tier, narrative
 
 
 def process_file(
@@ -473,11 +558,15 @@ def process_file(
         print(f"  [{list_key}] {sid}", flush=True)
         time.sleep(REQUEST_DELAY_S)
         if list_key == "activeSkills":
-            rows, damage_by_level, base_by_level = active_skill_extended_stats(sid)
+            rows, damage_by_level, base_by_level, narrative = active_skill_extended_stats(sid)
             if rows is None:
                 fail += 1
                 continue
             skill["statRows"] = rows
+            if narrative:
+                skill["wikiCardNarrative"] = narrative
+            else:
+                skill.pop("wikiCardNarrative", None)
             if damage_by_level is not None:
                 skill["damageMultiplierByLevel"] = damage_by_level
                 print(f"    damageMultiplierByLevel: 20 levels OK", flush=True)
@@ -497,11 +586,15 @@ def process_file(
                     flush=True,
                 )
         else:
-            rows, bonus_by_level, bonus_by_tier = support_skill_extended_stats(sid)
+            rows, bonus_by_level, bonus_by_tier, narrative = support_skill_extended_stats(sid)
             if rows is None:
                 fail += 1
                 continue
             skill["statRows"] = rows
+            if narrative:
+                skill["wikiCardNarrative"] = narrative
+            else:
+                skill.pop("wikiCardNarrative", None)
             if bonus_by_tier is not None:
                 skill["supportDamageBonusByTier"] = bonus_by_tier
                 skill.pop("supportDamageBonusByLevel", None)
